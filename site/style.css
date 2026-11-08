@@ -234,7 +234,7 @@ dialog form { text-align: right; }
 /* Reader */
 
 .text {
-  max-width: 36rem;
+  max-width: var(--col, 36rem);
   margin: 0 auto;
   padding: 1.5rem max(1.25rem, env(safe-area-inset-right)) calc(12rem + env(safe-area-inset-bottom)) max(1.25rem, env(safe-area-inset-left));
   font-family: var(--reading-font);
@@ -315,12 +315,16 @@ dialog form { text-align: right; }
   overscroll-behavior: contain;
 }
 .pop > * { flex: none; } /* when the panel is too tall, it scrolls; its parts keep their size */
-/* Wide screens: a card in the right margin, beside the text (36rem). The text does not move. The card covers the
-   note bubbles, so they hide while it is open. */
-@media (min-width: 78rem) {
+/* Wide screens: a card in the right margin, beside the text. It starts in the right padding of the text (1.25rem),
+   so the margin needs 18rem or more. The text does not move. The card covers the note bubbles, so they hide while
+   it is open. */
+@media (68rem <= width < 78rem) {
+  #view { --col: 32rem; } /* a narrower text makes room for the card */
+}
+@media (min-width: 68rem) {
   .pop {
-    left: calc(50% + 18.5rem);
-    width: min(26rem, calc(50% - 19.25rem));
+    left: calc(50% + var(--col, 36rem) / 2 - 0.75rem);
+    width: min(26rem, calc(50% - var(--col, 36rem) / 2));
     padding: 1.25rem 1.25rem 1.5rem;
     border: 1px solid var(--line);
     border-radius: 16px;
@@ -328,7 +332,7 @@ dialog form { text-align: right; }
   }
   #view:has(> .pop:not([hidden])) .bubble { visibility: hidden; }
 }
-@media (min-width: 78rem) and (prefers-reduced-motion: no-preference) {
+@media (min-width: 68rem) and (prefers-reduced-motion: no-preference) {
   /* The card fades in and out; display waits for the fade */
   .pop { transition: opacity 0.18s ease, transform 0.18s ease, display 0.18s allow-discrete; }
   .pop[hidden] { opacity: 0; transform: translateX(0.75rem); }
@@ -336,7 +340,7 @@ dialog form { text-align: right; }
 }
 /* Narrower screens: a sheet on top of the player, as wide as the text, from the bottom of the sentence. app.js sets
    its height. The play button of the player rises over its last part. */
-@media not all and (min-width: 78rem) {
+@media not all and (min-width: 68rem) {
   .pop {
     right: 0;
     left: 0;
