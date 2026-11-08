@@ -353,7 +353,7 @@ dialog form { text-align: right; }
 .pop-concepts li span::before { content: "— "; }
 /* Typical mistakes: "✗ wrong → right" */
 .pop-concepts .wrong { margin-top: 0.35rem; padding-left: 0; list-style: none; }
-.pop-concepts .wrong s { color: var(--muted); font-family: var(--serif); text-decoration-color: color-mix(in srgb, var(--fg) 45%, transparent); }
+.pop-concepts .wrong s { color: var(--muted); font-family: var(--serif); text-decoration-color: color-mix(in srgb, var(--fg) 25%, transparent); }
 .pop-concepts .wrong s::before { content: "✗ "; display: inline-block; margin-right: 0.15rem; color: #c8553d; text-decoration: none; }
 .pop-concepts .wrong i::before { content: "→ "; color: var(--muted); font-style: normal; }
 .pop-more { display: flex; align-items: center; gap: 0.25rem; align-self: flex-start; margin: -0.1rem 0 -0.1rem -0.2rem; padding: 0.3rem 0.4rem 0.3rem 0.1rem; border-radius: 8px; color: var(--accent); font-size: 0.95rem; font-weight: 600; }
