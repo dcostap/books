@@ -1,5 +1,5 @@
 // tools/prepare_pwa.py updates the version and asset list before deployment.
-const VERSION = "0b0adc2c5fbe2126";
+const VERSION = "aff68e901c19f188";
 // BEGIN PRECACHE
 const ASSETS = [
   "./",
@@ -90,7 +90,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (request.method !== "GET" || !url.href.startsWith(self.registration.scope)) return;
   // Leave audio and byte-range requests to the browser. Never download a book in the background.
-  if (request.headers.has("range") || /\.mp3$/i.test(url.pathname)) return;
+  if (request.headers.has("range") || /\.(mp3|webm)$/i.test(url.pathname)) return;
   if (request.mode === "navigate") {
     event.respondWith(shellFile(absolute("index.html")));
   } else if (shellURLs.has(`${url.origin}${url.pathname}`)) {

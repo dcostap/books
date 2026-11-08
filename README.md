@@ -41,6 +41,16 @@ books/<id>/<nn>/es/           the jobs and the answers for one chapter
 site/                         the web app; GitHub Pages publishes this folder
 ```
 
+## Audio format
+
+The site's chapter audio is **Opus at 24 kbps, mono, in WebM** (`.webm`): about 11 MB for each hour of speech. Encode it once from the source, with the chapter's cleanup in the same run, before `transcribe.py`:
+
+```
+ffmpeg -i SOURCE -ac 1 -c:a libopus -b:a 24k audio/<id>/NN-title.webm
+```
+
+`build.py` copies the file as it is, because a second lossy encode loses quality. HP1 keeps its source MP3 (128 kbps stereo).
+
 ## How the timing works
 
 The book text is the truth. The timing comes from aligning the book text itself to the audio.

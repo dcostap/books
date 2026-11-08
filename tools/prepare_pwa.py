@@ -21,7 +21,7 @@ source = re.sub(r'const VERSION = "[^"]*";', 'const VERSION = "dev";', source)
 digest = hashlib.sha256(source.encode())
 # Include chapter text too, so a data-only deployment also updates the library.
 for path in sorted(SITE.rglob("*")):
-    if not path.is_file() or path == worker or path.suffix == ".mp3":
+    if not path.is_file() or path == worker or path.suffix in (".mp3", ".webm"):
         continue
     digest.update(path.relative_to(SITE).as_posix().encode())
     digest.update(path.read_bytes())

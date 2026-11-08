@@ -10,7 +10,8 @@ All times are seconds in SRC.
                such as a "sh". Keep the window short (about 25 ms): adeclick also makes the speech a little duller.
                Repeat the option for more windows.
 The windows blend in with short fades, so the change makes no click of its own.
-Writes one MP3 at 224 kbps, so the audio gets only one more lossy encode. Run it before transcribe.py.
+Writes the project's audio format (Opus 24 kbps mono in WebM, see the README), so the audio gets only one more lossy
+encode. Run it before transcribe.py.
 """
 import argparse
 import subprocess
@@ -74,7 +75,7 @@ def main():
         tail[:r] *= np.linspace(0, 1, r)[:, None]
         out = np.concatenate([head, np.zeros((int(args.gap * SR), 2), np.float32), tail])
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ac", "2", "-ar", str(SR), "-i", "-",
-                    "-c:a", "libmp3lame", "-b:a", "224k", args.dst], input=out.astype(np.float32).tobytes(), check=True)
+                    "-ac", "1", "-c:a", "libopus", "-b:a", "24k", args.dst], input=out.astype(np.float32).tobytes(), check=True)
 
 
 if __name__ == "__main__":

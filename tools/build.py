@@ -4,7 +4,7 @@ Usage: python tools/build.py
 
 For each books/<id>/book.json:
   - aligns each chapter's text.md to its words.json and writes site/books/<id>/<nn>.json
-  - copies the chapter audio to site/books/<id>/<nn>.mp3 as it is (a second lossy encode loses quality)
+  - copies the chapter audio to site/books/<id>/<nn>.<ext> as it is (a second lossy encode loses quality)
   - merges the checked Spanish translations (books/<id>/<nn>/es/) into site/books/<id>/<nn>.es.json
   - copies the cover
 Then writes site/library.json, and site/concepts-es.json and site/dictionary-en.json from guides/.
@@ -127,7 +127,7 @@ def main():
         chapters = []
         for n, chapter in enumerate(book["chapters"], 1):
             src_dir = book_dir / f"{n:02d}"
-            audio = out_dir / f"{n:02d}.mp3"
+            audio = out_dir / f"{n:02d}{Path(chapter['audio']).suffix}"
             shutil.copyfile(ROOT / chapter["audio"], audio)
             words = json.loads((src_dir / "words.json").read_text(encoding="utf-8"))
             blocks, untimed = build_chapter((src_dir / "text.md").read_text(encoding="utf-8"), words,

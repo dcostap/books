@@ -20,7 +20,7 @@ Each chapter has these problems. Remove them with `fix_audio.py` **before** `tra
 
 To find the chime, scan the chapter for a narrow peak at 2689 or 2774 Hz, then look at a spectrogram (`ffmpeg -lavfi showspectrumpic`). Speech also gives weak peaks at these frequencies. A real chime shows as thin horizontal lines that continue through the pauses.
 
-Keep the original file as `audio/duke/0N-original-with-chime.mp3`. Make the clean file from the original in one run, so the audio gets only one more lossy encode.
+Keep the original file as `audio/duke/0N-original-with-chime.mp3`. Make the clean file from the original in one run, so the audio gets only one more lossy encode. `fix_audio.py` writes the project's format (Opus 24 kbps mono, `.webm`). The Opus file has the same timing as the MP3 (0 ms offset).
 
 | Ch | Title music (approx., s in the cut file) | Chime | Click | Done |
 |----|------|------|------|------|
@@ -37,7 +37,7 @@ The title music times for chapters 2–7 are the gaps between words, not the edg
 Chapter 1 command:
 
 ```
-.venv/Scripts/python books/duke/fix_audio.py audio/duke/01-original-with-chime.mp3 audio/duke/01-sherlock-holmes-has-a-visitor.mp3 --cut 5.66 15.97 --chime 19.62 21.55 --click 19.706 19.782 --declick 18.303 18.330 --declick 18.410 18.437
+.venv/Scripts/python books/duke/fix_audio.py audio/duke/01-original-with-chime.mp3 audio/duke/01-sherlock-holmes-has-a-visitor.webm --cut 5.66 15.97 --chime 19.62 21.55 --click 19.706 19.782 --declick 18.303 18.330 --declick 18.410 18.437
 ```
 
 The files of chapters 2–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
