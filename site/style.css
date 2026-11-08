@@ -363,6 +363,8 @@ dialog form { text-align: right; }
 .pop-concepts .wrong .bad::before { content: "✗ "; color: var(--bad); }
 .pop-concepts .wrong .bad s { color: var(--bad); text-decoration: none; }
 .pop-concepts .wrong .good { color: var(--fg); }
+.pop-concepts .wrong .to { color: var(--muted); }
+.pop-concepts .wrong .to::before { content: none; }
 .pop-concepts .wrong .good::before { content: "✓ "; color: var(--good); font-style: normal; font-weight: 700; }
 .pop-concepts .wrong .good b { color: var(--good); font-weight: 700; }
 .pop-more { display: flex; align-items: center; gap: 0.25rem; align-self: flex-start; margin: -0.1rem 0 -0.1rem -0.2rem; padding: 0.3rem 0.4rem 0.3rem 0.1rem; border-radius: 8px; color: var(--accent); font-size: 0.95rem; font-weight: 600; }

@@ -887,7 +887,7 @@ function showReader(book, chapter, target) {
       <ul>${c.examples.map(([en, es]) => `<li><i lang="en">${esc(en)}</i> <span>${esc(es)}</span></li>`).join("")}</ul>
       ${c.wrong ? `<ul class="wrong" lang="en">${c.wrong.map(([bad, good]) => {
         const [badHTML, goodHTML] = wordDiff(bad, good, "s", "b");
-        return `<li><span class="bad">${badHTML}</span> <i class="good">${goodHTML}</i></li>`;
+        return `<li><span class="bad">${badHTML}</span> <span class="to">→</span> <i class="good">${goodHTML}</i></li>`;
       }).join("")}</ul>` : ""}
     </details>`;
   }).join("");
