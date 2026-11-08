@@ -1,0 +1,3471 @@
+{
+ "sentences": [
+  {
+   "id": 15,
+   "line": [
+    {
+     "t": [
+      0
+     ],
+     "es": "«Mackleton..."
+    },
+    {
+     "t": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "es": "Eso está muy lejos»,"
+    },
+    {
+     "t": [
+      6,
+      7
+     ],
+     "es": "dijo Holmes."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "Mackleton"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "eso es",
+     "base": "be",
+     "sense": "identity",
+     "note": "*That’s* es *that is*. El apóstrofo sustituye a la letra que falta ([[contractions]])."
+    },
+    {
+     "t": [
+      3,
+      5
+     ],
+     "es": "una distancia",
+     "base": "way",
+     "sense": "distance",
+     "note": "*A long way* habla de una distancia grande, no de cómo hacer algo."
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "larga",
+     "base": "long",
+     "sense": "length"
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "dijo",
+     "base": "say",
+     "sense": "speak"
+    },
+    {
+     "t": [
+      7
+     ],
+     "es": "Holmes"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "es": "«Todavía no son las doce,"
+    },
+    {
+     "t": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "es": "así que probablemente salió de casa"
+    },
+    {
+     "t": [
+      10,
+      11,
+      12
+     ],
+     "es": "antes de las cinco"
+    },
+    {
+     "t": [
+      13,
+      14
+     ],
+     "es": "de esta mañana»."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "no son",
+     "base": "be",
+     "sense": "identity",
+     "note": "*It’s* es *it is* ([[contractions]]). Para decir la hora, el inglés necesita *it*, aunque no se traduzca ([[dummy-subject]])."
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "doce"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "en punto",
+     "base": "o'clock",
+     "sense": "time"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "todavía",
+     "base": "yet",
+     "sense": "time",
+     "note": "Con una negación, *yet* indica que algo aún no ha ocurrido. Suele ir al final."
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "así que",
+     "base": "so",
+     "sense": "result"
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "él"
+    },
+    {
+     "t": [
+      7
+     ],
+     "es": "probablemente",
+     "base": "probably",
+     "sense": "likely"
+    },
+    {
+     "t": [
+      8
+     ],
+     "es": "salió",
+     "base": "leave",
+     "sense": "depart"
+    },
+    {
+     "t": [
+      9
+     ],
+     "es": "casa",
+     "base": "home",
+     "sense": "dwelling",
+     "note": "*Leave home* es salir de casa. En inglés no hace falta una preposición entre estas dos palabras."
+    },
+    {
+     "t": [
+      10
+     ],
+     "es": "antes de"
+    },
+    {
+     "t": [
+      11
+     ],
+     "es": "cinco"
+    },
+    {
+     "t": [
+      12
+     ],
+     "es": "en punto",
+     "base": "o'clock",
+     "sense": "time"
+    },
+    {
+     "t": [
+      13,
+      14
+     ],
+     "es": "esta mañana",
+     "base": "morning",
+     "sense": "time"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "es": "Al cabo de uno o dos minutos,"
+    },
+    {
+     "t": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "es": "el hombre empezó a moverse"
+    },
+    {
+     "t": [
+      10,
+      11,
+      12,
+      13
+     ],
+     "es": "y abrió los ojos."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "después de un minuto",
+     "base": "minute",
+     "sense": "time"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "o"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "dos"
+    },
+    {
+     "t": [
+      5,
+      6
+     ],
+     "es": "el hombre",
+     "base": "man",
+     "sense": "adult"
+    },
+    {
+     "t": [
+      7
+     ],
+     "es": "empezó",
+     "base": "begin",
+     "sense": "start"
+    },
+    {
+     "t": [
+      8,
+      9
+     ],
+     "es": "a moverse",
+     "base": "move",
+     "sense": "motion"
+    },
+    {
+     "t": [
+      10
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      11,
+      12
+     ],
+     "es": "sus ojos",
+     "base": "eye",
+     "sense": "organ",
+     "note": "En inglés, las partes del cuerpo llevan posesivo: *his eyes* ([[body-possessive]])."
+    },
+    {
+     "t": [
+      13
+     ],
+     "es": "se abrieron",
+     "base": "open",
+     "sense": "unclose"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "Un segundo después"
+    },
+    {
+     "t": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "es": "se puso de pie de un salto."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "un segundo",
+     "base": "second",
+     "sense": "time"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "después",
+     "base": "later",
+     "sense": "after"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "él"
+    },
+    {
+     "t": [
+      4,
+      6,
+      7,
+      8
+     ],
+     "es": "se puso de pie",
+     "base": "get to one's feet",
+     "sense": "stand",
+     "note": "Esta expresión indica que alguien se levanta. No significa llegar hasta sus propios pies."
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "rápidamente",
+     "base": "quickly",
+     "sense": "speed",
+     "note": "Aquí, «de un salto» expresa de forma natural la rapidez del movimiento."
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "es": "Ahora tenía la cara roja y triste."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "su cara",
+     "base": "face",
+     "sense": "front",
+     "note": "En inglés, las partes del cuerpo llevan posesivo: *his face* ([[body-possessive]])."
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "estaba",
+     "base": "be",
+     "sense": "state"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "ahora",
+     "base": "now",
+     "sense": "present"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "roja",
+     "base": "red",
+     "sense": "colour"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "triste",
+     "base": "unhappy",
+     "sense": "sad"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "«¡Señor Holmes,"
+    },
+    {
+     "t": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "es": "lo siento muchísimo!"
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "señor",
+     "note": "*Mr* se pone delante del apellido. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "Holmes"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "estoy",
+     "base": "be",
+     "sense": "state"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "tan, muy",
+     "base": "so",
+     "sense": "degree"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "lo siento",
+     "base": "sorry",
+     "sense": "apology",
+     "note": "Con *be*, sirve para disculparse, incluso por una molestia pequeña."
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "es": "No me acordé de comer ni de beber nada"
+    },
+    {
+     "t": [
+      7,
+      8
+     ],
+     "es": "esta mañana;"
+    },
+    {
+     "t": [
+      10,
+      11
+     ],
+     "es": "por eso"
+    },
+    {
+     "t": [
+      12,
+      13,
+      14
+     ],
+     "es": "me encontré mal»."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "olvidé",
+     "base": "forget",
+     "sense": "remember"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "comer",
+     "base": "eat",
+     "sense": "food"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "o"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "beber",
+     "base": "drink",
+     "sense": "consume"
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "algo",
+     "note": "*Anything* no concreta qué. Con una idea negativa, como olvidarse de comer, suele corresponder a «nada» ([[some-any]])."
+    },
+    {
+     "t": [
+      7,
+      8
+     ],
+     "es": "esta mañana",
+     "base": "morning",
+     "sense": "time"
+    },
+    {
+     "t": [
+      10,
+      11
+     ],
+     "es": "por eso",
+     "note": "*That’s why* introduce la consecuencia: «por eso». *That’s* es *that is* ([[contractions]])."
+    },
+    {
+     "t": [
+      12
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      13
+     ],
+     "es": "me sentí",
+     "base": "feel",
+     "sense": "state"
+    },
+    {
+     "t": [
+      14
+     ],
+     "es": "enfermo",
+     "base": "ill",
+     "sense": "health",
+     "note": "*Ill* es lo habitual en inglés británico; en EE. UU. se suele decir *sick* ([[british-american]])."
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "es": "«Cuando se encuentre mejor...»,"
+    },
+    {
+     "t": [
+      5,
+      6
+     ],
+     "es": "empecé."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "cuando"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "usted"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "se siente",
+     "base": "feel",
+     "sense": "state",
+     "note": "Después de *when*, el inglés usa presente para hablar de algo futuro: «cuando se encuentre mejor» ([[future-time-clauses]])."
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "mejor",
+     "base": "well",
+     "sense": "health",
+     "note": "*Better* es el comparativo irregular de *well*: «mejor» de salud ([[comparatives]])."
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "empecé",
+     "base": "begin",
+     "sense": "start"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "«Ya estoy mejor,"
+    },
+    {
+     "t": [
+      3,
+      4
+     ],
+     "es": "gracias»,"
+    },
+    {
+     "t": [
+      5,
+      6,
+      7
+     ],
+     "es": "dijo nuestro visitante."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "estoy",
+     "base": "be",
+     "sense": "state",
+     "note": "*I’m* es *I am*: «yo soy» o «yo estoy» ([[contractions]])."
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "mejor",
+     "base": "well",
+     "sense": "health",
+     "note": "*Better* es el comparativo irregular de *well*: «mejor» de salud ([[comparatives]])."
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "ahora",
+     "base": "now",
+     "sense": "present"
+    },
+    {
+     "t": [
+      3,
+      4
+     ],
+     "es": "gracias",
+     "base": "thank you",
+     "sense": "gratitude"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "dijo",
+     "base": "say",
+     "sense": "speak"
+    },
+    {
+     "t": [
+      6,
+      7
+     ],
+     "es": "nuestro visitante",
+     "base": "visitor",
+     "sense": "guest"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "es": "«Y tengo muchas ganas de hablar con"
+    },
+    {
+     "t": [
+      8,
+      9
+     ],
+     "es": "el señor Holmes"
+    },
+    {
+     "t": [
+      11,
+      12,
+      13,
+      14
+     ],
+     "es": "para preguntarle algo."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "quiero",
+     "base": "want",
+     "sense": "desire"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "muy",
+     "base": "very",
+     "sense": "degree"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "mucho",
+     "base": "much",
+     "sense": "degree",
+     "note": "Con *want*, *very much* intensifica las ganas de hacer algo. No describe cómo habla."
+    },
+    {
+     "t": [
+      5,
+      6,
+      7
+     ],
+     "es": "hablar con",
+     "base": "talk",
+     "sense": "speak",
+     "note": "Para decir con quién hablas, se usa *talk to*: no traduzcas *to* por «a» aquí."
+    },
+    {
+     "t": [
+      8
+     ],
+     "es": "señor",
+     "note": "*Mr* se pone delante del apellido. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."
+    },
+    {
+     "t": [
+      9
+     ],
+     "es": "Holmes"
+    },
+    {
+     "t": [
+      11,
+      12
+     ],
+     "es": "para preguntar",
+     "base": "ask",
+     "sense": "question",
+     "note": "*To* con infinitivo dice para qué quiere hablar con él: «para preguntar» ([[purpose-infinitive]])."
+    },
+    {
+     "t": [
+      13
+     ],
+     "es": "le, a él"
+    },
+    {
+     "t": [
+      14
+     ],
+     "es": "algo"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "Por favor, señor Holmes,"
+    },
+    {
+     "t": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "es": "vuelva a Mackleton"
+    },
+    {
+     "t": [
+      7,
+      8
+     ],
+     "es": "conmigo"
+    },
+    {
+     "t": [
+      9,
+      10,
+      11,
+      12
+     ],
+     "es": "en el próximo tren»."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "por favor",
+     "base": "please",
+     "sense": "polite"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "señor",
+     "note": "*Mr* se pone delante del apellido. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "Holmes"
+    },
+    {
+     "t": [
+      3,
+      4
+     ],
+     "es": "vuelva",
+     "base": "come back",
+     "sense": "return",
+     "note": "*Back* añade la idea de regreso: no es solo venir, sino volver ([[phrasal-verbs]])."
+    },
+    {
+     "t": [
+      5,
+      6
+     ],
+     "es": "a Mackleton"
+    },
+    {
+     "t": [
+      7,
+      8
+     ],
+     "es": "conmigo"
+    },
+    {
+     "t": [
+      9,
+      10,
+      12
+     ],
+     "es": "en el tren",
+     "base": "train",
+     "sense": "transport"
+    },
+    {
+     "t": [
+      11
+     ],
+     "es": "próximo",
+     "base": "next",
+     "sense": "following"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "«Lo siento,"
+    },
+    {
+     "t": [
+      2,
+      3,
+      4
+     ],
+     "es": "no es posible»,"
+    },
+    {
+     "t": [
+      5,
+      6
+     ],
+     "es": "dijo Holmes."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "estoy",
+     "base": "be",
+     "sense": "state",
+     "note": "*I’m* es *I am*: «yo soy» o «yo estoy» ([[contractions]])."
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "lo siento",
+     "base": "sorry",
+     "sense": "apology",
+     "note": "Con *be*, sirve para disculparse. Aquí suaviza una negativa."
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "eso no es",
+     "base": "be",
+     "sense": "identity",
+     "note": "*That’s* es *that is*. El apóstrofo sustituye a la letra que falta ([[contractions]])."
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "posible",
+     "base": "possible",
+     "sense": "able"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "dijo",
+     "base": "say",
+     "sense": "speak"
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "Holmes"
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "«Estoy trabajando en"
+    },
+    {
+     "t": [
+      3,
+      4,
+      5
+     ],
+     "es": "dos casos importantes:"
+    },
+    {
+     "t": [
+      7,
+      8,
+      9
+     ],
+     "es": "el caso Ferrers"
+    },
+    {
+     "t": [
+      10,
+      11,
+      12,
+      13
+     ],
+     "es": "y el caso Abergavenny."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "estoy trabajando en",
+     "base": "work on",
+     "sense": "task",
+     "note": "*I’m* es *I am* ([[contractions]]). *Am* con *-ing* indica una actividad en curso ([[present-continuous]])."
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "dos"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "importantes",
+     "base": "important",
+     "sense": "value"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "casos",
+     "base": "case",
+     "sense": "matter"
+    },
+    {
+     "t": [
+      7,
+      9
+     ],
+     "es": "el caso",
+     "base": "case",
+     "sense": "matter"
+    },
+    {
+     "t": [
+      8
+     ],
+     "es": "Ferrers"
+    },
+    {
+     "t": [
+      10
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      11,
+      13
+     ],
+     "es": "el caso",
+     "base": "case",
+     "sense": "matter"
+    },
+    {
+     "t": [
+      12
+     ],
+     "es": "Abergavenny"
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "es": "No puedo irme de Londres"
+    },
+    {
+     "t": [
+      4,
+      5,
+      6
+     ],
+     "es": "en este momento»."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "no puedo irme",
+     "base": "leave",
+     "sense": "depart",
+     "note": "*Cannot* es la negación de *can*. El verbo siguiente va sin *to* ([[modal-verbs]])."
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "Londres"
+    },
+    {
+     "t": [
+      4,
+      5,
+      6
+     ],
+     "es": "en este momento",
+     "base": "at the moment",
+     "sense": "now"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "«¡Casos importantes!»,"
+    },
+    {
+     "t": [
+      2,
+      3,
+      4
+     ],
+     "es": "exclamó nuestro visitante."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "importantes",
+     "base": "important",
+     "sense": "value"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "casos",
+     "base": "case",
+     "sense": "matter"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "nuestro visitante",
+     "base": "visitor",
+     "sense": "guest"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "gritó, exclamó",
+     "base": "cry",
+     "sense": "shout",
+     "note": "Aquí *cry* es hablar en voz alta, no llorar. Fíjate en que introduce unas palabras."
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "«Pero este caso"
+    },
+    {
+     "t": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "es": "también es muy importante."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "pero"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "este caso",
+     "base": "case",
+     "sense": "matter"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "es",
+     "base": "be",
+     "sense": "identity"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "muy",
+     "base": "very",
+     "sense": "degree"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "importante",
+     "base": "important",
+     "sense": "value"
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "también",
+     "base": "too",
+     "sense": "also"
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "es": "Sabe que secuestraron"
+    },
+    {
+     "t": [
+      5,
+      6,
+      7
+     ],
+     "es": "al hijo"
+    },
+    {
+     "t": [
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "es": "del duque de Holdernesse"
+    },
+    {
+     "t": [
+      13,
+      14,
+      15
+     ],
+     "es": "hace tres días...»"
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "usted"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "sabe de",
+     "base": "know",
+     "sense": "information",
+     "note": "*Know about* es tener información sobre algo, no conocer personalmente a alguien."
+    },
+    {
+     "t": [
+      3,
+      4
+     ],
+     "es": "el secuestro",
+     "base": "kidnapping",
+     "sense": "crime"
+    },
+    {
+     "t": [
+      5,
+      6,
+      7
+     ],
+     "es": "del hijo",
+     "base": "son",
+     "sense": "family"
+    },
+    {
+     "t": [
+      8,
+      9,
+      10
+     ],
+     "es": "del duque",
+     "base": "duke",
+     "sense": "noble",
+     "note": "Es un título de la nobleza británica. En español se escribe con minúscula: «duque»."
+    },
+    {
+     "t": [
+      11,
+      12
+     ],
+     "es": "de Holdernesse"
+    },
+    {
+     "t": [
+      13
+     ],
+     "es": "tres"
+    },
+    {
+     "t": [
+      14
+     ],
+     "es": "días",
+     "base": "day",
+     "sense": "time"
+    },
+    {
+     "t": [
+      15
+     ],
+     "es": "hace",
+     "base": "ago",
+     "sense": "before",
+     "note": "*Ago* va detrás de la cantidad de tiempo: *three days ago* = «hace tres días»."
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "line": [
+    {
+     "t": [
+      0
+     ],
+     "es": "«¡Cómo!"
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "¡cómo!, ¡qué!",
+     "note": "*What!* expresa sorpresa: aquí no pide el nombre de una cosa."
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "¿El ministro del Gobierno?»"
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      2
+     ],
+     "es": "el ministro",
+     "base": "minister",
+     "sense": "government"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "del Gobierno",
+     "base": "government",
+     "sense": "authority",
+     "note": "Un sustantivo puede describir a otro: *government* dice qué tipo de ministro es ([[noun-as-adjective]])."
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "line": [
+    {
+     "t": [
+      0
+     ],
+     "es": "«Sí,"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "ese mismo."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "sí"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "ese es",
+     "base": "be",
+     "sense": "identity",
+     "note": "*That’s* es *that is*. El apóstrofo sustituye a la letra que falta ([[contractions]])."
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "él",
+     "note": "Después de *be* es normal usar *him*, no *he*: *that’s him* = «es él»."
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "es": "Así que no lo sabía..."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "así que",
+     "base": "so",
+     "sense": "result"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "usted"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "no sabía",
+     "base": "know",
+     "sense": "information",
+     "note": "*Didn’t* es *did not* ([[contractions]]). *Did* marca el pasado; *know* queda en su forma base ([[auxiliary-do]])."
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "es": "Todavía no ha salido en los periódicos,"
+    },
+    {
+     "t": [
+      6,
+      7
+     ],
+     "es": "eso es cierto."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "no está",
+     "base": "be",
+     "sense": "state",
+     "note": "*It’s* es *it is* ([[contractions]]). Aquí, «ha salido en los periódicos» suena más natural en español."
+    },
+    {
+     "t": [
+      2,
+      3,
+      4
+     ],
+     "es": "en los periódicos",
+     "base": "newspaper",
+     "sense": "publication"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "todavía",
+     "base": "yet",
+     "sense": "time",
+     "note": "Con una negación, *yet* indica que algo aún no ha ocurrido. Suele ir al final."
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "eso es",
+     "base": "be",
+     "sense": "identity",
+     "note": "*That’s* es *that is*. El apóstrofo sustituye a la letra que falta ([[contractions]])."
+    },
+    {
+     "t": [
+      7
+     ],
+     "es": "cierto",
+     "base": "true",
+     "sense": "correct"
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "Pero Sherlock Holmes"
+    },
+    {
+     "t": [
+      3,
+      4,
+      5
+     ],
+     "es": "siempre se entera de las noticias"
+    },
+    {
+     "t": [
+      6,
+      7,
+      8
+     ],
+     "es": "antes que los demás,"
+    },
+    {
+     "t": [
+      9,
+      10
+     ],
+     "es": "o eso creía yo»."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "pero"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "Sherlock Holmes"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "siempre",
+     "base": "always",
+     "sense": "time"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "se entera de",
+     "base": "hear",
+     "sense": "learn",
+     "note": "Cuando se habla de noticias, *hear* puede ser enterarse de algo, no solo oír un sonido."
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "noticias",
+     "base": "news",
+     "sense": "information",
+     "note": "Aunque acaba en *-s*, *news* no es plural: es un nombre incontable ([[uncountable]])."
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "antes que"
+    },
+    {
+     "t": [
+      7
+     ],
+     "es": "otras"
+    },
+    {
+     "t": [
+      8
+     ],
+     "es": "personas",
+     "base": "person",
+     "sense": "human"
+    },
+    {
+     "t": [
+      9
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      10
+     ],
+     "es": "creía",
+     "base": "think",
+     "sense": "believe"
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "es": "Holmes fue a buscar"
+    },
+    {
+     "t": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "es": "uno de sus libros"
+    },
+    {
+     "t": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "es": "y empezó a leer"
+    },
+    {
+     "t": [
+      12,
+      13
+     ],
+     "es": "la página"
+    },
+    {
+     "t": [
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "es": "sobre el duque de Holdernesse."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "Holmes"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "fue",
+     "base": "go",
+     "sense": "move"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "a buscar",
+     "base": "get",
+     "sense": "fetch"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "uno"
+    },
+    {
+     "t": [
+      5,
+      6,
+      7
+     ],
+     "es": "de sus libros",
+     "base": "book",
+     "sense": "reading"
+    },
+    {
+     "t": [
+      8
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      9
+     ],
+     "es": "empezó",
+     "base": "begin",
+     "sense": "start"
+    },
+    {
+     "t": [
+      10,
+      11
+     ],
+     "es": "a leer",
+     "base": "read",
+     "sense": "text"
+    },
+    {
+     "t": [
+      12,
+      13
+     ],
+     "es": "la página",
+     "base": "page",
+     "sense": "document"
+    },
+    {
+     "t": [
+      14,
+      15,
+      16
+     ],
+     "es": "sobre el duque",
+     "base": "duke",
+     "sense": "noble"
+    },
+    {
+     "t": [
+      17,
+      18
+     ],
+     "es": "de Holdernesse"
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "line": [
+    {
+     "t": [
+      0
+     ],
+     "es": "«Holdernesse,"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "sexto duque."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "Holdernesse"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "sexto"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "duque",
+     "base": "duke",
+     "sense": "noble"
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "Esposa: Edith,"
+    },
+    {
+     "t": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "es": "hija de lord Grey."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "esposa",
+     "base": "wife",
+     "sense": "spouse"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "Edith"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "hija",
+     "base": "daughter",
+     "sense": "family"
+    },
+    {
+     "t": [
+      3,
+      4
+     ],
+     "es": "de lord",
+     "base": "lord",
+     "sense": "noble",
+     "note": "Título de la nobleza británica que se conserva en español: «lord». No significa «señor» como trato corriente."
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "Grey"
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "Un hijo,"
+    },
+    {
+     "t": [
+      2,
+      3,
+      4
+     ],
+     "es": "lord Arthur Saltire."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "uno"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "hijo",
+     "base": "child",
+     "sense": "offspring",
+     "note": "*Child* puede ser «hijo», aunque ya sea adulto. Aquí habla del parentesco, no de la edad."
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "lord",
+     "base": "lord",
+     "sense": "noble",
+     "note": "Título de la nobleza británica que se conserva en español: «lord». No significa «señor» como trato corriente."
+    },
+    {
+     "t": [
+      3,
+      4
+     ],
+     "es": "Arthur Saltire"
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "Casas en Londres,"
+    },
+    {
+     "t": [
+      3,
+      4,
+      5
+     ],
+     "es": "Lancashire y Gales."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "casas",
+     "base": "house",
+     "sense": "building"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "en Londres"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "Lancashire"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "Gales"
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "Ministro del Gobierno"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "de esto..."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "del Gobierno",
+     "base": "government",
+     "sense": "authority",
+     "note": "Un sustantivo puede describir a otro: *government* dice qué tipo de ministro es ([[noun-as-adjective]])."
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "ministro",
+     "base": "minister",
+     "sense": "government"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "de esto",
+     "note": "*For* indica aquí el área de la que se ocupa un ministro, no para quién trabaja."
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "de aquello..."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "de aquello",
+     "note": "*For* indica aquí el área de la que se ocupa un ministro, no para quién trabaja."
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "de lo otro..."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "de lo otro",
+     "note": "*This, that, the other* permite enumerar cosas sin nombrarlas: «esto, aquello, lo otro». Aquí suena despreocupado."
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "Vaya, vaya»,"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "dijo Holmes."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "vaya",
+     "base": "well",
+     "sense": "discourse",
+     "note": "*Well, well* expresa interés o sorpresa. Aquí *well* no habla de hacer algo «bien»."
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "vaya",
+     "base": "well",
+     "sense": "discourse"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "dijo",
+     "base": "say",
+     "sense": "speak"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "Holmes"
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "es": "«Es uno de los hombres más importantes"
+    },
+    {
+     "t": [
+      6,
+      7,
+      8
+     ],
+     "es": "del país»."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "es",
+     "base": "be",
+     "sense": "identity",
+     "note": "*He’s* es aquí *he is* ([[contractions]]). Ojo: en otras frases, *he’s* puede ser *he has*."
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "uno"
+    },
+    {
+     "t": [
+      2,
+      3,
+      5
+     ],
+     "es": "de los hombres",
+     "base": "man",
+     "sense": "adult"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "más importantes",
+     "base": "great",
+     "sense": "important",
+     "note": "*The greatest* es un superlativo: «los más importantes». El final *-est* marca el grado máximo ([[comparatives]])."
+    },
+    {
+     "t": [
+      6,
+      7,
+      8
+     ],
+     "es": "en el país",
+     "base": "country",
+     "sense": "nation"
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "es": "«Uno de los más importantes"
+    },
+    {
+     "t": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "es": "y de los más ricos»,"
+    },
+    {
+     "t": [
+      9,
+      10,
+      11
+     ],
+     "es": "dijo el doctor Huxtable."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "uno"
+    },
+    {
+     "t": [
+      1,
+      2,
+      3
+     ],
+     "es": "de los más importantes",
+     "base": "great",
+     "sense": "important",
+     "note": "*The greatest* es un superlativo: «los más importantes». El final *-est* marca el grado máximo ([[comparatives]])."
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "uno"
+    },
+    {
+     "t": [
+      6,
+      7,
+      8
+     ],
+     "es": "de los más ricos",
+     "base": "rich",
+     "sense": "wealth",
+     "note": "*The richest* es un superlativo: «los más ricos». El final *-est* marca el grado máximo ([[comparatives]])."
+    },
+    {
+     "t": [
+      9
+     ],
+     "es": "dijo",
+     "base": "say",
+     "sense": "speak"
+    },
+    {
+     "t": [
+      10
+     ],
+     "es": "doctor",
+     "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."
+    },
+    {
+     "t": [
+      11
+     ],
+     "es": "Huxtable"
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "«Sé,"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "señor Holmes,"
+    },
+    {
+     "t": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "es": "que no trabaja por dinero,"
+    },
+    {
+     "t": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "es": "pero tengo que decirle esto."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "sé",
+     "base": "know",
+     "sense": "information"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "señor",
+     "note": "*Mr* se pone delante del apellido. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "Holmes"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "que"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "usted"
+    },
+    {
+     "t": [
+      6,
+      7
+     ],
+     "es": "no trabaja",
+     "base": "work",
+     "sense": "labour",
+     "note": "*Don’t* es *do not* ([[contractions]]). *Do* ayuda a negar; no significa «hacer» aquí ([[auxiliary-do]])."
+    },
+    {
+     "t": [
+      8,
+      9
+     ],
+     "es": "por dinero",
+     "base": "money",
+     "sense": "payment"
+    },
+    {
+     "t": [
+      10
+     ],
+     "es": "pero"
+    },
+    {
+     "t": [
+      11
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      12,
+      13
+     ],
+     "es": "tengo que decir",
+     "base": "tell",
+     "sense": "inform",
+     "note": "*Must* expresa obligación. El verbo siguiente va sin *to* ([[modal-verbs]])."
+    },
+    {
+     "t": [
+      14
+     ],
+     "es": "le, a usted"
+    },
+    {
+     "t": [
+      15
+     ],
+     "es": "esto"
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "es": "El duque ofrece"
+    },
+    {
+     "t": [
+      4,
+      5,
+      6
+     ],
+     "es": "cinco mil libras"
+    },
+    {
+     "t": [
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "es": "por noticias de su hijo"
+    },
+    {
+     "t": [
+      12,
+      13,
+      14,
+      15,
+      16
+     ],
+     "es": "y otras mil libras"
+    },
+    {
+     "t": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+     ],
+     "es": "por el nombre de su secuestrador»."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "el duque",
+     "base": "duke",
+     "sense": "noble"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "está ofreciendo",
+     "base": "offer",
+     "sense": "give",
+     "note": "*Is* con un verbo en *-ing* forma el presente continuo: la oferta sigue en pie ahora ([[present-continuous]])."
+    },
+    {
+     "t": [
+      4,
+      5
+     ],
+     "es": "cinco mil"
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "libras",
+     "base": "pound",
+     "sense": "currency",
+     "note": "La libra esterlina es la moneda del Reino Unido. Su símbolo es £."
+    },
+    {
+     "t": [
+      7,
+      8
+     ],
+     "es": "por noticias",
+     "base": "news",
+     "sense": "information",
+     "note": "Aunque acaba en *-s*, *news* no es plural: es un nombre incontable ([[uncountable]])."
+    },
+    {
+     "t": [
+      9,
+      10,
+      11
+     ],
+     "es": "de su hijo",
+     "base": "son",
+     "sense": "family"
+    },
+    {
+     "t": [
+      12
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      13
+     ],
+     "es": "otras",
+     "note": "*Another* añade una cantidad: *another one thousand pounds* = «otras mil libras»."
+    },
+    {
+     "t": [
+      14,
+      15
+     ],
+     "es": "mil"
+    },
+    {
+     "t": [
+      16
+     ],
+     "es": "libras",
+     "base": "pound",
+     "sense": "currency",
+     "note": "La libra esterlina es la moneda del Reino Unido. Su símbolo es £."
+    },
+    {
+     "t": [
+      17,
+      18,
+      19
+     ],
+     "es": "por el nombre",
+     "base": "name",
+     "sense": "identity"
+    },
+    {
+     "t": [
+      20,
+      21,
+      22
+     ],
+     "es": "de su secuestrador",
+     "base": "kidnapper",
+     "sense": "criminal"
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "line": [
+    {
+     "t": [
+      0
+     ],
+     "es": "«Esa»,"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "dijo Holmes,"
+    },
+    {
+     "t": [
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "es": "«es una oferta muy interesante»."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "eso"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "dijo",
+     "base": "say",
+     "sense": "speak"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "Holmes"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "es",
+     "base": "be",
+     "sense": "identity"
+    },
+    {
+     "t": [
+      4,
+      7
+     ],
+     "es": "una oferta",
+     "base": "offer",
+     "sense": "proposal"
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "muy",
+     "base": "most",
+     "sense": "degree",
+     "note": "*A most interesting offer* es «una oferta muy interesante», no «la más interesante». Es un uso formal de *most*."
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "interesante",
+     "base": "interesting",
+     "sense": "attention"
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "es": "Me miró."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "él"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "miró",
+     "base": "look at",
+     "sense": "watch",
+     "note": "Para mirar a alguien o algo, se usa *look at*. No quites *at*: *look at me*."
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "me, a mí"
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "line": [
+    {
+     "t": [
+      0
+     ],
+     "es": "«Watson,"
+    },
+    {
+     "t": [
+      1,
+      2
+     ],
+     "es": "creo que"
+    },
+    {
+     "t": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "es": "vamos a volver con el doctor Huxtable"
+    },
+    {
+     "t": [
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "es": "al norte de Inglaterra"
+    },
+    {
+     "t": [
+      15,
+      16
+     ],
+     "es": "esta tarde»."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "Watson"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "yo"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "creo",
+     "base": "think",
+     "sense": "believe"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "nosotros"
+    },
+    {
+     "t": [
+      4,
+      5
+     ],
+     "es": "vamos",
+     "base": "go",
+     "sense": "move",
+     "note": "El presente continuo también sirve para anunciar planes: aquí habla de esta tarde ([[present-continuous]])."
+    },
+    {
+     "t": [
+      6,
+      7
+     ],
+     "es": "con el doctor",
+     "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."
+    },
+    {
+     "t": [
+      8
+     ],
+     "es": "Huxtable"
+    },
+    {
+     "t": [
+      9
+     ],
+     "es": "de vuelta",
+     "base": "back",
+     "sense": "return"
+    },
+    {
+     "t": [
+      10,
+      11,
+      12
+     ],
+     "es": "al norte",
+     "base": "north",
+     "sense": "direction"
+    },
+    {
+     "t": [
+      13,
+      14
+     ],
+     "es": "de Inglaterra"
+    },
+    {
+     "t": [
+      15,
+      16
+     ],
+     "es": "esta tarde",
+     "base": "afternoon",
+     "sense": "time"
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "es": "Holmes miró entonces"
+    },
+    {
+     "t": [
+      4,
+      5
+     ],
+     "es": "al doctor Huxtable."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "Holmes"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "luego, después",
+     "base": "then",
+     "sense": "next"
+    },
+    {
+     "t": [
+      2,
+      3
+     ],
+     "es": "miró",
+     "base": "look at",
+     "sense": "watch",
+     "note": "Para mirar a alguien o algo, se usa *look at*. No quites *at*: *look at Dr Huxtable*."
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "doctor",
+     "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "Huxtable"
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "«Ahora, señor,"
+    },
+    {
+     "t": [
+      2,
+      3,
+      4
+     ],
+     "es": "cuéntemelo todo."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "ahora",
+     "base": "now",
+     "sense": "attention",
+     "note": "Al empezar a hablar, *now* puede servir para pedir atención o cambiar de tema."
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "señor",
+     "base": "sir",
+     "sense": "address",
+     "note": "Trato respetuoso al hablar con un hombre. Aquí no es un título delante de un nombre."
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "cuente",
+     "base": "tell",
+     "sense": "narrate"
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "me, a mí"
+    },
+    {
+     "t": [
+      4
+     ],
+     "es": "todo"
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "line": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "¿Qué pasó?"
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "qué",
+     "note": "Aquí *what* es el sujeto: pregunta qué cosa pasó. Por eso no se añade *did* ([[subject-questions]])."
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "pasó",
+     "base": "happen",
+     "sense": "occur"
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "es": "¿Cuándo pasó?"
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "cuándo"
+    },
+    {
+     "t": [
+      1,
+      3
+     ],
+     "es": "pasó",
+     "base": "happen",
+     "sense": "occur",
+     "note": "*Did* forma la pregunta en pasado. *Happen* queda en su forma base, sin *-ed* ([[auxiliary-do]])."
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "eso"
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "es": "¿Cómo pasó?"
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "cómo",
+     "base": "how",
+     "sense": "manner"
+    },
+    {
+     "t": [
+      1,
+      3
+     ],
+     "es": "pasó",
+     "base": "happen",
+     "sense": "occur",
+     "note": "*Did* forma la pregunta en pasado. *Happen* queda en su forma base, sin *-ed* ([[auxiliary-do]])."
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "eso"
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "es": "¿Y por qué viene el doctor Thorneycroft Huxtable"
+    },
+    {
+     "t": [
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "es": "a pedirme ayuda"
+    },
+    {
+     "t": [
+      12,
+      13,
+      14
+     ],
+     "es": "tres días después?»"
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      1
+     ],
+     "es": "por qué",
+     "base": "why",
+     "sense": "question"
+    },
+    {
+     "t": [
+      2,
+      6
+     ],
+     "es": "viene",
+     "base": "come",
+     "sense": "move",
+     "note": "Con *he*, *she* o un nombre singular, *does* forma la pregunta. *Come* queda sin *-s* ([[auxiliary-do]])."
+    },
+    {
+     "t": [
+      3
+     ],
+     "es": "doctor",
+     "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."
+    },
+    {
+     "t": [
+      4,
+      5
+     ],
+     "es": "Thorneycroft Huxtable"
+    },
+    {
+     "t": [
+      7,
+      8,
+      9
+     ],
+     "es": "a pedir",
+     "base": "ask for",
+     "sense": "request",
+     "note": "*Ask for* es pedir algo; *ask* sin *for* puede ser hacer una pregunta. *To* indica finalidad ([[purpose-infinitive]])."
+    },
+    {
+     "t": [
+      10,
+      11
+     ],
+     "es": "mi ayuda",
+     "base": "help",
+     "sense": "assistance"
+    },
+    {
+     "t": [
+      12
+     ],
+     "es": "tres"
+    },
+    {
+     "t": [
+      13
+     ],
+     "es": "días",
+     "base": "day",
+     "sense": "time"
+    },
+    {
+     "t": [
+      14
+     ],
+     "es": "después",
+     "base": "later",
+     "sense": "after"
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "line": [
+    {
+     "t": [
+      0,
+      1,
+      2
+     ],
+     "es": "Nuestro visitante bebió"
+    },
+    {
+     "t": [
+      3,
+      4
+     ],
+     "es": "un poco de agua"
+    },
+    {
+     "t": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "es": "y empezó a contar su historia."
+    }
+   ],
+   "words": [
+    {
+     "t": [
+      0,
+      1
+     ],
+     "es": "nuestro visitante",
+     "base": "visitor",
+     "sense": "guest"
+    },
+    {
+     "t": [
+      2
+     ],
+     "es": "bebió",
+     "base": "drink",
+     "sense": "consume"
+    },
+    {
+     "t": [
+      3,
+      4
+     ],
+     "es": "un poco de agua",
+     "base": "water",
+     "sense": "liquid",
+     "note": "Con algo que no se cuenta ([[uncountable]]), *some* indica una cantidad sin precisar ([[some-any]])."
+    },
+    {
+     "t": [
+      5
+     ],
+     "es": "y"
+    },
+    {
+     "t": [
+      6
+     ],
+     "es": "empezó",
+     "base": "begin",
+     "sense": "start"
+    },
+    {
+     "t": [
+      7,
+      8
+     ],
+     "es": "su historia",
+     "base": "story",
+     "sense": "account"
+    }
+   ]
+  }
+ ]
+}

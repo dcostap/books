@@ -1337,6 +1337,25 @@
       }
     ]
   },
+  "most": {
+    "senses": [
+      {
+        "id": "superlative",
+        "es": "el más",
+        "ex": "the most beautiful beach"
+      },
+      {
+        "id": "majority",
+        "es": "la mayoría de",
+        "ex": "Most people like music."
+      },
+      {
+        "id": "degree",
+        "es": "muy",
+        "ex": "a most unusual day"
+      }
+    ]
+  },
   "move": {
     "senses": [
       {
@@ -1903,6 +1922,20 @@
         "id": "exam",
         "es": "examinarse",
         "ex": "She sits her final exams tomorrow."
+      }
+    ]
+  },
+  "so": {
+    "senses": [
+      {
+        "id": "degree",
+        "es": "tan, muy",
+        "ex": "I'm so tired today."
+      },
+      {
+        "id": "result",
+        "es": "así que",
+        "ex": "It was late, so we went home."
       }
     ]
   },

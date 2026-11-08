@@ -144,5 +144,26 @@
     "text": "*To* con un infinitivo dice para qué hace alguien algo, como «para» o «a» en español. No se dice *for to*.",
     "examples": [["I ran to get some water.", "Fui corriendo a buscar agua."], ["She went to London to see her sister.", "Fue a Londres para ver a su hermana."]],
     "wrong": [["I came for to see you.", "I came to see you."], ["He studies for pass the exam.", "He studies to pass the exam."]]
+  },
+  "present-continuous": {
+    "name": "presente continuo",
+    "en": "present continuous",
+    "text": "*Am*, *is* o *are* con un verbo en *-ing*: algo que pasa ahora o en estos días, como «estar» + gerundio. También sirve para planes ya decididos.",
+    "examples": [["I'm reading a book.", "Estoy leyendo un libro."], ["She's working in London this week.", "Esta semana trabaja en Londres."], ["We're leaving tomorrow.", "Nos vamos mañana."]],
+    "wrong": [["I reading now.", "I'm reading now."], ["Look! It rains.", "Look! It's raining."]]
+  },
+  "future-time-clauses": {
+    "name": "presente con sentido de futuro tras *when*",
+    "en": "future time clauses",
+    "text": "Después de *when*, *before*, *after* o *as soon as*, el inglés usa presente para el futuro. El español usa subjuntivo: «cuando llegues».",
+    "examples": [["Call me when you arrive.", "Llámame cuando llegues."], ["I'll tell him when I see him.", "Se lo diré cuando lo vea."]],
+    "wrong": [["Call me when you will arrive.", "Call me when you arrive."]]
+  },
+  "subject-questions": {
+    "name": "preguntas por el sujeto",
+    "en": "subject questions",
+    "text": "Si *who* o *what* es el sujeto (quién o qué hace la acción), la pregunta no lleva *do*, *does* ni *did*, y el verbo va en su forma normal.",
+    "examples": [["What happened?", "¿Qué pasó?"], ["Who called you?", "¿Quién te llamó?"]],
+    "wrong": [["What did happen?", "What happened?"], ["Who did call you?", "Who called you?"]]
   }
 }
