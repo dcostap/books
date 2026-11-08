@@ -87,7 +87,7 @@ const wordKey = (w) => `${w.book}/${w.chapter}/${w.at[0]}`;
 const savedAt = (book, chapter, i) => store.words.find((w) => w.book === book && w.chapter === chapter && w.at.includes(i));
 
 const systemDark = matchMedia("(prefers-color-scheme: dark)");
-const narrow = matchMedia("(max-width: 40rem)"); // the word popup is a panel above the player (style.css)
+const sheet = matchMedia("not all and (min-width: 66rem)"); // the word panel: a sheet above the player, else at the side (style.css)
 
 function applySettings() {
   const { theme, font, size } = store.settings, root = document.documentElement;
@@ -558,7 +558,7 @@ function showReader(book, chapter, target) {
 
   function band() {
     const top = header.getBoundingClientRect().bottom;
-    const bottom = (narrow.matches && !pop.hidden ? pop : player).getBoundingClientRect().top;
+    const bottom = (sheet.matches && !pop.hidden ? pop : player).getBoundingClientRect().top;
     return { top, bottom, height: bottom - top };
   }
 
@@ -782,10 +782,10 @@ function showReader(book, chapter, target) {
     seek(words[Math.max(start, first - LEAD)].s - PREROLL);
     play();
   });
-  // A footnote opened or closed. The observer places the popup before the next paint; the toggle event comes a frame
-  // late. On a phone, the page also scrolls to make room.
+  // A footnote opened or closed. The observer places the panel before the next paint; the toggle event comes a frame
+  // late. The sheet also scrolls the page to make room.
   new ResizeObserver(() => { if (!pop.hidden) placePop(); }).observe(pop);
-  on(pop, "toggle", () => { if (narrow.matches) placePop(true); }, { capture: true });
+  on(pop, "toggle", () => { if (sheet.matches) placePop(true); }, { capture: true });
   // A concept link in the note opens or closes its footnote.
   on($(".pop-note"), "click", (e) => {
     const ref = e.target.closest(".concept-ref");
@@ -943,58 +943,34 @@ function showReader(book, chapter, target) {
     placePop(true);
   }
 
-  // Narrow screens: a full-width panel on top of the player, as tall as its content. Pinned (pin), the page
-  // scrolls so that the bottom of the sentence touches the top of the panel, but never so far that the unit goes
-  // under the header. Where the page cannot scroll so far, the panel grows up to the sentence.
-  // Else: pinned, below the unit if it fits above the player, else above it, else below it after the page scrolls the
-  // unit up. Later calls keep that side. Centred on the tapped word.
-  // A word with its column, so that a popup does not cover the Spanish under it
+  // The panel fills the space between the header and the player: at the side on wide screens (style.css).
+  // As a sheet on top of the player, it is as tall as its content. Pinned (pin), the page scrolls so that the bottom
+  // of the sentence touches the top of the sheet, but never so far that the unit goes under the header. Where the
+  // page cannot scroll so far, the sheet grows up to the sentence.
+  // A word with its column, so that the sheet does not cover the Spanish under it
   const unitBox = (j) => (words[j].el.closest(".u") ?? words[j].el).getBoundingClientRect();
-  let popSide = "below", popRoom = Infinity;
   function placePop(pin = false) {
-    if (narrow.matches) {
-      const gap = 8, top = header.getBoundingClientRect().bottom, bottom = player.getBoundingClientRect().top;
-      const rects = picked.map(unitBox);
-      const unitTop = Math.min(...rects.map((r) => r.top)), unitBottom = Math.max(...rects.map((r) => r.bottom));
-      // While the reader types a note, the panel can use all the space.
-      const typing = pop.contains(document.activeElement);
-      const room = bottom - top - (typing ? 0 : unitBottom - unitTop + 2 * gap);
-      pop.style.left = pop.style.top = "";
-      pop.style.bottom = `${window.innerHeight - bottom}px`;
-      pop.style.maxHeight = `${room}px`;
-      if (!pin) return;
-      pop.style.minHeight = `${Math.min(room, window.innerHeight * 0.3)}px`;
-      const height = pop.offsetHeight;
-      const space = bottom - gap - sentences[words[pop.dataset.word].sentence].el.getBoundingClientRect().bottom;
-      const shift = Math.max(-window.scrollY, Math.min(height - space, unitTop - top - gap));
-      pop.style.minHeight = `${clamp(space + shift, height, bottom - top)}px`;
-      if (Math.abs(shift) > 1) window.scrollTo({ top: window.scrollY + shift, behavior: "smooth" });
+    const gap = 8, top = header.getBoundingClientRect().bottom, bottom = player.getBoundingClientRect().top;
+    pop.style.bottom = `${window.innerHeight - bottom}px`;
+    if (!sheet.matches) {
+      pop.style.top = `${top}px`;
+      pop.style.minHeight = pop.style.maxHeight = "";
       return;
     }
-    const gap = 8, rects = picked.map(unitBox), b = band();
-    const r = words[pop.dataset.word].el.getBoundingClientRect();
-    let top = Math.min(...rects.map((x) => x.top)), bottom = Math.max(...rects.map((x) => x.bottom));
-    pop.style.bottom = pop.style.minHeight = pop.style.maxHeight = "";
-    const height = pop.offsetHeight;
-    if (pin) {
-      // Below if it fits, else above. Else scroll the unit up to the header and put the popup below it.
-      popSide = bottom + 2 * gap + height <= b.bottom ? "below" : top - 2 * gap - height >= b.top ? "above" : "below";
-      const shift = Math.min(bottom + 2 * gap + height - b.bottom, top - b.top - gap, document.documentElement.scrollHeight - window.innerHeight - window.scrollY);
-      if (popSide === "below" && shift > 1) {
-        window.scrollTo({ top: window.scrollY + shift, behavior: "smooth" });
-        top -= shift;
-        bottom -= shift;
-      }
-      // Measured once: later calls can come while the page still scrolls.
-      popRoom = popSide === "below" ? b.bottom - bottom - 2 * gap : top - b.top - 2 * gap;
-    }
-    // The popup stays on its side and never covers the unit. When it is too tall, it scrolls.
-    const room = popRoom;
+    const rects = picked.map(unitBox);
+    const unitTop = Math.min(...rects.map((r) => r.top)), unitBottom = Math.max(...rects.map((r) => r.bottom));
+    // While the reader types a note, the sheet can use all the space.
+    const typing = pop.contains(document.activeElement);
+    const room = bottom - top - (typing ? 0 : unitBottom - unitTop + 2 * gap);
+    pop.style.top = "";
     pop.style.maxHeight = `${room}px`;
-    const x = clamp(r.left + r.width / 2 - pop.offsetWidth / 2, gap, window.innerWidth - pop.offsetWidth - gap);
-    const y = popSide === "below" ? bottom + gap : top - gap - Math.min(height, room);
-    pop.style.left = `${x + window.scrollX}px`;
-    pop.style.top = `${y + window.scrollY}px`;
+    if (!pin) return;
+    pop.style.minHeight = `${Math.min(room, window.innerHeight * 0.3)}px`;
+    const height = pop.offsetHeight;
+    const space = bottom - gap - sentences[words[pop.dataset.word].sentence].el.getBoundingClientRect().bottom;
+    const shift = Math.max(-window.scrollY, Math.min(height - space, unitTop - top - gap));
+    pop.style.minHeight = `${clamp(space + shift, height, bottom - top)}px`;
+    if (Math.abs(shift) > 1) window.scrollTo({ top: window.scrollY + shift, behavior: "smooth" });
   }
 
   function closePop() {
