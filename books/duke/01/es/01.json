@@ -259,10 +259,11 @@
       3,
       4
      ],
-     "es": "la cabeza",
+     "es": "sus cabezas",
      "also": [
       "jefe (*head of the school*)"
-     ]
+     ],
+     "note": "Con partes del cuerpo, el español usa «la» y no «su», y el singular si cada uno tiene una: «hundían la cabeza»."
     },
     {
      "t": [
@@ -270,7 +271,8 @@
       6,
       7
      ],
-     "es": "entre las manos"
+     "es": "en sus manos",
+     "note": "Como antes: en español, «entre las manos»."
     },
     {
      "t": [
@@ -840,7 +842,8 @@
       4,
       5
      ],
-     "es": "con los ojos"
+     "es": "con sus ojos",
+     "note": "Como con *their heads*: en español, «con los ojos»."
     },
     {
      "t": [
