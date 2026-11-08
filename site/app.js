@@ -6,7 +6,7 @@ const SIZES = [0.8, 0.9, 1, 1.1, 1.2, 1.35, 1.5, 1.7, 1.9];
 const FONTS = { serif: "Clásica", sans: "Moderna" };
 // The colours of each theme are in style.css. "auto" follows the system: paper or night.
 const THEMES = { auto: "Auto", paper: "Papel", sepia: "Sepia", white: "Blanco", night: "Noche", slate: "Pizarra", black: "Negro" };
-const DEFAULTS = { rate: 1, size: 1, font: "serif", theme: "auto", gloss: false };
+const DEFAULTS = { rate: 1, size: 1, font: "serif", theme: "auto", gloss: true };
 const PREROLL = 0.05; // seconds: start a little before a word when jumping to it
 const LEAD = 2; // "Escuchar desde aquí" starts this many words before the tapped unit
 
@@ -339,7 +339,7 @@ function showReader(book, chapter, target) {
         <button class="chip rate" aria-label="Velocidad" aria-haspopup="menu" aria-expanded="false"></button>
         <button class="icon play" aria-label="Reproducir">${icon("play")}</button>
         <div class="end">
-          <button class="chip gloss" aria-label="Traducción entre líneas" title="Traducción entre líneas" aria-pressed="false">ES</button>
+          <button class="chip gloss" aria-label="Traducción entre líneas" title="Traducción entre líneas" aria-pressed="false"><span class="langs"><span>EN</span><span>ES</span></span></button>
           <button class="chip look" aria-label="Texto y tema" aria-haspopup="dialog" aria-expanded="false">Aa</button>
         </div>
         <div class="panel rates" role="menu" aria-label="Velocidad" hidden>
