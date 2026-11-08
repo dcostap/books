@@ -22,6 +22,7 @@ Run the PWA checks with `node --test tools/pwa.test.mjs`.
 
 ```
 books/<id>/book.json          book metadata, the source PDF, and the list of chapters (source audio paths)
+books/<id>/NOTES.md           what is special to one book: audio, text, and translation (names, level, tú or usted)
 books/<id>/cover.jpg
 books/<id>/source/book.pdf    the book text (the same edition the narrator reads)
 books/<id>/<nn>/text.md       the text the reader sees (from the book; edit this)
@@ -31,10 +32,10 @@ tools/import_text.py          book.pdf -> text.md for each chapter
 tools/transcribe.py           audio -> whisper.json
 tools/retime.py               text.md + whisper.json + audio -> words.json (forced aligner)
 tools/build.py                books/ -> site/ (chapter JSON, chapter MP3, Spanish help, library.json)
-tools/translation.py          Spanish help: splits a chapter into jobs for subagents, and checks their answers
-tools/prompts/                the subagent tasks: glossary.md, translate.md, review.md
-guides/translation-es.md      the style guide for the Spanish help (all books)
-books/<id>/es/glossary.md     the names and terms of one book in Spanish
+tools/translation.py          Spanish help: splits a chapter into jobs, checks the answers, and shows them
+guides/translation-es.md      the rules for the Spanish help (all books), for translators and reviewers
+guides/concepts-es.json       ideas of English grammar that notes link to, with examples (all books)
+guides/translation-workflow.md  how the orchestrator runs the translation of a chapter
 books/<id>/<nn>/es/           the jobs and the answers for one chapter
 site/                         the web app; GitHub Pages publishes this folder
 ```
@@ -61,17 +62,18 @@ Format:
 
 ## Spanish help
 
-Tap a word: the popup shows the unit it belongs to (a word, a phrase, or an idiom), its Spanish meaning at that place, an optional note, and the Spanish translation of the sentence. The reader is a Spanish speaker at level B2.
+The Spanish line under the English (the "ES" button) shows a natural Spanish translation of each sentence, in chunks under the English words they translate. Tap a word: the popup shows its unit (a word with its small words, or an idiom), its Spanish meaning at that place, its dictionary form, its other common meanings, an optional note, and the Spanish sentence with the unit's Spanish marked. A note can link to an idea of grammar (`[[uncountable]]`): the popup then shows the idea's explanation, examples and typical mistakes under the note. On narrow screens, this part is folded.
 
 The bookmark in the popup saves the unit to "Mis palabras", with an optional note. A saved unit has a ring around it, in the theme's "saved" colour (`--saved`). On wide screens, its note shows in a bubble in the right margin. The "Mis palabras" page lists the saved units, newest first, with a search. Tap one to open the chapter at its place. The audio position does not change. The page also exports and imports a JSON copy, because `localStorage` is lost when the browser data is cleared.
 
-Subagents write the help, following `guides/translation-es.md`:
+Agents write the help. `guides/translation-workflow.md` has the steps, and `guides/translation-es.md` has the rules. In short:
 
-1. `python tools/translation.py prep books/hp1 1` splits the chapter into jobs of about 1500 words (`--jobs N` sets the number; `--paragraphs N` makes jobs for the first N blocks only).
-2. One agent writes the book glossary (`tools/prompts/glossary.md`).
-3. One agent for each job writes its answer (`tools/prompts/translate.md`). It runs `python tools/translation.py check books/hp1 1 <job>` until the answer is correct.
-4. A reviewer reads all the answers of the chapter and corrects them (`tools/prompts/review.md`). The reviewer also checks the chapter as a whole: the same help for the same word, one note for each idea, and *tú* or *usted*.
+1. `python tools/translation.py prep books/duke 1` splits the chapter into jobs of about 1500 words (`--jobs N` sets the number; `--paragraphs N` makes jobs for the first N blocks only).
+2. An agent does each job. It runs `python tools/translation.py check books/duke 1 <job>` until the answer is correct.
+3. `python tools/translation.py show books/duke 1` prints the answers for a person or a reviewer to read.
 4. `build.py` checks the answers again and merges them. It skips an answer with errors, and a sentence whose text changed after prep.
+
+hp1 chapter 1 uses the older format (one set of units for the popup and the line, and `books/hp1/es/glossary.md`). The tools still accept it.
 
 ## Commands
 

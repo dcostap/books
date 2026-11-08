@@ -7,7 +7,7 @@ For each books/<id>/book.json:
   - copies the chapter audio to site/books/<id>/<nn>.mp3 as it is (a second lossy encode loses quality)
   - merges the checked Spanish translations (books/<id>/<nn>/es/) into site/books/<id>/<nn>.es.json
   - copies the cover
-Then writes site/library.json.
+Then writes site/library.json, and site/concepts-es.json from guides/concepts-es.json.
 
 The text is the source of truth for what the reader sees. The timings come from words.json,
 which retime.py makes from text.md. If text.md changed after that, the build links each edited
@@ -66,10 +66,13 @@ def ends_sentence(token):
     return re.search(r"[.!?][\"'”’)]*$", token) and token.lower() not in ABBREVIATIONS and not initial
 
 
-def parse(text):
+def parse(text, old_split=False):
     """Split text.md into blocks of sentences of tokens.
 
     Blocks are separated by blank lines. "# " marks a heading, and "*" alone is a scene break.
+    A quote that ends in ? or ! does not end the sentence when a small letter comes next: "‘What is it?’ said
+    Holmes." is one sentence. With old_split (book.json "oldSentenceSplit"), it does: hp1 chapter 1's translation
+    was made with that split.
     """
     blocks = []
     for raw in re.split(r"\n\s*\n", text.strip()):
@@ -77,9 +80,11 @@ def parse(text):
             blocks.append({"type": "break", "sentences": []})
             continue
         sentences = [[]]
-        for token in raw.removeprefix("# ").split():
+        tokens = raw.removeprefix("# ").split()
+        for k, token in enumerate(tokens):
             sentences[-1].append(token)
-            if ends_sentence(token):
+            said = k + 1 < len(tokens) and tokens[k + 1][0].islower() and re.search(r"[?!][\"'”’]+$", token)
+            if ends_sentence(token) and (old_split or not said):
                 sentences.append([])
         blocks.append({"type": "h" if raw.startswith("# ") else "p", "sentences": [s for s in sentences if s]})
     return blocks
@@ -89,9 +94,9 @@ def tokens_of(blocks):
     return [t for b in blocks for s in b["sentences"] for t in s]
 
 
-def build_chapter(text, words):
+def build_chapter(text, words, old_split=False):
     """Return the blocks of text.md with timed tokens, and the number of tokens without an exact time."""
-    blocks = parse(text)
+    blocks = parse(text, old_split)
     times, matched = align(tokens_of(blocks), words)
     times = iter(times)
     for block in blocks:
@@ -109,7 +114,7 @@ def duration(path):
 
 
 def main():
-    from translation import merge  # here, because translation.py imports this file
+    from translation import load_concepts, merge  # here, because translation.py imports this file
 
     library = []
     for book_file in sorted((ROOT / "books").glob("*/book.json")):
@@ -125,7 +130,8 @@ def main():
             audio = out_dir / f"{n:02d}.mp3"
             shutil.copyfile(ROOT / chapter["audio"], audio)
             words = json.loads((src_dir / "words.json").read_text(encoding="utf-8"))
-            blocks, untimed = build_chapter((src_dir / "text.md").read_text(encoding="utf-8"), words)
+            blocks, untimed = build_chapter((src_dir / "text.md").read_text(encoding="utf-8"), words,
+                                            book.get("oldSentenceSplit", False))
             data = {"title": chapter["title"], "audio": f"books/{book_id}/{audio.name}",
                     "duration": duration(audio), "blocks": blocks}
             translation, es_path = merge(src_dir), out_dir / f"{n:02d}.es.json"
@@ -149,6 +155,8 @@ def main():
                         "chapters": chapters})
     (SITE / "library.json").write_text(json.dumps(library, ensure_ascii=False, indent=2) + "\n",
                                        encoding="utf-8", newline="\n")
+    (SITE / "concepts-es.json").write_text(json.dumps(load_concepts(), ensure_ascii=False, separators=(",", ":")),
+                                           encoding="utf-8", newline="\n")
 
 
 if __name__ == "__main__":

@@ -332,6 +332,26 @@ dialog form { text-align: right; }
 }
 .pop-note i { font-family: var(--serif); font-size: 1.05em; }
 .pop-gloss:empty, .pop-note:empty { display: none; }
+/* Other meanings, and the concepts that the note links to, as footnotes */
+.pop-also { font-size: 0.95rem; line-height: 1.45; }
+.pop-also > span { color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+.pop-also ul, .pop-concepts ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
+.pop-also i, .pop-concepts i { font-family: var(--serif); font-size: 1.05em; }
+.concept-ref { text-decoration: underline dotted; text-underline-offset: 0.2em; color: var(--accent); }
+.concept-ref sup { margin-left: 0.1em; font-size: 0.7em; font-weight: 700; }
+.pop-concepts { display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.88rem; line-height: 1.45; }
+.pop-concepts:empty { display: none; }
+.pop-concepts details { padding-top: 0.35rem; border-top: 1px solid var(--line); }
+.pop-concepts summary { cursor: pointer; font-weight: 600; }
+.pop-concepts summary sup { margin-right: 0.3rem; color: var(--accent); font-size: 0.75em; }
+.pop-concepts p { margin: 0.2rem 0 0; }
+.pop-concepts li span { color: var(--muted); }
+.pop-concepts li span::before { content: "— "; }
+/* Typical mistakes: "✗ wrong → right" */
+.pop-concepts .wrong { margin-top: 0.35rem; padding-left: 0; list-style: none; }
+.pop-concepts .wrong s { color: var(--muted); font-family: var(--serif); text-decoration-color: color-mix(in srgb, var(--fg) 45%, transparent); }
+.pop-concepts .wrong s::before { content: "✗ "; display: inline-block; margin-right: 0.15rem; color: #c8553d; text-decoration: none; }
+.pop-concepts .wrong i::before { content: "→ "; color: var(--muted); font-style: normal; }
 .pop-more { display: flex; align-items: center; gap: 0.25rem; align-self: flex-start; margin: -0.1rem 0 -0.1rem -0.2rem; padding: 0.3rem 0.4rem 0.3rem 0.1rem; border-radius: 8px; color: var(--accent); font-size: 0.95rem; font-weight: 600; }
 .pop-more svg { width: 22px; height: 22px; fill: currentColor; transition: transform 0.15s; }
 .pop-more[aria-expanded="true"] svg { transform: rotate(180deg); }

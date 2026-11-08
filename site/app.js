@@ -8,11 +8,7 @@ const FONTS = { serif: "Clásica", sans: "Moderna" };
 const THEMES = { auto: "Auto", paper: "Papel", sepia: "Sepia", white: "Blanco", night: "Noche", slate: "Pizarra", black: "Negro" };
 const DEFAULTS = { rate: 1, size: 1, font: "serif", theme: "auto", gloss: false };
 const PREROLL = 0.05; // seconds: start a little before a word when jumping to it
-// A tapped unit near the audio. Heard: in the sentence of the play head or the one before it. Ahead: at most
-// AHEAD words after the play head. A heard unit moves the play head back to the start of its sentence, or to one
-// word before the unit if the sentence starts more than RESTART words before it.
-const AHEAD = 8;
-const RESTART = 5;
+const LEAD = 2; // "Escuchar desde aquí" starts this many words before the tapped unit
 
 const ICONS = {
   back: "M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z",
@@ -26,20 +22,36 @@ const ICONS = {
 const icon = (name) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${ICONS[name]}"/></svg>`;
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 
-function translationHTML(sentence, gloss) {
-  if (!gloss?.trim()) return esc(sentence);
-  const phrase = gloss.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/gu, "\\s+");
-  // Match whole words, ignoring case and spacing. Count overlapping matches too.
+// Where a phrase is in a text, as whole words, ignoring case and spacing: [[index, length]...], overlaps included.
+function find(text, phrase) {
+  const pattern = phrase.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/gu, "\\s+");
   const wordEnd = /[\p{L}\p{M}\p{N}_'’\-]$/u;
   const wordStart = /^[\p{L}\p{M}\p{N}_'’\-]/u;
-  const matches = [...sentence.matchAll(new RegExp(`(?=(${phrase}))`, "giu"))].filter((match) =>
-    !wordEnd.test(sentence.slice(0, match.index))
-    && !wordStart.test(sentence.slice(match.index + match[1].length)),
-  );
-  // Reworded translations and repeated phrases have no reliable match. Do not guess.
-  if (matches.length !== 1) return esc(sentence);
-  const [{ index, 1: text }] = matches;
-  return `${esc(sentence.slice(0, index))}<mark>${esc(text)}</mark>${esc(sentence.slice(index + text.length))}`;
+  return [...text.matchAll(new RegExp(`(?=(${pattern}))`, "giu"))]
+    .filter((m) => !wordEnd.test(text.slice(0, m.index)) && !wordStart.test(text.slice(m.index + m[1].length)))
+    .map((m) => [m.index, m[1].length]);
+}
+
+const marked = (text, [index, length]) =>
+  `${esc(text.slice(0, index))}<mark>${esc(text.slice(index, index + length))}</mark>${esc(text.slice(index + length))}`;
+
+// The sentence translation, with the Spanish of the tapped unit marked. A match that is not the only one is not
+// reliable: do not guess. With a reading line: mark the gloss (or one of its meanings) in the chunks that hold the
+// unit's tokens; else mark those chunks. Without a reading line (hp1 chapter 1): mark the gloss in the sentence.
+function translationHTML(entry, unit) {
+  if (!entry.line) {
+    const matches = unit?.es.trim() ? find(entry.es, unit.es) : [];
+    return matches.length === 1 ? marked(entry.es, matches[0]) : esc(entry.es);
+  }
+  const ours = (c) => unit?.t.some((k) => c.t.includes(k));
+  for (const meaning of (unit?.es ?? "").split(",").filter((m) => m.trim() && !m.trim().startsWith("("))) {
+    const matches = entry.line.flatMap((c, n) => (ours(c) ? find(c.es, meaning).map((at) => [n, at]) : []));
+    if (matches.length === 1) {
+      const [[n, at]] = matches;
+      return entry.line.map((c, j) => (j === n ? marked(c.es, at) : esc(c.es))).join(" ");
+    }
+  }
+  return entry.line.map((c) => (ours(c) ? `<mark>${esc(c.es)}</mark>` : esc(c.es))).join(" ");
 }
 
 const clamp = (x, lo, hi) => Math.min(hi, Math.max(lo, x));
@@ -97,6 +109,9 @@ function loadError(container, message) {
 }
 
 const library = await fetchJSON("library.json").catch(() => null);
+// The ideas of English grammar that notes link to: { [id]: { name, en, text, examples: [[en, es]...], wrong: [[bad, good]...] } }
+let concepts = {};
+fetchJSON("concepts-es.json").then((c) => (concepts = c), () => {});
 
 // Routing: #/ (library), #/<book> (chapters), #/<book>/<n> (reader), #/<book>/<n>/<word> (reader, open at a word),
 // #/words and #/words/<book> (saved words)
@@ -301,6 +316,8 @@ function showReader(book, chapter, target) {
       </div>
       <div class="pop-gloss" lang="es"></div>
       <p class="pop-note" lang="es"></p>
+      <div class="pop-also" lang="es"><span>En otros contextos</span><ul></ul></div>
+      <div class="pop-concepts" lang="es"></div>
       <label class="pop-mine"><span>Tu nota</span><textarea rows="2" placeholder="Escribe aquí…"></textarea></label>
       <button class="pop-more" aria-expanded="false">${icon("more")}<span>Ver la frase entera</span></button>
       <p class="pop-sentence" lang="es" hidden></p>
@@ -343,11 +360,10 @@ function showReader(book, chapter, target) {
 
   const words = []; // { el, s, e, sentence, k (its number in the sentence) }
   const sentences = []; // { el, first (index of its first word) }
-  let translation = null; // for each sentence: { es, units: [{ t: [k...], es, note }] } or null
+  let translation = null; // for each sentence: { es, line: [{ t: [k...], es }] (optional), units: [{ t: [k...], es, base, note, also }] } or null
   let current = -1; // index of the highlighted word
   let picked = []; // indexes of the words outlined by the open popup
   let popUnit = null; // the unit of the open popup
-  let listenedTo = null; // the play head time before the open popup moved it, or null
   let follow = true; // scroll the page with the audio
   let ready = false; // audio is at the saved position, so progress can be saved
   let frame = 0;
@@ -413,16 +429,17 @@ function showReader(book, chapter, target) {
     layoutMarks();
   }
 
-  // Translation between the lines (the gloss setting). Each unit becomes a column, the English over the Spanish,
-  // and each sentence starts a line (style.css). A unit with a gap, as "looked … up", has its Spanish under its
-  // part with the most letters. The Spanish of the first unit starts with a capital, as the English does.
+  // Translation between the lines (the gloss setting). Each chunk of the reading line becomes a column, the English
+  // over the Spanish, and each sentence starts a line (style.css). Without a reading line (hp1 chapter 1), the popup
+  // units are the columns: a unit with a gap, as "looked … up", has its Spanish under its part with the most
+  // letters. The Spanish of the first column starts with a capital, as the English does.
   function addGlosses() {
     const letters = (run) => run.reduce((sum, i) => sum + trim(words[i].el.textContent).length, 0);
     translation.forEach((entry, s) => {
       const { first } = sentences[s] ?? {};
       if (!entry || first === undefined) return;
       const capital = /^\P{L}*\p{Lu}/u.test(words[first].el.textContent);
-      for (const unit of entry.units) {
+      for (const unit of entry.line ?? entry.units) {
         const at = unit.t.map((k) => first + k).sort((a, b) => a - b);
         const runs = at.reduce((out, i, n) => (n && i === at[n - 1] + 1 ? out.at(-1).push(i) : out.push([i]), out), []);
         const run = runs.reduce((best, r) => (letters(r) > letters(best) ? r : best));
@@ -597,7 +614,6 @@ function showReader(book, chapter, target) {
   function seek(t, behavior = "smooth") {
     t = clamp(t, 0, chapter.duration);
     audio.currentTime = t;
-    listenedTo = null;
     follow = true;
     highlight(wordAt(t));
     showTime(t);
@@ -750,12 +766,14 @@ function showReader(book, chapter, target) {
     // The player stays usable with the popup open. Its play button closes the popup.
     if (!pop.hidden && !e.composedPath().includes(pop) && !e.target.closest(".w, .bubble, .g, .player")) closePop();
   });
+  // Start LEAD words before the unit, to hear it in context, but not before its sentence.
   on($(".pop-play"), "click", () => {
-    const i = Number(pop.dataset.word);
+    const first = Math.min(...picked), start = sentences[words[first].sentence].first;
     closePop();
-    seek(words[i].s - PREROLL);
+    seek(words[Math.max(start, first - LEAD)].s - PREROLL);
     play();
   });
+  on(pop, "toggle", () => placePop(true), { capture: true }); // a footnote opened or closed
   on($(".pop-more"), "click", (e) => {
     const sentence = $(".pop-sentence");
     sentence.hidden = !sentence.hidden;
@@ -803,27 +821,39 @@ function showReader(book, chapter, target) {
   // Notes mark English words as *word*.
   const rich = (text) => esc(text).replace(/\*(.+?)\*/g, "<i lang=\"en\">$1</i>");
 
-  // A tap on a word: pause, show the popup, and put the play head where play should continue. The place is
-  // found from the play head before the popup opened, so more taps do not move it again and again.
+  // A note, with each concept link ([[id]]) as the concept's name and a footnote number. A link to a concept that
+  // is not in the dictionary goes away, with its brackets. Returns the html and the linked ids, in order.
+  function noteHTML(note) {
+    const ids = [];
+    const html = rich(note).replace(/ ?\(\[\[([a-z0-9-]+)\]\]\)|\[\[([a-z0-9-]+)\]\]/g, (all, inBrackets, bare) => {
+      const id = inBrackets ?? bare;
+      if (!concepts[id]) return "";
+      if (!ids.includes(id)) ids.push(id);
+      const n = ids.indexOf(id);
+      const ref = `<span class="concept-ref">${esc(concepts[id].name)}<sup>${n + 1}</sup></span>`;
+      return inBrackets ? ` (${ref})` : ref;
+    });
+    return { html, ids };
+  }
+
+  // The linked concepts as footnotes: open on wide screens, folded on narrow ones.
+  const footnotes = (ids) => ids.map((id, n) => {
+    const c = concepts[id];
+    return `<details${narrow.matches ? "" : " open"}>
+      <summary><sup>${n + 1}</sup>${esc(c.name.replace(/^\p{L}/u, (x) => x.toUpperCase()))}</summary>
+      <p>${rich(c.text)}</p>
+      <ul>${c.examples.map(([en, es]) => `<li><i lang="en">${esc(en)}</i> <span>${esc(es)}</span></li>`).join("")}</ul>
+      ${c.wrong ? `<ul class="wrong" lang="en">${c.wrong.map(([bad, good]) => `<li><s>${esc(bad)}</s> <i>${esc(good)}</i></li>`).join("")}</ul>` : ""}
+    </details>`;
+  }).join("");
+
+  // A tap on a word: pause and show the popup. Play continues from the same place; "Escuchar desde aquí" starts
+  // near the word.
   function lookUp(i) {
-    const from = listenedTo ?? audio.currentTime;
     openPop(i);
     if (pop.hidden) return;
     audio.pause();
     stopFollow();
-    if (!ready) return;
-    listenedTo = from;
-    const head = wordAt(from), first = Math.min(...picked), { first: start } = sentences[words[first].sentence];
-    const heard = first <= head && words[first].sentence >= words[head].sentence - 1;
-    const ahead = first > head && first - head <= AHEAD;
-    const t = heard ? words[first - start <= RESTART ? start : first - 1].s - PREROLL : from;
-    if (Math.abs(audio.currentTime - t) > 0.01) {
-      audio.currentTime = Math.max(0, t);
-      highlight(wordAt(t));
-      showTime(t);
-    }
-    $(".pop-play").hidden = heard || ahead;
-    placePop(true);
   }
 
   function openPop(i) {
@@ -842,8 +872,12 @@ function showReader(book, chapter, target) {
     $(".pop-base b").textContent = unit?.base ?? "";
     $(".pop-base").hidden = !unit?.base;
     $(".pop-gloss").textContent = unit?.es ?? "";
-    $(".pop-note").innerHTML = unit?.note ? rich(unit.note) : "";
-    $(".pop-sentence").innerHTML = translationHTML(entry?.es ?? "", unit?.es);
+    const note = noteHTML(unit?.note ?? "");
+    $(".pop-note").innerHTML = note.html;
+    $(".pop-also ul").innerHTML = (unit?.also ?? []).map((x) => `<li>${rich(x)}</li>`).join("");
+    $(".pop-also").hidden = !unit?.also;
+    $(".pop-concepts").innerHTML = footnotes(note.ids);
+    $(".pop-sentence").innerHTML = entry ? translationHTML(entry, unit) : "";
     $(".pop-sentence").hidden = true;
     // When the unit is the whole sentence, the sentence translation only repeats the gloss.
     const end = sentences[sentence + 1]?.first ?? words.length;
@@ -899,7 +933,6 @@ function showReader(book, chapter, target) {
     for (const j of picked) words[j].el.classList.remove("picked");
     view.querySelector(".s.look")?.classList.remove("look");
     picked = [];
-    listenedTo = null;
     pop.hidden = true;
   }
 

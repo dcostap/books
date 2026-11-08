@@ -3,6 +3,7 @@
   "author": "J.K. Rowling",
   "narrator": "Jim Dale",
   "cover": "cover.jpg",
+  "oldSentenceSplit": true,
   "source": { "pdf": "source/book.pdf", "end": "J. K. (JOANNE KATHLEEN) ROWLING" },
   "prompt": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal. Dumbledore, Professor McGonagall, Hagrid, Voldemort, Muggles, Grunnings, Dudley, Petunia, Vernon.",
   "chapters": [
