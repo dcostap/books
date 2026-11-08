@@ -165,5 +165,19 @@
     "text": "Si *who* o *what* es el sujeto (quién o qué hace la acción), la pregunta no lleva *do*, *does* ni *did*, y el verbo va en su forma normal.",
     "examples": [["What happened?", "¿Qué pasó?"], ["Who called you?", "¿Quién te llamó?"]],
     "wrong": [["What did happen?", "What happened?"], ["Who did call you?", "Who called you?"]]
+  },
+  "ordinal-dates": {
+    "name": "ordinales en las fechas",
+    "en": "ordinal numbers in dates",
+    "text": "Para el día del mes, el inglés usa el ordinal: *the 1st of May* («el primero de mayo»), *the 13th* («el trece»). Se dice *the first*, *the thirteenth*. Los meses se escriben con mayúscula.",
+    "examples": [["My birthday is on the 3rd of June.", "Mi cumpleaños es el 3 de junio."], ["We met on the 21st of March.", "Nos conocimos el 21 de marzo."]],
+    "wrong": [["on the 13 of May", "on the 13th of May"], ["the 1th of May", "the 1st of May"]]
+  },
+  "negative-words": {
+    "name": "palabras negativas",
+    "en": "negative words",
+    "text": "*Never*, *nothing*, *nobody* y *no* ya niegan la frase, así que no llevan *not*. En español se dice «no vi nada», pero en inglés basta una negación.",
+    "examples": [["I saw nothing.", "No vi nada."], ["She never drinks coffee.", "Nunca toma café."], ["Nobody came.", "No vino nadie."]],
+    "wrong": [["I didn't see nothing.", "I saw nothing."], ["He doesn't never eat meat.", "He never eats meat."]]
   }
 }

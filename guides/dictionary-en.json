@@ -5133,6 +5133,14 @@
           "It was late, so we went home.",
           "Era tarde, así que nos fuimos a casa."
         ]
+      },
+      {
+        "id": "reference",
+        "es": "eso, así",
+        "ex": [
+          "I hope so.",
+          "Eso espero."
+        ]
       }
     ]
   },
@@ -5488,6 +5496,30 @@
       }
     ]
   },
+  "take away": {
+    "forms": {
+      "past": "took away",
+      "participle": "taken away"
+    },
+    "senses": [
+      {
+        "id": "remove",
+        "es": "llevarse",
+        "ex": [
+          "The police took him away.",
+          "La policía se lo llevó."
+        ]
+      },
+      {
+        "id": "deprive",
+        "es": "quitar",
+        "ex": [
+          "Don't take my phone away!",
+          "¡No me quites el móvil!"
+        ]
+      }
+    ]
+  },
   "take out": {
     "forms": {
       "past": "took out",
@@ -5668,6 +5700,14 @@
         "ex": [
           "Eat first, then wash the dishes.",
           "Come primero y después lava los platos."
+        ]
+      },
+      {
+        "id": "inference",
+        "es": "entonces, en ese caso",
+        "ex": [
+          "Then why are you here?",
+          "Entonces, ¿por qué estás aquí?"
         ]
       }
     ]
@@ -6411,6 +6451,22 @@
         "ex": [
           "Write your address here.",
           "Escribe tu dirección aquí."
+        ]
+      }
+    ]
+  },
+  "write down": {
+    "forms": {
+      "past": "wrote down",
+      "participle": "written down"
+    },
+    "senses": [
+      {
+        "id": "record",
+        "es": "anotar, apuntar",
+        "ex": [
+          "Write down your address.",
+          "Apunta tu dirección."
         ]
       }
     ]
