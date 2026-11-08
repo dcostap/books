@@ -20,6 +20,13 @@
     "examples": [["my father’s car", "el coche de mi padre"], ["the doctor’s bag", "el maletín del médico"], ["the boys’ room", "la habitación de los chicos"]],
     "wrong": [["the car of my father", "my father’s car"], ["the boys’s room", "the boys’ room"]]
   },
+  "body-possessive": {
+    "name": "posesivos con partes del cuerpo",
+    "en": "possessives with parts of the body",
+    "text": "Con las partes del cuerpo y la ropa, el inglés usa *my*, *his*, *their*…, donde el español usa «el» o «la». Y si cada persona tiene una, va en plural: *they shook their heads*.",
+    "examples": [["I broke my leg.", "Me rompí la pierna."], ["He put his hands in his pockets.", "Se metió las manos en los bolsillos."], ["They shook their heads.", "Negaron con la cabeza."]],
+    "wrong": [["I washed the hands.", "I washed my hands."], ["She closed the eyes.", "She closed her eyes."]]
+  },
   "auxiliary-do": {
     "name": "auxiliar *do*",
     "en": "auxiliary do",
