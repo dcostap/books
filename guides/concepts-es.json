@@ -183,7 +183,7 @@
   "plural-agreement": {
     "name": "sustantivos con verbo en plural",
     "en": "plural nouns",
-    "text": "Algunos sustantivos llevan siempre el verbo en plural: *people* (aunque sea «gente»), *the police* («la policía»), *trousers* y *glasses* (una sola prenda, pero dos piernas o dos cristales).",
+    "text": "Algunos sustantivos llevan siempre el verbo en plural: *people* (aunque sea «gente»), *the police* («la policía»), *trousers* («pantalones») y *glasses* («gafas»). Los dos últimos llevan plural aunque hables de un solo objeto.",
     "examples": [["The police are here.", "La policía está aquí."], ["People are very kind.", "La gente es muy amable."], ["My trousers are wet.", "Tengo los pantalones mojados."]],
     "wrong": [["The police is here.", "The police are here."], ["People is angry.", "People are angry."]]
   }

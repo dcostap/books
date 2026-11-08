@@ -156,7 +156,7 @@
         {"t": [8], "es": "muy", "base": "very", "sense": "degree"},
         {"t": [9], "es": "feliz", "base": "happy", "sense": "feeling"},
         {"t": [11], "es": "nosotros"},
-        {"t": [12], "es": "todos"},
+        {"t": [12], "es": "todos", "base": "all", "sense": "every"},
         {"t": [13, 14], "es": "sabemos de", "base": "know", "sense": "information", "note": "*Know about* es tener información sobre algo, no conocer personalmente a alguien."},
         {"t": [15, 16], "es": "el duque", "base": "duke", "sense": "noble"},
         {"t": [17], "es": "y"},

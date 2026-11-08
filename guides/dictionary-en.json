@@ -43,7 +43,7 @@
       },
       {
         "id": "approximately",
-        "es": "unos, más o menos",
+        "es": "aproximadamente, unos",
         "ex": [
           "It costs about ten euros.",
           "Cuesta unos diez euros."
@@ -1289,7 +1289,7 @@
       },
       {
         "id": "south",
-        "es": "hacia el sur, bajar a",
+        "es": "hacia el sur",
         "ex": [
           "We went down to Madrid from Burgos.",
           "Bajamos a Madrid desde Burgos."
@@ -3100,8 +3100,8 @@
         "id": "similar",
         "es": "como",
         "ex": [
-          "This tastes like lemon.",
-          "Esto sabe como el limón."
+          "He swims like a fish.",
+          "Nada como un pez."
         ]
       },
       {
@@ -4760,7 +4760,7 @@
       },
       {
         "id": "lift",
-        "es": "llevar en coche",
+        "es": "viaje en coche",
         "ex": [
           "Can you give me a ride?",
           "¿Me puedes llevar en coche?"
@@ -5203,7 +5203,7 @@
         "es": "sueño",
         "ex": [
           "a good night's sleep",
-          "una buena noche de sueño"
+          "una noche de sueño reparador"
         ]
       },
       {
@@ -5660,10 +5660,10 @@
       },
       {
         "id": "destroy",
-        "es": "eliminar",
+        "es": "destruir, eliminar",
         "ex": [
           "They took out the enemy camp.",
-          "Eliminaron el campamento enemigo."
+          "Destruyeron el campamento enemigo."
         ]
       }
     ]
