@@ -156,11 +156,12 @@ Do not write a note when:
 - The reader knows the word at this level, or the gloss says everything.
 - The word looks like a Spanish word and means the same: "director", "mysterious".
 - The note only explains the Spanish, not the English.
-- The same word or idea already has a note earlier **in the chapter**, also before your job. Write each note one time in a chapter.
+- The same word or idea already has a note earlier **in the chapter**, also before your job. Write each note one time in a chapter. If a later unit still needs the idea, link its concept, or write a short note that makes sense alone.
 
 Content and style:
 
 - Explain the language, not the plot.
+- **Each note stands alone.** The reader taps words in any order, and may never see the other notes. Never refer to another note: no «como antes», «como con *their heads*», «ver arriba».
 - **No spoilers.** Never tell the reader anything that the story has not told them yet: names, identities, future events, who did what. In a mystery, also do not hint that a person or a detail is important.
 - One or two ideas in each note, the most useful first. Then add why, if it helps: the literal meaning, the origin, how it sounds to a British reader.
 - Do not repeat the base form or the gloss.
