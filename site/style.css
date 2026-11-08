@@ -326,7 +326,7 @@ dialog form { text-align: right; }
 .pop-base { margin-top: 0.2rem; font-size: 0.9rem; }
 .pop-base .form > span, .word-base .form > span { margin-right: 0.15rem; color: var(--muted); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
 .pop-base b { font-family: var(--serif); font-weight: 600; }
-.pop-base .form, .word-base .form { margin-right: 0.6rem; white-space: nowrap; }
+.pop-base .form, .word-base .form { display: inline-block; max-width: 100%; margin-right: 0.6rem; }
 /* Spanish: the meaning, then the note */
 .pop-gloss { font-family: var(--serif); font-size: 1.45rem; font-weight: 700; line-height: 1.25; }
 .pop-note {
