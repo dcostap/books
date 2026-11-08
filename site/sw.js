@@ -1,5 +1,5 @@
 // tools/prepare_pwa.py updates the version and asset list before deployment.
-const VERSION = "c8550fcd2277ca36";
+const VERSION = "b0807b3907667100";
 // BEGIN PRECACHE
 const ASSETS = [
   "./",
@@ -9,6 +9,8 @@ const ASSETS = [
   "style.css",
   "manifest.webmanifest",
   "library.json",
+  "concepts-es.json",
+  "dictionary-en.json",
   "fonts/literata-italic.woff2",
   "fonts/literata.woff2",
   "icons/apple-touch-icon.png",
@@ -18,6 +20,7 @@ const ASSETS = [
   "icons/icon-192.png",
   "icons/icon-512.png",
   "icons/maskable-512.png",
+  "books/duke/cover.jpg",
   "books/hp1/cover.jpg"
 ];
 // END PRECACHE

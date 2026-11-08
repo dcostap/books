@@ -35,6 +35,7 @@ tools/build.py                books/ -> site/ (chapter JSON, chapter MP3, Spanis
 tools/translation.py          Spanish help: splits a chapter into jobs, checks the answers, and shows them
 guides/translation-es.md      the rules for the Spanish help (all books), for translators and reviewers
 guides/concepts-es.json       ideas of English grammar that notes link to, with examples (all books)
+guides/dictionary-en.json     English-Spanish dictionary that popup units link to (all books)
 guides/translation-workflow.md  how the orchestrator runs the translation of a chapter
 books/<id>/<nn>/es/           the jobs and the answers for one chapter
 site/                         the web app; GitHub Pages publishes this folder
@@ -62,7 +63,7 @@ Format:
 
 ## Spanish help
 
-The Spanish line under the English (the "ES" button) shows a natural Spanish translation of each sentence, in chunks under the English words they translate. Tap a word: the popup shows its unit (a word with its small words, or an idiom), its Spanish meaning at that place, its dictionary form, its other common meanings, an optional note, and the Spanish sentence with the unit's Spanish marked. A note can link to an idea of grammar (`[[uncountable]]`): the popup then shows the idea's explanation, examples and typical mistakes under the note. This part is folded until the reader opens it.
+The Spanish line under the English (the "ES" button) shows a natural Spanish translation of each sentence, in chunks under the English words they translate. Tap a word: the popup shows its unit (a word with its small words, or an idiom), its Spanish meaning at that place, its dictionary form with the irregular forms and its other common meanings (from the dictionary), an optional note, and the Spanish sentence with the unit's Spanish marked. A note can link to an idea of grammar (`[[uncountable]]`): the popup then shows the idea's explanation, examples and typical mistakes under the note. This part is folded until the reader opens it.
 
 The bookmark in the popup saves the unit to "Mis palabras", with an optional note. A saved unit has a ring around it, in the theme's "saved" colour (`--saved`). On wide screens, its note shows in a bubble in the right margin. The "Mis palabras" page lists the saved units, newest first, with a search. Tap one to open the chapter at its place. The audio position does not change. The page also exports and imports a JSON copy, because `localStorage` is lost when the browser data is cleared.
 

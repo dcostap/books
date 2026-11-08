@@ -15,10 +15,10 @@ An answer gives two things for each sentence:
   line   the reading line: a natural Spanish translation of the sentence, cut into chunks. Each chunk is
          under a run of English tokens. The chunks, read in order, are the sentence translation.
   words  the popup help: units (a word, or an idiom or a phrasal verb) with their Spanish meaning in
-         context, an optional base form (the dictionary form) with its irregular forms, an optional note and
-         optional other meanings
-         ("also"). A note can link to an idea of English grammar with [[id]]: guides/concepts-es.json
-         explains it, and the app shows it under the note.
+         context, an optional link to the English dictionary (guides/dictionary-en.json: "base" is the
+         entry, "sense" one of its senses) and an optional note. The app takes the irregular forms and the
+         other senses from the dictionary. A note can link to an idea of English grammar with [[id]]:
+         guides/concepts-es.json explains it, and the app shows it under the note.
 Every word token is in exactly one chunk and in exactly one unit. build.py merges the answers into
 site/books/<id>/<nn>.es.json as {es, line, units} for each sentence.
 
@@ -35,7 +35,8 @@ from build import parse
 
 SENTENCE_KEYS = {"id", "line", "words"}
 OLD_SENTENCE_KEYS = {"id", "es", "units"}
-UNIT_KEYS = {"t", "es", "base", "forms", "note", "also"}
+UNIT_KEYS = {"t", "es", "base", "sense", "note"}
+DICTIONARY = Path(__file__).resolve().parent.parent / "guides" / "dictionary-en.json"
 FORMS = {"past": "pasado", "participle": "participio", "plural": "plural", "comparative": "comparativo",
          "superlative": "superlativo"}  # the app shows the Spanish names
 CONCEPTS = Path(__file__).resolve().parent.parent / "guides" / "concepts-es.json"
@@ -58,6 +59,26 @@ def load_concepts():
             sys.exit(f'{CONCEPTS}: "{id}" must be {{"name", "en", "text", "examples": [["English", "Spanish"], ...] (2 or more), '
                      '"wrong": [["wrong English", "right English"], ...] (optional)}, with an id of lower-case letters, digits and -')
     return concepts
+
+
+def load_dictionary():
+    """The English dictionary: {word: {forms (optional), senses: [{id, es, ex}...]}}. See guides/dictionary-en.md."""
+    return json.loads(DICTIONARY.read_text(encoding="utf-8")) if DICTIONARY.exists() else {}
+
+
+def dictionary_links(answer, dictionary):
+    """The links of the units to words or senses that the dictionary does not have yet: proposals.
+
+    [("ticket", "fine" or None, "s5 unit 2")...]
+    """
+    new = []
+    for s in answer["sentences"]:
+        for u, unit in enumerate(s.get("words", [])):
+            if "base" in unit:
+                entry = dictionary.get(unit["base"])
+                if not entry or unit.get("sense") not in [x["id"] for x in entry["senses"]]:
+                    new.append((unit["base"], unit.get("sense"), f"s{s['id']} unit {u}"))
+    return new
 
 
 def links(answer):
@@ -94,8 +115,8 @@ def check_units(units, tokens, where):
     for u, unit in enumerate(units):
         at = f"{where} unit {u}"
         if not isinstance(unit, dict) or not {"t", "es"} <= set(unit) <= UNIT_KEYS:
-            errors.append(f'{at}: a unit is {{"t": [...], "es": "...", "base": "...", "forms": {{...}}, "note": "...", '
-                          f'"also": [...]}} (all but t and es are optional); found {unit}')
+            errors.append(f'{at}: a unit is {{"t": [...], "es": "...", "base": "...", "sense": "...", "note": "..."}} '
+                          f'(base, sense and note are optional); found {unit}')
             continue
         bad = token_list(unit["t"], tokens, at)
         errors += bad
@@ -106,21 +127,13 @@ def check_units(units, tokens, where):
                 owner[i] = u
         if not isinstance(unit["es"], str) or not unit["es"].strip():
             errors.append(f'{at}: "es" must be a non-empty string')
-        for key in ("base", "note"):
+        for key in ("base", "sense", "note"):
             if key in unit and (not isinstance(unit[key], str) or not unit[key].strip()):
                 errors.append(f'{at}: "{key}" must be a non-empty string; leave it out if there is none')
         if "[[" in LINK.sub("", unit.get("note", "")):
             errors.append(f'{at}: a link in a note is [[id]], with an id of lower-case letters, digits and -')
-        forms = unit.get("forms", {"past": "-"})
-        if (not isinstance(forms, dict) or not forms or not set(forms) <= set(FORMS)
-                or not all(isinstance(x, str) and x.strip() for x in forms.values())):
-            errors.append(f'{at}: "forms" must be an object with some of the keys {", ".join(FORMS)}, '
-                          'each a non-empty string; leave it out if there is none')
-        if "forms" in unit and "base" not in unit:
-            errors.append(f'{at}: "forms" needs "base"')
-        also = unit.get("also", ["-"])
-        if not isinstance(also, list) or not 1 <= len(also) <= 4 or not all(isinstance(x, str) and x.strip() for x in also):
-            errors.append(f'{at}: "also" must be a list of 1 to 4 non-empty strings; leave it out if there is none')
+        if "sense" in unit and "base" not in unit:
+            errors.append(f'{at}: "sense" needs "base"')
     errors += [f'{where}: token {i} "{token}" is in no unit' for i, token in enumerate(tokens)
                if is_word(token) and i not in owner]
     return errors
@@ -177,8 +190,15 @@ def check(answer, sentences, first, last):
         elif set(s) == SENTENCE_KEYS:
             errors += check_line(s["line"], tokens, where)
             errors += check_units(s["words"], tokens, where)
-            errors += [f'{where} unit {u}: put the irregular forms in "forms", not in brackets in "base"'
-                       for u, unit in enumerate(s["words"]) if isinstance(unit, dict) and "(" in str(unit.get("base", ""))]
+            dictionary = load_dictionary()
+            for u, unit in enumerate(s["words"] if isinstance(s["words"], list) else []):
+                if not isinstance(unit, dict) or not isinstance(unit.get("base"), str):
+                    continue
+                if "(" in unit["base"]:
+                    errors.append(f'{where} unit {u}: "base" is only the dictionary word; the dictionary has the forms')
+                elif unit["base"] in dictionary and "sense" not in unit:
+                    ids = ", ".join(x["id"] for x in dictionary[unit["base"]]["senses"])
+                    errors.append(f'{where} unit {u}: "{unit["base"]}" is in the dictionary: give its "sense" ({ids})')
         else:
             errors.append(f"{where}: the keys must be {sorted(SENTENCE_KEYS)}; found {sorted(s)}")
     return errors
@@ -232,6 +252,10 @@ def merge(chapter_dir):
         if new:
             print(f"  {path}: links to concepts that are not in {CONCEPTS.name}: {', '.join(new)}. "
                   "Add them, or remove the links. The app shows the notes without them.")
+        new = sorted({b + (f"/{x}" if x else "") for b, x, _ in dictionary_links(answer, load_dictionary())})
+        if new:
+            print(f"  {path}: links to words or senses that are not in {DICTIONARY.name}: {', '.join(new)}. "
+                  "Add them, or change the links.")
     changed = sum(i >= len(sentences) or " ".join(sentences[i][1]) != text for i, text in enumerate(source["sentences"]))
     if changed:
         print(f"  {changed} sentences changed after prep: they have no translation until the jobs are made again")
@@ -304,12 +328,15 @@ def check_cmd(book_dir, number, job):
     chunks = sum(len(s.get("line", [])) for s in answer["sentences"])
     count = lambda key: sum(key in u for u in units)
     print(f"OK: {path}: {len(answer['sentences'])} sentences, {chunks} chunks, {len(units)} units, "
-          f"{count('base')} base forms, {count('note')} notes, {count('also')} with other meanings, "
-          f"{len(links(answer))} concept links")
+          f"{count('base')} dictionary links, {count('note')} notes, {len(links(answer))} concept links")
     concepts = load_concepts()
     for id, where in links(answer):
         if id not in concepts:
             print(f"  new concept [[{id}]] in {where}: not in {CONCEPTS.as_posix()}. Propose it in your reply.")
+    dictionary = load_dictionary()
+    for base, sense, where in dictionary_links(answer, dictionary):
+        what = f'sense "{sense}" of "{base}"' if base in dictionary else f'word "{base}"'
+        print(f"  new {what} in {where}: not in {DICTIONARY.as_posix()}. Propose it in your reply.")
 
 
 def show(book_dir, number, job):
@@ -317,6 +344,7 @@ def show(book_dir, number, job):
     chapter_dir = book_dir / f"{number:02d}"
     source = load_source(chapter_dir)
     jobs = [job] if job else range(1, len(source["jobs"]) + 1)
+    dictionary = load_dictionary()
     for j in jobs:
         answer, error = load_answer(chapter_dir / "es" / f"{j:02d}.json")
         if error:
@@ -331,10 +359,13 @@ def show(book_dir, number, job):
                 print("  line: " + " | ".join(f"{span(c['t'])} = {c['es']}" for c in entry["line"]))
             print(f"  es:   {entry['es']}")
             for u in entry["units"]:
-                forms = ", ".join(f"{FORMS[k]} {v}" for k, v in u.get("forms", {}).items())
-                base = f" ({u['base']}" + (f"; {forms}" if forms else "") + ")" if "base" in u else ""
+                d = dictionary.get(u.get("base"), {})
+                forms = ", ".join(f"{FORMS[k]} {v}" for k, v in d.get("forms", {}).items())
+                base = (f" ({u['base']}" + (f"/{u['sense']}" if "sense" in u else "")
+                        + (f"; {forms}" if forms else "") + ")") if "base" in u else ""
+                others = [f"{x['es']} ({x['ex']})" for x in d.get("senses", []) if x["id"] != u.get("sense")]
                 print(f"    {span(u['t'])}{base} = {u['es']}" + (f"\n        note: {u['note']}" if "note" in u else "")
-                      + (f"\n        also: {' | '.join(u['also'])}" if "also" in u else ""))
+                      + (f"\n        also: {' | '.join(others)}" if others else ""))
             print()
 
 

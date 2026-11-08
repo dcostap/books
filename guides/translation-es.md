@@ -110,31 +110,21 @@ The gloss (`es`) is the meaning **at this place in the story**. It is not a dict
 - Lower case, except names. Short: 1 to 5 words, usually.
 - For a name, the gloss is the name as the book notes give it. Usually it does not change.
 
-### Base form
+### Dictionary link
 
-The base form (`base`) is the form a reader looks up in a dictionary. Give it when it is different from the word in the text, so the reader learns the word, not only this form of it. Irregular forms go in `forms`, each with its name. The app shows them with small labels: *forma base* put · *pasado* put · *participio* put.
+`guides/dictionary-en.json` is an English–Spanish dictionary for all books. A unit links to an entry with `base` (the word of the entry) and `sense` (the id of one of its senses). The app then shows the base form, the irregular forms, and the other senses under "En otros contextos". Do not write forms or other meanings in the unit: the dictionary has them.
 
-- Verbs: the infinitive without "to". Add `forms` only if the verb is irregular: `past` and `participle`.
-  - "woke up" → `"base": "wake up", "forms": {"past": "woke", "participle": "woken"}`
-  - "put" (past) → `"base": "put", "forms": {"past": "put", "participle": "put"}`: the forms show that it does not change.
-  - "picked out" → `"base": "pick out"` (regular: no forms)
-- Nouns: the singular, if the plural is irregular: "children" → `"base": "child", "forms": {"plural": "children"}`.
-- Adjectives: the plain form, if the comparative or superlative is irregular or not obvious: "better" → `"base": "good", "forms": {"comparative": "better", "superlative": "best"}`.
-- Idioms and phrasal verbs: the form a dictionary uses: "came in very useful" → *come in useful*, "got to his feet" → *get to one's feet*.
-- No base form for a regular plural ("visitors"), an easy regular verb form ("wanted"), or a word that is already in its base form. A base form that is the same as the text only makes sense with its forms, as for "put". "What is it" has no base form.
-- Write it in English, in lower case (except names). Do not put "to" before a verb, and do not put the forms in brackets in `base`.
-
-**The verbs that skip the base form depend on the level.**
-
-- A1–A2: only *be, have, do, can, will, would* skip it. Every other irregular verb gets its base form and forms, also very common ones: *say* (said, said), *think* (thought, thought), *go* (went, gone). A beginner wants to learn these.
-- B1–B2: also *say, go, get, make, know, see, think, come, take, give, tell, find* skip it.
-- A phrasal verb or an idiom always gets its base form: "found out" → *find out* (found, found).
+- Link every unit whose main word has an entry: "came" → `"base": "come", "sense": "move"`. Names and small words (articles, pronouns, simple prepositions) have no entry.
+- A unit with an article, a possessive or a preposition links its main word: "a … ticket" → `ticket`, "into the room" → `room`. A phrasal verb or an idiom links the phrase: "looked at" → `look at`.
+- Choose the sense that fits this place. The gloss fits the line (*venían*); the sense gives the general meaning (*venir*).
+- No link for a phrase that is not a dictionary entry: "What is it".
+- **A missing word or sense:** link it anyway, with a new `base`, or a new `sense` id (lower case, in English, words joined with -). The check lists them. Propose each one in your reply: the word, the sense id, the Spanish meaning and a short English example. Do not edit `guides/dictionary-en.json`. The user or the orchestrator adds it, or changes your link.
 
 ### Notes
 
 A note tells the reader something that the gloss cannot. It is the friendly part of the app: like a friend who knows English well and sits next to the reader. Most units have no note. A good note is a small pleasure to read.
 
-`also` and concept links do not replace notes. Other meanings go in `also`, and a link explains a general idea. A note tells what is special at this place: a pattern that Spanish does not have (*would* for a habit), a verb with its preposition (*look at*), a British word (*ill*, US *sick*).
+The dictionary and concept links do not replace notes. The dictionary gives the other meanings, and a link explains a general idea. A note tells what is special at this place: a pattern that Spanish does not have (*would* for a habit), a verb with its preposition (*look at*), a British word (*ill*, US *sick*).
 
 Write a note when a reader at this level would probably miss or misread something, or when there is something nice to learn:
 
@@ -167,7 +157,7 @@ Content and style:
 - Do not repeat the base form or the gloss.
 - Spanish from Spain. Speak to the reader as *tú*. Friendly and light. A little wit is welcome, but never at the cost of clarity. Never talk down to the reader.
 - 1 or 2 short sentences, at most about 200 characters. At A1–A2, use easy Spanish and keep it short.
-- **Every English word inside Spanish text goes in asterisks:** *scrawny*, *look at*, *-ed*. This is for notes, `also`, and concept names and texts. The app shows these words in italics, with a colour, so the reader sees at once which words are English. Put Spanish words in « ». Plain text only: no emojis, no lists.
+- **Every English word inside Spanish text goes in asterisks:** *scrawny*, *look at*, *-ed*. This is for notes, and concept names and texts. The app shows these words in italics, with a colour, so the reader sees at once which words are English. Put Spanish words in « ». Plain text only: no emojis, no lists.
 - Name the grammar: when a note explains an idea of grammar, say it in plain words, and then link the idea (see "Concept links").
 
 | Unit | Base | Gloss | Note |
@@ -199,16 +189,6 @@ Bad notes:
 - The note must make sense without its link: the app removes a link to an entry that does not exist.
 - **A new idea:** if no entry fits, and the idea will help readers again in other places, link it with a new id (lower case, words joined with -, in English: `[[present-perfect]]`). The check lists new ids. Propose each one in your reply, with a name and one line about it. Do not edit `guides/concepts-es.json`. The user or the orchestrator adds the entry, or removes your link.
 
-### Other meanings
-
-The gloss gives the meaning at this place. A learner can then think that it is the only meaning. When a word has other common meanings that a learner at this level will meet, list them in `also`.
-
-- 1 to 4 strings, the most common first. Each one is a Spanish meaning, then a short English example in brackets and asterisks: `"conseguir (*get a job*)"`.
-- Only meanings that are really different from the gloss. Not synonyms of the gloss, and not rare meanings. "think" = *creo* → not *pensar*: that is the same idea. "white" = *pálido* → *blanco* is fine: it is the usual meaning.
-- Mostly for short, common words with many meanings: *get, take, make, set, run, way, still, mind, fine, rather*. Most units have no `also`.
-- Also for a word that is a different part of speech in other places: "firm" (*empresa*) → `["firme (*a firm bed*)"]`.
-- Not when the unit has a preposition ("into the room", "of a firm"): the other meanings would be about one of its words, not the unit. An article, a possessive or "to" is fine: "to get" → `["conseguir (*get a job*)"]`.
-
 ## Answer format
 
 The answer to a job is one UTF-8 JSON file, with the name that the job file gives (for example `books/duke/01/es/01.json`):
@@ -224,11 +204,11 @@ The answer to a job is one UTF-8 JSON file, with the name that the job file give
       ],
       "words": [
         { "t": [0], "es": "cuando" },
-        { "t": [1], "es": "visitas, visitantes" },
-        { "t": [2], "es": "venían", "base": "come", "forms": { "past": "came", "participle": "come" }, "also": ["llegar (*the day came*)", "ser de, venir de (*I come from Spain*)"] },
-        { "t": [3, 4], "es": "a ver" },
+        { "t": [1], "es": "visitas, visitantes", "base": "visitor", "sense": "guest" },
+        { "t": [2], "es": "venían", "base": "come", "sense": "move" },
+        { "t": [3, 4], "es": "a ver", "base": "see", "sense": "visit" },
         { "t": [5, 6], "es": "Sherlock Holmes" },
-        { "t": [7, 8, 9], "es": "en Baker Street", "note": "La calle de Londres donde vive Holmes, en el número 221B." }
+        { "t": [7, 8, 9], "es": "en Baker Street", "base": "street", "sense": "road", "note": "La calle de Londres donde vive Holmes, en el número 221B." }
       ]
     }
   ]
@@ -238,7 +218,7 @@ The answer to a job is one UTF-8 JSON file, with the name that the job file give
 - `id`: the sentence number from the job file (`s5` → `5`). Give every sentence of the job, in order.
 - The example is the start of "When visitors came to see Sherlock Holmes in Baker Street, they often did surprising things." A real answer covers every token.
 - `line`: the chunks of the reading line, in order. `t` has the token numbers of the chunk.
-- `words`: the popup units. `t` has the token numbers of the unit, in ascending order. `base`, `forms`, `note` and `also` are optional: leave the key out if the unit does not need it. `forms` needs `base`; its keys are `past`, `participle`, `plural`, `comparative` and `superlative`.
+- `words`: the popup units. `t` has the token numbers of the unit, in ascending order. `base`, `sense` and `note` are optional: leave the key out if the unit does not need it. `sense` needs `base`.
 - The token numbers are in the job file: each token has its number in [brackets].
 
 ## Translator: how to do a job
@@ -251,10 +231,10 @@ The answer to a job is one UTF-8 JSON file, with the name that the job file give
    - Read each line chunk by chunk, from left to right. Is it exactly your sentence?
    - Does every gloss fit this place? Are all the meanings you give correct here?
    - Is every gloss the meaning of the English word, and not a free word from your line? Tap test: would a learner who reads only the gloss learn a wrong meaning of the word?
-   - Does every unit that needs a base form have one, and only those, at this book's level?
+   - Does every unit whose word has a dictionary entry link it, with the sense that fits this place?
    - Is every British spelling or word noted?
    - Does each note help a reader at this level? Is it friendly and short? Is something missing that the reader would trip on?
-   - Does each note about grammar link its idea? Does each common word with several meanings have `also`?
+   - Does each note about grammar link its idea?
    - No spoilers? *Tú* and *usted* as the book notes say?
 5. If you changed something, run the check again until it prints `OK`.
 
@@ -265,6 +245,7 @@ When you finish, reply with:
 - the `OK` line from the check
 - the names or terms that are not in the book notes, and the Spanish form you chose for each
 - the new concept ids that you linked, each with a Spanish name and one line about it
+- the new dictionary words and senses that you linked, each with its sense id, Spanish meaning and English example
 - anything you were not sure about, in a few short lines
 - any error that you think is in the English text (a typo or a missing word). Do not change the text.
 
@@ -272,9 +253,9 @@ When you finish, reply with:
 
 A reviewer gets the same files and a task, for example "review jobs 1 to 3 and correct them" or "only list spoilers, do not edit". Check what the task asks for, against this guide and the book notes. Also check across the jobs, because each translator saw only their own job:
 
-- The same expression has the same gloss and base form, unless the meaning changes.
+- The same expression has the same gloss and dictionary link, unless the meaning changes.
 - Glosses that copy a free word from the line instead of the meaning of the English word.
-- Common words with several meanings that have no `also`.
+- Units whose word has a dictionary entry but no link, or a link to the wrong sense.
 - Names and terms follow the book notes.
 - Notes about the same idea of grammar link the same concept.
 

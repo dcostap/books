@@ -118,6 +118,9 @@ const library = await fetchJSON("library.json").catch(() => null);
 // The ideas of English grammar that notes link to: { [id]: { name, en, text, examples: [[en, es]...], wrong: [[bad, good]...] } }
 let concepts = {};
 fetchJSON("concepts-es.json").then((c) => (concepts = c), () => {});
+// The English dictionary that units link to with base and sense: { [word]: { forms, senses: [{ id, es, ex }...] } }
+let dictionary = {};
+fetchJSON("dictionary-en.json").then((d) => (dictionary = d), () => {});
 
 // Routing: #/ (library), #/<book> (chapters), #/<book>/<n> (reader), #/<book>/<n>/<word> (reader, open at a word),
 // #/words and #/words/<book> (saved words)
@@ -366,7 +369,7 @@ function showReader(book, chapter, target) {
 
   const words = []; // { el, s, e, sentence, k (its number in the sentence) }
   const sentences = []; // { el, first (index of its first word) }
-  let translation = null; // for each sentence: { es, line: [{ t: [k...], es }] (optional), units: [{ t: [k...], es, base, note, also }] } or null
+  let translation = null; // for each sentence: { es, line: [{ t: [k...], es }] (optional), units: [{ t: [k...], es, base, sense, note }] } or null
   let current = -1; // index of the highlighted word
   let picked = []; // indexes of the words outlined by the open popup
   let popUnit = null; // the unit of the open popup
@@ -797,7 +800,7 @@ function showReader(book, chapter, target) {
       const w = {
         book: book.id, chapter: chapter.n, at: [...picked], k: picked.map((j) => words[j].k),
         sentence: words.filter((x) => x.sentence === words[i].sentence).map((x) => x.el.textContent).join(" "),
-        en: $(".pop-word").textContent, base: popUnit?.base, forms: popUnit?.forms, es: popUnit?.es, note: "", saved: Date.now(),
+        en: $(".pop-word").textContent, base: popUnit?.base, forms: dictionary[popUnit?.base]?.forms, es: popUnit?.es, note: "", saved: Date.now(),
       };
       store.words.push(w);
     }
@@ -824,12 +827,6 @@ function showReader(book, chapter, target) {
   }
 
   const trim = (text) => text.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "");
-  // The word that the other meanings are about: the base form, else the words of the unit without its small
-  // words ("a … ticket" → "ticket", "to get" → "get").
-  const SMALL = new Set(["a", "an", "the", "to", "my", "your", "his", "her", "its", "our", "their"]);
-  const mainWord = (unit) => unit?.base ?? picked.map((j) => trim(words[j].el.textContent))
-    .filter((w, n, all) => w && !(SMALL.has(w.toLowerCase()) && all.length > 1)).join(" ")
-    .replace(/^\p{Lu}(?=\p{Ll})/u, (c) => c.toLowerCase()); // "Then" at the start of a sentence
   // Notes mark English words as *word*.
   const rich = (text) => esc(text).replace(/\*(.+?)\*/g, "<i lang=\"en\">$1</i>");
 
@@ -881,14 +878,16 @@ function showReader(book, chapter, target) {
     $(".pop-word").textContent = trim(picked
       .map((j, n) => (n && j !== picked[n - 1] + 1 ? "… " : "") + words[j].el.textContent)
       .join(" "));
-    $(".pop-base").innerHTML = unit?.base ? baseHTML(unit.base, unit.forms) : "";
+    const lemma = dictionary[unit?.base];
+    const others = lemma?.senses.filter((x) => x.id !== unit.sense) ?? [];
+    $(".pop-base").innerHTML = unit?.base ? baseHTML(unit.base, lemma?.forms) : "";
     $(".pop-base").hidden = !unit?.base;
     $(".pop-gloss").textContent = unit?.es ?? "";
     const note = noteHTML(unit?.note ?? "");
     $(".pop-note").innerHTML = note.html;
-    $(".pop-also i").textContent = mainWord(unit);
-    $(".pop-also ul").innerHTML = (unit?.also ?? []).map((x) => `<li>${rich(x)}</li>`).join("");
-    $(".pop-also").hidden = !unit?.also;
+    $(".pop-also i").textContent = unit?.base ?? "";
+    $(".pop-also ul").innerHTML = others.map((x) => `<li>${esc(x.es)} <i lang="en">(${esc(x.ex)})</i></li>`).join("");
+    $(".pop-also").hidden = !others.length;
     $(".pop-concepts").innerHTML = footnotes(note.ids);
     $(".pop-sentence").innerHTML = entry ? translationHTML(entry, unit) : "";
     $(".pop-sentence").hidden = true;

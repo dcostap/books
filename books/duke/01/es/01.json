@@ -31,7 +31,9 @@
      "t": [
       0
      ],
-     "es": "capítulo"
+     "es": "capítulo",
+     "base": "chapter",
+     "sense": "book"
     },
     {
      "t": [
@@ -51,17 +53,17 @@
       4
      ],
      "es": "tiene, recibe",
-     "also": [
-      "haber, como auxiliar (*has finished*)",
-      "tomar (*have breakfast*)"
-     ]
+     "base": "have",
+     "sense": "possess"
     },
     {
      "t": [
       5,
       6
      ],
-     "es": "una visita, un visitante"
+     "es": "una visita, un visitante",
+     "base": "visitor",
+     "sense": "guest"
     }
    ]
   },
@@ -120,7 +122,9 @@
      "t": [
       1
      ],
-     "es": "visitas, visitantes"
+     "es": "visitas, visitantes",
+     "base": "visitor",
+     "sense": "guest"
     },
     {
      "t": [
@@ -128,14 +132,7 @@
      ],
      "es": "venían",
      "base": "come",
-     "forms": {
-      "past": "came",
-      "participle": "come"
-     },
-     "also": [
-      "llegar (*the day came*)",
-      "ser de, venir de (*I come from Spain*)"
-     ]
+     "sense": "move"
     },
     {
      "t": [
@@ -143,9 +140,8 @@
       4
      ],
      "es": "a ver",
-     "also": [
-      "entender (*I see what you mean*)"
-     ]
+     "base": "see",
+     "sense": "visit"
     },
     {
      "t": [
@@ -161,6 +157,8 @@
       9
      ],
      "es": "en Baker Street",
+     "base": "street",
+     "sense": "road",
      "note": "*Street* significa «calle». En inglés, va detrás del nombre: *Baker Street*."
     },
     {
@@ -173,25 +171,33 @@
      "t": [
       11
      ],
-     "es": "a menudo"
+     "es": "a menudo",
+     "base": "often",
+     "sense": "frequency"
     },
     {
      "t": [
       12
      ],
-     "es": "hacían"
+     "es": "hacían",
+     "base": "do",
+     "sense": "perform"
     },
     {
      "t": [
       13
      ],
-     "es": "sorprendentes"
+     "es": "sorprendentes",
+     "base": "surprising",
+     "sense": "unexpected"
     },
     {
      "t": [
       14
      ],
-     "es": "cosas"
+     "es": "cosas",
+     "base": "thing",
+     "sense": "object"
     }
    ]
   },
@@ -234,7 +240,9 @@
      "t": [
       0
      ],
-     "es": "a veces"
+     "es": "a veces",
+     "base": "sometimes",
+     "sense": "frequency"
     },
     {
      "t": [
@@ -248,10 +256,7 @@
      ],
      "es": "ponían",
      "base": "put",
-     "forms": {
-      "past": "put",
-      "participle": "put"
-     },
+     "sense": "place",
      "note": "Aquí, «hundían» suena más natural en español: el gesto de poner la cabeza entre las manos."
     },
     {
@@ -260,9 +265,8 @@
       4
      ],
      "es": "sus cabezas",
-     "also": [
-      "jefe (*head of the school*)"
-     ],
+     "base": "head",
+     "sense": "body",
      "note": "En inglés, las partes del cuerpo llevan posesivo: *their heads*, *his eyes* ([[body-possessive]])."
     },
     {
@@ -271,7 +275,9 @@
       6,
       7
      ],
-     "es": "en sus manos"
+     "es": "en sus manos",
+     "base": "hand",
+     "sense": "body"
     },
     {
      "t": [
@@ -284,9 +290,8 @@
       9
      ],
      "es": "lloraban",
-     "also": [
-      "gritar (*cry for help*)"
-     ]
+     "base": "cry",
+     "sense": "weep"
     }
    ]
   },
@@ -322,7 +327,9 @@
      "t": [
       0
      ],
-     "es": "a veces"
+     "es": "a veces",
+     "base": "sometimes",
+     "sense": "frequency"
     },
     {
      "t": [
@@ -334,7 +341,9 @@
      "t": [
       2
      ],
-     "es": "hablaban"
+     "es": "hablaban",
+     "base": "talk",
+     "sense": "speak"
     },
     {
      "t": [
@@ -346,7 +355,9 @@
      "t": [
       4
      ],
-     "es": "hablaban"
+     "es": "hablaban",
+     "base": "talk",
+     "sense": "speak"
     },
     {
      "t": [
@@ -360,6 +371,8 @@
       7
      ],
      "es": "no podían parar",
+     "base": "stop",
+     "sense": "halt",
      "note": "*Couldn’t* es *could not*: «no podían». Es una forma abreviada, muy habitual al hablar ([[contractions]])."
     }
    ]
@@ -405,7 +418,9 @@
      "t": [
       1
      ],
-     "es": "a veces"
+     "es": "a veces",
+     "base": "sometimes",
+     "sense": "frequency"
     },
     {
      "t": [
@@ -418,10 +433,8 @@
       3
      ],
      "es": "simplemente, solo",
-     "also": [
-      "acabar de (*I’ve just arrived*)",
-      "justo, exactamente (*just here*)"
-     ]
+     "base": "just",
+     "sense": "only"
     },
     {
      "t": [
@@ -429,16 +442,15 @@
      ],
      "es": "estaban sentados",
      "base": "sit",
-     "forms": {
-      "past": "sat",
-      "participle": "sat"
-     }
+     "sense": "seated"
     },
     {
      "t": [
       5
      ],
-     "es": "allí"
+     "es": "allí",
+     "base": "there",
+     "sense": "place"
     },
     {
      "t": [
@@ -452,6 +464,8 @@
       8
      ],
      "es": "no decían",
+     "base": "say",
+     "sense": "speak",
      "note": "*Did* ayuda a formar la negación en pasado; *say* queda en su forma base ([[auxiliary-do]])."
     },
     {
@@ -459,7 +473,9 @@
       9,
       10
      ],
-     "es": "una palabra"
+     "es": "una palabra",
+     "base": "word",
+     "sense": "language"
     }
    ]
   },
@@ -508,7 +524,9 @@
      "t": [
       2
      ],
-     "es": "era"
+     "es": "era",
+     "base": "be",
+     "sense": "identity"
     },
     {
      "t": [
@@ -520,7 +538,9 @@
      "t": [
       4
      ],
-     "es": "sorprendente"
+     "es": "sorprendente",
+     "base": "surprising",
+     "sense": "unexpected"
     },
     {
      "t": [
@@ -593,32 +613,42 @@
      "t": [
       1
      ],
-     "es": "era"
+     "es": "era",
+     "base": "be",
+     "sense": "identity"
     },
     {
      "t": [
       2,
       4
      ],
-     "es": "un hombre"
+     "es": "un hombre",
+     "base": "man",
+     "sense": "adult"
     },
     {
      "t": [
       3
      ],
-     "es": "corpulento, grandote"
+     "es": "corpulento, grandote",
+     "base": "large",
+     "sense": "size"
     },
     {
      "t": [
       5
      ],
-     "es": "alto"
+     "es": "alto",
+     "base": "tall",
+     "sense": "height"
     },
     {
      "t": [
       6
      ],
-     "es": "bien vestido"
+     "es": "bien vestido",
+     "base": "well-dressed",
+     "sense": "clothing"
     },
     {
      "t": [
@@ -699,14 +729,7 @@
      ],
      "es": "vino, entró",
      "base": "come",
-     "forms": {
-      "past": "came",
-      "participle": "come"
-     },
-     "also": [
-      "llegar (*the day came*)",
-      "ser de, venir de (*I come from Spain*)"
-     ]
+     "sense": "move"
     },
     {
      "t": [
@@ -715,6 +738,8 @@
       4
      ],
      "es": "en la habitación",
+     "base": "room",
+     "sense": "building",
      "note": "*Into* indica movimiento hacia dentro; *in*, solo dónde está algo: *in the room* = «en la habitación», sin moverse."
     },
     {
@@ -722,6 +747,8 @@
       5
      ],
      "es": "caminó, fue andando",
+     "base": "walk",
+     "sense": "move",
      "note": "Aquí, «se acercó» suena más natural en español."
     },
     {
@@ -737,13 +764,17 @@
       9,
       11
      ],
-     "es": "de los sillones"
+     "es": "de los sillones",
+     "base": "chair",
+     "sense": "seat"
     },
     {
      "t": [
       10
      ],
-     "es": "grandes"
+     "es": "grandes",
+     "base": "big",
+     "sense": "size"
     },
     {
      "t": [
@@ -755,7 +786,9 @@
      "t": [
       13
      ],
-     "es": "de pronto"
+     "es": "de pronto",
+     "base": "suddenly",
+     "sense": "unexpectedly"
     },
     {
      "t": [
@@ -763,13 +796,7 @@
      ],
      "es": "cayó, se dejó caer",
      "base": "fall",
-     "forms": {
-      "past": "fell",
-      "participle": "fallen"
-     },
-     "also": [
-      "bajar (*prices fall*)"
-     ],
+     "sense": "drop",
      "note": "Aquí, «se desplomó» suena más natural en español."
     },
     {
@@ -824,16 +851,15 @@
      ],
      "es": "estaba sentado",
      "base": "sit",
-     "forms": {
-      "past": "sat",
-      "participle": "sat"
-     }
+     "sense": "seated"
     },
     {
      "t": [
       2
      ],
-     "es": "allí"
+     "es": "allí",
+     "base": "there",
+     "sense": "place"
     },
     {
      "t": [
@@ -841,31 +867,33 @@
       4,
       5
      ],
-     "es": "con sus ojos"
+     "es": "con sus ojos",
+     "base": "eye",
+     "sense": "organ"
     },
     {
      "t": [
       6
      ],
-     "es": "cerrados"
+     "es": "cerrados",
+     "base": "close",
+     "sense": "shut"
     },
     {
      "t": [
       7
      ],
      "es": "con aspecto de, pareciendo",
-     "also": [
-      "mirar (*look at me*)"
-     ]
+     "base": "look",
+     "sense": "seem"
     },
     {
      "t": [
       8
      ],
      "es": "pálido",
-     "also": [
-      "blanco (*a white shirt*)"
-     ]
+     "base": "white",
+     "sense": "pale"
     },
     {
      "t": [
@@ -878,6 +906,8 @@
       10
      ],
      "es": "enfermo",
+     "base": "ill",
+     "sense": "health",
      "note": "*Ill* es lo habitual en inglés británico; en EE. UU. se suele decir *sick* ([[british-american]])."
     }
    ]
@@ -917,14 +947,7 @@
      ],
      "es": "corrí",
      "base": "run",
-     "forms": {
-      "past": "ran",
-      "participle": "run"
-     },
-     "also": [
-      "funcionar (*the engine is running*)",
-      "dirigir (*run a shop*)"
-     ]
+     "sense": "move"
     },
     {
      "t": [
@@ -932,11 +955,8 @@
       3
      ],
      "es": "a buscar",
-     "also": [
-      "conseguir (*get a job*)",
-      "llegar (*get home*)",
-      "ponerse (*get angry*)"
-     ]
+     "base": "get",
+     "sense": "fetch"
     },
     {
      "t": [
@@ -944,6 +964,8 @@
       5
      ],
      "es": "un poco de agua",
+     "base": "water",
+     "sense": "liquid",
      "note": "Con algo que no se cuenta ([[uncountable]]), *some* indica una cantidad sin precisar ([[some-any]])."
     },
     {
@@ -996,9 +1018,8 @@
       0
      ],
      "es": "luego, después",
-     "also": [
-      "entonces, en aquel momento (*I was young then*)"
-     ]
+     "base": "then",
+     "sense": "next"
     },
     {
      "t": [
@@ -1012,23 +1033,24 @@
      ],
      "es": "cogí",
      "base": "get",
-     "forms": {
-      "past": "got",
-      "participle": "got"
-     }
+     "sense": "fetch"
     },
     {
      "t": [
       3,
       5
      ],
-     "es": "mi maletín"
+     "es": "mi maletín",
+     "base": "bag",
+     "sense": "case"
     },
     {
      "t": [
       4
      ],
      "es": "de médico",
+     "base": "doctor",
+     "sense": "medical",
      "note": "El apóstrofo con *s* relaciona el maletín con el médico. Aquí indica el tipo de maletín ([[possessive-s]])."
     },
     {
@@ -1044,6 +1066,7 @@
      ],
      "es": "examiné, miré",
      "base": "look at",
+     "sense": "examine",
      "note": "Para mirar a alguien o algo, se usa *look at*. No quites *at*: *look at him*."
     },
     {
@@ -1056,7 +1079,9 @@
      "t": [
       10
      ],
-     "es": "con atención"
+     "es": "con atención",
+     "base": "carefully",
+     "sense": "attention"
     }
    ]
   },
@@ -1107,10 +1132,7 @@
      ],
      "es": "dijo",
      "base": "say",
-     "forms": {
-      "past": "said",
-      "participle": "said"
-     }
+     "sense": "speak"
     },
     {
      "t": [
@@ -1161,10 +1183,8 @@
      ],
      "es": "bien",
      "base": "all right",
-     "note": "*All right* no tiene que ver con «derecha»: es una expresión para hablar de salud o dar tu aprobación.",
-     "also": [
-      "vale, de acuerdo (*all right, let’s go*)"
-     ]
+     "sense": "well",
+     "note": "*All right* no tiene que ver con «derecha»: es una expresión para hablar de salud o dar tu aprobación."
     },
     {
      "t": [
@@ -1176,7 +1196,9 @@
      "t": [
       4
      ],
-     "es": "creo"
+     "es": "creo",
+     "base": "think",
+     "sense": "believe"
     },
     {
      "t": [
@@ -1190,10 +1212,7 @@
      ],
      "es": "dije",
      "base": "say",
-     "forms": {
-      "past": "said",
-      "participle": "said"
-     }
+     "sense": "speak"
     }
    ]
   },
@@ -1233,28 +1252,32 @@
       1
      ],
      "es": "solo",
-     "also": [
-      "acabar de (*I’ve just arrived*)",
-      "justo, exactamente (*just here*)"
-     ]
+     "base": "just",
+     "sense": "only"
     },
     {
      "t": [
       2
      ],
-     "es": "muy"
+     "es": "muy",
+     "base": "very",
+     "sense": "degree"
     },
     {
      "t": [
       3
      ],
-     "es": "muy"
+     "es": "muy",
+     "base": "very",
+     "sense": "degree"
     },
     {
      "t": [
       4
      ],
-     "es": "cansado"
+     "es": "cansado",
+     "base": "tired",
+     "sense": "sleepy"
     },
     {
      "t": [
@@ -1266,22 +1289,25 @@
      "t": [
       7
      ],
-     "es": "probablemente"
+     "es": "probablemente",
+     "base": "probably",
+     "sense": "likely"
     },
     {
      "t": [
       8
      ],
-     "es": "hambriento, con hambre"
+     "es": "hambriento, con hambre",
+     "base": "hungry",
+     "sense": "food"
     },
     {
      "t": [
       9
      ],
      "es": "también",
-     "also": [
-      "demasiado (*too cold*)"
-     ]
+     "base": "too",
+     "sense": "also"
     }
    ]
   },
@@ -1349,6 +1375,8 @@
       1
      ],
      "es": "miró",
+     "base": "look",
+     "sense": "see",
      "note": "*Look in* es «mirar dentro de». Aquí, «buscó» suena más natural en español."
     },
     {
@@ -1356,7 +1384,9 @@
       2,
       5
      ],
-     "es": "en los bolsillos"
+     "es": "en los bolsillos",
+     "base": "pocket",
+     "sense": "clothing"
     },
     {
      "t": [
@@ -1364,6 +1394,8 @@
       4
      ],
      "es": "del hombre",
+     "base": "man",
+     "sense": "adult",
      "note": "El *’s* indica de quién es algo: *the man’s pockets* = «los bolsillos del hombre» ([[possessive-s]])."
     },
     {
@@ -1378,13 +1410,7 @@
      ],
      "es": "encontró",
      "base": "find",
-     "forms": {
-      "past": "found",
-      "participle": "found"
-     },
-     "also": [
-      "parecer, considerar (*I find it difficult*)"
-     ]
+     "sense": "discover"
     },
     {
      "t": [
@@ -1392,16 +1418,16 @@
       11
      ],
      "es": "un billete",
-     "also": [
-      "entrada (*a cinema ticket*)",
-      "multa (*a parking ticket*)"
-     ]
+     "base": "ticket",
+     "sense": "travel"
     },
     {
      "t": [
       10
      ],
      "es": "de tren",
+     "base": "train",
+     "sense": "transport",
      "note": "Un sustantivo puede describir a otro: *train* dice de qué es el billete. Lo principal va al final ([[noun-as-adjective]])."
     },
     {
@@ -1417,7 +1443,9 @@
       15,
       16
      ],
-     "es": "en el norte"
+     "es": "en el norte",
+     "base": "north",
+     "sense": "direction"
     },
     {
      "t": [

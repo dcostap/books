@@ -7,7 +7,7 @@ For each books/<id>/book.json:
   - copies the chapter audio to site/books/<id>/<nn>.mp3 as it is (a second lossy encode loses quality)
   - merges the checked Spanish translations (books/<id>/<nn>/es/) into site/books/<id>/<nn>.es.json
   - copies the cover
-Then writes site/library.json, and site/concepts-es.json from guides/concepts-es.json.
+Then writes site/library.json, and site/concepts-es.json and site/dictionary-en.json from guides/.
 
 The text is the source of truth for what the reader sees. The timings come from words.json,
 which retime.py makes from text.md. If text.md changed after that, the build links each edited
@@ -114,7 +114,7 @@ def duration(path):
 
 
 def main():
-    from translation import load_concepts, merge  # here, because translation.py imports this file
+    from translation import load_concepts, load_dictionary, merge  # here, because translation.py imports this file
 
     library = []
     for book_file in sorted((ROOT / "books").glob("*/book.json")):
@@ -157,6 +157,8 @@ def main():
                                        encoding="utf-8", newline="\n")
     (SITE / "concepts-es.json").write_text(json.dumps(load_concepts(), ensure_ascii=False, separators=(",", ":")),
                                            encoding="utf-8", newline="\n")
+    (SITE / "dictionary-en.json").write_text(json.dumps(load_dictionary(), ensure_ascii=False, separators=(",", ":")),
+                                             encoding="utf-8", newline="\n")
 
 
 if __name__ == "__main__":

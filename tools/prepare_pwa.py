@@ -9,7 +9,7 @@ SITE = Path(__file__).resolve().parents[1] / "site"
 worker = SITE / "sw.js"
 source = worker.read_text(encoding="utf-8")
 assets = ["./", "index.html", "app.js", "pwa.js", "style.css", "manifest.webmanifest", "library.json",
-          "concepts-es.json"]
+          "concepts-es.json", "dictionary-en.json"]
 assets += sorted(p.relative_to(SITE).as_posix() for folder in ("fonts", "icons")
                  for p in (SITE / folder).iterdir() if p.suffix in (".woff2", ".png", ".ico")
                  and p.name != "icon-1024.png")
