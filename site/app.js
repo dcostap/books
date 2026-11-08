@@ -783,6 +783,18 @@ function showReader(book, chapter, target) {
     play();
   });
   on(pop, "toggle", () => placePop(true), { capture: true }); // a footnote opened or closed
+  // A concept link in the note opens or closes its footnote.
+  on($(".pop-note"), "click", (e) => {
+    const ref = e.target.closest(".concept-ref");
+    if (!ref) return;
+    const footnote = $(".pop-concepts").children[ref.dataset.n];
+    footnote.open = !footnote.open;
+    // On a phone, the panel scrolls: show the opened footnote in it. Never scroll the page away from the unit.
+    if (footnote.open) requestAnimationFrame(() => {
+      const over = footnote.getBoundingClientRect().bottom - pop.getBoundingClientRect().bottom;
+      if (over > 0) pop.scrollTop += over;
+    });
+  });
   on($(".pop-more"), "click", (e) => {
     const sentence = $(".pop-sentence");
     sentence.hidden = !sentence.hidden;
@@ -839,7 +851,7 @@ function showReader(book, chapter, target) {
       if (!concepts[id]) return "";
       if (!ids.includes(id)) ids.push(id);
       const n = ids.indexOf(id);
-      const ref = `<span class="concept-ref">${icon("book")}${rich(concepts[id].name)}<sup>${n + 1}</sup></span>`;
+      const ref = `<button type="button" class="concept-ref" data-n="${n}">${icon("book")}${rich(concepts[id].name)}<sup>${n + 1}</sup></button>`;
       return inBrackets ? ` <span class="concept-group">(${ref})</span>` : ref;
     });
     return { html, ids };
