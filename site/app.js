@@ -325,8 +325,8 @@ function showReader(book, chapter, target) {
       </div>
       <div class="pop-gloss" lang="es"></div>
       <p class="pop-note" lang="es"></p>
-      <div class="pop-also" lang="es"><span><i lang="en"></i> en otros contextos</span><ul></ul></div>
       <div class="pop-concepts" lang="es"></div>
+      <div class="pop-also" lang="es"><span><i lang="en"></i> en otros contextos</span><ul></ul></div>
       <label class="pop-mine"><span>Tu nota</span><textarea rows="2" placeholder="Escribe aquí…"></textarea></label>
       <button class="pop-more" aria-expanded="false">${icon("more")}<span>Ver la frase entera</span></button>
       <p class="pop-sentence" lang="es" hidden></p>
