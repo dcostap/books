@@ -326,7 +326,7 @@ function showReader(book, chapter, target) {
       <div class="pop-gloss" lang="es"></div>
       <p class="pop-note" lang="es"></p>
       <div class="pop-concepts" lang="es"></div>
-      <div class="pop-also" lang="es"><span><i lang="en"></i> en otros contextos:</span><ul></ul></div>
+      <div class="pop-also" lang="es"><span><i lang="en"></i> en otros contextos:</span><ul class="ex"></ul></div>
       <label class="pop-mine"><span>Tu nota</span><textarea rows="2" placeholder="Escribe aquí…"></textarea></label>
       <button class="pop-more" aria-expanded="false">${icon("more")}<span>Ver la frase entera</span></button>
       <p class="pop-sentence" lang="es" hidden></p>
@@ -922,7 +922,7 @@ function showReader(book, chapter, target) {
     const note = noteHTML(unit?.note ?? "");
     $(".pop-note").innerHTML = note.html;
     $(".pop-also i").textContent = unit?.base ?? "";
-    $(".pop-also ul").innerHTML = others.map((x) => `<li>${esc(x.es)} <i lang="en">(${esc(x.ex[0])})</i><small>${esc(x.ex[1])}</small></li>`).join("");
+    $(".pop-also ul").innerHTML = others.map((x) => `<li><b>${esc(x.es)}</b><span><i lang="en">${esc(x.ex[0])}</i><small>${esc(x.ex[1])}</small></span></li>`).join("");
     $(".pop-also").hidden = !others.length;
     $(".pop-concepts").innerHTML = footnotes(note.ids);
     $(".pop-sentence").innerHTML = entry ? translationHTML(entry, unit) : "";

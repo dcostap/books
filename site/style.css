@@ -345,6 +345,11 @@ dialog form { text-align: right; }
 .pop-also > span { font-size: 0.88rem; }
 .pop-also > span i { margin-right: 0.1rem; font-size: 1.1em; }
 .pop-also small { display: block; color: var(--muted); font-size: 0.9em; }
+/* Two columns: the meaning, then the example and its translation */
+.pop-also ul.ex { display: grid; grid-template-columns: fit-content(40%) 1fr; gap: 0.45rem 0.75rem; margin-top: 0.4rem; padding: 0; list-style: none; }
+.pop-also .ex li { display: contents; }
+.pop-also .ex b { font-weight: 600; }
+.pop-also .ex i { display: block; }
 .pop-also ul, .pop-concepts ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
 .concept-group { white-space: nowrap; }
 .concept-ref { padding: 0; border: 0; background: none; font: inherit; cursor: pointer; white-space: nowrap; text-decoration: underline dotted; text-underline-offset: 0.2em; color: var(--accent); }
