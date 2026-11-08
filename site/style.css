@@ -338,8 +338,10 @@ dialog form { text-align: right; }
 .pop-also > span { color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
 .pop-also ul, .pop-concepts ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
 .pop-also i, .pop-concepts i { font-family: var(--serif); font-size: 1.05em; }
-.concept-ref { text-decoration: underline dotted; text-underline-offset: 0.2em; color: var(--accent); }
+.concept-group { white-space: nowrap; }
+.concept-ref { white-space: nowrap; text-decoration: underline dotted; text-underline-offset: 0.2em; color: var(--accent); }
 .concept-ref sup { margin-left: 0.1em; font-size: 0.7em; font-weight: 700; }
+.concept-ref svg, .pop-concepts summary svg { display: inline-block; width: 1.05em; height: 1.05em; margin-right: 0.2em; vertical-align: -0.15em; fill: var(--accent); }
 .pop-concepts { display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.88rem; line-height: 1.45; }
 .pop-concepts:empty { display: none; }
 .pop-concepts details { padding-top: 0.35rem; border-top: 1px solid var(--line); }

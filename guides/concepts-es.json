@@ -21,7 +21,7 @@
     "wrong": [["the car of my father", "my father’s car"], ["the boys’s room", "the boys’ room"]]
   },
   "auxiliary-do": {
-    "name": "auxiliar do",
+    "name": "auxiliar *do*",
     "en": "auxiliary do",
     "text": "En las preguntas y en las negaciones, el inglés pone *do*, *does* o *did* delante del verbo. No se traduce: solo marca la pregunta, la negación y el tiempo. El verbo principal va en forma base.",
     "examples": [["Do you like tea?", "¿Te gusta el té?"], ["She doesn’t know.", "No lo sabe."], ["Did he come?", "¿Vino?"]],
@@ -35,14 +35,14 @@
     "wrong": [["He goed home.", "He went home."], ["I have took it.", "I have taken it."]]
   },
   "some-any": {
-    "name": "some y any",
+    "name": "*some* y *any*",
     "en": "some and any",
     "text": "Los dos indican una cantidad sin precisar. *Some* va en frases afirmativas y cuando ofreces algo; *any*, en preguntas y negaciones. A menudo no se traducen.",
     "examples": [["I’ve got some money.", "Tengo algo de dinero."], ["Have you got any tea?", "¿Tienes té?"], ["There isn’t any milk.", "No hay leche."]],
     "wrong": [["Have you got some tea?", "Have you got any tea?"], ["There isn’t some milk.", "There isn’t any milk."]]
   },
   "phrasal-verbs": {
-    "name": "phrasal verbs",
+    "name": "*phrasal verbs*",
     "en": "phrasal verbs",
     "text": "Un verbo con una partícula, como *up*, *out* u *off*. Juntos tienen un significado propio, que a veces no sale de sus palabras. La partícula puede ir separada del verbo.",
     "examples": [["I get up at seven.", "Me levanto a las siete."], ["She found out the truth.", "Descubrió la verdad."], ["Put your coat on.", "Ponte el abrigo."]],
@@ -63,7 +63,7 @@
     "wrong": [["more tall", "taller"], ["the most old", "the oldest"], ["more better", "better"]]
   },
   "question-tags": {
-    "name": "question tags",
+    "name": "*question tags*",
     "en": "question tags",
     "text": "Una pregunta corta al final de la frase, para pedir que el otro esté de acuerdo. Repite el auxiliar y el sujeto. Si la frase es afirmativa, la pregunta es negativa, y al revés.",
     "examples": [["It’s cold, isn’t it?", "Hace frío, ¿verdad?"], ["You know him, don’t you?", "Lo conoces, ¿no?"], ["She can’t swim, can she?", "No sabe nadar, ¿verdad?"]],
@@ -90,7 +90,7 @@
     "wrong": [["I was read when he came in.", "I was reading when he came in."]]
   },
   "present-perfect": {
-    "name": "present perfect",
+    "name": "*present perfect*",
     "en": "present perfect",
     "text": "*Have* o *has* con un participio. Une el pasado con el presente: algo pasó y todavía importa ahora. No siempre se traduce por «he hecho».",
     "examples": [["I’ve lost my keys.", "He perdido las llaves."], ["She has lived here for years.", "Vive aquí desde hace años."], ["Have you ever seen it?", "¿Lo has visto alguna vez?"]],

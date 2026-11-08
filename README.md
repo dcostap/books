@@ -62,7 +62,7 @@ Format:
 
 ## Spanish help
 
-The Spanish line under the English (the "ES" button) shows a natural Spanish translation of each sentence, in chunks under the English words they translate. Tap a word: the popup shows its unit (a word with its small words, or an idiom), its Spanish meaning at that place, its dictionary form, its other common meanings, an optional note, and the Spanish sentence with the unit's Spanish marked. A note can link to an idea of grammar (`[[uncountable]]`): the popup then shows the idea's explanation, examples and typical mistakes under the note. On narrow screens, this part is folded.
+The Spanish line under the English (the "ES" button) shows a natural Spanish translation of each sentence, in chunks under the English words they translate. Tap a word: the popup shows its unit (a word with its small words, or an idiom), its Spanish meaning at that place, its dictionary form, its other common meanings, an optional note, and the Spanish sentence with the unit's Spanish marked. A note can link to an idea of grammar (`[[uncountable]]`): the popup then shows the idea's explanation, examples and typical mistakes under the note. This part is folded until the reader opens it.
 
 The bookmark in the popup saves the unit to "Mis palabras", with an optional note. A saved unit has a ring around it, in the theme's "saved" colour (`--saved`). On wide screens, its note shows in a bubble in the right margin. The "Mis palabras" page lists the saved units, newest first, with a search. Tap one to open the chapter at its place. The audio position does not change. The page also exports and imports a JSON copy, because `localStorage` is lost when the browser data is cleared.
 

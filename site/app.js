@@ -17,6 +17,7 @@ const ICONS = {
   more: "M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z",
   save: "M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15-5-2.18L7 18V5h10v13z",
   saved: "M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z",
+  book: "M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z",
   close: "M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z",
 };
 const icon = (name) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${ICONS[name]}"/></svg>`;
@@ -835,17 +836,17 @@ function showReader(book, chapter, target) {
       if (!concepts[id]) return "";
       if (!ids.includes(id)) ids.push(id);
       const n = ids.indexOf(id);
-      const ref = `<span class="concept-ref">${esc(concepts[id].name)}<sup>${n + 1}</sup></span>`;
-      return inBrackets ? ` (${ref})` : ref;
+      const ref = `<span class="concept-ref">${icon("book")}${rich(concepts[id].name)}<sup>${n + 1}</sup></span>`;
+      return inBrackets ? ` <span class="concept-group">(${ref})</span>` : ref;
     });
     return { html, ids };
   }
 
-  // The linked concepts as footnotes: open on wide screens, folded on narrow ones.
+  // The linked concepts as footnotes, folded: the reader opens one when they want it.
   const footnotes = (ids) => ids.map((id, n) => {
     const c = concepts[id];
-    return `<details${narrow.matches ? "" : " open"}>
-      <summary><sup>${n + 1}</sup>${esc(c.name.replace(/^\p{L}/u, (x) => x.toUpperCase()))}</summary>
+    return `<details>
+      <summary>${icon("book")}<sup>${n + 1}</sup>${rich(c.name.replace(/\p{L}/u, (x) => x.toUpperCase()))}</summary>
       <p>${rich(c.text)}</p>
       <ul>${c.examples.map(([en, es]) => `<li><i lang="en">${esc(en)}</i> <span>${esc(es)}</span></li>`).join("")}</ul>
       ${c.wrong ? `<ul class="wrong" lang="en">${c.wrong.map(([bad, good]) => `<li><s>${esc(bad)}</s> <i>${esc(good)}</i></li>`).join("")}</ul>` : ""}
