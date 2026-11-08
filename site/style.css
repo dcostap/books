@@ -240,6 +240,7 @@ dialog form { text-align: right; }
 .text hr { margin: 1.5em 0; border: 0; color: var(--muted); text-align: center; }
 .text hr::after { content: "* * *"; }
 .text { position: relative; }
+.next-chapter { display: flex; width: fit-content; margin: 3em auto 0; border: 1px solid var(--line); color: var(--muted); font-family: var(--sans); font-size: 0.8em; }
 /* A ring around a saved unit; app.js places it over the words. */
 .marks i {
   position: absolute;

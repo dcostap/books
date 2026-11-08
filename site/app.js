@@ -102,7 +102,6 @@ const library = await fetchJSON("library.json").catch(() => null);
 // #/words and #/words/<book> (saved words)
 
 let leave = () => {};
-let autoplay = false;
 let wordsFrom = "#/words"; // the word list page that opened the reader, for its back button
 const wordsLink = (href) => `<a class="button words-link" href="${href}">${icon("saved")}Mis palabras</a>`;
 
@@ -368,8 +367,6 @@ function showReader(book, chapter, target) {
       const saved = p.chapters[chapter.n];
       seek(saved && !saved.done ? saved.time : 0, "instant");
       ready = true;
-      if (autoplay) play();
-      autoplay = false;
     }, { once: true });
     audio.src = data.audio;
     audio.defaultPlaybackRate = audio.playbackRate = store.settings.rate;
@@ -385,7 +382,6 @@ function showReader(book, chapter, target) {
     });
   }).catch(() => {
     if (signal.signal.aborted) return;
-    autoplay = false;
     article.lang = "es";
     loadError(article, "Este capítulo no está disponible. Comprueba tu conexión.");
   });
@@ -410,6 +406,9 @@ function showReader(book, chapter, target) {
       }
       article.append(blockEl);
     }
+    const next = book.chapters.find((c) => c.n === chapter.n + 1);
+    if (next) article.insertAdjacentHTML("beforeend",
+      `<a class="button next-chapter" lang="es" href="#/${book.id}/${next.n}">Capítulo ${next.n} →</a>`);
     article.append(marks);
     layoutMarks();
   }
@@ -642,11 +641,6 @@ function showReader(book, chapter, target) {
   on(audio, "ended", () => {
     p.chapters[chapter.n] = { time: chapter.duration, done: true };
     save();
-    const next = book.chapters.find((c) => c.n === chapter.n + 1);
-    if (next) {
-      autoplay = true;
-      location.hash = `#/${book.id}/${next.n}`;
-    }
   });
 
   // Controls
