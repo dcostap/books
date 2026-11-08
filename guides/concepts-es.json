@@ -80,7 +80,7 @@
     "name": "inglés británico y americano",
     "en": "British and American English",
     "text": "El inglés del Reino Unido y el de Estados Unidos cambian en algunas palabras y en la ortografía. Los dos se entienden en todas partes, pero conviene conocer las dos formas.",
-    "examples": [["colour (US color)", "color"], ["flat (US apartment)", "piso"], ["holiday (US vacation)", "vacaciones"]]
+    "examples": [["colour (US color)", "color"], ["centre (US center)", "centro"], ["theatre (US theater)", "teatro"], ["grey (US gray)", "gris"], ["travelled (US traveled)", "viajó"], ["realise (US realize)", "darse cuenta"], ["flat (US apartment)", "piso"], ["holiday (US vacation)", "vacaciones"], ["lift (US elevator)", "ascensor"], ["film (US movie)", "película"], ["shop (US store)", "tienda"], ["autumn (US fall)", "otoño"], ["trousers (US pants)", "pantalones"], ["biscuit (US cookie)", "galleta"], ["chips (US French fries)", "patatas fritas"], ["crisps (US chips)", "patatas fritas de bolsa"], ["sweets (US candy)", "caramelos, golosinas"], ["rubbish (US garbage, trash)", "basura"], ["queue (US line)", "cola, fila"], ["petrol (US gas)", "gasolina"], ["pavement (US sidewalk)", "acera"], ["the underground, the tube (US subway)", "el metro"], ["mobile (US cell phone)", "móvil"], ["post (US mail)", "correo"], ["Mr, Dr (US Mr., Dr.)", "señor, doctor"]]
   },
   "past-simple": {
     "name": "pasado simple",
