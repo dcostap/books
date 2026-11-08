@@ -37,8 +37,10 @@ The title music times for chapters 2–7 are the gaps between words, not the edg
 Chapter 1 command:
 
 ```
-.venv/Scripts/python books/duke/fix_audio.py audio/duke/01-original-with-chime.mp3 audio/duke/01-sherlock-holmes-has-a-visitor.webm --cut 5.66 15.97 --chime 19.62 21.55 --click 19.706 19.782 --declick 18.303 18.330 --declick 18.410 18.437
+.venv/Scripts/python books/duke/fix_audio.py audio/duke/01-original-with-chime.mp3 audio/duke/01-sherlock-holmes-has-a-visitor.webm --cut 5.66 15.97 --cut 239.20 241.03 --chime 19.62 21.55 --click 19.706 19.782 --declick 18.303 18.330 --declick 18.410 18.437
 ```
+
+The second cut in chapter 1 makes a pause of 3.3 s shorter, after "…the page about the Duke of Holdernesse." The pause is digital silence, so the cut cannot be heard. The pause is now 2.0 s. The word times after it in `whisper.json` and `words.json` moved 1.33 s earlier; Whisper did not run again.
 
 The files of chapters 2–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
 
@@ -59,7 +61,6 @@ Whisper agrees with 98–99% of the words. The rest are pronunciation only. Do n
 
 Places where the narrator may differ from the book. Listen to each one before you publish its chapter:
 
-- Ch1, about 3:48 (3:58 before the music cut): a pause of 4.7 s that may hold extra speech.
 - Ch4, about 1:20: "and once some cow tracks"? The book has "and some cow tracks".
 - Ch4, about 3:40: "Nope" against the book's ‘No,’.
 - Ch4, about 8:00: a stumble, "So… so far".

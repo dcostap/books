@@ -1,9 +1,10 @@
 """Clean a chapter of the Duke audio: the title music, the YouTube chime and its mouse click. See NOTES.md.
 
-    .venv/Scripts/python books/duke/fix_audio.py SRC DST [--cut A B] [--chime A B] [--click A B] [--declick A B ...]
+    .venv/Scripts/python books/duke/fix_audio.py SRC DST [--cut A B ...] [--chime A B] [--click A B] [--declick A B ...]
 
 All times are seconds in SRC.
-  --cut A B    remove A..B (the title music) and put --gap seconds of silence there (default 0.5), with 10 ms fades
+  --cut A B    remove A..B (the title music) and put --gap seconds of silence there (default 0.5), with 10 ms fades.
+               Repeat the option for more cuts, for example to make a long pause shorter.
   --chime A B  narrow notches at the chime's tones between A and B
   --click A B  keep only the sound under 3.5 kHz between A and B
   --declick A B  remove short spikes between A and B (ffmpeg adeclick, two passes); for a click on top of speech,
@@ -43,7 +44,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("src")
     parser.add_argument("dst")
-    parser.add_argument("--cut", type=float, nargs=2)
+    parser.add_argument("--cut", type=float, nargs=2, action="append", default=[])
     parser.add_argument("--gap", type=float, default=0.5)
     parser.add_argument("--chime", type=float, nargs=2)
     parser.add_argument("--click", type=float, nargs=2)
@@ -68,8 +69,9 @@ def main():
             declicked[lo:hi] = np.frombuffer(raw, np.float32).reshape(-1, 2)[:hi - lo]
             m = window(len(out), a, b, 0.003)
             out = out * (1 - m) + declicked * m
-    if args.cut:
-        a, b, r = int(args.cut[0] * SR), int(args.cut[1] * SR), int(0.01 * SR)
+    # The last cut first, so the times of the other cuts stay correct.
+    for cut in sorted(args.cut, reverse=True):
+        a, b, r = int(cut[0] * SR), int(cut[1] * SR), int(0.01 * SR)
         head, tail = out[:a].copy(), out[b:].copy()
         head[-r:] *= np.linspace(1, 0, r)[:, None]
         tail[:r] *= np.linspace(0, 1, r)[:, None]
