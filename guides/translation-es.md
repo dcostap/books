@@ -165,7 +165,7 @@ Content and style:
 - Do not repeat the base form or the gloss.
 - Spanish from Spain. Speak to the reader as *tú*. Friendly and light. A little wit is welcome, but never at the cost of clarity. Never talk down to the reader.
 - 1 or 2 short sentences, at most about 200 characters. At A1–A2, use easy Spanish and keep it short.
-- Put English words in italics with asterisks: *scrawny*. Put Spanish words in « ». Plain text only: no emojis, no lists.
+- **Every English word inside Spanish text goes in asterisks:** *scrawny*, *look at*, *-ed*. This is for notes, `also`, and concept names and texts. The app shows these words in italics, with a colour, so the reader sees at once which words are English. Put Spanish words in « ». Plain text only: no emojis, no lists.
 - Name the grammar: when a note explains an idea of grammar, say it in plain words, and then link the idea (see "Concept links").
 
 | Unit | Base | Gloss | Note |
@@ -201,7 +201,7 @@ Bad notes:
 
 The gloss gives the meaning at this place. A learner can then think that it is the only meaning. When a word has other common meanings that a learner at this level will meet, list them in `also`.
 
-- 1 to 4 strings, the most common first. Each one is a Spanish meaning, then a short English example in brackets: `"conseguir (*get a job*)"`.
+- 1 to 4 strings, the most common first. Each one is a Spanish meaning, then a short English example in brackets and asterisks: `"conseguir (*get a job*)"`.
 - Only meanings that are really different from the gloss. Not synonyms of the gloss, and not rare meanings. "think" = *creo* → not *pensar*: that is the same idea. "white" = *pálido* → *blanco* is fine: it is the usual meaning.
 - Mostly for short, common words with many meanings: *get, take, make, set, run, way, still, mind, fine, rather*. Most units have no `also`.
 - Also for a word that is a different part of speech in other places: "firm" (*empresa*) → `["firme (*a firm bed*)"]`.

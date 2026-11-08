@@ -331,13 +331,13 @@ dialog form { text-align: right; }
   font-size: 0.95rem;
   line-height: 1.45;
 }
-.pop-note i { font-family: var(--serif); font-size: 1.05em; }
+/* English inside Spanish text: italic and tinted, so it stands out from the Spanish */
+.pop-note i, .pop-also i, .pop-concepts i { font-family: var(--serif); font-size: 1.05em; color: color-mix(in srgb, var(--accent) 60%, var(--fg)); }
 .pop-gloss:empty, .pop-note:empty { display: none; }
 /* Other meanings, and the concepts that the note links to, as footnotes */
 .pop-also { font-size: 0.95rem; line-height: 1.45; }
 .pop-also > span { color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
 .pop-also ul, .pop-concepts ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
-.pop-also i, .pop-concepts i { font-family: var(--serif); font-size: 1.05em; }
 .concept-group { white-space: nowrap; }
 .concept-ref { white-space: nowrap; text-decoration: underline dotted; text-underline-offset: 0.2em; color: var(--accent); }
 .concept-ref sup { margin-left: 0.1em; font-size: 0.7em; font-weight: 700; }

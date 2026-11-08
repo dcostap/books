@@ -7,6 +7,6 @@ The user directs the work: what to translate, with which agents and models, and 
 - **Jobs:** `.venv/Scripts/python tools/translation.py prep books/<id> <n> [--jobs N] [--paragraphs N]` writes the jobs, with a number on each token.
 - **Check:** `python tools/translation.py check books/<id> <n> <job>` must print `OK`.
 - **Read:** `python tools/translation.py show books/<id> <n> [job]` prints each sentence with its line and popup units. Then `build.py` and look at the chapter in the app with the Spanish line on.
-- **Concepts:** `guides/concepts-es.json` is for all books. Translators link new concept ids and propose them in their reply. The user or the orchestrator decides: add the entry (with examples, and typical mistakes in `wrong` when there are some; English words in `name` and `text` go in *asterisks*, as in notes), or remove the link and keep the note text. `build.py` lists links to entries that do not exist.
+- **Concepts:** `guides/concepts-es.json` is for all books. Translators link new concept ids and propose them in their reply. The user or the orchestrator decides: add the entry (with examples, and typical mistakes in `wrong` when there are some; every English word in `name` and `text` goes in *asterisks*, as in notes), or remove the link and keep the note text. `build.py` lists links to entries that do not exist.
 - **Learn:** when the same mistake comes back, propose a change to the guide or the book notes to the user.
 - **English errors:** do not change `text.md` to fix the English text, because that breaks the timings. Tell the user.
