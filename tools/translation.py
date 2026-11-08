@@ -1,7 +1,7 @@
 """Spanish translations of a chapter (instructions: guides/translation-es.md and guides/translation-workflow.md).
 
 Usage:
-  python tools/translation.py prep books/duke 1 [--jobs N] [--paragraphs N] [--force]
+  python tools/translation.py prep books/duke 1 [--jobs N] [--paragraphs N] [--more | --force]
                                                                        split the chapter into jobs
   python tools/translation.py check books/duke 1 3                     check the answer to job 3
   python tools/translation.py show books/duke 1 [3]                    print the answers (or job 3) to read them
@@ -267,33 +267,47 @@ def merge(chapter_dir):
 JOB_WORDS = 1500
 
 
-def prep(book_dir, number, jobs, paragraphs, force):
-    """Make the jobs. With paragraphs, the jobs cover only the first that many blocks (headings count)."""
+def prep(book_dir, number, jobs, paragraphs, more, force):
+    """Make the jobs. With paragraphs, the jobs cover only the first that many blocks (headings count).
+
+    With more, keep the jobs that exist and make new jobs for the sentences after them.
+    """
     chapter_dir = book_dir / f"{number:02d}"
     es = chapter_dir / "es"
     answers = sorted(es.glob("[0-9][0-9].json"))
-    if answers and not force:
-        sys.exit(f"{es} already has answers ({len(answers)} files). Use --force to make new jobs; the old answers will not fit.")
+    if answers and not (more or force):
+        sys.exit(f"{es} already has answers ({len(answers)} files). Use --more to add jobs for the rest of the chapter, "
+                 "or --force to make new jobs (the old answers will not fit).")
     sentences = chapter_sentences(chapter_dir)
-    covered = [s for s in sentences if paragraphs is None or s[0] < paragraphs]
+    kept, start = [], 0
+    if more:
+        old = load_source(chapter_dir)
+        if old["sentences"] != [" ".join(t) for _, t in sentences]:
+            sys.exit("the text changed after prep: the old jobs do not fit. Use --force.")
+        kept = old["jobs"]
+        start = kept[-1][1] + 1 if kept else 0
+    covered = [s for s in sentences[start:] if paragraphs is None or s[0] < paragraphs]
+    if not covered:
+        sys.exit("no sentences left to put in new jobs")
 
     # Cut after a paragraph, when the job has its share of the words.
     total = sum(len(t) for _, t in covered)
     jobs = jobs or max(1, round(total / JOB_WORDS))
-    ranges, first, words = [], 0, 0
-    for i, (paragraph, tokens) in enumerate(covered):
+    ranges, first, words = [], start, 0
+    for i, (paragraph, tokens) in enumerate(covered, start):
         words += len(tokens)
-        paragraph_ends = i + 1 == len(covered) or covered[i + 1][0] != paragraph
-        if paragraph_ends and (words >= total * (len(ranges) + 1) / jobs or i + 1 == len(covered)):
+        paragraph_ends = i + 1 == start + len(covered) or sentences[i + 1][0] != paragraph
+        if paragraph_ends and (words >= total * (len(ranges) + 1) / jobs or i + 1 == start + len(covered)):
             ranges.append([first, i])
             first = i + 1
 
     (es / "jobs").mkdir(parents=True, exist_ok=True)
-    for old in (es / "jobs").glob("*.md"):
-        old.unlink()
-    source = {"sentences": [" ".join(t) for _, t in sentences], "jobs": ranges}
+    if not more:
+        for old in (es / "jobs").glob("*.md"):
+            old.unlink()
+    source = {"sentences": [" ".join(t) for _, t in sentences], "jobs": kept + ranges}
     (es / "source.json").write_text(json.dumps(source, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
-    for job, (first, last) in enumerate(ranges, 1):
+    for job, (first, last) in enumerate(ranges, len(kept) + 1):
         lines = [f"# Job {job:02d}: sentences {first} to {last} of {book_dir.as_posix()} chapter {number}", "",
                  f"Answer file: {(es / f'{job:02d}.json').as_posix()}",
                  f"Check: python tools/translation.py check {book_dir.as_posix()} {number} {job}",
@@ -388,6 +402,7 @@ def main():
     p.add_argument("chapter", type=int)
     p.add_argument("--jobs", type=int, help=f"number of jobs (default: one for each {JOB_WORDS} words)")
     p.add_argument("--paragraphs", type=int, help="only the first N blocks of text.md (headings count)")
+    p.add_argument("--more", action="store_true", help="keep the jobs that exist; add jobs for the rest of the chapter")
     p.add_argument("--force", action="store_true")
     c = sub.add_parser("check")
     c.add_argument("book_dir", type=Path)
@@ -399,7 +414,7 @@ def main():
     s.add_argument("job", type=int, nargs="?")
     args = parser.parse_args()
     if args.command == "prep":
-        prep(args.book_dir, args.chapter, args.jobs, args.paragraphs, args.force)
+        prep(args.book_dir, args.chapter, args.jobs, args.paragraphs, args.more, args.force)
     elif args.command == "check":
         check_cmd(args.book_dir, args.chapter, args.job)
     else:
