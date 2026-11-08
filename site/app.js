@@ -857,6 +857,27 @@ function showReader(book, chapter, target) {
     return { html, ids };
   }
 
+  // Two sentences with the words that differ marked: "I need an information." / "I need some information." marks
+  // "an" in the first with the tag del and "some" in the second with the tag ins. Words match without case and punctuation.
+  function wordDiff(a, b, del, ins) {
+    const x = a.split(" "), y = b.split(" "), key = (w) => w.toLowerCase().replace(/’/g, "'").replace(/[^\p{L}\p{N}']/gu, "");
+    const lcs = x.map(() => Array(y.length + 1).fill(0)).concat([Array(y.length + 1).fill(0)]);
+    for (let i = x.length - 1; i >= 0; i--)
+      for (let j = y.length - 1; j >= 0; j--)
+        lcs[i][j] = key(x[i]) === key(y[j]) ? lcs[i + 1][j + 1] + 1 : Math.max(lcs[i + 1][j], lcs[i][j + 1]);
+    const keepX = new Set(), keepY = new Set();
+    for (let i = 0, j = 0; i < x.length && j < y.length;) {
+      if (key(x[i]) === key(y[j])) { keepX.add(i++); keepY.add(j++); }
+      else if (lcs[i + 1][j] >= lcs[i][j + 1]) i++;
+      else j++;
+    }
+    // Neighbouring marked words share one mark, so a struck-through phrase has one line.
+    const mark = (words, keep, tag) => words.map((w, i) => keep.has(i) ? esc(w)
+      : `${keep.has(i - 1) || i === 0 ? `<${tag}>` : ""}${esc(w)}${keep.has(i + 1) || i === words.length - 1 ? `</${tag}>` : ""}`)
+      .join(" ");
+    return [mark(x, keepX, del), mark(y, keepY, ins)];
+  }
+
   // The linked concepts as footnotes, folded: the reader opens one when they want it.
   const footnotes = (ids) => ids.map((id, n) => {
     const c = concepts[id];
@@ -864,7 +885,10 @@ function showReader(book, chapter, target) {
       <summary>${icon("book")}<sup>${n + 1}</sup>${rich(c.name.replace(/\p{L}/u, (x) => x.toUpperCase()))}</summary>
       <p>${rich(c.text)}</p>
       <ul>${c.examples.map(([en, es]) => `<li><i lang="en">${esc(en)}</i> <span>${esc(es)}</span></li>`).join("")}</ul>
-      ${c.wrong ? `<ul class="wrong" lang="en">${c.wrong.map(([bad, good]) => `<li><s>${esc(bad)}</s> <i>${esc(good)}</i></li>`).join("")}</ul>` : ""}
+      ${c.wrong ? `<ul class="wrong" lang="en">${c.wrong.map(([bad, good]) => {
+        const [badHTML, goodHTML] = wordDiff(bad, good, "s", "b");
+        return `<li><span class="bad">${badHTML}</span> <i class="good">${goodHTML}</i></li>`;
+      }).join("")}</ul>` : ""}
     </details>`;
   }).join("");
 
