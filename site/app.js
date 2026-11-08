@@ -632,7 +632,14 @@ function showReader(book, chapter, target) {
     updatePill();
   }
 
-  const toggle = () => (audio.paused ? play() : audio.pause());
+  // After a pause, start again at the word that was playing, or at the last word heard.
+  function resume() {
+    const word = words[current];
+    if (word && audio.currentTime > word.s) seek(word.s - PREROLL);
+    play();
+  }
+
+  const toggle = () => (audio.paused ? resume() : audio.pause());
 
   function saveProgress(force) {
     if (!ready) return;
@@ -981,7 +988,7 @@ function showReader(book, chapter, target) {
 
   const media = navigator.mediaSession;
   const actions = {
-    play,
+    play: resume,
     pause: () => audio.pause(),
     seekbackward: () => seek(audio.currentTime - 15),
     seekforward: () => seek(audio.currentTime + 15),
