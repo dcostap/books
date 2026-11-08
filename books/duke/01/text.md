@@ -1,0 +1,43 @@
+# Chapter One: Sherlock Holmes Has a Visitor
+
+When visitors came to see Sherlock Holmes in Baker Street, they often did surprising things. Sometimes they put their heads in their hands and cried. Sometimes they talked and talked, and couldn’t stop. And sometimes they just sat there and didn’t say a word. But nobody was more surprising than Dr Thorneycroft Huxtable.
+
+He was a large man, tall, well-dressed, and important-looking. He came into the room, walked to one of the big chairs, and suddenly fell into it. He sat there, with his eyes closed, looking white and ill.
+
+I ran to get some water for him. Then I got my doctor’s bag, and looked at him carefully.
+
+‘What is it, Watson?’ said Holmes.
+
+‘He’s all right, I think,’ I said. ‘He’s just very, very tired – and probably hungry too.’
+
+Holmes looked in the man’s pockets – and found a train ticket from Mackleton, in the north of England.
+
+‘Mackleton – that’s a long way,’ said Holmes. ‘It’s not twelve o’clock yet, so he probably left home before five o’clock this morning.’
+
+After a minute or two the man began to move, and his eyes opened. A second later he got quickly to his feet. His face was now red and unhappy.
+
+‘Mr Holmes, I am so sorry! I forgot to eat or drink anything this morning – that’s why I felt ill.’
+
+‘When you feel better –’ I began.
+
+‘I’m better now, thank you,’ said our visitor. ‘And I want very much to talk to Mr Holmes – to ask him something. Please, Mr Holmes, come back to Mackleton with me by the next train.’
+
+‘I’m sorry, that’s not possible,’ said Holmes. ‘I’m working on two important cases – the Ferrers case and the Abergavenny case. I cannot leave London at the moment.’
+
+‘Important cases!’ our visitor cried. ‘But this case is very important too. You know about the kidnapping of the son of the Duke of Holdernesse three days ago...’
+
+‘What! The Government Minister?’
+
+‘Yes, that’s him. So you didn’t know... It’s not in the newspapers yet, that’s true. But Sherlock Holmes always hears news before other people, I thought.’
+
+Holmes went to get one of his books, and began to read the page about the Duke of Holdernesse.
+
+‘Holdernesse, sixth Duke. Wife: Edith, daughter of Lord Grey. One child, Lord Arthur Saltire. Houses in London, Lancashire, and Wales. Government Minister for this... for that... for the other... Well, well,’ said Holmes. ‘He’s one of the greatest men in the country.’
+
+‘One of the greatest, and one of the richest,’ said Dr Huxtable. ‘I know, Mr Holmes, that you don’t work for money, but I must tell you this. The Duke is offering five thousand pounds for news of his son, and another one thousand pounds for the name of his kidnapper.’
+
+‘That,’ said Holmes, ‘is a most interesting offer.’ He looked at me. ‘Watson, I think we are going with Dr Huxtable back to the north of England this afternoon.’
+
+Holmes then looked at Dr Huxtable. ‘Now, sir, tell me everything. What happened? When did it happen? How did it happen? And why does Dr Thorneycroft Huxtable come to ask for my help three days later?’
+
+Our visitor drank some water, and began his story.

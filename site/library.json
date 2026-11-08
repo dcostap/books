@@ -1,5 +1,20 @@
 [
   {
+    "id": "duke",
+    "title": "Sherlock Holmes and the Duke's Son",
+    "author": "Arthur Conan Doyle, retold by Jennifer Bassett",
+    "narrator": "Richard Mitchly",
+    "cover": "books/duke/cover.jpg",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "Sherlock Holmes Has a Visitor",
+        "data": "books/duke/01.json",
+        "duration": 346.18
+      }
+    ]
+  },
+  {
     "id": "hp1",
     "title": "Harry Potter and the Philosopher's Stone",
     "author": "J.K. Rowling",

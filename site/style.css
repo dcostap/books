@@ -160,7 +160,7 @@ dialog form { text-align: right; }
   border-radius: 16px;
   background: var(--surface);
 }
-.book-card img { flex: none; width: 84px; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 8px; }
+.book-card img { flex: none; width: 84px; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 8px; }
 .book-card > div { flex: 1; min-width: 0; }
 .book-card h2 { margin: 0.1rem 0 0.25rem; font-family: var(--serif); font-size: 1.15rem; line-height: 1.25; }
 .book-card p { margin: 0; font-size: 0.9rem; }
@@ -168,7 +168,7 @@ dialog form { text-align: right; }
 /* Book */
 
 .hero { display: flex; gap: 1.25rem; align-items: flex-end; }
-.hero img { flex: none; width: 132px; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 24px rgb(0 0 0 / 0.18); }
+.hero img { flex: none; width: 132px; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 24px rgb(0 0 0 / 0.18); }
 .hero h1 { margin: 0 0 0.4rem; font-family: var(--serif); font-size: 1.6rem; line-height: 1.2; }
 .hero p { margin: 0; }
 .hero .button { margin-top: 1rem; }

@@ -6,3 +6,6 @@ Harry_Potter_1_Jim_Dale/
 
 .venv/
 __pycache__/
+
+# Duke chapters 2-7: kept locally only. book.json lists chapter 1.
+books/duke/0[2-7]/

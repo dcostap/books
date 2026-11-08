@@ -1,0 +1,16 @@
+{
+  "title": "Sherlock Holmes and the Duke's Son",
+  "author": "Arthur Conan Doyle, retold by Jennifer Bassett",
+  "narrator": "Richard Mitchly",
+  "cover": "cover.jpg",
+  "source": {
+    "pdf": "source/book.pdf"
+  },
+  "prompt": "When visitors came to see Sherlock Holmes in Baker Street, they often did surprising things. Dr Watson, Dr Thorneycroft Huxtable, the Duke of Holdernesse, Lord Saltire, Mr James Wilder, Heidegger, Mackleton, Ragged Shaw, Lower Gill Moor, the Green Man Inn, Mr Reuben Hayes, Chesterfield.",
+  "chapters": [
+    {
+      "title": "Sherlock Holmes Has a Visitor",
+      "audio": "audio/duke/01-sherlock-holmes-has-a-visitor.mp3"
+    }
+  ]
+}
