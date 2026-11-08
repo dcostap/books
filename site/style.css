@@ -329,14 +329,14 @@ dialog form { text-align: right; }
 /* The content fades out at an edge where there is more to scroll. The scroll position drives the fade. */
 @property --fade-top { syntax: "<length>"; inherits: false; initial-value: 0px; }
 @property --fade-bottom { syntax: "<length>"; inherits: false; initial-value: 0px; }
-@keyframes pop-fade-top { to { --fade-top: 2rem; } }
-@keyframes pop-fade-bottom { from { --fade-bottom: 2rem; } }
+@keyframes pop-fade-top { to { --fade-top: 1.25rem; } }
+@keyframes pop-fade-bottom { from { --fade-bottom: 1.25rem; } }
 @supports (animation-timeline: scroll()) {
   .pop-body {
-    mask-image: linear-gradient(transparent, #000 var(--fade-top), #000 calc(100% - var(--fade-bottom)), transparent);
+    mask-image: linear-gradient(rgb(0 0 0 / 0.25), #000 var(--fade-top), #000 calc(100% - var(--fade-bottom)), rgb(0 0 0 / 0.25));
     animation: pop-fade-top linear both, pop-fade-bottom linear both;
     animation-timeline: scroll(self), scroll(self);
-    animation-range: 0 2rem, calc(100% - 2rem) 100%;
+    animation-range: 0 1.25rem, calc(100% - 1.25rem) 100%;
   }
 }
 /* Wide screens: a card in the right margin, beside the text. It starts in the right padding of the text (1.25rem),
