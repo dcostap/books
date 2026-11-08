@@ -209,6 +209,7 @@ The gloss gives the meaning at this place. A learner can then think that it is t
 - Mostly for short, common words with many meanings: *get, take, make, set, run, way, still, mind, fine, rather*. Most units have no `also`.
 - Also for a word that is a different part of speech in other places: "firm" (*empresa*) → `["firme (*a firm bed*)"]`.
 - Give it the first time the word appears in the chapter, not every time.
+- Not when the unit has a preposition ("into the room", "of a firm"): the other meanings would be about one of its words, not the unit. An article, a possessive or "to" is fine: "to get" → `["conseguir (*get a job*)"]`.
 
 ## Answer format
 
