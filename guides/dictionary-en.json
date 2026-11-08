@@ -1,4 +1,22 @@
 {
+  "afternoon": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "tarde",
+        "ex": "a warm summer afternoon"
+      }
+    ]
+  },
+  "ago": {
+    "senses": [
+      {
+        "id": "before",
+        "es": "hace",
+        "ex": "We met several years ago."
+      }
+    ]
+  },
   "all right": {
     "senses": [
       {
@@ -15,6 +33,81 @@
         "id": "certainly",
         "es": "sin duda",
         "ex": "It's expensive all right!"
+      }
+    ]
+  },
+  "always": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "siempre",
+        "ex": "She always carries an umbrella."
+      }
+    ]
+  },
+  "ask": {
+    "senses": [
+      {
+        "id": "question",
+        "es": "preguntar",
+        "ex": "Ask her what she thinks."
+      },
+      {
+        "id": "request",
+        "es": "pedir",
+        "ex": "He asked me to wait."
+      },
+      {
+        "id": "invite",
+        "es": "invitar",
+        "ex": "Ask them to dinner."
+      }
+    ]
+  },
+  "ask for": {
+    "senses": [
+      {
+        "id": "request",
+        "es": "pedir",
+        "ex": "Ask for a clean glass."
+      },
+      {
+        "id": "invite-trouble",
+        "es": "buscarse",
+        "ex": "You're asking for trouble."
+      }
+    ]
+  },
+  "at the moment": {
+    "senses": [
+      {
+        "id": "now",
+        "es": "en este momento",
+        "ex": "She's busy at the moment."
+      }
+    ]
+  },
+  "back": {
+    "senses": [
+      {
+        "id": "body",
+        "es": "espalda",
+        "ex": "My back hurts today."
+      },
+      {
+        "id": "rear",
+        "es": "parte de atrás",
+        "ex": "Sit at the back."
+      },
+      {
+        "id": "return",
+        "es": "de vuelta",
+        "ex": "I'll be back before dinner."
+      },
+      {
+        "id": "support",
+        "es": "apoyar",
+        "ex": "We back your decision."
       }
     ]
   },
@@ -60,6 +153,19 @@
       }
     ]
   },
+  "begin": {
+    "forms": {
+      "past": "began",
+      "participle": "begun"
+    },
+    "senses": [
+      {
+        "id": "start",
+        "es": "empezar",
+        "ex": "The lesson begins at nine."
+      }
+    ]
+  },
   "big": {
     "senses": [
       {
@@ -76,6 +182,20 @@
         "id": "older",
         "es": "mayor",
         "ex": "my big sister"
+      }
+    ]
+  },
+  "book": {
+    "senses": [
+      {
+        "id": "reading",
+        "es": "libro",
+        "ex": "a book about wild animals"
+      },
+      {
+        "id": "reserve",
+        "es": "reservar",
+        "ex": "Book a table for Friday."
       }
     ]
   },
@@ -115,6 +235,25 @@
       }
     ]
   },
+  "case": {
+    "senses": [
+      {
+        "id": "matter",
+        "es": "caso",
+        "ex": "The police solved the case."
+      },
+      {
+        "id": "container",
+        "es": "estuche",
+        "ex": "a case for my glasses"
+      },
+      {
+        "id": "luggage",
+        "es": "maleta",
+        "ex": "Put your case in the car."
+      }
+    ]
+  },
   "chair": {
     "senses": [
       {
@@ -145,6 +284,23 @@
         "id": "period",
         "es": "etapa",
         "ex": "a new chapter in her life"
+      }
+    ]
+  },
+  "child": {
+    "forms": {
+      "plural": "children"
+    },
+    "senses": [
+      {
+        "id": "young",
+        "es": "niño",
+        "ex": "a child playing with a ball"
+      },
+      {
+        "id": "offspring",
+        "es": "hijo",
+        "ex": "Their children are all adults."
       }
     ]
   },
@@ -195,6 +351,48 @@
       }
     ]
   },
+  "come back": {
+    "forms": {
+      "past": "came back",
+      "participle": "come back"
+    },
+    "senses": [
+      {
+        "id": "return",
+        "es": "volver",
+        "ex": "Come back after lunch."
+      },
+      {
+        "id": "remember",
+        "es": "recordar",
+        "ex": "It all came back to me."
+      },
+      {
+        "id": "fashion",
+        "es": "ponerse de moda",
+        "ex": "Those hats are coming back."
+      }
+    ]
+  },
+  "country": {
+    "senses": [
+      {
+        "id": "nation",
+        "es": "país",
+        "ex": "Which country do you live in?"
+      },
+      {
+        "id": "rural",
+        "es": "campo",
+        "ex": "a quiet weekend in the country"
+      },
+      {
+        "id": "region",
+        "es": "región",
+        "ex": "We walked through mountain country."
+      }
+    ]
+  },
   "cry": {
     "senses": [
       {
@@ -211,6 +409,29 @@
         "id": "sound",
         "es": "grito",
         "ex": "a loud cry of pain"
+      }
+    ]
+  },
+  "daughter": {
+    "senses": [
+      {
+        "id": "family",
+        "es": "hija",
+        "ex": "Their daughter works in a hospital."
+      }
+    ]
+  },
+  "day": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "día",
+        "ex": "I'll stay for ten days."
+      },
+      {
+        "id": "period",
+        "es": "época",
+        "ex": "In those days, we had horses."
       }
     ]
   },
@@ -261,6 +482,56 @@
       }
     ]
   },
+  "drink": {
+    "forms": {
+      "past": "drank",
+      "participle": "drunk"
+    },
+    "senses": [
+      {
+        "id": "consume",
+        "es": "beber",
+        "ex": "Drink some warm milk."
+      },
+      {
+        "id": "beverage",
+        "es": "bebida",
+        "ex": "a cold drink after work"
+      },
+      {
+        "id": "alcohol",
+        "es": "copa",
+        "ex": "Let's have a drink tonight."
+      }
+    ]
+  },
+  "duke": {
+    "senses": [
+      {
+        "id": "noble",
+        "es": "duque",
+        "ex": "The duke owns that castle."
+      }
+    ]
+  },
+  "eat": {
+    "forms": {
+      "past": "ate",
+      "participle": "eaten"
+    },
+    "senses": [
+      {
+        "id": "food",
+        "es": "comer",
+        "ex": "We eat breakfast together."
+      },
+      {
+        "id": "worry",
+        "es": "preocupar",
+        "ex": "What's eating you today?"
+      }
+    ]
+  },
   "eye": {
     "senses": [
       {
@@ -272,6 +543,30 @@
         "id": "notice",
         "es": "observar",
         "ex": "He eyed the cake with interest."
+      }
+    ]
+  },
+  "face": {
+    "senses": [
+      {
+        "id": "front",
+        "es": "cara",
+        "ex": "Wash your face before bed."
+      },
+      {
+        "id": "confront",
+        "es": "enfrentarse a",
+        "ex": "We must face the problem."
+      },
+      {
+        "id": "direction",
+        "es": "mirar hacia",
+        "ex": "Our windows face the sea."
+      },
+      {
+        "id": "clock",
+        "es": "esfera",
+        "ex": "a watch with a blue face"
       }
     ]
   },
@@ -303,6 +598,34 @@
       }
     ]
   },
+  "feel": {
+    "forms": {
+      "past": "felt",
+      "participle": "felt"
+    },
+    "senses": [
+      {
+        "id": "experience",
+        "es": "sentir",
+        "ex": "I felt a sudden pain."
+      },
+      {
+        "id": "state",
+        "es": "sentirse",
+        "ex": "Do you feel tired?"
+      },
+      {
+        "id": "touch",
+        "es": "tocar",
+        "ex": "Feel how soft this blanket is."
+      },
+      {
+        "id": "believe",
+        "es": "creer",
+        "ex": "I feel we should leave."
+      }
+    ]
+  },
   "find": {
     "forms": {
       "past": "found",
@@ -323,6 +646,46 @@
         "id": "discovery",
         "es": "hallazgo",
         "ex": "an important find near the river"
+      }
+    ]
+  },
+  "foot": {
+    "forms": {
+      "plural": "feet"
+    },
+    "senses": [
+      {
+        "id": "body",
+        "es": "pie",
+        "ex": "My shoes hurt my feet."
+      },
+      {
+        "id": "base",
+        "es": "base",
+        "ex": "at the foot of the hill"
+      },
+      {
+        "id": "measure",
+        "es": "pie",
+        "ex": "The wall is six feet high."
+      }
+    ]
+  },
+  "forget": {
+    "forms": {
+      "past": "forgot",
+      "participle": "forgotten"
+    },
+    "senses": [
+      {
+        "id": "remember",
+        "es": "olvidar",
+        "ex": "Don't forget your sister's birthday."
+      },
+      {
+        "id": "leave",
+        "es": "dejarse",
+        "ex": "I forgot my coat at school."
       }
     ]
   },
@@ -364,6 +727,80 @@
       }
     ]
   },
+  "get to one's feet": {
+    "forms": {
+      "past": "got to one's feet",
+      "participle": "got to one's feet (US gotten to one's feet)"
+    },
+    "senses": [
+      {
+        "id": "stand",
+        "es": "ponerse de pie",
+        "ex": "They slowly got to their feet."
+      }
+    ]
+  },
+  "go": {
+    "forms": {
+      "past": "went",
+      "participle": "gone"
+    },
+    "senses": [
+      {
+        "id": "move",
+        "es": "ir",
+        "ex": "Let's go to the beach."
+      },
+      {
+        "id": "leave",
+        "es": "irse",
+        "ex": "It's time for us to go."
+      },
+      {
+        "id": "become",
+        "es": "ponerse",
+        "ex": "Her face went pale."
+      },
+      {
+        "id": "match",
+        "es": "combinar",
+        "ex": "These colours go well together."
+      },
+      {
+        "id": "attempt",
+        "es": "intento",
+        "ex": "Have another go at it."
+      }
+    ]
+  },
+  "government": {
+    "senses": [
+      {
+        "id": "authority",
+        "es": "gobierno",
+        "ex": "The government announced new plans."
+      }
+    ]
+  },
+  "great": {
+    "senses": [
+      {
+        "id": "excellent",
+        "es": "estupendo",
+        "ex": "We had a great holiday."
+      },
+      {
+        "id": "important",
+        "es": "importante",
+        "ex": "a great leader of our time"
+      },
+      {
+        "id": "large",
+        "es": "gran",
+        "ex": "She showed great courage."
+      }
+    ]
+  },
   "hand": {
     "senses": [
       {
@@ -380,6 +817,20 @@
         "id": "pass",
         "es": "dar",
         "ex": "Hand me that blue pen."
+      }
+    ]
+  },
+  "happen": {
+    "senses": [
+      {
+        "id": "occur",
+        "es": "pasar",
+        "ex": "What happened to your bike?"
+      },
+      {
+        "id": "chance",
+        "es": "dar la casualidad",
+        "ex": "I happen to know her."
       }
     ]
   },
@@ -440,6 +891,95 @@
       }
     ]
   },
+  "hear": {
+    "forms": {
+      "past": "heard",
+      "participle": "heard"
+    },
+    "senses": [
+      {
+        "id": "sound",
+        "es": "oír",
+        "ex": "Can you hear the music?"
+      },
+      {
+        "id": "learn",
+        "es": "enterarse de",
+        "ex": "Have you heard the latest news?"
+      }
+    ]
+  },
+  "help": {
+    "senses": [
+      {
+        "id": "assist",
+        "es": "ayudar",
+        "ex": "Can you help me cook?"
+      },
+      {
+        "id": "assistance",
+        "es": "ayuda",
+        "ex": "We need your help today."
+      },
+      {
+        "id": "prevent",
+        "es": "evitar",
+        "ex": "I couldn't help laughing."
+      }
+    ]
+  },
+  "home": {
+    "senses": [
+      {
+        "id": "dwelling",
+        "es": "casa",
+        "ex": "a warm and comfortable home"
+      },
+      {
+        "id": "destination",
+        "es": "a casa",
+        "ex": "We're going home early."
+      },
+      {
+        "id": "care",
+        "es": "residencia",
+        "ex": "a home for elderly people"
+      },
+      {
+        "id": "sport",
+        "es": "local",
+        "ex": "The home team won easily."
+      }
+    ]
+  },
+  "house": {
+    "senses": [
+      {
+        "id": "building",
+        "es": "casa",
+        "ex": "a house with a red roof"
+      }
+    ]
+  },
+  "how": {
+    "senses": [
+      {
+        "id": "manner",
+        "es": "cómo",
+        "ex": "How do you make bread?"
+      },
+      {
+        "id": "degree",
+        "es": "qué",
+        "ex": "How tall is your brother?"
+      },
+      {
+        "id": "exclamation",
+        "es": "qué",
+        "ex": "How lovely these flowers are!"
+      }
+    ]
+  },
   "hungry": {
     "senses": [
       {
@@ -468,12 +1008,30 @@
       }
     ]
   },
+  "important": {
+    "senses": [
+      {
+        "id": "value",
+        "es": "importante",
+        "ex": "This is an important decision."
+      }
+    ]
+  },
   "important-looking": {
     "senses": [
       {
         "id": "appearance",
         "es": "de aspecto importante",
         "ex": "an important-looking letter"
+      }
+    ]
+  },
+  "interesting": {
+    "senses": [
+      {
+        "id": "attention",
+        "es": "interesante",
+        "ex": "an interesting conversation about food"
       }
     ]
   },
@@ -501,12 +1059,133 @@
       }
     ]
   },
+  "kidnapper": {
+    "senses": [
+      {
+        "id": "criminal",
+        "es": "secuestrador",
+        "ex": "The kidnapper demanded more money."
+      }
+    ]
+  },
+  "kidnapping": {
+    "senses": [
+      {
+        "id": "crime",
+        "es": "secuestro",
+        "ex": "The police investigated the kidnapping."
+      }
+    ]
+  },
+  "know": {
+    "forms": {
+      "past": "knew",
+      "participle": "known"
+    },
+    "senses": [
+      {
+        "id": "information",
+        "es": "saber",
+        "ex": "Do you know the answer?"
+      },
+      {
+        "id": "familiar",
+        "es": "conocer",
+        "ex": "I know this town well."
+      },
+      {
+        "id": "recognise",
+        "es": "reconocer",
+        "ex": "I knew him by his voice."
+      }
+    ]
+  },
   "large": {
     "senses": [
       {
         "id": "size",
         "es": "grande",
         "ex": "a large glass of milk"
+      }
+    ]
+  },
+  "late": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "tarde",
+        "ex": "We arrived late for dinner."
+      },
+      {
+        "id": "delayed",
+        "es": "retrasado",
+        "ex": "The bus is late again."
+      },
+      {
+        "id": "end",
+        "es": "tardío",
+        "ex": "a late frost in spring"
+      },
+      {
+        "id": "dead",
+        "es": "difunto",
+        "ex": "her late husband's favourite chair"
+      }
+    ]
+  },
+  "later": {
+    "senses": [
+      {
+        "id": "after",
+        "es": "más tarde",
+        "ex": "I'll call you later."
+      }
+    ]
+  },
+  "leave": {
+    "forms": {
+      "past": "left",
+      "participle": "left"
+    },
+    "senses": [
+      {
+        "id": "depart",
+        "es": "salir, irse",
+        "ex": "We leave at seven."
+      },
+      {
+        "id": "remain",
+        "es": "dejar",
+        "ex": "Leave some cake for me."
+      },
+      {
+        "id": "abandon",
+        "es": "abandonar",
+        "ex": "She left her job yesterday."
+      },
+      {
+        "id": "absence",
+        "es": "permiso",
+        "ex": "He's on leave this week."
+      }
+    ]
+  },
+  "long": {
+    "senses": [
+      {
+        "id": "length",
+        "es": "largo",
+        "ex": "a long road through the forest"
+      },
+      {
+        "id": "time",
+        "es": "mucho tiempo",
+        "ex": "We didn't wait long."
+      },
+      {
+        "id": "desire",
+        "es": "ansiar",
+        "ex": "She longed to see her family."
       }
     ]
   },
@@ -558,6 +1237,20 @@
       }
     ]
   },
+  "lord": {
+    "senses": [
+      {
+        "id": "noble",
+        "es": "lord",
+        "ex": "The lord spoke in Parliament."
+      },
+      {
+        "id": "master",
+        "es": "señor",
+        "ex": "the lord of the castle"
+      }
+    ]
+  },
   "man": {
     "forms": {
       "plural": "men"
@@ -580,6 +1273,47 @@
       }
     ]
   },
+  "minister": {
+    "senses": [
+      {
+        "id": "government",
+        "es": "ministro",
+        "ex": "The minister answered our questions."
+      },
+      {
+        "id": "church",
+        "es": "pastor",
+        "ex": "The minister led the Sunday service."
+      }
+    ]
+  },
+  "minute": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "minuto",
+        "ex": "The journey takes twenty minutes."
+      }
+    ]
+  },
+  "moment": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "momento",
+        "ex": "Wait here for a moment."
+      }
+    ]
+  },
+  "money": {
+    "senses": [
+      {
+        "id": "payment",
+        "es": "dinero",
+        "ex": "Save some money for the trip."
+      }
+    ]
+  },
   "more": {
     "senses": [
       {
@@ -591,6 +1325,147 @@
         "id": "quantity",
         "es": "más",
         "ex": "We need more time."
+      }
+    ]
+  },
+  "morning": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "mañana",
+        "ex": "I swim every morning."
+      }
+    ]
+  },
+  "move": {
+    "senses": [
+      {
+        "id": "motion",
+        "es": "mover, moverse",
+        "ex": "Move your chair closer."
+      },
+      {
+        "id": "residence",
+        "es": "mudarse",
+        "ex": "We're moving to a smaller flat."
+      },
+      {
+        "id": "emotion",
+        "es": "conmover",
+        "ex": "Her kind words moved me."
+      },
+      {
+        "id": "turn",
+        "es": "jugada",
+        "ex": "That was a clever move."
+      }
+    ]
+  },
+  "much": {
+    "forms": {
+      "comparative": "more",
+      "superlative": "most"
+    },
+    "senses": [
+      {
+        "id": "amount",
+        "es": "mucho",
+        "ex": "There isn't much milk left."
+      },
+      {
+        "id": "degree",
+        "es": "mucho",
+        "ex": "Your room is much bigger."
+      }
+    ]
+  },
+  "must": {
+    "senses": [
+      {
+        "id": "obligation",
+        "es": "tener que",
+        "ex": "You must wear a seat belt."
+      },
+      {
+        "id": "certainty",
+        "es": "deber de",
+        "ex": "You must be very hungry."
+      },
+      {
+        "id": "essential",
+        "es": "imprescindible",
+        "ex": "A warm coat is a must."
+      }
+    ]
+  },
+  "name": {
+    "senses": [
+      {
+        "id": "identity",
+        "es": "nombre",
+        "ex": "What's your dog's name?"
+      },
+      {
+        "id": "reputation",
+        "es": "reputación",
+        "ex": "The shop has a good name."
+      },
+      {
+        "id": "call",
+        "es": "llamar",
+        "ex": "They named their baby Rose."
+      },
+      {
+        "id": "mention",
+        "es": "nombrar",
+        "ex": "Can you name five flowers?"
+      }
+    ]
+  },
+  "news": {
+    "senses": [
+      {
+        "id": "information",
+        "es": "noticias",
+        "ex": "I've got some wonderful news."
+      },
+      {
+        "id": "broadcast",
+        "es": "telediario",
+        "ex": "We watch the evening news."
+      }
+    ]
+  },
+  "newspaper": {
+    "senses": [
+      {
+        "id": "publication",
+        "es": "periódico",
+        "ex": "a newspaper on the kitchen table"
+      },
+      {
+        "id": "paper",
+        "es": "papel de periódico",
+        "ex": "Wrap the plates in newspaper."
+      }
+    ]
+  },
+  "next": {
+    "senses": [
+      {
+        "id": "following",
+        "es": "siguiente",
+        "ex": "Take the next turning."
+      },
+      {
+        "id": "future",
+        "es": "próximo",
+        "ex": "We're going away next week."
+      },
+      {
+        "id": "after",
+        "es": "después",
+        "ex": "What shall we do next?"
       }
     ]
   },
@@ -608,12 +1483,113 @@
       }
     ]
   },
+  "now": {
+    "senses": [
+      {
+        "id": "present",
+        "es": "ahora",
+        "ex": "You can open the box now."
+      },
+      {
+        "id": "attention",
+        "es": "bien",
+        "ex": "Now, listen to me carefully."
+      }
+    ]
+  },
+  "o'clock": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "en punto",
+        "ex": "Dinner is at eight o'clock."
+      }
+    ]
+  },
+  "offer": {
+    "senses": [
+      {
+        "id": "give",
+        "es": "ofrecer",
+        "ex": "They offered us some coffee."
+      },
+      {
+        "id": "proposal",
+        "es": "oferta",
+        "ex": "We accepted their generous offer."
+      }
+    ]
+  },
   "often": {
     "senses": [
       {
         "id": "frequency",
         "es": "a menudo",
         "ex": "We often eat lunch together."
+      }
+    ]
+  },
+  "open": {
+    "senses": [
+      {
+        "id": "unclose",
+        "es": "abrir",
+        "ex": "Open the window a little."
+      },
+      {
+        "id": "unclosed",
+        "es": "abierto",
+        "ex": "The shop is still open."
+      },
+      {
+        "id": "honest",
+        "es": "franco",
+        "ex": "She's open about her feelings."
+      },
+      {
+        "id": "receptive",
+        "es": "receptivo",
+        "ex": "We're open to new ideas."
+      }
+    ]
+  },
+  "page": {
+    "senses": [
+      {
+        "id": "document",
+        "es": "página",
+        "ex": "Turn to page thirty."
+      }
+    ]
+  },
+  "person": {
+    "forms": {
+      "plural": "people"
+    },
+    "senses": [
+      {
+        "id": "human",
+        "es": "persona",
+        "ex": "She's a very kind person."
+      }
+    ]
+  },
+  "please": {
+    "senses": [
+      {
+        "id": "polite",
+        "es": "por favor",
+        "ex": "Please pass the sugar."
+      },
+      {
+        "id": "satisfy",
+        "es": "complacer",
+        "ex": "It's hard to please everyone."
+      },
+      {
+        "id": "wish",
+        "es": "querer",
+        "ex": "Do whatever you please."
       }
     ]
   },
@@ -633,6 +1609,39 @@
         "id": "put-away",
         "es": "guardarse",
         "ex": "He pocketed the silver coin."
+      }
+    ]
+  },
+  "possible": {
+    "senses": [
+      {
+        "id": "able",
+        "es": "posible",
+        "ex": "Is another date possible?"
+      }
+    ]
+  },
+  "pound": {
+    "senses": [
+      {
+        "id": "currency",
+        "es": "libra",
+        "ex": "It costs twenty pounds."
+      },
+      {
+        "id": "weight",
+        "es": "libra",
+        "ex": "a pound of fresh tomatoes"
+      },
+      {
+        "id": "strike",
+        "es": "golpear",
+        "ex": "Someone pounded on the door."
+      },
+      {
+        "id": "heartbeat",
+        "es": "latir con fuerza",
+        "ex": "My heart was pounding."
       }
     ]
   },
@@ -660,6 +1669,86 @@
         "id": "express",
         "es": "expresar",
         "ex": "How can I put this politely?"
+      }
+    ]
+  },
+  "quickly": {
+    "senses": [
+      {
+        "id": "speed",
+        "es": "rápidamente",
+        "ex": "She quickly packed her bag."
+      },
+      {
+        "id": "soon",
+        "es": "pronto",
+        "ex": "The bus came quite quickly."
+      }
+    ]
+  },
+  "read": {
+    "forms": {
+      "past": "read",
+      "participle": "read"
+    },
+    "senses": [
+      {
+        "id": "text",
+        "es": "leer",
+        "ex": "Read the instructions before starting."
+      },
+      {
+        "id": "interpret",
+        "es": "interpretar",
+        "ex": "I can't read his expression."
+      },
+      {
+        "id": "study",
+        "es": "estudiar",
+        "ex": "She reads history at university."
+      }
+    ]
+  },
+  "red": {
+    "senses": [
+      {
+        "id": "colour",
+        "es": "rojo",
+        "ex": "a bright red umbrella"
+      },
+      {
+        "id": "hair",
+        "es": "pelirrojo",
+        "ex": "She has curly red hair."
+      },
+      {
+        "id": "wine",
+        "es": "tinto",
+        "ex": "Would you prefer red or white?"
+      }
+    ]
+  },
+  "rich": {
+    "senses": [
+      {
+        "id": "wealth",
+        "es": "rico",
+        "ex": "a rich family with two houses"
+      },
+      {
+        "id": "food",
+        "es": "pesado",
+        "ex": "This cake is rather rich."
+      },
+      {
+        "id": "abundant",
+        "es": "abundante",
+        "ex": "The island has rich wildlife."
+      },
+      {
+        "id": "colour",
+        "es": "intenso",
+        "ex": "a rich blue carpet"
       }
     ]
   },
@@ -738,6 +1827,25 @@
       }
     ]
   },
+  "second": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "segundo",
+        "ex": "Wait just a few seconds."
+      },
+      {
+        "id": "order",
+        "es": "segundo",
+        "ex": "She won the second prize."
+      },
+      {
+        "id": "support",
+        "es": "secundar",
+        "ex": "I second your proposal."
+      }
+    ]
+  },
   "see": {
     "forms": {
       "past": "saw",
@@ -763,6 +1871,15 @@
         "id": "check",
         "es": "comprobar",
         "ex": "See if the door is locked."
+      }
+    ]
+  },
+  "sir": {
+    "senses": [
+      {
+        "id": "address",
+        "es": "señor",
+        "ex": "Your table is ready, sir."
       }
     ]
   },
@@ -798,6 +1915,34 @@
       }
     ]
   },
+  "son": {
+    "senses": [
+      {
+        "id": "family",
+        "es": "hijo",
+        "ex": "Her son starts school tomorrow."
+      }
+    ]
+  },
+  "sorry": {
+    "senses": [
+      {
+        "id": "apology",
+        "es": "lo siento",
+        "ex": "Sorry, I broke your cup."
+      },
+      {
+        "id": "sad",
+        "es": "apenado",
+        "ex": "I'm sorry to hear that."
+      },
+      {
+        "id": "repeat",
+        "es": "perdón",
+        "ex": "Sorry, could you repeat that?"
+      }
+    ]
+  },
   "stop": {
     "senses": [
       {
@@ -819,6 +1964,20 @@
         "id": "station",
         "es": "parada",
         "ex": "Get off at the next stop."
+      }
+    ]
+  },
+  "story": {
+    "senses": [
+      {
+        "id": "account",
+        "es": "historia",
+        "ex": "Tell me a funny story."
+      },
+      {
+        "id": "lie",
+        "es": "mentira",
+        "ex": "Don't believe his silly stories."
       }
     ]
   },
@@ -879,6 +2038,52 @@
         "id": "height",
         "es": "alto",
         "ex": "a tall tree near the house"
+      }
+    ]
+  },
+  "tell": {
+    "forms": {
+      "past": "told",
+      "participle": "told"
+    },
+    "senses": [
+      {
+        "id": "inform",
+        "es": "decir",
+        "ex": "Tell me your address."
+      },
+      {
+        "id": "narrate",
+        "es": "contar",
+        "ex": "Grandad tells wonderful stories."
+      },
+      {
+        "id": "order",
+        "es": "ordenar",
+        "ex": "She told him to stop."
+      },
+      {
+        "id": "distinguish",
+        "es": "distinguir",
+        "ex": "Can you tell the difference?"
+      }
+    ]
+  },
+  "thank": {
+    "senses": [
+      {
+        "id": "gratitude",
+        "es": "dar las gracias",
+        "ex": "We thanked them for dinner."
+      }
+    ]
+  },
+  "thank you": {
+    "senses": [
+      {
+        "id": "gratitude",
+        "es": "gracias",
+        "ex": "Thank you for the flowers."
       }
     ]
   },
@@ -1003,6 +2208,39 @@
       }
     ]
   },
+  "true": {
+    "senses": [
+      {
+        "id": "correct",
+        "es": "cierto",
+        "ex": "Is that story really true?"
+      },
+      {
+        "id": "loyal",
+        "es": "fiel",
+        "ex": "a true friend in difficult times"
+      },
+      {
+        "id": "genuine",
+        "es": "auténtico",
+        "ex": "She showed her true feelings."
+      }
+    ]
+  },
+  "unhappy": {
+    "senses": [
+      {
+        "id": "sad",
+        "es": "triste",
+        "ex": "The children looked very unhappy."
+      },
+      {
+        "id": "dissatisfied",
+        "es": "descontento",
+        "ex": "She's unhappy with the service."
+      }
+    ]
+  },
   "very": {
     "senses": [
       {
@@ -1045,6 +2283,15 @@
       }
     ]
   },
+  "want": {
+    "senses": [
+      {
+        "id": "desire",
+        "es": "querer",
+        "ex": "I want a new bicycle."
+      }
+    ]
+  },
   "water": {
     "senses": [
       {
@@ -1061,6 +2308,58 @@
         "id": "eyes",
         "es": "llorar",
         "ex": "The smoke made my eyes water."
+      }
+    ]
+  },
+  "way": {
+    "senses": [
+      {
+        "id": "method",
+        "es": "manera",
+        "ex": "There's an easier way to cook."
+      },
+      {
+        "id": "path",
+        "es": "camino",
+        "ex": "Show me the way home."
+      },
+      {
+        "id": "distance",
+        "es": "distancia",
+        "ex": "We walked a long way."
+      },
+      {
+        "id": "degree",
+        "es": "mucho",
+        "ex": "This bag is way too heavy."
+      }
+    ]
+  },
+  "well": {
+    "forms": {
+      "comparative": "better",
+      "superlative": "best"
+    },
+    "senses": [
+      {
+        "id": "manner",
+        "es": "bien",
+        "ex": "She sings very well."
+      },
+      {
+        "id": "health",
+        "es": "bien de salud",
+        "ex": "I don't feel well today."
+      },
+      {
+        "id": "discourse",
+        "es": "bueno",
+        "ex": "Well, we could try again."
+      },
+      {
+        "id": "water",
+        "es": "pozo",
+        "ex": "They found water in the well."
       }
     ]
   },
@@ -1101,6 +2400,27 @@
       }
     ]
   },
+  "why": {
+    "senses": [
+      {
+        "id": "question",
+        "es": "por qué",
+        "ex": "Why are you laughing?"
+      }
+    ]
+  },
+  "wife": {
+    "forms": {
+      "plural": "wives"
+    },
+    "senses": [
+      {
+        "id": "spouse",
+        "es": "esposa",
+        "ex": "His wife teaches English."
+      }
+    ]
+  },
   "word": {
     "senses": [
       {
@@ -1117,6 +2437,68 @@
         "id": "phrase",
         "es": "redactar",
         "ex": "Please word your reply politely."
+      }
+    ]
+  },
+  "work": {
+    "senses": [
+      {
+        "id": "labour",
+        "es": "trabajar",
+        "ex": "We work in the same office."
+      },
+      {
+        "id": "job",
+        "es": "trabajo",
+        "ex": "I have work to finish."
+      },
+      {
+        "id": "function",
+        "es": "funcionar",
+        "ex": "Does your phone still work?"
+      },
+      {
+        "id": "creation",
+        "es": "obra",
+        "ex": "a famous work of art"
+      }
+    ]
+  },
+  "work on": {
+    "senses": [
+      {
+        "id": "task",
+        "es": "trabajar en",
+        "ex": "She's working on a new book."
+      },
+      {
+        "id": "persuade",
+        "es": "intentar convencer a",
+        "ex": "I'll work on Mum tonight."
+      }
+    ]
+  },
+  "yet": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "todavía",
+        "ex": "He hasn't called yet."
+      },
+      {
+        "id": "question",
+        "es": "ya",
+        "ex": "Have you finished yet?"
+      },
+      {
+        "id": "contrast",
+        "es": "sin embargo",
+        "ex": "It's simple, yet very useful."
+      },
+      {
+        "id": "more",
+        "es": "aún",
+        "ex": "Yet another letter arrived today."
       }
     ]
   }
