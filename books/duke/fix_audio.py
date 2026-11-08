@@ -1,12 +1,15 @@
 """Clean a chapter of the Duke audio: the title music, the YouTube chime and its mouse click. See NOTES.md.
 
-    .venv/Scripts/python books/duke/fix_audio.py SRC DST [--cut A B] [--chime A B] [--click A B]
+    .venv/Scripts/python books/duke/fix_audio.py SRC DST [--cut A B] [--chime A B] [--click A B] [--declick A B ...]
 
 All times are seconds in SRC.
   --cut A B    remove A..B (the title music) and put --gap seconds of silence there (default 0.5), with 10 ms fades
   --chime A B  narrow notches at the chime's tones between A and B
   --click A B  keep only the sound under 3.5 kHz between A and B
-The chime and click windows blend in with short fades, so the change makes no click of its own.
+  --declick A B  remove short spikes between A and B (ffmpeg adeclick, two passes); for a click on top of speech,
+               such as a "sh". Keep the window short (about 25 ms): adeclick also makes the speech a little duller.
+               Repeat the option for more windows.
+The windows blend in with short fades, so the change makes no click of its own.
 Writes one MP3 at 224 kbps, so the audio gets only one more lossy encode. Run it before transcribe.py.
 """
 import argparse
@@ -43,6 +46,7 @@ def main():
     parser.add_argument("--gap", type=float, default=0.5)
     parser.add_argument("--chime", type=float, nargs=2)
     parser.add_argument("--click", type=float, nargs=2)
+    parser.add_argument("--declick", type=float, nargs=2, action="append", default=[])
     args = parser.parse_args()
 
     out = pcm(args.src)
@@ -52,6 +56,17 @@ def main():
     if args.click:
         m = window(len(out), *args.click, 0.004)
         out = out * (1 - m) + pcm(args.src, NOTCH + ",lowpass=f=3500,lowpass=f=3500,lowpass=f=3500") * m
+    if args.declick:
+        for a, b in args.declick:
+            # adeclick is slow: give it only 0.5 s around the window.
+            lo, hi = int((a - 0.5) * SR), int((b + 0.5) * SR)
+            raw = subprocess.run(["ffmpeg", "-v", "error", "-f", "f32le", "-ac", "2", "-ar", str(SR), "-i", "-",
+                                  "-af", "adeclick=t=1,adeclick=t=1", "-f", "f32le", "-"],
+                                 input=np.ascontiguousarray(out[lo:hi]).tobytes(), check=True, capture_output=True).stdout
+            declicked = out.copy()
+            declicked[lo:hi] = np.frombuffer(raw, np.float32).reshape(-1, 2)[:hi - lo]
+            m = window(len(out), a, b, 0.003)
+            out = out * (1 - m) + declicked * m
     if args.cut:
         a, b, r = int(args.cut[0] * SR), int(args.cut[1] * SR), int(0.01 * SR)
         head, tail = out[:a].copy(), out[b:].copy()
