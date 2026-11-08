@@ -315,28 +315,28 @@ dialog form { text-align: right; }
   overscroll-behavior: contain;
 }
 .pop > * { flex: none; } /* when the panel is too tall, it scrolls; its parts keep their size */
-/* Wide screens: a panel on the right. The text keeps its width and moves left, to the middle of the space that is
-   left, so no line breaks again. */
-@media (min-width: 66rem) {
-  .pop { right: 0; width: 24rem; padding: 1.25rem 1.25rem 1.5rem; border-left: 1px solid var(--line); }
-  .text { margin-right: calc((100% - 36rem) / 2); }
-  #view:has(> .pop:not([hidden])) .text { margin-right: calc(24rem + (100% - 24rem - 36rem) / 2); }
-  #view:has(> .pop:not([hidden])) .mark { display: none; }
-}
-/* The note bubbles fit between the text and the panel only from 90rem */
-@media (min-width: 66rem) and (max-width: 90rem) {
+/* Wide screens: a card in the right margin, beside the text (36rem). The text does not move. The card covers the
+   note bubbles, so they hide while it is open. */
+@media (min-width: 78rem) {
+  .pop {
+    left: calc(50% + 18.5rem);
+    width: min(26rem, calc(50% - 19.25rem));
+    padding: 1.25rem 1.25rem 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.12);
+  }
   #view:has(> .pop:not([hidden])) .bubble { visibility: hidden; }
 }
-@media (min-width: 66rem) and (prefers-reduced-motion: no-preference) {
-  .text { transition: margin-right 0.25s ease; }
-  /* The panel slides in and out; display waits for the slide */
-  .pop { transition: transform 0.25s ease, display 0.25s allow-discrete; }
-  .pop[hidden] { transform: translateX(100%); }
-  @starting-style { .pop { transform: translateX(100%); } }
+@media (min-width: 78rem) and (prefers-reduced-motion: no-preference) {
+  /* The card fades in and out; display waits for the fade */
+  .pop { transition: opacity 0.18s ease, transform 0.18s ease, display 0.18s allow-discrete; }
+  .pop[hidden] { opacity: 0; transform: translateX(0.75rem); }
+  @starting-style { .pop { opacity: 0; transform: translateX(0.75rem); } }
 }
 /* Narrower screens: a sheet on top of the player, as wide as the text, from the bottom of the sentence. app.js sets
    its height. The play button of the player rises over its last part. */
-@media not all and (min-width: 66rem) {
+@media not all and (min-width: 78rem) {
   .pop {
     right: 0;
     left: 0;

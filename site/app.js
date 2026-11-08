@@ -87,7 +87,7 @@ const wordKey = (w) => `${w.book}/${w.chapter}/${w.at[0]}`;
 const savedAt = (book, chapter, i) => store.words.find((w) => w.book === book && w.chapter === chapter && w.at.includes(i));
 
 const systemDark = matchMedia("(prefers-color-scheme: dark)");
-const sheet = matchMedia("not all and (min-width: 66rem)"); // the word panel: a sheet above the player, else at the side (style.css)
+const sheet = matchMedia("not all and (min-width: 78rem)"); // the word panel: a sheet above the player, else at the side (style.css)
 
 function applySettings() {
   const { theme, font, size } = store.settings, root = document.documentElement;
@@ -943,7 +943,7 @@ function showReader(book, chapter, target) {
     placePop(true);
   }
 
-  // The panel fills the space between the header and the player: at the side on wide screens (style.css).
+  // On wide screens, a card in the margin, under the header (style.css).
   // As a sheet on top of the player, it is as tall as its content. Pinned (pin), the page scrolls so that the bottom
   // of the sentence touches the top of the sheet, but never so far that the unit goes under the header. Where the
   // page cannot scroll so far, the sheet grows up to the sentence.
@@ -953,8 +953,10 @@ function showReader(book, chapter, target) {
     const gap = 8, top = header.getBoundingClientRect().bottom, bottom = player.getBoundingClientRect().top;
     pop.style.bottom = `${window.innerHeight - bottom}px`;
     if (!sheet.matches) {
-      pop.style.top = `${top}px`;
-      pop.style.minHeight = pop.style.maxHeight = "";
+      // As tall as its content, from the top, up to the player
+      pop.style.top = `${top + 12}px`;
+      pop.style.bottom = pop.style.minHeight = "";
+      pop.style.maxHeight = `${bottom - top - 24}px`;
       return;
     }
     const rects = picked.map(unitBox);
