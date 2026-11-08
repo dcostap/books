@@ -6,14 +6,20 @@ import vm from "node:vm";
 const site = new URL("../site/", import.meta.url);
 const source = await readFile(new URL("sw.js", site), "utf8");
 const appSource = await readFile(new URL("app.js", site), "utf8");
-const translationHTML = vm.runInNewContext(
-  `${appSource.match(/^const esc = .+;$/m)[0]}\n${appSource.match(/^function translationHTML\([\s\S]*?^\}/m)[0]}\ntranslationHTML`,
-);
+const translationHTML = vm.runInNewContext([
+  appSource.match(/^const esc = .+;$/m)[0],
+  appSource.match(/^function find\([\s\S]*?^\}/m)[0],
+  appSource.match(/^const marked = [\s\S]*?;$/m)[0],
+  appSource.match(/^function translationHTML\([\s\S]*?^\}/m)[0],
+  "translationHTML",
+].join("\n"));
+// A sentence without a reading line (hp1 chapter 1), and the gloss of the tapped unit.
+const sentenceHTML = (sentence, gloss) => translationHTML({ es: sentence }, gloss === undefined ? undefined : { es: gloss });
 
 test("sentence highlights keep the original case, spacing, and punctuation", () => {
-  assert.equal(translationHTML("Eran perfectamente normales, gracias.", "perfectamente normales"),
+  assert.equal(sentenceHTML("Eran perfectamente normales, gracias.", "perfectamente normales"),
     "Eran <mark>perfectamente normales</mark>, gracias.");
-  assert.equal(translationHTML("¡Muchas  gracias!", "muchas gracias"), "¡<mark>Muchas  gracias</mark>!");
+  assert.equal(sentenceHTML("¡Muchas  gracias!", "muchas gracias"), "¡<mark>Muchas  gracias</mark>!");
 });
 
 test("sentence highlights skip missing and ambiguous translations", () => {
@@ -25,7 +31,7 @@ test("sentence highlights skip missing and ambiguous translations", () => {
     ["Parecía alterado.", "alterado, nervioso"],
     ["Se marchó.", undefined],
     ["Se marchó.", ""],
-  ]) assert.equal(translationHTML(sentence, gloss), sentence);
+  ]) assert.equal(sentenceHTML(sentence, gloss), sentence);
 });
 
 test("sentence highlights respect word boundaries and accents", () => {
@@ -34,16 +40,23 @@ test("sentence highlights respect word boundaries and accents", () => {
     ["Él llegó.", "el"],
     ["Quien-usted-sabe", "usted"],
     ["e\u0301l llegó.", "e"],
-  ]) assert.equal(translationHTML(sentence, gloss), sentence);
-  assert.equal(translationHTML("Él llegó.", "él"), "<mark>Él</mark> llegó.");
+  ]) assert.equal(sentenceHTML(sentence, gloss), sentence);
+  assert.equal(sentenceHTML("Él llegó.", "él"), "<mark>Él</mark> llegó.");
 });
 
 test("sentence highlights treat HTML and regular expression characters as text", () => {
-  assert.equal(translationHTML("<b>J. K. Rowling</b>", "J. K. Rowling"),
+  assert.equal(sentenceHTML("<b>J. K. Rowling</b>", "J. K. Rowling"),
     "&#60;b&#62;<mark>J. K. Rowling</mark>&#60;/b&#62;");
-  assert.equal(translationHTML("Jx Kx Rowling", "J. K. Rowling"), "Jx Kx Rowling");
-  assert.equal(translationHTML("<img src=x>", "<img src=x>"),
+  assert.equal(sentenceHTML("Jx Kx Rowling", "J. K. Rowling"), "Jx Kx Rowling");
+  assert.equal(sentenceHTML("<img src=x>", "<img src=x>"),
     "<mark>&#60;img src=x&#62;</mark>");
+});
+test("reading line highlights mark the gloss in the unit's chunk, or else the whole chunk", () => {
+  const entry = { es: "Lo siento, no es posible.", line: [{ t: [0, 1], es: "«Lo siento," }, { t: [2, 3, 4], es: "no es posible»," }] };
+  assert.equal(translationHTML(entry, { t: [4], es: "posible" }), "«Lo siento, no es <mark>posible</mark>»,");
+  assert.equal(translationHTML(entry, { t: [3], es: "tan, es" }), "«Lo siento, no <mark>es</mark> posible»,");
+  assert.equal(translationHTML(entry, { t: [0], es: "estoy" }), "<mark>«Lo siento,</mark> no es posible»,");
+  assert.equal(translationHTML(entry, undefined), "«Lo siento, no es posible»,");
 });
 const scope = "https://example.test/audiobook/";
 const prefix = `audiolibros:${scope}:`;
