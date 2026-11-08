@@ -129,9 +129,11 @@ def check_entries(entries):
         ids = [s.get("id") if isinstance(s, dict) else None for s in senses]
         for s in senses:
             if (not isinstance(s, dict) or set(s) != {"id", "es", "ex"} or not isinstance(s["id"], str)
-                    or not ID.fullmatch(s["id"]) or not all(isinstance(s[k], str) and s[k].strip() for k in ("es", "ex"))):
-                errors.append(f'"{word}": a sense is {{"id": "travel", "es": "billete", "ex": "a train ticket"}}, '
-                              f"with an id of lower-case letters, digits and -; found {s}")
+                    or not ID.fullmatch(s["id"]) or not isinstance(s["es"], str) or not s["es"].strip()
+                    or not isinstance(s["ex"], list) or len(s["ex"]) != 2
+                    or not all(isinstance(x, str) and x.strip() for x in s["ex"])):
+                errors.append(f'"{word}": a sense is {{"id": "travel", "es": "billete", "ex": ["a train ticket", '
+                              f'"un billete de tren"]}}, with an id of lower-case letters, digits and -; found {s}')
         if len(set(ids)) != len(ids):
             errors.append(f'"{word}": the sense ids must be different')
     return errors

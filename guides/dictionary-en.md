@@ -9,17 +9,17 @@ The reader is a Spanish speaker from Spain who learns English (A2 to B2). An ent
 ```json
 "ticket": {
   "senses": [
-    { "id": "travel", "es": "billete", "ex": "a train ticket" },
-    { "id": "show", "es": "entrada", "ex": "two tickets for the concert" },
-    { "id": "fine", "es": "multa", "ex": "a parking ticket" }
+    { "id": "travel", "es": "billete", "ex": ["a train ticket", "un billete de tren"] },
+    { "id": "show", "es": "entrada", "ex": ["two tickets for the concert", "dos entradas para el concierto"] },
+    { "id": "fine", "es": "multa", "ex": ["a parking ticket", "una multa de aparcamiento"] }
   ]
 },
 "come": {
   "forms": { "past": "came", "participle": "come" },
   "senses": [
-    { "id": "move", "es": "venir", "ex": "Come here!" },
-    { "id": "arrive", "es": "llegar", "ex": "The day came at last." },
-    { "id": "from", "es": "ser de", "ex": "I come from Spain." }
+    { "id": "move", "es": "venir", "ex": ["Come here!", "¡Ven aquí!"] },
+    { "id": "arrive", "es": "llegar", "ex": ["The day came at last.", "Por fin llegó el día."] },
+    { "id": "from", "es": "ser de", "ex": ["I come from Spain.", "Soy de España."] }
   ]
 }
 ```
@@ -29,7 +29,7 @@ The reader is a Spanish speaker from Spain who learns English (A2 to B2). An ent
 - **`senses`:** the common senses, the most common first.
   - `id`: a short English word for the sense, lower case, with - between words: `travel`, `show`, `fine`, `from`. Units link to it, so **never change or remove an id** that exists. You can add senses and change their order.
   - `es`: the Spanish meaning, 1 to 3 words, Spain's Spanish (*billete*, not *boleto*; *coger*, *móvil*, *ordenador*). Two meanings with a comma only if they are really one sense: *mirar, ver*.
-  - `ex`: a short, natural English example of this sense, 2 to 7 words. Write your own; do not copy a sentence from a book. Use common words.
+  - `ex`: a pair: a short, natural English example of this sense (2 to 7 words), and its Spanish translation. Write your own; do not copy a sentence from a book. Use common words. The Spanish is natural Spanish from Spain, and it uses the sense's `es` where it fits.
 
 ## Which senses
 

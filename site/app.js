@@ -922,7 +922,7 @@ function showReader(book, chapter, target) {
     const note = noteHTML(unit?.note ?? "");
     $(".pop-note").innerHTML = note.html;
     $(".pop-also i").textContent = unit?.base ?? "";
-    $(".pop-also ul").innerHTML = others.map((x) => `<li>${esc(x.es)} <i lang="en">(${esc(x.ex)})</i></li>`).join("");
+    $(".pop-also ul").innerHTML = others.map((x) => `<li>${esc(x.es)} <i lang="en">(${esc(x.ex[0])})</i><small>${esc(x.ex[1])}</small></li>`).join("");
     $(".pop-also").hidden = !others.length;
     $(".pop-concepts").innerHTML = footnotes(note.ids);
     $(".pop-sentence").innerHTML = entry ? translationHTML(entry, unit) : "";

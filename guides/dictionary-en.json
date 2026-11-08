@@ -4,7 +4,10 @@
       {
         "id": "time",
         "es": "tarde",
-        "ex": "a warm summer afternoon"
+        "ex": [
+          "a warm summer afternoon",
+          "una cálida tarde de verano"
+        ]
       }
     ]
   },
@@ -13,7 +16,10 @@
       {
         "id": "before",
         "es": "hace",
-        "ex": "We met several years ago."
+        "ex": [
+          "We met several years ago.",
+          "Nos conocimos hace varios años."
+        ]
       }
     ]
   },
@@ -22,17 +28,26 @@
       {
         "id": "well",
         "es": "bien",
-        "ex": "Are the children all right?"
+        "ex": [
+          "Are the children all right?",
+          "¿Están bien los niños?"
+        ]
       },
       {
         "id": "agreement",
         "es": "de acuerdo",
-        "ex": "All right, we can wait."
+        "ex": [
+          "All right, we can wait.",
+          "De acuerdo, podemos esperar."
+        ]
       },
       {
         "id": "certainly",
         "es": "sin duda",
-        "ex": "It's expensive all right!"
+        "ex": [
+          "It's expensive all right!",
+          "¡Es caro, sin duda!"
+        ]
       }
     ]
   },
@@ -41,7 +56,10 @@
       {
         "id": "time",
         "es": "siempre",
-        "ex": "She always carries an umbrella."
+        "ex": [
+          "She always carries an umbrella.",
+          "Siempre lleva un paraguas."
+        ]
       }
     ]
   },
@@ -50,17 +68,26 @@
       {
         "id": "question",
         "es": "preguntar",
-        "ex": "Ask her what she thinks."
+        "ex": [
+          "Ask her what she thinks.",
+          "Pregúntale qué piensa."
+        ]
       },
       {
         "id": "request",
         "es": "pedir",
-        "ex": "He asked me to wait."
+        "ex": [
+          "He asked me to wait.",
+          "Me pidió que esperara."
+        ]
       },
       {
         "id": "invite",
         "es": "invitar",
-        "ex": "Ask them to dinner."
+        "ex": [
+          "Ask them to dinner.",
+          "Invítalos a cenar."
+        ]
       }
     ]
   },
@@ -69,12 +96,18 @@
       {
         "id": "request",
         "es": "pedir",
-        "ex": "Ask for a clean glass."
+        "ex": [
+          "Ask for a clean glass.",
+          "Pide un vaso limpio."
+        ]
       },
       {
         "id": "invite-trouble",
         "es": "buscarse",
-        "ex": "You're asking for trouble."
+        "ex": [
+          "You're asking for trouble.",
+          "Te estás buscando problemas."
+        ]
       }
     ]
   },
@@ -83,7 +116,10 @@
       {
         "id": "now",
         "es": "en este momento",
-        "ex": "She's busy at the moment."
+        "ex": [
+          "She's busy at the moment.",
+          "Está ocupada en este momento."
+        ]
       }
     ]
   },
@@ -92,22 +128,34 @@
       {
         "id": "body",
         "es": "espalda",
-        "ex": "My back hurts today."
+        "ex": [
+          "My back hurts today.",
+          "Hoy me duele la espalda."
+        ]
       },
       {
         "id": "rear",
         "es": "parte de atrás",
-        "ex": "Sit at the back."
+        "ex": [
+          "Sit at the back.",
+          "Siéntate en la parte de atrás."
+        ]
       },
       {
         "id": "return",
         "es": "de vuelta",
-        "ex": "I'll be back before dinner."
+        "ex": [
+          "I'll be back before dinner.",
+          "Estaré de vuelta antes de cenar."
+        ]
       },
       {
         "id": "support",
         "es": "apoyar",
-        "ex": "We back your decision."
+        "ex": [
+          "We back your decision.",
+          "Apoyamos tu decisión."
+        ]
       }
     ]
   },
@@ -116,17 +164,26 @@
       {
         "id": "container",
         "es": "bolsa",
-        "ex": "a paper bag of apples"
+        "ex": [
+          "a paper bag of apples",
+          "una bolsa de papel con manzanas"
+        ]
       },
       {
         "id": "handbag",
         "es": "bolso",
-        "ex": "her small leather bag"
+        "ex": [
+          "her small leather bag",
+          "su pequeño bolso de piel"
+        ]
       },
       {
         "id": "case",
         "es": "maletín",
-        "ex": "his black medical bag"
+        "ex": [
+          "his black medical bag",
+          "su maletín médico negro"
+        ]
       }
     ]
   },
@@ -139,17 +196,26 @@
       {
         "id": "identity",
         "es": "ser",
-        "ex": "My sister is a teacher."
+        "ex": [
+          "My sister is a teacher.",
+          "Mi hermana es profesora."
+        ]
       },
       {
         "id": "state",
         "es": "estar",
-        "ex": "The children are outside."
+        "ex": [
+          "The children are outside.",
+          "Los niños están fuera."
+        ]
       },
       {
         "id": "exist",
         "es": "haber",
-        "ex": "There are five windows."
+        "ex": [
+          "There are five windows.",
+          "Hay cinco ventanas."
+        ]
       }
     ]
   },
@@ -162,7 +228,10 @@
       {
         "id": "start",
         "es": "empezar",
-        "ex": "The lesson begins at nine."
+        "ex": [
+          "The lesson begins at nine.",
+          "La clase empieza a las nueve."
+        ]
       }
     ]
   },
@@ -171,17 +240,26 @@
       {
         "id": "size",
         "es": "grande",
-        "ex": "a big wooden box"
+        "ex": [
+          "a big wooden box",
+          "una caja grande de madera"
+        ]
       },
       {
         "id": "important",
         "es": "importante",
-        "ex": "Tomorrow is a big day."
+        "ex": [
+          "Tomorrow is a big day.",
+          "Mañana es un día importante."
+        ]
       },
       {
         "id": "older",
         "es": "mayor",
-        "ex": "my big sister"
+        "ex": [
+          "my big sister",
+          "mi hermana mayor"
+        ]
       }
     ]
   },
@@ -190,12 +268,18 @@
       {
         "id": "reading",
         "es": "libro",
-        "ex": "a book about wild animals"
+        "ex": [
+          "a book about wild animals",
+          "un libro sobre animales salvajes"
+        ]
       },
       {
         "id": "reserve",
         "es": "reservar",
-        "ex": "Book a table for Friday."
+        "ex": [
+          "Book a table for Friday.",
+          "Reserva una mesa para el viernes."
+        ]
       }
     ]
   },
@@ -207,17 +291,26 @@
       {
         "id": "ability",
         "es": "poder",
-        "ex": "We can help tomorrow."
+        "ex": [
+          "We can help tomorrow.",
+          "Podemos ayudar mañana."
+        ]
       },
       {
         "id": "skill",
         "es": "saber",
-        "ex": "Can your brother swim?"
+        "ex": [
+          "Can your brother swim?",
+          "¿Sabe nadar tu hermano?"
+        ]
       },
       {
         "id": "container",
         "es": "lata",
-        "ex": "an empty can of beans"
+        "ex": [
+          "an empty can of beans",
+          "una lata vacía de alubias"
+        ]
       }
     ]
   },
@@ -226,12 +319,18 @@
       {
         "id": "care",
         "es": "con cuidado",
-        "ex": "Carry the plates carefully."
+        "ex": [
+          "Carry the plates carefully.",
+          "Lleva los platos con cuidado."
+        ]
       },
       {
         "id": "attention",
         "es": "atentamente",
-        "ex": "Listen carefully to the instructions."
+        "ex": [
+          "Listen carefully to the instructions.",
+          "Escucha atentamente las instrucciones."
+        ]
       }
     ]
   },
@@ -240,17 +339,26 @@
       {
         "id": "matter",
         "es": "caso",
-        "ex": "The police solved the case."
+        "ex": [
+          "The police solved the case.",
+          "La policía resolvió el caso."
+        ]
       },
       {
         "id": "container",
         "es": "estuche",
-        "ex": "a case for my glasses"
+        "ex": [
+          "a case for my glasses",
+          "un estuche para mis gafas"
+        ]
       },
       {
         "id": "luggage",
         "es": "maleta",
-        "ex": "Put your case in the car."
+        "ex": [
+          "Put your case in the car.",
+          "Mete la maleta en el coche."
+        ]
       }
     ]
   },
@@ -259,17 +367,26 @@
       {
         "id": "seat",
         "es": "silla",
-        "ex": "a blue kitchen chair"
+        "ex": [
+          "a blue kitchen chair",
+          "una silla azul de cocina"
+        ]
       },
       {
         "id": "leader",
         "es": "presidente",
-        "ex": "the chair of our committee"
+        "ex": [
+          "the chair of our committee",
+          "el presidente de nuestro comité"
+        ]
       },
       {
         "id": "lead",
         "es": "presidir",
-        "ex": "She will chair the discussion."
+        "ex": [
+          "She will chair the discussion.",
+          "Ella presidirá el debate."
+        ]
       }
     ]
   },
@@ -278,12 +395,18 @@
       {
         "id": "book",
         "es": "capítulo",
-        "ex": "Read the next chapter tonight."
+        "ex": [
+          "Read the next chapter tonight.",
+          "Lee el siguiente capítulo esta noche."
+        ]
       },
       {
         "id": "period",
         "es": "etapa",
-        "ex": "a new chapter in her life"
+        "ex": [
+          "a new chapter in her life",
+          "una nueva etapa en su vida"
+        ]
       }
     ]
   },
@@ -295,12 +418,18 @@
       {
         "id": "young",
         "es": "niño",
-        "ex": "a child playing with a ball"
+        "ex": [
+          "a child playing with a ball",
+          "un niño jugando con una pelota"
+        ]
       },
       {
         "id": "offspring",
         "es": "hijo",
-        "ex": "Their children are all adults."
+        "ex": [
+          "Their children are all adults.",
+          "Todos sus hijos son adultos."
+        ]
       }
     ]
   },
@@ -309,22 +438,34 @@
       {
         "id": "shut",
         "es": "cerrar",
-        "ex": "Please close that window."
+        "ex": [
+          "Please close that window.",
+          "Por favor, cierra esa ventana."
+        ]
       },
       {
         "id": "near",
         "es": "cerca",
-        "ex": "The station is very close."
+        "ex": [
+          "The station is very close.",
+          "La estación está muy cerca."
+        ]
       },
       {
         "id": "intimate",
         "es": "íntimo",
-        "ex": "We are close friends."
+        "ex": [
+          "We are close friends.",
+          "Somos amigos íntimos."
+        ]
       },
       {
         "id": "end",
         "es": "final",
-        "ex": "the close of the evening"
+        "ex": [
+          "the close of the evening",
+          "el final de la velada"
+        ]
       }
     ]
   },
@@ -337,17 +478,26 @@
       {
         "id": "move",
         "es": "venir",
-        "ex": "Come and meet my parents."
+        "ex": [
+          "Come and meet my parents.",
+          "Ven a conocer a mis padres."
+        ]
       },
       {
         "id": "arrive",
         "es": "llegar",
-        "ex": "The bus came early."
+        "ex": [
+          "The bus came early.",
+          "El autobús llegó pronto."
+        ]
       },
       {
         "id": "available",
         "es": "estar disponible",
-        "ex": "These chairs come in green."
+        "ex": [
+          "These chairs come in green.",
+          "Estas sillas están disponibles en verde."
+        ]
       }
     ]
   },
@@ -360,17 +510,26 @@
       {
         "id": "return",
         "es": "volver",
-        "ex": "Come back after lunch."
+        "ex": [
+          "Come back after lunch.",
+          "Vuelve después de comer."
+        ]
       },
       {
         "id": "remember",
         "es": "recordar",
-        "ex": "It all came back to me."
+        "ex": [
+          "It all came back to me.",
+          "Lo recordé todo."
+        ]
       },
       {
         "id": "fashion",
         "es": "ponerse de moda",
-        "ex": "Those hats are coming back."
+        "ex": [
+          "Those hats are coming back.",
+          "Esos sombreros vuelven a ponerse de moda."
+        ]
       }
     ]
   },
@@ -379,17 +538,26 @@
       {
         "id": "nation",
         "es": "país",
-        "ex": "Which country do you live in?"
+        "ex": [
+          "Which country do you live in?",
+          "¿En qué país vives?"
+        ]
       },
       {
         "id": "rural",
         "es": "campo",
-        "ex": "a quiet weekend in the country"
+        "ex": [
+          "a quiet weekend in the country",
+          "un fin de semana tranquilo en el campo"
+        ]
       },
       {
         "id": "region",
         "es": "región",
-        "ex": "We walked through mountain country."
+        "ex": [
+          "We walked through mountain country.",
+          "Caminamos por una región montañosa."
+        ]
       }
     ]
   },
@@ -398,17 +566,26 @@
       {
         "id": "weep",
         "es": "llorar",
-        "ex": "The little girl began to cry."
+        "ex": [
+          "The little girl began to cry.",
+          "La niña empezó a llorar."
+        ]
       },
       {
         "id": "shout",
         "es": "gritar",
-        "ex": "Help! she cried."
+        "ex": [
+          "Help! she cried.",
+          "¡Socorro!, gritó."
+        ]
       },
       {
         "id": "sound",
         "es": "grito",
-        "ex": "a loud cry of pain"
+        "ex": [
+          "a loud cry of pain",
+          "un fuerte grito de dolor"
+        ]
       }
     ]
   },
@@ -417,7 +594,10 @@
       {
         "id": "family",
         "es": "hija",
-        "ex": "Their daughter works in a hospital."
+        "ex": [
+          "Their daughter works in a hospital.",
+          "Su hija trabaja en un hospital."
+        ]
       }
     ]
   },
@@ -426,12 +606,18 @@
       {
         "id": "time",
         "es": "día",
-        "ex": "I'll stay for ten days."
+        "ex": [
+          "I'll stay for ten days.",
+          "Me quedaré diez días."
+        ]
       },
       {
         "id": "period",
         "es": "época",
-        "ex": "In those days, we had horses."
+        "ex": [
+          "In those days, we had horses.",
+          "En aquella época, teníamos caballos."
+        ]
       }
     ]
   },
@@ -444,22 +630,34 @@
       {
         "id": "perform",
         "es": "hacer",
-        "ex": "Do your homework before dinner."
+        "ex": [
+          "Do your homework before dinner.",
+          "Haz los deberes antes de cenar."
+        ]
       },
       {
         "id": "suffice",
         "es": "servir",
-        "ex": "This old coat will do."
+        "ex": [
+          "This old coat will do.",
+          "Este abrigo viejo servirá."
+        ]
       },
       {
         "id": "fare",
         "es": "ir",
-        "ex": "How is your daughter doing?"
+        "ex": [
+          "How is your daughter doing?",
+          "¿Cómo le va a tu hija?"
+        ]
       },
       {
         "id": "provide",
         "es": "ofrecer",
-        "ex": "They do hot meals here."
+        "ex": [
+          "They do hot meals here.",
+          "Aquí ofrecen comidas calientes."
+        ]
       }
     ]
   },
@@ -468,17 +666,26 @@
       {
         "id": "medical",
         "es": "médico",
-        "ex": "Call a doctor at once."
+        "ex": [
+          "Call a doctor at once.",
+          "Llama a un médico inmediatamente."
+        ]
       },
       {
         "id": "degree",
         "es": "doctor",
-        "ex": "a doctor of history"
+        "ex": [
+          "a doctor of history",
+          "un doctor en historia"
+        ]
       },
       {
         "id": "alter",
         "es": "manipular",
-        "ex": "Someone has doctored this photograph."
+        "ex": [
+          "Someone has doctored this photograph.",
+          "Alguien ha manipulado esta fotografía."
+        ]
       }
     ]
   },
@@ -491,17 +698,26 @@
       {
         "id": "consume",
         "es": "beber",
-        "ex": "Drink some warm milk."
+        "ex": [
+          "Drink some warm milk.",
+          "Bebe un poco de leche caliente."
+        ]
       },
       {
         "id": "beverage",
         "es": "bebida",
-        "ex": "a cold drink after work"
+        "ex": [
+          "a cold drink after work",
+          "una bebida fría después del trabajo"
+        ]
       },
       {
         "id": "alcohol",
         "es": "copa",
-        "ex": "Let's have a drink tonight."
+        "ex": [
+          "Let's have a drink tonight.",
+          "Vamos a tomar una copa esta noche."
+        ]
       }
     ]
   },
@@ -510,7 +726,10 @@
       {
         "id": "noble",
         "es": "duque",
-        "ex": "The duke owns that castle."
+        "ex": [
+          "The duke owns that castle.",
+          "El duque es el dueño de ese castillo."
+        ]
       }
     ]
   },
@@ -523,12 +742,18 @@
       {
         "id": "food",
         "es": "comer",
-        "ex": "We eat breakfast together."
+        "ex": [
+          "We eat breakfast together.",
+          "Desayunamos juntos."
+        ]
       },
       {
         "id": "worry",
         "es": "preocupar",
-        "ex": "What's eating you today?"
+        "ex": [
+          "What's eating you today?",
+          "¿Qué te preocupa hoy?"
+        ]
       }
     ]
   },
@@ -537,12 +762,18 @@
       {
         "id": "organ",
         "es": "ojo",
-        "ex": "She has lovely green eyes."
+        "ex": [
+          "She has lovely green eyes.",
+          "Tiene unos ojos verdes preciosos."
+        ]
       },
       {
         "id": "notice",
         "es": "observar",
-        "ex": "He eyed the cake with interest."
+        "ex": [
+          "He eyed the cake with interest.",
+          "Observó la tarta con interés."
+        ]
       }
     ]
   },
@@ -551,22 +782,34 @@
       {
         "id": "front",
         "es": "cara",
-        "ex": "Wash your face before bed."
+        "ex": [
+          "Wash your face before bed.",
+          "Lávate la cara antes de acostarte."
+        ]
       },
       {
         "id": "confront",
         "es": "enfrentarse a",
-        "ex": "We must face the problem."
+        "ex": [
+          "We must face the problem.",
+          "Debemos enfrentarnos al problema."
+        ]
       },
       {
         "id": "direction",
         "es": "mirar hacia",
-        "ex": "Our windows face the sea."
+        "ex": [
+          "Our windows face the sea.",
+          "Nuestras ventanas miran hacia el mar."
+        ]
       },
       {
         "id": "clock",
         "es": "esfera",
-        "ex": "a watch with a blue face"
+        "ex": [
+          "a watch with a blue face",
+          "un reloj con la esfera azul"
+        ]
       }
     ]
   },
@@ -579,22 +822,34 @@
       {
         "id": "drop",
         "es": "caer",
-        "ex": "Snow fell during the night."
+        "ex": [
+          "Snow fell during the night.",
+          "Cayó nieve durante la noche."
+        ]
       },
       {
         "id": "decrease",
         "es": "bajar",
-        "ex": "Prices fell again this week."
+        "ex": [
+          "Prices fell again this week.",
+          "Los precios volvieron a bajar esta semana."
+        ]
       },
       {
         "id": "accident",
         "es": "caída",
-        "ex": "She had a nasty fall."
+        "ex": [
+          "She had a nasty fall.",
+          "Tuvo una mala caída."
+        ]
       },
       {
         "id": "season",
         "es": "otoño",
-        "ex": "School starts again in the fall."
+        "ex": [
+          "School starts again in the fall.",
+          "Las clases empiezan de nuevo en otoño."
+        ]
       }
     ]
   },
@@ -607,22 +862,34 @@
       {
         "id": "experience",
         "es": "sentir",
-        "ex": "I felt a sudden pain."
+        "ex": [
+          "I felt a sudden pain.",
+          "Sentí un dolor repentino."
+        ]
       },
       {
         "id": "state",
         "es": "sentirse",
-        "ex": "Do you feel tired?"
+        "ex": [
+          "Do you feel tired?",
+          "¿Te sientes cansado?"
+        ]
       },
       {
         "id": "touch",
         "es": "tocar",
-        "ex": "Feel how soft this blanket is."
+        "ex": [
+          "Feel how soft this blanket is.",
+          "Toca esta manta y verás qué suave es."
+        ]
       },
       {
         "id": "believe",
         "es": "creer",
-        "ex": "I feel we should leave."
+        "ex": [
+          "I feel we should leave.",
+          "Creo que deberíamos irnos."
+        ]
       }
     ]
   },
@@ -635,17 +902,26 @@
       {
         "id": "discover",
         "es": "encontrar",
-        "ex": "Did you find your glasses?"
+        "ex": [
+          "Did you find your glasses?",
+          "¿Has encontrado tus gafas?"
+        ]
       },
       {
         "id": "opinion",
         "es": "parecer",
-        "ex": "I find this exercise difficult."
+        "ex": [
+          "I find this exercise difficult.",
+          "Este ejercicio me parece difícil."
+        ]
       },
       {
         "id": "discovery",
         "es": "hallazgo",
-        "ex": "an important find near the river"
+        "ex": [
+          "an important find near the river",
+          "un hallazgo importante cerca del río"
+        ]
       }
     ]
   },
@@ -657,17 +933,26 @@
       {
         "id": "body",
         "es": "pie",
-        "ex": "My shoes hurt my feet."
+        "ex": [
+          "My shoes hurt my feet.",
+          "Los zapatos me hacen daño en los pies."
+        ]
       },
       {
         "id": "base",
         "es": "base",
-        "ex": "at the foot of the hill"
+        "ex": [
+          "at the foot of the hill",
+          "en la base de la colina"
+        ]
       },
       {
         "id": "measure",
         "es": "pie",
-        "ex": "The wall is six feet high."
+        "ex": [
+          "The wall is six feet high.",
+          "El muro mide seis pies de alto."
+        ]
       }
     ]
   },
@@ -680,12 +965,18 @@
       {
         "id": "remember",
         "es": "olvidar",
-        "ex": "Don't forget your sister's birthday."
+        "ex": [
+          "Don't forget your sister's birthday.",
+          "No olvides el cumpleaños de tu hermana."
+        ]
       },
       {
         "id": "leave",
         "es": "dejarse",
-        "ex": "I forgot my coat at school."
+        "ex": [
+          "I forgot my coat at school.",
+          "Me dejé el abrigo en el colegio."
+        ]
       }
     ]
   },
@@ -698,32 +989,50 @@
       {
         "id": "obtain",
         "es": "conseguir",
-        "ex": "We need to get more food."
+        "ex": [
+          "We need to get more food.",
+          "Tenemos que conseguir más comida."
+        ]
       },
       {
         "id": "receive",
         "es": "recibir",
-        "ex": "Did you get my letter?"
+        "ex": [
+          "Did you get my letter?",
+          "¿Has recibido mi carta?"
+        ]
       },
       {
         "id": "fetch",
         "es": "coger, traer",
-        "ex": "I'll get the keys."
+        "ex": [
+          "I'll get the keys.",
+          "Voy a coger las llaves."
+        ]
       },
       {
         "id": "become",
         "es": "ponerse",
-        "ex": "It's getting cold outside."
+        "ex": [
+          "It's getting cold outside.",
+          "Está empezando a hacer frío fuera."
+        ]
       },
       {
         "id": "arrive",
         "es": "llegar",
-        "ex": "We got home after midnight."
+        "ex": [
+          "We got home after midnight.",
+          "Llegamos a casa después de medianoche."
+        ]
       },
       {
         "id": "understand",
         "es": "entender",
-        "ex": "I don't get this joke."
+        "ex": [
+          "I don't get this joke.",
+          "No entiendo este chiste."
+        ]
       }
     ]
   },
@@ -736,7 +1045,10 @@
       {
         "id": "stand",
         "es": "ponerse de pie",
-        "ex": "They slowly got to their feet."
+        "ex": [
+          "They slowly got to their feet.",
+          "Se pusieron de pie despacio."
+        ]
       }
     ]
   },
@@ -749,27 +1061,42 @@
       {
         "id": "move",
         "es": "ir",
-        "ex": "Let's go to the beach."
+        "ex": [
+          "Let's go to the beach.",
+          "Vamos a la playa."
+        ]
       },
       {
         "id": "leave",
         "es": "irse",
-        "ex": "It's time for us to go."
+        "ex": [
+          "It's time for us to go.",
+          "Es hora de irnos."
+        ]
       },
       {
         "id": "become",
         "es": "ponerse",
-        "ex": "Her face went pale."
+        "ex": [
+          "Her face went pale.",
+          "Se puso pálida."
+        ]
       },
       {
         "id": "match",
         "es": "combinar",
-        "ex": "These colours go well together."
+        "ex": [
+          "These colours go well together.",
+          "Estos colores combinan bien."
+        ]
       },
       {
         "id": "attempt",
         "es": "intento",
-        "ex": "Have another go at it."
+        "ex": [
+          "Have another go at it.",
+          "Haz otro intento."
+        ]
       }
     ]
   },
@@ -778,7 +1105,10 @@
       {
         "id": "authority",
         "es": "gobierno",
-        "ex": "The government announced new plans."
+        "ex": [
+          "The government announced new plans.",
+          "El gobierno anunció nuevos planes."
+        ]
       }
     ]
   },
@@ -787,17 +1117,26 @@
       {
         "id": "excellent",
         "es": "estupendo",
-        "ex": "We had a great holiday."
+        "ex": [
+          "We had a great holiday.",
+          "Pasamos unas vacaciones estupendas."
+        ]
       },
       {
         "id": "important",
         "es": "importante",
-        "ex": "a great leader of our time"
+        "ex": [
+          "a great leader of our time",
+          "un líder importante de nuestro tiempo"
+        ]
       },
       {
         "id": "large",
         "es": "gran",
-        "ex": "She showed great courage."
+        "ex": [
+          "She showed great courage.",
+          "Mostró un gran valor."
+        ]
       }
     ]
   },
@@ -806,17 +1145,26 @@
       {
         "id": "body",
         "es": "mano",
-        "ex": "Wash your hands before lunch."
+        "ex": [
+          "Wash your hands before lunch.",
+          "Lávate las manos antes de comer."
+        ]
       },
       {
         "id": "clock",
         "es": "aguja",
-        "ex": "the hands of the kitchen clock"
+        "ex": [
+          "the hands of the kitchen clock",
+          "las agujas del reloj de la cocina"
+        ]
       },
       {
         "id": "pass",
         "es": "dar",
-        "ex": "Hand me that blue pen."
+        "ex": [
+          "Hand me that blue pen.",
+          "Dame ese bolígrafo azul."
+        ]
       }
     ]
   },
@@ -825,12 +1173,18 @@
       {
         "id": "occur",
         "es": "pasar",
-        "ex": "What happened to your bike?"
+        "ex": [
+          "What happened to your bike?",
+          "¿Qué le pasó a tu bici?"
+        ]
       },
       {
         "id": "chance",
         "es": "dar la casualidad",
-        "ex": "I happen to know her."
+        "ex": [
+          "I happen to know her.",
+          "Da la casualidad de que la conozco."
+        ]
       }
     ]
   },
@@ -843,27 +1197,42 @@
       {
         "id": "possess",
         "es": "tener",
-        "ex": "They have a lovely garden."
+        "ex": [
+          "They have a lovely garden.",
+          "Tienen un jardín precioso."
+        ]
       },
       {
         "id": "consume",
         "es": "tomar",
-        "ex": "Let's have some tea."
+        "ex": [
+          "Let's have some tea.",
+          "Vamos a tomar un té."
+        ]
       },
       {
         "id": "activity",
         "es": "hacer",
-        "ex": "We had a short walk."
+        "ex": [
+          "We had a short walk.",
+          "Dimos un paseo corto."
+        ]
       },
       {
         "id": "experience",
         "es": "pasar",
-        "ex": "Have a wonderful weekend!"
+        "ex": [
+          "Have a wonderful weekend!",
+          "¡Que pases un fin de semana estupendo!"
+        ]
       },
       {
         "id": "auxiliary",
         "es": "haber",
-        "ex": "I have finished my work."
+        "ex": [
+          "I have finished my work.",
+          "He terminado mi trabajo."
+        ]
       }
     ]
   },
@@ -872,22 +1241,34 @@
       {
         "id": "body",
         "es": "cabeza",
-        "ex": "He shook his head slowly."
+        "ex": [
+          "He shook his head slowly.",
+          "Negó despacio con la cabeza."
+        ]
       },
       {
         "id": "leader",
         "es": "jefe",
-        "ex": "the head of the company"
+        "ex": [
+          "the head of the company",
+          "el jefe de la empresa"
+        ]
       },
       {
         "id": "school",
         "es": "director",
-        "ex": "The head spoke to the parents."
+        "ex": [
+          "The head spoke to the parents.",
+          "El director habló con los padres."
+        ]
       },
       {
         "id": "move",
         "es": "dirigirse",
-        "ex": "Let's head towards the beach."
+        "ex": [
+          "Let's head towards the beach.",
+          "Vamos a dirigirnos hacia la playa."
+        ]
       }
     ]
   },
@@ -900,12 +1281,18 @@
       {
         "id": "sound",
         "es": "oír",
-        "ex": "Can you hear the music?"
+        "ex": [
+          "Can you hear the music?",
+          "¿Oyes la música?"
+        ]
       },
       {
         "id": "learn",
         "es": "enterarse de",
-        "ex": "Have you heard the latest news?"
+        "ex": [
+          "Have you heard the latest news?",
+          "¿Te has enterado de las últimas noticias?"
+        ]
       }
     ]
   },
@@ -914,17 +1301,26 @@
       {
         "id": "assist",
         "es": "ayudar",
-        "ex": "Can you help me cook?"
+        "ex": [
+          "Can you help me cook?",
+          "¿Puedes ayudarme a cocinar?"
+        ]
       },
       {
         "id": "assistance",
         "es": "ayuda",
-        "ex": "We need your help today."
+        "ex": [
+          "We need your help today.",
+          "Hoy necesitamos tu ayuda."
+        ]
       },
       {
         "id": "prevent",
         "es": "evitar",
-        "ex": "I couldn't help laughing."
+        "ex": [
+          "I couldn't help laughing.",
+          "No pude evitar reírme."
+        ]
       }
     ]
   },
@@ -933,22 +1329,34 @@
       {
         "id": "dwelling",
         "es": "casa",
-        "ex": "a warm and comfortable home"
+        "ex": [
+          "a warm and comfortable home",
+          "una casa cálida y cómoda"
+        ]
       },
       {
         "id": "destination",
         "es": "a casa",
-        "ex": "We're going home early."
+        "ex": [
+          "We're going home early.",
+          "Nos vamos a casa pronto."
+        ]
       },
       {
         "id": "care",
         "es": "residencia",
-        "ex": "a home for elderly people"
+        "ex": [
+          "a home for elderly people",
+          "una residencia para personas mayores"
+        ]
       },
       {
         "id": "sport",
         "es": "local",
-        "ex": "The home team won easily."
+        "ex": [
+          "The home team won easily.",
+          "El equipo local ganó con facilidad."
+        ]
       }
     ]
   },
@@ -957,7 +1365,10 @@
       {
         "id": "building",
         "es": "casa",
-        "ex": "a house with a red roof"
+        "ex": [
+          "a house with a red roof",
+          "una casa con el tejado rojo"
+        ]
       }
     ]
   },
@@ -966,17 +1377,26 @@
       {
         "id": "manner",
         "es": "cómo",
-        "ex": "How do you make bread?"
+        "ex": [
+          "How do you make bread?",
+          "¿Cómo se hace el pan?"
+        ]
       },
       {
         "id": "degree",
         "es": "qué",
-        "ex": "How tall is your brother?"
+        "ex": [
+          "How tall is your brother?",
+          "¿Qué altura tiene tu hermano?"
+        ]
       },
       {
         "id": "exclamation",
         "es": "qué",
-        "ex": "How lovely these flowers are!"
+        "ex": [
+          "How lovely these flowers are!",
+          "¡Qué bonitas son estas flores!"
+        ]
       }
     ]
   },
@@ -985,12 +1405,18 @@
       {
         "id": "food",
         "es": "hambriento",
-        "ex": "Are you hungry yet?"
+        "ex": [
+          "Are you hungry yet?",
+          "¿Ya tienes hambre?"
+        ]
       },
       {
         "id": "eager",
         "es": "ansioso",
-        "ex": "She is hungry for success."
+        "ex": [
+          "She is hungry for success.",
+          "Está ansiosa por triunfar."
+        ]
       }
     ]
   },
@@ -999,12 +1425,18 @@
       {
         "id": "health",
         "es": "enfermo",
-        "ex": "He felt ill after dinner."
+        "ex": [
+          "He felt ill after dinner.",
+          "Se sintió enfermo después de cenar."
+        ]
       },
       {
         "id": "harmful",
         "es": "malo",
-        "ex": "The medicine had no ill effects."
+        "ex": [
+          "The medicine had no ill effects.",
+          "El medicamento no tuvo efectos negativos."
+        ]
       }
     ]
   },
@@ -1013,7 +1445,10 @@
       {
         "id": "value",
         "es": "importante",
-        "ex": "This is an important decision."
+        "ex": [
+          "This is an important decision.",
+          "Esta es una decisión importante."
+        ]
       }
     ]
   },
@@ -1022,7 +1457,10 @@
       {
         "id": "appearance",
         "es": "de aspecto importante",
-        "ex": "an important-looking letter"
+        "ex": [
+          "an important-looking letter",
+          "una carta que parece importante"
+        ]
       }
     ]
   },
@@ -1031,7 +1469,10 @@
       {
         "id": "attention",
         "es": "interesante",
-        "ex": "an interesting conversation about food"
+        "ex": [
+          "an interesting conversation about food",
+          "una conversación interesante sobre comida"
+        ]
       }
     ]
   },
@@ -1040,22 +1481,34 @@
       {
         "id": "only",
         "es": "solo",
-        "ex": "I just want some sleep."
+        "ex": [
+          "I just want some sleep.",
+          "Solo quiero dormir un poco."
+        ]
       },
       {
         "id": "recently",
         "es": "acabar de",
-        "ex": "She has just arrived."
+        "ex": [
+          "She has just arrived.",
+          "Acaba de llegar."
+        ]
       },
       {
         "id": "exactly",
         "es": "justo",
-        "ex": "That's just what we need."
+        "ex": [
+          "That's just what we need.",
+          "Eso es justo lo que necesitamos."
+        ]
       },
       {
         "id": "fair",
         "es": "justo",
-        "ex": "a just and honest judge"
+        "ex": [
+          "a just and honest judge",
+          "un juez justo y honrado"
+        ]
       }
     ]
   },
@@ -1064,7 +1517,10 @@
       {
         "id": "criminal",
         "es": "secuestrador",
-        "ex": "The kidnapper demanded more money."
+        "ex": [
+          "The kidnapper demanded more money.",
+          "El secuestrador exigió más dinero."
+        ]
       }
     ]
   },
@@ -1073,7 +1529,10 @@
       {
         "id": "crime",
         "es": "secuestro",
-        "ex": "The police investigated the kidnapping."
+        "ex": [
+          "The police investigated the kidnapping.",
+          "La policía investigó el secuestro."
+        ]
       }
     ]
   },
@@ -1086,17 +1545,26 @@
       {
         "id": "information",
         "es": "saber",
-        "ex": "Do you know the answer?"
+        "ex": [
+          "Do you know the answer?",
+          "¿Sabes la respuesta?"
+        ]
       },
       {
         "id": "familiar",
         "es": "conocer",
-        "ex": "I know this town well."
+        "ex": [
+          "I know this town well.",
+          "Conozco bien este pueblo."
+        ]
       },
       {
         "id": "recognise",
         "es": "reconocer",
-        "ex": "I knew him by his voice."
+        "ex": [
+          "I knew him by his voice.",
+          "Lo reconocí por la voz."
+        ]
       }
     ]
   },
@@ -1105,7 +1573,10 @@
       {
         "id": "size",
         "es": "grande",
-        "ex": "a large glass of milk"
+        "ex": [
+          "a large glass of milk",
+          "un vaso grande de leche"
+        ]
       }
     ]
   },
@@ -1114,22 +1585,34 @@
       {
         "id": "time",
         "es": "tarde",
-        "ex": "We arrived late for dinner."
+        "ex": [
+          "We arrived late for dinner.",
+          "Llegamos tarde a cenar."
+        ]
       },
       {
         "id": "delayed",
         "es": "retrasado",
-        "ex": "The bus is late again."
+        "ex": [
+          "The bus is late again.",
+          "El autobús va retrasado otra vez."
+        ]
       },
       {
         "id": "end",
         "es": "tardío",
-        "ex": "a late frost in spring"
+        "ex": [
+          "a late frost in spring",
+          "una helada tardía en primavera"
+        ]
       },
       {
         "id": "dead",
         "es": "difunto",
-        "ex": "her late husband's favourite chair"
+        "ex": [
+          "her late husband's favourite chair",
+          "la silla favorita de su difunto marido"
+        ]
       }
     ]
   },
@@ -1138,7 +1621,10 @@
       {
         "id": "after",
         "es": "más tarde",
-        "ex": "I'll call you later."
+        "ex": [
+          "I'll call you later.",
+          "Te llamaré más tarde."
+        ]
       }
     ]
   },
@@ -1151,22 +1637,34 @@
       {
         "id": "depart",
         "es": "salir, irse",
-        "ex": "We leave at seven."
+        "ex": [
+          "We leave at seven.",
+          "Salimos a las siete."
+        ]
       },
       {
         "id": "remain",
         "es": "dejar",
-        "ex": "Leave some cake for me."
+        "ex": [
+          "Leave some cake for me.",
+          "Déjame un poco de tarta."
+        ]
       },
       {
         "id": "abandon",
         "es": "abandonar",
-        "ex": "She left her job yesterday."
+        "ex": [
+          "She left her job yesterday.",
+          "Ayer abandonó su trabajo."
+        ]
       },
       {
         "id": "absence",
         "es": "permiso",
-        "ex": "He's on leave this week."
+        "ex": [
+          "He's on leave this week.",
+          "Esta semana está de permiso."
+        ]
       }
     ]
   },
@@ -1175,17 +1673,26 @@
       {
         "id": "length",
         "es": "largo",
-        "ex": "a long road through the forest"
+        "ex": [
+          "a long road through the forest",
+          "un largo camino por el bosque"
+        ]
       },
       {
         "id": "time",
         "es": "mucho tiempo",
-        "ex": "We didn't wait long."
+        "ex": [
+          "We didn't wait long.",
+          "No esperamos mucho tiempo."
+        ]
       },
       {
         "id": "desire",
         "es": "ansiar",
-        "ex": "She longed to see her family."
+        "ex": [
+          "She longed to see her family.",
+          "Ansiaba ver a su familia."
+        ]
       }
     ]
   },
@@ -1194,22 +1701,34 @@
       {
         "id": "see",
         "es": "mirar",
-        "ex": "Look behind the sofa."
+        "ex": [
+          "Look behind the sofa.",
+          "Mira detrás del sofá."
+        ]
       },
       {
         "id": "seem",
         "es": "parecer",
-        "ex": "You look happy today."
+        "ex": [
+          "You look happy today.",
+          "Hoy pareces contento."
+        ]
       },
       {
         "id": "glance",
         "es": "mirada",
-        "ex": "She gave him a friendly look."
+        "ex": [
+          "She gave him a friendly look.",
+          "Le dirigió una mirada amistosa."
+        ]
       },
       {
         "id": "appearance",
         "es": "aspecto",
-        "ex": "I like your new look."
+        "ex": [
+          "I like your new look.",
+          "Me gusta tu nuevo aspecto."
+        ]
       }
     ]
   },
@@ -1218,22 +1737,34 @@
       {
         "id": "watch",
         "es": "mirar",
-        "ex": "Look at those beautiful flowers."
+        "ex": [
+          "Look at those beautiful flowers.",
+          "Mira esas flores tan bonitas."
+        ]
       },
       {
         "id": "examine",
         "es": "examinar",
-        "ex": "Please look at my sore foot."
+        "ex": [
+          "Please look at my sore foot.",
+          "Por favor, examíname el pie, que me duele."
+        ]
       },
       {
         "id": "consider",
         "es": "considerar",
-        "ex": "Let's look at the other options."
+        "ex": [
+          "Let's look at the other options.",
+          "Vamos a considerar las otras opciones."
+        ]
       },
       {
         "id": "face",
         "es": "enfrentarse a",
-        "ex": "We're looking at a huge bill."
+        "ex": [
+          "We're looking at a huge bill.",
+          "Nos enfrentamos a una factura enorme."
+        ]
       }
     ]
   },
@@ -1242,12 +1773,18 @@
       {
         "id": "noble",
         "es": "lord",
-        "ex": "The lord spoke in Parliament."
+        "ex": [
+          "The lord spoke in Parliament.",
+          "El lord habló en el Parlamento."
+        ]
       },
       {
         "id": "master",
         "es": "señor",
-        "ex": "the lord of the castle"
+        "ex": [
+          "the lord of the castle",
+          "el señor del castillo"
+        ]
       }
     ]
   },
@@ -1259,17 +1796,26 @@
       {
         "id": "adult",
         "es": "hombre",
-        "ex": "a young man with dark hair"
+        "ex": [
+          "a young man with dark hair",
+          "un hombre joven de pelo oscuro"
+        ]
       },
       {
         "id": "humanity",
         "es": "ser humano",
-        "ex": "Man has always needed water."
+        "ex": [
+          "Man has always needed water.",
+          "El ser humano siempre ha necesitado agua."
+        ]
       },
       {
         "id": "operate",
         "es": "atender",
-        "ex": "Who will man the phones?"
+        "ex": [
+          "Who will man the phones?",
+          "¿Quién atenderá los teléfonos?"
+        ]
       }
     ]
   },
@@ -1278,12 +1824,18 @@
       {
         "id": "government",
         "es": "ministro",
-        "ex": "The minister answered our questions."
+        "ex": [
+          "The minister answered our questions.",
+          "El ministro respondió a nuestras preguntas."
+        ]
       },
       {
         "id": "church",
         "es": "pastor",
-        "ex": "The minister led the Sunday service."
+        "ex": [
+          "The minister led the Sunday service.",
+          "El pastor dirigió el oficio del domingo."
+        ]
       }
     ]
   },
@@ -1292,7 +1844,10 @@
       {
         "id": "time",
         "es": "minuto",
-        "ex": "The journey takes twenty minutes."
+        "ex": [
+          "The journey takes twenty minutes.",
+          "El viaje dura veinte minutos."
+        ]
       }
     ]
   },
@@ -1301,7 +1856,10 @@
       {
         "id": "time",
         "es": "momento",
-        "ex": "Wait here for a moment."
+        "ex": [
+          "Wait here for a moment.",
+          "Espera aquí un momento."
+        ]
       }
     ]
   },
@@ -1310,7 +1868,10 @@
       {
         "id": "payment",
         "es": "dinero",
-        "ex": "Save some money for the trip."
+        "ex": [
+          "Save some money for the trip.",
+          "Ahorra algo de dinero para el viaje."
+        ]
       }
     ]
   },
@@ -1319,12 +1880,18 @@
       {
         "id": "degree",
         "es": "más",
-        "ex": "a more difficult question"
+        "ex": [
+          "a more difficult question",
+          "una pregunta más difícil"
+        ]
       },
       {
         "id": "quantity",
         "es": "más",
-        "ex": "We need more time."
+        "ex": [
+          "We need more time.",
+          "Necesitamos más tiempo."
+        ]
       }
     ]
   },
@@ -1333,7 +1900,10 @@
       {
         "id": "time",
         "es": "mañana",
-        "ex": "I swim every morning."
+        "ex": [
+          "I swim every morning.",
+          "Nado todas las mañanas."
+        ]
       }
     ]
   },
@@ -1342,17 +1912,26 @@
       {
         "id": "superlative",
         "es": "el más",
-        "ex": "the most beautiful beach"
+        "ex": [
+          "the most beautiful beach",
+          "la playa más bonita"
+        ]
       },
       {
         "id": "majority",
         "es": "la mayoría de",
-        "ex": "Most people like music."
+        "ex": [
+          "Most people like music.",
+          "A la mayoría de las personas les gusta la música."
+        ]
       },
       {
         "id": "degree",
         "es": "muy",
-        "ex": "a most unusual day"
+        "ex": [
+          "a most unusual day",
+          "un día muy inusual"
+        ]
       }
     ]
   },
@@ -1361,22 +1940,34 @@
       {
         "id": "motion",
         "es": "mover, moverse",
-        "ex": "Move your chair closer."
+        "ex": [
+          "Move your chair closer.",
+          "Acerca más la silla."
+        ]
       },
       {
         "id": "residence",
         "es": "mudarse",
-        "ex": "We're moving to a smaller flat."
+        "ex": [
+          "We're moving to a smaller flat.",
+          "Nos mudamos a un piso más pequeño."
+        ]
       },
       {
         "id": "emotion",
         "es": "conmover",
-        "ex": "Her kind words moved me."
+        "ex": [
+          "Her kind words moved me.",
+          "Sus amables palabras me conmovieron."
+        ]
       },
       {
         "id": "turn",
         "es": "jugada",
-        "ex": "That was a clever move."
+        "ex": [
+          "That was a clever move.",
+          "Fue una jugada inteligente."
+        ]
       }
     ]
   },
@@ -1389,12 +1980,18 @@
       {
         "id": "amount",
         "es": "mucho",
-        "ex": "There isn't much milk left."
+        "ex": [
+          "There isn't much milk left.",
+          "No queda mucha leche."
+        ]
       },
       {
         "id": "degree",
         "es": "mucho",
-        "ex": "Your room is much bigger."
+        "ex": [
+          "Your room is much bigger.",
+          "Tu habitación es mucho más grande."
+        ]
       }
     ]
   },
@@ -1403,17 +2000,26 @@
       {
         "id": "obligation",
         "es": "tener que",
-        "ex": "You must wear a seat belt."
+        "ex": [
+          "You must wear a seat belt.",
+          "Tienes que llevar el cinturón de seguridad."
+        ]
       },
       {
         "id": "certainty",
         "es": "deber de",
-        "ex": "You must be very hungry."
+        "ex": [
+          "You must be very hungry.",
+          "Debes de tener mucha hambre."
+        ]
       },
       {
         "id": "essential",
         "es": "imprescindible",
-        "ex": "A warm coat is a must."
+        "ex": [
+          "A warm coat is a must.",
+          "Un buen abrigo es imprescindible."
+        ]
       }
     ]
   },
@@ -1422,22 +2028,34 @@
       {
         "id": "identity",
         "es": "nombre",
-        "ex": "What's your dog's name?"
+        "ex": [
+          "What's your dog's name?",
+          "¿Cómo se llama tu perro?"
+        ]
       },
       {
         "id": "reputation",
         "es": "reputación",
-        "ex": "The shop has a good name."
+        "ex": [
+          "The shop has a good name.",
+          "La tienda tiene buena reputación."
+        ]
       },
       {
         "id": "call",
         "es": "llamar",
-        "ex": "They named their baby Rose."
+        "ex": [
+          "They named their baby Rose.",
+          "Llamaron Rose a su bebé."
+        ]
       },
       {
         "id": "mention",
         "es": "nombrar",
-        "ex": "Can you name five flowers?"
+        "ex": [
+          "Can you name five flowers?",
+          "¿Puedes nombrar cinco flores?"
+        ]
       }
     ]
   },
@@ -1446,12 +2064,18 @@
       {
         "id": "information",
         "es": "noticias",
-        "ex": "I've got some wonderful news."
+        "ex": [
+          "I've got some wonderful news.",
+          "Tengo unas noticias estupendas."
+        ]
       },
       {
         "id": "broadcast",
         "es": "telediario",
-        "ex": "We watch the evening news."
+        "ex": [
+          "We watch the evening news.",
+          "Vemos el telediario de la noche."
+        ]
       }
     ]
   },
@@ -1460,12 +2084,18 @@
       {
         "id": "publication",
         "es": "periódico",
-        "ex": "a newspaper on the kitchen table"
+        "ex": [
+          "a newspaper on the kitchen table",
+          "un periódico en la mesa de la cocina"
+        ]
       },
       {
         "id": "paper",
         "es": "papel de periódico",
-        "ex": "Wrap the plates in newspaper."
+        "ex": [
+          "Wrap the plates in newspaper.",
+          "Envuelve los platos en papel de periódico."
+        ]
       }
     ]
   },
@@ -1474,17 +2104,26 @@
       {
         "id": "following",
         "es": "siguiente",
-        "ex": "Take the next turning."
+        "ex": [
+          "Take the next turning.",
+          "Toma el siguiente desvío."
+        ]
       },
       {
         "id": "future",
         "es": "próximo",
-        "ex": "We're going away next week."
+        "ex": [
+          "We're going away next week.",
+          "Nos vamos de viaje la próxima semana."
+        ]
       },
       {
         "id": "after",
         "es": "después",
-        "ex": "What shall we do next?"
+        "ex": [
+          "What shall we do next?",
+          "¿Qué hacemos después?"
+        ]
       }
     ]
   },
@@ -1493,12 +2132,18 @@
       {
         "id": "direction",
         "es": "norte",
-        "ex": "We drove north for two hours."
+        "ex": [
+          "We drove north for two hours.",
+          "Condujimos hacia el norte durante dos horas."
+        ]
       },
       {
         "id": "northern",
         "es": "del norte",
-        "ex": "the north side of the lake"
+        "ex": [
+          "the north side of the lake",
+          "el lado norte del lago"
+        ]
       }
     ]
   },
@@ -1507,12 +2152,18 @@
       {
         "id": "present",
         "es": "ahora",
-        "ex": "You can open the box now."
+        "ex": [
+          "You can open the box now.",
+          "Ya puedes abrir la caja."
+        ]
       },
       {
         "id": "attention",
         "es": "bien",
-        "ex": "Now, listen to me carefully."
+        "ex": [
+          "Now, listen to me carefully.",
+          "Bien, escúchame con atención."
+        ]
       }
     ]
   },
@@ -1521,7 +2172,10 @@
       {
         "id": "time",
         "es": "en punto",
-        "ex": "Dinner is at eight o'clock."
+        "ex": [
+          "Dinner is at eight o'clock.",
+          "La cena es a las ocho en punto."
+        ]
       }
     ]
   },
@@ -1530,12 +2184,18 @@
       {
         "id": "give",
         "es": "ofrecer",
-        "ex": "They offered us some coffee."
+        "ex": [
+          "They offered us some coffee.",
+          "Nos ofrecieron café."
+        ]
       },
       {
         "id": "proposal",
         "es": "oferta",
-        "ex": "We accepted their generous offer."
+        "ex": [
+          "We accepted their generous offer.",
+          "Aceptamos su generosa oferta."
+        ]
       }
     ]
   },
@@ -1544,7 +2204,10 @@
       {
         "id": "frequency",
         "es": "a menudo",
-        "ex": "We often eat lunch together."
+        "ex": [
+          "We often eat lunch together.",
+          "A menudo comemos juntos."
+        ]
       }
     ]
   },
@@ -1553,22 +2216,34 @@
       {
         "id": "unclose",
         "es": "abrir",
-        "ex": "Open the window a little."
+        "ex": [
+          "Open the window a little.",
+          "Abre un poco la ventana."
+        ]
       },
       {
         "id": "unclosed",
         "es": "abierto",
-        "ex": "The shop is still open."
+        "ex": [
+          "The shop is still open.",
+          "La tienda sigue abierta."
+        ]
       },
       {
         "id": "honest",
         "es": "franco",
-        "ex": "She's open about her feelings."
+        "ex": [
+          "She's open about her feelings.",
+          "Es franca sobre sus sentimientos."
+        ]
       },
       {
         "id": "receptive",
         "es": "receptivo",
-        "ex": "We're open to new ideas."
+        "ex": [
+          "We're open to new ideas.",
+          "Somos receptivos a nuevas ideas."
+        ]
       }
     ]
   },
@@ -1577,7 +2252,10 @@
       {
         "id": "document",
         "es": "página",
-        "ex": "Turn to page thirty."
+        "ex": [
+          "Turn to page thirty.",
+          "Ve a la página treinta."
+        ]
       }
     ]
   },
@@ -1589,7 +2267,10 @@
       {
         "id": "human",
         "es": "persona",
-        "ex": "She's a very kind person."
+        "ex": [
+          "She's a very kind person.",
+          "Es una persona muy amable."
+        ]
       }
     ]
   },
@@ -1598,17 +2279,26 @@
       {
         "id": "polite",
         "es": "por favor",
-        "ex": "Please pass the sugar."
+        "ex": [
+          "Please pass the sugar.",
+          "Por favor, pasa el azúcar."
+        ]
       },
       {
         "id": "satisfy",
         "es": "complacer",
-        "ex": "It's hard to please everyone."
+        "ex": [
+          "It's hard to please everyone.",
+          "Es difícil complacer a todo el mundo."
+        ]
       },
       {
         "id": "wish",
         "es": "querer",
-        "ex": "Do whatever you please."
+        "ex": [
+          "Do whatever you please.",
+          "Haz lo que quieras."
+        ]
       }
     ]
   },
@@ -1617,17 +2307,26 @@
       {
         "id": "clothing",
         "es": "bolsillo",
-        "ex": "a hole in my coat pocket"
+        "ex": [
+          "a hole in my coat pocket",
+          "un agujero en el bolsillo de mi abrigo"
+        ]
       },
       {
         "id": "small",
         "es": "de bolsillo",
-        "ex": "a pocket map of London"
+        "ex": [
+          "a pocket map of London",
+          "un mapa de bolsillo de Londres"
+        ]
       },
       {
         "id": "put-away",
         "es": "guardarse",
-        "ex": "He pocketed the silver coin."
+        "ex": [
+          "He pocketed the silver coin.",
+          "Se guardó la moneda de plata."
+        ]
       }
     ]
   },
@@ -1636,7 +2335,10 @@
       {
         "id": "able",
         "es": "posible",
-        "ex": "Is another date possible?"
+        "ex": [
+          "Is another date possible?",
+          "¿Es posible otra fecha?"
+        ]
       }
     ]
   },
@@ -1645,22 +2347,34 @@
       {
         "id": "currency",
         "es": "libra",
-        "ex": "It costs twenty pounds."
+        "ex": [
+          "It costs twenty pounds.",
+          "Cuesta veinte libras."
+        ]
       },
       {
         "id": "weight",
         "es": "libra",
-        "ex": "a pound of fresh tomatoes"
+        "ex": [
+          "a pound of fresh tomatoes",
+          "una libra de tomates frescos"
+        ]
       },
       {
         "id": "strike",
         "es": "golpear",
-        "ex": "Someone pounded on the door."
+        "ex": [
+          "Someone pounded on the door.",
+          "Alguien golpeó la puerta con fuerza."
+        ]
       },
       {
         "id": "heartbeat",
         "es": "latir con fuerza",
-        "ex": "My heart was pounding."
+        "ex": [
+          "My heart was pounding.",
+          "El corazón me latía con fuerza."
+        ]
       }
     ]
   },
@@ -1669,7 +2383,10 @@
       {
         "id": "likely",
         "es": "probablemente",
-        "ex": "They will probably stay overnight."
+        "ex": [
+          "They will probably stay overnight.",
+          "Probablemente se queden a pasar la noche."
+        ]
       }
     ]
   },
@@ -1682,12 +2399,18 @@
       {
         "id": "place",
         "es": "poner",
-        "ex": "Put the milk in the fridge."
+        "ex": [
+          "Put the milk in the fridge.",
+          "Pon la leche en la nevera."
+        ]
       },
       {
         "id": "express",
         "es": "expresar",
-        "ex": "How can I put this politely?"
+        "ex": [
+          "How can I put this politely?",
+          "¿Cómo puedo expresar esto con educación?"
+        ]
       }
     ]
   },
@@ -1696,12 +2419,18 @@
       {
         "id": "speed",
         "es": "rápidamente",
-        "ex": "She quickly packed her bag."
+        "ex": [
+          "She quickly packed her bag.",
+          "Preparó su bolsa rápidamente."
+        ]
       },
       {
         "id": "soon",
         "es": "pronto",
-        "ex": "The bus came quite quickly."
+        "ex": [
+          "The bus came quite quickly.",
+          "El autobús llegó bastante pronto."
+        ]
       }
     ]
   },
@@ -1714,17 +2443,26 @@
       {
         "id": "text",
         "es": "leer",
-        "ex": "Read the instructions before starting."
+        "ex": [
+          "Read the instructions before starting.",
+          "Lee las instrucciones antes de empezar."
+        ]
       },
       {
         "id": "interpret",
         "es": "interpretar",
-        "ex": "I can't read his expression."
+        "ex": [
+          "I can't read his expression.",
+          "No puedo interpretar su expresión."
+        ]
       },
       {
         "id": "study",
         "es": "estudiar",
-        "ex": "She reads history at university."
+        "ex": [
+          "She reads history at university.",
+          "Estudia historia en la universidad."
+        ]
       }
     ]
   },
@@ -1733,17 +2471,26 @@
       {
         "id": "colour",
         "es": "rojo",
-        "ex": "a bright red umbrella"
+        "ex": [
+          "a bright red umbrella",
+          "un paraguas de color rojo vivo"
+        ]
       },
       {
         "id": "hair",
         "es": "pelirrojo",
-        "ex": "She has curly red hair."
+        "ex": [
+          "She has curly red hair.",
+          "Es pelirroja y tiene el pelo rizado."
+        ]
       },
       {
         "id": "wine",
         "es": "tinto",
-        "ex": "Would you prefer red or white?"
+        "ex": [
+          "Would you prefer red or white?",
+          "¿Prefieres tinto o blanco?"
+        ]
       }
     ]
   },
@@ -1752,22 +2499,34 @@
       {
         "id": "wealth",
         "es": "rico",
-        "ex": "a rich family with two houses"
+        "ex": [
+          "a rich family with two houses",
+          "una familia rica con dos casas"
+        ]
       },
       {
         "id": "food",
         "es": "pesado",
-        "ex": "This cake is rather rich."
+        "ex": [
+          "This cake is rather rich.",
+          "Esta tarta es bastante pesada."
+        ]
       },
       {
         "id": "abundant",
         "es": "abundante",
-        "ex": "The island has rich wildlife."
+        "ex": [
+          "The island has rich wildlife.",
+          "La isla tiene una fauna abundante."
+        ]
       },
       {
         "id": "colour",
         "es": "intenso",
-        "ex": "a rich blue carpet"
+        "ex": [
+          "a rich blue carpet",
+          "una alfombra de un azul intenso"
+        ]
       }
     ]
   },
@@ -1776,12 +2535,18 @@
       {
         "id": "building",
         "es": "habitación",
-        "ex": "a room with two windows"
+        "ex": [
+          "a room with two windows",
+          "una habitación con dos ventanas"
+        ]
       },
       {
         "id": "space",
         "es": "espacio",
-        "ex": "Is there room for another chair?"
+        "ex": [
+          "Is there room for another chair?",
+          "¿Hay espacio para otra silla?"
+        ]
       }
     ]
   },
@@ -1794,32 +2559,50 @@
       {
         "id": "move",
         "es": "correr",
-        "ex": "Run to the gate!"
+        "ex": [
+          "Run to the gate!",
+          "¡Corre hasta la verja!"
+        ]
       },
       {
         "id": "manage",
         "es": "dirigir",
-        "ex": "She runs a small hotel."
+        "ex": [
+          "She runs a small hotel.",
+          "Dirige un pequeño hotel."
+        ]
       },
       {
         "id": "operate",
         "es": "funcionar",
-        "ex": "The engine is running smoothly."
+        "ex": [
+          "The engine is running smoothly.",
+          "El motor funciona sin problemas."
+        ]
       },
       {
         "id": "flow",
         "es": "correr",
-        "ex": "Water ran down the stairs."
+        "ex": [
+          "Water ran down the stairs.",
+          "El agua corría escaleras abajo."
+        ]
       },
       {
         "id": "transport",
         "es": "circular",
-        "ex": "Buses run every ten minutes."
+        "ex": [
+          "Buses run every ten minutes.",
+          "Los autobuses circulan cada diez minutos."
+        ]
       },
       {
         "id": "exercise",
         "es": "carrera",
-        "ex": "a short run before breakfast"
+        "ex": [
+          "a short run before breakfast",
+          "una carrera corta antes de desayunar"
+        ]
       }
     ]
   },
@@ -1832,17 +2615,26 @@
       {
         "id": "speak",
         "es": "decir",
-        "ex": "Say hello to your uncle."
+        "ex": [
+          "Say hello to your uncle.",
+          "Dile hola a tu tío."
+        ]
       },
       {
         "id": "influence",
         "es": "voz y voto",
-        "ex": "Everyone should have a say."
+        "ex": [
+          "Everyone should have a say.",
+          "Todos deberían tener voz y voto."
+        ]
       },
       {
         "id": "example",
         "es": "por ejemplo",
-        "ex": "Choose something simple, say, soup."
+        "ex": [
+          "Choose something simple, say, soup.",
+          "Elige algo sencillo, por ejemplo, sopa."
+        ]
       }
     ]
   },
@@ -1851,17 +2643,26 @@
       {
         "id": "time",
         "es": "segundo",
-        "ex": "Wait just a few seconds."
+        "ex": [
+          "Wait just a few seconds.",
+          "Espera solo unos segundos."
+        ]
       },
       {
         "id": "order",
         "es": "segundo",
-        "ex": "She won the second prize."
+        "ex": [
+          "She won the second prize.",
+          "Ganó el segundo premio."
+        ]
       },
       {
         "id": "support",
         "es": "secundar",
-        "ex": "I second your proposal."
+        "ex": [
+          "I second your proposal.",
+          "Secundo tu propuesta."
+        ]
       }
     ]
   },
@@ -1874,22 +2675,34 @@
       {
         "id": "sight",
         "es": "ver",
-        "ex": "Can you see that small bird?"
+        "ex": [
+          "Can you see that small bird?",
+          "¿Ves ese pájaro pequeño?"
+        ]
       },
       {
         "id": "understand",
         "es": "entender",
-        "ex": "I see why you're worried."
+        "ex": [
+          "I see why you're worried.",
+          "Entiendo por qué estás preocupado."
+        ]
       },
       {
         "id": "visit",
         "es": "visitar",
-        "ex": "We went to see our cousins."
+        "ex": [
+          "We went to see our cousins.",
+          "Fuimos a visitar a nuestros primos."
+        ]
       },
       {
         "id": "check",
         "es": "comprobar",
-        "ex": "See if the door is locked."
+        "ex": [
+          "See if the door is locked.",
+          "Comprueba si la puerta está cerrada con llave."
+        ]
       }
     ]
   },
@@ -1898,7 +2711,10 @@
       {
         "id": "address",
         "es": "señor",
-        "ex": "Your table is ready, sir."
+        "ex": [
+          "Your table is ready, sir.",
+          "Su mesa está lista, señor."
+        ]
       }
     ]
   },
@@ -1911,17 +2727,26 @@
       {
         "id": "seated",
         "es": "estar sentado",
-        "ex": "We sat by the fire."
+        "ex": [
+          "We sat by the fire.",
+          "Estábamos sentados junto al fuego."
+        ]
       },
       {
         "id": "take-seat",
         "es": "sentarse",
-        "ex": "Please sit beside me."
+        "ex": [
+          "Please sit beside me.",
+          "Por favor, siéntate a mi lado."
+        ]
       },
       {
         "id": "exam",
         "es": "examinarse",
-        "ex": "She sits her final exams tomorrow."
+        "ex": [
+          "She sits her final exams tomorrow.",
+          "Mañana hace los exámenes finales."
+        ]
       }
     ]
   },
@@ -1930,12 +2755,18 @@
       {
         "id": "degree",
         "es": "tan, muy",
-        "ex": "I'm so tired today."
+        "ex": [
+          "I'm so tired today.",
+          "Hoy estoy muy cansado."
+        ]
       },
       {
         "id": "result",
         "es": "así que",
-        "ex": "It was late, so we went home."
+        "ex": [
+          "It was late, so we went home.",
+          "Era tarde, así que nos fuimos a casa."
+        ]
       }
     ]
   },
@@ -1944,7 +2775,10 @@
       {
         "id": "frequency",
         "es": "a veces",
-        "ex": "We sometimes go fishing together."
+        "ex": [
+          "We sometimes go fishing together.",
+          "A veces vamos a pescar juntos."
+        ]
       }
     ]
   },
@@ -1953,7 +2787,10 @@
       {
         "id": "family",
         "es": "hijo",
-        "ex": "Her son starts school tomorrow."
+        "ex": [
+          "Her son starts school tomorrow.",
+          "Su hijo empieza el colegio mañana."
+        ]
       }
     ]
   },
@@ -1962,17 +2799,26 @@
       {
         "id": "apology",
         "es": "lo siento",
-        "ex": "Sorry, I broke your cup."
+        "ex": [
+          "Sorry, I broke your cup.",
+          "Lo siento, he roto tu taza."
+        ]
       },
       {
         "id": "sad",
         "es": "apenado",
-        "ex": "I'm sorry to hear that."
+        "ex": [
+          "I'm sorry to hear that.",
+          "Me apena oír eso."
+        ]
       },
       {
         "id": "repeat",
         "es": "perdón",
-        "ex": "Sorry, could you repeat that?"
+        "ex": [
+          "Sorry, could you repeat that?",
+          "Perdón, ¿puedes repetirlo?"
+        ]
       }
     ]
   },
@@ -1981,22 +2827,34 @@
       {
         "id": "halt",
         "es": "parar",
-        "ex": "Stop the car here."
+        "ex": [
+          "Stop the car here.",
+          "Para el coche aquí."
+        ]
       },
       {
         "id": "cease",
         "es": "dejar de",
-        "ex": "Please stop making that noise."
+        "ex": [
+          "Please stop making that noise.",
+          "Por favor, deja de hacer ese ruido."
+        ]
       },
       {
         "id": "prevent",
         "es": "impedir",
-        "ex": "The rain stopped us leaving."
+        "ex": [
+          "The rain stopped us leaving.",
+          "La lluvia nos impidió salir."
+        ]
       },
       {
         "id": "station",
         "es": "parada",
-        "ex": "Get off at the next stop."
+        "ex": [
+          "Get off at the next stop.",
+          "Bájate en la siguiente parada."
+        ]
       }
     ]
   },
@@ -2005,12 +2863,18 @@
       {
         "id": "account",
         "es": "historia",
-        "ex": "Tell me a funny story."
+        "ex": [
+          "Tell me a funny story.",
+          "Cuéntame una historia divertida."
+        ]
       },
       {
         "id": "lie",
         "es": "mentira",
-        "ex": "Don't believe his silly stories."
+        "ex": [
+          "Don't believe his silly stories.",
+          "No te creas sus mentiras absurdas."
+        ]
       }
     ]
   },
@@ -2019,7 +2883,10 @@
       {
         "id": "road",
         "es": "calle",
-        "ex": "a quiet street near the park"
+        "ex": [
+          "a quiet street near the park",
+          "una calle tranquila cerca del parque"
+        ]
       }
     ]
   },
@@ -2028,7 +2895,10 @@
       {
         "id": "unexpectedly",
         "es": "de repente",
-        "ex": "Suddenly, the lights went out."
+        "ex": [
+          "Suddenly, the lights went out.",
+          "De repente, se apagaron las luces."
+        ]
       }
     ]
   },
@@ -2037,7 +2907,10 @@
       {
         "id": "unexpected",
         "es": "sorprendente",
-        "ex": "What a surprising result!"
+        "ex": [
+          "What a surprising result!",
+          "¡Qué resultado tan sorprendente!"
+        ]
       }
     ]
   },
@@ -2046,22 +2919,34 @@
       {
         "id": "speak",
         "es": "hablar",
-        "ex": "They talked until midnight."
+        "ex": [
+          "They talked until midnight.",
+          "Hablaron hasta medianoche."
+        ]
       },
       {
         "id": "conversation",
         "es": "conversación",
-        "ex": "We had a long talk."
+        "ex": [
+          "We had a long talk.",
+          "Tuvimos una larga conversación."
+        ]
       },
       {
         "id": "lecture",
         "es": "charla",
-        "ex": "a talk about healthy food"
+        "ex": [
+          "a talk about healthy food",
+          "una charla sobre comida sana"
+        ]
       },
       {
         "id": "rumour",
         "es": "rumores",
-        "ex": "There's talk of a new shop."
+        "ex": [
+          "There's talk of a new shop.",
+          "Hay rumores de una nueva tienda."
+        ]
       }
     ]
   },
@@ -2070,7 +2955,10 @@
       {
         "id": "height",
         "es": "alto",
-        "ex": "a tall tree near the house"
+        "ex": [
+          "a tall tree near the house",
+          "un árbol alto cerca de la casa"
+        ]
       }
     ]
   },
@@ -2083,22 +2971,34 @@
       {
         "id": "inform",
         "es": "decir",
-        "ex": "Tell me your address."
+        "ex": [
+          "Tell me your address.",
+          "Dime tu dirección."
+        ]
       },
       {
         "id": "narrate",
         "es": "contar",
-        "ex": "Grandad tells wonderful stories."
+        "ex": [
+          "Grandad tells wonderful stories.",
+          "El abuelo cuenta historias maravillosas."
+        ]
       },
       {
         "id": "order",
         "es": "ordenar",
-        "ex": "She told him to stop."
+        "ex": [
+          "She told him to stop.",
+          "Le ordenó que parara."
+        ]
       },
       {
         "id": "distinguish",
         "es": "distinguir",
-        "ex": "Can you tell the difference?"
+        "ex": [
+          "Can you tell the difference?",
+          "¿Puedes distinguir la diferencia?"
+        ]
       }
     ]
   },
@@ -2107,7 +3007,10 @@
       {
         "id": "gratitude",
         "es": "dar las gracias",
-        "ex": "We thanked them for dinner."
+        "ex": [
+          "We thanked them for dinner.",
+          "Les dimos las gracias por la cena."
+        ]
       }
     ]
   },
@@ -2116,7 +3019,10 @@
       {
         "id": "gratitude",
         "es": "gracias",
-        "ex": "Thank you for the flowers."
+        "ex": [
+          "Thank you for the flowers.",
+          "Gracias por las flores."
+        ]
       }
     ]
   },
@@ -2125,12 +3031,18 @@
       {
         "id": "time",
         "es": "entonces",
-        "ex": "I lived in Paris then."
+        "ex": [
+          "I lived in Paris then.",
+          "Entonces vivía en París."
+        ]
       },
       {
         "id": "next",
         "es": "después",
-        "ex": "Eat first, then wash the dishes."
+        "ex": [
+          "Eat first, then wash the dishes.",
+          "Come primero y después lava los platos."
+        ]
       }
     ]
   },
@@ -2139,7 +3051,10 @@
       {
         "id": "place",
         "es": "allí",
-        "ex": "Leave your shoes over there."
+        "ex": [
+          "Leave your shoes over there.",
+          "Deja los zapatos allí."
+        ]
       }
     ]
   },
@@ -2148,12 +3063,18 @@
       {
         "id": "object",
         "es": "cosa",
-        "ex": "What's that strange thing?"
+        "ex": [
+          "What's that strange thing?",
+          "¿Qué es esa cosa tan rara?"
+        ]
       },
       {
         "id": "belongings",
         "es": "pertenencias",
-        "ex": "Pack your things before breakfast."
+        "ex": [
+          "Pack your things before breakfast.",
+          "Recoge tus pertenencias antes de desayunar."
+        ]
       }
     ]
   },
@@ -2166,12 +3087,18 @@
       {
         "id": "consider",
         "es": "pensar",
-        "ex": "Think before you answer."
+        "ex": [
+          "Think before you answer.",
+          "Piensa antes de responder."
+        ]
       },
       {
         "id": "believe",
         "es": "creer",
-        "ex": "I think she's at work."
+        "ex": [
+          "I think she's at work.",
+          "Creo que está en el trabajo."
+        ]
       }
     ]
   },
@@ -2180,17 +3107,26 @@
       {
         "id": "travel",
         "es": "billete",
-        "ex": "a return ticket to Oxford"
+        "ex": [
+          "a return ticket to Oxford",
+          "un billete de ida y vuelta a Oxford"
+        ]
       },
       {
         "id": "show",
         "es": "entrada",
-        "ex": "three tickets for tonight's play"
+        "ex": [
+          "three tickets for tonight's play",
+          "tres entradas para la obra de esta noche"
+        ]
       },
       {
         "id": "fine",
         "es": "multa",
-        "ex": "a ticket for driving too fast"
+        "ex": [
+          "a ticket for driving too fast",
+          "una multa por exceso de velocidad"
+        ]
       }
     ]
   },
@@ -2199,12 +3135,18 @@
       {
         "id": "sleepy",
         "es": "cansado",
-        "ex": "I'm too tired to cook."
+        "ex": [
+          "I'm too tired to cook.",
+          "Estoy demasiado cansado para cocinar."
+        ]
       },
       {
         "id": "worn",
         "es": "desgastado",
-        "ex": "The old furniture looked tired."
+        "ex": [
+          "The old furniture looked tired.",
+          "Los muebles viejos parecían desgastados."
+        ]
       }
     ]
   },
@@ -2213,12 +3155,18 @@
       {
         "id": "also",
         "es": "también",
-        "ex": "My brother wants to come too."
+        "ex": [
+          "My brother wants to come too.",
+          "Mi hermano también quiere venir."
+        ]
       },
       {
         "id": "excess",
         "es": "demasiado",
-        "ex": "This coffee is too hot."
+        "ex": [
+          "This coffee is too hot.",
+          "Este café está demasiado caliente."
+        ]
       }
     ]
   },
@@ -2227,17 +3175,26 @@
       {
         "id": "transport",
         "es": "tren",
-        "ex": "We caught the last train home."
+        "ex": [
+          "We caught the last train home.",
+          "Cogimos el último tren para volver a casa."
+        ]
       },
       {
         "id": "exercise",
         "es": "entrenar",
-        "ex": "They train together every Tuesday."
+        "ex": [
+          "They train together every Tuesday.",
+          "Entrenan juntos todos los martes."
+        ]
       },
       {
         "id": "teach",
         "es": "formar",
-        "ex": "We train new staff every month."
+        "ex": [
+          "We train new staff every month.",
+          "Formamos a nuevos empleados cada mes."
+        ]
       }
     ]
   },
@@ -2246,17 +3203,26 @@
       {
         "id": "correct",
         "es": "cierto",
-        "ex": "Is that story really true?"
+        "ex": [
+          "Is that story really true?",
+          "¿De verdad es cierta esa historia?"
+        ]
       },
       {
         "id": "loyal",
         "es": "fiel",
-        "ex": "a true friend in difficult times"
+        "ex": [
+          "a true friend in difficult times",
+          "un amigo fiel en los momentos difíciles"
+        ]
       },
       {
         "id": "genuine",
         "es": "auténtico",
-        "ex": "She showed her true feelings."
+        "ex": [
+          "She showed her true feelings.",
+          "Mostró sus auténticos sentimientos."
+        ]
       }
     ]
   },
@@ -2265,12 +3231,18 @@
       {
         "id": "sad",
         "es": "triste",
-        "ex": "The children looked very unhappy."
+        "ex": [
+          "The children looked very unhappy.",
+          "Los niños parecían muy tristes."
+        ]
       },
       {
         "id": "dissatisfied",
         "es": "descontento",
-        "ex": "She's unhappy with the service."
+        "ex": [
+          "She's unhappy with the service.",
+          "Está descontenta con el servicio."
+        ]
       }
     ]
   },
@@ -2279,12 +3251,18 @@
       {
         "id": "degree",
         "es": "muy",
-        "ex": "a very quiet village"
+        "ex": [
+          "a very quiet village",
+          "un pueblo muy tranquilo"
+        ]
       },
       {
         "id": "exact",
         "es": "mismo",
-        "ex": "We met in this very room."
+        "ex": [
+          "We met in this very room.",
+          "Nos conocimos en esta misma habitación."
+        ]
       }
     ]
   },
@@ -2293,7 +3271,10 @@
       {
         "id": "guest",
         "es": "visitante",
-        "ex": "The museum welcomes visitors every day."
+        "ex": [
+          "The museum welcomes visitors every day.",
+          "El museo recibe visitantes todos los días."
+        ]
       }
     ]
   },
@@ -2302,17 +3283,26 @@
       {
         "id": "move",
         "es": "andar",
-        "ex": "We walked home after the film."
+        "ex": [
+          "We walked home after the film.",
+          "Volvimos a casa andando después de la película."
+        ]
       },
       {
         "id": "outing",
         "es": "paseo",
-        "ex": "a pleasant walk along the river"
+        "ex": [
+          "a pleasant walk along the river",
+          "un agradable paseo junto al río"
+        ]
       },
       {
         "id": "dog",
         "es": "pasear",
-        "ex": "Could you walk the dog?"
+        "ex": [
+          "Could you walk the dog?",
+          "¿Puedes pasear al perro?"
+        ]
       }
     ]
   },
@@ -2321,7 +3311,10 @@
       {
         "id": "desire",
         "es": "querer",
-        "ex": "I want a new bicycle."
+        "ex": [
+          "I want a new bicycle.",
+          "Quiero una bicicleta nueva."
+        ]
       }
     ]
   },
@@ -2330,17 +3323,26 @@
       {
         "id": "liquid",
         "es": "agua",
-        "ex": "a bottle of cold water"
+        "ex": [
+          "a bottle of cold water",
+          "una botella de agua fría"
+        ]
       },
       {
         "id": "plants",
         "es": "regar",
-        "ex": "Water the flowers this evening."
+        "ex": [
+          "Water the flowers this evening.",
+          "Riega las flores esta tarde."
+        ]
       },
       {
         "id": "eyes",
         "es": "llorar",
-        "ex": "The smoke made my eyes water."
+        "ex": [
+          "The smoke made my eyes water.",
+          "El humo hizo que me lloraran los ojos."
+        ]
       }
     ]
   },
@@ -2349,22 +3351,34 @@
       {
         "id": "method",
         "es": "manera",
-        "ex": "There's an easier way to cook."
+        "ex": [
+          "There's an easier way to cook.",
+          "Hay una manera más fácil de cocinar."
+        ]
       },
       {
         "id": "path",
         "es": "camino",
-        "ex": "Show me the way home."
+        "ex": [
+          "Show me the way home.",
+          "Enséñame el camino a casa."
+        ]
       },
       {
         "id": "distance",
         "es": "distancia",
-        "ex": "We walked a long way."
+        "ex": [
+          "We walked a long way.",
+          "Anduvimos una gran distancia."
+        ]
       },
       {
         "id": "degree",
         "es": "mucho",
-        "ex": "This bag is way too heavy."
+        "ex": [
+          "This bag is way too heavy.",
+          "Esta bolsa pesa mucho más de la cuenta."
+        ]
       }
     ]
   },
@@ -2377,22 +3391,34 @@
       {
         "id": "manner",
         "es": "bien",
-        "ex": "She sings very well."
+        "ex": [
+          "She sings very well.",
+          "Canta muy bien."
+        ]
       },
       {
         "id": "health",
         "es": "bien de salud",
-        "ex": "I don't feel well today."
+        "ex": [
+          "I don't feel well today.",
+          "Hoy no me encuentro bien."
+        ]
       },
       {
         "id": "discourse",
         "es": "bueno",
-        "ex": "Well, we could try again."
+        "ex": [
+          "Well, we could try again.",
+          "Bueno, podríamos intentarlo otra vez."
+        ]
       },
       {
         "id": "water",
         "es": "pozo",
-        "ex": "They found water in the well."
+        "ex": [
+          "They found water in the well.",
+          "Encontraron agua en el pozo."
+        ]
       }
     ]
   },
@@ -2405,7 +3431,10 @@
       {
         "id": "clothing",
         "es": "bien vestido",
-        "ex": "a well-dressed couple at the restaurant"
+        "ex": [
+          "a well-dressed couple at the restaurant",
+          "una pareja bien vestida en el restaurante"
+        ]
       }
     ]
   },
@@ -2414,22 +3443,34 @@
       {
         "id": "colour",
         "es": "blanco",
-        "ex": "a white shirt with blue buttons"
+        "ex": [
+          "a white shirt with blue buttons",
+          "una camisa blanca con botones azules"
+        ]
       },
       {
         "id": "pale",
         "es": "pálido",
-        "ex": "Her face went white with fear."
+        "ex": [
+          "Her face went white with fear.",
+          "Se puso pálida de miedo."
+        ]
       },
       {
         "id": "milk",
         "es": "con leche",
-        "ex": "Two white coffees, please."
+        "ex": [
+          "Two white coffees, please.",
+          "Dos cafés con leche, por favor."
+        ]
       },
       {
         "id": "egg",
         "es": "clara",
-        "ex": "Separate the egg whites carefully."
+        "ex": [
+          "Separate the egg whites carefully.",
+          "Separa las claras de huevo con cuidado."
+        ]
       }
     ]
   },
@@ -2438,7 +3479,10 @@
       {
         "id": "question",
         "es": "por qué",
-        "ex": "Why are you laughing?"
+        "ex": [
+          "Why are you laughing?",
+          "¿Por qué te ríes?"
+        ]
       }
     ]
   },
@@ -2450,7 +3494,10 @@
       {
         "id": "spouse",
         "es": "esposa",
-        "ex": "His wife teaches English."
+        "ex": [
+          "His wife teaches English.",
+          "Su esposa enseña inglés."
+        ]
       }
     ]
   },
@@ -2459,17 +3506,26 @@
       {
         "id": "language",
         "es": "palabra",
-        "ex": "How do you spell that word?"
+        "ex": [
+          "How do you spell that word?",
+          "¿Cómo se escribe esa palabra?"
+        ]
       },
       {
         "id": "news",
         "es": "noticias",
-        "ex": "Any word from your sister?"
+        "ex": [
+          "Any word from your sister?",
+          "¿Tienes noticias de tu hermana?"
+        ]
       },
       {
         "id": "phrase",
         "es": "redactar",
-        "ex": "Please word your reply politely."
+        "ex": [
+          "Please word your reply politely.",
+          "Por favor, redacta tu respuesta con educación."
+        ]
       }
     ]
   },
@@ -2478,22 +3534,34 @@
       {
         "id": "labour",
         "es": "trabajar",
-        "ex": "We work in the same office."
+        "ex": [
+          "We work in the same office.",
+          "Trabajamos en la misma oficina."
+        ]
       },
       {
         "id": "job",
         "es": "trabajo",
-        "ex": "I have work to finish."
+        "ex": [
+          "I have work to finish.",
+          "Tengo trabajo que terminar."
+        ]
       },
       {
         "id": "function",
         "es": "funcionar",
-        "ex": "Does your phone still work?"
+        "ex": [
+          "Does your phone still work?",
+          "¿Todavía funciona tu móvil?"
+        ]
       },
       {
         "id": "creation",
         "es": "obra",
-        "ex": "a famous work of art"
+        "ex": [
+          "a famous work of art",
+          "una famosa obra de arte"
+        ]
       }
     ]
   },
@@ -2502,12 +3570,18 @@
       {
         "id": "task",
         "es": "trabajar en",
-        "ex": "She's working on a new book."
+        "ex": [
+          "She's working on a new book.",
+          "Está trabajando en un libro nuevo."
+        ]
       },
       {
         "id": "persuade",
         "es": "intentar convencer a",
-        "ex": "I'll work on Mum tonight."
+        "ex": [
+          "I'll work on Mum tonight.",
+          "Esta noche intentaré convencer a mamá."
+        ]
       }
     ]
   },
@@ -2516,22 +3590,34 @@
       {
         "id": "time",
         "es": "todavía",
-        "ex": "He hasn't called yet."
+        "ex": [
+          "He hasn't called yet.",
+          "Todavía no ha llamado."
+        ]
       },
       {
         "id": "question",
         "es": "ya",
-        "ex": "Have you finished yet?"
+        "ex": [
+          "Have you finished yet?",
+          "¿Has terminado ya?"
+        ]
       },
       {
         "id": "contrast",
         "es": "sin embargo",
-        "ex": "It's simple, yet very useful."
+        "ex": [
+          "It's simple, yet very useful.",
+          "Es sencillo y, sin embargo, muy útil."
+        ]
       },
       {
         "id": "more",
         "es": "aún",
-        "ex": "Yet another letter arrived today."
+        "ex": [
+          "Yet another letter arrived today.",
+          "Hoy ha llegado otra carta más."
+        ]
       }
     ]
   }

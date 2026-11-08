@@ -377,7 +377,7 @@ def show(book_dir, number, job):
                 forms = ", ".join(f"{FORMS[k]} {v}" for k, v in d.get("forms", {}).items())
                 base = (f" ({u['base']}" + (f"/{u['sense']}" if "sense" in u else "")
                         + (f"; {forms}" if forms else "") + ")") if "base" in u else ""
-                others = [f"{x['es']} ({x['ex']})" for x in d.get("senses", []) if x["id"] != u.get("sense")]
+                others = [f"{x['es']} ({x['ex'][0]} = {x['ex'][1]})" for x in d.get("senses", []) if x["id"] != u.get("sense")]
                 print(f"    {span(u['t'])}{base} = {u['es']}" + (f"\n        note: {u['note']}" if "note" in u else "")
                       + (f"\n        also: {' | '.join(others)}" if others else ""))
             print()
