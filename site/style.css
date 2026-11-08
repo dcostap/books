@@ -303,40 +303,42 @@ dialog form { text-align: right; }
   .w:hover { text-decoration: underline dotted var(--muted); text-underline-offset: 0.2em; }
 }
 
-/* The word panel: a card. app.js sets its top and its greatest height. */
+/* The word panel: a card. app.js sets its top and its greatest height. When it is too tall, its body scrolls. */
 .pop {
   position: fixed;
   z-index: 9;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  overflow: hidden;
   background: var(--surface);
   border: 1px solid color-mix(in srgb, var(--fg) 16%, var(--surface));
   border-radius: 16px;
   box-shadow: 0 1px 3px rgb(0 0 0 / 0.1), 0 10px 32px rgb(0 0 0 / 0.2);
+}
+.pop-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  min-height: 0;
   overflow-y: auto;
   overscroll-behavior: contain;
   scrollbar-width: thin;
   scrollbar-color: color-mix(in srgb, var(--muted) 45%, transparent) transparent;
 }
-.pop > * { flex: none; } /* when the panel is too tall, it scrolls; its parts keep their size */
-/* When the panel scrolls, its content fades out at an edge where there is more. The scroll position drives the fade;
-   without that feature, there is no fade. */
-.pop::before, .pop::after {
-  content: "";
-  position: sticky;
-  z-index: 1;
-  flex: none;
-  height: 2rem;
-  opacity: 0;
-  pointer-events: none;
+.pop-body > * { flex: none; } /* when the body scrolls, its parts keep their size */
+/* The content fades out at an edge where there is more to scroll. The scroll position drives the fade. */
+@property --fade-top { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fade-bottom { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@keyframes pop-fade-top { to { --fade-top: 2rem; } }
+@keyframes pop-fade-bottom { from { --fade-bottom: 2rem; } }
+@supports (animation-timeline: scroll()) {
+  .pop-body {
+    mask-image: linear-gradient(transparent, #000 var(--fade-top), #000 calc(100% - var(--fade-bottom)), transparent);
+    animation: pop-fade-top linear both, pop-fade-bottom linear both;
+    animation-timeline: scroll(self), scroll(self);
+    animation-range: 0 2rem, calc(100% - 2rem) 100%;
+  }
 }
-.pop::before { top: 0; margin-bottom: calc(-2rem - 0.6rem); background: linear-gradient(var(--surface), transparent); }
-.pop::after { bottom: 0; margin-top: calc(-2rem - 0.6rem); background: linear-gradient(transparent, var(--surface)); }
-@keyframes pop-fade-in { to { opacity: 1; } }
-@keyframes pop-fade-out { from { opacity: 1; } }
-.pop::before { animation: pop-fade-in linear both; animation-timeline: scroll(); animation-range: 0 2rem; }
-.pop::after { animation: pop-fade-out linear both; animation-timeline: scroll(); animation-range: calc(100% - 2rem) 100%; }
 /* Wide screens: a card in the right margin, beside the text. It starts in the right padding of the text (1.25rem),
    so the margin needs 18rem or more. The text does not move. The card covers the note bubbles, so they hide while
    it is open. */
@@ -347,8 +349,8 @@ dialog form { text-align: right; }
   .pop {
     left: calc(50% + var(--col, 36rem) / 2 - 0.75rem);
     width: min(26rem, calc(50% - var(--col, 36rem) / 2));
-    padding: 1.25rem 1.25rem 1.5rem;
   }
+  .pop-body { padding: 1.25rem 1.25rem 1.5rem; }
   #view:has(> .pop:not([hidden])) .bubble { visibility: hidden; }
 }
 @media (min-width: 68rem) and (prefers-reduced-motion: no-preference) {
@@ -365,8 +367,8 @@ dialog form { text-align: right; }
     left: 0;
     width: min(36rem, 100% - 1rem);
     margin: 0 auto;
-    padding: 1rem 1rem 1.25rem;
   }
+  .pop-body { padding: 1rem 1rem 1.25rem; }
   /* Room to scroll the last sentence up, so the card fits under it */
   #view:has(> .pop:not([hidden])) .text { padding-bottom: 100svh; }
   .pop:not([hidden]) ~ .player .pill { display: none; }

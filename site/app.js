@@ -316,7 +316,7 @@ function showReader(book, chapter, target) {
     </header>
     <p class="playback-error" role="status" hidden></p>
     <article class="text" lang="en"><p class="muted">Cargando…</p></article>
-    <div class="pop" role="dialog" aria-label="Ayuda" hidden>
+    <div class="pop" role="dialog" aria-label="Ayuda" hidden><div class="pop-body">
       <div class="pop-head">
         <div class="pop-word" lang="en"></div>
         <div class="pop-base"></div>
@@ -331,7 +331,7 @@ function showReader(book, chapter, target) {
       <button class="pop-more" aria-expanded="false">${icon("more")}<span>Ver la frase entera</span></button>
       <p class="pop-sentence" lang="es" hidden></p>
       <button class="button primary pop-play">${icon("play")}Escuchar desde aquí</button>
-    </div>
+    </div></div>
     <button class="mark" hidden aria-label="Volver a la lectura"></button>
     <footer class="player">
       <button class="pill" hidden></button>
@@ -365,7 +365,7 @@ function showReader(book, chapter, target) {
 
   const $ = (selector) => view.querySelector(selector);
   const header = $(".top"), article = $(".text"), player = $(".player"), pill = $(".pill"), mark = $(".mark");
-  const pop = $(".pop"), playButton = $(".play"), remaining = $(".remaining");
+  const pop = $(".pop"), popBody = $(".pop-body"), playButton = $(".play"), remaining = $(".remaining");
 
   const words = []; // { el, s, e, sentence, k (its number in the sentence) }
   const sentences = []; // { el, first (index of its first word) }
@@ -796,8 +796,8 @@ function showReader(book, chapter, target) {
     footnote.open = !footnote.open;
     // On a phone, the panel scrolls: show the opened footnote in it. Never scroll the page away from the unit.
     if (footnote.open) requestAnimationFrame(() => {
-      const over = footnote.getBoundingClientRect().bottom - pop.getBoundingClientRect().bottom;
-      if (over > 0) pop.scrollTop += over;
+      const over = footnote.getBoundingClientRect().bottom - popBody.getBoundingClientRect().bottom;
+      if (over > 0) popBody.scrollTop += over;
     });
   });
   on($(".pop-more"), "click", (e) => {
@@ -960,7 +960,7 @@ function showReader(book, chapter, target) {
     }
     const unitTop = Math.min(...picked.map((j) => unitBox(j).top));
     const below = sentences[words[pop.dataset.word].sentence].el.getBoundingClientRect().bottom + gap;
-    const end = Math.min(bottom, $(".controls .play").getBoundingClientRect().top) - gap; // the play button rises
+    const end = Math.min(bottom, playButton.getBoundingClientRect().top) - gap; // the play button rises
     pop.style.top = `${window.scrollY + below}px`;
     pop.style.maxHeight = `${end - (top + gap) - (below - unitTop)}px`;
     if (!pin) return;
