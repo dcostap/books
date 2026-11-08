@@ -130,5 +130,19 @@
     "text": "En inglés, el verbo siempre necesita un sujeto. Cuando no hay ninguno, se pone *it* o *there*, que no se traducen.",
     "examples": [["It’s raining.", "Llueve."], ["It’s late.", "Es tarde."], ["There’s a man at the door.", "Hay un hombre en la puerta."]],
     "wrong": [["Is raining.", "It’s raining."], ["Is a man at the door.", "There’s a man at the door."]]
+  },
+  "linking-verbs": {
+    "name": "verbos copulativos",
+    "en": "linking verbs",
+    "text": "*Be*, *look*, *seem*, *feel* o *get* unen a alguien con su estado o su aspecto, y van con un adjetivo. Donde el español dice «tener hambre» o «tener frío», el inglés suele usar *be* con un adjetivo.",
+    "examples": [["You look tired.", "Pareces cansado."], ["I'm hungry.", "Tengo hambre."], ["It's getting cold.", "Empieza a hacer frío."]],
+    "wrong": [["I have hungry.", "I'm hungry."], ["She looks tiredly.", "She looks tired."]]
+  },
+  "purpose-infinitive": {
+    "name": "infinitivo de finalidad",
+    "en": "infinitive of purpose",
+    "text": "*To* con un infinitivo dice para qué hace alguien algo, como «para» o «a» en español. No se dice *for to*.",
+    "examples": [["I ran to get some water.", "Fui corriendo a buscar agua."], ["She went to London to see her sister.", "Fue a Londres para ver a su hermana."]],
+    "wrong": [["I came for to see you.", "I came to see you."], ["He studies for pass the exam.", "He studies to pass the exam."]]
   }
 }

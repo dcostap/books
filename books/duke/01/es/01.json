@@ -532,7 +532,9 @@
      "t": [
       3
      ],
-     "es": "más"
+     "es": "más",
+     "base": "more",
+     "sense": "degree"
     },
     {
      "t": [
@@ -661,6 +663,8 @@
       8
      ],
      "es": "con aire de importancia",
+     "base": "important-looking",
+     "sense": "appearance",
      "note": "En palabras como esta, *-looking* habla del aspecto: parece importante, aunque no sabemos si lo es."
     }
    ]
@@ -1174,6 +1178,8 @@
       0
      ],
      "es": "está",
+     "base": "be",
+     "sense": "state",
      "note": "*He’s* es aquí *he is*. Ojo: en otras frases, *he’s* puede ser *he has*."
     },
     {
@@ -1245,6 +1251,8 @@
       0
      ],
      "es": "está",
+     "base": "be",
+     "sense": "state",
      "note": "*He’s* es aquí *he is*. Ojo: en otras frases, *he’s* puede ser *he has*."
     },
     {

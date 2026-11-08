@@ -468,6 +468,15 @@
       }
     ]
   },
+  "important-looking": {
+    "senses": [
+      {
+        "id": "appearance",
+        "es": "de aspecto importante",
+        "ex": "an important-looking letter"
+      }
+    ]
+  },
   "just": {
     "senses": [
       {
@@ -568,6 +577,20 @@
         "id": "operate",
         "es": "atender",
         "ex": "Who will man the phones?"
+      }
+    ]
+  },
+  "more": {
+    "senses": [
+      {
+        "id": "degree",
+        "es": "más",
+        "ex": "a more difficult question"
+      },
+      {
+        "id": "quantity",
+        "es": "más",
+        "ex": "We need more time."
       }
     ]
   },

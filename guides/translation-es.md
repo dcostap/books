@@ -114,7 +114,7 @@ The gloss (`es`) is the meaning **at this place in the story**. It is not a dict
 
 `guides/dictionary-en.json` is an English–Spanish dictionary for all books. A unit links to an entry with `base` (the word of the entry) and `sense` (the id of one of its senses). The app then shows the base form, the irregular forms, and the other senses under "En otros contextos". Do not write forms or other meanings in the unit: the dictionary has them.
 
-- Link every unit whose main word has an entry: "came" → `"base": "come", "sense": "move"`. Names and small words (articles, pronouns, simple prepositions) have no entry.
+- Link every unit whose main word has an entry: "came" → `"base": "come", "sense": "move"`. Names, numbers and small words (articles, pronouns, simple prepositions) have no entry.
 - A unit with an article, a possessive or a preposition links its main word: "a … ticket" → `ticket`, "into the room" → `room`. A phrasal verb or an idiom links the phrase: "looked at" → `look at`.
 - Choose the sense that fits this place. The gloss fits the line (*venían*); the sense gives the general meaning (*venir*).
 - No link for a phrase that is not a dictionary entry: "What is it".
