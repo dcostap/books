@@ -28,42 +28,42 @@
 
 :root, [data-theme="paper"] {
   color-scheme: light;
-  --bg: #fbf8f3; --surface: #ffffff; --fg: #23201b; --muted: #81786c; --line: #ebe4d8;
+  --bg: #fbf8f3; --surface: #ffffff; --fg: #23201b; --muted: #635c52; --line: #ebe4d8;
   --accent: #c0612f; --accent-fg: #ffffff; --sentence: #f8ecd2; --word: #f2cd7a;
   --saved: #2f8a57;
   --bad: #b8372b; --good: #27794b;
 }
 [data-theme="sepia"] {
   color-scheme: light;
-  --bg: #f4ead3; --surface: #faf2df; --fg: #4a3a28; --muted: #8b765c; --line: #e3d3b0;
+  --bg: #f4ead3; --surface: #faf2df; --fg: #4a3a28; --muted: #715e47; --line: #e3d3b0;
   --accent: #9c4f22; --accent-fg: #ffffff; --sentence: #ead9b0; --word: #dcbb6c;
   --saved: #3d7a48;
   --bad: #a33a26; --good: #3d7a48;
 }
 [data-theme="white"] {
   color-scheme: light;
-  --bg: #ffffff; --surface: #f5f6f8; --fg: #1c1d21; --muted: #6b7280; --line: #e4e6ea;
+  --bg: #ffffff; --surface: #f5f6f8; --fg: #1c1d21; --muted: #535864; --line: #e4e6ea;
   --accent: #2f6fde; --accent-fg: #ffffff; --sentence: #e9f0fd; --word: #b8cff8;
   --saved: #15934a;
   --bad: #c9352b; --good: #0f7d3d;
 }
 [data-theme="night"] {
   color-scheme: dark;
-  --bg: #141210; --surface: #1d1a17; --fg: #ebe5db; --muted: #998f82; --line: #2c2823;
+  --bg: #141210; --surface: #1d1a17; --fg: #ebe5db; --muted: #b2aa9e; --line: #2c2823;
   --accent: #e58a57; --accent-fg: #1a1410; --sentence: #2f281d; --word: #6b5220;
   --saved: #6fcf97;
   --bad: #f0806f; --good: #6fcf97;
 }
 [data-theme="slate"] {
   color-scheme: dark;
-  --bg: #191e26; --surface: #212732; --fg: #dde3ec; --muted: #8b96a8; --line: #2d3542;
+  --bg: #191e26; --surface: #212732; --fg: #dde3ec; --muted: #a9b2c0; --line: #2d3542;
   --accent: #7ea6f6; --accent-fg: #101622; --sentence: #243045; --word: #34508a;
   --saved: #62d39a;
   --bad: #f28b82; --good: #62d39a;
 }
 [data-theme="black"] {
   color-scheme: dark;
-  --bg: #000000; --surface: #111111; --fg: #cfcac2; --muted: #85807a; --line: #232323;
+  --bg: #000000; --surface: #111111; --fg: #cfcac2; --muted: #a29d96; --line: #232323;
   --accent: #d99a4e; --accent-fg: #000000; --sentence: #1d1912; --word: #5c4419;
   --saved: #5fbf86;
   --bad: #e0786a; --good: #5fbf86;
