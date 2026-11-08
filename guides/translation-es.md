@@ -134,7 +134,7 @@ The base form (`base`) is the form a reader looks up in a dictionary. Give it wh
 
 A note tells the reader something that the gloss cannot. It is the friendly part of the app: like a friend who knows English well and sits next to the reader. Most units have no note. A good note is a small pleasure to read.
 
-`also` and concept links do not replace notes. Other meanings go in `also`, and a link explains a general idea. A note tells what is special at this place: a pattern ("talked and talked" = *sin parar*), a verb with its preposition (*look at*), a British word (*ill*, US *sick*).
+`also` and concept links do not replace notes. Other meanings go in `also`, and a link explains a general idea. A note tells what is special at this place: a pattern that Spanish does not have (*would* for a habit), a verb with its preposition (*look at*), a British word (*ill*, US *sick*).
 
 Write a note when a reader at this level would probably miss or misread something, or when there is something nice to learn:
 
@@ -155,6 +155,7 @@ Do not write a note when:
 
 - The reader knows the word at this level, or the gloss says everything.
 - The word looks like a Spanish word and means the same: "director", "mysterious".
+- Spanish says it the same way: "talked and talked" = *hablaban y hablaban*. The reader understands it without help.
 - The note only explains the Spanish, not the English.
 - The same word or idea already has a note earlier **in the chapter**, also before your job. Write each note one time in a chapter. If a later unit still needs the idea, link its concept, or write a short note that makes sense alone.
 
