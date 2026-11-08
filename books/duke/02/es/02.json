@@ -1,0 +1,424 @@
+{
+  "sentences": [
+    {
+      "id": 29,
+      "line": [
+        {"t": [0, 1], "es": "«Heidegger llegó"},
+        {"t": [2, 3, 4], "es": "al colegio"},
+        {"t": [5, 6, 7], "es": "hace un año."}
+      ],
+      "words": [
+        {"t": [0], "es": "Heidegger"},
+        {"t": [1], "es": "llegó", "base": "come", "sense": "arrive"},
+        {"t": [2, 3, 4], "es": "al colegio", "base": "school", "sense": "education"},
+        {"t": [5, 6], "es": "un año", "base": "year", "sense": "time"},
+        {"t": [7], "es": "hace", "base": "ago", "sense": "before", "note": "*Ago* va detrás de la cantidad de tiempo: *a year ago* = «hace un año»."}
+      ]
+    },
+    {
+      "id": 30,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Es un buen profesor,"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "pero a los niños no les cae bien"},
+        {"t": [10, 11, 12, 13, 14], "es": "porque no es muy amable."}
+      ],
+      "words": [
+        {"t": [0], "es": "es", "base": "be", "sense": "identity", "note": "*He’s* es aquí *he is* ([[contractions]]). En otras frases, puede ser *he has*."},
+        {"t": [1, 3], "es": "un profesor", "base": "teacher", "sense": "person"},
+        {"t": [2], "es": "bueno", "base": "good", "sense": "quality"},
+        {"t": [4], "es": "pero"},
+        {"t": [5, 6], "es": "los niños", "base": "boy", "sense": "child"},
+        {"t": [7, 8], "es": "no les gusta", "base": "like", "sense": "enjoy", "note": "*Don’t* es *do not* ([[contractions]]). Con personas, *like* también expresa que alguien te cae bien."},
+        {"t": [9], "es": "lo, a él"},
+        {"t": [10], "es": "porque"},
+        {"t": [11], "es": "él"},
+        {"t": [12], "es": "no es", "base": "be", "sense": "identity", "note": "*Isn’t* es *is not*, la forma negativa de *is* ([[contractions]])."},
+        {"t": [13], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [14], "es": "amable", "base": "friendly", "sense": "kind"}
+      ]
+    },
+    {
+      "id": 31,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Así que, señor Holmes,"},
+        {"t": [3, 4, 5, 6, 7], "es": "tenemos dos personas desaparecidas."}
+      ],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1], "es": "señor", "note": "*Mr* se pone delante del apellido. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [2], "es": "Holmes"},
+        {"t": [3], "es": "nosotros"},
+        {"t": [4], "es": "tenemos", "base": "have", "sense": "possess"},
+        {"t": [5], "es": "dos"},
+        {"t": [6], "es": "desaparecidas", "base": "missing", "sense": "lost"},
+        {"t": [7], "es": "personas", "base": "person", "sense": "human"}
+      ]
+    },
+    {
+      "id": 32,
+      "line": [
+        {"t": [0, 1, 2], "es": "Hoy es jueves"},
+        {"t": [3, 4, 5, 6, 7], "es": "y todavía no hay noticias"},
+        {"t": [8, 9], "es": "de ellos»."}
+      ],
+      "words": [
+        {"t": [0], "es": "es", "base": "be", "sense": "identity", "note": "*It’s* es *it is* ([[contractions]]). Para decir qué día es, el inglés usa *it*, sin traducción ([[dummy-subject]])."},
+        {"t": [1], "es": "ahora", "base": "now", "sense": "present", "note": "*Now* no siempre se refiere a este segundo; también puede situarnos en un día o una época."},
+        {"t": [2], "es": "jueves", "note": "Los días de la semana se escriben con mayúscula en inglés: *Thursday*, *Tuesday*."},
+        {"t": [3], "es": "y"},
+        {"t": [4], "es": "hay", "base": "be", "sense": "exist", "note": "*There’s* es *there is* ([[contractions]]). Juntas significan «hay»; *there* no indica un lugar aquí ([[dummy-subject]])."},
+        {"t": [5], "es": "todavía", "base": "still", "sense": "continuing"},
+        {"t": [6, 7], "es": "ninguna noticia", "base": "news", "sense": "information", "note": "*News* acaba en *-s*, pero no es plural: es un sustantivo incontable ([[uncountable]])."},
+        {"t": [8, 9], "es": "de ellos"}
+      ]
+    },
+    {
+      "id": 33,
+      "line": [
+        {"t": [0, 1, 2], "es": "Holmes sacó"},
+        {"t": [3, 4, 5], "es": "una pequeña libreta"},
+        {"t": [6, 7, 8, 9, 10, 11], "es": "y empezó a anotar cosas."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1, 2], "es": "sacó", "base": "take out", "sense": "remove", "note": "*Take out* indica sacar algo de donde está guardado ([[phrasal-verbs]])."},
+        {"t": [3, 5], "es": "una libreta", "base": "notebook", "sense": "book"},
+        {"t": [4], "es": "pequeña", "base": "little", "sense": "small"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "empezó", "base": "begin", "sense": "start"},
+        {"t": [8, 9, 11], "es": "a anotar", "base": "write down", "sense": "record", "note": "*Write down* es dejar algo escrito para recordarlo. La cosa anotada puede ir entre *write* y *down* ([[phrasal-verbs]])."},
+        {"t": [10], "es": "cosas", "base": "thing", "sense": "object"}
+      ]
+    },
+    {
+      "id": 34,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«El niño no fue a casa,"},
+        {"t": [5, 6], "es": "por supuesto»,"},
+        {"t": [7, 8], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [2, 3], "es": "no fue", "base": "go", "sense": "move", "note": "*Didn’t* es *did not* ([[contractions]]). *Did* marca el pasado; *go* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [4], "es": "a casa", "base": "home", "sense": "destination", "note": "Para decir «ir a casa», se usa *go home*, sin *to*."},
+        {"t": [5, 6], "es": "por supuesto", "base": "of course", "sense": "obvious"},
+        {"t": [7], "es": "él"},
+        {"t": [8], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 35,
+      "line": [{"t": [0, 1], "es": "«No, no."}],
+      "words": [{"t": [0], "es": "no"}, {"t": [1], "es": "no"}]
+    },
+    {
+      "id": 36,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Preguntamos enseguida en Holdernesse Hall»,"},
+        {"t": [7, 8, 9], "es": "dijo el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "preguntamos", "base": "ask", "sense": "question"},
+        {"t": [2, 3, 4], "es": "en Holdernesse Hall", "base": "hall", "sense": "house", "note": "*Hall* en el nombre de una casa suele indicar una gran casa de campo."},
+        {"t": [5, 6], "es": "enseguida", "base": "at once", "sense": "immediately", "note": "Esta expresión indica que algo se hace sin esperar, no «una vez»."},
+        {"t": [7], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [8], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [9], "es": "Huxtable"}
+      ]
+    },
+    {
+      "id": 37,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«El duque está muy preocupado"},
+        {"t": [5, 6, 7], "es": "por su hijo"},
+        {"t": [9, 10, 11], "es": "y yo soy"},
+        {"t": [12, 13, 14], "es": "el hombre más infeliz"},
+        {"t": [15, 16], "es": "de Inglaterra."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [2], "es": "está", "base": "be", "sense": "state"},
+        {"t": [3], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [4, 5], "es": "preocupado por", "base": "afraid", "sense": "worried", "note": "*Afraid for someone* es temer por alguien; *afraid of someone* es tenerle miedo."},
+        {"t": [6, 7], "es": "su hijo", "base": "son", "sense": "family"},
+        {"t": [9], "es": "y"},
+        {"t": [10], "es": "yo"},
+        {"t": [11], "es": "soy", "base": "be", "sense": "identity"},
+        {"t": [12, 14], "es": "el hombre", "base": "man", "sense": "adult"},
+        {"t": [13], "es": "más infeliz", "base": "unhappy", "sense": "sad", "note": "*The unhappiest* es un superlativo: «el más infeliz». El final *-est* marca el grado máximo ([[comparatives]])."},
+        {"t": [15, 16], "es": "en Inglaterra"}
+      ]
+    },
+    {
+      "id": 38,
+      "line": [
+        {"t": [0, 1], "es": "Señor Holmes,"},
+        {"t": [2, 3, 4, 5, 6], "es": "usted es un detective famoso."},
+        {"t": [8, 9, 10], "es": "¡Por favor, ayúdeme!»."}
+      ],
+      "words": [
+        {"t": [0], "es": "señor", "note": "*Mr* se pone delante del apellido. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [1], "es": "Holmes"},
+        {"t": [2], "es": "usted"},
+        {"t": [3], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [4, 6], "es": "un detective", "base": "detective", "sense": "investigator"},
+        {"t": [5], "es": "famoso", "base": "famous", "sense": "known"},
+        {"t": [8], "es": "por favor", "base": "please", "sense": "polite"},
+        {"t": [9], "es": "ayude", "base": "help", "sense": "assist"},
+        {"t": [10], "es": "me, a mí"}
+      ]
+    },
+    {
+      "id": 39,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«Me pone las cosas muy difíciles»,"},
+        {"t": [7, 8], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "usted"},
+        {"t": [1], "es": "hace que sean", "base": "make", "sense": "cause", "note": "*Make things difficult* expresa un resultado, no fabricar algo. En la frase decimos «poner las cosas difíciles»."},
+        {"t": [2], "es": "cosas", "base": "thing", "sense": "object"},
+        {"t": [3], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [4], "es": "difíciles", "base": "difficult", "sense": "hard"},
+        {"t": [5, 6], "es": "para mí"},
+        {"t": [7], "es": "Holmes"},
+        {"t": [8], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 40,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«¿Cómo voy a encontrar marcas"},
+        {"t": [5, 6, 7], "es": "en la hiedra"},
+        {"t": [8, 9, 10, 11], "es": "o en el suelo"},
+        {"t": [12, 13, 14], "es": "después de tres días?"}
+      ],
+      "words": [
+        {"t": [0], "es": "cómo", "base": "how", "sense": "manner"},
+        {"t": [1, 3], "es": "puedo encontrar", "base": "find", "sense": "discover", "note": "*Can* pregunta si algo es posible ([[modal-verbs]]). Aquí, «¿cómo voy a…?» expresa la dificultad."},
+        {"t": [2], "es": "yo"},
+        {"t": [4], "es": "marcas", "base": "mark", "sense": "trace"},
+        {"t": [5, 6, 7], "es": "en la hiedra", "base": "ivy", "sense": "plant"},
+        {"t": [8], "es": "o"},
+        {"t": [9, 10, 11], "es": "en el suelo", "base": "ground", "sense": "surface"},
+        {"t": [12], "es": "después de"},
+        {"t": [13], "es": "tres"},
+        {"t": [14], "es": "días", "base": "day", "sense": "time"}
+      ]
+    },
+    {
+      "id": 41,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "¿Por qué no vino a verme"},
+        {"t": [6, 7], "es": "enseguida?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "por qué", "base": "why", "sense": "question"},
+        {"t": [1, 3], "es": "no vino", "base": "come", "sense": "move", "note": "*Didn’t* es *did not* ([[contractions]]). En la pregunta negativa, *did* va delante del sujeto ([[auxiliary-do]])."},
+        {"t": [2], "es": "usted"},
+        {"t": [4, 5], "es": "a mí"},
+        {"t": [6, 7], "es": "enseguida", "base": "at once", "sense": "immediately", "note": "Esta expresión indica que algo se hace sin esperar, no «una vez»."}
+      ]
+    },
+    {
+      "id": 42,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Por el duque»,"},
+        {"t": [4, 5, 6], "es": "dijo el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "por, a causa de", "base": "because of", "sense": "cause"},
+        {"t": [2, 3], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [4], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [5], "es": "Huxtable"},
+        {"t": [6], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 43,
+      "line": [
+        {"t": [0, 1, 2], "es": "«No le gusta"},
+        {"t": [3, 4, 5], "es": "que la gente hable de"},
+        {"t": [6, 7, 8, 9], "es": "lo mal que va su vida familiar»."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "no le gusta", "base": "like", "sense": "enjoy", "note": "*Doesn’t* es *does not* ([[contractions]]). *Does* forma la negación con *he*; *like* queda sin *-s* ([[auxiliary-do]])."},
+        {"t": [3], "es": "personas", "base": "person", "sense": "human", "note": "*People* lleva verbo en plural: *people are*, no *people is*, aunque se traduzca como «gente» ([[plural-agreement]])."},
+        {"t": [4, 5], "es": "hablando de", "base": "talk", "sense": "speak", "note": "*Talk about* lleva detrás el tema; *talk to*, la persona con quien hablas."},
+        {"t": [6, 9], "es": "su vida", "base": "life", "sense": "existence"},
+        {"t": [7], "es": "infeliz", "base": "unhappy", "sense": "sad"},
+        {"t": [8], "es": "familiar", "base": "family", "sense": "related", "note": "*Family* describe el tipo de vida: «familiar». Un sustantivo puede describir a otro ([[noun-as-adjective]])."}
+      ]
+    },
+    {
+      "id": 44,
+      "line": [{"t": [0, 1, 2, 3, 4, 5], "es": "«¿Y qué está haciendo la policía?»."}],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "qué"},
+        {"t": [2, 5], "es": "están haciendo", "base": "do", "sense": "perform", "note": "*Are* y *doing* forman el presente continuo. En la pregunta, el sujeto va entre las dos palabras ([[present-continuous]])."},
+        {"t": [3, 4], "es": "la policía", "base": "police", "sense": "force", "note": "En inglés, *the police* lleva verbo en plural: *are*, no *is* ([[plural-agreement]])."}
+      ]
+    },
+    {
+      "id": 45,
+      "line": [
+        {"t": [0], "es": "«Bueno,"},
+        {"t": [1, 2, 3], "es": "les hablaron de"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "un niño y un joven"},
+        {"t": [10, 11, 12], "es": "que estaban en la estación"},
+        {"t": [13, 14, 15], "es": "el martes a primera hora."}
+      ],
+      "words": [
+        {"t": [0], "es": "bueno, bien", "base": "well", "sense": "discourse"},
+        {"t": [1], "es": "ellos, ellas"},
+        {"t": [2, 3], "es": "oyeron hablar de", "base": "hear", "sense": "learn", "note": "*Hear about* es recibir noticias sobre algo. Aquí, «les hablaron de» suena más natural en español."},
+        {"t": [4, 5], "es": "un niño", "base": "boy", "sense": "child"},
+        {"t": [6], "es": "y"},
+        {"t": [7, 9], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [8], "es": "joven", "base": "young", "sense": "age"},
+        {"t": [10, 11, 12], "es": "en la estación", "base": "station", "sense": "transport"},
+        {"t": [13], "es": "temprano", "base": "early", "sense": "time"},
+        {"t": [14, 15], "es": "el martes", "note": "Con los días se usa *on*: *on Tuesday*. Los días de la semana llevan mayúscula en inglés."}
+      ]
+    },
+    {
+      "id": 46,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Los buscaron"},
+        {"t": [4, 5, 6], "es": "y anoche"},
+        {"t": [7, 8, 9], "es": "los encontraron"},
+        {"t": [10, 11], "es": "en Liverpool,"},
+        {"t": [13, 14, 15, 16, 17, 18, 19, 20], "es": "pero eran un hombre y su hijo"},
+        {"t": [21, 22, 23, 24, 25], "es": "que iban a visitar a un amigo."}
+      ],
+      "words": [
+        {"t": [0], "es": "ellos, ellas"},
+        {"t": [1, 2], "es": "buscaron", "base": "look for", "sense": "search", "note": "*Look for* es buscar; *look at* es mirar. La preposición cambia el significado."},
+        {"t": [3], "es": "los, a ellos"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "pasada", "base": "last", "sense": "previous"},
+        {"t": [6], "es": "noche", "base": "night", "sense": "time", "note": "*Last night* significa «anoche». No lleva preposición ni artículo en inglés."},
+        {"t": [7], "es": "ellos, ellas"},
+        {"t": [8], "es": "encontraron", "base": "find", "sense": "discover"},
+        {"t": [9], "es": "los, a ellos"},
+        {"t": [10, 11], "es": "en Liverpool"},
+        {"t": [13], "es": "pero"},
+        {"t": [14], "es": "eso"},
+        {"t": [15], "es": "era", "base": "be", "sense": "identity", "note": "Aquí *it was* sirve para identificar a las personas que encontraron, aunque haya más de una."},
+        {"t": [16, 17], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [18], "es": "y"},
+        {"t": [19, 20], "es": "su hijo", "base": "son", "sense": "family"},
+        {"t": [21], "es": "yendo", "base": "go", "sense": "move"},
+        {"t": [22, 23], "es": "a visitar", "base": "visit", "sense": "go", "note": "*To* con infinitivo indica para qué iban: a visitar a alguien ([[purpose-infinitive]])."},
+        {"t": [24, 25], "es": "un amigo", "base": "friend", "sense": "person"}
+      ]
+    },
+    {
+      "id": 47,
+      "line": [
+        {"t": [0, 1], "es": "Perdimos"},
+        {"t": [2, 3], "es": "tres días"},
+        {"t": [4, 5, 6], "es": "por eso."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "perdimos", "base": "lose", "sense": "loss"},
+        {"t": [2], "es": "tres"},
+        {"t": [3], "es": "días", "base": "day", "sense": "time"},
+        {"t": [4, 5], "es": "por, a causa de", "base": "because of", "sense": "cause"},
+        {"t": [6], "es": "eso"}
+      ]
+    },
+    {
+      "id": 48,
+      "line": [
+        {"t": [0, 1, 2], "es": "Y anoche"},
+        {"t": [3, 4, 5], "es": "no pude dormir,"},
+        {"t": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "así que esta mañana cogí el primer tren a Londres»."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "pasada", "base": "last", "sense": "previous"},
+        {"t": [2], "es": "noche", "base": "night", "sense": "time", "note": "*Last night* significa «anoche». No lleva preposición ni artículo en inglés."},
+        {"t": [3], "es": "yo"},
+        {"t": [4, 5], "es": "no pude dormir", "base": "sleep", "sense": "rest", "note": "*Couldn’t* es *could not* ([[contractions]]). Aquí expresa que no pudo hacer algo ([[modal-verbs]])."},
+        {"t": [6], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [7], "es": "yo"},
+        {"t": [8], "es": "cogí", "base": "take", "sense": "transport"},
+        {"t": [9, 11], "es": "el tren", "base": "train", "sense": "transport"},
+        {"t": [10], "es": "primero"},
+        {"t": [12], "es": "hacia el sur", "base": "down", "sense": "south", "note": "*Down* puede indicar un viaje hacia el sur. No siempre habla de bajar una cuesta."},
+        {"t": [13, 14], "es": "a Londres"},
+        {"t": [15, 16], "es": "esta mañana", "base": "morning", "sense": "time"}
+      ]
+    },
+    {
+      "id": 49,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Bien, doctor Huxtable,"},
+        {"t": [3, 4, 5], "es": "unas preguntas más»,"},
+        {"t": [6, 7], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "bueno, bien", "base": "well", "sense": "discourse"},
+        {"t": [1], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [2], "es": "Huxtable"},
+        {"t": [3, 5], "es": "unas preguntas", "base": "question", "sense": "inquiry", "note": "*Some* indica una cantidad sin precisar: unas cuantas preguntas ([[some-any]])."},
+        {"t": [4], "es": "más", "base": "more", "sense": "quantity"},
+        {"t": [6], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [7], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 50,
+      "line": [{"t": [0, 1, 2, 3, 4, 5], "es": "«¿Recibía el niño clases de alemán?»."}],
+      "words": [
+        {"t": [0, 3], "es": "recibía", "base": "take", "sense": "study", "note": "*Take lessons* es recibir clases. *Did* forma la pregunta en pasado; *take* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [1, 2], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [4], "es": "de alemán", "base": "German", "sense": "language", "note": "*German* indica de qué son las clases ([[noun-as-adjective]]). Los idiomas llevan mayúscula."},
+        {"t": [5], "es": "clases", "base": "lesson", "sense": "class"}
+      ]
+    },
+    {
+      "id": 51,
+      "line": [{"t": [0], "es": "«No»."}],
+      "words": [{"t": [0], "es": "no"}]
+    },
+    {
+      "id": 52,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Así que no conocía"},
+        {"t": [4, 5, 6, 7, 8], "es": "bien al profesor de alemán»."}
+      ],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1], "es": "él"},
+        {"t": [2, 3], "es": "no conocía", "base": "know", "sense": "familiar", "note": "*Didn’t* es *did not* ([[contractions]]). *Know* con una persona significa «conocer», no «saber»."},
+        {"t": [4, 6], "es": "el profesor", "base": "teacher", "sense": "person"},
+        {"t": [5], "es": "de alemán", "base": "German", "sense": "language", "note": "En *German teacher*, *German* indica la materia ([[noun-as-adjective]]). Los idiomas llevan mayúscula."},
+        {"t": [7], "es": "bien", "base": "well", "sense": "manner"},
+        {"t": [8], "es": "entonces", "base": "then", "sense": "inference", "note": "*Then* enlaza con lo dicho para sacar una conclusión; no indica cuándo ocurre algo."}
+      ]
+    },
+    {
+      "id": 53,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Probablemente nunca habló con él»,"},
+        {"t": [6, 7, 8], "es": "dijo el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "probablemente", "base": "probably", "sense": "likely"},
+        {"t": [2], "es": "nunca", "base": "never", "sense": "time"},
+        {"t": [3, 4], "es": "habló con", "base": "speak", "sense": "talk", "note": "*Speak to* lleva detrás a la persona con la que hablas: *speak to him*."},
+        {"t": [5], "es": "él"},
+        {"t": [6], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [7], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [8], "es": "Huxtable"}
+      ]
+    }
+  ]
+}

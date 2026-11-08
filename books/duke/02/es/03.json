@@ -1,0 +1,619 @@
+{
+  "sentences": [
+    {
+      "id": 54,
+      "line": [
+        {"t": [0], "es": "«Mmm»,"},
+        {"t": [1, 2], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "mmm", "base": "mmm", "sense": "thought"},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 55,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«¿Tiene el niño"},
+        {"t": [4, 5], "es": "una bicicleta?»."}
+      ],
+      "words": [
+        {"t": [0, 3], "es": "tiene", "base": "have", "sense": "possess", "note": "*Does* forma preguntas con *he*, *she* o *it*. *Have* queda en su forma base, no cambia a *has* ([[auxiliary-do]])."},
+        {"t": [1, 2], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [4, 5], "es": "una bicicleta", "base": "bicycle", "sense": "vehicle"}
+      ]
+    },
+    {
+      "id": 56,
+      "line": [{"t": [0], "es": "«No»."}],
+      "words": [{"t": [0], "es": "no"}]
+    },
+    {
+      "id": 57,
+      "line": [{"t": [0, 1, 2, 3, 4], "es": "«¿Faltaba alguna otra bicicleta?»."}],
+      "words": [
+        {"t": [0], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [1, 3], "es": "alguna bicicleta", "base": "bicycle", "sense": "vehicle", "note": "En preguntas, *any* pregunta si hay alguna, sin precisar cuál ([[some-any]])."},
+        {"t": [2], "es": "otra", "base": "other", "sense": "different"},
+        {"t": [4], "es": "que falta", "base": "missing", "sense": "absent", "note": "Con *be*, *missing* describe un estado: algo no está donde debería. No es una acción en curso ([[linking-verbs]])."}
+      ]
+    },
+    {
+      "id": 58,
+      "line": [{"t": [0], "es": "«No»."}],
+      "words": [{"t": [0], "es": "no"}]
+    },
+    {
+      "id": 59,
+      "line": [{"t": [0], "es": "«Así pues."}],
+      "words": [{"t": [0], "es": "así pues", "base": "so", "sense": "result"}]
+    },
+    {
+      "id": 60,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "¿Se marchó el profesor de alemán"},
+        {"t": [6, 7, 8], "es": "en su bicicleta"},
+        {"t": [9, 10, 11], "es": "por la noche,"},
+        {"t": [12, 13, 14], "es": "con el niño"},
+        {"t": [15, 16, 17], "es": "a la espalda?"}
+      ],
+      "words": [
+        {"t": [0, 4], "es": "montó", "base": "ride", "sense": "mount", "note": "*Did* marca la pregunta en pasado; *ride* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [1, 3], "es": "el profesor", "base": "teacher", "sense": "person"},
+        {"t": [2], "es": "de alemán", "base": "German", "sense": "language", "note": "En *German teacher*, *German* indica la materia ([[noun-as-adjective]]). Los idiomas llevan mayúscula."},
+        {"t": [5], "es": "de allí, lejos", "base": "away", "sense": "distance", "note": "Con un verbo de movimiento, *away* indica que alguien se aleja. Aquí *ride away* es marcharse en un vehículo o montado."},
+        {"t": [6, 7, 8], "es": "en su bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [9, 10, 11], "es": "por la noche", "base": "night", "sense": "time"},
+        {"t": [12, 13, 14], "es": "con el niño", "base": "boy", "sense": "child"},
+        {"t": [15, 16, 17], "es": "sobre su espalda", "base": "back", "sense": "body", "note": "El inglés usa posesivo con las partes del cuerpo: *his back* ([[body-possessive]])."}
+      ]
+    },
+    {
+      "id": 61,
+      "line": [{"t": [0, 1, 2, 3], "es": "No lo creo."}],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no creo", "base": "think", "sense": "believe", "note": "*Don’t* es *do not* ([[contractions]]). *Do* ayuda a formar la negación, no significa «hacer» aquí ([[auxiliary-do]])."},
+        {"t": [3], "es": "eso, así", "base": "so", "sense": "reference", "note": "Aquí *so* sustituye la idea anterior: *I don’t think so* = «no lo creo»."}
+      ]
+    },
+    {
+      "id": 62,
+      "line": [
+        {"t": [0], "es": "Pero"},
+        {"t": [1, 2, 3, 4, 5], "es": "¿qué pasó con la bicicleta?"}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "qué", "note": "*What* es el sujeto: pregunta qué ocurrió. Por eso la pregunta no lleva *did* ([[subject-questions]])."},
+        {"t": [2, 3], "es": "le pasó a", "base": "happen", "sense": "occur"},
+        {"t": [4, 5], "es": "la bicicleta", "base": "bicycle", "sense": "vehicle"}
+      ]
+    },
+    {
+      "id": 63,
+      "line": [
+        {"t": [0], "es": "Bien,"},
+        {"t": [1, 2, 3], "es": "¿y las visitas?"}
+      ],
+      "words": [
+        {"t": [0], "es": "bien, ahora", "base": "now", "sense": "attention", "note": "Al empezar una pregunta, *now* puede servir para cambiar de tema, sin hablar del tiempo."},
+        {"t": [1, 2], "es": "¿y qué hay de…?", "base": "what about", "sense": "consider", "note": "Sirve para preguntar por otro tema: «¿y qué hay de…?». No hace falta un verbo detrás."},
+        {"t": [3], "es": "visitas, visitantes", "base": "visitor", "sense": "guest"}
+      ]
+    },
+    {
+      "id": 64,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "¿Tuvo el niño alguna visita"},
+        {"t": [6, 7, 8], "es": "el día anterior?»."}
+      ],
+      "words": [
+        {"t": [0, 3], "es": "tuvo", "base": "have", "sense": "possess", "note": "*Did* forma la pregunta en pasado; *have* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [1, 2], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [4, 5], "es": "algunas visitas", "base": "visitor", "sense": "guest", "note": "En preguntas, *any* con plural no precisa cuántas: puede ser una visita o más ([[some-any]])."},
+        {"t": [6, 7], "es": "el día", "base": "day", "sense": "time"},
+        {"t": [8], "es": "anterior", "base": "before", "sense": "earlier", "note": "*The day before* es el día anterior a otro día del pasado; no tiene por qué ser ayer."}
+      ]
+    },
+    {
+      "id": 65,
+      "line": [{"t": [0], "es": "«No»."}],
+      "words": [{"t": [0], "es": "no"}]
+    },
+    {
+      "id": 66,
+      "line": [{"t": [0, 1, 2, 3, 4], "es": "«¿Recibió alguna carta?»."}],
+      "words": [
+        {"t": [0, 2], "es": "recibió", "base": "get", "sense": "receive", "note": "*Did* forma la pregunta en pasado. *Get* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [1], "es": "él"},
+        {"t": [3, 4], "es": "algunas cartas", "base": "letter", "sense": "message", "note": "En preguntas, *any* con plural no precisa cuántas: puede ser una carta o más ([[some-any]])."}
+      ]
+    },
+    {
+      "id": 67,
+      "line": [
+        {"t": [0], "es": "«Sí,"},
+        {"t": [1, 2], "es": "una carta."}
+      ],
+      "words": [
+        {"t": [0], "es": "sí", "base": "yes", "sense": "agreement"},
+        {"t": [1], "es": "una"},
+        {"t": [2], "es": "carta", "base": "letter", "sense": "message"}
+      ]
+    },
+    {
+      "id": 68,
+      "line": [{"t": [0, 1, 2], "es": "De su padre»."}],
+      "words": [{"t": [0, 1, 2], "es": "de su padre", "base": "father", "sense": "parent"}]
+    },
+    {
+      "id": 69,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¿Abre usted"},
+        {"t": [3, 4, 5], "es": "las cartas de los niños,"},
+        {"t": [6, 7], "es": "doctor Huxtable?»."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "abre", "base": "open", "sense": "unclose", "note": "*Do* forma la pregunta. El verbo principal queda en su forma base ([[auxiliary-do]])."},
+        {"t": [1], "es": "usted"},
+        {"t": [3, 4], "es": "de los niños", "base": "boy", "sense": "child", "note": "El apóstrofo tras un plural acabado en *-s* indica posesión: *the boys’ letters* = «las cartas de los niños» ([[possessive-s]])."},
+        {"t": [5], "es": "cartas", "base": "letter", "sense": "message"},
+        {"t": [6], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [7], "es": "Huxtable"}
+      ]
+    },
+    {
+      "id": 70,
+      "line": [{"t": [0], "es": "«No»."}],
+      "words": [{"t": [0], "es": "no"}]
+    },
+    {
+      "id": 71,
+      "line": [
+        {"t": [0], "es": "«Entonces,"},
+        {"t": [1, 2, 3, 4], "es": "¿cómo sabe"},
+        {"t": [5, 6, 7, 8], "es": "que la carta era"},
+        {"t": [9, 10, 11], "es": "del padre?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "entonces", "base": "then", "sense": "inference", "note": "*Then* enlaza con lo dicho para sacar una conclusión; no indica cuándo ocurre algo."},
+        {"t": [1], "es": "cómo", "base": "how", "sense": "manner"},
+        {"t": [2, 4], "es": "sabe", "base": "know", "sense": "information", "note": "*Do* ayuda a formar la pregunta y no se traduce por «hacer» ([[auxiliary-do]])."},
+        {"t": [3], "es": "usted"},
+        {"t": [5], "es": "que"},
+        {"t": [6, 7], "es": "la carta", "base": "letter", "sense": "message"},
+        {"t": [8], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [9, 10, 11], "es": "del padre", "base": "father", "sense": "parent"}
+      ]
+    },
+    {
+      "id": 72,
+      "line": [
+        {"t": [0, 1], "es": "«Conozco"},
+        {"t": [2, 3, 4], "es": "la letra del duque."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "conozco", "base": "know", "sense": "familiar"},
+        {"t": [2, 3], "es": "del duque", "base": "duke", "sense": "noble", "note": "El *’s* indica de quién es algo: *the Duke’s handwriting* = «la letra del duque» ([[possessive-s]])."},
+        {"t": [4], "es": "letra", "base": "handwriting", "sense": "style", "note": "Es la forma de escribir a mano de una persona, no una letra del alfabeto, que sería *letter*."}
+      ]
+    },
+    {
+      "id": 73,
+      "line": [
+        {"t": [0, 1, 2], "es": "Y dice"},
+        {"t": [3, 4, 5, 6, 7], "es": "que escribió una carta"},
+        {"t": [8, 9, 10], "es": "a su hijo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "dice", "base": "say", "sense": "speak"},
+        {"t": [3], "es": "que"},
+        {"t": [4], "es": "él"},
+        {"t": [5], "es": "escribió", "base": "write", "sense": "text"},
+        {"t": [6, 7], "es": "una carta", "base": "letter", "sense": "message"},
+        {"t": [8, 9, 10], "es": "a su hijo", "base": "son", "sense": "family"}
+      ]
+    },
+    {
+      "id": 74,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«¿Recibió el niño"},
+        {"t": [4, 5], "es": "alguna carta"},
+        {"t": [6, 7], "es": "de Francia?»."}
+      ],
+      "words": [
+        {"t": [0, 3], "es": "recibió", "base": "get", "sense": "receive", "note": "*Did* forma la pregunta en pasado. El verbo principal queda en su forma base ([[auxiliary-do]])."},
+        {"t": [1, 2], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [4, 5], "es": "algunas cartas", "base": "letter", "sense": "message", "note": "En preguntas, *any* con plural no precisa cuántas: puede ser una carta o más ([[some-any]])."},
+        {"t": [6, 7], "es": "de Francia"}
+      ]
+    },
+    {
+      "id": 75,
+      "line": [
+        {"t": [0], "es": "«No,"},
+        {"t": [1, 2, 3, 4], "es": "nunca vi ninguna»."}
+      ],
+      "words": [
+        {"t": [0], "es": "no"},
+        {"t": [1], "es": "yo"},
+        {"t": [2], "es": "nunca", "base": "never", "sense": "time"},
+        {"t": [3], "es": "vi", "base": "see", "sense": "sight"},
+        {"t": [4], "es": "ninguna", "note": "Aquí *any* sustituye a *any letters*. Con *never*, tiene sentido negativo: «ninguna» ([[some-any]])."}
+      ]
+    },
+    {
+      "id": 76,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«¿Me entiende,"},
+        {"t": [4, 5], "es": "doctor Huxtable?»,"}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "entiende", "base": "understand", "sense": "comprehend", "note": "*Do* forma la pregunta y no se traduce por «hacer» ([[auxiliary-do]])."},
+        {"t": [1], "es": "usted"},
+        {"t": [3], "es": "me, a mí"},
+        {"t": [4], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [5], "es": "Huxtable"}
+      ]
+    },
+    {
+      "id": 77,
+      "line": [{"t": [0, 1], "es": "dijo Holmes."}],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 78,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«¿Se llevó alguien al niño"},
+        {"t": [6, 7, 8, 9, 10, 11], "es": "o se fue él por su propia voluntad?"}
+      ],
+      "words": [
+        {"t": [0, 2, 5], "es": "se llevó", "base": "take away", "sense": "remove", "note": "*Take away* es llevarse a alguien o algo de un lugar ([[phrasal-verbs]]). *Did* forma la pregunta en pasado ([[auxiliary-do]])."},
+        {"t": [1], "es": "alguien"},
+        {"t": [3, 4], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [6], "es": "o"},
+        {"t": [7, 10], "es": "se fue", "base": "go", "sense": "leave", "note": "*Did* forma la pregunta en pasado; *go* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [8, 9], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [11], "es": "voluntariamente", "base": "freely", "sense": "willingly"}
+      ]
+    },
+    {
+      "id": 79,
+      "line": [{"t": [1, 2, 3, 4, 5, 6, 7, 8], "es": "Porque quizá había recibido una carta de Francia»."}],
+      "words": [
+        {"t": [1], "es": "porque"},
+        {"t": [2], "es": "él"},
+        {"t": [3], "es": "tenía", "base": "have", "sense": "possess", "note": "Aquí «había recibido» suena más natural en español. *Had* por sí solo es el pasado de *have*: «tenía»."},
+        {"t": [4, 5], "es": "una carta", "base": "letter", "sense": "message"},
+        {"t": [6, 7], "es": "de Francia"},
+        {"t": [8], "es": "quizá", "base": "perhaps", "sense": "possibility"}
+      ]
+    },
+    {
+      "id": 80,
+      "line": [
+        {"t": [0, 1, 2], "es": "«No lo sé»,"},
+        {"t": [3, 4, 5], "es": "dijo el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no sé", "base": "know", "sense": "information", "note": "*Don’t* es *do not* ([[contractions]]). *Do* ayuda a negar y no significa «hacer» aquí ([[auxiliary-do]])."},
+        {"t": [3], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [4], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [5], "es": "Huxtable"}
+      ]
+    },
+    {
+      "id": 81,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Solo tenía cartas"},
+        {"t": [4, 5, 6], "es": "de su padre,"},
+        {"t": [7, 8], "es": "creo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "solo", "base": "only", "sense": "just"},
+        {"t": [2], "es": "tenía", "base": "have", "sense": "possess"},
+        {"t": [3], "es": "cartas", "base": "letter", "sense": "message"},
+        {"t": [4, 5, 6], "es": "de su padre", "base": "father", "sense": "parent"},
+        {"t": [7], "es": "yo"},
+        {"t": [8], "es": "creo", "base": "think", "sense": "believe"}
+      ]
+    },
+    {
+      "id": 82,
+      "line": [{"t": [0, 1, 2, 3, 4, 5], "es": "«¿Se llevaban muy bien el padre y el hijo?»."}],
+      "words": [
+        {"t": [0], "es": "eran", "base": "be", "sense": "identity"},
+        {"t": [1], "es": "padre", "base": "father", "sense": "parent"},
+        {"t": [2], "es": "y"},
+        {"t": [3], "es": "hijo", "base": "son", "sense": "family"},
+        {"t": [4], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [5], "es": "cercanos", "base": "friendly", "sense": "close", "note": "Al hablar de una relación, *be friendly* puede indicar que dos personas se llevan bien."}
+      ]
+    },
+    {
+      "id": 83,
+      "line": [{"t": [0, 1, 2, 3, 4], "es": "«El duque no es..."}],
+      "words": [
+        {"t": [0, 1], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [2, 3], "es": "no es", "base": "be", "sense": "identity"}
+      ]
+    },
+    {
+      "id": 84,
+      "line": [{"t": [0, 1], "es": "eh..."}],
+      "words": [{"t": [0], "es": "eh", "base": "er", "sense": "hesitation", "note": "*Er* representa el sonido que haces mientras piensas qué decir."}]
+    },
+    {
+      "id": 85,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "no es un hombre muy amable,"},
+        {"t": [5, 6], "es": "señor Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "no", "base": "not", "sense": "negative"},
+        {"t": [1, 4], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [2], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [3], "es": "amable", "base": "friendly", "sense": "kind"},
+        {"t": [5], "es": "señor", "note": "*Mr* se pone delante del apellido. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [6], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 86,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "No es un mal padre,"},
+        {"t": [5, 6, 7, 8, 9, 10], "es": "pero es ministro del Gobierno"},
+        {"t": [11, 12, 13, 14, 15, 16, 17, 18], "es": "y tiene muchas cosas que hacer»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "no es", "base": "be", "sense": "identity", "note": "*He’s* es aquí *he is* ([[contractions]]). En otras frases, puede ser *he has*."},
+        {"t": [2, 4], "es": "un padre", "base": "father", "sense": "parent"},
+        {"t": [3], "es": "mal", "base": "bad", "sense": "quality"},
+        {"t": [5], "es": "pero"},
+        {"t": [6], "es": "él"},
+        {"t": [7], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [8, 10], "es": "un ministro", "base": "minister", "sense": "government"},
+        {"t": [9], "es": "del Gobierno", "base": "government", "sense": "authority", "note": "Un sustantivo puede describir a otro: *government* dice qué tipo de ministro es ([[noun-as-adjective]])."},
+        {"t": [11], "es": "y"},
+        {"t": [12], "es": "tiene", "base": "have", "sense": "possess"},
+        {"t": [13, 14, 15], "es": "muchas", "base": "a lot", "sense": "quantity"},
+        {"t": [16], "es": "cosas", "base": "thing", "sense": "object"},
+        {"t": [17, 18], "es": "que hacer", "base": "do", "sense": "perform"}
+      ]
+    },
+    {
+      "id": 87,
+      "line": [
+        {"t": [0], "es": "«¿Entonces"},
+        {"t": [1, 2, 3], "es": "el niño se sentía"},
+        {"t": [4, 5, 6, 7, 8], "es": "más cercano a su madre?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1, 2], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [3], "es": "se sentía", "base": "feel", "sense": "state"},
+        {"t": [4], "es": "más", "base": "more", "sense": "degree", "note": "*Friendly* admite dos comparativos: *friendlier* y *more friendly* ([[comparatives]])."},
+        {"t": [5, 6], "es": "cercano a", "base": "friendly", "sense": "close"},
+        {"t": [7, 8], "es": "su madre", "base": "mother", "sense": "parent"}
+      ]
+    },
+    {
+      "id": 88,
+      "line": [{"t": [0], "es": "«Sí»."}],
+      "words": [{"t": [0], "es": "sí", "base": "yes", "sense": "agreement"}]
+    },
+    {
+      "id": 89,
+      "line": [{"t": [0, 1, 2, 3], "es": "«¿Lo dijo él?»."}],
+      "words": [
+        {"t": [0, 2], "es": "dijo", "base": "say", "sense": "speak", "note": "*Did* forma la pregunta en pasado; *say* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [1], "es": "él"},
+        {"t": [3], "es": "eso"}
+      ]
+    },
+    {
+      "id": 90,
+      "line": [{"t": [0], "es": "«No»."}],
+      "words": [{"t": [0], "es": "no"}]
+    },
+    {
+      "id": 91,
+      "line": [{"t": [0, 1, 2, 3, 4, 5], "es": "«¿Se lo dijo el duque, entonces?»."}],
+      "words": [
+        {"t": [0, 3], "es": "dijo", "base": "tell", "sense": "inform", "note": "*Did* forma la pregunta en pasado ([[auxiliary-do]]). *Tell* lleva la persona a quien se dice algo: *tell you*."},
+        {"t": [1, 2], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [4], "es": "le, a usted"},
+        {"t": [5], "es": "entonces", "base": "then", "sense": "inference", "note": "*Then* enlaza con lo dicho para sacar una conclusión; no indica cuándo ocurre algo."}
+      ]
+    },
+    {
+      "id": 92,
+      "line": [{"t": [0, 1], "es": "«¡Oh, no!"}],
+      "words": [
+        {"t": [0], "es": "oh", "base": "oh", "sense": "surprise"},
+        {"t": [1], "es": "no"}
+      ]
+    },
+    {
+      "id": 93,
+      "line": [
+        {"t": [0, 1], "es": "El duque"},
+        {"t": [2, 3, 4], "es": "nunca habla de"},
+        {"t": [5, 6, 7], "es": "cosas así»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [2], "es": "nunca", "base": "never", "sense": "time"},
+        {"t": [3, 4], "es": "habla de", "base": "talk", "sense": "speak", "note": "*Talk about* lleva detrás el tema; *talk to*, la persona con quien hablas."},
+        {"t": [5], "es": "cosas", "base": "thing", "sense": "object"},
+        {"t": [6], "es": "como", "base": "like", "sense": "similar"},
+        {"t": [7], "es": "eso"}
+      ]
+    },
+    {
+      "id": 94,
+      "line": [{"t": [0, 1, 2, 3, 4], "es": "«¿Entonces cómo lo sabe?»."}],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1], "es": "cómo", "base": "how", "sense": "manner"},
+        {"t": [2, 4], "es": "sabe", "base": "know", "sense": "information", "note": "*Do* forma la pregunta. No significa «hacer» aquí ([[auxiliary-do]])."},
+        {"t": [3], "es": "usted"}
+      ]
+    },
+    {
+      "id": 95,
+      "line": [
+        {"t": [0, 1, 2], "es": "«El señor James Wilder,"},
+        {"t": [3, 4, 5], "es": "el secretario del duque,"},
+        {"t": [6, 7], "es": "me lo dijo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "señor", "note": "*Mr* va delante del apellido o del nombre completo. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [1, 2], "es": "James Wilder"},
+        {"t": [3, 4], "es": "del duque", "base": "duke", "sense": "noble", "note": "El *’s* indica de quién es algo: *the Duke’s secretary* = «el secretario del duque» ([[possessive-s]])."},
+        {"t": [5], "es": "secretario", "base": "secretary", "sense": "assistant"},
+        {"t": [6], "es": "dijo", "base": "tell", "sense": "inform"},
+        {"t": [7], "es": "me, a mí"}
+      ]
+    },
+    {
+      "id": 96,
+      "line": [
+        {"t": [0, 1], "es": "«Entiendo»,"},
+        {"t": [2, 3], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "entiendo", "base": "see", "sense": "understand", "note": "*I see* suele ser una respuesta breve: «entiendo», «ya veo». No habla de mirar con los ojos."},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 97,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Esa última carta del duque,"},
+        {"t": [7, 8, 9, 10], "es": "¿dónde está ahora?»."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "esa carta", "base": "letter", "sense": "message"},
+        {"t": [1], "es": "última", "base": "last", "sense": "latest"},
+        {"t": [3, 4, 5], "es": "del duque", "base": "duke", "sense": "noble", "note": "Tras *of*, el inglés puede mantener el posesivo: *a letter of the Duke’s* = «una carta del duque» ([[possessive-s]])."},
+        {"t": [7], "es": "dónde"},
+        {"t": [8], "es": "está", "base": "be", "sense": "state"},
+        {"t": [9], "es": "ella, la carta"},
+        {"t": [10], "es": "ahora", "base": "now", "sense": "present"}
+      ]
+    },
+    {
+      "id": 98,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«El niño se la llevó»,"},
+        {"t": [6, 7, 8], "es": "dijo el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [2], "es": "llevó", "base": "take", "sense": "carry", "note": "*Take something with you* es llevarte algo: aquí, *with him* dice que lo llevó consigo."},
+        {"t": [3], "es": "la, la carta"},
+        {"t": [4, 5], "es": "consigo"},
+        {"t": [6], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [7], "es": "Huxtable"},
+        {"t": [8], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 99,
+      "line": [
+        {"t": [0, 1], "es": "«No está"},
+        {"t": [2, 3, 4], "es": "en su habitación."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "no está", "base": "be", "sense": "state", "note": "*It’s* es *it is* ([[contractions]]). Aquí *it* sustituye a *the letter*: «la carta»."},
+        {"t": [2, 3, 4], "es": "en su habitación", "base": "room", "sense": "building"}
+      ]
+    },
+    {
+      "id": 100,
+      "line": [
+        {"t": [0, 1], "es": "Señor Holmes,"},
+        {"t": [3, 4, 5], "es": "nuestro tren sale"},
+        {"t": [6, 7, 8, 9], "es": "dentro de media hora»."}
+      ],
+      "words": [
+        {"t": [0], "es": "señor", "note": "*Mr* se pone delante del apellido. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [1], "es": "Holmes"},
+        {"t": [3, 4], "es": "nuestro tren", "base": "train", "sense": "transport"},
+        {"t": [5], "es": "sale", "base": "leave", "sense": "depart"},
+        {"t": [6, 8, 9], "es": "dentro de una hora", "base": "hour", "sense": "time", "note": "*In* con una cantidad de tiempo indica cuándo ocurrirá algo: *in an hour* = «dentro de una hora»."},
+        {"t": [7], "es": "media", "base": "half", "sense": "amount"}
+      ]
+    },
+    {
+      "id": 101,
+      "line": [
+        {"t": [0], "es": "«Bien»,"},
+        {"t": [1, 2], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "bien, de acuerdo", "base": "right", "sense": "agreement", "note": "*Right* se usa al aceptar una propuesta o decidir empezar a hacer algo. No habla de la derecha."},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 102,
+      "line": [{"t": [0, 1, 2, 3], "es": "Me miró."}],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "miró", "base": "look at", "sense": "watch", "note": "Para mirar a alguien o algo se usa *look at*. No quites *at*: *look at me*."},
+        {"t": [3], "es": "me, a mí"}
+      ]
+    },
+    {
+      "id": 103,
+      "line": [
+        {"t": [0], "es": "«Watson,"},
+        {"t": [1, 2, 3], "es": "preparémonos"},
+        {"t": [4, 5, 6], "es": "y vámonos"},
+        {"t": [7, 8, 9], "es": "al norte"},
+        {"t": [10, 11, 12], "es": "con el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0], "es": "Watson"},
+        {"t": [1], "es": "vamos a", "base": "let", "sense": "suggest", "note": "*Let’s* es *let us* ([[contractions]]). Sirve para proponer algo que hacen juntos quien habla y quien escucha."},
+        {"t": [2], "es": "ponernos", "base": "get", "sense": "become", "note": "*Get* con un adjetivo indica un cambio de estado: *get ready* = «prepararse» ([[linking-verbs]])."},
+        {"t": [3], "es": "listos, preparados", "base": "ready", "sense": "prepared"},
+        {"t": [4], "es": "y"},
+        {"t": [5, 6], "es": "irnos", "base": "go off", "sense": "leave", "note": "La partícula *off* añade la idea de alejarse ([[phrasal-verbs]])."},
+        {"t": [7, 8, 9], "es": "al norte", "base": "north", "sense": "direction"},
+        {"t": [10, 11], "es": "con el doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [12], "es": "Huxtable"}
+      ]
+    },
+    {
+      "id": 104,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Quizá podamos encontrar"},
+        {"t": [4, 5], "es": "algunas respuestas"},
+        {"t": [6, 7, 8], "es": "a este misterio»."}
+      ],
+      "words": [
+        {"t": [0], "es": "quizá", "base": "perhaps", "sense": "possibility"},
+        {"t": [1], "es": "nosotros"},
+        {"t": [2, 3], "es": "podemos encontrar", "base": "find", "sense": "discover", "note": "*Can* expresa posibilidad y lleva el verbo sin *to*: *can find* ([[modal-verbs]])."},
+        {"t": [4, 5], "es": "algunas respuestas", "base": "answer", "sense": "solution", "note": "*Some* indica una cantidad sin precisar en una frase afirmativa ([[some-any]])."},
+        {"t": [6, 7, 8], "es": "a este misterio", "base": "mystery", "sense": "unknown"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "sentences": [
+    {
+      "id": 0,
+      "line": [
+        {"t": [0, 1], "es": "Capítulo dos:"},
+        {"t": [2, 3, 4], "es": "la historia del doctor Huxtable"}
+      ],
+      "words": [
+        {"t": [0], "es": "capítulo", "base": "chapter", "sense": "book"},
+        {"t": [1], "es": "dos"},
+        {"t": [2], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [3], "es": "de Huxtable", "note": "El *’s* indica de quién es algo: *Dr Huxtable’s story* = «la historia del doctor Huxtable» ([[possessive-s]])."},
+        {"t": [4], "es": "historia", "base": "story", "sense": "account"}
+      ]
+    },
+    {
+      "id": 1,
+      "line": [
+        {"t": [0, 1], "es": "«Mi colegio"},
+        {"t": [2, 3, 4, 5, 6, 7, 8], "es": "—el colegio Priory, cerca de Mackleton—"},
+        {"t": [9, 10, 11, 12, 13, 14, 15, 16, 17], "es": "es el mejor colegio de Inglaterra para niños pequeños»,"},
+        {"t": [18, 19, 20], "es": "empezó el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "mi colegio", "base": "school", "sense": "education"},
+        {"t": [3, 4, 5], "es": "el colegio Priory", "base": "school", "sense": "education"},
+        {"t": [6, 7], "es": "cerca de Mackleton"},
+        {"t": [9], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [10, 12], "es": "el colegio", "base": "school", "sense": "education"},
+        {"t": [11], "es": "mejor", "base": "good", "sense": "quality", "note": "*The best* es el superlativo irregular de *good*: «el mejor» ([[comparatives]])."},
+        {"t": [13, 15], "es": "para niños", "base": "boy", "sense": "child"},
+        {"t": [14], "es": "pequeños, de poca edad", "base": "young", "sense": "age"},
+        {"t": [16, 17], "es": "en Inglaterra"},
+        {"t": [18], "es": "empezó", "base": "begin", "sense": "start"},
+        {"t": [19], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [20], "es": "Huxtable"}
+      ]
+    },
+    {
+      "id": 2,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Tenemos a los hijos"},
+        {"t": [4, 5, 6, 7, 8], "es": "de lord Soames, de lord Lever"},
+        {"t": [9, 10, 11, 12, 13, 14], "es": "y de muchas otras personas importantes."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "tenemos", "base": "have", "sense": "possess"},
+        {"t": [2, 3], "es": "los hijos", "base": "son", "sense": "family"},
+        {"t": [4, 5], "es": "de lord", "base": "lord", "sense": "noble", "note": "*Lord* es un título de la nobleza británica. Se usa delante del nombre."},
+        {"t": [6], "es": "Soames"},
+        {"t": [7], "es": "lord", "base": "lord", "sense": "noble", "note": "*Lord* es un título de la nobleza británica. Se usa delante del nombre."},
+        {"t": [8], "es": "Lever"},
+        {"t": [9], "es": "y"},
+        {"t": [10, 14], "es": "de personas", "base": "person", "sense": "human"},
+        {"t": [11], "es": "muchas", "base": "many", "sense": "number"},
+        {"t": [12], "es": "otras", "base": "other", "sense": "different"},
+        {"t": [13], "es": "importantes", "base": "important", "sense": "value"}
+      ]
+    },
+    {
+      "id": 3,
+      "line": [
+        {"t": [0, 1, 2], "es": "Hace tres semanas"},
+        {"t": [3, 4, 5, 6, 7, 8, 9, 10], "es": "el señor James Wilder, secretario del duque de Holdernesse,"},
+        {"t": [11, 12, 13, 14], "es": "vino a verme."}
+      ],
+      "words": [
+        {"t": [0], "es": "tres"},
+        {"t": [1], "es": "semanas", "base": "week", "sense": "time"},
+        {"t": [2], "es": "hace", "base": "ago", "sense": "before", "note": "*Ago* va detrás de la cantidad de tiempo: *three weeks ago* = «hace tres semanas»."},
+        {"t": [3], "es": "señor", "note": "*Mr* va delante del apellido o del nombre completo. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [4, 5], "es": "James Wilder"},
+        {"t": [6, 7, 8, 9], "es": "del duque de Holdernesse", "base": "duke", "sense": "noble", "note": "El *’s* indica posesión y se añade al final del nombre completo: *the Duke of Holdernesse’s secretary* ([[possessive-s]])."},
+        {"t": [10], "es": "secretario", "base": "secretary", "sense": "assistant"},
+        {"t": [11], "es": "vino", "base": "come", "sense": "move"},
+        {"t": [12, 13], "es": "a ver", "base": "see", "sense": "visit"},
+        {"t": [14], "es": "me, a mí"}
+      ]
+    },
+    {
+      "id": 4,
+      "line": [
+        {"t": [0, 1], "es": "El duque,"},
+        {"t": [2, 3], "es": "según me dijo,"},
+        {"t": [4, 5, 6, 7, 8], "es": "quería enviar a su hijo,"},
+        {"t": [9, 10, 11, 12], "es": "lord Saltire, de diez años,"},
+        {"t": [13, 14, 15], "es": "a mi colegio."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [2], "es": "él"},
+        {"t": [3], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [4], "es": "quería", "base": "want", "sense": "desire"},
+        {"t": [5, 6], "es": "enviar", "base": "send", "sense": "dispatch"},
+        {"t": [7, 8], "es": "su hijo", "base": "son", "sense": "family"},
+        {"t": [9, 11], "es": "el lord", "base": "lord", "sense": "noble", "note": "*Lord* es un título de la nobleza británica. Se usa delante del nombre."},
+        {"t": [10], "es": "de diez años", "base": "old", "sense": "years", "note": "Delante de un nombre, la edad lleva guiones y *year* va en singular: *ten-year-old* ([[noun-as-adjective]])."},
+        {"t": [12], "es": "Saltire"},
+        {"t": [13, 14, 15], "es": "a mi colegio", "base": "school", "sense": "education"}
+      ]
+    },
+    {
+      "id": 5,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«El uno de mayo"},
+        {"t": [5, 6, 7, 8], "es": "llegó el joven lord Saltire."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "el día uno", "note": "En las fechas inglesas se usan números ordinales: *1st* se lee *first* ([[ordinal-dates]])."},
+        {"t": [3, 4], "es": "de mayo", "note": "En inglés, los meses se escriben con mayúscula: *May*."},
+        {"t": [5], "es": "joven", "base": "young", "sense": "age"},
+        {"t": [6], "es": "lord", "base": "lord", "sense": "noble", "note": "*Lord* es un título de la nobleza británica. Se usa delante del nombre."},
+        {"t": [7], "es": "Saltire"},
+        {"t": [8], "es": "llegó", "base": "arrive", "sense": "reach"}
+      ]
+    },
+    {
+      "id": 6,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Es un niño simpático,"},
+        {"t": [4, 5, 6, 7], "es": "y pronto empezó"},
+        {"t": [8, 9, 10, 11], "es": "a disfrutar de la vida en el colegio"},
+        {"t": [12, 13, 14, 15], "es": "y a hacer amigos."}
+      ],
+      "words": [
+        {"t": [0], "es": "es", "base": "be", "sense": "identity", "note": "*He’s* es aquí *he is* ([[contractions]]). En otras frases, puede ser *he has*."},
+        {"t": [1, 3], "es": "un niño", "base": "boy", "sense": "child"},
+        {"t": [2], "es": "simpático", "base": "nice", "sense": "kind"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "él"},
+        {"t": [6], "es": "pronto", "base": "soon", "sense": "time"},
+        {"t": [7], "es": "empezó", "base": "begin", "sense": "start"},
+        {"t": [8, 9], "es": "gustar", "base": "like", "sense": "enjoy", "note": "Aquí la frase dice «disfrutar de», pero *like* solo expresa que algo te gusta."},
+        {"t": [10], "es": "del colegio", "base": "school", "sense": "education", "note": "*School* describe el tipo de vida: el sustantivo principal va al final, *life* ([[noun-as-adjective]])."},
+        {"t": [11], "es": "vida", "base": "life", "sense": "existence"},
+        {"t": [12], "es": "y"},
+        {"t": [13, 14, 15], "es": "a hacer amigos", "base": "make friends", "sense": "friendship", "note": "La expresión es *make friends*, no *do friends*."}
+      ]
+    },
+    {
+      "id": 7,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Su vida en casa,"},
+        {"t": [4, 5], "es": "ya ve usted,"},
+        {"t": [6, 7, 8, 9], "es": "no era muy feliz:"},
+        {"t": [11, 12, 13, 14, 15, 16], "es": "todos sabemos lo del duque"},
+        {"t": [17, 18, 19], "es": "y su esposa."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "su vida", "base": "life", "sense": "existence"},
+        {"t": [2, 3], "es": "en casa", "base": "home", "sense": "dwelling"},
+        {"t": [4, 5], "es": "ya ve usted", "base": "you see", "sense": "explanation", "note": "*You see* introduce una explicación; no pide que mires nada."},
+        {"t": [6, 7], "es": "no era", "base": "be", "sense": "identity"},
+        {"t": [8], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [9], "es": "feliz", "base": "happy", "sense": "feeling"},
+        {"t": [11], "es": "nosotros"},
+        {"t": [12], "es": "todos"},
+        {"t": [13, 14], "es": "sabemos de", "base": "know", "sense": "information", "note": "*Know about* es tener información sobre algo, no conocer personalmente a alguien."},
+        {"t": [15, 16], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [17], "es": "y"},
+        {"t": [18, 19], "es": "su esposa", "base": "wife", "sense": "spouse"}
+      ]
+    },
+    {
+      "id": 8,
+      "line": [
+        {"t": [0, 1], "es": "La duquesa,"},
+        {"t": [2, 3], "es": "por supuesto,"},
+        {"t": [4, 5], "es": "vive ahora"},
+        {"t": [6, 7, 8, 9, 10], "es": "en el sur de Francia."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "la duquesa", "base": "duchess", "sense": "title"},
+        {"t": [2, 3], "es": "por supuesto", "base": "of course", "sense": "obvious", "note": "Es una expresión fija: no habla de un «curso»."},
+        {"t": [4], "es": "ahora", "base": "now", "sense": "present"},
+        {"t": [5], "es": "vive", "base": "live", "sense": "reside"},
+        {"t": [6, 7, 8], "es": "en el sur", "base": "south", "sense": "direction"},
+        {"t": [9, 10], "es": "de Francia"}
+      ]
+    },
+    {
+      "id": 9,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Dejó al duque"},
+        {"t": [4, 5, 6, 7], "es": "hace unos tres meses,"},
+        {"t": [8, 9], "es": "creo."}
+      ],
+      "words": [
+        {"t": [0], "es": "ella"},
+        {"t": [1], "es": "dejó, abandonó", "base": "leave", "sense": "abandon"},
+        {"t": [2, 3], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [4], "es": "aproximadamente", "base": "about", "sense": "approximately", "note": "Delante de una cantidad, *about* significa «aproximadamente»: no es «sobre» un tema."},
+        {"t": [5], "es": "tres"},
+        {"t": [6], "es": "meses", "base": "month", "sense": "time"},
+        {"t": [7], "es": "hace", "base": "ago", "sense": "before", "note": "*Ago* va detrás de la cantidad de tiempo: *three months ago* = «hace tres meses»."},
+        {"t": [8], "es": "yo"},
+        {"t": [9], "es": "creo", "base": "think", "sense": "believe"}
+      ]
+    },
+    {
+      "id": 10,
+      "line": [
+        {"t": [0, 1, 2], "es": "Pero el niño"},
+        {"t": [3, 4, 5], "es": "quería a su madre"},
+        {"t": [6, 7, 8, 9], "es": "y estaba muy triste"},
+        {"t": [10, 11, 12], "es": "cuando ella se fue."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1, 2], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [3], "es": "quería", "base": "love", "sense": "affection"},
+        {"t": [4, 5], "es": "su madre", "base": "mother", "sense": "parent"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [8], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [9], "es": "triste", "base": "unhappy", "sense": "sad"},
+        {"t": [10], "es": "cuando"},
+        {"t": [11], "es": "ella"},
+        {"t": [12], "es": "se fue", "base": "leave", "sense": "depart"}
+      ]
+    },
+    {
+      "id": 11,
+      "line": [
+        {"t": [0, 1, 2], "es": "Por eso,"},
+        {"t": [3, 4], "es": "el duque"},
+        {"t": [5, 6, 7, 8, 9], "es": "lo envió a mi colegio."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "por, a causa de", "base": "because of", "sense": "cause"},
+        {"t": [2], "es": "esto"},
+        {"t": [3, 4], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [5], "es": "envió", "base": "send", "sense": "dispatch"},
+        {"t": [6], "es": "lo, a él"},
+        {"t": [7, 8, 9], "es": "a mi colegio", "base": "school", "sense": "education"}
+      ]
+    },
+    {
+      "id": 12,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Y después de dos semanas"},
+        {"t": [4, 5], "es": "con nosotros,"},
+        {"t": [6, 7, 8, 9], "es": "estaba mucho más contento."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1, 3], "es": "después de semanas", "base": "week", "sense": "time"},
+        {"t": [2], "es": "dos"},
+        {"t": [4, 5], "es": "con nosotros"},
+        {"t": [6], "es": "él"},
+        {"t": [7], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [8], "es": "mucho", "base": "much", "sense": "degree", "note": "Para reforzar un comparativo se usa *much*, no *very*: *much happier* = «mucho más contento» ([[comparatives]])."},
+        {"t": [9], "es": "más contento", "base": "happy", "sense": "feeling", "note": "El final *-er* forma el comparativo. La *y* de *happy* cambia a *i*: *happier* ([[comparatives]])."}
+      ]
+    },
+    {
+      "id": 13,
+      "line": [
+        {"t": [0], "es": "«Entonces,"},
+        {"t": [1, 2, 3, 4, 5, 6, 7, 8], "es": "la noche del trece de mayo,"},
+        {"t": [9, 10], "es": "desapareció."}
+      ],
+      "words": [
+        {"t": [0], "es": "entonces", "base": "then", "sense": "next"},
+        {"t": [1, 2, 3], "es": "en la noche", "base": "night", "sense": "time"},
+        {"t": [4, 5, 6], "es": "del día trece", "note": "En las fechas inglesas se usan números ordinales: *13th* se lee *thirteenth* ([[ordinal-dates]])."},
+        {"t": [7, 8], "es": "de mayo", "note": "En inglés, los meses se escriben con mayúscula: *May*."},
+        {"t": [9], "es": "él"},
+        {"t": [10], "es": "desapareció", "base": "disappear", "sense": "vanish"}
+      ]
+    },
+    {
+      "id": 14,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Para llegar a su dormitorio"},
+        {"t": [5, 6, 7, 8, 9], "es": "hay que pasar por otra habitación más grande."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el camino, el acceso", "base": "way", "sense": "path"},
+        {"t": [2, 3, 4], "es": "a su dormitorio", "base": "bedroom", "sense": "room"},
+        {"t": [5], "es": "es", "base": "be", "sense": "identity", "note": "Aquí, *the way is through* indica por dónde se pasa: «para llegar hay que pasar por»."},
+        {"t": [6, 7, 9], "es": "por otra habitación", "base": "room", "sense": "building", "note": "*Through* indica que atraviesas el interior de algo: entras por un lado y sales por otro."},
+        {"t": [8], "es": "más grande", "base": "large", "sense": "size", "note": "El final *-er* forma el comparativo: *larger* = «más grande» ([[comparatives]])."}
+      ]
+    },
+    {
+      "id": 15,
+      "line": [
+        {"t": [0, 1, 2], "es": "Dos chicos mayores"},
+        {"t": [3, 4], "es": "duermen allí."}
+      ],
+      "words": [
+        {"t": [0], "es": "dos"},
+        {"t": [1], "es": "mayores", "base": "old", "sense": "age", "note": "*Older* compara edades: «mayores», no «viejos». El final *-er* forma el comparativo ([[comparatives]])."},
+        {"t": [2], "es": "niños", "base": "boy", "sense": "child"},
+        {"t": [3], "es": "duermen", "base": "sleep", "sense": "rest"},
+        {"t": [4], "es": "allí", "base": "there", "sense": "place"}
+      ]
+    },
+    {
+      "id": 16,
+      "line": [
+        {"t": [0, 1, 2], "es": "Uno de ellos"},
+        {"t": [3, 4, 5, 6], "es": "nunca duerme muy bien,"},
+        {"t": [7, 8, 9, 10, 11, 12], "es": "y no oyó ni vio nada"},
+        {"t": [13, 14], "es": "aquella noche."}
+      ],
+      "words": [
+        {"t": [0], "es": "uno"},
+        {"t": [1, 2], "es": "de ellos"},
+        {"t": [3], "es": "nunca", "base": "never", "sense": "time", "note": "*Never* ya hace negativa la frase: no se añade *not*, aunque en español puedas decir «no… nunca» ([[negative-words]])."},
+        {"t": [4], "es": "duerme", "base": "sleep", "sense": "rest"},
+        {"t": [5], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [6], "es": "bien", "base": "well", "sense": "manner"},
+        {"t": [7], "es": "y"},
+        {"t": [8], "es": "él"},
+        {"t": [9], "es": "oyó", "base": "hear", "sense": "sound"},
+        {"t": [10], "es": "y"},
+        {"t": [11], "es": "vio", "base": "see", "sense": "sight"},
+        {"t": [12], "es": "nada", "note": "*Nothing* ya niega la frase: el inglés no añade *not*. Por eso *heard nothing* es «no oyó nada» ([[negative-words]])."},
+        {"t": [13, 14], "es": "aquella noche", "base": "night", "sense": "time"}
+      ]
+    },
+    {
+      "id": 17,
+      "line": [
+        {"t": [0], "es": "Así que"},
+        {"t": [1, 2], "es": "el joven Arthur"},
+        {"t": [3, 4, 5, 6], "es": "no salió"},
+        {"t": [7, 8, 9], "es": "por esa habitación."}
+      ],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1], "es": "joven", "base": "young", "sense": "age"},
+        {"t": [2], "es": "Arthur"},
+        {"t": [3, 4, 5, 6], "es": "no salió", "base": "go out", "sense": "leave", "note": "*Did not* forma la negación en pasado. *Go* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [7, 8, 9], "es": "por esa habitación", "base": "room", "sense": "building", "note": "*Through* indica que se atraviesa un lugar por dentro, no que se pasa cerca."}
+      ]
+    },
+    {
+      "id": 18,
+      "line": [
+        {"t": [0, 1], "es": "Su ventana"},
+        {"t": [2, 3], "es": "estaba abierta,"},
+        {"t": [4, 5, 6, 7], "es": "y hay hiedra"},
+        {"t": [8, 9, 10, 11, 12, 13, 14], "es": "por toda la pared de la casa, hasta arriba."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "su ventana", "base": "window", "sense": "opening"},
+        {"t": [2], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [3], "es": "abierta", "base": "open", "sense": "unclosed"},
+        {"t": [4], "es": "y"},
+        {"t": [5, 6], "es": "hay", "base": "be", "sense": "exist", "note": "*There is* presenta algo que hay. Aquí *there* no significa «allí» ([[dummy-subject]])."},
+        {"t": [7], "es": "hiedra", "base": "ivy", "sense": "plant"},
+        {"t": [8], "es": "por completo", "base": "all", "sense": "extent"},
+        {"t": [9, 10, 11], "es": "por la pared, hacia arriba", "base": "wall", "sense": "building", "note": "*Up* indica dirección hacia arriba: la hiedra sube por la pared. *All up* añade que llega hasta arriba."},
+        {"t": [12, 13, 14], "es": "de la casa", "base": "house", "sense": "building"}
+      ]
+    },
+    {
+      "id": 19,
+      "line": [
+        {"t": [0, 1, 2], "es": "Es fácil"},
+        {"t": [3, 4, 5, 6, 7, 8], "es": "salir por la ventana"},
+        {"t": [9, 10, 11, 12], "es": "y bajar por la hiedra"},
+        {"t": [13, 14, 15], "es": "hasta el suelo."}
+      ],
+      "words": [
+        {"t": [0], "es": "(no se traduce)", "note": "El inglés necesita un sujeto: *it* no se refiere a ninguna cosa. La idea viene después: salir y bajar ([[dummy-subject]])."},
+        {"t": [1], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [2], "es": "fácil", "base": "easy", "sense": "simple"},
+        {"t": [3, 4, 5, 6], "es": "salir de", "base": "get out of", "sense": "leave", "note": "*Get out of* expresa salir de un lugar. Aquí, en español decimos «salir por la ventana» ([[phrasal-verbs]])."},
+        {"t": [7, 8], "es": "la ventana", "base": "window", "sense": "opening"},
+        {"t": [9], "es": "y"},
+        {"t": [10, 11, 12], "es": "por la hiedra, hacia abajo", "base": "ivy", "sense": "plant", "note": "Se sobreentiende el movimiento de *get*: *down the ivy* indica bajar por la hiedra."},
+        {"t": [13, 14, 15], "es": "hasta el suelo", "base": "ground", "sense": "surface"}
+      ]
+    },
+    {
+      "id": 20,
+      "line": [
+        {"t": [0, 1, 2], "es": "Así que creemos"},
+        {"t": [3, 4, 5, 6, 7, 8], "es": "que salió por ahí."}
+      ],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1], "es": "nosotros"},
+        {"t": [2], "es": "creemos", "base": "think", "sense": "believe"},
+        {"t": [3], "es": "que"},
+        {"t": [4], "es": "él"},
+        {"t": [5, 6], "es": "salió", "base": "go out", "sense": "leave", "note": "*Out* añade la idea de salir al exterior: no es solo ir a otro sitio ([[phrasal-verbs]])."},
+        {"t": [7, 8], "es": "por ese camino", "base": "way", "sense": "path"}
+      ]
+    },
+    {
+      "id": 21,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«Llevaba su ropa habitual del colegio,"},
+        {"t": [7, 8], "es": "creemos:"},
+        {"t": [10, 11, 12, 13], "es": "una chaqueta negra corta"},
+        {"t": [14, 15, 16, 17], "es": "y unos pantalones azul oscuro."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "llevaba", "base": "be", "sense": "state", "note": "*Be in* seguido de ropa indica qué lleva alguien puesto: *in his coat* = «con su chaqueta»."},
+        {"t": [3, 6], "es": "sus prendas", "base": "thing", "sense": "belongings", "note": "*Things* puede referirse a prendas de ropa, no solo a objetos."},
+        {"t": [4], "es": "habituales", "base": "usual", "sense": "normal"},
+        {"t": [5], "es": "del colegio", "base": "school", "sense": "education", "note": "*School* describe para qué es la ropa. Un sustantivo delante de otro puede hacer de adjetivo ([[noun-as-adjective]])."},
+        {"t": [7], "es": "nosotros"},
+        {"t": [8], "es": "creemos", "base": "think", "sense": "believe"},
+        {"t": [10, 13], "es": "una chaqueta", "base": "coat", "sense": "clothing"},
+        {"t": [11], "es": "corta", "base": "short", "sense": "length"},
+        {"t": [12], "es": "negra", "base": "black", "sense": "colour"},
+        {"t": [14], "es": "y"},
+        {"t": [15], "es": "oscuro", "base": "dark", "sense": "colour"},
+        {"t": [16], "es": "azul", "base": "blue", "sense": "colour"},
+        {"t": [17], "es": "pantalones", "base": "trousers", "sense": "clothing", "note": "Palabra británica; en EE. UU., *pants* ([[british-american]]). *Trousers* lleva verbo en plural: *the trousers are…* ([[plural-agreement]])."}
+      ]
+    },
+    {
+      "id": 22,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Revisamos toda su habitación"},
+        {"t": [6, 7], "es": "con mucha atención,"},
+        {"t": [8, 9, 10], "es": "pero no encontramos"},
+        {"t": [11, 12], "es": "nada extraño,"},
+        {"t": [13, 14], "es": "nada fuera de lo normal."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "miramos", "base": "look", "sense": "see", "note": "Aquí, «revisamos» suena más natural en español: *all through* indica que miraron por toda la habitación."},
+        {"t": [2], "es": "por completo", "base": "all", "sense": "extent"},
+        {"t": [3, 4, 5], "es": "por su habitación", "base": "room", "sense": "building"},
+        {"t": [6], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [7], "es": "con atención", "base": "carefully", "sense": "attention"},
+        {"t": [8], "es": "pero"},
+        {"t": [9], "es": "nosotros"},
+        {"t": [10], "es": "encontramos", "base": "find", "sense": "discover"},
+        {"t": [11], "es": "nada", "note": "*Nothing* ya niega la frase: el inglés no añade *not*. Por eso *found nothing* es «no encontramos nada» ([[negative-words]])."},
+        {"t": [12], "es": "extraño", "base": "strange", "sense": "unusual"},
+        {"t": [13], "es": "nada"},
+        {"t": [14], "es": "inusual, poco común", "base": "unusual", "sense": "uncommon"}
+      ]
+    },
+    {
+      "id": 23,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Cuando me enteré de la noticia"},
+        {"t": [5, 6, 7, 8, 9, 10], "es": "a las siete de la mañana del martes,"},
+        {"t": [11, 12, 13], "es": "llamé a todo el mundo"},
+        {"t": [14, 15, 16, 17], "es": "para que fuera al aula grande."}
+      ],
+      "words": [
+        {"t": [0], "es": "cuando"},
+        {"t": [1], "es": "yo"},
+        {"t": [2], "es": "me enteré de", "base": "learn", "sense": "discover", "note": "En británico es habitual *learnt*; en EE. UU. se prefiere *learned*. Aquí no es estudiar, sino recibir información ([[british-american]])."},
+        {"t": [3, 4], "es": "las noticias", "base": "news", "sense": "information", "note": "Aunque acaba en *-s*, *news* no es plural: es un sustantivo incontable ([[uncountable]])."},
+        {"t": [5, 6], "es": "a las siete"},
+        {"t": [7], "es": "en punto", "base": "o'clock", "sense": "time"},
+        {"t": [8, 9], "es": "el martes", "note": "Con los días se usa *on*: *on Tuesday*. Los días de la semana llevan mayúscula en inglés."},
+        {"t": [10], "es": "mañana", "base": "morning", "sense": "time"},
+        {"t": [11], "es": "yo"},
+        {"t": [12], "es": "llamé", "base": "call", "sense": "call", "note": "Aquí es llamar a alguien para que venga, no hacer una llamada de teléfono."},
+        {"t": [13], "es": "todo el mundo"},
+        {"t": [14, 15, 17], "es": "al aula", "base": "schoolroom", "sense": "classroom", "note": "*Into* indica movimiento hacia dentro; *in* indica dónde está algo."},
+        {"t": [16], "es": "grande", "base": "big", "sense": "size"}
+      ]
+    },
+    {
+      "id": 24,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Entonces nos enteramos de más malas noticias:"},
+        {"t": [7, 8, 9, 10], "es": "Heidegger, el profesor de alemán,"},
+        {"t": [11, 12, 13], "es": "también había desaparecido."}
+      ],
+      "words": [
+        {"t": [0], "es": "entonces", "base": "then", "sense": "next"},
+        {"t": [1], "es": "nosotros"},
+        {"t": [2], "es": "nos enteramos de", "base": "learn", "sense": "discover", "note": "En británico es habitual *learnt*; en EE. UU. se prefiere *learned*. Aquí no es estudiar, sino recibir información ([[british-american]])."},
+        {"t": [3], "es": "más", "base": "more", "sense": "quantity"},
+        {"t": [4], "es": "malas", "base": "bad", "sense": "quality"},
+        {"t": [5], "es": "noticias", "base": "news", "sense": "information", "note": "Aunque acaba en *-s*, *news* no es plural: es un sustantivo incontable ([[uncountable]])."},
+        {"t": [7], "es": "Heidegger"},
+        {"t": [8, 10], "es": "el profesor", "base": "teacher", "sense": "person"},
+        {"t": [9], "es": "de alemán", "base": "German", "sense": "language", "note": "En *German teacher*, *German* indica la materia ([[noun-as-adjective]]). Los idiomas llevan mayúscula."},
+        {"t": [11], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [12], "es": "desaparecido", "base": "missing", "sense": "lost", "note": "Con *be*, *missing* describe un estado: es un adjetivo, no una acción en curso ([[linking-verbs]])."},
+        {"t": [13], "es": "también", "base": "too", "sense": "also"}
+      ]
+    },
+    {
+      "id": 25,
+      "line": [
+        {"t": [0, 1], "es": "Su habitación"},
+        {"t": [2, 3, 4], "es": "no está lejos"},
+        {"t": [5, 6, 7], "es": "de la de Arthur."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "su habitación", "base": "room", "sense": "building"},
+        {"t": [2, 3], "es": "no está", "base": "be", "sense": "state"},
+        {"t": [4], "es": "lejos", "base": "far", "sense": "distance"},
+        {"t": [5, 7], "es": "de la habitación", "base": "room", "sense": "building"},
+        {"t": [6], "es": "de Arthur", "note": "El *’s* indica de quién es algo: *Arthur’s room* = «la habitación de Arthur» ([[possessive-s]])."}
+      ]
+    },
+    {
+      "id": 26,
+      "line": [
+        {"t": [0, 1, 2], "es": "Heidegger bajó"},
+        {"t": [3, 4], "es": "por la hiedra:"},
+        {"t": [6, 7, 8], "es": "lo sabemos"},
+        {"t": [9, 10, 11, 12, 13], "es": "porque encontramos sus huellas"},
+        {"t": [14, 15, 16], "es": "en el suelo,"},
+        {"t": [17, 18, 19], "es": "debajo de la ventana."}
+      ],
+      "words": [
+        {"t": [0], "es": "Heidegger"},
+        {"t": [1, 2], "es": "bajó", "base": "go down", "sense": "lower", "note": "*Down* añade dirección hacia abajo al movimiento de *go* ([[phrasal-verbs]])."},
+        {"t": [3, 4], "es": "la hiedra", "base": "ivy", "sense": "plant"},
+        {"t": [6], "es": "nosotros"},
+        {"t": [7], "es": "sabemos", "base": "know", "sense": "information"},
+        {"t": [8], "es": "esto"},
+        {"t": [9], "es": "porque"},
+        {"t": [10], "es": "nosotros"},
+        {"t": [11], "es": "encontramos", "base": "find", "sense": "discover"},
+        {"t": [12, 13], "es": "sus huellas", "base": "footprint", "sense": "mark", "note": "Son huellas de pies: *foot* es «pie» y *print*, una marca que algo deja."},
+        {"t": [14, 15, 16], "es": "en el suelo", "base": "ground", "sense": "surface"},
+        {"t": [17, 18, 19], "es": "debajo de la ventana", "base": "window", "sense": "opening"}
+      ]
+    },
+    {
+      "id": 27,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "También sabemos que"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "solo llevaba la chaqueta,"},
+        {"t": [10, 11, 12], "es": "los pantalones y los zapatos,"},
+        {"t": [13, 14, 15, 16, 17], "es": "porque encontramos su camisa"},
+        {"t": [18, 19, 20], "es": "y sus calcetines"},
+        {"t": [21, 22, 23, 24, 25, 26], "es": "en el suelo de su habitación."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "sabemos", "base": "know", "sense": "information"},
+        {"t": [2], "es": "también", "base": "too", "sense": "also"},
+        {"t": [3], "es": "que"},
+        {"t": [4], "es": "él"},
+        {"t": [5, 7], "es": "llevaba", "base": "be", "sense": "state", "note": "*Be in* seguido de ropa indica qué lleva alguien puesto: *in his coat* = «con su chaqueta»."},
+        {"t": [6], "es": "solo", "base": "only", "sense": "just"},
+        {"t": [8, 9], "es": "su chaqueta", "base": "coat", "sense": "clothing", "note": "El inglés usa posesivos con la ropa y las partes del cuerpo: *his coat*, *his back* ([[body-possessive]])."},
+        {"t": [10], "es": "pantalones", "base": "trousers", "sense": "clothing", "note": "Palabra británica; en EE. UU., *pants* ([[british-american]]). *Trousers* lleva verbo en plural: *the trousers are…* ([[plural-agreement]])."},
+        {"t": [11], "es": "y"},
+        {"t": [12], "es": "zapatos", "base": "shoe", "sense": "clothing"},
+        {"t": [13], "es": "porque"},
+        {"t": [14], "es": "nosotros"},
+        {"t": [15], "es": "encontramos", "base": "find", "sense": "discover"},
+        {"t": [16, 17], "es": "su camisa", "base": "shirt", "sense": "clothing"},
+        {"t": [18], "es": "y"},
+        {"t": [19, 20], "es": "sus calcetines", "base": "sock", "sense": "clothing"},
+        {"t": [21, 22, 23], "es": "en el suelo", "base": "floor", "sense": "surface", "note": "*Floor* es el suelo de una habitación; *ground*, el terreno que pisas al aire libre."},
+        {"t": [24, 25, 26], "es": "de su habitación", "base": "room", "sense": "building"}
+      ]
+    },
+    {
+      "id": 28,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Y se llevó su bicicleta."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "llevó", "base": "take", "sense": "carry", "note": "*Take something with you* es llevarte algo: aquí, *with him* dice que lo llevó consigo."},
+        {"t": [3, 4], "es": "su bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [5, 6], "es": "consigo"}
+      ]
+    }
+  ]
+}

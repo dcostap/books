@@ -31,6 +31,34 @@
       }
     ]
   },
+  "about": {
+    "senses": [
+      {
+        "id": "topic",
+        "es": "sobre, de",
+        "ex": [
+          "a book about horses",
+          "un libro sobre caballos"
+        ]
+      },
+      {
+        "id": "approximately",
+        "es": "unos, más o menos",
+        "ex": [
+          "It costs about ten euros.",
+          "Cuesta unos diez euros."
+        ]
+      },
+      {
+        "id": "around",
+        "es": "por",
+        "ex": [
+          "Children ran about the garden.",
+          "Los niños corrían por el jardín."
+        ]
+      }
+    ]
+  },
   "afraid": {
     "senses": [
       {
@@ -79,6 +107,34 @@
         "ex": [
           "We met several years ago.",
           "Nos conocimos hace varios años."
+        ]
+      }
+    ]
+  },
+  "all": {
+    "senses": [
+      {
+        "id": "every",
+        "es": "todos, todo",
+        "ex": [
+          "All my friends came.",
+          "Vinieron todos mis amigos."
+        ]
+      },
+      {
+        "id": "everything",
+        "es": "todo",
+        "ex": [
+          "That's all I know.",
+          "Eso es todo lo que sé."
+        ]
+      },
+      {
+        "id": "extent",
+        "es": "completamente, por todo",
+        "ex": [
+          "She was all alone.",
+          "Estaba completamente sola."
         ]
       }
     ]
@@ -435,6 +491,34 @@
         "ex": [
           "a bedroom with two beds",
           "un dormitorio con dos camas"
+        ]
+      }
+    ]
+  },
+  "before": {
+    "senses": [
+      {
+        "id": "earlier",
+        "es": "antes, anterior",
+        "ex": [
+          "I've seen this film before.",
+          "Ya he visto esta película antes."
+        ]
+      },
+      {
+        "id": "earlier-than",
+        "es": "antes de",
+        "ex": [
+          "Wash your hands before lunch.",
+          "Lávate las manos antes de comer."
+        ]
+      },
+      {
+        "id": "in-front",
+        "es": "delante de, ante",
+        "ex": [
+          "He stood before the judge.",
+          "Estaba de pie ante el juez."
         ]
       }
     ]
@@ -1201,6 +1285,14 @@
         "ex": [
           "The website is down again.",
           "La página web vuelve a estar fuera de servicio."
+        ]
+      },
+      {
+        "id": "south",
+        "es": "hacia el sur, bajar a",
+        "ex": [
+          "We went down to Madrid from Burgos.",
+          "Bajamos a Madrid desde Burgos."
         ]
       }
     ]
@@ -2783,6 +2875,14 @@
         "ex": [
           "The meeting lasted two hours.",
           "La reunión duró dos horas."
+        ]
+      },
+      {
+        "id": "latest",
+        "es": "último, más reciente",
+        "ex": [
+          "Her last book was a success.",
+          "Su último libro fue un éxito."
         ]
       }
     ]
@@ -5492,6 +5592,14 @@
         "ex": [
           "Please take a photo of us.",
           "Haznos una foto, por favor."
+        ]
+      },
+      {
+        "id": "transport",
+        "es": "coger, tomar",
+        "ex": [
+          "Let's take a taxi.",
+          "Vamos a coger un taxi."
         ]
       }
     ]
