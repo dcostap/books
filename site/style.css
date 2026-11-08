@@ -479,6 +479,8 @@ dialog form { text-align: right; }
   box-shadow: 0 6px 18px rgb(0 0 0 / 0.2);
 }
 .player:has(.panel:not([hidden])) .pill { display: none; }
+/* An open menu covers the word popup */
+.player:has(.panel:not([hidden])) { z-index: 21; }
 
 .controls { position: relative; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; max-width: 36rem; margin: 0 auto; }
 .controls .rate { justify-self: start; }
