@@ -275,7 +275,7 @@ dialog form { text-align: right; }
 }
 /* The pointer to the line */
 .bubble::before { content: ""; position: absolute; top: 0.7rem; left: -9px; border: 6px solid transparent; border-left: 0; border-right-color: var(--saved); }
-@media (min-width: 58rem) {
+@media (min-width: 62rem) {
   .bubble { display: block; }
 }
 .w { border-radius: 0.2em; cursor: pointer; transition: background-color 0.15s; }
@@ -318,7 +318,7 @@ dialog form { text-align: right; }
 /* Wide screens: the right margin keeps room for a card of 20rem or more, beside the text. The text (36rem) moves
    left only as far as it must, so it is in the middle on very wide screens; it does not move when the card opens.
    The card covers the note bubbles, so they hide while it is open. */
-@media (min-width: 58rem) {
+@media (min-width: 62rem) {
   .text { margin-left: clamp(0px, (100% - 36rem) / 2, 100% - 57.25rem); }
   .pop {
     left: calc(clamp(0px, (100% - 36rem) / 2, 100% - 57.25rem) + 36.5rem);
@@ -330,7 +330,7 @@ dialog form { text-align: right; }
   }
   #view:has(> .pop:not([hidden])) .bubble { visibility: hidden; }
 }
-@media (min-width: 58rem) and (prefers-reduced-motion: no-preference) {
+@media (min-width: 62rem) and (prefers-reduced-motion: no-preference) {
   /* The card fades in and out; display waits for the fade */
   .pop { transition: opacity 0.18s ease, transform 0.18s ease, display 0.18s allow-discrete; }
   .pop[hidden] { opacity: 0; transform: translateX(0.75rem); }
@@ -338,7 +338,7 @@ dialog form { text-align: right; }
 }
 /* Narrower screens: a sheet on top of the player, as wide as the text, from the bottom of the sentence. app.js sets
    its height. The play button of the player rises over its last part. */
-@media not all and (min-width: 58rem) {
+@media not all and (min-width: 62rem) {
   .pop {
     right: 0;
     left: 0;
