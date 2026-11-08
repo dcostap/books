@@ -303,7 +303,7 @@ dialog form { text-align: right; }
   .w:hover { text-decoration: underline dotted var(--muted); text-underline-offset: 0.2em; }
 }
 
-/* The word panel. app.js sets its top and bottom: between the header and the player. */
+/* The word panel. app.js sets its top and its greatest height. */
 .pop {
   position: fixed;
   z-index: 9;
@@ -338,26 +338,27 @@ dialog form { text-align: right; }
   .pop[hidden] { opacity: 0; transform: translateX(0.75rem); }
   @starting-style { .pop { opacity: 0; transform: translateX(0.75rem); } }
 }
-/* Narrower screens: a sheet on top of the player, as wide as the text, from the bottom of the sentence. app.js sets
-   its height. The play button of the player rises over its last part. */
+/* Narrower screens: a card in the page under the sentence, as wide as the text. It scrolls with the text. */
 @media not all and (min-width: 68rem) {
   .pop {
+    position: absolute;
     right: 0;
     left: 0;
-    max-width: 36rem;
+    width: min(36rem, 100% - 1rem);
     margin: 0 auto;
-    padding: 1rem max(1rem, env(safe-area-inset-right)) 3rem max(1rem, env(safe-area-inset-left));
+    padding: 1rem 1rem 1.25rem;
     border: 1px solid var(--line);
-    border-bottom: 0;
-    border-radius: 16px 16px 0 0;
-    box-shadow: 0 -6px 20px rgb(0 0 0 / 0.12);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.12);
   }
-  /* Room to scroll the last sentence up above the sheet */
+  /* Room to scroll the last sentence up, so the card fits under it */
   #view:has(> .pop:not([hidden])) .text { padding-bottom: 100svh; }
   .pop:not([hidden]) ~ .player .pill { display: none; }
 }
-@media (max-width: 40rem) {
-  .pop { border-width: 1px 0 0; }
+@media (width < 68rem) and (prefers-reduced-motion: no-preference) {
+  .pop { transition: opacity 0.18s ease, transform 0.18s ease, display 0.18s allow-discrete; }
+  .pop[hidden] { opacity: 0; transform: translateY(-0.5rem); }
+  @starting-style { .pop { opacity: 0; transform: translateY(-0.5rem); } }
 }
 /* English: what the reader tapped */
 .pop-head { position: relative; padding: 0 5.25rem 0.6rem 0; border-bottom: 1px solid var(--line); }
