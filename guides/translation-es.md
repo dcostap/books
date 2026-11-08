@@ -105,7 +105,7 @@ The gloss (`es`) is the meaning **at this place in the story**. It is not a dict
 - Give one meaning, or two or three if they help, the best first, with commas: "noticed" → *se fijó en, vio*. Every meaning must fit this place. "dull" for a day → *gris, triste*, not *aburrido, sin punta, torpe*.
 - Use the form that fits the sentence: "staring" → *mirando fijamente*, not *mirar fijamente*.
 - **The gloss is the meaning of the English word, not a free word from your line.** Your line can say it more freely, and that is good Spanish. But a learner takes the gloss as what the word means. In "they put their heads in their hands", the line says *hundían la cabeza entre las manos*. The gloss of "put" is *ponían*, not *hundían*: else the learner thinks that *put* means *hundir*. When your line uses a freer word, say it in a note: *Aquí, «hundían» suena más natural en español.*
-- **The same for the form of the word:** the gloss keeps the English number, possessive, person and tense. "their heads" → *sus cabezas*, not *la cabeza*, even if the line says *hundían la cabeza*. If the two languages say it differently, a note can explain the English side, the first time in the chapter: *En inglés, las partes del cuerpo llevan posesivo: *their heads*, *his eyes* ([[body-possessive]]).* Do not explain the Spanish: the reader knows it.
+- **The same for the form of the word:** the gloss keeps the English number, possessive, person and tense. "their heads" → *sus cabezas*, not *la cabeza*, even if the line says *hundían la cabeza*. If the two languages say it differently, a note can explain the English side: *En inglés, las partes del cuerpo llevan posesivo: *their heads*, *his eyes* ([[body-possessive]]).* Do not explain the Spanish: the reader knows it.
 - The gloss translates all the words of the unit: "of a firm" → *de una empresa*. A pronoun gets its meaning here: "him" → *lo, a él*. If a word has nothing to say in Spanish, write what it does, in brackets: "it" in "it was raining" → *(no se traduce)*.
 - Lower case, except names. Short: 1 to 5 words, usually.
 - For a name, the gloss is the name as the book notes give it. Usually it does not change.
@@ -149,7 +149,7 @@ Write a note when a reader at this level would probably miss or misread somethin
 - **Useful patterns** that a learner can use again: "proud to say" (*proud to* + infinitive).
 - **Words that are easy to confuse:** a Spanish word that looks the same, or an English word that looks or sounds the same. "firm" → *Ojo: no es «firma» (eso es *signature*).*
 - **Spoken English:** question tags, short answers, *'d* as *would* or *had*, dropped words, dialect.
-- **At A1–A2, also basic things that confuse beginners:** contractions ("couldn't" = *could not*), the *'s* of possession, "some" and "any", word order in questions, a noun used as an adjective ("a train ticket" = *un billete de tren*: the last noun is the thing). Explain one point at a time, the first time it appears in the chapter.
+- **At A1–A2, also basic things that confuse beginners:** contractions ("couldn't" = *could not*), the *'s* of possession, "some" and "any", word order in questions, a noun used as an adjective ("a train ticket" = *un billete de tren*: the last noun is the thing). Explain one point at a time.
 
 Do not write a note when:
 
@@ -157,12 +157,11 @@ Do not write a note when:
 - The word looks like a Spanish word and means the same: "director", "mysterious".
 - Spanish says it the same way: "talked and talked" = *hablaban y hablaban*. The reader understands it without help.
 - The note only explains the Spanish, not the English.
-- The same word or idea already has a note earlier **in the chapter**, also before your job. Write each note one time in a chapter. If a later unit still needs the idea, link its concept, or write a short note that makes sense alone.
 
 Content and style:
 
 - Explain the language, not the plot.
-- **Each note stands alone.** The reader taps words in any order, and may never see the other notes. Never refer to another note: no «como antes», «como con *their heads*», «ver arriba».
+- **Each note stands alone.** The reader taps words in any order, and may never see the other notes. Never refer to another note: no «como antes», «como con *their heads*», «ver arriba». The same idea gets a note again wherever the reader needs it.
 - **No spoilers.** Never tell the reader anything that the story has not told them yet: names, identities, future events, who did what. In a mystery, also do not hint that a person or a detail is important.
 - One or two ideas in each note, the most useful first. Then add why, if it helps: the literal meaning, the origin, how it sounds to a British reader.
 - Do not repeat the base form or the gloss.
@@ -208,7 +207,6 @@ The gloss gives the meaning at this place. A learner can then think that it is t
 - Only meanings that are really different from the gloss. Not synonyms of the gloss, and not rare meanings. "think" = *creo* → not *pensar*: that is the same idea. "white" = *pálido* → *blanco* is fine: it is the usual meaning.
 - Mostly for short, common words with many meanings: *get, take, make, set, run, way, still, mind, fine, rather*. Most units have no `also`.
 - Also for a word that is a different part of speech in other places: "firm" (*empresa*) → `["firme (*a firm bed*)"]`.
-- Give it the first time the word appears in the chapter, not every time.
 - Not when the unit has a preposition ("into the room", "of a firm"): the other meanings would be about one of its words, not the unit. An article, a possessive or "to" is fine: "to get" → `["conseguir (*get a job*)"]`.
 
 ## Answer format
@@ -254,7 +252,7 @@ The answer to a job is one UTF-8 JSON file, with the name that the job file give
    - Does every gloss fit this place? Are all the meanings you give correct here?
    - Is every gloss the meaning of the English word, and not a free word from your line? Tap test: would a learner who reads only the gloss learn a wrong meaning of the word?
    - Does every unit that needs a base form have one, and only those, at this book's level?
-   - Is every British spelling or word noted, unless the chapter noted it before?
+   - Is every British spelling or word noted?
    - Does each note help a reader at this level? Is it friendly and short? Is something missing that the reader would trip on?
    - Does each note about grammar link its idea? Does each common word with several meanings have `also`?
    - No spoilers? *Tú* and *usted* as the book notes say?
@@ -277,7 +275,6 @@ A reviewer gets the same files and a task, for example "review jobs 1 to 3 and c
 - The same expression has the same gloss and base form, unless the meaning changes.
 - Glosses that copy a free word from the line instead of the meaning of the English word.
 - Common words with several meanings that have no `also`.
-- One note for each idea in a chapter: the first time gets the note.
 - Names and terms follow the book notes.
 - Notes about the same idea of grammar link the same concept.
 
