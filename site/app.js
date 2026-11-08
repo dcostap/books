@@ -322,7 +322,7 @@ function showReader(book, chapter, target) {
       </div>
       <div class="pop-gloss" lang="es"></div>
       <p class="pop-note" lang="es"></p>
-      <div class="pop-also" lang="es"><span>En otros contextos</span><ul></ul></div>
+      <div class="pop-also" lang="es"><span><i lang="en"></i> en otros contextos</span><ul></ul></div>
       <div class="pop-concepts" lang="es"></div>
       <label class="pop-mine"><span>Tu nota</span><textarea rows="2" placeholder="Escribe aquí…"></textarea></label>
       <button class="pop-more" aria-expanded="false">${icon("more")}<span>Ver la frase entera</span></button>
@@ -824,6 +824,12 @@ function showReader(book, chapter, target) {
   }
 
   const trim = (text) => text.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "");
+  // The word that the other meanings are about: the base form, else the words of the unit without its small
+  // words ("a … ticket" → "ticket", "to get" → "get").
+  const SMALL = new Set(["a", "an", "the", "to", "my", "your", "his", "her", "its", "our", "their"]);
+  const mainWord = (unit) => unit?.base ?? picked.map((j) => trim(words[j].el.textContent))
+    .filter((w, n, all) => w && !(SMALL.has(w.toLowerCase()) && all.length > 1)).join(" ")
+    .replace(/^\p{Lu}(?=\p{Ll})/u, (c) => c.toLowerCase()); // "Then" at the start of a sentence
   // Notes mark English words as *word*.
   const rich = (text) => esc(text).replace(/\*(.+?)\*/g, "<i lang=\"en\">$1</i>");
 
@@ -880,6 +886,7 @@ function showReader(book, chapter, target) {
     $(".pop-gloss").textContent = unit?.es ?? "";
     const note = noteHTML(unit?.note ?? "");
     $(".pop-note").innerHTML = note.html;
+    $(".pop-also i").textContent = mainWord(unit);
     $(".pop-also ul").innerHTML = (unit?.also ?? []).map((x) => `<li>${rich(x)}</li>`).join("");
     $(".pop-also").hidden = !unit?.also;
     $(".pop-concepts").innerHTML = footnotes(note.ids);

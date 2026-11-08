@@ -337,6 +337,7 @@ dialog form { text-align: right; }
 /* Other meanings, and the concepts that the note links to, as footnotes */
 .pop-also { font-size: 0.95rem; line-height: 1.45; }
 .pop-also > span { color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+.pop-also > span i { margin-right: 0.15rem; font-size: 1rem; font-weight: 400; letter-spacing: 0; text-transform: none; }
 .pop-also ul, .pop-concepts ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
 .concept-group { white-space: nowrap; }
 .concept-ref { white-space: nowrap; text-decoration: underline dotted; text-underline-offset: 0.2em; color: var(--accent); }
