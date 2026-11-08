@@ -782,7 +782,10 @@ function showReader(book, chapter, target) {
     seek(words[Math.max(start, first - LEAD)].s - PREROLL);
     play();
   });
-  on(pop, "toggle", () => placePop(true), { capture: true }); // a footnote opened or closed
+  // A footnote opened or closed. The observer places the popup before the next paint; the toggle event comes a frame
+  // late. On a phone, the page also scrolls to make room.
+  new ResizeObserver(() => { if (!pop.hidden) placePop(); }).observe(pop);
+  on(pop, "toggle", () => { if (narrow.matches) placePop(true); }, { capture: true });
   // A concept link in the note opens or closes its footnote.
   on($(".pop-note"), "click", (e) => {
     const ref = e.target.closest(".concept-ref");
@@ -943,9 +946,11 @@ function showReader(book, chapter, target) {
   // Narrow screens: a full-width panel on top of the player, as tall as its content. Pinned (pin), the page
   // scrolls so that the bottom of the sentence touches the top of the panel, but never so far that the unit goes
   // under the header. Where the page cannot scroll so far, the panel grows up to the sentence.
-  // Else: below the unit if it fits above the player, else above it. Centred on the tapped word.
+  // Else: pinned, below the unit if it fits above the player, else above it, else below it after the page scrolls the
+  // unit up. Later calls keep that side. Centred on the tapped word.
   // A word with its column, so that a popup does not cover the Spanish under it
   const unitBox = (j) => (words[j].el.closest(".u") ?? words[j].el).getBoundingClientRect();
+  let popSide = "below", popRoom = Infinity;
   function placePop(pin = false) {
     if (narrow.matches) {
       const gap = 8, top = header.getBoundingClientRect().bottom, bottom = player.getBoundingClientRect().top;
@@ -966,13 +971,28 @@ function showReader(book, chapter, target) {
       if (Math.abs(shift) > 1) window.scrollTo({ top: window.scrollY + shift, behavior: "smooth" });
       return;
     }
-    pop.style.bottom = pop.style.minHeight = pop.style.maxHeight = "";
-    const rects = picked.map(unitBox), b = band();
+    const gap = 8, rects = picked.map(unitBox), b = band();
     const r = words[pop.dataset.word].el.getBoundingClientRect();
-    const top = Math.min(...rects.map((x) => x.top)), bottom = Math.max(...rects.map((x) => x.bottom));
-    const below = bottom + 8 + pop.offsetHeight < b.bottom;
-    const x = clamp(r.left + r.width / 2 - pop.offsetWidth / 2, 8, window.innerWidth - pop.offsetWidth - 8);
-    const y = below ? bottom + 8 : Math.max(b.top + 8, top - pop.offsetHeight - 8);
+    let top = Math.min(...rects.map((x) => x.top)), bottom = Math.max(...rects.map((x) => x.bottom));
+    pop.style.bottom = pop.style.minHeight = pop.style.maxHeight = "";
+    const height = pop.offsetHeight;
+    if (pin) {
+      // Below if it fits, else above. Else scroll the unit up to the header and put the popup below it.
+      popSide = bottom + 2 * gap + height <= b.bottom ? "below" : top - 2 * gap - height >= b.top ? "above" : "below";
+      const shift = Math.min(bottom + 2 * gap + height - b.bottom, top - b.top - gap, document.documentElement.scrollHeight - window.innerHeight - window.scrollY);
+      if (popSide === "below" && shift > 1) {
+        window.scrollTo({ top: window.scrollY + shift, behavior: "smooth" });
+        top -= shift;
+        bottom -= shift;
+      }
+      // Measured once: later calls can come while the page still scrolls.
+      popRoom = popSide === "below" ? b.bottom - bottom - 2 * gap : top - b.top - 2 * gap;
+    }
+    // The popup stays on its side and never covers the unit. When it is too tall, it scrolls.
+    const room = popRoom;
+    pop.style.maxHeight = `${room}px`;
+    const x = clamp(r.left + r.width / 2 - pop.offsetWidth / 2, gap, window.innerWidth - pop.offsetWidth - gap);
+    const y = popSide === "below" ? bottom + gap : top - gap - Math.min(height, room);
     pop.style.left = `${x + window.scrollX}px`;
     pop.style.top = `${y + window.scrollY}px`;
   }

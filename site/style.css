@@ -315,7 +315,10 @@ dialog form { text-align: right; }
   border-radius: 16px;
   background: var(--surface);
   box-shadow: 0 12px 36px rgb(0 0 0 / 0.22);
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
+.pop > * { flex: none; } /* when the popup is too tall, it scrolls; its parts keep their size */
 /* English: what the reader tapped */
 .pop-head { position: relative; padding: 0 5.25rem 0.6rem 0; border-bottom: 1px solid var(--line); }
 .pop-save, .pop-close { position: absolute; top: -0.6rem; color: var(--muted); }
@@ -395,7 +398,6 @@ dialog form { text-align: right; }
     border-radius: 16px 16px 0 0;
     box-shadow: 0 -6px 20px rgb(0 0 0 / 0.12);
   }
-  .pop > * { flex: none; }
   /* Room to scroll the last sentence up above the panel */
   #view:has(> .pop:not([hidden])) .text { padding-bottom: 100svh; }
   .pop:not([hidden]) ~ .player .pill { display: none; }
