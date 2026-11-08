@@ -6,7 +6,7 @@ Things that are special to this book. Read this before you add a chapter. Add to
 
 - Text: `source/book.pdf`, an Internet Archive scan of the 2002 printing (ISBN 9780194229616) with an OCR layer. The 2008 edition (ISBN 9780194787093) has the same text, but its PDF has images only.
 - Audio: the Oxford Bookworms audiobook, read by Richard Mitchly (Audible, 59 min). Our copy is one MP3 of 58:52 (48 kHz stereo, 224 kbps), probably from YouTube. It is not in git: `audio/duke/full.mp3`.
-- Only chapter 1 is in git. Chapters 2–7 stay on this computer (`.gitignore`). To publish a chapter, add it to `book.json` and remove its line from `.gitignore`.
+- Only chapters 1 and 2 are in git. Chapters 3–7 stay on this computer (`.gitignore`). To publish a chapter, add it to `book.json` and remove its line from `.gitignore`.
 
 ## Audio
 
@@ -25,14 +25,14 @@ Keep the original file as `audio/duke/0N-original-with-chime.mp3`. Make the clea
 | Ch | Title music (approx., s in the cut file) | Chime | Click | Done |
 |----|------|------|------|------|
 | 1 | 5.66–15.97 | 19.62–21.55 | 19.706–19.782; declick 18.303–18.330 and 18.410–18.437 | yes |
-| 2 | 6.38–17.91 | none found | | |
+| 2 | 6.95–17.76 | none found | | yes |
 | 3 | 6.71–17.71 | none found | | |
 | 4 | 5.80–16.63 | none found | | |
 | 5 | 6.00–17.73 | none found | | |
 | 6 | 7.40–19.07 | none found | | |
 | 7 | 5.43–16.74 | 530.15–531.95 ("…put it carefully…") | 530.196–530.302 (on top of the "t" in "put") | |
 
-The title music times for chapters 2–7 are the gaps between words, not the edges of the music. Measure the edges before you cut. For chapter 1, the music starts 0.6 s after the title and ends 0.01 s before the first word.
+The title music times for chapters 3–7 are the gaps between words, not the edges of the music. Measure the edges before you cut. For chapter 1, the music starts 0.6 s after the title and ends 0.01 s before the first word. For chapter 2, the title ends at 6.45 s, the music plays from 7.05 to 17.25 s, and the first word starts at 17.80 s.
 
 Chapter 1 command:
 
@@ -42,7 +42,13 @@ Chapter 1 command:
 
 The second cut in chapter 1 makes a pause of 3.3 s shorter, after "…the page about the Duke of Holdernesse." The pause is digital silence, so the cut cannot be heard. The pause is now 2.0 s. The word times after it in `whisper.json` and `words.json` moved 1.33 s earlier; Whisper did not run again.
 
-The files of chapters 2–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
+Chapter 2 command (the source has no chime, so it keeps its name):
+
+```
+.venv/Scripts/python books/duke/fix_audio.py audio/duke/02-dr-huxtables-story.mp3 audio/duke/02-dr-huxtables-story.webm --cut 6.95 17.76
+```
+
+The files of chapters 3–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
 
 ## Text
 
@@ -114,6 +120,19 @@ Add the names of each chapter before you translate it. Names in a later chapter 
 | Lancashire | Lancashire | |
 | Wales | Gales | |
 | pounds | libras | Money. |
+| the Priory School | el colegio Priory | Dr Huxtable's school, near Mackleton. *Priory* stays in English, as a name. |
+| school (a boarding school) | colegio | The boys live there. |
+| Lord Soames, Lord Lever | lord Soames, lord Lever | |
+| Mr James Wilder | el señor James Wilder | |
+| secretary | secretario | |
+| Lord Saltire, young Arthur | lord Saltire, el joven Arthur | The Duke's son, ten years old. *Arthur* stays in English. |
+| the Duchess | la duquesa | Lower case, as *duque*. |
+| the south of France | el sur de Francia | |
+| Heidegger | Heidegger | |
+| the German teacher | el profesor de alemán | He teaches German: Holmes asks about "German lessons". |
+| schoolroom | aula | |
+| Holdernesse Hall | Holdernesse Hall | The Duke's house. A note can say that *Hall* is a big country house. |
+| Liverpool | Liverpool | |
 
 ### Spoilers
 
@@ -125,4 +144,4 @@ This is a mystery. The reader must find things out at the same time as Holmes.
 
 ## Open questions
 
-- Chapter 2 seemed out of sync in the browser at about 0:32. This is not checked. Check it when you clean chapter 2. Its audio comes straight from the `-c copy` cut and was never encoded again.
+- (none)

@@ -11,6 +11,12 @@
         "title": "Sherlock Holmes Has a Visitor",
         "data": "books/duke/01.json",
         "duration": 344.81
+      },
+      {
+        "n": 2,
+        "title": "Dr Huxtable’s Story",
+        "data": "books/duke/02.json",
+        "duration": 541.3
       }
     ]
   },
