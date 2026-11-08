@@ -303,7 +303,7 @@ dialog form { text-align: right; }
   .w:hover { text-decoration: underline dotted var(--muted); text-underline-offset: 0.2em; }
 }
 
-/* The word panel. app.js sets its top and its greatest height. */
+/* The word panel: a card. app.js sets its top and its greatest height. */
 .pop {
   position: fixed;
   z-index: 9;
@@ -311,8 +311,13 @@ dialog form { text-align: right; }
   flex-direction: column;
   gap: 0.6rem;
   background: var(--surface);
+  border: 1px solid color-mix(in srgb, var(--fg) 16%, var(--surface));
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.1), 0 10px 32px rgb(0 0 0 / 0.2);
   overflow-y: auto;
   overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted) 45%, transparent) transparent;
 }
 .pop > * { flex: none; } /* when the panel is too tall, it scrolls; its parts keep their size */
 /* Wide screens: a card in the right margin, beside the text. It starts in the right padding of the text (1.25rem),
@@ -326,9 +331,6 @@ dialog form { text-align: right; }
     left: calc(50% + var(--col, 36rem) / 2 - 0.75rem);
     width: min(26rem, calc(50% - var(--col, 36rem) / 2));
     padding: 1.25rem 1.25rem 1.5rem;
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgb(0 0 0 / 0.12);
   }
   #view:has(> .pop:not([hidden])) .bubble { visibility: hidden; }
 }
@@ -347,9 +349,6 @@ dialog form { text-align: right; }
     width: min(36rem, 100% - 1rem);
     margin: 0 auto;
     padding: 1rem 1rem 1.25rem;
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgb(0 0 0 / 0.12);
   }
   /* Room to scroll the last sentence up, so the card fits under it */
   #view:has(> .pop:not([hidden])) .text { padding-bottom: 100svh; }
