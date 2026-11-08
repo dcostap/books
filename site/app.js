@@ -87,7 +87,7 @@ const wordKey = (w) => `${w.book}/${w.chapter}/${w.at[0]}`;
 const savedAt = (book, chapter, i) => store.words.find((w) => w.book === book && w.chapter === chapter && w.at.includes(i));
 
 const systemDark = matchMedia("(prefers-color-scheme: dark)");
-const sheet = matchMedia("not all and (min-width: 62rem)"); // the word panel: a sheet above the player, else at the side (style.css)
+const sheet = matchMedia("not all and (min-width: 78rem)"); // the word panel: a sheet above the player, else at the side (style.css)
 
 function applySettings() {
   const { theme, font, size } = store.settings, root = document.documentElement;
