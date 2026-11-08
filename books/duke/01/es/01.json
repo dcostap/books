@@ -127,7 +127,11 @@
       2
      ],
      "es": "venían",
-     "base": "come (came, come)",
+     "base": "come",
+     "forms": {
+      "past": "came",
+      "participle": "come"
+     },
      "also": [
       "llegar (*the day came*)",
       "ser de, venir de (*I come from Spain*)"
@@ -242,8 +246,13 @@
      "t": [
       2
      ],
-     "es": "hundían, metían",
-     "base": "put (put, put)"
+     "es": "ponían",
+     "base": "put",
+     "forms": {
+      "past": "put",
+      "participle": "put"
+     },
+     "note": "Aquí, «hundían» suena más natural en español: el gesto de poner la cabeza entre las manos."
     },
     {
      "t": [
@@ -419,7 +428,11 @@
       4
      ],
      "es": "estaban sentados",
-     "base": "sit (sat, sat)"
+     "base": "sit",
+     "forms": {
+      "past": "sat",
+      "participle": "sat"
+     }
     },
     {
      "t": [
@@ -685,8 +698,12 @@
      "t": [
       1
      ],
-     "es": "entró",
-     "base": "come (came, come)"
+     "es": "vino, entró",
+     "base": "come",
+     "forms": {
+      "past": "came",
+      "participle": "come"
+     }
     },
     {
      "t": [
@@ -703,7 +720,8 @@
      "t": [
       5
      ],
-     "es": "se acercó andando"
+     "es": "caminó, fue andando",
+     "note": "Aquí, «se acercó» suena más natural en español."
     },
     {
      "t": [
@@ -742,11 +760,16 @@
      "t": [
       14
      ],
-     "es": "se desplomó, cayó",
-     "base": "fall (fell, fallen)",
+     "es": "cayó, se dejó caer",
+     "base": "fall",
+     "forms": {
+      "past": "fell",
+      "participle": "fallen"
+     },
      "also": [
       "bajar (*prices fall*)"
-     ]
+     ],
+     "note": "Aquí, «se desplomó» suena más natural en español."
     },
     {
      "t": [
@@ -799,7 +822,11 @@
       1
      ],
      "es": "estaba sentado",
-     "base": "sit (sat, sat)"
+     "base": "sit",
+     "forms": {
+      "past": "sat",
+      "participle": "sat"
+     }
     },
     {
      "t": [
@@ -888,7 +915,11 @@
       1
      ],
      "es": "corrí",
-     "base": "run (ran, run)",
+     "base": "run",
+     "forms": {
+      "past": "ran",
+      "participle": "run"
+     },
      "also": [
       "funcionar (*the engine is running*)",
       "dirigir (*run a shop*)"
@@ -979,7 +1010,11 @@
       2
      ],
      "es": "cogí",
-     "base": "get (got, got)"
+     "base": "get",
+     "forms": {
+      "past": "got",
+      "participle": "got"
+     }
     },
     {
      "t": [
@@ -1070,7 +1105,11 @@
       4
      ],
      "es": "dijo",
-     "base": "say (said, said)"
+     "base": "say",
+     "forms": {
+      "past": "said",
+      "participle": "said"
+     }
     },
     {
      "t": [
@@ -1149,7 +1188,11 @@
       6
      ],
      "es": "dije",
-     "base": "say (said, said)"
+     "base": "say",
+     "forms": {
+      "past": "said",
+      "participle": "said"
+     }
     }
    ]
   },
@@ -1299,7 +1342,8 @@
      "t": [
       1
      ],
-     "es": "buscó"
+     "es": "miró",
+     "note": "*Look in* es «mirar dentro de». Aquí, «buscó» suena más natural en español."
     },
     {
      "t": [
@@ -1326,7 +1370,11 @@
       8
      ],
      "es": "encontró",
-     "base": "find (found, found)",
+     "base": "find",
+     "forms": {
+      "past": "found",
+      "participle": "found"
+     },
      "also": [
       "parecer, considerar (*I find it difficult*)"
      ]

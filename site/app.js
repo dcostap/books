@@ -54,13 +54,18 @@ function translationHTML(entry, unit) {
   return entry.line.map((c) => (ours(c) ? `<mark>${esc(c.es)}</mark>` : esc(c.es))).join(" ");
 }
 
+// The base form with its irregular forms, each after a small label: "forma base put · pasado put · participio put".
+const FORMS = { past: "pasado", participle: "participio", plural: "plural", comparative: "comparativo", superlative: "superlativo" };
+const baseHTML = (base, forms = {}) => [["forma base", base], ...Object.entries(forms).map(([k, v]) => [FORMS[k] ?? k, v])]
+  .map(([label, form]) => `<span class="form"><span>${label}</span> <b lang="en">${esc(form)}</b></span>`).join(" ");
+
 const clamp = (x, lo, hi) => Math.min(hi, Math.max(lo, x));
 
 const minutes = (seconds) => `${Math.max(1, Math.round(seconds / 60))} min`;
 
 // Storage: { books: { [id]: { chapter, chapters: { [n]: { time, done } } } }, settings: { rate, size, font, theme }, words: [...] }
 // A saved word is one unit at one place: { book, chapter, at: [word indexes in the chapter], k: [token numbers in
-// its sentence], sentence (the English sentence), en, base, es, note (the reader's own), saved (ms) }.
+// its sentence], sentence (the English sentence), en, base, forms, es, note (the reader's own), saved (ms) }.
 // It keeps copies of the texts, so the word list needs no chapter data.
 
 const store = (() => {
@@ -237,7 +242,7 @@ function showWords(book) {
     $(".word-list").innerHTML = shown.map((w) => `
       <li><a href="#/${w.book}/${w.chapter}/${w.at[0]}">
         <span class="word-en" lang="en">${esc(w.en)}</span>
-        ${w.base ? `<span class="word-base"><span>forma base</span> <b lang="en">${esc(w.base)}</b></span>` : ""}
+        ${w.base ? `<span class="word-base">${baseHTML(w.base, w.forms)}</span>` : ""}
         ${w.es ? `<span class="word-es" lang="es">${esc(w.es)}</span>` : ""}
         ${w.note ? `<span class="word-note">${esc(w.note)}</span>` : ""}
         <span class="word-sentence" lang="en">${marked(w)}</span>
@@ -310,7 +315,7 @@ function showReader(book, chapter, target) {
     <div class="pop" role="dialog" aria-label="Ayuda" hidden>
       <div class="pop-head">
         <div class="pop-word" lang="en"></div>
-        <div class="pop-base"><span>forma base</span> <b lang="en"></b></div>
+        <div class="pop-base"></div>
         <button class="icon pop-save"></button>
         <button class="icon pop-close" aria-label="Cerrar ayuda" title="Cerrar">${icon("close")}</button>
       </div>
@@ -791,7 +796,7 @@ function showReader(book, chapter, target) {
       const w = {
         book: book.id, chapter: chapter.n, at: [...picked], k: picked.map((j) => words[j].k),
         sentence: words.filter((x) => x.sentence === words[i].sentence).map((x) => x.el.textContent).join(" "),
-        en: $(".pop-word").textContent, base: popUnit?.base, es: popUnit?.es, note: "", saved: Date.now(),
+        en: $(".pop-word").textContent, base: popUnit?.base, forms: popUnit?.forms, es: popUnit?.es, note: "", saved: Date.now(),
       };
       store.words.push(w);
     }
@@ -869,7 +874,7 @@ function showReader(book, chapter, target) {
     $(".pop-word").textContent = trim(picked
       .map((j, n) => (n && j !== picked[n - 1] + 1 ? "… " : "") + words[j].el.textContent)
       .join(" "));
-    $(".pop-base b").textContent = unit?.base ?? "";
+    $(".pop-base").innerHTML = unit?.base ? baseHTML(unit.base, unit.forms) : "";
     $(".pop-base").hidden = !unit?.base;
     $(".pop-gloss").textContent = unit?.es ?? "";
     const note = noteHTML(unit?.note ?? "");

@@ -104,29 +104,30 @@ The gloss (`es`) is the meaning **at this place in the story**. It is not a dict
 
 - Give one meaning, or two or three if they help, the best first, with commas: "noticed" → *se fijó en, vio*. Every meaning must fit this place. "dull" for a day → *gris, triste*, not *aburrido, sin punta, torpe*.
 - Use the form that fits the sentence: "staring" → *mirando fijamente*, not *mirar fijamente*.
+- **The gloss is the meaning of the English word, not a free word from your line.** Your line can say it more freely, and that is good Spanish. But a learner takes the gloss as what the word means. In "they put their heads in their hands", the line says *hundían la cabeza entre las manos*. The gloss of "put" is *ponían*, not *hundían*: else the learner thinks that *put* means *hundir*. When your line uses a freer word, say it in a note: *Aquí, «hundían» suena más natural en español.*
 - The gloss translates all the words of the unit: "of a firm" → *de una empresa*. A pronoun gets its meaning here: "him" → *lo, a él*. If a word has nothing to say in Spanish, write what it does, in brackets: "it" in "it was raining" → *(no se traduce)*.
 - Lower case, except names. Short: 1 to 5 words, usually.
 - For a name, the gloss is the name as the book notes give it. Usually it does not change.
 
 ### Base form
 
-The base form is the form a reader looks up in a dictionary. Give it when it is different from the word in the text, so the reader learns the word, not only this form of it.
+The base form (`base`) is the form a reader looks up in a dictionary. Give it when it is different from the word in the text, so the reader learns the word, not only this form of it. Irregular forms go in `forms`, each with its name. The app shows them with small labels: *forma base* put · *pasado* put · *participio* put.
 
-- Verbs: the infinitive without "to". Add the past forms only if they are irregular.
-  - "woke up" → *wake up (woke, woken)*
-  - "spent" → *spend (spent, spent)*
-  - "picked out" → *pick out* (regular: no past forms)
-- Nouns: the singular, if the plural is irregular: "children" → *child (pl. children)*.
-- Adjectives: the plain form, if the comparative or superlative is irregular or not obvious: "better" → *good (better, best)*.
+- Verbs: the infinitive without "to". Add `forms` only if the verb is irregular: `past` and `participle`.
+  - "woke up" → `"base": "wake up", "forms": {"past": "woke", "participle": "woken"}`
+  - "put" (past) → `"base": "put", "forms": {"past": "put", "participle": "put"}`: the forms show that it does not change.
+  - "picked out" → `"base": "pick out"` (regular: no forms)
+- Nouns: the singular, if the plural is irregular: "children" → `"base": "child", "forms": {"plural": "children"}`.
+- Adjectives: the plain form, if the comparative or superlative is irregular or not obvious: "better" → `"base": "good", "forms": {"comparative": "better", "superlative": "best"}`.
 - Idioms and phrasal verbs: the form a dictionary uses: "came in very useful" → *come in useful*, "got to his feet" → *get to one's feet*.
-- No base form for a regular plural ("visitors"), an easy regular verb form ("wanted"), or a word that is already in its base form. Never give a base form that is the same as the text: "What is it" has no base form.
-- Write it in English, in lower case (except names). Do not put "to" before a verb.
+- No base form for a regular plural ("visitors"), an easy regular verb form ("wanted"), or a word that is already in its base form. A base form that is the same as the text only makes sense with its forms, as for "put". "What is it" has no base form.
+- Write it in English, in lower case (except names). Do not put "to" before a verb, and do not put the forms in brackets in `base`.
 
 **The verbs that skip the base form depend on the level.**
 
-- A1–A2: only *be, have, do, can, will, would* skip it. Every other irregular verb gets its base form, also very common ones: "said" → *say (said, said)*, "thought" → *think (thought, thought)*, "went" → *go (went, gone)*. A beginner wants to learn these.
+- A1–A2: only *be, have, do, can, will, would* skip it. Every other irregular verb gets its base form and forms, also very common ones: *say* (said, said), *think* (thought, thought), *go* (went, gone). A beginner wants to learn these.
 - B1–B2: also *say, go, get, make, know, see, think, come, take, give, tell, find* skip it.
-- A phrasal verb or an idiom always gets its base form: "found out" → *find out (found, found)*.
+- A phrasal verb or an idiom always gets its base form: "found out" → *find out* (found, found).
 
 ### Notes
 
@@ -222,7 +223,7 @@ The answer to a job is one UTF-8 JSON file, with the name that the job file give
       "words": [
         { "t": [0], "es": "cuando" },
         { "t": [1], "es": "visitas, visitantes" },
-        { "t": [2], "es": "venían", "base": "come (came, come)", "also": ["llegar (*the day came*)", "ser de, venir de (*I come from Spain*)"] },
+        { "t": [2], "es": "venían", "base": "come", "forms": { "past": "came", "participle": "come" }, "also": ["llegar (*the day came*)", "ser de, venir de (*I come from Spain*)"] },
         { "t": [3, 4], "es": "a ver" },
         { "t": [5, 6], "es": "Sherlock Holmes" },
         { "t": [7, 8, 9], "es": "en Baker Street", "note": "La calle de Londres donde vive Holmes, en el número 221B." }
@@ -235,18 +236,19 @@ The answer to a job is one UTF-8 JSON file, with the name that the job file give
 - `id`: the sentence number from the job file (`s5` → `5`). Give every sentence of the job, in order.
 - The example is the start of "When visitors came to see Sherlock Holmes in Baker Street, they often did surprising things." A real answer covers every token.
 - `line`: the chunks of the reading line, in order. `t` has the token numbers of the chunk.
-- `words`: the popup units. `t` has the token numbers of the unit, in ascending order. `base`, `note` and `also` are optional: leave the key out if the unit does not need it.
+- `words`: the popup units. `t` has the token numbers of the unit, in ascending order. `base`, `forms`, `note` and `also` are optional: leave the key out if the unit does not need it. `forms` needs `base`; its keys are `past`, `participle`, `plural`, `comparative` and `superlative`.
 - The token numbers are in the job file: each token has its number in [brackets].
 
 ## Translator: how to do a job
 
 1. Read this guide, the book notes (`books/<id>/NOTES.md`, section "Translation"), and the full chapter (`books/<id>/<nn>/text.md`) for context. Then read your job file (`books/<id>/<nn>/es/jobs/NN.md`). Translate only your job.
-2. For each sentence: first write the reading line (translate, then cut). Then write the popup units. The popup glosses must fit the meaning that your reading line gives.
+2. For each sentence: first write the reading line (translate, then cut). Then write the popup units. Each gloss gives the meaning of the English word at this place. Where your line says it more freely, add a note (see "Gloss").
 3. Run the check command from the job file, for example `python tools/translation.py check books/duke 1 1`. Fix every error, and run it again until it prints `OK`.
 4. Run `python tools/translation.py show books/duke 1 1` and read your work as a reader would. Check:
    - Read only the Spanish of each line. Is it natural Spanish from Spain, plain but not poor? Would you change a word if you wrote it for a book?
    - Read each line chunk by chunk, from left to right. Is it exactly your sentence?
    - Does every gloss fit this place? Are all the meanings you give correct here?
+   - Is every gloss the meaning of the English word, and not a free word from your line? Tap test: would a learner who reads only the gloss learn a wrong meaning of the word?
    - Does every unit that needs a base form have one, and only those, at this book's level?
    - Is every British spelling or word noted, unless the chapter noted it before?
    - Does each note help a reader at this level? Is it friendly and short? Is something missing that the reader would trip on?
@@ -269,6 +271,8 @@ When you finish, reply with:
 A reviewer gets the same files and a task, for example "review jobs 1 to 3 and correct them" or "only list spoilers, do not edit". Check what the task asks for, against this guide and the book notes. Also check across the jobs, because each translator saw only their own job:
 
 - The same expression has the same gloss and base form, unless the meaning changes.
+- Glosses that copy a free word from the line instead of the meaning of the English word.
+- Common words with several meanings that have no `also`.
 - One note for each idea in a chapter: the first time gets the note.
 - Names and terms follow the book notes.
 - Notes about the same idea of grammar link the same concept.

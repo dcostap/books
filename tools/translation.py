@@ -15,7 +15,8 @@ An answer gives two things for each sentence:
   line   the reading line: a natural Spanish translation of the sentence, cut into chunks. Each chunk is
          under a run of English tokens. The chunks, read in order, are the sentence translation.
   words  the popup help: units (a word, or an idiom or a phrasal verb) with their Spanish meaning in
-         context, an optional base form (the dictionary form), an optional note and optional other meanings
+         context, an optional base form (the dictionary form) with its irregular forms, an optional note and
+         optional other meanings
          ("also"). A note can link to an idea of English grammar with [[id]]: guides/concepts-es.json
          explains it, and the app shows it under the note.
 Every word token is in exactly one chunk and in exactly one unit. build.py merges the answers into
@@ -34,7 +35,9 @@ from build import parse
 
 SENTENCE_KEYS = {"id", "line", "words"}
 OLD_SENTENCE_KEYS = {"id", "es", "units"}
-UNIT_KEYS = {"t", "es", "base", "note", "also"}
+UNIT_KEYS = {"t", "es", "base", "forms", "note", "also"}
+FORMS = {"past": "pasado", "participle": "participio", "plural": "plural", "comparative": "comparativo",
+         "superlative": "superlativo"}  # the app shows the Spanish names
 CONCEPTS = Path(__file__).resolve().parent.parent / "guides" / "concepts-es.json"
 LINK = re.compile(r"\[\[([a-z0-9-]+)\]\]")
 
@@ -91,8 +94,8 @@ def check_units(units, tokens, where):
     for u, unit in enumerate(units):
         at = f"{where} unit {u}"
         if not isinstance(unit, dict) or not {"t", "es"} <= set(unit) <= UNIT_KEYS:
-            errors.append(f'{at}: a unit is {{"t": [...], "es": "...", "base": "...", "note": "...", "also": [...]}} '
-                          f'(base, note and also are optional); found {unit}')
+            errors.append(f'{at}: a unit is {{"t": [...], "es": "...", "base": "...", "forms": {{...}}, "note": "...", '
+                          f'"also": [...]}} (all but t and es are optional); found {unit}')
             continue
         bad = token_list(unit["t"], tokens, at)
         errors += bad
@@ -108,6 +111,13 @@ def check_units(units, tokens, where):
                 errors.append(f'{at}: "{key}" must be a non-empty string; leave it out if there is none')
         if "[[" in LINK.sub("", unit.get("note", "")):
             errors.append(f'{at}: a link in a note is [[id]], with an id of lower-case letters, digits and -')
+        forms = unit.get("forms", {"past": "-"})
+        if (not isinstance(forms, dict) or not forms or not set(forms) <= set(FORMS)
+                or not all(isinstance(x, str) and x.strip() for x in forms.values())):
+            errors.append(f'{at}: "forms" must be an object with some of the keys {", ".join(FORMS)}, '
+                          'each a non-empty string; leave it out if there is none')
+        if "forms" in unit and "base" not in unit:
+            errors.append(f'{at}: "forms" needs "base"')
         also = unit.get("also", ["-"])
         if not isinstance(also, list) or not 1 <= len(also) <= 4 or not all(isinstance(x, str) and x.strip() for x in also):
             errors.append(f'{at}: "also" must be a list of 1 to 4 non-empty strings; leave it out if there is none')
@@ -167,6 +177,8 @@ def check(answer, sentences, first, last):
         elif set(s) == SENTENCE_KEYS:
             errors += check_line(s["line"], tokens, where)
             errors += check_units(s["words"], tokens, where)
+            errors += [f'{where} unit {u}: put the irregular forms in "forms", not in brackets in "base"'
+                       for u, unit in enumerate(s["words"]) if isinstance(unit, dict) and "(" in str(unit.get("base", ""))]
         else:
             errors.append(f"{where}: the keys must be {sorted(SENTENCE_KEYS)}; found {sorted(s)}")
     return errors
@@ -319,7 +331,8 @@ def show(book_dir, number, job):
                 print("  line: " + " | ".join(f"{span(c['t'])} = {c['es']}" for c in entry["line"]))
             print(f"  es:   {entry['es']}")
             for u in entry["units"]:
-                base = f" ({u['base']})" if "base" in u else ""
+                forms = ", ".join(f"{FORMS[k]} {v}" for k, v in u.get("forms", {}).items())
+                base = f" ({u['base']}" + (f"; {forms}" if forms else "") + ")" if "base" in u else ""
                 print(f"    {span(u['t'])}{base} = {u['es']}" + (f"\n        note: {u['note']}" if "note" in u else "")
                       + (f"\n        also: {' | '.join(u['also'])}" if "also" in u else ""))
             print()
