@@ -320,6 +320,23 @@ dialog form { text-align: right; }
   scrollbar-color: color-mix(in srgb, var(--muted) 45%, transparent) transparent;
 }
 .pop > * { flex: none; } /* when the panel is too tall, it scrolls; its parts keep their size */
+/* When the panel scrolls, its content fades out at an edge where there is more. The scroll position drives the fade;
+   without that feature, there is no fade. */
+.pop::before, .pop::after {
+  content: "";
+  position: sticky;
+  z-index: 1;
+  flex: none;
+  height: 2rem;
+  opacity: 0;
+  pointer-events: none;
+}
+.pop::before { top: 0; margin-bottom: calc(-2rem - 0.6rem); background: linear-gradient(var(--surface), transparent); }
+.pop::after { bottom: 0; margin-top: calc(-2rem - 0.6rem); background: linear-gradient(transparent, var(--surface)); }
+@keyframes pop-fade-in { to { opacity: 1; } }
+@keyframes pop-fade-out { from { opacity: 1; } }
+.pop::before { animation: pop-fade-in linear both; animation-timeline: scroll(); animation-range: 0 2rem; }
+.pop::after { animation: pop-fade-out linear both; animation-timeline: scroll(); animation-range: calc(100% - 2rem) 100%; }
 /* Wide screens: a card in the right margin, beside the text. It starts in the right padding of the text (1.25rem),
    so the margin needs 18rem or more. The text does not move. The card covers the note bubbles, so they hide while
    it is open. */
