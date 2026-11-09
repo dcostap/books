@@ -198,10 +198,17 @@ dialog form { text-align: right; }
 
 /* Saved words */
 
-.words-link { margin: 0 0.25rem 0 auto; padding: 0.5rem 0.9rem 0.5rem 0.7rem; font-size: 0.9rem; }
-.words-link svg { width: 18px; height: 18px; color: var(--accent); }
+.top-link { margin: 0 0.25rem 0 auto; padding: 0.5rem 0.75rem 0.5rem 0.6rem; gap: 0.35rem; font-size: 0.9rem; white-space: nowrap; }
+.top-link + .top-link { margin-left: 0; }
+.top-link svg { width: 18px; height: 18px; color: var(--accent); }
 @media (hover: hover) {
-  .words-link:hover { background: var(--line); }
+  .top-link:hover { background: var(--line); }
+}
+/* Two links beside the title fit a 360px screen */
+@media (max-width: 400px) {
+  .top h1 { margin: 0 0.5rem; }
+  .top-link { padding: 0.5rem 0.6rem 0.5rem 0.5rem; font-size: 0.85rem; }
+  .top-link svg { width: 16px; height: 16px; }
 }
 .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem; }
 .filters a { padding: 0.4rem 0.9rem; border: 1px solid var(--line); border-radius: 999px; font-size: 0.9rem; font-weight: 600; }
@@ -227,6 +234,13 @@ dialog form { text-align: right; }
 .word-where { color: var(--muted); font-size: 0.8rem; }
 .word-list .remove { position: absolute; top: 0.35rem; right: 0.35rem; color: var(--muted); }
 .empty { margin: 1.5rem 0.25rem; }
+
+/* Grammar: the concepts as cards that open */
+
+.concept-list { display: grid; gap: 0.6rem; margin-top: 1rem; font-size: 0.95rem; line-height: 1.45; }
+.concept-list .concept { padding: 0.75rem 1rem; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.concept-list summary span { margin-left: 0.35rem; color: var(--muted); font-size: 0.88em; font-weight: 400; }
+.concept-list .concept[open] summary { margin-bottom: 0.3rem; }
 .empty svg { display: inline; width: 1.1em; height: 1.1em; vertical-align: -0.2em; color: var(--accent); }
 .backup { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--line); }
 .backup p, .backup output { flex-basis: 100%; margin: 0; font-size: 0.9rem; }
@@ -401,7 +415,7 @@ dialog form { text-align: right; }
   line-height: 1.45;
 }
 /* English inside Spanish text: italic and tinted, so it stands out from the Spanish */
-.pop-note i, .pop-also i, .pop-concepts i { font-family: var(--serif); font-size: 1.05em; color: color-mix(in srgb, var(--accent) 60%, var(--fg)); }
+.pop-note i, .pop-also i, .concept i { font-family: var(--serif); font-size: 1.05em; color: color-mix(in srgb, var(--accent) 60%, var(--fg)); }
 .pop-gloss:empty, .pop-note:empty { display: none; }
 /* The concepts that the note links to, as footnotes; then the other meanings, set apart by a line */
 .pop-also { margin-top: 0.15rem; padding-top: 0.6rem; border-top: 1px solid var(--line); font-size: 0.95rem; line-height: 1.45; }
@@ -413,29 +427,29 @@ dialog form { text-align: right; }
 .pop-also .ex li { display: contents; }
 .pop-also .ex b { font-weight: 600; }
 .pop-also .ex i { display: block; }
-.pop-also ul, .pop-concepts ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
+.pop-also ul, .concept ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
 .concept-group { white-space: nowrap; }
 .concept-ref { padding: 0; border: 0; background: none; font: inherit; cursor: pointer; white-space: nowrap; text-decoration: underline dotted; text-underline-offset: 0.2em; color: var(--accent); }
 .concept-ref sup { margin-left: 0.1em; font-size: 0.7em; font-weight: 700; }
-.concept-ref svg, .pop-concepts summary svg { display: inline-block; width: 1.05em; height: 1.05em; margin-right: 0.2em; vertical-align: -0.15em; color: var(--accent); }
+.concept-ref svg, .concept summary svg { display: inline-block; width: 1.05em; height: 1.05em; margin-right: 0.2em; vertical-align: -0.15em; color: var(--accent); }
 .pop-concepts { display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.88rem; line-height: 1.45; }
 .pop-concepts:empty { display: none; }
-.pop-concepts details { padding-top: 0.35rem; border-top: 1px solid var(--line); }
-.pop-concepts summary { cursor: pointer; font-weight: 600; }
+.pop-concepts .concept { padding-top: 0.35rem; border-top: 1px solid var(--line); }
+.concept summary { cursor: pointer; font-weight: 600; }
 .pop-concepts summary sup { margin-right: 0.3rem; color: var(--accent); font-size: 0.75em; }
-.pop-concepts p { margin: 0.2rem 0 0; }
-.pop-concepts li span { color: var(--muted); }
-.pop-concepts li span::before { content: "— "; }
+.concept p { margin: 0.2rem 0 0; }
+.concept li span { color: var(--muted); }
+.concept li span::before { content: "— "; }
 /* Typical mistakes: "✗ wrong → right" */
-.pop-concepts .wrong { margin-top: 0.35rem; padding-left: 0; list-style: none; }
-.pop-concepts .wrong .bad { color: var(--muted); font-family: var(--serif); }
-.pop-concepts .wrong .bad::before { content: "✗ "; color: var(--bad); }
-.pop-concepts .wrong .bad s { color: var(--bad); text-decoration: none; }
-.pop-concepts .wrong .good { color: var(--fg); }
-.pop-concepts .wrong .to { color: var(--muted); }
-.pop-concepts .wrong .to::before { content: none; }
-.pop-concepts .wrong .good::before { content: "✓ "; color: var(--good); font-style: normal; font-weight: 700; }
-.pop-concepts .wrong .good b { color: var(--good); font-weight: 700; }
+.concept .wrong { margin-top: 0.35rem; padding-left: 0; list-style: none; }
+.concept .wrong .bad { color: var(--muted); font-family: var(--serif); }
+.concept .wrong .bad::before { content: "✗ "; color: var(--bad); }
+.concept .wrong .bad s { color: var(--bad); text-decoration: none; }
+.concept .wrong .good { color: var(--fg); }
+.concept .wrong .to { color: var(--muted); }
+.concept .wrong .to::before { content: none; }
+.concept .wrong .good::before { content: "✓ "; color: var(--good); font-style: normal; font-weight: 700; }
+.concept .wrong .good b { color: var(--good); font-weight: 700; }
 .pop-more { display: flex; align-items: center; gap: 0.25rem; align-self: flex-start; margin: -0.1rem 0 -0.1rem -0.2rem; padding: 0.3rem 0.4rem 0.3rem 0.1rem; border-radius: 8px; color: var(--accent); font-size: 0.95rem; font-weight: 600; }
 .pop-more svg { width: 22px; height: 22px; fill: currentColor; transition: transform 0.15s; }
 .pop-more[aria-expanded="true"] svg { transform: rotate(180deg); }

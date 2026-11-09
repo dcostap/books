@@ -57,6 +57,39 @@ function translationHTML(entry, unit) {
   return entry.line.map((c) => (ours(c) ? `<mark>${esc(c.es)}</mark>` : esc(c.es))).join(" ");
 }
 
+// Text with English in *asterisks*: the English in italics
+const rich = (text) => esc(text).replace(/\*(.+?)\*/g, "<i lang=\"en\">$1</i>");
+const capital = (text) => text.replace(/\p{L}/u, (x) => x.toUpperCase());
+
+// Two sentences with the words that differ marked: "I need an information." / "I need some information." marks
+// "an" in the first with the tag del and "some" in the second with the tag ins. Words match without case and punctuation.
+function wordDiff(a, b, del, ins) {
+  const x = a.split(" "), y = b.split(" "), key = (w) => w.toLowerCase().replace(/’/g, "'").replace(/[^\p{L}\p{N}']/gu, "");
+  const lcs = x.map(() => Array(y.length + 1).fill(0)).concat([Array(y.length + 1).fill(0)]);
+  for (let i = x.length - 1; i >= 0; i--)
+    for (let j = y.length - 1; j >= 0; j--)
+      lcs[i][j] = key(x[i]) === key(y[j]) ? lcs[i + 1][j + 1] + 1 : Math.max(lcs[i + 1][j], lcs[i][j + 1]);
+  const keepX = new Set(), keepY = new Set();
+  for (let i = 0, j = 0; i < x.length && j < y.length;) {
+    if (key(x[i]) === key(y[j])) { keepX.add(i++); keepY.add(j++); }
+    else if (lcs[i + 1][j] >= lcs[i][j + 1]) i++;
+    else j++;
+  }
+  // Neighbouring marked words share one mark, so a struck-through phrase has one line.
+  const mark = (words, keep, tag) => words.map((w, i) => keep.has(i) ? esc(w)
+    : `${keep.has(i - 1) || i === 0 ? `<${tag}>` : ""}${esc(w)}${keep.has(i + 1) || i === words.length - 1 ? `</${tag}>` : ""}`)
+    .join(" ");
+  return [mark(x, keepX, del), mark(y, keepY, ins)];
+}
+
+// A concept's explanation, examples and typical mistakes
+const conceptHTML = (c) => `<p>${rich(c.text)}</p>
+  <ul>${c.examples.map(([en, es]) => `<li><i lang="en">${esc(en)}</i> <span>${esc(es)}</span></li>`).join("")}</ul>
+  ${c.wrong ? `<ul class="wrong" lang="en">${c.wrong.map(([bad, good]) => {
+    const [badHTML, goodHTML] = wordDiff(bad, good, "s", "b");
+    return `<li><span class="bad">${badHTML}</span> <span class="to">→</span> <i class="good">${goodHTML}</i></li>`;
+  }).join("")}</ul>` : ""}`;
+
 // The base form with its irregular forms, each after a small label: "forma base put · pasado put · participio put".
 const FORMS = { past: "pasado", participle: "participio", plural: "plural", comparative: "comparativo", superlative: "superlativo" };
 const baseHTML = (base, forms = {}) => [["forma base", base], ...Object.entries(forms).map(([k, v]) => [FORMS[k] ?? k, v])]
@@ -119,17 +152,19 @@ function loadError(container, message) {
 const library = await fetchJSON("library.json").catch(() => null);
 // The ideas of English grammar that notes link to: { [id]: { name, en, text, examples: [[en, es]...], wrong: [[bad, good]...] } }
 let concepts = {};
-fetchJSON("concepts-es.json").then((c) => (concepts = c), () => {});
+const conceptsLoaded = fetchJSON("concepts-es.json").then((c) => (concepts = c));
+conceptsLoaded.catch(() => {});
 // The English dictionary that units link to with base and sense: { [word]: { forms, senses: [{ id, es, ex }...] } }
 let dictionary = {};
 fetchJSON("dictionary-en.json").then((d) => (dictionary = d), () => {});
 
 // Routing: #/ (library), #/<book> (chapters), #/<book>/<n> (reader), #/<book>/<n>/<word> (reader, open at a word),
-// #/words and #/words/<book> (saved words)
+// #/words and #/words/<book> (saved words), #/grammar (the concepts)
 
 let leave = () => {};
 let wordsFrom = "#/words"; // the word list page that opened the reader, for its back button
-const wordsLink = (href) => `<a class="button words-link" href="${href}">${icon("saved")}Mis palabras</a>`;
+const wordsLink = (href) => `<a class="button top-link" href="${href}">${icon("saved")}Mis palabras</a>`;
+const grammarLink = `<a class="button top-link" href="#/grammar">${icon("lesson")}Gramática</a>`;
 
 function route() {
   leave();
@@ -139,6 +174,7 @@ function route() {
   const chapter = book?.chapters.find((c) => c.n === Number(n));
   window.scrollTo(0, 0);
   if (bookId === "words") showWords(library.find((b) => b.id === n));
+  else if (bookId === "grammar") showGrammar();
   else if (chapter) leave = showReader(book, chapter, word ? Number(word) : -1);
   else if (book) showBook(book);
   else showLibrary();
@@ -154,7 +190,7 @@ if (library) {
 function showLibrary() {
   document.title = "Audiolibros";
   view.innerHTML = `
-    <header class="top"><h1>Biblioteca</h1>${wordsLink("#/words")}</header>
+    <header class="top"><h1>Biblioteca</h1>${wordsLink("#/words")}${grammarLink}</header>
     <div class="page">
       <ul class="books">${library.map((book) => `
         <li><a class="book-card" href="#/${book.id}">
@@ -298,6 +334,45 @@ function showWords(book) {
     } catch {
       $(".backup output").textContent = "Este archivo no es una copia de Mis palabras.";
     }
+  });
+}
+
+// All the concepts, by name, each folded. The search looks in the names, the text and the examples.
+function showGrammar() {
+  document.title = "Gramática";
+  view.innerHTML = `
+    <header class="top">
+      <a class="icon" href="#/" aria-label="Biblioteca">${icon("back")}</a>
+      <div class="top-title"><small></small><span>Gramática</span></div>
+    </header>
+    <div class="page">
+      <input class="search" type="search" placeholder="Buscar en inglés o en español" aria-label="Buscar">
+      <div class="concept-list"></div>
+      <p class="empty muted" hidden></p>
+    </div>`;
+  const $ = (selector) => view.querySelector(selector);
+  const page = $(".page");
+  const fold = (text) => text.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+  conceptsLoaded.then(() => {
+    if (!page.isConnected) return;
+    const plain = (c) => c.name.replaceAll("*", "");
+    const all = Object.values(concepts).sort((a, b) => plain(a).localeCompare(plain(b), "es"));
+    $(".top-title small").textContent = `${all.length} temas`;
+    $(".concept-list").innerHTML = all.map((c) => `<details class="concept">
+        <summary>${icon("lesson")}${rich(capital(c.name))}${fold(c.en) === fold(plain(c)) ? "" : `<span lang="en">${esc(c.en)}</span>`}</summary>
+        ${conceptHTML(c)}
+      </details>`).join("");
+    const cards = [...view.querySelectorAll(".concept")];
+    const texts = all.map((c) => fold([c.name, c.en, c.text, ...c.examples.flat(), ...(c.wrong ?? []).flat()].join(" ")));
+    $(".search").addEventListener("input", (e) => {
+      const query = fold(e.target.value.trim());
+      cards.forEach((card, k) => (card.hidden = !texts[k].includes(query)));
+      const none = cards.every((card) => card.hidden);
+      $(".empty").hidden = !none;
+      if (none) $(".empty").textContent = `Ningún tema coincide con «${e.target.value.trim()}».`;
+    });
+  }, () => {
+    if (page.isConnected) loadError(page, "No se pudo cargar la gramática. Comprueba tu conexión.");
   });
 }
 
@@ -863,8 +938,6 @@ function showReader(book, chapter, target) {
 
   const trim = (text) => text.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "");
   // Notes mark English words as *word*.
-  const rich = (text) => esc(text).replace(/\*(.+?)\*/g, "<i lang=\"en\">$1</i>");
-
   // A note, with each concept link ([[id]]) as the concept's name and a footnote number. A link to a concept that
   // is not in the dictionary goes away, with its brackets. Returns the html and the linked ids, in order.
   function noteHTML(note) {
@@ -880,40 +953,11 @@ function showReader(book, chapter, target) {
     return { html, ids };
   }
 
-  // Two sentences with the words that differ marked: "I need an information." / "I need some information." marks
-  // "an" in the first with the tag del and "some" in the second with the tag ins. Words match without case and punctuation.
-  function wordDiff(a, b, del, ins) {
-    const x = a.split(" "), y = b.split(" "), key = (w) => w.toLowerCase().replace(/’/g, "'").replace(/[^\p{L}\p{N}']/gu, "");
-    const lcs = x.map(() => Array(y.length + 1).fill(0)).concat([Array(y.length + 1).fill(0)]);
-    for (let i = x.length - 1; i >= 0; i--)
-      for (let j = y.length - 1; j >= 0; j--)
-        lcs[i][j] = key(x[i]) === key(y[j]) ? lcs[i + 1][j + 1] + 1 : Math.max(lcs[i + 1][j], lcs[i][j + 1]);
-    const keepX = new Set(), keepY = new Set();
-    for (let i = 0, j = 0; i < x.length && j < y.length;) {
-      if (key(x[i]) === key(y[j])) { keepX.add(i++); keepY.add(j++); }
-      else if (lcs[i + 1][j] >= lcs[i][j + 1]) i++;
-      else j++;
-    }
-    // Neighbouring marked words share one mark, so a struck-through phrase has one line.
-    const mark = (words, keep, tag) => words.map((w, i) => keep.has(i) ? esc(w)
-      : `${keep.has(i - 1) || i === 0 ? `<${tag}>` : ""}${esc(w)}${keep.has(i + 1) || i === words.length - 1 ? `</${tag}>` : ""}`)
-      .join(" ");
-    return [mark(x, keepX, del), mark(y, keepY, ins)];
-  }
-
   // The linked concepts as footnotes, folded: the reader opens one when they want it.
-  const footnotes = (ids) => ids.map((id, n) => {
-    const c = concepts[id];
-    return `<details>
-      <summary>${icon("lesson")}<sup>${n + 1}</sup>${rich(c.name.replace(/\p{L}/u, (x) => x.toUpperCase()))}</summary>
-      <p>${rich(c.text)}</p>
-      <ul>${c.examples.map(([en, es]) => `<li><i lang="en">${esc(en)}</i> <span>${esc(es)}</span></li>`).join("")}</ul>
-      ${c.wrong ? `<ul class="wrong" lang="en">${c.wrong.map(([bad, good]) => {
-        const [badHTML, goodHTML] = wordDiff(bad, good, "s", "b");
-        return `<li><span class="bad">${badHTML}</span> <span class="to">→</span> <i class="good">${goodHTML}</i></li>`;
-      }).join("")}</ul>` : ""}
-    </details>`;
-  }).join("");
+  const footnotes = (ids) => ids.map((id, n) => `<details class="concept">
+      <summary>${icon("lesson")}<sup>${n + 1}</sup>${rich(capital(concepts[id].name))}</summary>
+      ${conceptHTML(concepts[id])}
+    </details>`).join("");
 
   // A tap on a word: pause and show the popup. Play continues from the same place; "Escuchar desde aquí" starts
   // near the word.
