@@ -196,6 +196,7 @@ function showLibrary() {
         <li><a class="book-card" href="#/${book.id}">
           <img src="${book.cover}" alt="">
           <div>
+            <span class="level">${esc(book.level)}</span>
             <h2>${esc(book.title)}</h2>
             <p>${esc(book.author)}</p>
             <p class="muted">Narrado por ${esc(book.narrator)} · ${book.chapters.length} ${book.chapters.length === 1 ? "capítulo" : "capítulos"} · ${minutes(total(book))}</p>
@@ -223,6 +224,7 @@ function showBook(book) {
       <section class="hero">
         <img src="${book.cover}" alt="">
         <div>
+          <span class="level">${esc(book.level)}</span>
           <h1>${esc(book.title)}</h1>
           <p>${esc(book.author)}</p>
           <p class="muted">Narrado por ${esc(book.narrator)}</p>

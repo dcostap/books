@@ -2,6 +2,7 @@
   "title": "Harry Potter and the Philosopher's Stone",
   "author": "J.K. Rowling",
   "narrator": "Jim Dale",
+  "level": "B1–B2",
   "cover": "cover.jpg",
   "oldSentenceSplit": true,
   "source": { "pdf": "source/book.pdf", "end": "J. K. (JOANNE KATHLEEN) ROWLING" },

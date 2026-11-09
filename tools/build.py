@@ -7,7 +7,7 @@ For each books/<id>/book.json:
   - copies the chapter audio to site/books/<id>/<nn>.<ext> as it is (a second lossy encode loses quality)
   - merges the checked Spanish translations (books/<id>/<nn>/es/) into site/books/<id>/<nn>.es.json
   - copies the cover
-Then writes site/library.json, and site/concepts-es.json and site/dictionary-en.json from guides/.
+Then writes site/library.json (the books by level, easiest first), and site/concepts-es.json and site/dictionary-en.json from guides/.
 
 The text is the source of truth for what the reader sees. The timings come from words.json,
 which retime.py makes from text.md. If text.md changed after that, the build links each edited
@@ -151,8 +151,9 @@ def main():
                 print(f"  {untimed} tokens changed after the last retime; run tools/retime.py {book_dir.relative_to(ROOT)} {n}")
 
         library.append({"id": book_id, "title": book["title"], "author": book["author"],
-                        "narrator": book["narrator"], "cover": f"books/{book_id}/{book['cover']}",
+                        "narrator": book["narrator"], "level": book["level"], "cover": f"books/{book_id}/{book['cover']}",
                         "chapters": chapters})
+    library.sort(key=lambda b: b["level"])  # CEFR levels sort as text: A1–A2 before B1–B2
     (SITE / "library.json").write_text(json.dumps(library, ensure_ascii=False, indent=2) + "\n",
                                        encoding="utf-8", newline="\n")
     (SITE / "concepts-es.json").write_text(json.dumps(load_concepts(), ensure_ascii=False, separators=(",", ":")),

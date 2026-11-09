@@ -4,6 +4,7 @@
     "title": "Sherlock Holmes and the Duke's Son",
     "author": "Arthur Conan Doyle, retold by Jennifer Bassett",
     "narrator": "Richard Mitchly",
+    "level": "A1–A2",
     "cover": "books/duke/cover.jpg",
     "chapters": [
       {
@@ -25,6 +26,7 @@
     "title": "Harry Potter and the Philosopher's Stone",
     "author": "J.K. Rowling",
     "narrator": "Jim Dale",
+    "level": "B1–B2",
     "cover": "books/hp1/cover.jpg",
     "chapters": [
       {
