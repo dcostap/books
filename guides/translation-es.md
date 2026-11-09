@@ -129,7 +129,7 @@ The dictionary and concept links do not replace notes. The dictionary gives the 
 Write a note when a reader at this level would probably miss or misread something, or when there is something nice to learn:
 
 - **Idioms and phrasal verbs** whose meaning does not come from their words.
-- **False friends:** "sensible", "actually", "eventually", "embarrassed".
+- **False friends,** basic words too: "large" (not «largo»), "sensible", "actually", "embarrassed".
 - **British life and culture:** food, school, money, manners, places.
 - **Wordplay, invented words, names with a meaning, and words with an interesting origin.**
 - **Register:** very informal, old-fashioned, rude, or children's words.
@@ -143,7 +143,7 @@ Write a note when a reader at this level would probably miss or misread somethin
 
 Do not write a note when:
 
-- The reader knows the word at this level, or the gloss says everything.
+- The reader knows the word at this level, or the gloss says everything. A false friend is an exception: it always gets a note.
 - The word looks like a Spanish word and means the same: "director", "mysterious".
 - Spanish says it the same way: "talked and talked" = *hablaban y hablaban*. The reader understands it without help.
 - The note only explains the Spanish, not the English.
@@ -251,7 +251,11 @@ When you finish, reply with:
 
 ## Reviewer
 
-A reviewer gets the same files and a task, for example "review jobs 1 to 3 and correct them" or "only list spoilers, do not edit". Check what the task asks for, against this guide and the book notes. Also check across the jobs, because each translator saw only their own job:
+A reviewer gets the same files and a task, for example "review jobs 1 to 3 and correct them" or "only list spoilers, do not edit". Unless the task makes it smaller, review everything: every point of step 4 above, for every sentence, against this guide and the book notes.
+
+Look for what is missing, not only for what is wrong: a correct gloss can hide a missing note. For every English word, ask: would a reader at this level trip here without a note?
+
+Also check across the jobs, because each translator saw only their own job:
 
 - The same expression has the same gloss and dictionary link, unless the meaning changes.
 - Glosses that copy a free word from the line instead of the meaning of the English word.
