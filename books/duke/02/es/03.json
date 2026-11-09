@@ -140,7 +140,7 @@
       "words": [
         {"t": [0], "es": "sí", "base": "yes", "sense": "agreement"},
         {"t": [1], "es": "una"},
-        {"t": [2], "es": "carta", "base": "letter", "sense": "message"}
+        {"t": [2], "es": "carta", "base": "letter", "sense": "message", "note": "Ojo: *letter* es «carta», y también «letra» del alfabeto ([[false-friends]])."}
       ]
     },
     {
@@ -159,7 +159,7 @@
         {"t": [0, 2], "es": "abre", "base": "open", "sense": "unclose", "note": "*Do* forma la pregunta. El verbo principal queda en su forma base ([[auxiliary-do]])."},
         {"t": [1], "es": "usted"},
         {"t": [3, 4], "es": "de los niños", "base": "boy", "sense": "child", "note": "El apóstrofo tras un plural acabado en *-s* indica posesión: *the boys’ letters* = «las cartas de los niños» ([[possessive-s]])."},
-        {"t": [5], "es": "cartas", "base": "letter", "sense": "message"},
+        {"t": [5], "es": "cartas", "base": "letter", "sense": "message", "note": "Ojo: *letter* es «carta», y también «letra» del alfabeto ([[false-friends]])."},
         {"t": [6], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
         {"t": [7], "es": "Huxtable"}
       ]
@@ -183,7 +183,7 @@
         {"t": [2, 4], "es": "sabe", "base": "know", "sense": "information", "note": "*Do* ayuda a formar la pregunta y no se traduce por «hacer» ([[auxiliary-do]])."},
         {"t": [3], "es": "usted"},
         {"t": [5], "es": "que"},
-        {"t": [6, 7], "es": "la carta", "base": "letter", "sense": "message"},
+        {"t": [6, 7], "es": "la carta", "base": "letter", "sense": "message", "note": "Ojo: *letter* es «carta», y también «letra» del alfabeto ([[false-friends]])."},
         {"t": [8], "es": "era", "base": "be", "sense": "identity"},
         {"t": [9, 10, 11], "es": "del padre", "base": "father", "sense": "parent"}
       ]
@@ -215,7 +215,7 @@
         {"t": [3], "es": "que"},
         {"t": [4], "es": "él"},
         {"t": [5], "es": "escribió", "base": "write", "sense": "text"},
-        {"t": [6, 7], "es": "una carta", "base": "letter", "sense": "message"},
+        {"t": [6, 7], "es": "una carta", "base": "letter", "sense": "message", "note": "Ojo: *letter* es «carta», y también «letra» del alfabeto ([[false-friends]])."},
         {"t": [8, 9, 10], "es": "a su hijo", "base": "son", "sense": "family"}
       ]
     },
@@ -292,7 +292,7 @@
         {"t": [1], "es": "porque"},
         {"t": [2], "es": "él"},
         {"t": [3], "es": "tenía", "base": "have", "sense": "possess", "note": "Aquí «había recibido» suena más natural en español. *Had* por sí solo es el pasado de *have*: «tenía»."},
-        {"t": [4, 5], "es": "una carta", "base": "letter", "sense": "message"},
+        {"t": [4, 5], "es": "una carta", "base": "letter", "sense": "message", "note": "Ojo: *letter* es «carta», y también «letra» del alfabeto ([[false-friends]])."},
         {"t": [6, 7], "es": "de Francia"},
         {"t": [8], "es": "quizá", "base": "perhaps", "sense": "possibility"}
       ]
@@ -322,7 +322,7 @@
         {"t": [0], "es": "él"},
         {"t": [1], "es": "solo", "base": "only", "sense": "just"},
         {"t": [2], "es": "tenía", "base": "have", "sense": "possess"},
-        {"t": [3], "es": "cartas", "base": "letter", "sense": "message"},
+        {"t": [3], "es": "cartas", "base": "letter", "sense": "message", "note": "Ojo: *letter* es «carta», y también «letra» del alfabeto ([[false-friends]])."},
         {"t": [4, 5, 6], "es": "de su padre", "base": "father", "sense": "parent"},
         {"t": [7], "es": "yo"},
         {"t": [8], "es": "creo", "base": "think", "sense": "believe"}
@@ -506,7 +506,7 @@
         {"t": [7, 8, 9, 10], "es": "¿dónde está ahora?»."}
       ],
       "words": [
-        {"t": [0, 2], "es": "esa carta", "base": "letter", "sense": "message"},
+        {"t": [0, 2], "es": "esa carta", "base": "letter", "sense": "message", "note": "Ojo: *letter* es «carta», y también «letra» del alfabeto ([[false-friends]])."},
         {"t": [1], "es": "última", "base": "last", "sense": "latest"},
         {"t": [3, 4, 5], "es": "del duque", "base": "duke", "sense": "noble", "note": "Tras *of*, el inglés puede mantener el posesivo: *a letter of the Duke’s* = «una carta del duque» ([[possessive-s]])."},
         {"t": [7], "es": "dónde"},

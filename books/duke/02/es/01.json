@@ -282,7 +282,7 @@
         {"t": [2, 3, 4], "es": "a su dormitorio", "base": "bedroom", "sense": "room"},
         {"t": [5], "es": "es", "base": "be", "sense": "identity", "note": "Aquí, *the way is through* indica por dónde se pasa: «para llegar hay que pasar por»."},
         {"t": [6, 7, 9], "es": "por otra habitación", "base": "room", "sense": "building", "note": "*Through* indica que atraviesas el interior de algo: entras por un lado y sales por otro."},
-        {"t": [8], "es": "más grande", "base": "large", "sense": "size", "note": "El final *-er* forma el comparativo: *larger* = «más grande» ([[comparatives]])."}
+        {"t": [8], "es": "más grande", "base": "large", "sense": "size", "note": "El final *-er* forma el comparativo ([[comparatives]]). Ojo: no es «más largo», que sería *longer* ([[false-friends]])."}
       ]
     },
     {
