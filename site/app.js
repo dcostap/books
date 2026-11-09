@@ -661,6 +661,15 @@ function showReader(book, chapter, target) {
     playButton.setAttribute("aria-label", playing ? "Pausa" : "Reproducir");
     cancelAnimationFrame(frame);
     if (playing) frame = requestAnimationFrame(tick);
+    keepScreenOn(playing);
+  }
+
+  // Keep the screen on while the audio plays. The browser drops the lock when the page is hidden.
+  let wakeLock = null; // a promise of the lock
+  function keepScreenOn(keep) {
+    if (keep === Boolean(wakeLock)) return;
+    if (keep) wakeLock = navigator.wakeLock?.request("screen").catch(() => null) ?? null;
+    else { wakeLock.then((lock) => lock?.release()); wakeLock = null; }
   }
 
   on(audio, "play", () => {
@@ -1007,13 +1016,17 @@ function showReader(book, chapter, target) {
   }
 
   on(window, "pagehide", () => saveProgress(true));
-  on(document, "visibilitychange", () => document.hidden && saveProgress(true));
+  on(document, "visibilitychange", () => {
+    if (document.hidden) saveProgress(true);
+    else { wakeLock = null; keepScreenOn(!audio.paused); }
+  });
 
   return () => {
     saveProgress(true);
     signal.abort();
     resized.disconnect();
     cancelAnimationFrame(frame);
+    keepScreenOn(false);
     audio.pause();
     audio.removeAttribute("src");
     audio.load();
