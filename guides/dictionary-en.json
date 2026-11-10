@@ -215,6 +215,26 @@
       }
     ]
   },
+  "along": {
+    "senses": [
+      {
+        "id": "line",
+        "es": "por, a lo largo de",
+        "ex": [
+          "We walked along the river.",
+          "Paseamos a lo largo del río."
+        ]
+      },
+      {
+        "id": "onward",
+        "es": "hacia delante",
+        "ex": [
+          "Walk along to the next shop.",
+          "Sigue andando hasta la tienda de al lado."
+        ]
+      }
+    ]
+  },
   "already": {
     "senses": [
       {
@@ -911,6 +931,30 @@
       }
     ]
   },
+  "bring back": {
+    "forms": {
+      "past": "brought back",
+      "participle": "brought back"
+    },
+    "senses": [
+      {
+        "id": "return",
+        "es": "traer de vuelta",
+        "ex": [
+          "Please bring my bike back.",
+          "Por favor, devuélveme la bici."
+        ]
+      },
+      {
+        "id": "memory",
+        "es": "recordar",
+        "ex": [
+          "This song brings back memories.",
+          "Esta canción me hace recordar."
+        ]
+      }
+    ]
+  },
   "browny-red": {
     "senses": [
       {
@@ -1301,6 +1345,14 @@
         "ex": [
           "These chairs come in green.",
           "Estas sillas están disponibles en verde."
+        ]
+      },
+      {
+        "id": "encouragement",
+        "es": "vamos, venga",
+        "ex": [
+          "Come, you can do it!",
+          "¡Vamos, puedes hacerlo!"
         ]
       }
     ]
@@ -2684,6 +2736,22 @@
       }
     ]
   },
+  "get onto": {
+    "forms": {
+      "past": "got onto",
+      "participle": "got onto (US gotten onto)"
+    },
+    "senses": [
+      {
+        "id": "mount",
+        "es": "subirse a",
+        "ex": [
+          "Get onto the bus quickly.",
+          "Súbete al autobús rápido."
+        ]
+      }
+    ]
+  },
   "get out": {
     "forms": {
       "past": "got out",
@@ -3439,6 +3507,22 @@
       }
     ]
   },
+  "have on": {
+    "forms": {
+      "past": "had on",
+      "participle": "had on"
+    },
+    "senses": [
+      {
+        "id": "wear",
+        "es": "llevar puesto",
+        "ex": [
+          "She had a red coat on.",
+          "Llevaba puesto un abrigo rojo."
+        ]
+      }
+    ]
+  },
   "head": {
     "senses": [
       {
@@ -4143,6 +4227,18 @@
         "ex": [
           "He's on leave this week.",
           "Esta semana está de permiso."
+        ]
+      }
+    ]
+  },
+  "left": {
+    "senses": [
+      {
+        "id": "direction",
+        "es": "izquierda, izquierdo",
+        "ex": [
+          "Turn left at the bridge.",
+          "Gira a la izquierda en el puente."
         ]
       }
     ]
@@ -5905,6 +6001,42 @@
       }
     ]
   },
+  "over": {
+    "senses": [
+      {
+        "id": "above",
+        "es": "encima de",
+        "ex": [
+          "A lamp hangs over the table.",
+          "Una lámpara cuelga encima de la mesa."
+        ]
+      },
+      {
+        "id": "more-than",
+        "es": "más de",
+        "ex": [
+          "There were over twenty people.",
+          "Había más de veinte personas."
+        ]
+      },
+      {
+        "id": "finished",
+        "es": "terminado",
+        "ex": [
+          "The lesson is over.",
+          "La clase ha terminado."
+        ]
+      },
+      {
+        "id": "destination",
+        "es": "hasta allí",
+        "ex": [
+          "She walked over to help.",
+          "Se acercó andando para ayudar."
+        ]
+      }
+    ]
+  },
   "over there": {
     "senses": [
       {
@@ -6527,6 +6659,14 @@
         "ex": [
           "Right, let's start the meeting.",
           "Bien, vamos a empezar la reunión."
+        ]
+      },
+      {
+        "id": "completely",
+        "es": "justo, de lleno",
+        "ex": [
+          "The car went right into the river.",
+          "El coche se metió de lleno en el río."
         ]
       }
     ]
@@ -7206,6 +7346,18 @@
       }
     ]
   },
+  "so far so good": {
+    "senses": [
+      {
+        "id": "progress",
+        "es": "de momento, todo bien",
+        "ex": [
+          "So far so good, but we must hurry.",
+          "De momento, todo bien, pero hay que darse prisa."
+        ]
+      }
+    ]
+  },
   "sock": {
     "senses": [
       {
@@ -7678,6 +7830,22 @@
       }
     ]
   },
+  "take a look at": {
+    "forms": {
+      "past": "took a look at",
+      "participle": "taken a look at"
+    },
+    "senses": [
+      {
+        "id": "look",
+        "es": "echar un vistazo a",
+        "ex": [
+          "Take a look at this photo.",
+          "Echa un vistazo a esta foto."
+        ]
+      }
+    ]
+  },
   "take away": {
     "forms": {
       "past": "took away",
@@ -8006,6 +8174,18 @@
         "ex": [
           "I'm thinking about moving house.",
           "Me estoy planteando mudarme."
+        ]
+      }
+    ]
+  },
+  "thinking": {
+    "senses": [
+      {
+        "id": "reasoning",
+        "es": "razonamiento",
+        "ex": [
+          "Her thinking is very clear.",
+          "Su razonamiento es muy claro."
         ]
       }
     ]
@@ -8754,6 +8934,26 @@
         "ex": [
           "Wet the cloth first.",
           "Moja el paño primero."
+        ]
+      }
+    ]
+  },
+  "what": {
+    "senses": [
+      {
+        "id": "question",
+        "es": "qué",
+        "ex": [
+          "What do you want?",
+          "¿Qué quieres?"
+        ]
+      },
+      {
+        "id": "thing",
+        "es": "lo que",
+        "ex": [
+          "Tell me what you saw.",
+          "Dime lo que viste."
         ]
       }
     ]

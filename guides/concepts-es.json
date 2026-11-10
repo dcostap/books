@@ -213,5 +213,40 @@
     "text": "Con *something*, *nothing*, *anything* y *somebody*, el adjetivo va detrás, no delante: *nothing new*, «nada nuevo». Es el orden del español, al revés de la regla normal del inglés.",
     "examples": [["I saw something strange.", "Vi algo raro."], ["Is there anything new?", "¿Hay algo nuevo?"], ["There's nothing interesting here.", "Aquí no hay nada interesante."]],
     "wrong": [["I saw strange something.", "I saw something strange."]]
+  },
+  "be-questions": {
+    "name": "preguntas con *be*",
+    "en": "questions with be",
+    "text": "Con *be* (*am*, *is*, *are*, *was*, *were*), la pregunta pone el verbo delante del sujeto y no usa *do*. El español solo cambia la entonación.",
+    "examples": [["Is it your bag?", "¿Es tu bolso?"], ["Are they the same?", "¿Son iguales?"], ["Was he at home?", "¿Estaba en casa?"]],
+    "wrong": [["Does it is your bag?", "Is it your bag?"], ["They are the same?", "Are they the same?"]]
+  },
+  "one-substitution": {
+    "name": "*one* en lugar de un sustantivo",
+    "en": "one as a substitute",
+    "text": "Para no repetir un sustantivo contable, el inglés usa *one* (o *ones* en plural): *the red one*, «el rojo». El español simplemente omite el sustantivo.",
+    "examples": [["I like the blue one.", "Me gusta el azul."], ["Which one is yours?", "¿Cuál es el tuyo?"], ["The new ones are better.", "Los nuevos son mejores."]],
+    "wrong": [["I like the blue.", "I like the blue one."]]
+  },
+  "for-duration": {
+    "name": "*for* con tiempo y distancia",
+    "en": "for with time and distance",
+    "text": "*For* con un periodo de tiempo o una distancia dice cuánto dura algo: *for two hours*, «durante dos horas». Aquí *for* no significa «para».",
+    "examples": [["We waited for ten minutes.", "Esperamos diez minutos."], ["She lived there for a year.", "Vivió allí durante un año."], ["We walked for five kilometres.", "Caminamos cinco kilómetros."]],
+    "wrong": [["I waited during two hours.", "I waited for two hours."]]
+  },
+  "adjectives-adverbs": {
+    "name": "adjetivos y adverbios",
+    "en": "adjectives and adverbs",
+    "text": "El adjetivo describe a una persona o una cosa: *a hard job*. El adverbio describe una acción: *hit hard*, «golpear con fuerza». Muchos adverbios terminan en *-ly* (*quiet* → *quietly*), pero algunos tienen la misma forma que el adjetivo: *hard*, *fast*, *early*.",
+    "examples": [["He is a fast runner.", "Es un corredor rápido."], ["He runs fast.", "Corre deprisa."], ["She speaks quietly.", "Habla en voz baja."]],
+    "wrong": [["She speaks quiet.", "She speaks quietly."], ["He runs fastly.", "He runs fast."]]
+  },
+  "ing-nouns": {
+    "name": "sustantivos en *-ing*",
+    "en": "-ing nouns",
+    "text": "Una forma en *-ing* puede ser un sustantivo: nombra una actividad o una idea. Puede ir con *my* o *the*, ser sujeto o ir detrás de una preposición. El español suele usar un infinitivo o un sustantivo.",
+    "examples": [["Swimming is good for you.", "Nadar es bueno para ti."], ["Thanks for coming.", "Gracias por venir."], ["His thinking was wrong.", "Su razonamiento estaba equivocado."]],
+    "wrong": [["Thanks for come.", "Thanks for coming."]]
   }
 }

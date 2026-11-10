@@ -1,0 +1,508 @@
+{
+  "sentences": [
+    {
+      "id": 34,
+      "line": [
+        {"t": [0, 1], "es": "«Eh, no»,"},
+        {"t": [2, 3], "es": "dije."}
+      ],
+      "words": [
+        {"t": [0], "es": "eh", "base": "er", "sense": "hesitation", "note": "*Er* representa el sonido que haces mientras piensas qué decir. En EE. UU. suele escribirse *uh* ([[british-american]])."},
+        {"t": [1], "es": "no", "base": "no", "sense": "answer"},
+        {"t": [2], "es": "yo"},
+        {"t": [3], "es": "dije", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 35,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Un neumático deja"},
+        {"t": [3, 4, 5], "es": "una huella más profunda»."}
+      ],
+      "words": [
+        {"t": [0], "es": "un, uno"},
+        {"t": [1], "es": "neumático", "base": "tyre", "sense": "wheel", "note": "Ortografía británica; en EE. UU., *tire* ([[british-american]])."},
+        {"t": [2], "es": "hace", "base": "make", "sense": "create", "note": "*Make a track* es «hacer una huella». En español decimos de forma más natural «dejar una huella»."},
+        {"t": [3, 5], "es": "una huella", "base": "track", "sense": "mark"},
+        {"t": [4], "es": "más profunda", "base": "deep", "sense": "depth", "note": "La terminación *-er* forma el comparativo: añade la idea de «más» ([[comparatives]])."}
+      ]
+    },
+    {
+      "id": 36,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Y esa es la rueda trasera»,"},
+        {"t": [5, 6], "es": "dijo Holmes,"},
+        {"t": [7, 8, 9], "es": "«porque el ciclista,"},
+        {"t": [10, 11], "es": "por supuesto,"},
+        {"t": [12, 13, 14, 15, 16], "es": "va sentado encima de la rueda trasera."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "esa es", "base": "be", "sense": "identity", "note": "*That’s* es *that is*: «esa es» ([[contractions]])."},
+        {"t": [2, 4], "es": "la rueda", "base": "wheel", "sense": "round"},
+        {"t": [3], "es": "trasera", "base": "back", "sense": "rear"},
+        {"t": [5], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [6], "es": "Holmes"},
+        {"t": [7], "es": "porque"},
+        {"t": [8, 9], "es": "el ciclista", "base": "rider", "sense": "bicycle"},
+        {"t": [10, 11], "es": "por supuesto", "base": "of course", "sense": "obvious", "note": "Es una expresión fija: no habla de un «curso»."},
+        {"t": [12], "es": "está sentado", "base": "sit", "sense": "seated"},
+        {"t": [13, 14, 16], "es": "encima de la rueda", "base": "wheel", "sense": "round"},
+        {"t": [15], "es": "trasera", "base": "back", "sense": "rear"}
+      ]
+    },
+    {
+      "id": 37,
+      "line": [
+        {"t": [0, 1, 2], "es": "La huella más profunda"},
+        {"t": [3, 4, 5, 6, 7], "es": "es la que queda encima,"},
+        {"t": [8, 9, 10], "es": "así que esta bicicleta"},
+        {"t": [11, 12, 13, 14, 15, 16], "es": "cruzó el páramo en esa dirección,"},
+        {"t": [17, 18, 19, 20], "es": "alejándose del colegio."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "la huella", "base": "track", "sense": "mark"},
+        {"t": [1], "es": "más profunda", "base": "deep", "sense": "depth", "note": "*Deep* añade *-er* para comparar: «más profunda» ([[comparatives]])."},
+        {"t": [3], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [4, 5], "es": "la que", "note": "Aquí *one* sustituye a *track*, para no repetir el sustantivo. No indica el número uno ([[one-substitution]])."},
+        {"t": [6, 7], "es": "encima", "base": "on top", "sense": "above"},
+        {"t": [8], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [9, 10], "es": "esta bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [11], "es": "fue", "base": "go", "sense": "move", "note": "Con *across*, *went* indica que cruzó el páramo. Por eso la frase dice «cruzó»."},
+        {"t": [12, 13], "es": "en esa dirección", "base": "way", "sense": "path"},
+        {"t": [14, 15, 16], "es": "a través del páramo", "base": "moor", "sense": "land"},
+        {"t": [17, 18], "es": "en dirección contraria a", "base": "away", "sense": "distance", "note": "Con un verbo de movimiento, *away from* indica que te alejas de un lugar."},
+        {"t": [19, 20], "es": "el colegio", "base": "school", "sense": "education"}
+      ]
+    },
+    {
+      "id": 38,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Pero ¿quién era el ciclista?"}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "quién"},
+        {"t": [2], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [3, 4], "es": "el ciclista", "base": "rider", "sense": "bicycle"}
+      ]
+    },
+    {
+      "id": 39,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "¿De dónde venía?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "dónde", "base": "where", "sense": "question"},
+        {"t": [1, 3, 4], "es": "venía de", "base": "come from", "sense": "source", "note": "En la pregunta, *did* va delante del sujeto y *from* queda al final: *Where did he come from?* ([[auxiliary-do]])."},
+        {"t": [2], "es": "él"}
+      ]
+    },
+    {
+      "id": 40,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Seguimos la huella Dunlop en sentido contrario,"},
+        {"t": [6, 7, 8, 9], "es": "casi hasta Ragged Shaw."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "seguimos", "base": "follow", "sense": "go-after"},
+        {"t": [2, 4], "es": "la huella", "base": "track", "sense": "mark"},
+        {"t": [3], "es": "Dunlop"},
+        {"t": [5], "es": "de vuelta", "base": "back", "sense": "return", "note": "Aquí *back* indica que siguen la huella hacia el lugar de donde venía la bicicleta."},
+        {"t": [6], "es": "casi", "base": "nearly", "sense": "almost"},
+        {"t": [7, 8, 9], "es": "hasta Ragged Shaw", "note": "*Shaw* es una palabra antigua para un bosquecillo; *ragged* significa «irregular, desigual»."}
+      ]
+    },
+    {
+      "id": 41,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Después la perdimos"},
+        {"t": [4, 5, 6, 7], "es": "entre unas huellas de vaca."}
+      ],
+      "words": [
+        {"t": [0], "es": "después", "base": "then", "sense": "next"},
+        {"t": [1], "es": "nosotros"},
+        {"t": [2], "es": "perdimos", "base": "lose", "sense": "loss"},
+        {"t": [3], "es": "la"},
+        {"t": [4, 5, 7], "es": "entre unas huellas", "base": "track", "sense": "mark", "note": "*Some* indica una cantidad sin precisar, aquí «unas» ([[some-any]])."},
+        {"t": [6], "es": "de vaca", "base": "cow", "sense": "animal", "note": "En *cow tracks*, el primer sustantivo describe al segundo: huellas de vaca ([[noun-as-adjective]])."}
+      ]
+    },
+    {
+      "id": 42,
+      "line": [
+        {"t": [0, 1, 2], "es": "Holmes se sentó"},
+        {"t": [3, 4], "es": "y pensó"},
+        {"t": [5, 6, 7], "es": "durante unos minutos."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1, 2], "es": "se sentó", "base": "sit down", "sense": "seat", "note": "*Sit down* expresa la acción de sentarse; *sit* también puede indicar que ya estás sentado ([[phrasal-verbs]])."},
+        {"t": [3], "es": "y"},
+        {"t": [4], "es": "pensó", "base": "think", "sense": "consider"},
+        {"t": [5, 6, 7], "es": "durante unos minutos", "base": "minute", "sense": "time", "note": "Con una duración, *for* significa «durante», no «para» ([[for-duration]]). *Some* indica una cantidad sin precisar ([[some-any]])."}
+      ]
+    },
+    {
+      "id": 43,
+      "line": [
+        {"t": [0], "es": "«No»,"},
+        {"t": [1, 2], "es": "dijo,"},
+        {"t": [3, 4], "es": "levantándose."}
+      ],
+      "words": [
+        {"t": [0], "es": "no", "base": "no", "sense": "answer"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3, 4], "es": "levantándose", "base": "get up", "sense": "rise", "note": "*Get up* también significa levantarse de donde estás sentado, no solo de la cama ([[phrasal-verbs]])."}
+      ]
+    },
+    {
+      "id": 44,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«Por ahora tenemos que dejar esta cuestión."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1, 2], "es": "tenemos que dejar", "base": "leave", "sense": "remain", "note": "El modal *must* indica necesidad y va con el verbo sin *to*: *must leave* ([[modal-verbs]])."},
+        {"t": [3, 4], "es": "esta cuestión", "base": "question", "sense": "issue", "note": "*Question* también puede ser un asunto que hay que resolver, no solo una pregunta."},
+        {"t": [5, 6], "es": "por ahora", "base": "for now", "sense": "present"}
+      ]
+    },
+    {
+      "id": 45,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "¡Volvamos al barro"},
+        {"t": [4, 5, 6], "es": "junto al río,"},
+        {"t": [7], "es": "Watson!»."}
+      ],
+      "words": [
+        {"t": [0], "es": "de vuelta", "base": "back", "sense": "return", "note": "Aquí no hay verbo: *Back to…!* es una forma breve de decir «¡Volvamos a…!»."},
+        {"t": [1, 2, 3], "es": "al barro", "base": "mud", "sense": "earth"},
+        {"t": [4, 5, 6], "es": "junto al río", "base": "river", "sense": "water"},
+        {"t": [7], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 46,
+      "line": [
+        {"t": [0, 1, 2], "es": "Dos horas después,"},
+        {"t": [3, 4, 5, 6, 7], "es": "Holmes lanzó un grito de alegría."}
+      ],
+      "words": [
+        {"t": [0], "es": "dos"},
+        {"t": [1], "es": "horas", "base": "hour", "sense": "time"},
+        {"t": [2], "es": "después", "base": "later", "sense": "after"},
+        {"t": [3], "es": "Holmes"},
+        {"t": [4], "es": "lanzó", "base": "give", "sense": "utter", "note": "Con *cry*, *give* no significa entregar algo: *give a cry* es «lanzar un grito»."},
+        {"t": [5, 7], "es": "un grito", "base": "cry", "sense": "sound"},
+        {"t": [6], "es": "alegre", "base": "happy", "sense": "feeling"}
+      ]
+    },
+    {
+      "id": 47,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Fui enseguida corriendo hasta él"},
+        {"t": [6, 7, 8, 9, 10, 11, 12, 13], "es": "y bajé la mirada hacia una huella larga y fina"},
+        {"t": [14, 15, 16], "es": "en el barro."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "rápidamente", "base": "quickly", "sense": "speed"},
+        {"t": [2], "es": "corrí", "base": "run", "sense": "move"},
+        {"t": [3], "es": "hasta allí", "base": "over", "sense": "destination", "note": "Con un verbo de movimiento, *over* puede indicar que vas hasta otro lugar; no siempre significa «por encima»."},
+        {"t": [4, 5], "es": "hasta él"},
+        {"t": [6], "es": "y"},
+        {"t": [7, 9], "es": "miré", "base": "look at", "sense": "watch", "note": "*Look at* indica qué miras. Aquí *down* se coloca entre el verbo y *at*."},
+        {"t": [8], "es": "hacia abajo", "base": "down", "sense": "direction"},
+        {"t": [10, 13], "es": "una huella", "base": "track", "sense": "mark"},
+        {"t": [11], "es": "larga", "base": "long", "sense": "length"},
+        {"t": [12], "es": "fina", "base": "thin", "sense": "thickness"},
+        {"t": [14, 15, 16], "es": "en el barro", "base": "mud", "sense": "earth"}
+      ]
+    },
+    {
+      "id": 48,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Era el neumático Palmer."}
+      ],
+      "words": [
+        {"t": [0], "es": "esa, esa huella"},
+        {"t": [1], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [2, 4], "es": "el neumático", "base": "tyre", "sense": "wheel", "note": "Ortografía británica; en EE. UU., *tire* ([[british-american]])."},
+        {"t": [3], "es": "Palmer"}
+      ]
+    },
+    {
+      "id": 49,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¡Aquí está Heidegger!»,"},
+        {"t": [3, 4], "es": "gritó Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "aquí", "base": "here", "sense": "place"},
+        {"t": [1], "es": "está", "base": "be", "sense": "state", "note": "Con *here*, el verbo va delante del nombre: *Here is Heidegger*, «Aquí está Heidegger» ([[locative-inversion]])."},
+        {"t": [2], "es": "Heidegger"},
+        {"t": [3], "es": "gritó", "base": "cry", "sense": "shout", "note": "Al introducir palabras dichas en voz alta, *cry* no significa «llorar»."},
+        {"t": [4], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 50,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Sigámoslo,"},
+        {"t": [3], "es": "Watson»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "sigamos", "base": "follow", "sense": "go-after", "note": "*Let’s* es *let us* ([[contractions]]). *Let’s* + verbo propone hacer algo juntos: «vamos a…»."},
+        {"t": [2], "es": "lo, a él"},
+        {"t": [3], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 51,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "A lo largo de un kilómetro o más"},
+        {"t": [5, 6, 7, 8, 9], "es": "seguimos el rastro del neumático Palmer"},
+        {"t": [10, 11, 12, 13], "es": "hacia el norte por el páramo,"},
+        {"t": [14, 15, 16], "es": "perdiendo la huella,"},
+        {"t": [17, 18, 19], "es": "encontrándola de nuevo,"},
+        {"t": [20, 21], "es": "perdiéndola"},
+        {"t": [22, 23, 24], "es": "y encontrándola."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "a lo largo de un kilómetro", "base": "kilometre", "sense": "distance", "note": "Con una distancia, *for* indica cuánto recorren, no «para» ([[for-duration]]). Ortografía británica; en EE. UU., *kilometer* ([[british-american]])."},
+        {"t": [3], "es": "o"},
+        {"t": [4], "es": "más", "base": "more", "sense": "quantity"},
+        {"t": [5], "es": "nosotros"},
+        {"t": [6], "es": "seguimos", "base": "follow", "sense": "go-after"},
+        {"t": [7, 9], "es": "el neumático", "base": "tyre", "sense": "wheel", "note": "Ortografía británica; en EE. UU., *tire* ([[british-american]])."},
+        {"t": [8], "es": "Palmer"},
+        {"t": [10], "es": "hacia el norte", "base": "north", "sense": "direction"},
+        {"t": [11, 12, 13], "es": "a través del páramo", "base": "moor", "sense": "land"},
+        {"t": [14], "es": "perdiendo", "base": "lose", "sense": "loss"},
+        {"t": [15, 16], "es": "la huella", "base": "track", "sense": "mark"},
+        {"t": [17], "es": "encontrando", "base": "find", "sense": "discover"},
+        {"t": [18], "es": "la"},
+        {"t": [19], "es": "de nuevo", "base": "again", "sense": "repeat"},
+        {"t": [20], "es": "perdiendo", "base": "lose", "sense": "loss"},
+        {"t": [21], "es": "la"},
+        {"t": [22], "es": "y"},
+        {"t": [23], "es": "encontrando", "base": "find", "sense": "discover"},
+        {"t": [24], "es": "la"}
+      ]
+    },
+    {
+      "id": 52,
+      "line": [
+        {"t": [0], "es": "De repente,"},
+        {"t": [1, 2, 3], "es": "la huella se interrumpió."}
+      ],
+      "words": [
+        {"t": [0], "es": "de repente", "base": "suddenly", "sense": "unexpectedly"},
+        {"t": [1, 2], "es": "la huella", "base": "track", "sense": "mark"},
+        {"t": [3], "es": "se detuvo", "base": "stop", "sense": "halt", "note": "Con una huella, *stopped* indica que ya no continúa. En español decimos «se interrumpió»."}
+      ]
+    },
+    {
+      "id": 53,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¿Qué pasó aquí?»,"}
+      ],
+      "words": [
+        {"t": [0], "es": "qué", "base": "what", "sense": "question", "note": "*What* es el sujeto: pregunta qué ocurrió. Por eso no lleva *did* ([[subject-questions]])."},
+        {"t": [1], "es": "pasó", "base": "happen", "sense": "occur"},
+        {"t": [2], "es": "aquí", "base": "here", "sense": "place"}
+      ]
+    },
+    {
+      "id": 54,
+      "line": [
+        {"t": [0, 1], "es": "dije."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "dije", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 55,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¿Se cayó?»."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "se cayó", "base": "fall", "sense": "drop", "note": "*Did* forma la pregunta en pasado. *Fall* queda en su forma base, no se usa *fell* ([[auxiliary-do]])."},
+        {"t": [1], "es": "él"}
+      ]
+    },
+    {
+      "id": 56,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Holmes miró atentamente el suelo."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "miró", "base": "look", "sense": "see"},
+        {"t": [2], "es": "atentamente", "base": "carefully", "sense": "attention"},
+        {"t": [3, 4, 5], "es": "en el suelo", "base": "ground", "sense": "surface"}
+      ]
+    },
+    {
+      "id": 57,
+      "line": [
+        {"t": [0, 1, 2], "es": "Después se acercó"},
+        {"t": [3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "a unos arbustos pequeños que tenían flores amarillas."}
+      ],
+      "words": [
+        {"t": [0], "es": "después", "base": "then", "sense": "next"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "se movió", "base": "move", "sense": "motion", "note": "*Moved to* indica que se desplazó hacia un lugar; aquí lo expresamos con «se acercó»."},
+        {"t": [3, 4, 6], "es": "hacia unos arbustos", "base": "bush", "sense": "plant", "note": "*Some* indica una cantidad sin precisar ([[some-any]])."},
+        {"t": [5], "es": "pequeños", "base": "small", "sense": "size"},
+        {"t": [7, 9], "es": "con flores", "base": "flower", "sense": "bloom"},
+        {"t": [8], "es": "amarillas", "base": "yellow", "sense": "colour"},
+        {"t": [10, 11], "es": "en ellos"}
+      ]
+    },
+    {
+      "id": 58,
+      "line": [
+        {"t": [0], "es": "«Mire»,"},
+        {"t": [1, 2, 3], "es": "dijo en voz baja."}
+      ],
+      "words": [
+        {"t": [0], "es": "mire", "base": "look", "sense": "see"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3], "es": "en voz baja", "base": "quietly", "sense": "voice", "note": "*Quietly* habla del sonido: aquí indica una voz baja. No significa «quieto» ([[false-friends]])."}
+      ]
+    },
+    {
+      "id": 59,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "En una de las flores amarillas"},
+        {"t": [6, 7, 8, 9], "es": "había algo rojo:"},
+        {"t": [11, 12, 13, 14, 15], "es": "el rojo oscuro y parduzco de la sangre."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "en una"},
+        {"t": [2, 3, 5], "es": "de las flores", "base": "flower", "sense": "bloom"},
+        {"t": [4], "es": "amarillas", "base": "yellow", "sense": "colour"},
+        {"t": [6, 7], "es": "había", "base": "be", "sense": "exist", "note": "*There was* expresa que había algo. Aquí *there* no significa «allí» ([[dummy-subject]])."},
+        {"t": [8], "es": "algo"},
+        {"t": [9], "es": "rojo", "base": "red", "sense": "colour", "note": "Con *something*, el adjetivo va detrás: *something red*, «algo rojo» ([[something-adjective]])."},
+        {"t": [11, 13], "es": "el rojo parduzco", "base": "browny-red", "sense": "colour", "note": "Une *brown* («marrón») y *red* («rojo»): un rojo con algo de marrón."},
+        {"t": [12], "es": "oscuro", "base": "dark", "sense": "colour"},
+        {"t": [14, 15], "es": "de la sangre", "base": "blood", "sense": "liquid"}
+      ]
+    },
+    {
+      "id": 60,
+      "line": [
+        {"t": [0], "es": "«¡Malo!»,"},
+        {"t": [1, 2], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "malo", "base": "bad", "sense": "quality"},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 61,
+      "line": [
+        {"t": [0], "es": "«¡Malo!"}
+      ],
+      "words": [
+        {"t": [0], "es": "malo", "base": "bad", "sense": "quality"}
+      ]
+    },
+    {
+      "id": 62,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "¿Qué puedo deducir de esto?"}
+      ],
+      "words": [
+        {"t": [0], "es": "qué", "base": "what", "sense": "question"},
+        {"t": [1, 3], "es": "interpreto, leo", "base": "read", "sense": "interpret", "note": "En esta pregunta, *do* va delante de *I* y no se traduce ([[auxiliary-do]]). Aquí *read* no es leer un texto, sino interpretar lo que se ve."},
+        {"t": [2], "es": "yo"},
+        {"t": [4], "es": "aquí", "base": "here", "sense": "place"}
+      ]
+    },
+    {
+      "id": 63,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Algo o alguien lo golpeó."}
+      ],
+      "words": [
+        {"t": [0], "es": "algo"},
+        {"t": [1], "es": "o"},
+        {"t": [2], "es": "alguien"},
+        {"t": [3], "es": "golpeó", "base": "hit", "sense": "strike"},
+        {"t": [4], "es": "lo, a él"}
+      ]
+    },
+    {
+      "id": 64,
+      "line": [
+        {"t": [0, 1], "es": "Se cayó,"},
+        {"t": [2, 3, 4], "es": "se levantó,"},
+        {"t": [5, 6, 7, 8, 9, 10], "es": "volvió a subirse a su bicicleta"},
+        {"t": [11, 12, 13], "es": "y se alejó pedaleando."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "se cayó", "base": "fall", "sense": "drop"},
+        {"t": [2], "es": "él"},
+        {"t": [3, 4], "es": "se levantó", "base": "stand up", "sense": "rise", "note": "*Stand up* indica pasar a estar de pie, no quedarse de pie sin moverse ([[phrasal-verbs]])."},
+        {"t": [5], "es": "él"},
+        {"t": [6, 7], "es": "se subió a", "base": "get onto", "sense": "mount", "note": "*Get onto* indica subirse a algo; aquí, a una bicicleta ([[phrasal-verbs]])."},
+        {"t": [8, 9], "es": "su bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [10], "es": "otra vez", "base": "again", "sense": "repeat"},
+        {"t": [11], "es": "y"},
+        {"t": [12], "es": "fue en bicicleta", "base": "ride", "sense": "mount"},
+        {"t": [13], "es": "alejándose", "base": "away", "sense": "distance", "note": "Con un verbo de movimiento, *away* indica que alguien se aleja."}
+      ]
+    },
+    {
+      "id": 65,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Pero no hay ninguna otra huella."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1, 2], "es": "hay", "base": "be", "sense": "exist", "note": "*There is* expresa que hay algo. Aquí *there* no significa «allí» ([[dummy-subject]])."},
+        {"t": [3, 5], "es": "ninguna huella", "base": "track", "sense": "mark", "note": "*No* delante de un sustantivo ya niega la frase: no hace falta añadir *not* ([[negative-words]])."},
+        {"t": [4], "es": "otra", "base": "other", "sense": "different"}
+      ]
+    },
+    {
+      "id": 66,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Aquí hay algunas huellas de vaca,"},
+        {"t": [4, 5, 6], "es": "pero ninguna pisada."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "algunas huellas", "base": "track", "sense": "mark", "note": "*Some* indica una cantidad sin precisar, aquí «algunas» ([[some-any]])."},
+        {"t": [1], "es": "de vaca", "base": "cow", "sense": "animal", "note": "En *cow tracks*, el primer sustantivo describe al segundo: huellas de vaca ([[noun-as-adjective]])."},
+        {"t": [3], "es": "aquí", "base": "here", "sense": "place"},
+        {"t": [4], "es": "pero"},
+        {"t": [5, 6], "es": "sin pisadas", "base": "footprint", "sense": "mark", "note": "*No* delante de un sustantivo ya niega: *no footprints* significa que no hay ninguna pisada ([[negative-words]])."}
+      ]
+    },
+    {
+      "id": 67,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Tenemos que seguir la sangre,"},
+        {"t": [5], "es": "Watson»."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1, 2], "es": "tenemos que seguir", "base": "follow", "sense": "go-after", "note": "El modal *must* indica necesidad y va con el verbo sin *to*: *must follow* ([[modal-verbs]])."},
+        {"t": [3, 4], "es": "la sangre", "base": "blood", "sense": "liquid"},
+        {"t": [5], "es": "Watson"}
+      ]
+    }
+  ]
+}

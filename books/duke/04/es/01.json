@@ -1,0 +1,488 @@
+{
+  "sentences": [
+    {
+      "id": 0,
+      "line": [
+        {"t": [0, 1], "es": "Capítulo cuatro:"},
+        {"t": [2, 3], "es": "El cadáver"},
+        {"t": [4, 5, 6], "es": "en el páramo"}
+      ],
+      "words": [
+        {"t": [0], "es": "capítulo", "base": "chapter", "sense": "book"},
+        {"t": [1], "es": "cuatro"},
+        {"t": [2, 3], "es": "el cadáver", "base": "body", "sense": "dead"},
+        {"t": [4, 5, 6], "es": "en el páramo", "base": "moor", "sense": "land", "note": "Un terreno abierto, sin árboles, típico del norte de Inglaterra."}
+      ]
+    },
+    {
+      "id": 1,
+      "line": [
+        {"t": [0, 1], "es": "Muy temprano"},
+        {"t": [2, 3, 4], "es": "a la mañana siguiente"},
+        {"t": [5, 6, 7, 8], "es": "abrí los ojos"},
+        {"t": [9, 10, 11], "es": "y vi a Holmes"},
+        {"t": [12, 13, 14, 15], "es": "junto a mi cama."}
+      ],
+      "words": [
+        {"t": [0], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [1], "es": "temprano", "base": "early", "sense": "time"},
+        {"t": [2, 4], "es": "la mañana", "base": "morning", "sense": "time"},
+        {"t": [3], "es": "siguiente", "base": "next", "sense": "following"},
+        {"t": [5], "es": "yo"},
+        {"t": [6], "es": "abrí", "base": "open", "sense": "unclose"},
+        {"t": [7, 8], "es": "mis ojos", "base": "eye", "sense": "organ", "note": "Con las partes del cuerpo, el inglés usa posesivo: *my eyes*, no *the eyes* ([[body-possessive]])."},
+        {"t": [9], "es": "y"},
+        {"t": [10], "es": "vi", "base": "see", "sense": "sight"},
+        {"t": [11], "es": "Holmes"},
+        {"t": [12, 13], "es": "junto a", "base": "next to", "sense": "beside", "note": "*Next to* indica que algo está al lado; aquí *next* no significa «siguiente»."},
+        {"t": [14, 15], "es": "mi cama", "base": "bed", "sense": "sleep"}
+      ]
+    },
+    {
+      "id": 2,
+      "line": [{"t": [0, 1, 2, 3], "es": "Ya estaba vestido."}],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 3], "es": "estaba vestido", "base": "dress", "sense": "clothe"},
+        {"t": [2], "es": "ya", "base": "already", "sense": "time"}
+      ]
+    },
+    {
+      "id": 3,
+      "line": [
+        {"t": [0, 1], "es": "«Vamos, Watson»,"},
+        {"t": [2, 3], "es": "exclamó."}
+      ],
+      "words": [
+        {"t": [0], "es": "vamos, venga", "base": "come", "sense": "encouragement", "note": "Aquí *come* anima a la otra persona a ponerse en marcha. En la frase, «vamos» suena más natural."},
+        {"t": [1], "es": "Watson"},
+        {"t": [2], "es": "él"},
+        {"t": [3], "es": "gritó, exclamó", "base": "cry", "sense": "shout", "note": "Al introducir palabras dichas en voz alta, *cry* no significa «llorar»."}
+      ]
+    },
+    {
+      "id": 4,
+      "line": [
+        {"t": [0, 1], "es": "«Hay"},
+        {"t": [2, 3], "es": "café caliente"},
+        {"t": [4, 5, 6], "es": "listo para usted."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "hay", "base": "be", "sense": "exist", "note": "*There is* indica que hay algo; aquí *there* no significa «allí» ([[dummy-subject]])."},
+        {"t": [2], "es": "caliente", "base": "hot", "sense": "temperature"},
+        {"t": [3], "es": "café", "base": "coffee", "sense": "drink"},
+        {"t": [4], "es": "listo", "base": "ready", "sense": "prepared"},
+        {"t": [5, 6], "es": "para usted"}
+      ]
+    },
+    {
+      "id": 5,
+      "line": [
+        {"t": [0, 1], "es": "Nos vamos"},
+        {"t": [2, 3, 4], "es": "dentro de diez minutos»."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "nos vamos", "base": "leave", "sense": "depart"},
+        {"t": [2, 4], "es": "dentro de minutos", "base": "minute", "sense": "time", "note": "Con un periodo de tiempo, *in* puede indicar cuánto falta para que ocurra algo: *in ten minutes*, «dentro de diez minutos»."},
+        {"t": [3], "es": "diez"}
+      ]
+    },
+    {
+      "id": 6,
+      "line": [
+        {"t": [0, 1, 2], "es": "A las seis en punto"},
+        {"t": [3, 4, 5, 6, 7], "es": "ya habíamos atravesado Ragged Shaw,"},
+        {"t": [8, 9, 10, 11, 12], "es": "y media hora después"},
+        {"t": [13, 14, 15, 16, 17, 18], "es": "estábamos en el páramo de Lower Gill."}
+      ],
+      "words": [
+        {"t": [0], "es": "para, a más tardar", "note": "Con una hora, *by* indica un límite: a esa hora ya habían terminado de cruzar el bosque."},
+        {"t": [1], "es": "seis"},
+        {"t": [2], "es": "en punto", "base": "o'clock", "sense": "time"},
+        {"t": [3], "es": "nosotros"},
+        {"t": [4], "es": "estábamos", "base": "be", "sense": "state"},
+        {"t": [5, 6, 7], "es": "al otro lado de Ragged Shaw", "note": "*Through* indica que ya han pasado de un extremo al otro. *Shaw* es una palabra antigua para un bosquecillo; *ragged* significa «irregular, desigual»."},
+        {"t": [8], "es": "y"},
+        {"t": [9], "es": "media", "base": "half", "sense": "amount"},
+        {"t": [10, 11], "es": "una hora", "base": "hour", "sense": "time"},
+        {"t": [12], "es": "después", "base": "later", "sense": "after"},
+        {"t": [13], "es": "nosotros"},
+        {"t": [14], "es": "estábamos", "base": "be", "sense": "state"},
+        {"t": [15, 16, 17, 18], "es": "en el páramo de Lower Gill", "base": "moor", "sense": "land"}
+      ]
+    },
+    {
+      "id": 7,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Un pequeño río cruzaba el centro del páramo,"},
+        {"t": [10, 11, 12, 13, 14, 15], "es": "y todo el terreno a su alrededor"},
+        {"t": [16, 17, 18], "es": "estaba muy mojado."}
+      ],
+      "words": [
+        {"t": [0], "es": "de un lado a otro de"},
+        {"t": [1, 2], "es": "el centro", "base": "middle", "sense": "centre"},
+        {"t": [3, 4, 5], "es": "del páramo", "base": "moor", "sense": "land"},
+        {"t": [6], "es": "había", "base": "be", "sense": "exist", "note": "El lugar va primero y el sujeto, *a small river*, detrás del verbo ([[locative-inversion]]). La frase dice «cruzaba» para expresar *across*."},
+        {"t": [7, 9], "es": "un río", "base": "river", "sense": "water"},
+        {"t": [8], "es": "pequeño", "base": "small", "sense": "size"},
+        {"t": [10], "es": "y"},
+        {"t": [11, 12], "es": "el terreno", "base": "ground", "sense": "land"},
+        {"t": [13], "es": "por todo", "base": "all", "sense": "extent"},
+        {"t": [14], "es": "alrededor de"},
+        {"t": [15], "es": "él, el río"},
+        {"t": [16], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [17], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [18], "es": "mojado", "base": "wet", "sense": "damp"}
+      ]
+    },
+    {
+      "id": 8,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Podemos ver huellas fácilmente"},
+        {"t": [5, 6, 7, 8], "es": "en este terreno mojado»,"},
+        {"t": [9, 10], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1, 3], "es": "podemos ver", "base": "see", "sense": "sight", "note": "El modal *can* va seguido del verbo sin *to*: *can see*, no *can to see* ([[modal-verbs]])."},
+        {"t": [2], "es": "fácilmente", "base": "easily", "sense": "difficulty"},
+        {"t": [4], "es": "huellas", "base": "track", "sense": "mark"},
+        {"t": [5, 6, 8], "es": "en este terreno", "base": "ground", "sense": "land"},
+        {"t": [7], "es": "mojado", "base": "wet", "sense": "damp"},
+        {"t": [9], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [10], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 9,
+      "line": [
+        {"t": [0, 1], "es": "«¡Mire con atención,"},
+        {"t": [2], "es": "Watson!»."}
+      ],
+      "words": [
+        {"t": [0], "es": "mire", "base": "look", "sense": "see"},
+        {"t": [1], "es": "con atención", "base": "carefully", "sense": "attention"},
+        {"t": [2], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 10,
+      "line": [
+        {"t": [0, 1, 2], "es": "Avanzamos despacio"},
+        {"t": [3, 4, 5], "es": "por el páramo,"},
+        {"t": [6, 7, 8, 9], "es": "mirando cada centímetro"},
+        {"t": [10, 11], "es": "de barro."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "nos movimos", "base": "move", "sense": "motion", "note": "Aquí se mueven por el terreno; por eso la frase dice «avanzamos»."},
+        {"t": [2], "es": "despacio", "base": "slowly", "sense": "speed"},
+        {"t": [3, 4, 5], "es": "por el páramo", "base": "moor", "sense": "land"},
+        {"t": [6, 7], "es": "mirando", "base": "look at", "sense": "watch", "note": "Para decir qué miras, se usa *look at*: no basta con *look*."},
+        {"t": [8], "es": "cada", "base": "every", "sense": "each"},
+        {"t": [9], "es": "centímetro", "base": "centimetre", "sense": "length", "note": "Ortografía británica; en EE. UU., *centimeter* ([[british-american]])."},
+        {"t": [10, 11], "es": "de barro", "base": "mud", "sense": "earth"}
+      ]
+    },
+    {
+      "id": 11,
+      "line": [
+        {"t": [0, 1], "es": "Encontramos"},
+        {"t": [2, 3, 4, 5], "es": "cientos de huellas de ovejas"},
+        {"t": [6, 7, 8, 9], "es": "y algunas de vacas,"},
+        {"t": [11, 12, 13, 14], "es": "pero ninguna de bicicleta."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "encontramos", "base": "find", "sense": "discover"},
+        {"t": [2, 3], "es": "cientos de"},
+        {"t": [4], "es": "de oveja", "base": "sheep", "sense": "animal", "note": "*Sheep* tiene la misma forma en singular y plural. Aquí describe las huellas ([[noun-as-adjective]])."},
+        {"t": [5], "es": "huellas", "base": "track", "sense": "mark"},
+        {"t": [6], "es": "y"},
+        {"t": [7, 9], "es": "algunas huellas", "base": "track", "sense": "mark", "note": "*Some* indica una cantidad sin precisar ([[some-any]])."},
+        {"t": [8], "es": "de vaca", "base": "cow", "sense": "animal", "note": "En *cow tracks*, el primer sustantivo describe al segundo: «huellas de vacas» ([[noun-as-adjective]])."},
+        {"t": [11], "es": "pero"},
+        {"t": [12, 14], "es": "sin huellas", "base": "track", "sense": "mark", "note": "Delante de un sustantivo, *no* significa que no hay ninguno: *no tracks*, «ninguna huella» ([[negative-words]])."},
+        {"t": [13], "es": "de bicicleta", "base": "bicycle", "sense": "vehicle", "note": "En *bicycle tracks*, el primer sustantivo describe al segundo: «huellas de bicicleta» ([[noun-as-adjective]])."}
+      ]
+    },
+    {
+      "id": 12,
+      "line": [
+        {"t": [0, 1], "es": "Y entonces,"},
+        {"t": [2, 3], "es": "por fin,"},
+        {"t": [4, 5, 6], "es": "encontramos algo."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "entonces", "base": "then", "sense": "time"},
+        {"t": [2, 3], "es": "por fin", "base": "at last", "sense": "finally", "note": "La expresión *at last* indica que algo ocurre después de esperar o intentarlo."},
+        {"t": [4], "es": "nosotros"},
+        {"t": [5], "es": "encontramos", "base": "find", "sense": "discover"},
+        {"t": [6], "es": "algo"}
+      ]
+    },
+    {
+      "id": 13,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "No lejos del pequeño río,"},
+        {"t": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], "es": "el rastro de una bicicleta atravesaba de lado a lado una buena franja de barro negro."}
+      ],
+      "words": [
+        {"t": [0], "es": "no", "base": "not", "sense": "negative"},
+        {"t": [1], "es": "lejos", "base": "far", "sense": "distance"},
+        {"t": [2, 3, 5], "es": "del río", "base": "river", "sense": "water"},
+        {"t": [4], "es": "pequeño", "base": "little", "sense": "small"},
+        {"t": [6], "es": "por completo", "base": "right", "sense": "completely", "note": "*Right* refuerza *across*: el rastro cruza toda esa zona. No significa «derecha»."},
+        {"t": [7, 8, 11], "es": "atravesando algo de barro", "base": "mud", "sense": "earth", "note": "*Some* indica una cantidad sin precisar ([[some-any]]). *Mud* no se cuenta por unidades ([[uncountable]])."},
+        {"t": [9], "es": "bueno", "base": "nice", "sense": "pleasant"},
+        {"t": [10], "es": "negro", "base": "black", "sense": "colour"},
+        {"t": [12], "es": "había", "base": "be", "sense": "exist", "note": "El sujeto, *the track*, va detrás del verbo ([[locative-inversion]]). La frase usa «atravesaba» para expresar *across*."},
+        {"t": [13, 14], "es": "el rastro", "base": "track", "sense": "mark"},
+        {"t": [15, 16, 17], "es": "de una bicicleta", "base": "bicycle", "sense": "vehicle"}
+      ]
+    },
+    {
+      "id": 14,
+      "line": [{"t": [0], "es": "«¡Hurra!»,"}],
+      "words": [{"t": [0], "es": "hurra", "base": "hurrah", "sense": "joy"}]
+    },
+    {
+      "id": 15,
+      "line": [{"t": [0, 1], "es": "exclamé."}],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "grité, exclamé", "base": "cry", "sense": "shout", "note": "Al introducir palabras dichas en voz alta, *cry* no significa «llorar»."}
+      ]
+    },
+    {
+      "id": 16,
+      "line": [{"t": [0, 1, 2], "es": "«Ya lo tenemos»."}],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "tenemos", "base": "have", "sense": "possess"},
+        {"t": [2], "es": "lo"}
+      ]
+    },
+    {
+      "id": 17,
+      "line": [
+        {"t": [0, 1], "es": "Pero Holmes"},
+        {"t": [2, 3, 4, 5], "es": "no parecía contento."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "Holmes"},
+        {"t": [2, 3, 4], "es": "no parecía", "base": "look", "sense": "seem", "note": "Con un adjetivo, *look* significa «parecer» ([[linking-verbs]]). *Did not* niega en pasado ([[auxiliary-do]])."},
+        {"t": [5], "es": "contento", "base": "happy", "sense": "feeling"}
+      ]
+    },
+    {
+      "id": 18,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Es una bicicleta,"},
+        {"t": [3, 4, 5, 6, 7], "es": "sí, pero no la que buscamos."}
+      ],
+      "words": [
+        {"t": [0], "es": "es", "base": "be", "sense": "identity", "note": "*It’s* es *it is*: el pronombre y el verbo se unen en una contracción ([[contractions]])."},
+        {"t": [1, 2], "es": "una bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [3], "es": "sí", "base": "yes", "sense": "agreement"},
+        {"t": [4], "es": "pero"},
+        {"t": [5], "es": "no", "base": "not", "sense": "negative"},
+        {"t": [6, 7], "es": "la bicicleta", "base": "bicycle", "sense": "vehicle", "note": "El libro destaca *the*: se refiere a una bicicleta concreta, no a cualquiera. La frase lo expresa con «la que buscamos»."}
+      ]
+    },
+    {
+      "id": 19,
+      "line": [
+        {"t": [0, 1], "es": "Cada bicicleta"},
+        {"t": [2, 3, 4], "es": "tiene neumáticos distintos;"},
+        {"t": [6, 7, 8, 9, 10], "es": "conozco cuarenta y dos tipos diferentes"},
+        {"t": [11, 12], "es": "de neumáticos."}
+      ],
+      "words": [
+        {"t": [0], "es": "cada", "base": "every", "sense": "each"},
+        {"t": [1], "es": "bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [2], "es": "tiene", "base": "have", "sense": "possess"},
+        {"t": [3], "es": "distintos", "base": "different", "sense": "unlike"},
+        {"t": [4], "es": "neumáticos", "base": "tyre", "sense": "wheel", "note": "Palabra británica; en EE. UU. se escribe *tires* ([[british-american]])."},
+        {"t": [6], "es": "yo"},
+        {"t": [7], "es": "conozco", "base": "know", "sense": "familiar"},
+        {"t": [8], "es": "cuarenta y dos", "note": "Entre las decenas y las unidades, el inglés pone un guion: *forty-two*."},
+        {"t": [9], "es": "diferentes", "base": "different", "sense": "unlike"},
+        {"t": [10], "es": "tipos", "base": "kind", "sense": "type"},
+        {"t": [11, 12], "es": "de neumático", "base": "tyre", "sense": "wheel", "note": "Ortografía británica; en EE. UU., *tire* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 20,
+      "line": [
+        {"t": [0, 1], "es": "Este neumático"},
+        {"t": [2, 3, 4], "es": "es un Dunlop,"},
+        {"t": [5, 6, 7], "es": "pero la bicicleta de Heidegger"},
+        {"t": [8, 9, 10], "es": "tenía neumáticos Palmer."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "este neumático", "base": "tyre", "sense": "wheel", "note": "Ortografía británica; en EE. UU., *tire* ([[british-american]])."},
+        {"t": [2], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [3, 4], "es": "un Dunlop"},
+        {"t": [5], "es": "pero"},
+        {"t": [6], "es": "de Heidegger", "note": "El *’s* indica posesión: *Heidegger’s bicycle* es «la bicicleta de Heidegger» ([[possessive-s]])."},
+        {"t": [7], "es": "bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [8], "es": "tenía", "base": "have", "sense": "possess"},
+        {"t": [9], "es": "Palmer"},
+        {"t": [10], "es": "neumáticos", "base": "tyre", "sense": "wheel", "note": "Ortografía británica; en EE. UU., *tires* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 21,
+      "line": [
+        {"t": [0, 1, 2], "es": "El profesor de inglés"},
+        {"t": [3, 4, 5], "es": "me lo dijo."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "el profesor", "base": "teacher", "sense": "person"},
+        {"t": [1], "es": "de inglés", "base": "English", "sense": "language", "note": "En *English teacher*, *English* indica la materia que enseña el profesor ([[noun-as-adjective]]). Los idiomas llevan mayúscula en inglés."},
+        {"t": [3], "es": "dijo", "base": "tell", "sense": "inform"},
+        {"t": [4], "es": "me, a mí"},
+        {"t": [5], "es": "eso"}
+      ]
+    },
+    {
+      "id": 22,
+      "line": [{"t": [0, 1, 2, 3, 4], "es": "Así que no es Heidegger»."}],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1], "es": "esto"},
+        {"t": [2, 3], "es": "no es", "base": "be", "sense": "identity"},
+        {"t": [4], "es": "Heidegger"}
+      ]
+    },
+    {
+      "id": 23,
+      "line": [{"t": [0, 1, 2, 3, 4], "es": "«¿Es el niño, entonces?»,"}],
+      "words": [
+        {"t": [0], "es": "es", "base": "be", "sense": "identity", "note": "En las preguntas con *be*, el verbo va delante del sujeto: *Is it…?* ([[be-questions]])."},
+        {"t": [1], "es": "él"},
+        {"t": [2, 3], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [4], "es": "entonces", "base": "then", "sense": "inference"}
+      ]
+    },
+    {
+      "id": 24,
+      "line": [{"t": [0, 1], "es": "pregunté."}],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "pregunté", "base": "ask", "sense": "question"}
+      ]
+    },
+    {
+      "id": 25,
+      "line": [{"t": [0, 1], "es": "«Probablemente no."}],
+      "words": [
+        {"t": [0], "es": "probablemente", "base": "probably", "sense": "likely"},
+        {"t": [1], "es": "no", "base": "not", "sense": "negative"}
+      ]
+    },
+    {
+      "id": 26,
+      "line": [
+        {"t": [0, 1], "es": "El niño"},
+        {"t": [2, 3, 4, 5, 6, 7], "es": "no se llevó ninguna bicicleta»,"},
+        {"t": [8, 9], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [2, 3], "es": "no llevó", "base": "take", "sense": "carry", "note": "*Didn’t* es *did not* ([[contractions]]). Niega en pasado y deja *take* en su forma base ([[auxiliary-do]])."},
+        {"t": [4, 5], "es": "una bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [6, 7], "es": "con él", "note": "*With him* indica que la lleva consigo, no que va con otra persona."},
+        {"t": [8], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [9], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 27,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Volvió a mirar"},
+        {"t": [4, 5], "es": "el rastro"},
+        {"t": [6, 7, 8], "es": "en el barro."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 3], "es": "miró", "base": "look at", "sense": "watch", "note": "*Look at* indica qué miras. Aquí *again* se coloca entre el verbo y *at*."},
+        {"t": [2], "es": "otra vez", "base": "again", "sense": "repeat"},
+        {"t": [4, 5], "es": "el rastro", "base": "track", "sense": "mark"},
+        {"t": [6, 7, 8], "es": "en el barro", "base": "mud", "sense": "earth"}
+      ]
+    },
+    {
+      "id": 28,
+      "line": [
+        {"t": [0, 1], "es": "«Este rastro"},
+        {"t": [2, 3, 4, 5, 6, 7], "es": "se aleja del colegio»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "este rastro", "base": "track", "sense": "mark"},
+        {"t": [2, 3], "es": "va", "base": "go", "sense": "move", "note": "*Is going* es presente continuo ([[present-continuous]]). Aquí describe la dirección del rastro."},
+        {"t": [4, 5], "es": "en dirección contraria a", "base": "away", "sense": "distance", "note": "*Away from* indica una dirección que se aleja de un punto; es lo contrario de *to*, «hacia»."},
+        {"t": [6, 7], "es": "el colegio", "base": "school", "sense": "education"}
+      ]
+    },
+    {
+      "id": 29,
+      "line": [
+        {"t": [0, 1], "es": "«¿O quizá"},
+        {"t": [2, 3, 4], "es": "hacia el colegio?»,"}
+      ],
+      "words": [
+        {"t": [0], "es": "o"},
+        {"t": [1], "es": "quizá", "base": "perhaps", "sense": "possibility"},
+        {"t": [2, 3, 4], "es": "hacia el colegio", "base": "school", "sense": "education", "note": "El libro destaca *to*: Watson propone la dirección opuesta. Aquí *to* significa «hacia»."}
+      ]
+    },
+    {
+      "id": 30,
+      "line": [{"t": [0, 1], "es": "dije."}],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "dije", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 31,
+      "line": [
+        {"t": [0, 1], "es": "«No, no,"},
+        {"t": [2, 3, 4], "es": "mi querido Watson."}
+      ],
+      "words": [
+        {"t": [0], "es": "no", "base": "no", "sense": "answer"},
+        {"t": [1], "es": "no", "base": "no", "sense": "answer"},
+        {"t": [2, 4], "es": "mi Watson"},
+        {"t": [3], "es": "querido", "base": "dear", "sense": "loved"}
+      ]
+    },
+    {
+      "id": 32,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Mire las huellas"},
+        {"t": [4, 5, 6, 7], "es": "de los dos neumáticos."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "mire", "base": "look at", "sense": "watch", "note": "Para decir qué miras, se usa *look at*: no basta con *look*."},
+        {"t": [2, 3], "es": "las huellas", "base": "track", "sense": "mark"},
+        {"t": [4, 5, 7], "es": "de los neumáticos", "base": "tyre", "sense": "wheel", "note": "Ortografía británica; en EE. UU., *tires* ([[british-american]])."},
+        {"t": [6], "es": "dos"}
+      ]
+    },
+    {
+      "id": 33,
+      "line": [{"t": [0, 1, 2, 3], "es": "¿Son iguales?»."}],
+      "words": [
+        {"t": [0], "es": "son", "base": "be", "sense": "identity", "note": "En una pregunta con *be*, el verbo va delante del sujeto: *Are they…?* ([[be-questions]])."},
+        {"t": [1], "es": "ellas"},
+        {"t": [2, 3], "es": "iguales", "base": "same", "sense": "alike", "note": "Para decir que dos cosas son iguales, se usa *the same*, con el artículo *the*."}
+      ]
+    }
+  ]
+}

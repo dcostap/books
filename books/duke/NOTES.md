@@ -162,6 +162,7 @@ Add the names of each chapter before you translate it. Names in a later chapter 
 | track | huella, rastro | The mark of a tyre or a foot in the mud. |
 | workman | obrero, trabajador | |
 | night-shirt | camisa de dormir | A long shirt for sleeping in. |
+| coat | chaqueta | Heidegger's coat. Chapter 2 calls it «chaqueta». |
 | my dear Watson | mi querido Watson | |
 
 ### Stress
