@@ -24,6 +24,12 @@
         "title": "Holmes and Watson Go North",
         "data": "books/duke/03.json",
         "duration": 441.44
+      },
+      {
+        "n": 4,
+        "title": "The Body on the Moor",
+        "data": "books/duke/04.json",
+        "duration": 655.79
       }
     ]
   },

@@ -6,7 +6,7 @@ Things that are special to this book. Read this before you add a chapter. Add to
 
 - Text: `source/book.pdf`, an Internet Archive scan of the 2002 printing (ISBN 9780194229616) with an OCR layer. The 2008 edition (ISBN 9780194787093) has the same text, but its PDF has images only.
 - Audio: the Oxford Bookworms audiobook, read by Richard Mitchly (Audible, 59 min). Our copy is one MP3 of 58:52 (48 kHz stereo, 224 kbps), probably from YouTube. It is not in git: `audio/duke/full.mp3`.
-- Only chapters 1 to 3 are in git. Chapters 4–7 stay on this computer (`.gitignore`). To publish a chapter, add it to `book.json` and remove its line from `.gitignore`.
+- Only chapters 1 to 4 are in git. Chapters 5–7 stay on this computer (`.gitignore`). To publish a chapter, add it to `book.json` and remove its line from `.gitignore`.
 
 ## Audio
 
@@ -27,7 +27,7 @@ Keep the original file as `audio/duke/0N-original-with-chime.mp3`. Make the clea
 | 1 | 5.66–15.97 | 19.62–21.55 | 19.706–19.782; declick 18.303–18.330 and 18.410–18.437 | yes |
 | 2 | 6.95–17.76 | none found | | yes |
 | 3 | 7.02–17.62 | none found | | yes |
-| 4 | 5.80–16.63 | none found | | |
+| 4 | 6.20–16.58 | none found | | yes |
 | 5 | 6.00–17.73 | none found | | |
 | 6 | 7.40–19.07 | none found | | |
 | 7 | 5.43–16.74 | 530.15–531.95 ("…put it carefully…") | 530.196–530.302 (on top of the "t" in "put") | |
@@ -56,7 +56,13 @@ Chapter 3 command. The title ends at 6.80 s, the music plays from 7.12 to 17.30 
 
 In chapter 3, Whisper wrote "Holmes!" again and again from 3:24 to 4:00, and invented words in two other places. The words in 196–248, 340–360 and 398–416 s of `whisper.json` come from Whisper on short clips (`condition_on_previous_text=False`). After that, `retime.py` matches 97.6% of the words.
 
-The files of chapters 4–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
+Chapter 4 command. The title ends at 5.97 s, the music starts at about 6.4 s, and it still plays when the first word starts at 16.63 s, as in chapter 1:
+
+```
+.venv/Scripts/python books/duke/fix_audio.py audio/duke/04-the-body-on-the-moor.mp3 audio/duke/04-the-body-on-the-moor.webm --cut 6.20 16.58 --gap 0.8
+```
+
+The files of chapters 5–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
 
 ## Text
 
@@ -73,13 +79,12 @@ Whisper agrees with 98–99% of the words. The rest are pronunciation only. Do n
 - Whisper hears "Shaw" as "Shore".
 - Whisper writes numbers as figures ("16").
 
-Places where the narrator may differ from the book. Listen to each one before you publish its chapter:
+Places where the narrator differs from the book. The text keeps the book's words:
 
-- Ch4, about 1:20: "and once some cow tracks"? The book has "and some cow tracks".
-- Ch4, about 3:40: "Nope" against the book's ‘No,’.
-- Ch4, about 8:00: a stumble, "So… so far".
+- Ch4, 1:10: the narrator says "and once some cow tracks". The book has "and some cow tracks".
+- Ch4, 3:30: the narrator says "Nope". The book has ‘No,’.
 
-The chapter 4 times are with the title music in the audio.
+Whisper on short clips hears these two places the same way. A stumble near "So far, so good" (8:00 in the audio with the title music) is not there: the clip is clean.
 
 ## Translation
 
@@ -151,12 +156,20 @@ Add the names of each chapter before you translate it. Names in a later chapter 
 | the Green Man Inn | la posada Green Man | A note can give the meaning: «el hombre verde», an old figure of English folk stories, and a common inn name. |
 | the Chesterfield road | la carretera de Chesterfield | Chesterfield is a real town in the north of England. |
 | gardener | jardinero | |
+| tyre | neumático, rueda | British; US *tire*. |
+| Dunlop, Palmer | Dunlop, Palmer | Makes of bicycle tyre. *un neumático Dunlop*. |
+| the English teacher | el profesor de inglés | A teacher at the school. |
+| track | huella, rastro | The mark of a tyre or a foot in the mud. |
+| workman | obrero, trabajador | |
+| night-shirt | camisa de dormir | A long shirt for sleeping in. |
+| my dear Watson | mi querido Watson | |
 
 ### Stress
 
 The book prints some words in italics for stress. The text has no italics, so the reader cannot see it. Where the stress changes the meaning, a note can explain it.
 
 - Ch3: "*I* put the letter into the postbag" (Mr Wilder, not the Duke, did it) and "the boy and the teacher did *not* go by road".
+- Ch4: "not *the* bicycle" (not the one we look for), "Or perhaps *to* the school?", "He knows that he *needs* his bicycle", "it is *eight kilometres* before…", "there was *someone with the boy*", "It's *not* possible".
 
 ### Spoilers
 
@@ -165,6 +178,7 @@ This is a mystery. The reader must find things out at the same time as Holmes.
 - Use only what the text has told up to the sentence you translate. Do not use what you know of later chapters, or of Conan Doyle's story *The Adventure of the Priory School*.
 - Do not hint that a person, a place or a detail will be important.
 - A note about a name explains only the language (a title, a spelling), never who the person is in the story.
+- Ch4 and later: the cow tracks come back again and again. Treat them as any other words: no note may hint that they are important.
 
 ## Open questions
 
