@@ -224,7 +224,7 @@
     },
     {
       "id": 71,
-      "line": [{"t": [0, 1, 2], "es": "«¡Traigo noticias!»"}],
+      "line": [{"t": [0, 1, 2], "es": "«¡Traigo noticias!»."}],
       "words": [
         {"t": [0], "es": "yo"},
         {"t": [1], "es": "traigo", "base": "bring", "sense": "carry"},

@@ -55,7 +55,7 @@
     {
       "id": 30,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "¿Cuándo la envió por correo?»"}
+        {"t": [0, 1, 2, 3, 4], "es": "¿Cuándo la envió por correo?»."}
       ],
       "words": [
         {"t": [0], "es": "cuándo", "base": "when", "sense": "question"},
@@ -320,7 +320,7 @@
       "id": 46,
       "line": [
         {"t": [0, 1], "es": "¡No, Watson,"},
-        {"t": [2, 3, 4], "es": "no fueron por allí!»"}
+        {"t": [2, 3, 4], "es": "no fueron por allí!»."}
       ],
       "words": [
         {"t": [0], "es": "no", "base": "no", "sense": "answer"},

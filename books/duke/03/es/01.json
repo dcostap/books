@@ -256,7 +256,7 @@
       "line": [
         {"t": [0, 1, 2, 3], "es": "Usted lo sabe, así que"},
         {"t": [4, 5, 6, 7, 8, 9, 10], "es": "¿por qué no habló con el duque"},
-        {"t": [11, 12, 13, 14, 15], "es": "antes de ir a Londres?»"}
+        {"t": [11, 12, 13, 14, 15], "es": "antes de ir a Londres?»."}
       ],
       "words": [
         {"t": [0], "es": "usted"},
@@ -395,7 +395,7 @@
       "id": 24,
       "line": [
         {"t": [0, 1, 2, 3], "es": "¿Puedo hacerle"},
-        {"t": [4, 5, 6, 7, 8], "es": "una o dos preguntas, quizá?»"}
+        {"t": [4, 5, 6, 7, 8], "es": "una o dos preguntas, quizá?»."}
       ],
       "words": [
         {"t": [0, 2], "es": "puedo preguntar", "base": "ask", "sense": "question", "note": "Aquí el modal *can* pide permiso: *Can I…?* equivale a «¿Puedo…?» ([[modal-verbs]])."},
