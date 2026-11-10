@@ -186,5 +186,32 @@
     "text": "Algunos sustantivos llevan siempre el verbo en plural: *people* (aunque sea «gente»), *the police* («la policía»), *trousers* («pantalones») y *glasses* («gafas»). Los dos últimos llevan plural aunque hables de un solo objeto.",
     "examples": [["The police are here.", "La policía está aquí."], ["People are very kind.", "La gente es muy amable."], ["My trousers are wet.", "Tengo los pantalones mojados."]],
     "wrong": [["The police is here.", "The police are here."], ["People is angry.", "People are angry."]]
+  },
+  "object-infinitive": {
+    "name": "*want you to*: persona + infinitivo",
+    "en": "verb + person + to-infinitive",
+    "text": "Con *want* y *would like*, la otra persona va justo después del verbo, y luego el infinitivo con *to*. El español dice «que» y usa el subjuntivo: *I want you to come* = «quiero que vengas».",
+    "examples": [["I want you to come.", "Quiero que vengas."], ["He doesn't want people to know.", "No quiere que la gente lo sepa."], ["I'd like you to stay.", "Me gustaría que te quedaras."]],
+    "wrong": [["I want that you come.", "I want you to come."], ["I'd like that you stay.", "I'd like you to stay."]]
+  },
+  "adjective-infinitive": {
+    "name": "adjetivo + *to* + verbo",
+    "en": "adjective + to-infinitive",
+    "text": "Tras adjetivos como *surprised*, *happy*, *sorry* o *easy*, el infinitivo con *to* completa el adjetivo: dice qué causa el sentimiento, o qué es fácil. Aquí *to* no significa «para».",
+    "examples": [["I'm happy to see you.", "Me alegro de verte."], ["She was surprised to hear it.", "Le sorprendió oírlo."], ["It's easy to find.", "Es fácil de encontrar."]],
+    "wrong": [["I'm happy for see you.", "I'm happy to see you."], ["She was surprised of hearing it.", "She was surprised to hear it."]]
+  },
+  "locative-inversion": {
+    "name": "lugar + verbo + sujeto",
+    "en": "inversion after a place",
+    "text": "Al contar una historia, una frase puede empezar por un lugar (*next to him*, *in his hands*) y poner el verbo antes del sujeto. Pasa con verbos como *be*, *stand*, *sit* o *come*. Busca el sujeto después del verbo.",
+    "examples": [["Next to the door stood a tall man.", "Junto a la puerta había un hombre alto."], ["On the table was a letter.", "Sobre la mesa había una carta."], ["Here is the station.", "Aquí está la estación."]]
+  },
+  "something-adjective": {
+    "name": "*something*, *nothing* + adjetivo",
+    "en": "something, nothing + adjective",
+    "text": "Con *something*, *nothing*, *anything* y *somebody*, el adjetivo va detrás, no delante: *nothing new*, «nada nuevo». Es el orden del español, al revés de la regla normal del inglés.",
+    "examples": [["I saw something strange.", "Vi algo raro."], ["Is there anything new?", "¿Hay algo nuevo?"], ["There's nothing interesting here.", "Aquí no hay nada interesante."]],
+    "wrong": [["I saw strange something.", "I saw something strange."]]
   }
 }

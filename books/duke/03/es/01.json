@@ -1,0 +1,442 @@
+{
+  "sentences": [
+    {
+      "id": 0,
+      "line": [
+        {"t": [0, 1], "es": "Capítulo tres:"},
+        {"t": [2, 3, 4], "es": "Holmes y Watson"},
+        {"t": [5, 6], "es": "van al norte"}
+      ],
+      "words": [
+        {"t": [0], "es": "capítulo", "base": "chapter", "sense": "book"},
+        {"t": [1], "es": "tres"},
+        {"t": [2], "es": "Holmes"},
+        {"t": [3], "es": "y"},
+        {"t": [4], "es": "Watson"},
+        {"t": [5], "es": "van", "base": "go", "sense": "move"},
+        {"t": [6], "es": "hacia el norte", "base": "north", "sense": "direction"}
+      ]
+    },
+    {
+      "id": 1,
+      "line": [
+        {"t": [0, 1, 2], "es": "Estaba oscuro"},
+        {"t": [3, 4, 5, 6, 7, 8, 9, 10], "es": "cuando llegamos al famoso colegio del doctor Huxtable,"},
+        {"t": [11, 12, 13, 14], "es": "en las colinas del norte."}
+      ],
+      "words": [
+        {"t": [0], "es": "(no se traduce)", "note": "El inglés necesita un sujeto: aquí *it* no se refiere a nada. Describe la luz que había ([[dummy-subject]])."},
+        {"t": [1], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [2], "es": "oscuro", "base": "dark", "sense": "unlit"},
+        {"t": [3], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [4], "es": "nosotros"},
+        {"t": [5, 6], "es": "llegamos a", "base": "arrive", "sense": "reach", "note": "Para llegar a un lugar concreto, se usa *arrive at*. Para una ciudad o un país, *arrive in*."},
+        {"t": [7], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [8], "es": "de Huxtable", "note": "El *’s* indica posesión: *Dr Huxtable’s school* es «el colegio del doctor Huxtable» ([[possessive-s]])."},
+        {"t": [9], "es": "famoso", "base": "famous", "sense": "known"},
+        {"t": [10], "es": "colegio", "base": "school", "sense": "education"},
+        {"t": [11, 12, 14], "es": "en las colinas", "base": "hill", "sense": "land"},
+        {"t": [13], "es": "del norte", "base": "northern", "sense": "north"}
+      ]
+    },
+    {
+      "id": 2,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Entramos deprisa en el edificio"},
+        {"t": [6, 7, 8, 9], "es": "para escapar del frío,"},
+        {"t": [10, 11, 12], "es": "y enseguida"},
+        {"t": [13, 14, 15], "es": "alguien se acercó corriendo"},
+        {"t": [16, 17, 18, 19, 20], "es": "con noticias para el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "fuimos", "base": "go", "sense": "move", "note": "*Went into* indica que fueron hacia dentro. En la frase, «entramos» expresa ese movimiento."},
+        {"t": [2], "es": "deprisa", "base": "quickly", "sense": "speed"},
+        {"t": [3, 4, 5], "es": "al interior del edificio", "base": "building", "sense": "structure"},
+        {"t": [6, 7, 8, 9], "es": "fuera del frío", "base": "cold", "sense": "temperature", "note": "*Out of* indica que dejan de estar expuestos al frío al entrar."},
+        {"t": [10], "es": "y"},
+        {"t": [11, 12], "es": "enseguida", "base": "at once", "sense": "immediately", "note": "*At once* indica que algo ocurre sin esperar; aquí *once* no significa «una vez»."},
+        {"t": [13], "es": "alguien"},
+        {"t": [14, 15], "es": "se acercó corriendo", "base": "run up", "sense": "approach", "note": "*Up* indica que alguien se acerca, no que sube ([[phrasal-verbs]])."},
+        {"t": [16, 17], "es": "con noticias", "base": "news", "sense": "information", "note": "Aunque acaba en *-s*, *news* no es plural: es un sustantivo incontable ([[uncountable]])."},
+        {"t": [18, 19], "es": "para el doctor", "note": "*Dr* abrevia *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [20], "es": "Huxtable"}
+      ]
+    },
+    {
+      "id": 3,
+      "line": [
+        {"t": [0, 1], "es": "Parecía"},
+        {"t": [2, 3], "es": "muy sorprendido."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "parecía", "base": "look", "sense": "seem", "note": "Con un adjetivo, *look* describe el aspecto de alguien: no significa «mirar» ([[linking-verbs]])."},
+        {"t": [2], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [3], "es": "sorprendido", "base": "surprised", "sense": "feeling"}
+      ]
+    },
+    {
+      "id": 4,
+      "line": [
+        {"t": [0, 1], "es": "«El duque"},
+        {"t": [2, 3], "es": "está aquí»,"},
+        {"t": [4, 5, 6], "es": "nos dijo."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [2], "es": "está", "base": "be", "sense": "state"},
+        {"t": [3], "es": "aquí", "base": "here", "sense": "place"},
+        {"t": [4], "es": "él"},
+        {"t": [5], "es": "dijo", "base": "tell", "sense": "inform"},
+        {"t": [6], "es": "nos, a nosotros"}
+      ]
+    },
+    {
+      "id": 5,
+      "line": [
+        {"t": [0, 1], "es": "«El duque"},
+        {"t": [2, 3, 4], "es": "y el señor Wilder,"},
+        {"t": [5, 6], "es": "su secretario,"},
+        {"t": [7, 8, 9, 10], "es": "están en mi despacho."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [2], "es": "y"},
+        {"t": [3], "es": "señor", "note": "*Mr* va delante del apellido o del nombre completo. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [4], "es": "Wilder"},
+        {"t": [5, 6], "es": "su secretario", "base": "secretary", "sense": "assistant"},
+        {"t": [7], "es": "están", "base": "be", "sense": "state"},
+        {"t": [8, 9, 10], "es": "en mi despacho", "base": "office", "sense": "room"}
+      ]
+    },
+    {
+      "id": 6,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Vengan a conocerlos»."}
+      ],
+      "words": [
+        {"t": [0], "es": "vengan", "base": "come", "sense": "move"},
+        {"t": [1], "es": "y", "note": "Después de *come*, *and* une otra acción: *come and meet* equivale a «venir a conocer»."},
+        {"t": [2], "es": "conozcan", "base": "meet", "sense": "introduction"},
+        {"t": [3], "es": "los, a ellos"}
+      ]
+    },
+    {
+      "id": 7,
+      "line": [
+        {"t": [0, 1, 2], "es": "El ministro del Gobierno"},
+        {"t": [3, 4, 5, 6], "es": "era un hombre alto,"},
+        {"t": [7, 8, 9, 10, 11], "es": "de cara alargada y delgada."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "el ministro", "base": "minister", "sense": "government"},
+        {"t": [1], "es": "del Gobierno", "base": "government", "sense": "authority", "note": "En *Government Minister*, el primer sustantivo describe al segundo: un ministro del Gobierno ([[noun-as-adjective]])."},
+        {"t": [3], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [4, 6], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [5], "es": "alto", "base": "tall", "sense": "height"},
+        {"t": [7, 8, 11], "es": "con una cara", "base": "face", "sense": "front"},
+        {"t": [9], "es": "larga, alargada", "base": "long", "sense": "length"},
+        {"t": [10], "es": "delgada", "base": "thin", "sense": "body"}
+      ]
+    },
+    {
+      "id": 8,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Tenía el pelo rojizo"},
+        {"t": [4, 5, 6, 7, 8], "es": "y una gran barba rojiza."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "tenía", "base": "have", "sense": "possess"},
+        {"t": [2], "es": "rojizo", "base": "red", "sense": "hair", "note": "Con *hair*, *red* describe el pelo de una persona pelirroja, no un rojo vivo."},
+        {"t": [3], "es": "pelo", "base": "hair", "sense": "growth"},
+        {"t": [4], "es": "y"},
+        {"t": [5, 8], "es": "una barba", "base": "beard", "sense": "facial-hair"},
+        {"t": [6], "es": "grande", "base": "great", "sense": "large", "note": "Aquí *great* indica tamaño, no que algo sea estupendo."},
+        {"t": [7], "es": "rojiza", "base": "red", "sense": "hair"}
+      ]
+    },
+    {
+      "id": 9,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Nos miró"},
+        {"t": [4, 5, 6, 7], "es": "y no sonrió."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "miró", "base": "look at", "sense": "watch", "note": "Para decir qué miras, se usa *look at*: no basta con *look*."},
+        {"t": [3], "es": "nos, a nosotros"},
+        {"t": [4], "es": "y"},
+        {"t": [5, 6, 7], "es": "no sonrió", "base": "smile", "sense": "verb", "note": "*Did not* forma la negación en pasado. El verbo *smile* queda en su forma base ([[auxiliary-do]])."}
+      ]
+    },
+    {
+      "id": 10,
+      "line": [
+        {"t": [0, 1, 2], "es": "A su lado"},
+        {"t": [3, 4, 5], "es": "estaba de pie el señor Wilder,"},
+        {"t": [6, 7, 8, 9], "es": "un hombre muy joven."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "al lado de", "base": "next to", "sense": "beside"},
+        {"t": [2], "es": "él"},
+        {"t": [3], "es": "estaba de pie", "base": "stand", "sense": "upright", "note": "La frase empieza por el lugar, *next to him*, y el sujeto, *Mr Wilder*, va detrás del verbo ([[locative-inversion]])."},
+        {"t": [4], "es": "señor", "note": "*Mr* va delante del apellido o del nombre completo. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [5], "es": "Wilder"},
+        {"t": [6, 9], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [7], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [8], "es": "joven", "base": "young", "sense": "age"}
+      ]
+    },
+    {
+      "id": 11,
+      "line": [
+        {"t": [0, 1, 2], "es": "Era menudo,"},
+        {"t": [3, 4, 5], "es": "de ojos azules"},
+        {"t": [6, 7, 8, 9], "es": "y expresión vigilante."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [2], "es": "pequeño", "base": "small", "sense": "size"},
+        {"t": [3, 5], "es": "con ojos", "base": "eye", "sense": "organ"},
+        {"t": [4], "es": "azules", "base": "blue", "sense": "colour"},
+        {"t": [6], "es": "y"},
+        {"t": [7, 9], "es": "una cara", "base": "face", "sense": "front", "note": "*Face* puede indicar lo que expresa la cara. Por eso la frase dice «expresión»."},
+        {"t": [8], "es": "vigilante, atenta", "base": "watchful", "sense": "alert"}
+      ]
+    },
+    {
+      "id": 12,
+      "line": [
+        {"t": [0, 1, 2], "es": "Fue el primero en hablar."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "habló", "base": "speak", "sense": "talk"},
+        {"t": [2], "es": "primero", "base": "first", "sense": "order"}
+      ]
+    },
+    {
+      "id": 13,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Al duque le sorprende,"},
+        {"t": [4, 5], "es": "doctor Huxtable,"},
+        {"t": [6, 7, 8, 9, 10, 11], "es": "ver aquí al señor Sherlock Holmes."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [2], "es": "está", "base": "be", "sense": "state"},
+        {"t": [3], "es": "sorprendido", "base": "surprised", "sense": "feeling"},
+        {"t": [4], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [5], "es": "Huxtable"},
+        {"t": [6, 7], "es": "ver", "base": "see", "sense": "sight", "note": "Tras *surprised*, el infinitivo con *to* dice qué causa la sorpresa: «sorprendido de ver», no «para ver» ([[adjective-infinitive]])."},
+        {"t": [8], "es": "señor", "note": "*Mr* va delante del apellido o del nombre completo. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [9, 10], "es": "Sherlock Holmes"},
+        {"t": [11], "es": "aquí", "base": "here", "sense": "place"}
+      ]
+    },
+    {
+      "id": 14,
+      "line": [
+        {"t": [0, 1, 2], "es": "No quiere"},
+        {"t": [3, 4, 5, 6, 7], "es": "que la gente se entere de esto."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "no quiere", "base": "want", "sense": "desire", "note": "*Doesn’t* es *does not* ([[contractions]]). Para negar con *he*, se usa *does not* y el verbo en forma base ([[auxiliary-do]])."},
+        {"t": [3], "es": "gente, personas", "base": "person", "sense": "human", "note": "*People* es el plural de *person*. Lleva verbo en plural, aunque «gente» sea singular ([[plural-agreement]])."},
+        {"t": [4, 5, 6], "es": "saber de", "base": "know", "sense": "information", "note": "Con *want*, el sujeto del infinitivo va delante de *to*: *want people to know* = «querer que la gente sepa» ([[object-infinitive]])."},
+        {"t": [7], "es": "esto"}
+      ]
+    },
+    {
+      "id": 15,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Usted lo sabe, así que"},
+        {"t": [4, 5, 6, 7, 8, 9, 10], "es": "¿por qué no habló con el duque"},
+        {"t": [11, 12, 13, 14, 15], "es": "antes de ir a Londres?»"}
+      ],
+      "words": [
+        {"t": [0], "es": "usted"},
+        {"t": [1], "es": "sabe", "base": "know", "sense": "information"},
+        {"t": [2], "es": "eso"},
+        {"t": [3], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [4], "es": "por qué", "base": "why", "sense": "question"},
+        {"t": [5, 7, 8], "es": "no habló con", "base": "speak", "sense": "talk", "note": "*Didn’t* es *did not* ([[contractions]]). En la pregunta va antes del sujeto, y *speak* queda en forma base ([[auxiliary-do]])."},
+        {"t": [6], "es": "usted"},
+        {"t": [9, 10], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [11], "es": "antes de que", "base": "before", "sense": "earlier-than"},
+        {"t": [12], "es": "usted"},
+        {"t": [13], "es": "fue", "base": "go", "sense": "move"},
+        {"t": [14, 15], "es": "a Londres"}
+      ]
+    },
+    {
+      "id": 16,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Pero necesitamos ayuda»,"},
+        {"t": [4, 5, 6], "es": "dijo el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "nosotros"},
+        {"t": [2], "es": "necesitamos", "base": "need", "sense": "require"},
+        {"t": [3], "es": "ayuda", "base": "help", "sense": "assistance"},
+        {"t": [4], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [5], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [6], "es": "Huxtable"}
+      ]
+    },
+    {
+      "id": 17,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Y yo…»"}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "yo"}
+      ]
+    },
+    {
+      "id": 18,
+      "line": [
+        {"t": [0], "es": "«Bueno»,"},
+        {"t": [1, 2, 3], "es": "dijo el duque."}
+      ],
+      "words": [
+        {"t": [0], "es": "bueno", "base": "well", "sense": "discourse", "note": "Al empezar a hablar, *well* sirve para introducir una respuesta. Aquí no significa «bien»."},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2, 3], "es": "el duque", "base": "duke", "sense": "noble"}
+      ]
+    },
+    {
+      "id": 19,
+      "line": [
+        {"t": [0, 1], "es": "«El señor Holmes"},
+        {"t": [2, 3, 4], "es": "ya está aquí,"},
+        {"t": [5, 6, 7, 8, 9, 10], "es": "y quizá pueda ayudarnos»."}
+      ],
+      "words": [
+        {"t": [0], "es": "señor", "note": "*Mr* va delante del apellido o del nombre completo. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [1], "es": "Holmes"},
+        {"t": [2], "es": "está", "base": "be", "sense": "state"},
+        {"t": [3], "es": "aquí", "base": "here", "sense": "place"},
+        {"t": [4], "es": "ahora", "base": "now", "sense": "present"},
+        {"t": [5], "es": "y"},
+        {"t": [6], "es": "quizá", "base": "perhaps", "sense": "possibility"},
+        {"t": [7], "es": "él"},
+        {"t": [8, 9], "es": "puede ayudar", "base": "help", "sense": "assist", "note": "El modal *can* va seguido del verbo sin *to*: *can help*, no *can to help* ([[modal-verbs]])."},
+        {"t": [10], "es": "nos, a nosotros"}
+      ]
+    },
+    {
+      "id": 20,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Miró a Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "miró", "base": "look at", "sense": "watch", "note": "Para decir qué miras, se usa *look at*: no basta con *look*."},
+        {"t": [3], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 21,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«Me gustaría que viniera a alojarse"},
+        {"t": [7, 8, 9], "es": "en Holdernesse Hall,"},
+        {"t": [10, 11], "es": "señor Holmes»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "me gustaría", "base": "would like", "sense": "want", "note": "*I’d* es aquí *I would* ([[contractions]]). *Would like* expresa un deseo de forma cortés."},
+        {"t": [2], "es": "usted", "note": "El sujeto del infinitivo va delante de *to*: *I’d like you to…* equivale a «Me gustaría que usted…» ([[object-infinitive]])."},
+        {"t": [3, 4], "es": "venir", "base": "come", "sense": "move"},
+        {"t": [5], "es": "y", "note": "Después de *come*, *and* une otra acción: *come and stay* equivale a «venir a alojarse»."},
+        {"t": [6], "es": "alojarse", "base": "stay", "sense": "lodge"},
+        {"t": [7, 8, 9], "es": "en Holdernesse Hall", "base": "hall", "sense": "house", "note": "*Hall*, en el nombre de una casa, suele indicar una gran casa de campo."},
+        {"t": [10], "es": "señor", "note": "*Mr* va delante del apellido o del nombre completo. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [11], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 22,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Gracias, señor»,"},
+        {"t": [3, 4], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "gracias", "base": "thank you", "sense": "gratitude"},
+        {"t": [2], "es": "señor", "base": "sir", "sense": "address", "note": "Forma respetuosa de dirigirse a un hombre, sin decir su nombre."},
+        {"t": [3], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [4], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 23,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Pero me gustaría quedarme"},
+        {"t": [6, 7, 8, 9], "es": "cerca del misterio,"},
+        {"t": [10, 11, 12, 13], "es": "aquí, en el colegio."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "yo"},
+        {"t": [2, 3], "es": "me gustaría", "base": "would like", "sense": "want", "note": "*Would like* expresa lo que alguien quiere de forma cortés; no habla de gustos habituales."},
+        {"t": [4, 5], "es": "quedarme", "base": "stay", "sense": "remain"},
+        {"t": [6, 7], "es": "cerca de", "base": "near", "sense": "close"},
+        {"t": [8, 9], "es": "el misterio", "base": "mystery", "sense": "unknown"},
+        {"t": [10], "es": "aquí", "base": "here", "sense": "place"},
+        {"t": [11, 12, 13], "es": "en el colegio", "base": "school", "sense": "education"}
+      ]
+    },
+    {
+      "id": 24,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "¿Puedo hacerle"},
+        {"t": [4, 5, 6, 7, 8], "es": "una o dos preguntas, quizá?»"}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "puedo preguntar", "base": "ask", "sense": "question", "note": "Aquí el modal *can* pide permiso: *Can I…?* equivale a «¿Puedo…?» ([[modal-verbs]])."},
+        {"t": [1], "es": "yo"},
+        {"t": [3], "es": "le, a usted"},
+        {"t": [4], "es": "una"},
+        {"t": [5], "es": "o"},
+        {"t": [6], "es": "dos"},
+        {"t": [7], "es": "preguntas", "base": "question", "sense": "inquiry"},
+        {"t": [8], "es": "quizá", "base": "perhaps", "sense": "possibility"}
+      ]
+    },
+    {
+      "id": 25,
+      "line": [
+        {"t": [0, 1], "es": "«Por supuesto»,"},
+        {"t": [2, 3, 4], "es": "dijo el duque."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "por supuesto", "base": "of course", "sense": "obvious", "note": "Es una expresión fija: no habla de un «curso»."},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3, 4], "es": "el duque", "base": "duke", "sense": "noble"}
+      ]
+    },
+    {
+      "id": 26,
+      "line": [
+        {"t": [0, 1], "es": "«Mis preguntas"},
+        {"t": [2, 3, 4, 5], "es": "son sobre la duquesa"},
+        {"t": [6, 7, 8], "es": "y sobre dinero»,"},
+        {"t": [9, 10], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "mis preguntas", "base": "question", "sense": "inquiry"},
+        {"t": [2], "es": "son", "base": "be", "sense": "identity"},
+        {"t": [3, 4, 5], "es": "sobre la duquesa", "base": "duchess", "sense": "title"},
+        {"t": [6], "es": "y"},
+        {"t": [7, 8], "es": "sobre dinero", "base": "money", "sense": "payment"},
+        {"t": [9], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [10], "es": "Holmes"}
+      ]
+    }
+  ]
+}

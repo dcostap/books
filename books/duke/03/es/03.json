@@ -1,0 +1,346 @@
+{
+  "sentences": [
+    {
+      "id": 56,
+      "line": [
+        {"t": [0, 1], "es": "«Pero, Holmes,"},
+        {"t": [2, 3, 4, 5], "es": "¿qué hay de la bicicleta?»,"}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "Holmes"},
+        {"t": [2, 3], "es": "qué hay de", "base": "what about", "sense": "consider", "note": "Sirve para recordar algo que no se ha tenido en cuenta: «¿y qué pasa con…?» No se traduce palabra por palabra."},
+        {"t": [4, 5], "es": "la bicicleta", "base": "bicycle", "sense": "vehicle"}
+      ]
+    },
+    {
+      "id": 57,
+      "line": [{"t": [0, 1], "es": "pregunté."}],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "pregunté", "base": "ask", "sense": "question"}
+      ]
+    },
+    {
+      "id": 58,
+      "line": [
+        {"t": [0, 1], "es": "«Sí, Watson,"},
+        {"t": [2, 3, 4, 5, 6], "es": "no debemos olvidar la bicicleta,"},
+        {"t": [7, 8], "es": "por supuesto."}
+      ],
+      "words": [
+        {"t": [0], "es": "sí", "base": "yes", "sense": "agreement"},
+        {"t": [1], "es": "Watson"},
+        {"t": [2], "es": "nosotros"},
+        {"t": [3, 4], "es": "tenemos que recordar", "base": "remember", "sense": "recall", "note": "El modal *must* expresa necesidad y va con el verbo sin *to* ([[modal-verbs]]). Aquí equivale a «no debemos olvidar»."},
+        {"t": [5, 6], "es": "la bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [7, 8], "es": "por supuesto", "base": "of course", "sense": "obvious", "note": "Es una expresión fija: no habla de un «curso»."}
+      ]
+    },
+    {
+      "id": 59,
+      "line": [
+        {"t": [0, 1], "es": "Pero antes,"},
+        {"t": [2, 3], "es": "miremos"},
+        {"t": [4, 5, 6], "es": "hacia el sur"},
+        {"t": [7, 8, 9], "es": "y el norte."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "primero", "base": "first", "sense": "order"},
+        {"t": [2], "es": "vamos a", "base": "let", "sense": "suggest", "note": "*Let’s* es *let us*, pero sirve para proponer algo que haremos juntos: «vamos a…» ([[contractions]])."},
+        {"t": [3], "es": "mirar", "base": "look", "sense": "see"},
+        {"t": [4, 5, 6], "es": "hacia el sur", "base": "south", "sense": "direction"},
+        {"t": [7], "es": "y"},
+        {"t": [8, 9], "es": "el norte", "base": "north", "sense": "direction"}
+      ]
+    },
+    {
+      "id": 60,
+      "line": [
+        {"t": [0, 1, 2], "es": "Al sur"},
+        {"t": [3, 4, 5, 6, 7], "es": "tenemos un río grande,"},
+        {"t": [9, 10, 11, 12], "es": "así que por ahí no se puede ir en bicicleta."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "al sur", "base": "south", "sense": "direction"},
+        {"t": [3], "es": "nosotros"},
+        {"t": [4], "es": "tenemos", "base": "have", "sense": "possess"},
+        {"t": [5, 7], "es": "un río", "base": "river", "sense": "water"},
+        {"t": [6], "es": "grande", "base": "big", "sense": "size"},
+        {"t": [9, 10], "es": "no hay bicicletas", "base": "bicycle", "sense": "vehicle", "note": "*No* delante de un nombre significa «ningún» ([[negative-words]]). Aquí se sobreentiende que no se puede ir en bicicleta."},
+        {"t": [11], "es": "allí, por ahí", "base": "there", "sense": "place"},
+        {"t": [12], "es": "por tanto, entonces", "base": "then", "sense": "inference", "note": "Aquí introduce una conclusión, no un momento en el tiempo."}
+      ]
+    },
+    {
+      "id": 61,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Y al norte"},
+        {"t": [4, 5, 6, 7, 8, 9, 10], "es": "tenemos el bosquecillo llamado Ragged Shaw,"},
+        {"t": [11, 12], "es": "y después"},
+        {"t": [13, 14, 15], "es": "un gran páramo,"},
+        {"t": [16, 17, 18, 19], "es": "el páramo de Lower Gill."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1, 2, 3], "es": "al norte", "base": "north", "sense": "direction"},
+        {"t": [4], "es": "nosotros"},
+        {"t": [5], "es": "tenemos", "base": "have", "sense": "possess"},
+        {"t": [6, 7], "es": "los árboles", "base": "tree", "sense": "plant", "note": "Aquí, *the trees* se refiere a un bosquecillo: un grupo pequeño de árboles."},
+        {"t": [8], "es": "llamados", "base": "call", "sense": "name", "note": "*Called* seguido de un nombre indica cómo se llama algo."},
+        {"t": [9, 10], "es": "Ragged Shaw", "note": "*Shaw* es una palabra antigua para un bosquecillo; *ragged* significa «irregular, desigual»."},
+        {"t": [11], "es": "y"},
+        {"t": [12], "es": "después", "base": "then", "sense": "next"},
+        {"t": [13, 15], "es": "un páramo", "base": "moor", "sense": "land", "note": "Terreno alto y abierto, sin árboles, típico del norte de Inglaterra."},
+        {"t": [14], "es": "grande", "base": "great", "sense": "large"},
+        {"t": [16, 17, 18, 19], "es": "el páramo de Lower Gill", "base": "moor", "sense": "land"}
+      ]
+    },
+    {
+      "id": 62,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Y aquí está Holdernesse Hall,"},
+        {"t": [5, 6, 7, 8, 9], "es": "a dieciséis kilómetros del colegio"},
+        {"t": [10, 11], "es": "por carretera,"},
+        {"t": [12, 13, 14, 15], "es": "pero a solo nueve kilómetros"},
+        {"t": [16, 17, 18], "es": "a través del páramo."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "aquí", "base": "here", "sense": "place"},
+        {"t": [2], "es": "está", "base": "be", "sense": "state"},
+        {"t": [3, 4], "es": "Holdernesse Hall", "base": "hall", "sense": "house", "note": "En el nombre de una casa, *Hall* indica una gran casa de campo."},
+        {"t": [5], "es": "dieciséis"},
+        {"t": [6], "es": "kilómetros", "base": "kilometre", "sense": "distance", "note": "Ortografía británica; en EE. UU., *kilometers* ([[british-american]])."},
+        {"t": [7, 8, 9], "es": "del colegio", "base": "school", "sense": "education"},
+        {"t": [10, 11], "es": "por carretera", "base": "road", "sense": "route"},
+        {"t": [12], "es": "pero"},
+        {"t": [13], "es": "solo", "base": "only", "sense": "just"},
+        {"t": [14], "es": "nueve"},
+        {"t": [15], "es": "kilómetros", "base": "kilometre", "sense": "distance", "note": "Ortografía británica; en EE. UU., *kilometers* ([[british-american]])."},
+        {"t": [16, 17, 18], "es": "a través del páramo", "base": "moor", "sense": "land"}
+      ]
+    },
+    {
+      "id": 63,
+      "line": [
+        {"t": [0, 1, 2], "es": "No hay más casas"},
+        {"t": [3, 4, 5, 6, 7], "es": "hasta la posada Green Man,"},
+        {"t": [8, 9, 10, 11], "es": "por la carretera de Chesterfield»."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "no hay casas", "base": "house", "sense": "building", "note": "*No* delante del nombre ya expresa la negación ([[negative-words]]). Aquí equivale a «no hay»."},
+        {"t": [1], "es": "otras", "base": "other", "sense": "different"},
+        {"t": [3, 4, 5, 6, 7], "es": "hasta la posada Green Man", "base": "inn", "sense": "lodging", "note": "*Green Man* significa «el hombre verde», una figura del folclore inglés. Es un nombre habitual de posadas."},
+        {"t": [8, 9, 11], "es": "por la carretera", "base": "road", "sense": "route"},
+        {"t": [10], "es": "de Chesterfield", "note": "*Chesterfield* describe a qué lugar lleva la carretera; va antes de *road* ([[noun-as-adjective]])."}
+      ]
+    },
+    {
+      "id": 64,
+      "line": [{"t": [0, 1, 2], "es": "«Pero ¿y la bicicleta?»,"}],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1, 2], "es": "la bicicleta", "base": "bicycle", "sense": "vehicle"}
+      ]
+    },
+    {
+      "id": 65,
+      "line": [{"t": [0, 1, 2], "es": "volví a decir."}],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "dije", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "otra vez", "base": "again", "sense": "repeat"}
+      ]
+    },
+    {
+      "id": 66,
+      "line": [{"t": [0, 1, 2], "es": "«¡Sí, sí, Watson!»,"}],
+      "words": [
+        {"t": [0], "es": "sí", "base": "yes", "sense": "agreement"},
+        {"t": [1], "es": "sí", "base": "yes", "sense": "agreement"},
+        {"t": [2], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 67,
+      "line": [{"t": [0, 1], "es": "dijo Holmes."}],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 68,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Es posible"},
+        {"t": [3, 4, 5, 6, 7, 8, 9], "es": "cruzar el páramo en bicicleta:"},
+        {"t": [11, 12, 13], "es": "difícil, pero posible»."}
+      ],
+      "words": [
+        {"t": [0], "es": "(no se traduce)", "note": "*It* no se refiere a ninguna cosa: ocupa el lugar del sujeto. La idea viene después, en *to ride…* ([[dummy-subject]])."},
+        {"t": [1], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [2], "es": "posible", "base": "possible", "sense": "able"},
+        {"t": [3, 4], "es": "montar", "base": "ride", "sense": "mount", "note": "*Ride a bicycle* es ir en bicicleta. *Ride* se usa con bicicletas, motos y caballos, pero no para conducir un coche."},
+        {"t": [5, 6], "es": "una bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [7, 8, 9], "es": "a través del páramo", "base": "moor", "sense": "land"},
+        {"t": [11], "es": "difícil", "base": "difficult", "sense": "hard"},
+        {"t": [12], "es": "pero"},
+        {"t": [13], "es": "posible", "base": "possible", "sense": "able"}
+      ]
+    },
+    {
+      "id": 69,
+      "line": [
+        {"t": [0, 1], "es": "Justo entonces"},
+        {"t": [2, 3, 4, 5], "es": "el doctor Huxtable entró deprisa"},
+        {"t": [6, 7, 8], "es": "en la habitación."}
+      ],
+      "words": [
+        {"t": [0], "es": "justo", "base": "just", "sense": "exactly"},
+        {"t": [1], "es": "entonces", "base": "then", "sense": "time"},
+        {"t": [2], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [3], "es": "Huxtable"},
+        {"t": [4], "es": "vino", "base": "come", "sense": "move", "note": "Con *into the room*, indica que vino al interior de la habitación. En la frase española decimos «entró»."},
+        {"t": [5], "es": "deprisa", "base": "quickly", "sense": "speed"},
+        {"t": [6, 7, 8], "es": "a la habitación", "base": "room", "sense": "building", "note": "*Into* indica movimiento hacia dentro; *in* indica dónde está algo."}
+      ]
+    },
+    {
+      "id": 70,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¡Noticias, señor Holmes!»,"},
+        {"t": [3, 4, 5], "es": "dijo entusiasmado."}
+      ],
+      "words": [
+        {"t": [0], "es": "noticias", "base": "news", "sense": "information", "note": "Aunque acaba en *-s*, *news* no es plural: es un sustantivo incontable ([[uncountable]])."},
+        {"t": [1], "es": "señor", "note": "*Mr* va delante del apellido o del nombre completo. En inglés británico suele ir sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [2], "es": "Holmes"},
+        {"t": [3], "es": "él"},
+        {"t": [4], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [5], "es": "con entusiasmo", "base": "excitedly", "sense": "emotion", "note": "Ojo: no es «excitado», que en español suele tener sentido sexual. Indica entusiasmo o emoción ([[false-friends]])."}
+      ]
+    },
+    {
+      "id": 71,
+      "line": [{"t": [0, 1, 2], "es": "«¡Traigo noticias!»"}],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "traigo", "base": "bring", "sense": "carry"},
+        {"t": [2], "es": "noticias", "base": "news", "sense": "information", "note": "Aunque acaba en *-s*, *news* no es plural: es un sustantivo incontable ([[uncountable]])."}
+      ]
+    },
+    {
+      "id": 72,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Tenía en las manos"},
+        {"t": [4, 5, 6, 7], "es": "una gorra azul del colegio."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "en sus manos", "base": "hand", "sense": "body", "note": "El inglés usa posesivos con las partes del cuerpo: *his hands*, donde el español suele decir «las manos» ([[body-possessive]])."},
+        {"t": [3], "es": "estaba", "base": "be", "sense": "state", "note": "La frase empieza por el lugar, *in his hands*, y el sujeto, *a blue school hat*, va detrás de *was* ([[locative-inversion]])."},
+        {"t": [4, 7], "es": "una gorra", "base": "hat", "sense": "headwear"},
+        {"t": [5], "es": "azul", "base": "blue", "sense": "colour"},
+        {"t": [6], "es": "del colegio", "base": "school", "sense": "education", "note": "*School* describe el tipo de gorra. El sustantivo principal va al final: *hat* ([[noun-as-adjective]])."}
+      ]
+    },
+    {
+      "id": 73,
+      "line": [
+        {"t": [0], "es": "«Mire:"},
+        {"t": [2, 3], "es": "esta es"},
+        {"t": [4, 5, 6], "es": "la gorra del niño."}
+      ],
+      "words": [
+        {"t": [0], "es": "mire", "base": "look", "sense": "see"},
+        {"t": [2], "es": "esta"},
+        {"t": [3], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [4, 5], "es": "del niño", "base": "boy", "sense": "child", "note": "El *’s* indica de quién es algo: *the boy’s hat* = «la gorra del niño» ([[possessive-s]])."},
+        {"t": [6], "es": "gorra", "base": "hat", "sense": "headwear"}
+      ]
+    },
+    {
+      "id": 74,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Uno de mis jardineros"},
+        {"t": [4, 5], "es": "la encontró"},
+        {"t": [6, 7], "es": "esta tarde»."}
+      ],
+      "words": [
+        {"t": [0], "es": "uno"},
+        {"t": [1, 2, 3], "es": "de mis jardineros", "base": "gardener", "sense": "person"},
+        {"t": [4], "es": "encontró", "base": "find", "sense": "discover"},
+        {"t": [5], "es": "la", "note": "*It* se refiere a una cosa, sin distinguir masculino y femenino. Aquí sustituye a *hat*, «gorra»."},
+        {"t": [6, 7], "es": "esta tarde", "base": "evening", "sense": "time", "note": "*Evening* es el final de la tarde y el principio de la noche, no la tarde entera, que es *afternoon*."}
+      ]
+    },
+    {
+      "id": 75,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¿Dónde, hombre, dónde?»,"},
+        {"t": [3, 4], "es": "preguntó Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "dónde", "base": "where", "sense": "question"},
+        {"t": [1], "es": "hombre", "base": "man", "sense": "adult", "note": "Se usa para dirigirse a alguien, como «hombre» en español; aquí da un tono impaciente."},
+        {"t": [2], "es": "dónde", "base": "where", "sense": "question"},
+        {"t": [3], "es": "preguntó", "base": "ask", "sense": "question"},
+        {"t": [4], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 76,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Justo al norte de Ragged Shaw»,"},
+        {"t": [5, 6, 7], "es": "dijo el doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0], "es": "justo", "base": "just", "sense": "exactly"},
+        {"t": [1], "es": "al norte", "base": "north", "sense": "direction"},
+        {"t": [2, 3, 4], "es": "de Ragged Shaw", "note": "*Shaw* es una palabra antigua para un bosquecillo; *ragged* significa «irregular, desigual»."},
+        {"t": [5], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [6], "es": "doctor", "note": "Abreviatura de *doctor*. En inglés británico suele ir sin punto; en EE. UU., *Dr.* ([[british-american]])."},
+        {"t": [7], "es": "Huxtable"}
+      ]
+    },
+    {
+      "id": 77,
+      "line": [
+        {"t": [0], "es": "«¡Ajá!»,"},
+        {"t": [1, 2], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "ajá", "base": "aha", "sense": "realization"},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 78,
+      "line": [{"t": [0, 1, 2, 3, 4, 5], "es": "«¿Qué le dije, Watson?"}],
+      "words": [
+        {"t": [0], "es": "qué"},
+        {"t": [1, 3], "es": "dije", "base": "tell", "sense": "inform", "note": "*Did* forma la pregunta en pasado; *tell* queda en su forma base. No se dice *did I told* ([[auxiliary-do]])."},
+        {"t": [2], "es": "yo"},
+        {"t": [4], "es": "le, a usted"},
+        {"t": [5], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 79,
+      "line": [
+        {"t": [0], "es": "Mañana"},
+        {"t": [1, 2, 3, 4], "es": "tenemos que ir a pie hacia el norte,"},
+        {"t": [5, 6, 7], "es": "a través del páramo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "mañana", "base": "tomorrow", "sense": "next-day"},
+        {"t": [1], "es": "nosotros"},
+        {"t": [2, 3], "es": "tenemos que andar", "base": "walk", "sense": "move", "note": "El verbo modal *must* expresa necesidad y va seguido del verbo sin *to*: *must walk* ([[modal-verbs]])."},
+        {"t": [4], "es": "hacia el norte", "base": "north", "sense": "direction"},
+        {"t": [5, 6, 7], "es": "a través del páramo", "base": "moor", "sense": "land"}
+      ]
+    }
+  ]
+}

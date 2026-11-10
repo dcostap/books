@@ -1256,6 +1256,14 @@
         ]
       },
       {
+        "id": "unlit",
+        "es": "oscuro, sin luz",
+        "ex": [
+          "It's dark outside.",
+          "Fuera está oscuro."
+        ]
+      },
+      {
         "id": "darkness",
         "es": "oscuridad",
         "ex": [
@@ -7355,6 +7363,26 @@
       }
     ]
   },
+  "when": {
+    "senses": [
+      {
+        "id": "time",
+        "es": "cuando",
+        "ex": [
+          "Call me when you arrive.",
+          "Llámame cuando llegues."
+        ]
+      },
+      {
+        "id": "question",
+        "es": "cuándo",
+        "ex": [
+          "When does the film start?",
+          "¿Cuándo empieza la película?"
+        ]
+      }
+    ]
+  },
   "where": {
     "senses": [
       {
@@ -7589,7 +7617,7 @@
     "senses": [
       {
         "id": "want",
-        "es": "querer, gustar",
+        "es": "querer",
         "ex": [
           "I'd like a coffee, please.",
           "Me gustaría un café, por favor."
