@@ -6,7 +6,7 @@ Things that are special to this book. Read this before you add a chapter. Add to
 
 - Text: `source/book.pdf`, an Internet Archive scan of the 2002 printing (ISBN 9780194229616) with an OCR layer. The 2008 edition (ISBN 9780194787093) has the same text, but its PDF has images only.
 - Audio: the Oxford Bookworms audiobook, read by Richard Mitchly (Audible, 59 min). Our copy is one MP3 of 58:52 (48 kHz stereo, 224 kbps), probably from YouTube. It is not in git: `audio/duke/full.mp3`.
-- Only chapters 1 to 4 are in git. Chapters 5–7 stay on this computer (`.gitignore`). To publish a chapter, add it to `book.json` and remove its line from `.gitignore`.
+- Only chapters 1 to 5 are in git. Chapters 6–7 stay on this computer (`.gitignore`). To publish a chapter, add it to `book.json` and remove its line from `.gitignore`.
 
 ## Audio
 
@@ -28,7 +28,7 @@ Keep the original file as `audio/duke/0N-original-with-chime.mp3`. Make the clea
 | 2 | 6.95–17.76 | none found | | yes |
 | 3 | 7.02–17.62 | none found | | yes |
 | 4 | 6.20–16.58 | none found | | yes |
-| 5 | 6.00–17.73 | none found | | |
+| 5 | 6.20–17.55 | none found | | yes |
 | 6 | 7.40–19.07 | none found | | |
 | 7 | 5.43–16.74 | 530.15–531.95 ("…put it carefully…") | 530.196–530.302 (on top of the "t" in "put") | |
 
@@ -62,7 +62,15 @@ Chapter 4 command. The title ends at 5.97 s, the music starts at about 6.4 s, an
 .venv/Scripts/python books/duke/fix_audio.py audio/duke/04-the-body-on-the-moor.mp3 audio/duke/04-the-body-on-the-moor.webm --cut 6.20 16.58 --gap 0.8
 ```
 
-The files of chapters 5–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
+Chapter 5 command. The title ends at 5.95 s, the music plays from about 7.0 to 17.2 s, and the first word starts at 17.60 s:
+
+```
+.venv/Scripts/python books/duke/fix_audio.py audio/duke/05-a-visit-to-the-green-man.mp3 audio/duke/05-a-visit-to-the-green-man.webm --cut 6.20 17.55 --gap 0.8
+```
+
+In chapter 5, Whisper heard "Yes." at about 8:05 as "What Somebody's", and it did not hear the second "and sometimes like this" at about 4:10. The words in 247–259.5 and 483–495 s of `whisper.json` come from Whisper on short clips. After that, `retime.py` matches 99.7% of the words.
+
+The files of chapters 6–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
 
 ## Text
 
@@ -174,6 +182,15 @@ Add the names of each chapter before you translate it. Names in a later chapter 
 | night-shirt | camisa de dormir | A long shirt for sleeping in. |
 | coat | chaqueta | Heidegger's coat. Chapter 2 calls it «chaqueta». |
 | my dear Watson | mi querido Watson | |
+| Mr Reuben Hayes, Mr Hayes | el señor Reuben Hayes, el señor Hayes | The man at the door of the Green Man Inn. His name is on the door. |
+| inn | posada | |
+| the Hall | la mansión | Holdernesse Hall. |
+| pound | libra | Money: Holmes offers *a pound*. |
+| stables | las cuadras | Buildings for horses. |
+| shoes (of a horse) | herraduras | English says *shoes* for a horse too. |
+| nails | clavos | The nails of a horse's shoes. |
+| the rider | el ciclista | Mr Wilder, on a bicycle. |
+| kidnapping | secuestro | |
 
 ### Stress
 
@@ -181,6 +198,7 @@ The book prints some words in italics for stress. The text has no italics, so th
 
 - Ch3: "*I* put the letter into the postbag" (Mr Wilder, not the Duke, did it) and "the boy and the teacher did *not* go by road".
 - Ch4: "not *the* bicycle" (not the one we look for), "Or perhaps *to* the school?", "He knows that he *needs* his bicycle", "it is *eight kilometres* before…", "there was *someone with the boy*", "It's *not* possible".
+- Ch5: no words in italics.
 
 ### Spoilers
 
@@ -190,6 +208,7 @@ This is a mystery. The reader must find things out at the same time as Holmes.
 - Do not hint that a person, a place or a detail will be important.
 - A note about a name explains only the language (a title, a spelling), never who the person is in the story.
 - Ch4 and later: the cow tracks come back again and again. Treat them as any other words: no note may hint that they are important.
+- Ch5: Holmes's three drawings of the tracks, "Old shoes, but new nails" and "it's a very strange cow": translate the words only. No note may explain what made the tracks or why the nails are new. Do not say who the man on the horse is, or who the other man is.
 
 ## Open questions
 

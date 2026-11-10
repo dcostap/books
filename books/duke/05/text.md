@@ -1,0 +1,117 @@
+# Chapter Five: A Visit to the Green Man
+
+When we were near the inn, Holmes suddenly cried out. ‘Aaah! My foot! I can’t stand on it. Help me, Watson.’
+
+I took his arm, and we walked slowly to the door of the inn. A man stood there, smoking, and watching us.
+
+‘How are you, Mr Reuben Hayes?’ said Holmes.
+
+‘Who are you, and how do you know my name?’ said the man. He looked very unfriendly.
+
+‘Because it’s on the door of the inn, over your head,’ said Holmes. ‘But can you help me, Mr Hayes?’
+
+‘No, I can’t.’
+
+‘But I need help. I can’t put my foot to the ground.’
+
+‘Well, don’t put it to the ground.’
+
+Holmes smiled. ‘Look,’ he said. ‘It’s very important, and I can offer you a pound for the use of a bicycle.’
+
+‘Where do you want to go?’ asked Mr Hayes.
+
+‘To Holdernesse Hall.’
+
+‘Oh, friends of the Duke, are you?’ Mr Hayes laughed, looking at our muddy shoes and trousers.
+
+![‘Oh, friends of the Duke, are you?’ Mr Hayes laughed.](05-1)
+
+Holmes laughed too. ‘Well, we are bringing him news of his lost son,’ he said. ‘The boy is in Liverpool.’
+
+Mr Hayes’s face went white, then red. ‘Oh,’ he said carefully. ‘That’s ... er, that’s good news. I worked for the Duke once, but he wasn’t good to me. I don’t like him, but I’m pleased about the boy.’
+
+We all went into the inn. ‘Now,’ said Holmes, ‘something to eat first, please. Then you can bring round the bicycle.’
+
+‘I haven’t got a bicycle,’ said Mr Hayes.
+
+Holmes put a pound on the table.
+
+‘I tell you, man, that I haven’t got a bicycle! You can have two horses to take you to the Hall.’
+
+He brought us something to eat, and we ate hungrily. Through the window we could see the stables at the back of the inn. Once Holmes got up and walked round the room, then stood, looking out of the window at the stables. Surprisingly, his foot was now very much better.
+
+Suddenly he laughed, and looked at me. ‘I’ve got it!’ he cried. ‘Yes, of course that’s it. Watson, did you see any cow tracks today?’
+
+‘Yes,’ I said. ‘Lots of them. Everywhere.’
+
+‘And how many cows did you see on the moor?’
+
+‘I don’t remember any,’ I said.
+
+‘Isn’t that strange, Watson? Lots of cow tracks, but no cows? And do you remember those tracks, Watson?’ He took out his notebook. ‘There were tracks like this:
+
+![](05-2)
+
+and sometimes like this:
+
+![](05-3)
+
+and sometimes like this:
+
+![](05-4)
+
+Do you remember that, Watson?’
+
+‘No, I don’t,’ I said. ‘What does it mean, Holmes?’
+
+‘It means that it’s a very strange cow, Watson! Cows don’t move like that. Now, let’s go quietly out and have a look round these stables.’
+
+There were two tired-looking horses in the stables. Holmes looked carefully at one of the horse’s feet, and laughed. ‘Look, Watson. Old shoes, but new nails. Oh, this case gets more interesting every minute.’
+
+![Holmes looked carefully at one of the horse’s feet.](05-5)
+
+I began to ask Holmes a question, but suddenly we heard someone behind us, and there was Mr Reuben Hayes. His face was red and angry.
+
+‘What are you doing in my stables?’ he cried.
+
+‘We’re just looking at your horses, Mr Hayes,’ said Holmes, smiling. ‘Why? Are you afraid of something?’
+
+The man opened his mouth, then closed it quickly. His face was still red and angry. Holmes did not give him time to speak.
+
+‘I think your horses are tired, Mr Hayes. We can walk to the Hall. It’s not far.’
+
+‘Three kilometres, by the road,’ Mr Hayes said. His eyes still watched us angrily.
+
+It was nearly dark when we left. We walked along the road for about a hundred metres. Then Holmes took my arm. ‘Quick, Watson! Off the road and up the hill. Then we can come down the hill at the back of the inn.’
+
+We ran up the hill. ‘This man Hayes,’ I said. ‘He knows all about the kidnapping. Is that right, Holmes?’
+
+‘Of course it is,’ he said. ‘We can learn a lot more from Mr Hayes. Ah! Who’s this? Watson, get down!’
+
+There was a bicycle on the road. It came past us very quickly, and we saw the rider – Mr James Wilder, the Duke’s secretary. His face was white and afraid.
+
+‘Quick, Watson!’ said Holmes. ‘We must watch him.’
+
+We ran down the hill, and stopped when we could see the back door of the inn. Wilder’s bicycle was by the wall near the door. For five minutes, nothing happened; then a man on a horse rode quickly out of the stables and disappeared down the road.
+
+![Then a man on a horse rode quickly out of the stables and disappeared down the road.](05-6)
+
+‘What do you think of that, Watson?’ said Holmes.
+
+‘Somebody’s running away.’
+
+‘Yes. But not James Wilder, because there he is at the door.’
+
+We could see Wilder in the light from the door. He stood there, looking out, and ten minutes later another man came down the road and went into the inn. Then a light came on in a room upstairs.
+
+‘Come, Watson. We must get nearer,’ Holmes said.
+
+We went down the hill and walked very quietly to the back door of the inn. The bicycle was still by the wall. Holmes looked at the wheel, and laughed quietly.
+
+‘A Dunlop tyre, Watson! Now, I must look through that upstairs window, so I need your back, Watson.’
+
+Holmes stood on my back, but only for a second, and then he was down again. ‘Come, my friend,’ he said. ‘It’s a long walk to the school, so let’s start at once. I can give you all the answers to this mystery tomorrow.’
+
+It was a long, cold, muddy walk back to the school. I went to bed at once, but Holmes went out again, to Mackleton, I think. I was very tired, and slept all night like a dead man.
+
+![It was a long, cold, muddy walk back to the school.](05-7)

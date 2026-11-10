@@ -30,6 +30,12 @@
         "title": "The Body on the Moor",
         "data": "books/duke/04.json",
         "duration": 655.79
+      },
+      {
+        "n": 5,
+        "title": "A Visit to the Green Man",
+        "data": "books/duke/05.json",
+        "duration": 595.23
       }
     ]
   },
