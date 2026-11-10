@@ -1,0 +1,407 @@
+{
+  "sentences": [
+    {
+      "id": 108,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«¿Qué le parece eso,"},
+        {"t": [6], "es": "Watson?»,"},
+        {"t": [7, 8], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "qué", "base": "what", "sense": "question"},
+        {"t": [1, 3, 4], "es": "le parece", "base": "think of", "sense": "opinion", "note": "*What do you think of…?* pide una opinión. *Do* forma la pregunta y no se traduce ([[auxiliary-do]])."},
+        {"t": [2], "es": "usted"},
+        {"t": [5], "es": "eso"},
+        {"t": [6], "es": "Watson"},
+        {"t": [7], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [8], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 109,
+      "line": [{"t": [0, 1, 2], "es": "«Alguien está huyendo»."}],
+      "words": [
+        {"t": [0], "es": "alguien está", "base": "be", "sense": "state", "note": "*Somebody’s* es *somebody is* ([[contractions]]). *Somebody* significa «alguien»."},
+        {"t": [1, 2], "es": "huyendo", "base": "run away", "sense": "escape", "note": "*Run away* significa huir, no solo correr ([[phrasal-verbs]])."}
+      ]
+    },
+    {
+      "id": 110,
+      "line": [{"t": [0], "es": "«Sí."}],
+      "words": [{"t": [0], "es": "sí", "base": "yes", "sense": "agreement"}]
+    },
+    {
+      "id": 111,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Pero James Wilder no,"},
+        {"t": [4, 5, 6, 7], "es": "porque ahí está,"},
+        {"t": [8, 9, 10], "es": "en la puerta»."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "no", "base": "not", "sense": "negative"},
+        {"t": [2, 3], "es": "James Wilder"},
+        {"t": [4], "es": "porque"},
+        {"t": [5], "es": "ahí", "base": "there", "sense": "place"},
+        {"t": [6], "es": "él"},
+        {"t": [7], "es": "está", "base": "be", "sense": "state"},
+        {"t": [8, 9, 10], "es": "en la puerta", "base": "door", "sense": "entrance"}
+      ]
+    },
+    {
+      "id": 112,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Podíamos ver a Wilder"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "a la luz que salía por la puerta."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1, 2], "es": "podíamos ver", "base": "see", "sense": "sight", "note": "*Could* es el pasado de *can*. Aquí indica lo que podían ver ([[modal-verbs]])."},
+        {"t": [3], "es": "Wilder"},
+        {"t": [4, 5, 6], "es": "a la luz", "base": "light", "sense": "illumination"},
+        {"t": [7, 8, 9], "es": "de la puerta", "base": "door", "sense": "entrance"}
+      ]
+    },
+    {
+      "id": 113,
+      "line": [
+        {"t": [0, 1, 2], "es": "Estaba allí de pie,"},
+        {"t": [3, 4], "es": "mirando hacia fuera,"},
+        {"t": [5, 6, 7, 8], "es": "y diez minutos después"},
+        {"t": [9, 10, 11, 12, 13, 14], "es": "otro hombre llegó por la carretera"},
+        {"t": [15, 16, 17, 18, 19], "es": "y entró en la posada."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "estaba de pie", "base": "stand", "sense": "upright"},
+        {"t": [2], "es": "allí", "base": "there", "sense": "place"},
+        {"t": [3], "es": "mirando", "base": "look", "sense": "see"},
+        {"t": [4], "es": "hacia fuera", "base": "out", "sense": "outside"},
+        {"t": [5], "es": "y"},
+        {"t": [6], "es": "diez"},
+        {"t": [7], "es": "minutos", "base": "minute", "sense": "time"},
+        {"t": [8], "es": "después", "base": "later", "sense": "after"},
+        {"t": [9, 10], "es": "otro hombre", "base": "man", "sense": "adult"},
+        {"t": [11], "es": "vino", "base": "come", "sense": "move"},
+        {"t": [12, 13, 14], "es": "por la carretera", "base": "road", "sense": "route", "note": "Con una calle o carretera, *down* indica avanzar por ella; no tiene por qué ser cuesta abajo."},
+        {"t": [15], "es": "y"},
+        {"t": [16], "es": "fue", "base": "go", "sense": "move", "note": "*Went into* indica movimiento hacia dentro: «entró en»."},
+        {"t": [17, 18, 19], "es": "al interior de la posada", "base": "inn", "sense": "lodging"}
+      ]
+    },
+    {
+      "id": 114,
+      "line": [
+        {"t": [0], "es": "Después"},
+        {"t": [1, 2, 3, 4], "es": "se encendió una luz"},
+        {"t": [5, 6, 7, 8], "es": "en una habitación de arriba."}
+      ],
+      "words": [
+        {"t": [0], "es": "después", "base": "then", "sense": "next"},
+        {"t": [1, 2], "es": "una luz", "base": "light", "sense": "illumination"},
+        {"t": [3, 4], "es": "se encendió", "base": "come on", "sense": "activate", "note": "Con una luz, *come on* significa encenderse ([[phrasal-verbs]])."},
+        {"t": [5, 6, 7], "es": "en una habitación", "base": "room", "sense": "building"},
+        {"t": [8], "es": "arriba", "base": "upstairs", "sense": "floor"}
+      ]
+    },
+    {
+      "id": 115,
+      "line": [{"t": [0, 1], "es": "«Venga, Watson."}],
+      "words": [
+        {"t": [0], "es": "venga", "base": "come", "sense": "encouragement", "note": "Aquí *come* anima a ponerse en marcha: «venga», «vamos»."},
+        {"t": [1], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 116,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Tenemos que acercarnos»,"},
+        {"t": [4, 5], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1, 2], "es": "tenemos que ponernos", "base": "get", "sense": "become", "note": "Con *nearer*, *get* indica un cambio de posición: «ponerse más cerca» ([[linking-verbs]]). *Must* indica necesidad ([[modal-verbs]])."},
+        {"t": [3], "es": "más cerca", "base": "near", "sense": "close", "note": "La terminación *-er* forma el comparativo: *nearer* es «más cerca» ([[comparatives]])."},
+        {"t": [4], "es": "Holmes"},
+        {"t": [5], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 117,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Bajamos la colina"},
+        {"t": [5, 6, 7, 8], "es": "y caminamos sin hacer apenas ruido"},
+        {"t": [9, 10, 11, 12], "es": "hasta la puerta trasera"},
+        {"t": [13, 14, 15], "es": "de la posada."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "fuimos", "base": "go", "sense": "move", "note": "*Went down* indica movimiento hacia abajo. En español decimos «bajamos»."},
+        {"t": [2, 3, 4], "es": "colina abajo", "base": "hill", "sense": "land"},
+        {"t": [5], "es": "y"},
+        {"t": [6], "es": "caminamos", "base": "walk", "sense": "move"},
+        {"t": [7], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [8], "es": "sin hacer ruido", "base": "quietly", "sense": "noise", "note": "Aquí *quietly* indica poco ruido, no quedarse «quieto» ([[false-friends]])."},
+        {"t": [9, 10, 12], "es": "hasta la puerta", "base": "door", "sense": "entrance"},
+        {"t": [11], "es": "trasera", "base": "back", "sense": "rear"},
+        {"t": [13, 14, 15], "es": "de la posada", "base": "inn", "sense": "lodging"}
+      ]
+    },
+    {
+      "id": 118,
+      "line": [
+        {"t": [0, 1], "es": "La bicicleta"},
+        {"t": [2, 3], "es": "seguía"},
+        {"t": [4, 5, 6], "es": "junto a la pared."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "la bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [2], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [3], "es": "todavía", "base": "still", "sense": "continuing"},
+        {"t": [4, 5, 6], "es": "junto a la pared", "base": "wall", "sense": "building", "note": "Aquí *by* significa «junto a», no «por»."}
+      ]
+    },
+    {
+      "id": 119,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Holmes miró la rueda"},
+        {"t": [5, 6, 7], "es": "y se rio en voz baja."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1, 2], "es": "miró", "base": "look at", "sense": "watch", "note": "*Look at* indica qué miras: la preposición *at* acompaña al verbo."},
+        {"t": [3, 4], "es": "la rueda", "base": "wheel", "sense": "round"},
+        {"t": [5], "es": "y"},
+        {"t": [6], "es": "se rio", "base": "laugh", "sense": "amusement"},
+        {"t": [7], "es": "en voz baja", "base": "quietly", "sense": "voice", "note": "*Quietly* indica un sonido bajo, no quedarse «quieto» ([[false-friends]])."}
+      ]
+    },
+    {
+      "id": 120,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¡Un neumático Dunlop,"},
+        {"t": [3], "es": "Watson!"}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "un neumático", "base": "tyre", "sense": "wheel", "note": "Ortografía británica; en EE. UU., *tire* ([[british-american]])."},
+        {"t": [1], "es": "Dunlop"},
+        {"t": [3], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 121,
+      "line": [
+        {"t": [0], "es": "Ahora"},
+        {"t": [1, 2, 3, 4, 5, 6, 7], "es": "tengo que mirar por esa ventana de arriba,"},
+        {"t": [8, 9, 10, 11, 12], "es": "así que necesito su espalda,"},
+        {"t": [13], "es": "Watson»."}
+      ],
+      "words": [
+        {"t": [0], "es": "ahora", "base": "now", "sense": "present"},
+        {"t": [1], "es": "yo"},
+        {"t": [2, 3], "es": "tengo que mirar", "base": "look", "sense": "see", "note": "El modal *must* indica necesidad y va con el verbo sin *to* ([[modal-verbs]])."},
+        {"t": [4, 5, 7], "es": "por esa ventana", "base": "window", "sense": "opening"},
+        {"t": [6], "es": "de arriba", "base": "upstairs", "sense": "floor"},
+        {"t": [8], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [9], "es": "yo"},
+        {"t": [10], "es": "necesito", "base": "need", "sense": "require"},
+        {"t": [11, 12], "es": "su espalda", "base": "back", "sense": "body", "note": "*Your* puede ser «tu», «su» o «vuestro». Aquí Holmes trata a Watson de usted."},
+        {"t": [13], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 122,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Holmes se puso de pie sobre mi espalda,"},
+        {"t": [5, 6, 7, 8, 9], "es": "pero solo un segundo,"},
+        {"t": [10, 11, 12, 13, 14, 15], "es": "y enseguida volvió a estar abajo."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "estuvo de pie", "base": "stand", "sense": "upright"},
+        {"t": [2, 3, 4], "es": "sobre mi espalda", "base": "back", "sense": "body"},
+        {"t": [5], "es": "pero"},
+        {"t": [6], "es": "solo", "base": "only", "sense": "just"},
+        {"t": [7, 8, 9], "es": "durante un segundo", "base": "second", "sense": "time", "note": "Con una duración, *for* significa «durante», no «para» ([[for-duration]])."},
+        {"t": [10], "es": "y"},
+        {"t": [11], "es": "después", "base": "then", "sense": "next"},
+        {"t": [12], "es": "él"},
+        {"t": [13], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [14], "es": "abajo", "base": "down", "sense": "direction"},
+        {"t": [15], "es": "otra vez", "base": "again", "sense": "repeat"}
+      ]
+    },
+    {
+      "id": 123,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Venga, amigo mío»,"},
+        {"t": [3, 4], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0], "es": "venga", "base": "come", "sense": "encouragement", "note": "Aquí *come* anima a ponerse en marcha: «venga», «vamos»."},
+        {"t": [1, 2], "es": "mi amigo", "base": "friend", "sense": "person"},
+        {"t": [3], "es": "él"},
+        {"t": [4], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 124,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Es un largo camino"},
+        {"t": [4, 5, 6], "es": "hasta el colegio,"},
+        {"t": [7, 8, 9], "es": "así que pongámonos en marcha"},
+        {"t": [10, 11], "es": "enseguida."}
+      ],
+      "words": [
+        {"t": [0], "es": "es", "base": "be", "sense": "identity", "note": "*It’s* es *it is* ([[contractions]]). Aquí *it* no se traduce: el inglés necesita un sujeto ([[dummy-subject]])."},
+        {"t": [1, 3], "es": "una caminata", "base": "walk", "sense": "outing", "note": "Aquí *walk* es un sustantivo: un trayecto que se hace a pie."},
+        {"t": [2], "es": "larga", "base": "long", "sense": "length"},
+        {"t": [4, 5, 6], "es": "hasta el colegio", "base": "school", "sense": "education"},
+        {"t": [7], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [8, 9], "es": "salgamos", "base": "start", "sense": "depart", "note": "*Let’s* es *let us* ([[contractions]]). *Let’s* + verbo propone hacer algo juntos: «vamos a…»."},
+        {"t": [10, 11], "es": "enseguida", "base": "at once", "sense": "immediately"}
+      ]
+    },
+    {
+      "id": 125,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Puedo darle"},
+        {"t": [4, 5, 6], "es": "todas las respuestas"},
+        {"t": [7, 8, 9], "es": "a este misterio"},
+        {"t": [10], "es": "mañana»."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "puedo dar", "base": "give", "sense": "transfer", "note": "El modal *can* expresa que puede hacerlo. Va con el verbo sin *to* ([[modal-verbs]])."},
+        {"t": [3], "es": "le, a usted"},
+        {"t": [4], "es": "todas", "base": "all", "sense": "every"},
+        {"t": [5, 6], "es": "las respuestas", "base": "answer", "sense": "solution"},
+        {"t": [7, 8, 9], "es": "a este misterio", "base": "mystery", "sense": "unknown"},
+        {"t": [10], "es": "mañana", "base": "tomorrow", "sense": "next-day"}
+      ]
+    },
+    {
+      "id": 126,
+      "line": [{"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "El regreso al colegio fue largo, frío y lleno de barro."}],
+      "words": [
+        {"t": [0], "es": "(no se traduce)", "note": "Aquí *it* permite presentar cómo fue el camino. El inglés necesita un sujeto ([[dummy-subject]])."},
+        {"t": [1], "es": "fue", "base": "be", "sense": "identity"},
+        {"t": [2, 6], "es": "una caminata", "base": "walk", "sense": "outing", "note": "Aquí *walk* es un sustantivo: un trayecto que se hace a pie."},
+        {"t": [3], "es": "larga", "base": "long", "sense": "length"},
+        {"t": [4], "es": "fría", "base": "cold", "sense": "temperature"},
+        {"t": [5], "es": "llena de barro", "base": "muddy", "sense": "dirty"},
+        {"t": [7], "es": "de vuelta", "base": "back", "sense": "return"},
+        {"t": [8, 9, 10], "es": "al colegio", "base": "school", "sense": "education"}
+      ]
+    },
+    {
+      "id": 127,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Me acosté"},
+        {"t": [4, 5], "es": "enseguida,"},
+        {"t": [6, 7, 8, 9, 10], "es": "pero Holmes volvió a salir,"},
+        {"t": [11, 12], "es": "a Mackleton,"},
+        {"t": [13, 14], "es": "creo."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2, 3], "es": "me acosté", "base": "go to bed", "sense": "sleep", "note": "*Go to bed* significa acostarse. No lleva artículo delante de *bed*."},
+        {"t": [4, 5], "es": "enseguida", "base": "at once", "sense": "immediately"},
+        {"t": [6], "es": "pero"},
+        {"t": [7], "es": "Holmes"},
+        {"t": [8, 9], "es": "salió", "base": "go out", "sense": "leave", "note": "*Go out* significa salir; aquí aparece en pasado, *went out* ([[phrasal-verbs]])."},
+        {"t": [10], "es": "otra vez", "base": "again", "sense": "repeat"},
+        {"t": [11, 12], "es": "a Mackleton"},
+        {"t": [13], "es": "yo"},
+        {"t": [14], "es": "creo", "base": "think", "sense": "believe"}
+      ]
+    },
+    {
+      "id": 128,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Estaba muy cansado"},
+        {"t": [4, 5, 6, 7], "es": "y dormí toda la noche"},
+        {"t": [8, 9, 10, 11], "es": "como un tronco."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 3], "es": "estaba cansado", "base": "tired", "sense": "sleepy"},
+        {"t": [2], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "dormí", "base": "sleep", "sense": "rest"},
+        {"t": [6, 7], "es": "toda la noche", "base": "night", "sense": "time", "note": "*All night* significa «toda la noche», sin artículo delante de *night*."},
+        {"t": [8], "es": "como", "base": "like", "sense": "similar"},
+        {"t": [9, 11], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [10], "es": "muerto", "base": "dead", "sense": "not-alive", "note": "*Sleep like a dead man* compara el sueño profundo con estar muerto. En español decimos «dormir como un tronco»."}
+      ]
+    },
+    {
+      "id": 129,
+      "line": [{"t": [0, 1, 2, 3, 4, 5, 6], "es": "«Ah, ¿así que son amigos del duque?»."}],
+      "words": [
+        {"t": [0], "es": "ah", "base": "oh", "sense": "realisation"},
+        {"t": [1], "es": "amigos", "base": "friend", "sense": "person"},
+        {"t": [2, 3, 4], "es": "del duque", "base": "duke", "sense": "noble"},
+        {"t": [5], "es": "son", "base": "be", "sense": "identity", "note": "La pregunta breve *are you?* pide confirmación con sorpresa: «¿ah, sí?». El verbo va antes de *you* ([[be-questions]])."},
+        {"t": [6], "es": "ustedes"}
+      ]
+    },
+    {
+      "id": 130,
+      "line": [{"t": [0, 1, 2], "es": "El señor Hayes se rio."}],
+      "words": [
+        {"t": [0, 1], "es": "el señor Hayes", "note": "*Mr* es «señor». En inglés británico va sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [2], "es": "se rio", "base": "laugh", "sense": "amusement"}
+      ]
+    },
+    {
+      "id": 131,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Holmes miró atentamente"},
+        {"t": [4, 5, 6, 7, 8], "es": "uno de los cascos del caballo."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1, 3], "es": "miró", "base": "look at", "sense": "examine", "note": "*Look at* indica qué miras. Aquí el adverbio *carefully* va entre el verbo y *at*."},
+        {"t": [2], "es": "atentamente", "base": "carefully", "sense": "attention"},
+        {"t": [4], "es": "uno"},
+        {"t": [5, 8], "es": "de los pies", "base": "foot", "sense": "body", "note": "En un caballo, *foot* es el casco: el extremo de la pata. La pata entera es *leg*."},
+        {"t": [6, 7], "es": "del caballo", "base": "horse", "sense": "animal", "note": "El genitivo *horse’s* indica de quién son los pies. El dueño va antes que la parte del cuerpo ([[possessive-s]])."}
+      ]
+    },
+    {
+      "id": 132,
+      "line": [
+        {"t": [0, 1, 2], "es": "Luego un hombre"},
+        {"t": [3, 4, 5], "es": "a caballo"},
+        {"t": [6, 7, 8, 9, 10, 11], "es": "salió rápidamente de las cuadras"},
+        {"t": [12, 13, 14, 15, 16], "es": "y desapareció por la carretera."}
+      ],
+      "words": [
+        {"t": [0], "es": "luego", "base": "then", "sense": "next"},
+        {"t": [1, 2], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [3, 4, 5], "es": "sobre un caballo", "base": "horse", "sense": "animal"},
+        {"t": [6], "es": "cabalgó", "base": "ride", "sense": "mount", "note": "*Rode* indica que iba a caballo; con *out of*, que salió de un lugar."},
+        {"t": [7], "es": "rápidamente", "base": "quickly", "sense": "speed"},
+        {"t": [8, 9, 10, 11], "es": "fuera de las cuadras", "base": "stable", "sense": "building"},
+        {"t": [12], "es": "y"},
+        {"t": [13], "es": "desapareció", "base": "disappear", "sense": "vanish"},
+        {"t": [14, 15, 16], "es": "por la carretera", "base": "road", "sense": "route", "note": "Con una calle o carretera, *down* indica avanzar por ella; no tiene por qué ser cuesta abajo."}
+      ]
+    },
+    {
+      "id": 133,
+      "line": [{"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "El regreso al colegio fue largo, frío y lleno de barro."}],
+      "words": [
+        {"t": [0], "es": "(no se traduce)", "note": "Aquí *it* permite presentar cómo fue el camino. El inglés necesita un sujeto ([[dummy-subject]])."},
+        {"t": [1], "es": "fue", "base": "be", "sense": "identity"},
+        {"t": [2, 6], "es": "una caminata", "base": "walk", "sense": "outing", "note": "Aquí *walk* es un sustantivo: un trayecto que se hace a pie."},
+        {"t": [3], "es": "larga", "base": "long", "sense": "length"},
+        {"t": [4], "es": "fría", "base": "cold", "sense": "temperature"},
+        {"t": [5], "es": "llena de barro", "base": "muddy", "sense": "dirty"},
+        {"t": [7], "es": "de vuelta", "base": "back", "sense": "return"},
+        {"t": [8, 9, 10], "es": "al colegio", "base": "school", "sense": "education"}
+      ]
+    }
+  ]
+}

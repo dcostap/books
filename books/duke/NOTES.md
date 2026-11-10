@@ -189,6 +189,7 @@ Add the names of each chapter before you translate it. Names in a later chapter 
 | stables | las cuadras | Buildings for horses. |
 | shoes (of a horse) | herraduras | English says *shoes* for a horse too. |
 | nails | clavos | The nails of a horse's shoes. |
+| foot (of a horse) | casco | The gloss stays «pie»; a note says that it is the «casco». The whole leg is *leg*, «pata». |
 | the rider | el ciclista | Mr Wilder, on a bicycle. |
 | kidnapping | secuestro | |
 

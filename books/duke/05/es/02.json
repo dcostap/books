@@ -1,0 +1,524 @@
+{
+  "sentences": [
+    {
+      "id": 37,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Holmes puso una libra"},
+        {"t": [4, 5, 6], "es": "sobre la mesa."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "puso", "base": "put", "sense": "place"},
+        {"t": [2, 3], "es": "una libra", "base": "pound", "sense": "currency", "note": "La libra es la moneda británica, como el euro en España."},
+        {"t": [4, 5, 6], "es": "sobre la mesa", "base": "table", "sense": "furniture"}
+      ]
+    },
+    {
+      "id": 38,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«¡Le digo, hombre,"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "que no tengo bicicleta!"}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "digo", "base": "tell", "sense": "inform"},
+        {"t": [2], "es": "le, a usted"},
+        {"t": [3], "es": "hombre", "base": "man", "sense": "adult"},
+        {"t": [4], "es": "que"},
+        {"t": [5], "es": "yo"},
+        {"t": [6, 7], "es": "no tengo", "base": "have", "sense": "possess", "note": "*Haven’t* es *have not* ([[contractions]]). *Haven’t got* es habitual en inglés británico; en EE. UU. suele decirse *don’t have* ([[british-american]])."},
+        {"t": [8, 9], "es": "una bicicleta", "base": "bicycle", "sense": "vehicle"}
+      ]
+    },
+    {
+      "id": 39,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Puede llevarse dos caballos"},
+        {"t": [5, 6, 7], "es": "para que lo lleven"},
+        {"t": [8, 9, 10], "es": "a la mansión»."}
+      ],
+      "words": [
+        {"t": [0], "es": "usted"},
+        {"t": [1, 2], "es": "puede tener", "base": "have", "sense": "possess", "note": "Aquí *can* indica permiso: le ofrece usar los caballos ([[modal-verbs]])."},
+        {"t": [3], "es": "dos"},
+        {"t": [4], "es": "caballos", "base": "horse", "sense": "animal"},
+        {"t": [5, 6], "es": "para llevar", "base": "take", "sense": "carry", "note": "*To* + verbo indica para qué sirven los caballos: llevarlo allí ([[purpose-infinitive]])."},
+        {"t": [7], "es": "lo, a usted"},
+        {"t": [8, 9, 10], "es": "a la mansión", "base": "hall", "sense": "house"}
+      ]
+    },
+    {
+      "id": 40,
+      "line": [
+        {"t": [0, 1, 2], "es": "Nos trajo"},
+        {"t": [3, 4, 5], "es": "algo de comer"},
+        {"t": [6, 7, 8, 9], "es": "y comimos con hambre."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "trajo", "base": "bring", "sense": "carry"},
+        {"t": [2], "es": "nos, a nosotros"},
+        {"t": [3], "es": "algo"},
+        {"t": [4, 5], "es": "de comer", "base": "eat", "sense": "food"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "nosotros"},
+        {"t": [8], "es": "comimos", "base": "eat", "sense": "food"},
+        {"t": [9], "es": "con hambre", "base": "hungrily", "sense": "hunger"}
+      ]
+    },
+    {
+      "id": 41,
+      "line": [
+        {"t": [0, 1, 2], "es": "Por la ventana"},
+        {"t": [3, 4, 5], "es": "podíamos ver"},
+        {"t": [6, 7], "es": "las cuadras"},
+        {"t": [8, 9, 10, 11, 12, 13], "es": "detrás de la posada."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "a través de la ventana", "base": "window", "sense": "opening"},
+        {"t": [3], "es": "nosotros"},
+        {"t": [4, 5], "es": "podíamos ver", "base": "see", "sense": "sight", "note": "*Could* es el pasado de *can*: aquí indica que podían ver las cuadras ([[modal-verbs]])."},
+        {"t": [6, 7], "es": "las cuadras", "base": "stable", "sense": "building"},
+        {"t": [8, 9, 10], "es": "en la parte de atrás", "base": "back", "sense": "rear"},
+        {"t": [11, 12, 13], "es": "de la posada", "base": "inn", "sense": "lodging"}
+      ]
+    },
+    {
+      "id": 42,
+      "line": [
+        {"t": [0], "es": "En un momento dado,"},
+        {"t": [1, 2, 3], "es": "Holmes se levantó"},
+        {"t": [4, 5, 6, 7, 8], "es": "y dio una vuelta por la habitación;"},
+        {"t": [9, 10], "es": "después se quedó de pie,"},
+        {"t": [11, 12, 13, 14, 15, 16, 17, 18], "es": "mirando las cuadras por la ventana."}
+      ],
+      "words": [
+        {"t": [0], "es": "una vez", "base": "once", "sense": "one-time"},
+        {"t": [1], "es": "Holmes"},
+        {"t": [2, 3], "es": "se levantó", "base": "get up", "sense": "rise", "note": "*Get up* también es levantarse de una silla, no solo de la cama ([[phrasal-verbs]])."},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "anduvo", "base": "walk", "sense": "move"},
+        {"t": [6, 7, 8], "es": "por la habitación", "base": "room", "sense": "building", "note": "Aquí *round* indica moverse por un lugar. Es habitual en inglés británico; en EE. UU. se prefiere *around* ([[british-american]])."},
+        {"t": [9], "es": "después", "base": "then", "sense": "next"},
+        {"t": [10], "es": "se quedó de pie", "base": "stand", "sense": "upright"},
+        {"t": [11, 16], "es": "mirando", "base": "look at", "sense": "watch", "note": "*Look at* indica qué miras. Aquí *out of the window* se coloca entre *look* y *at*."},
+        {"t": [12, 13, 14, 15], "es": "hacia fuera por la ventana", "base": "window", "sense": "opening"},
+        {"t": [17, 18], "es": "las cuadras", "base": "stable", "sense": "building"}
+      ]
+    },
+    {
+      "id": 43,
+      "line": [
+        {"t": [0], "es": "Sorprendentemente,"},
+        {"t": [1, 2, 3, 4, 5, 6, 7], "es": "ahora tenía el pie muchísimo mejor."}
+      ],
+      "words": [
+        {"t": [0], "es": "sorprendentemente", "base": "surprisingly", "sense": "unexpected"},
+        {"t": [1, 2], "es": "su pie", "base": "foot", "sense": "body", "note": "El inglés usa posesivo con las partes del cuerpo: *his foot*, «su pie» ([[body-possessive]])."},
+        {"t": [3], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [4], "es": "ahora", "base": "now", "sense": "present"},
+        {"t": [5], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [6], "es": "mucho", "base": "much", "sense": "degree", "note": "Para reforzar un comparativo se usa *much*: *much better*, «mucho mejor». *Very much* lo refuerza aún más ([[comparatives]])."},
+        {"t": [7], "es": "mejor", "base": "well", "sense": "health", "note": "*Better* es el comparativo irregular de *well*: aquí habla de salud ([[comparatives]])."}
+      ]
+    },
+    {
+      "id": 44,
+      "line": [
+        {"t": [0, 1, 2], "es": "De repente se rio"},
+        {"t": [3, 4, 5, 6], "es": "y me miró."}
+      ],
+      "words": [
+        {"t": [0], "es": "de repente", "base": "suddenly", "sense": "unexpectedly"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "se rio", "base": "laugh", "sense": "amusement"},
+        {"t": [3], "es": "y"},
+        {"t": [4, 5], "es": "miró", "base": "look at", "sense": "watch", "note": "Para decir qué miras, el inglés usa *look at*, con la preposición *at*."},
+        {"t": [6], "es": "me, a mí"}
+      ]
+    },
+    {
+      "id": 45,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¡Ya lo tengo!»,"},
+        {"t": [3, 4], "es": "exclamó."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "he entendido", "base": "get", "sense": "understand", "note": "Aquí *get* significa entender: *I’ve got it!* es «¡ya lo entiendo!». *I’ve* es *I have* ([[contractions]])."},
+        {"t": [2], "es": "lo"},
+        {"t": [3], "es": "él"},
+        {"t": [4], "es": "exclamó, gritó", "base": "cry", "sense": "shout", "note": "Cuando introduce palabras dichas en voz alta, *cry* no significa «llorar»."}
+      ]
+    },
+    {
+      "id": 46,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Sí, claro,"},
+        {"t": [3, 4], "es": "eso es."}
+      ],
+      "words": [
+        {"t": [0], "es": "sí", "base": "yes", "sense": "agreement"},
+        {"t": [1, 2], "es": "por supuesto", "base": "of course", "sense": "obvious", "note": "Es una expresión fija: no habla de un «curso»."},
+        {"t": [3, 4], "es": "eso es", "base": "that's it", "sense": "confirmation", "note": "*That’s it* confirma que algo es correcto. *That’s* es *that is* ([[contractions]])."}
+      ]
+    },
+    {
+      "id": 47,
+      "line": [
+        {"t": [0], "es": "Watson,"},
+        {"t": [1, 2, 3, 4, 5, 6, 7], "es": "¿ha visto hoy alguna huella de vaca?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "Watson"},
+        {"t": [1, 3], "es": "vio", "base": "see", "sense": "sight", "note": "*Did* forma la pregunta en pasado. El verbo queda en su forma base: *see*, no *saw* ([[auxiliary-do]])."},
+        {"t": [2], "es": "usted"},
+        {"t": [4, 6], "es": "algunas huellas", "base": "track", "sense": "mark", "note": "En preguntas, *any* pregunta si hay alguna cantidad, sin precisar cuánta ([[some-any]])."},
+        {"t": [5], "es": "de vaca", "base": "cow", "sense": "animal", "note": "En *cow tracks*, el primer sustantivo describe al segundo: huellas de vaca ([[noun-as-adjective]])."},
+        {"t": [7], "es": "hoy", "base": "today", "sense": "day"}
+      ]
+    },
+    {
+      "id": 48,
+      "line": [
+        {"t": [0], "es": "«Sí»,"},
+        {"t": [1, 2], "es": "dije."}
+      ],
+      "words": [
+        {"t": [0], "es": "sí", "base": "yes", "sense": "agreement"},
+        {"t": [1], "es": "yo"},
+        {"t": [2], "es": "dije", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 49,
+      "line": [{"t": [0, 1, 2], "es": "«Un montón."}],
+      "words": [
+        {"t": [0, 1], "es": "un montón de", "base": "lot", "sense": "quantity", "note": "*Lots of* expresa una cantidad grande. Es una forma corriente de decir «muchos» o «mucho»."},
+        {"t": [2], "es": "ellas"}
+      ]
+    },
+    {
+      "id": 50,
+      "line": [{"t": [0], "es": "Por todas partes»."}],
+      "words": [{"t": [0], "es": "por todas partes", "base": "everywhere", "sense": "places"}]
+    },
+    {
+      "id": 51,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«¿Y cuántas vacas ha visto"},
+        {"t": [7, 8, 9], "es": "en el páramo?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1, 2], "es": "cuántas", "base": "how many", "sense": "quantity", "note": "*How many* pregunta por una cantidad de cosas que se cuentan. Va delante de un sustantivo en plural."},
+        {"t": [3], "es": "vacas", "base": "cow", "sense": "animal"},
+        {"t": [4, 6], "es": "vio", "base": "see", "sense": "sight", "note": "*Did* forma la pregunta en pasado; *see* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [5], "es": "usted"},
+        {"t": [7, 8, 9], "es": "en el páramo", "base": "moor", "sense": "land"}
+      ]
+    },
+    {
+      "id": 52,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«No recuerdo ninguna»,"},
+        {"t": [4, 5], "es": "dije."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no recuerdo", "base": "remember", "sense": "recall", "note": "*Don’t* es *do not*: forma la negación en presente ([[contractions]], [[auxiliary-do]])."},
+        {"t": [3], "es": "ninguna", "note": "Tras una negación, *any* significa «ninguna»; aquí sustituye a *cows* ([[some-any]])."},
+        {"t": [4], "es": "yo"},
+        {"t": [5], "es": "dije", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 53,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¿No es extraño,"},
+        {"t": [3], "es": "Watson?"}
+      ],
+      "words": [
+        {"t": [0], "es": "no es", "base": "be", "sense": "identity", "note": "*Isn’t* es *is not* ([[contractions]]). Al preguntar, *be* va delante del sujeto ([[be-questions]])."},
+        {"t": [1], "es": "eso"},
+        {"t": [2], "es": "extraño", "base": "strange", "sense": "unusual"},
+        {"t": [3], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 54,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "¿Un montón de huellas de vaca,"},
+        {"t": [4, 5, 6], "es": "pero ninguna vaca?"}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "un montón de", "base": "lot", "sense": "quantity"},
+        {"t": [2], "es": "de vaca", "base": "cow", "sense": "animal", "note": "En *cow tracks*, el primer sustantivo describe al segundo: huellas de vaca ([[noun-as-adjective]])."},
+        {"t": [3], "es": "huellas", "base": "track", "sense": "mark"},
+        {"t": [4], "es": "pero"},
+        {"t": [5, 6], "es": "ninguna vaca", "base": "cow", "sense": "animal", "note": "*No* delante de un sustantivo ya niega: no hace falta añadir *not* ([[negative-words]])."}
+      ]
+    },
+    {
+      "id": 55,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "¿Y recuerda aquellas huellas,"},
+        {"t": [6], "es": "Watson?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1, 3], "es": "recuerda", "base": "remember", "sense": "recall", "note": "*Do* forma la pregunta en presente y no se traduce ([[auxiliary-do]])."},
+        {"t": [2], "es": "usted"},
+        {"t": [4, 5], "es": "aquellas huellas", "base": "track", "sense": "mark"},
+        {"t": [6], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 56,
+      "line": [{"t": [0, 1, 2, 3, 4], "es": "Sacó su cuaderno."}],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "sacó", "base": "take out", "sense": "remove", "note": "*Take out* significa sacar algo de donde está, no cogerlo sin más ([[phrasal-verbs]])."},
+        {"t": [3, 4], "es": "su cuaderno", "base": "notebook", "sense": "book"}
+      ]
+    },
+    {
+      "id": 57,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Había huellas"},
+        {"t": [3, 4], "es": "así:"}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "había", "base": "be", "sense": "exist", "note": "*There were* expresa que había varias cosas. Aquí *there* no significa «allí» ([[dummy-subject]])."},
+        {"t": [2], "es": "huellas", "base": "track", "sense": "mark"},
+        {"t": [3], "es": "como", "base": "like", "sense": "similar", "note": "Aquí *like* compara: significa «como», no «gustar»."},
+        {"t": [4], "es": "esto"}
+      ]
+    },
+    {
+      "id": 58,
+      "line": [
+        {"t": [0, 1], "es": "y a veces"},
+        {"t": [2, 3], "es": "así:"}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "a veces", "base": "sometimes", "sense": "frequency"},
+        {"t": [2], "es": "como", "base": "like", "sense": "similar"},
+        {"t": [3], "es": "esto"}
+      ]
+    },
+    {
+      "id": 59,
+      "line": [
+        {"t": [0, 1], "es": "y a veces"},
+        {"t": [2, 3], "es": "así:"}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "a veces", "base": "sometimes", "sense": "frequency"},
+        {"t": [2], "es": "como", "base": "like", "sense": "similar"},
+        {"t": [3], "es": "esto"}
+      ]
+    },
+    {
+      "id": 60,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "¿Lo recuerda,"},
+        {"t": [4], "es": "Watson?»."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "recuerda", "base": "remember", "sense": "recall", "note": "*Do* forma la pregunta en presente y no se traduce ([[auxiliary-do]])."},
+        {"t": [1], "es": "usted"},
+        {"t": [3], "es": "eso"},
+        {"t": [4], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 61,
+      "line": [
+        {"t": [0, 1, 2], "es": "«No»,"},
+        {"t": [3, 4], "es": "dije."}
+      ],
+      "words": [
+        {"t": [0], "es": "no", "base": "no", "sense": "answer"},
+        {"t": [1], "es": "yo"},
+        {"t": [2], "es": "no recuerdo", "note": "*Don’t* es *do not* ([[contractions]]). En esta respuesta corta, *do* sustituye a *remember* para no repetirlo ([[auxiliary-do]])."},
+        {"t": [3], "es": "yo"},
+        {"t": [4], "es": "dije", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 62,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«¿Qué significa,"},
+        {"t": [4], "es": "Holmes?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "qué", "base": "what", "sense": "question"},
+        {"t": [1, 3], "es": "significa", "base": "mean", "sense": "meaning", "note": "Con *it*, la pregunta usa *does*. El verbo queda sin *-s*: *mean*, no *means* ([[auxiliary-do]])."},
+        {"t": [2], "es": "eso"},
+        {"t": [4], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 63,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¡Significa que"},
+        {"t": [3, 4, 5, 6, 7], "es": "es una vaca muy extraña,"},
+        {"t": [8], "es": "Watson!"}
+      ],
+      "words": [
+        {"t": [0], "es": "eso"},
+        {"t": [1], "es": "significa", "base": "mean", "sense": "meaning"},
+        {"t": [2], "es": "que"},
+        {"t": [3], "es": "es", "base": "be", "sense": "identity", "note": "*It’s* es *it is* ([[contractions]])."},
+        {"t": [4, 7], "es": "una vaca", "base": "cow", "sense": "animal"},
+        {"t": [5], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [6], "es": "extraña", "base": "strange", "sense": "unusual"},
+        {"t": [8], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 64,
+      "line": [
+        {"t": [0, 1, 2], "es": "Las vacas no se mueven"},
+        {"t": [3, 4], "es": "así."}
+      ],
+      "words": [
+        {"t": [0], "es": "vacas", "base": "cow", "sense": "animal"},
+        {"t": [1, 2], "es": "no se mueven", "base": "move", "sense": "motion", "note": "*Don’t* es *do not*: forma la negación en presente ([[contractions]], [[auxiliary-do]])."},
+        {"t": [3], "es": "como", "base": "like", "sense": "similar"},
+        {"t": [4], "es": "eso"}
+      ]
+    },
+    {
+      "id": 65,
+      "line": [
+        {"t": [0], "es": "Ahora,"},
+        {"t": [1, 2, 3, 4], "es": "salgamos sin hacer ruido"},
+        {"t": [5, 6, 7, 8, 9], "es": "y echemos un vistazo a"},
+        {"t": [10, 11], "es": "estas cuadras»."}
+      ],
+      "words": [
+        {"t": [0], "es": "ahora", "base": "now", "sense": "present"},
+        {"t": [1, 2, 4], "es": "salgamos", "base": "go out", "sense": "leave", "note": "*Let’s* es *let us* ([[contractions]]). *Let’s* + verbo propone hacer algo juntos. *Go out* es «salir» ([[phrasal-verbs]])."},
+        {"t": [3], "es": "sin hacer ruido", "base": "quietly", "sense": "noise", "note": "*Quietly* habla del ruido: no significa «sin moverse» ni «quieto» ([[false-friends]])."},
+        {"t": [5], "es": "y"},
+        {"t": [6, 7, 8], "es": "echemos un vistazo", "base": "have a look", "sense": "examine", "note": "*Have a look* significa «echar un vistazo»: aquí *have* no significa «tener»."},
+        {"t": [9, 10, 11], "es": "por estas cuadras", "base": "stable", "sense": "building", "note": "Aquí *round* indica recorrer un lugar. En EE. UU. se prefiere *around* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 66,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Había dos caballos que parecían cansados"},
+        {"t": [5, 6, 7], "es": "en las cuadras."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "había", "base": "be", "sense": "exist", "note": "*There were* expresa que había varias cosas. Aquí *there* no significa «allí» ([[dummy-subject]])."},
+        {"t": [2], "es": "dos"},
+        {"t": [3], "es": "de aspecto cansado", "base": "tired-looking", "sense": "appearance", "note": "El adjetivo compuesto *tired-looking* une *tired* («cansado») y *looking* («de aspecto») ([[compound-adjectives]])."},
+        {"t": [4], "es": "caballos", "base": "horse", "sense": "animal"},
+        {"t": [5, 6, 7], "es": "en las cuadras", "base": "stable", "sense": "building"}
+      ]
+    },
+    {
+      "id": 67,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Holmes miró atentamente"},
+        {"t": [4, 5, 6, 7, 8], "es": "uno de los cascos del caballo"},
+        {"t": [9, 10], "es": "y se rio."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1, 3], "es": "miró", "base": "look at", "sense": "examine", "note": "*Look at* indica qué miras. Aquí el adverbio *carefully* va entre el verbo y *at*."},
+        {"t": [2], "es": "atentamente", "base": "carefully", "sense": "attention"},
+        {"t": [4], "es": "uno"},
+        {"t": [5, 8], "es": "de los pies", "base": "foot", "sense": "body", "note": "En un caballo, *foot* es el casco: el extremo de la pata. La pata entera es *leg*."},
+        {"t": [6, 7], "es": "del caballo", "base": "horse", "sense": "animal", "note": "El genitivo *horse’s* indica de quién son los pies. El dueño va antes que la parte del cuerpo ([[possessive-s]])."},
+        {"t": [9], "es": "y"},
+        {"t": [10], "es": "se rio", "base": "laugh", "sense": "amusement"}
+      ]
+    },
+    {
+      "id": 68,
+      "line": [
+        {"t": [0], "es": "«Mire,"},
+        {"t": [1], "es": "Watson."}
+      ],
+      "words": [
+        {"t": [0], "es": "mire", "base": "look", "sense": "attention", "note": "Al empezar a hablar, *Look* sirve para llamar la atención, como «mire» u «oiga»."},
+        {"t": [1], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 69,
+      "line": [
+        {"t": [0, 1], "es": "Herraduras viejas,"},
+        {"t": [2, 3, 4], "es": "pero clavos nuevos."}
+      ],
+      "words": [
+        {"t": [0], "es": "viejas", "base": "old", "sense": "not-new"},
+        {"t": [1], "es": "herraduras", "base": "shoe", "sense": "horseshoe"},
+        {"t": [2], "es": "pero"},
+        {"t": [3], "es": "nuevos", "base": "new", "sense": "recent"},
+        {"t": [4], "es": "clavos", "base": "nail", "sense": "fastener"}
+      ]
+    },
+    {
+      "id": 70,
+      "line": [
+        {"t": [0], "es": "Ah,"},
+        {"t": [1, 2], "es": "este caso"},
+        {"t": [3], "es": "se pone"},
+        {"t": [4, 5], "es": "más interesante"},
+        {"t": [6, 7], "es": "a cada minuto»."}
+      ],
+      "words": [
+        {"t": [0], "es": "ah", "base": "oh", "sense": "realisation"},
+        {"t": [1, 2], "es": "este caso", "base": "case", "sense": "matter"},
+        {"t": [3], "es": "se pone", "base": "get", "sense": "become", "note": "*Get* + adjetivo expresa un cambio de estado: aquí, ponerse más interesante ([[linking-verbs]])."},
+        {"t": [4], "es": "más", "base": "more", "sense": "degree", "note": "Los adjetivos largos forman el comparativo con *more*: *more interesting*, «más interesante» ([[comparatives]])."},
+        {"t": [5], "es": "interesante", "base": "interesting", "sense": "attention"},
+        {"t": [6, 7], "es": "cada minuto", "base": "minute", "sense": "time"}
+      ]
+    },
+    {
+      "id": 71,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Empecé a hacerle una pregunta a Holmes,"},
+        {"t": [7, 8], "es": "pero de repente"},
+        {"t": [9, 10, 11], "es": "oímos a alguien"},
+        {"t": [12, 13], "es": "detrás de nosotros,"},
+        {"t": [14, 15, 16, 17, 18, 19], "es": "y allí estaba el señor Reuben Hayes."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "empecé", "base": "begin", "sense": "start"},
+        {"t": [2, 3], "es": "a preguntar", "base": "ask", "sense": "question"},
+        {"t": [4], "es": "Holmes"},
+        {"t": [5, 6], "es": "una pregunta", "base": "question", "sense": "inquiry"},
+        {"t": [7], "es": "pero"},
+        {"t": [8], "es": "de repente", "base": "suddenly", "sense": "unexpectedly"},
+        {"t": [9], "es": "nosotros"},
+        {"t": [10], "es": "oímos", "base": "hear", "sense": "sound"},
+        {"t": [11], "es": "alguien"},
+        {"t": [12, 13], "es": "detrás de nosotros"},
+        {"t": [14], "es": "y"},
+        {"t": [15, 16], "es": "allí estaba", "base": "be", "sense": "state", "note": "Aquí *there* señala el lugar: «allí». No es *there was* con el sentido de «había»."},
+        {"t": [17, 18, 19], "es": "el señor Reuben Hayes", "note": "*Mr* es el tratamiento «señor». En inglés británico se escribe sin punto; en EE. UU., *Mr.* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 72,
+      "line": [{"t": [0, 1, 2, 3, 4, 5], "es": "Tenía la cara roja de ira."}],
+      "words": [
+        {"t": [0, 1], "es": "su cara", "base": "face", "sense": "front", "note": "El inglés usa posesivo con las partes del cuerpo: *his face*, «su cara» ([[body-possessive]])."},
+        {"t": [2], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [3], "es": "roja", "base": "red", "sense": "colour"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "enfadada", "base": "angry", "sense": "feeling", "note": "*Angry* describe aquí la expresión de la cara."}
+      ]
+    }
+  ]
+}

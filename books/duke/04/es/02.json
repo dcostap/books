@@ -372,7 +372,7 @@
         {"t": [1, 2, 3], "es": "dijo en voz baja."}
       ],
       "words": [
-        {"t": [0], "es": "mire", "base": "look", "sense": "see"},
+        {"t": [0], "es": "mire", "base": "look", "sense": "attention"},
         {"t": [1], "es": "él"},
         {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
         {"t": [3], "es": "en voz baja", "base": "quietly", "sense": "voice", "note": "*Quietly* habla del sonido: aquí indica una voz baja. No significa «quieto» ([[false-friends]])."}
@@ -392,7 +392,7 @@
         {"t": [6, 7], "es": "había", "base": "be", "sense": "exist", "note": "*There was* expresa que había algo. Aquí *there* no significa «allí» ([[dummy-subject]])."},
         {"t": [8], "es": "algo"},
         {"t": [9], "es": "rojo", "base": "red", "sense": "colour", "note": "Con *something*, el adjetivo va detrás: *something red*, «algo rojo» ([[something-adjective]])."},
-        {"t": [11, 13], "es": "el rojo parduzco", "base": "browny-red", "sense": "colour", "note": "Une *brown* («marrón») y *red* («rojo»): un rojo con algo de marrón."},
+        {"t": [11, 13], "es": "el rojo parduzco", "base": "browny-red", "sense": "colour", "note": "Une *brown* («marrón») y *red* («rojo»): un rojo con algo de marrón ([[compound-adjectives]])."},
         {"t": [12], "es": "oscuro", "base": "dark", "sense": "colour"},
         {"t": [14, 15], "es": "de la sangre", "base": "blood", "sense": "liquid"}
       ]

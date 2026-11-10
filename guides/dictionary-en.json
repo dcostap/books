@@ -4083,6 +4083,18 @@
       }
     ]
   },
+  "how many": {
+    "senses": [
+      {
+        "id": "quantity",
+        "es": "cuántos",
+        "ex": [
+          "How many sisters have you got?",
+          "¿Cuántas hermanas tienes?"
+        ]
+      }
+    ]
+  },
   "hungrily": {
     "senses": [
       {
@@ -4835,6 +4847,14 @@
           "I like your new look.",
           "Me gusta tu nuevo aspecto."
         ]
+      },
+      {
+        "id": "attention",
+        "es": "mira, oye",
+        "ex": [
+          "Look, we need to leave.",
+          "Mira, tenemos que irnos."
+        ]
       }
     ]
   },
@@ -4982,6 +5002,18 @@
         "ex": [
           "My watch loses five minutes daily.",
           "Mi reloj se retrasa cinco minutos diarios."
+        ]
+      }
+    ]
+  },
+  "lost": {
+    "senses": [
+      {
+        "id": "missing",
+        "es": "perdido, desaparecido",
+        "ex": [
+          "We found the lost dog.",
+          "Encontramos al perro perdido."
         ]
       }
     ]
@@ -6656,6 +6688,18 @@
         "ex": [
           "Do whatever you please.",
           "Haz lo que quieras."
+        ]
+      }
+    ]
+  },
+  "pleased": {
+    "senses": [
+      {
+        "id": "happy",
+        "es": "contento",
+        "ex": [
+          "She was pleased with the result.",
+          "Estaba contenta con el resultado."
         ]
       }
     ]
@@ -8746,6 +8790,26 @@
       }
     ]
   },
+  "that's it": {
+    "senses": [
+      {
+        "id": "confirmation",
+        "es": "eso es",
+        "ex": [
+          "Yes, that's it!",
+          "¡Sí, eso es!"
+        ]
+      },
+      {
+        "id": "finish",
+        "es": "se acabó",
+        "ex": [
+          "That's it, I'm going home.",
+          "Se acabó, me voy a casa."
+        ]
+      }
+    ]
+  },
   "then": {
     "senses": [
       {
@@ -9014,6 +9078,18 @@
         "ex": [
           "The old furniture looked tired.",
           "Los muebles viejos parecían desgastados."
+        ]
+      }
+    ]
+  },
+  "tired-looking": {
+    "senses": [
+      {
+        "id": "appearance",
+        "es": "de aspecto cansado",
+        "ex": [
+          "a tired-looking traveller",
+          "un viajero de aspecto cansado"
         ]
       }
     ]

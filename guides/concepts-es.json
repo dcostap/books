@@ -248,5 +248,12 @@
     "text": "Una forma en *-ing* puede ser un sustantivo: nombra una actividad o una idea. Puede ir con *my* o *the*, ser sujeto o ir detrás de una preposición. El español suele usar un infinitivo o un sustantivo.",
     "examples": [["Swimming is good for you.", "Nadar es bueno para ti."], ["Thanks for coming.", "Gracias por venir."], ["His thinking was wrong.", "Su razonamiento estaba equivocado."]],
     "wrong": [["Thanks for come.", "Thanks for coming."]]
+  },
+  "compound-adjectives": {
+    "name": "adjetivos compuestos",
+    "en": "compound adjectives",
+    "text": "Dos palabras unidas con guion pueden formar un solo adjetivo, que va delante del nombre. Con *-looking*, el adjetivo habla del aspecto: *tired-looking*, «de aspecto cansado». El español suele decirlo con más palabras.",
+    "examples": [["a tired-looking horse", "un caballo de aspecto cansado"], ["a well-dressed man", "un hombre bien vestido"], ["a browny-red colour", "un color rojo parduzco"]],
+    "wrong": [["a horse tired-looking", "a tired-looking horse"]]
   }
 }

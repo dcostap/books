@@ -1,0 +1,485 @@
+{
+  "sentences": [
+    {
+      "id": 0,
+      "line": [
+        {"t": [0, 1], "es": "Capítulo cinco:"},
+        {"t": [2, 3], "es": "Una visita"},
+        {"t": [4, 5, 6, 7], "es": "a la posada Green Man"}
+      ],
+      "words": [
+        {"t": [0], "es": "capítulo", "base": "chapter", "sense": "book"},
+        {"t": [1], "es": "cinco"},
+        {"t": [2, 3], "es": "una visita", "base": "visit", "sense": "occasion"},
+        {"t": [4, 5, 6, 7], "es": "a la posada Green Man", "note": "El nombre significa «el hombre verde», una figura de las leyendas inglesas. Es un nombre frecuente de posada."}
+      ]
+    },
+    {
+      "id": 1,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Cuando estábamos cerca de la posada,"},
+        {"t": [6, 7, 8, 9], "es": "Holmes soltó de repente un grito."}
+      ],
+      "words": [
+        {"t": [0], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [1], "es": "nosotros"},
+        {"t": [2], "es": "estábamos", "base": "be", "sense": "state"},
+        {"t": [3, 4, 5], "es": "cerca de la posada", "base": "inn", "sense": "lodging"},
+        {"t": [6], "es": "Holmes"},
+        {"t": [7], "es": "de repente", "base": "suddenly", "sense": "unexpectedly"},
+        {"t": [8, 9], "es": "gritó", "base": "cry out", "sense": "shout", "note": "Este verbo con partícula significa lanzar un grito, no llorar ([[phrasal-verbs]])."}
+      ]
+    },
+    {
+      "id": 2,
+      "line": [{"t": [0], "es": "«¡Aaah!"}],
+      "words": [{"t": [0], "es": "¡aaah!"}]
+    },
+    {
+      "id": 3,
+      "line": [{"t": [0, 1], "es": "¡Mi pie!"}],
+      "words": [{"t": [0, 1], "es": "mi pie", "base": "foot", "sense": "body"}]
+    },
+    {
+      "id": 4,
+      "line": [
+        {"t": [0, 1, 2], "es": "No puedo apoyarme"},
+        {"t": [3, 4], "es": "en él."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no puedo estar de pie", "base": "stand", "sense": "upright", "note": "*Can’t* es *cannot* ([[contractions]]). *Stand on* un pie significa sostener el peso del cuerpo sobre él."},
+        {"t": [3, 4], "es": "sobre él"}
+      ]
+    },
+    {
+      "id": 5,
+      "line": [
+        {"t": [0, 1], "es": "Ayúdeme,"},
+        {"t": [2], "es": "Watson»."}
+      ],
+      "words": [
+        {"t": [0], "es": "ayude", "base": "help", "sense": "assist"},
+        {"t": [1], "es": "me, a mí"},
+        {"t": [2], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 6,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Lo cogí del brazo"},
+        {"t": [4, 5, 6, 7], "es": "y caminamos despacio"},
+        {"t": [8, 9, 10], "es": "hasta la puerta"},
+        {"t": [11, 12, 13], "es": "de la posada."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "cogí", "base": "take", "sense": "get"},
+        {"t": [2, 3], "es": "su brazo", "base": "arm", "sense": "body", "note": "Con las partes del cuerpo, el inglés suele usar posesivo: *his arm*, «su brazo» ([[body-possessive]])."},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "nosotros"},
+        {"t": [6], "es": "caminamos", "base": "walk", "sense": "move"},
+        {"t": [7], "es": "despacio", "base": "slowly", "sense": "speed"},
+        {"t": [8, 9, 10], "es": "hasta la puerta", "base": "door", "sense": "entrance"},
+        {"t": [11, 12, 13], "es": "de la posada", "base": "inn", "sense": "lodging"}
+      ]
+    },
+    {
+      "id": 7,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Allí había un hombre de pie,"},
+        {"t": [4, 5, 6, 7], "es": "fumando y mirándonos."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [2], "es": "estaba de pie", "base": "stand", "sense": "upright"},
+        {"t": [3], "es": "allí", "base": "there", "sense": "place"},
+        {"t": [4], "es": "fumando", "base": "smoke", "sense": "tobacco"},
+        {"t": [5], "es": "y"},
+        {"t": [6], "es": "mirando", "base": "watch", "sense": "look"},
+        {"t": [7], "es": "nos, a nosotros"}
+      ]
+    },
+    {
+      "id": 8,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¿Cómo está,"},
+        {"t": [3, 4, 5], "es": "señor Reuben Hayes?»,"},
+        {"t": [6, 7], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "cómo está usted", "base": "how are you", "sense": "greeting", "note": "*How are you?* es una fórmula de saludo: no siempre pide detalles sobre la salud."},
+        {"t": [3, 4, 5], "es": "señor Reuben Hayes", "note": "*Mr* es el tratamiento «señor». En inglés británico va sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [6], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [7], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 9,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¿Quién es usted"},
+        {"t": [3, 4, 5, 6, 7, 8, 9], "es": "y cómo sabe mi nombre?»,"},
+        {"t": [10, 11, 12], "es": "dijo el hombre."}
+      ],
+      "words": [
+        {"t": [0], "es": "quién"},
+        {"t": [1], "es": "es", "base": "be", "sense": "identity", "note": "En las preguntas con *be*, el verbo va delante del sujeto: *are you* ([[be-questions]])."},
+        {"t": [2], "es": "usted"},
+        {"t": [3], "es": "y"},
+        {"t": [4], "es": "cómo", "base": "how", "sense": "manner"},
+        {"t": [5, 7], "es": "sabe", "base": "know", "sense": "information", "note": "*Do* forma la pregunta y no se traduce. El verbo principal queda en su forma base ([[auxiliary-do]])."},
+        {"t": [6], "es": "usted"},
+        {"t": [8, 9], "es": "mi nombre", "base": "name", "sense": "identity"},
+        {"t": [10], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [11, 12], "es": "el hombre", "base": "man", "sense": "adult"}
+      ]
+    },
+    {
+      "id": 10,
+      "line": [{"t": [0, 1, 2, 3], "es": "Parecía muy antipático."}],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "parecía", "base": "look", "sense": "seem", "note": "Delante de un adjetivo, *look* describe el aspecto: «parecer». No significa «mirar» ([[linking-verbs]])."},
+        {"t": [2], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [3], "es": "antipático", "base": "unfriendly", "sense": "unkind"}
+      ]
+    },
+    {
+      "id": 11,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Porque está en la puerta"},
+        {"t": [5, 6, 7], "es": "de la posada,"},
+        {"t": [8, 9, 10], "es": "encima de su cabeza»,"},
+        {"t": [11, 12], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "porque"},
+        {"t": [1], "es": "está", "base": "be", "sense": "state", "note": "*It’s* es *it is* ([[contractions]]). Aquí *it* se refiere al nombre."},
+        {"t": [2, 3, 4], "es": "en la puerta", "base": "door", "sense": "entrance"},
+        {"t": [5, 6, 7], "es": "de la posada", "base": "inn", "sense": "lodging"},
+        {"t": [8, 9, 10], "es": "encima de su cabeza", "base": "head", "sense": "body", "note": "El inglés usa posesivo con las partes del cuerpo: *your head* ([[body-possessive]])."},
+        {"t": [11], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [12], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 12,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Pero ¿puede ayudarme,"},
+        {"t": [5, 6], "es": "señor Hayes?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1, 3], "es": "puede ayudar", "base": "help", "sense": "assist", "note": "El modal *can* va delante del sujeto en la pregunta y lleva el verbo sin *to* ([[modal-verbs]])."},
+        {"t": [2], "es": "usted"},
+        {"t": [4], "es": "me, a mí"},
+        {"t": [5, 6], "es": "señor Hayes", "note": "*Mr* es «señor». En inglés británico va sin punto; en EE. UU., *Mr.* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 13,
+      "line": [{"t": [0, 1, 2], "es": "«No, no puedo»."}],
+      "words": [
+        {"t": [0], "es": "no", "base": "no", "sense": "answer"},
+        {"t": [1], "es": "yo"},
+        {"t": [2], "es": "no puedo", "base": "can", "sense": "ability", "note": "*Can’t* es *cannot* ([[contractions]]). En esta respuesta corta no se repite el verbo *help*."}
+      ]
+    },
+    {
+      "id": 14,
+      "line": [{"t": [0, 1, 2, 3], "es": "«Pero necesito ayuda."}],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "yo"},
+        {"t": [2], "es": "necesito", "base": "need", "sense": "require"},
+        {"t": [3], "es": "ayuda", "base": "help", "sense": "assistance"}
+      ]
+    },
+    {
+      "id": 15,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "No puedo apoyar el pie"},
+        {"t": [5, 6, 7], "es": "en el suelo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no puedo poner", "base": "put", "sense": "place", "note": "*Can’t* es *cannot* ([[contractions]]). Aquí «apoyar» expresa de forma natural cómo pone el pie."},
+        {"t": [3, 4], "es": "mi pie", "base": "foot", "sense": "body", "note": "El inglés usa posesivo con las partes del cuerpo: *my foot* ([[body-possessive]])."},
+        {"t": [5, 6, 7], "es": "en el suelo", "base": "ground", "sense": "surface"}
+      ]
+    },
+    {
+      "id": 16,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Pues no lo apoye"},
+        {"t": [4, 5, 6], "es": "en el suelo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "pues", "base": "well", "sense": "discourse"},
+        {"t": [1, 2], "es": "no ponga", "base": "put", "sense": "place", "note": "*Don’t* es *do not* ([[contractions]]). Ante un verbo, da una orden negativa ([[auxiliary-do]]). Aquí decimos «no lo apoye»."},
+        {"t": [3], "es": "lo, el pie"},
+        {"t": [4, 5, 6], "es": "en el suelo", "base": "ground", "sense": "surface"}
+      ]
+    },
+    {
+      "id": 17,
+      "line": [{"t": [0, 1], "es": "Holmes sonrió."}],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "sonrió", "base": "smile", "sense": "verb"}
+      ]
+    },
+    {
+      "id": 18,
+      "line": [
+        {"t": [0], "es": "«Mire»,"},
+        {"t": [1, 2], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0], "es": "mire", "base": "look", "sense": "attention", "note": "Al empezar a hablar, *Look* sirve para llamar la atención, como «mire» u «oiga»."},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 19,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Es muy importante,"},
+        {"t": [3, 4, 5, 6, 7], "es": "y puedo ofrecerle"},
+        {"t": [8, 9], "es": "una libra"},
+        {"t": [10, 11, 12, 13, 14, 15], "es": "por usar una bicicleta»."}
+      ],
+      "words": [
+        {"t": [0], "es": "es", "base": "be", "sense": "identity", "note": "*It’s* es *it is*: «es» ([[contractions]])."},
+        {"t": [1], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [2], "es": "importante", "base": "important", "sense": "value"},
+        {"t": [3], "es": "y"},
+        {"t": [4], "es": "yo"},
+        {"t": [5, 6], "es": "puedo ofrecer", "base": "offer", "sense": "give"},
+        {"t": [7], "es": "le, a usted"},
+        {"t": [8, 9], "es": "una libra", "base": "pound", "sense": "currency", "note": "La libra es la moneda británica. Aquí no es una medida de peso."},
+        {"t": [10, 11, 12], "es": "por el uso", "base": "use", "sense": "action"},
+        {"t": [13, 14, 15], "es": "de una bicicleta", "base": "bicycle", "sense": "vehicle"}
+      ]
+    },
+    {
+      "id": 20,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«¿Adónde quiere ir?»,"},
+        {"t": [6, 7, 8], "es": "preguntó el señor Hayes."}
+      ],
+      "words": [
+        {"t": [0], "es": "adónde", "base": "where", "sense": "question"},
+        {"t": [1, 3], "es": "quiere", "base": "want", "sense": "desire", "note": "*Do* forma la pregunta y no se traduce ([[auxiliary-do]]). *Want to* + verbo significa «querer hacer algo»."},
+        {"t": [2], "es": "usted"},
+        {"t": [4, 5], "es": "ir", "base": "go", "sense": "move"},
+        {"t": [6], "es": "preguntó", "base": "ask", "sense": "question"},
+        {"t": [7, 8], "es": "el señor Hayes", "note": "*Mr* es «señor». En inglés británico va sin punto; en EE. UU., *Mr.* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 21,
+      "line": [{"t": [0, 1, 2], "es": "«A Holdernesse Hall»."}],
+      "words": [{"t": [0, 1, 2], "es": "a Holdernesse Hall", "note": "En nombres de casas, *Hall* suele indicar una gran casa de campo, no un vestíbulo."}]
+    },
+    {
+      "id": 22,
+      "line": [{"t": [0, 1, 2, 3, 4, 5, 6], "es": "«Ah, ¿así que son amigos del duque?»."}],
+      "words": [
+        {"t": [0], "es": "ah", "base": "oh", "sense": "realisation"},
+        {"t": [1], "es": "amigos", "base": "friend", "sense": "person"},
+        {"t": [2, 3, 4], "es": "del duque", "base": "duke", "sense": "noble"},
+        {"t": [5], "es": "son", "base": "be", "sense": "identity", "note": "La pregunta breve *are you?* pide confirmación con sorpresa: «¿ah, sí?». El verbo va antes de *you* ([[be-questions]])."},
+        {"t": [6], "es": "ustedes"}
+      ]
+    },
+    {
+      "id": 23,
+      "line": [
+        {"t": [0, 1, 2], "es": "El señor Hayes se rio,"},
+        {"t": [3, 4, 5, 6, 7, 8, 9], "es": "mirando nuestros zapatos y pantalones llenos de barro."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el señor Hayes", "note": "*Mr* es «señor». En inglés británico va sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [2], "es": "se rio", "base": "laugh", "sense": "amusement"},
+        {"t": [3, 4], "es": "mirando", "base": "look at", "sense": "watch", "note": "*Look at* lleva *at* para indicar qué miras: *looking at our shoes*."},
+        {"t": [5, 7], "es": "nuestros zapatos", "base": "shoe", "sense": "clothing"},
+        {"t": [6], "es": "embarrados", "base": "muddy", "sense": "dirty"},
+        {"t": [8], "es": "y"},
+        {"t": [9], "es": "pantalones", "base": "trousers", "sense": "clothing", "note": "Palabra británica; en EE. UU., *pants* ([[british-american]]). Lleva plural aunque sea una sola prenda ([[plural-agreement]])."}
+      ]
+    },
+    {
+      "id": 24,
+      "line": [{"t": [0, 1, 2], "es": "Holmes también se rio."}],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "se rio", "base": "laugh", "sense": "amusement"},
+        {"t": [2], "es": "también", "base": "too", "sense": "also"}
+      ]
+    },
+    {
+      "id": 25,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Bueno, le traemos noticias"},
+        {"t": [6, 7, 8, 9], "es": "de su hijo desaparecido»,"},
+        {"t": [10, 11], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0], "es": "bueno", "base": "well", "sense": "discourse"},
+        {"t": [1], "es": "nosotros"},
+        {"t": [2, 3], "es": "estamos trayendo", "base": "bring", "sense": "carry", "note": "*Are* + verbo en *-ing* forma el presente continuo: algo en marcha ahora ([[present-continuous]])."},
+        {"t": [4], "es": "le, a él"},
+        {"t": [5], "es": "noticias", "base": "news", "sense": "information", "note": "Aunque acaba en *-s*, *news* es incontable y lleva verbo en singular ([[uncountable]])."},
+        {"t": [6, 7, 9], "es": "de su hijo", "base": "son", "sense": "family"},
+        {"t": [8], "es": "desaparecido, perdido", "base": "lost", "sense": "missing"},
+        {"t": [10], "es": "él"},
+        {"t": [11], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 26,
+      "line": [
+        {"t": [0, 1, 2], "es": "«El niño está"},
+        {"t": [3, 4], "es": "en Liverpool»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el niño", "base": "boy", "sense": "child"},
+        {"t": [2], "es": "está", "base": "be", "sense": "state"},
+        {"t": [3, 4], "es": "en Liverpool"}
+      ]
+    },
+    {
+      "id": 27,
+      "line": [
+        {"t": [0, 1, 2], "es": "La cara del señor Hayes"},
+        {"t": [3, 4], "es": "se puso pálida,"},
+        {"t": [5, 6], "es": "y luego roja."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "del señor Hayes", "note": "*Hayes’s* indica posesión: la cara de Hayes ([[possessive-s]]). *Mr* es británico; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [2], "es": "cara", "base": "face", "sense": "front"},
+        {"t": [3], "es": "se puso", "base": "go", "sense": "become", "note": "Con un color, *go* puede indicar un cambio: *went white*, «se puso pálido» ([[linking-verbs]])."},
+        {"t": [4], "es": "pálida", "base": "white", "sense": "pale"},
+        {"t": [5], "es": "luego", "base": "then", "sense": "next"},
+        {"t": [6], "es": "roja", "base": "red", "sense": "colour"}
+      ]
+    },
+    {
+      "id": 28,
+      "line": [
+        {"t": [0], "es": "«Ah»,"},
+        {"t": [1, 2, 3], "es": "dijo con cautela."}
+      ],
+      "words": [
+        {"t": [0], "es": "ah", "base": "oh", "sense": "realisation"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3], "es": "con cuidado", "base": "carefully", "sense": "care"}
+      ]
+    },
+    {
+      "id": 29,
+      "line": [{"t": [0], "es": "«Eso es…"}],
+      "words": [{"t": [0], "es": "eso es", "base": "be", "sense": "identity", "note": "*That’s* es *that is* ([[contractions]])."}]
+    },
+    {
+      "id": 30,
+      "line": [{"t": [0, 1, 2, 3], "es": "eh, son buenas noticias."}],
+      "words": [
+        {"t": [0], "es": "eh", "base": "er", "sense": "hesitation", "note": "*Er* representa el sonido de una vacilación al hablar. En EE. UU. suele escribirse *uh* ([[british-american]])."},
+        {"t": [1], "es": "eso es", "base": "be", "sense": "identity", "note": "*That’s* es *that is* ([[contractions]])."},
+        {"t": [2], "es": "buenas", "base": "good", "sense": "quality"},
+        {"t": [3], "es": "noticias", "base": "news", "sense": "information", "note": "Aunque acaba en *-s*, *news* es incontable y lleva verbo en singular ([[uncountable]])."}
+      ]
+    },
+    {
+      "id": 31,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Hace tiempo trabajé para el duque,"},
+        {"t": [6, 7, 8, 9, 10, 11], "es": "pero no me trató bien."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "trabajé", "base": "work", "sense": "labour"},
+        {"t": [2, 3, 4], "es": "para el duque", "base": "duke", "sense": "noble"},
+        {"t": [5], "es": "antes", "base": "once", "sense": "formerly", "note": "Aquí *once* significa «antes, en otro tiempo», no «una vez»."},
+        {"t": [6], "es": "pero"},
+        {"t": [7], "es": "él"},
+        {"t": [8], "es": "no fue", "base": "be", "sense": "identity", "note": "*Wasn’t* es *was not* ([[contractions]])."},
+        {"t": [9], "es": "bueno", "base": "good", "sense": "quality", "note": "*Be good to* alguien significa tratarlo bien."},
+        {"t": [10, 11], "es": "conmigo"}
+      ]
+    },
+    {
+      "id": 32,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "No me cae bien,"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "pero me alegro por el niño»."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no me gusta", "base": "like", "sense": "enjoy", "note": "*Don’t* es *do not* ([[contractions]]). Con personas, *like* suele equivaler a «caer bien»."},
+        {"t": [3], "es": "él, a él"},
+        {"t": [4], "es": "pero"},
+        {"t": [5, 6], "es": "estoy contento", "base": "pleased", "sense": "happy", "note": "*I’m* es *I am* ([[contractions]]). *Pleased about* algo expresa alegría o satisfacción por ello."},
+        {"t": [7, 8, 9], "es": "por el niño", "base": "boy", "sense": "child"}
+      ]
+    },
+    {
+      "id": 33,
+      "line": [{"t": [0, 1, 2, 3, 4, 5], "es": "Entramos todos en la posada."}],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "todos", "base": "all", "sense": "every"},
+        {"t": [2], "es": "fuimos", "base": "go", "sense": "move", "note": "*Go into* indica entrar en un lugar. Por eso la frase dice «entramos»."},
+        {"t": [3, 4, 5], "es": "al interior de la posada", "base": "inn", "sense": "lodging"}
+      ]
+    },
+    {
+      "id": 34,
+      "line": [
+        {"t": [0], "es": "«Bien»,"},
+        {"t": [1, 2], "es": "dijo Holmes,"},
+        {"t": [3, 4, 5, 6, 7], "es": "«primero algo de comer, por favor."}
+      ],
+      "words": [
+        {"t": [0], "es": "bien", "base": "now", "sense": "attention", "note": "Al empezar a hablar, *now* puede introducir lo que sigue, como «bien». No siempre habla del tiempo."},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "Holmes"},
+        {"t": [3], "es": "algo"},
+        {"t": [4, 5], "es": "de comer", "base": "eat", "sense": "food"},
+        {"t": [6], "es": "primero", "base": "first", "sense": "order"},
+        {"t": [7], "es": "por favor", "base": "please", "sense": "polite"}
+      ]
+    },
+    {
+      "id": 35,
+      "line": [
+        {"t": [0], "es": "Después"},
+        {"t": [1, 2, 3, 4], "es": "puede traer"},
+        {"t": [5, 6], "es": "la bicicleta»."}
+      ],
+      "words": [
+        {"t": [0], "es": "después", "base": "then", "sense": "next"},
+        {"t": [1], "es": "usted"},
+        {"t": [2, 3, 4], "es": "puede traer", "base": "bring round", "sense": "deliver", "note": "*Bring round* es traer algo adonde está quien habla ([[phrasal-verbs]]). Uso británico; en EE. UU., *bring around* ([[british-american]])."},
+        {"t": [5, 6], "es": "la bicicleta", "base": "bicycle", "sense": "vehicle"}
+      ]
+    },
+    {
+      "id": 36,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«No tengo bicicleta»,"},
+        {"t": [5, 6, 7], "es": "dijo el señor Hayes."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no tengo", "base": "have", "sense": "possess", "note": "*Haven’t* es *have not* ([[contractions]]). *Haven’t got* es habitual en inglés británico; en EE. UU. suele decirse *don’t have* ([[british-american]])."},
+        {"t": [3, 4], "es": "una bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [5], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [6, 7], "es": "el señor Hayes", "note": "*Mr* es «señor». En inglés británico va sin punto; en EE. UU., *Mr.* ([[british-american]])."}
+      ]
+    }
+  ]
+}

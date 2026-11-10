@@ -253,7 +253,7 @@
         {"t": [4, 5, 6], "es": "la gorra del niño."}
       ],
       "words": [
-        {"t": [0], "es": "mire", "base": "look", "sense": "see"},
+        {"t": [0], "es": "mire", "base": "look", "sense": "attention"},
         {"t": [2], "es": "esta"},
         {"t": [3], "es": "es", "base": "be", "sense": "identity"},
         {"t": [4, 5], "es": "del niño", "base": "boy", "sense": "child", "note": "El *’s* indica de quién es algo: *the boy’s hat* = «la gorra del niño» ([[possessive-s]])."},

@@ -1,0 +1,467 @@
+{
+  "sentences": [
+    {
+      "id": 73,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«¿Qué está haciendo"},
+        {"t": [4, 5, 6], "es": "en mis cuadras?»,"},
+        {"t": [7, 8], "es": "gritó."}
+      ],
+      "words": [
+        {"t": [0], "es": "qué", "base": "what", "sense": "question"},
+        {"t": [1, 3], "es": "está haciendo", "base": "do", "sense": "perform", "note": "*Are* + verbo en *-ing* pregunta por una acción en marcha: el presente continuo ([[present-continuous]])."},
+        {"t": [2], "es": "usted"},
+        {"t": [4, 5, 6], "es": "en mis cuadras", "base": "stable", "sense": "building"},
+        {"t": [7], "es": "él"},
+        {"t": [8], "es": "gritó", "base": "cry", "sense": "shout", "note": "Al introducir palabras dichas en voz alta, *cry* no significa «llorar»."}
+      ]
+    },
+    {
+      "id": 74,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Solo estamos mirando sus caballos,"},
+        {"t": [6, 7], "es": "señor Hayes»,"},
+        {"t": [8, 9, 10], "es": "dijo Holmes, sonriendo."}
+      ],
+      "words": [
+        {"t": [0, 2, 3], "es": "estamos mirando", "base": "look at", "sense": "watch", "note": "*We’re* es *we are* ([[contractions]]). *Look at* lleva *at* delante de lo que miras."},
+        {"t": [1], "es": "solo", "base": "just", "sense": "only"},
+        {"t": [4, 5], "es": "sus caballos", "base": "horse", "sense": "animal"},
+        {"t": [6, 7], "es": "señor Hayes", "note": "*Mr* se lee *Mister*. En inglés británico suele escribirse sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [8], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [9], "es": "Holmes"},
+        {"t": [10], "es": "sonriendo", "base": "smile", "sense": "verb"}
+      ]
+    },
+    {
+      "id": 75,
+      "line": [{"t": [0], "es": "«¿Por qué?"}],
+      "words": [{"t": [0], "es": "por qué", "base": "why", "sense": "question"}]
+    },
+    {
+      "id": 76,
+      "line": [{"t": [0, 1, 2, 3, 4], "es": "¿Tiene miedo de algo?»."}],
+      "words": [
+        {"t": [0], "es": "está", "base": "be", "sense": "state", "note": "Con *be*, la pregunta pone el verbo delante del sujeto, sin *do* ([[be-questions]])."},
+        {"t": [1], "es": "usted"},
+        {"t": [2, 3], "es": "con miedo a", "base": "afraid", "sense": "fear", "note": "*Be afraid of* expresa tener miedo de algo: *of* introduce lo que da miedo."},
+        {"t": [4], "es": "algo"}
+      ]
+    },
+    {
+      "id": 77,
+      "line": [
+        {"t": [0, 1], "es": "El hombre"},
+        {"t": [2, 3, 4], "es": "abrió la boca"},
+        {"t": [5, 6, 7, 8], "es": "y luego la cerró rápidamente."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el hombre", "base": "man", "sense": "adult"},
+        {"t": [2], "es": "abrió", "base": "open", "sense": "unclose"},
+        {"t": [3, 4], "es": "su boca", "base": "mouth", "sense": "opening", "note": "En inglés, las partes del cuerpo llevan posesivo: *his mouth*, «su boca» ([[body-possessive]])."},
+        {"t": [5], "es": "después", "base": "then", "sense": "next"},
+        {"t": [6], "es": "cerró", "base": "close", "sense": "shut"},
+        {"t": [7], "es": "la"},
+        {"t": [8], "es": "rápidamente", "base": "quickly", "sense": "speed"}
+      ]
+    },
+    {
+      "id": 78,
+      "line": [{"t": [0, 1, 2, 3, 4, 5, 6], "es": "Seguía con la cara roja de ira."}],
+      "words": [
+        {"t": [0, 1], "es": "su cara", "base": "face", "sense": "front", "note": "El inglés usa posesivo con las partes del cuerpo: *his face*, «su cara» ([[body-possessive]])."},
+        {"t": [2], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [3], "es": "todavía", "base": "still", "sense": "continuing"},
+        {"t": [4], "es": "roja", "base": "red", "sense": "colour"},
+        {"t": [5], "es": "y"},
+        {"t": [6], "es": "enfadada", "base": "angry", "sense": "feeling"}
+      ]
+    },
+    {
+      "id": 79,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Holmes no le dio tiempo"},
+        {"t": [6, 7], "es": "a hablar."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1, 2, 3], "es": "no dio", "base": "give", "sense": "transfer", "note": "*Did not* forma la negación en pasado. El verbo queda en su forma base: *give*, no *gave* ([[auxiliary-do]])."},
+        {"t": [4], "es": "le, a él"},
+        {"t": [5], "es": "tiempo", "base": "time", "sense": "duration"},
+        {"t": [6, 7], "es": "hablar", "base": "speak", "sense": "talk"}
+      ]
+    },
+    {
+      "id": 80,
+      "line": [
+        {"t": [0, 1], "es": "«Creo que"},
+        {"t": [2, 3, 4, 5], "es": "sus caballos están cansados,"},
+        {"t": [6, 7], "es": "señor Hayes."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "creo", "base": "think", "sense": "believe"},
+        {"t": [2, 3], "es": "sus caballos", "base": "horse", "sense": "animal"},
+        {"t": [4, 5], "es": "están cansados", "base": "tired", "sense": "sleepy"},
+        {"t": [6, 7], "es": "señor Hayes", "note": "*Mr* se lee *Mister*. En inglés británico suele escribirse sin punto; en EE. UU., *Mr.* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 81,
+      "line": [
+        {"t": [0, 1, 2], "es": "Podemos ir andando"},
+        {"t": [3, 4, 5], "es": "a la mansión."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1, 2], "es": "podemos andar", "base": "walk", "sense": "move", "note": "El modal *can* indica que algo es posible y va con el verbo sin *to* ([[modal-verbs]])."},
+        {"t": [3, 4, 5], "es": "a la mansión", "base": "hall", "sense": "house", "note": "*Hall* puede ser una gran casa de campo. Aquí lleva mayúscula porque abrevia *Holdernesse Hall*."}
+      ]
+    },
+    {
+      "id": 82,
+      "line": [{"t": [0, 1, 2], "es": "No está lejos»."}],
+      "words": [
+        {"t": [0, 1], "es": "no está", "base": "be", "sense": "state", "note": "*It’s* es *it is* ([[contractions]]). *It* se refiere a la mansión."},
+        {"t": [2], "es": "lejos", "base": "far", "sense": "distance"}
+      ]
+    },
+    {
+      "id": 83,
+      "line": [
+        {"t": [0, 1], "es": "«Tres kilómetros,"},
+        {"t": [2, 3, 4], "es": "por la carretera»,"},
+        {"t": [5, 6, 7], "es": "dijo el señor Hayes."}
+      ],
+      "words": [
+        {"t": [0], "es": "tres"},
+        {"t": [1], "es": "kilómetros", "base": "kilometre", "sense": "distance", "note": "Ortografía británica; en EE. UU., *kilometers* ([[british-american]])."},
+        {"t": [2, 3, 4], "es": "por la carretera", "base": "road", "sense": "route"},
+        {"t": [5, 6], "es": "el señor Hayes", "note": "*Mr* se lee *Mister*. En inglés británico suele escribirse sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [7], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 84,
+      "line": [{"t": [0, 1, 2, 3, 4, 5], "es": "Sus ojos seguían mirándonos con enfado."}],
+      "words": [
+        {"t": [0, 1], "es": "sus ojos", "base": "eye", "sense": "organ", "note": "El inglés usa posesivo con las partes del cuerpo: *his eyes*, «sus ojos» ([[body-possessive]])."},
+        {"t": [2], "es": "todavía", "base": "still", "sense": "continuing"},
+        {"t": [3], "es": "miraban", "base": "watch", "sense": "look"},
+        {"t": [4], "es": "nos, a nosotros"},
+        {"t": [5], "es": "con enfado", "base": "angrily", "sense": "anger"}
+      ]
+    },
+    {
+      "id": 85,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Estaba casi oscuro"},
+        {"t": [4, 5, 6], "es": "cuando nos fuimos."}
+      ],
+      "words": [
+        {"t": [0], "es": "(no se traduce)", "note": "Para hablar de la luz o del tiempo, el inglés necesita el sujeto *it*, aunque no señale nada ([[dummy-subject]])."},
+        {"t": [1], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [2], "es": "casi", "base": "nearly", "sense": "almost"},
+        {"t": [3], "es": "oscuro", "base": "dark", "sense": "unlit"},
+        {"t": [4], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [5], "es": "nosotros"},
+        {"t": [6], "es": "nos fuimos", "base": "leave", "sense": "depart"}
+      ]
+    },
+    {
+      "id": 86,
+      "line": [
+        {"t": [0, 1], "es": "Anduvimos"},
+        {"t": [2, 3, 4], "es": "por la carretera"},
+        {"t": [5, 6, 7, 8, 9], "es": "unos cien metros."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "anduvimos", "base": "walk", "sense": "move"},
+        {"t": [2, 3, 4], "es": "a lo largo de la carretera", "base": "road", "sense": "route"},
+        {"t": [5, 6, 7, 8, 9], "es": "unos cien metros", "base": "metre", "sense": "length", "note": "*For* indica la distancia recorrida ([[for-duration]]). *About* es «aproximadamente», y *a hundred*, «cien». *Metres* es británico; en EE. UU., *meters* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 87,
+      "line": [
+        {"t": [0], "es": "Entonces"},
+        {"t": [1, 2, 3, 4], "es": "Holmes me cogió del brazo."}
+      ],
+      "words": [
+        {"t": [0], "es": "entonces", "base": "then", "sense": "next"},
+        {"t": [1], "es": "Holmes"},
+        {"t": [2], "es": "cogió", "base": "take", "sense": "get"},
+        {"t": [3, 4], "es": "mi brazo", "base": "arm", "sense": "body", "note": "En inglés, las partes del cuerpo llevan posesivo: *my arm*, «mi brazo» ([[body-possessive]])."}
+      ]
+    },
+    {
+      "id": 88,
+      "line": [{"t": [0, 1], "es": "«¡Rápido, Watson!"}],
+      "words": [
+        {"t": [0], "es": "rápido", "base": "quick", "sense": "fast", "note": "*Quick!* es una orden breve para que alguien se dé prisa. No necesita verbo."},
+        {"t": [1], "es": "Watson"}
+      ]
+    },
+    {
+      "id": 89,
+      "line": [
+        {"t": [0, 1, 2], "es": "Fuera de la carretera"},
+        {"t": [3, 4, 5, 6], "es": "y colina arriba."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "fuera de la carretera", "base": "road", "sense": "route", "note": "La orden omite el verbo: *Off the road!* pide salir de la carretera."},
+        {"t": [3], "es": "y"},
+        {"t": [4, 5, 6], "es": "colina arriba", "base": "hill", "sense": "land"}
+      ]
+    },
+    {
+      "id": 90,
+      "line": [
+        {"t": [0], "es": "Entonces"},
+        {"t": [1, 2, 3, 4, 5, 6], "es": "podremos bajar la colina"},
+        {"t": [7, 8, 9, 10, 11, 12], "es": "por detrás de la posada»."}
+      ],
+      "words": [
+        {"t": [0], "es": "entonces", "base": "then", "sense": "next"},
+        {"t": [1], "es": "nosotros"},
+        {"t": [2, 3], "es": "podemos venir", "base": "come", "sense": "move", "note": "Con *down the hill*, *come* indica bajar la colina. El modal *can* expresa posibilidad ([[modal-verbs]])."},
+        {"t": [4, 5, 6], "es": "colina abajo", "base": "hill", "sense": "land"},
+        {"t": [7, 8, 9], "es": "en la parte de atrás", "base": "back", "sense": "rear"},
+        {"t": [10, 11, 12], "es": "de la posada", "base": "inn", "sense": "lodging"}
+      ]
+    },
+    {
+      "id": 91,
+      "line": [
+        {"t": [0, 1], "es": "Corrimos"},
+        {"t": [2, 3, 4], "es": "colina arriba."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "corrimos", "base": "run", "sense": "move"},
+        {"t": [2, 3, 4], "es": "colina arriba", "base": "hill", "sense": "land"}
+      ]
+    },
+    {
+      "id": 92,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Ese hombre, Hayes»,"},
+        {"t": [3, 4], "es": "dije."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "este hombre", "base": "man", "sense": "adult"},
+        {"t": [2], "es": "Hayes"},
+        {"t": [3], "es": "yo"},
+        {"t": [4], "es": "dije", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 93,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Lo sabe todo"},
+        {"t": [3, 4, 5], "es": "sobre el secuestro."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "sabe", "base": "know", "sense": "information"},
+        {"t": [2], "es": "todo", "base": "all", "sense": "everything"},
+        {"t": [3, 4, 5], "es": "sobre el secuestro", "base": "kidnapping", "sense": "crime"}
+      ]
+    },
+    {
+      "id": 94,
+      "line": [{"t": [0, 1, 2, 3], "es": "¿Es así, Holmes?»."}],
+      "words": [
+        {"t": [0], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [1], "es": "eso"},
+        {"t": [2], "es": "cierto", "base": "right", "sense": "correct", "note": "Aquí *right* habla de lo que es correcto o cierto, no de la derecha."},
+        {"t": [3], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 95,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Por supuesto que sí»,"},
+        {"t": [4, 5], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "por supuesto", "base": "of course", "sense": "obvious", "note": "Es una expresión fija: no habla de un «curso»."},
+        {"t": [2], "es": "eso"},
+        {"t": [3], "es": "es", "base": "be", "sense": "identity", "note": "La respuesta corta *it is* repite el verbo de la pregunta. Aquí equivale a «sí, es cierto» ([[be-questions]])."},
+        {"t": [4], "es": "él"},
+        {"t": [5], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 96,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Podemos enterarnos"},
+        {"t": [3, 4, 5], "es": "de muchas más cosas"},
+        {"t": [6, 7, 8], "es": "a través del señor Hayes."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1, 2], "es": "podemos enterarnos", "base": "learn", "sense": "discover", "note": "*Learn* también puede ser enterarse de algo, no solo aprender en clase."},
+        {"t": [3, 4], "es": "mucho", "base": "a lot", "sense": "quantity"},
+        {"t": [5], "es": "más", "base": "more", "sense": "quantity"},
+        {"t": [6, 7, 8], "es": "del señor Hayes", "note": "*Mr* se lee *Mister*. En inglés británico suele escribirse sin punto; en EE. UU., *Mr.* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 97,
+      "line": [{"t": [0], "es": "¡Ah!"}],
+      "words": [{"t": [0], "es": "ah", "base": "ah", "sense": "realisation"}]
+    },
+    {
+      "id": 98,
+      "line": [{"t": [0, 1], "es": "¿Quién es este?"}],
+      "words": [
+        {"t": [0], "es": "quién es", "base": "be", "sense": "identity", "note": "*Who’s* es *who is*: «quién es» ([[contractions]])."},
+        {"t": [1], "es": "este"}
+      ]
+    },
+    {
+      "id": 99,
+      "line": [{"t": [0, 1, 2], "es": "¡Watson, agáchese!»."}],
+      "words": [
+        {"t": [0], "es": "Watson"},
+        {"t": [1, 2], "es": "agáchese", "base": "get down", "sense": "duck", "note": "Este *phrasal verb* pide bajar el cuerpo o agacharse ([[phrasal-verbs]])."}
+      ]
+    },
+    {
+      "id": 100,
+      "line": [
+        {"t": [0, 1], "es": "Había"},
+        {"t": [2, 3], "es": "una bicicleta"},
+        {"t": [4, 5, 6], "es": "en la carretera."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "había", "base": "be", "sense": "exist", "note": "*There was* expresa que había algo. Aquí *there* no significa «allí» ([[dummy-subject]])."},
+        {"t": [2, 3], "es": "una bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [4, 5, 6], "es": "en la carretera", "base": "road", "sense": "route"}
+      ]
+    },
+    {
+      "id": 101,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Pasó por delante de nosotros muy deprisa,"},
+        {"t": [6, 7, 8, 9, 10], "es": "y vimos al ciclista:"},
+        {"t": [12, 13, 14], "es": "el señor James Wilder,"},
+        {"t": [15, 16, 17], "es": "el secretario del duque."}
+      ],
+      "words": [
+        {"t": [0], "es": "ella, la bicicleta"},
+        {"t": [1], "es": "vino", "base": "come", "sense": "move", "note": "*Came past us* indica que pasó por delante de nosotros. Por eso la frase dice «pasó»."},
+        {"t": [2, 3], "es": "por delante de nosotros", "base": "past", "sense": "passing"},
+        {"t": [4], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [5], "es": "deprisa", "base": "quickly", "sense": "speed"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "nosotros"},
+        {"t": [8], "es": "vimos", "base": "see", "sense": "sight"},
+        {"t": [9, 10], "es": "el ciclista", "base": "rider", "sense": "bicycle"},
+        {"t": [12, 13, 14], "es": "el señor James Wilder", "note": "*Mr* se lee *Mister*. En inglés británico suele escribirse sin punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [15, 16], "es": "del duque", "base": "duke", "sense": "noble", "note": "*’s* indica posesión: *the Duke’s secretary* es «el secretario del duque» ([[possessive-s]])."},
+        {"t": [17], "es": "secretario", "base": "secretary", "sense": "assistant"}
+      ]
+    },
+    {
+      "id": 102,
+      "line": [{"t": [0, 1, 2, 3, 4, 5], "es": "Tenía la cara pálida y una expresión de miedo."}],
+      "words": [
+        {"t": [0, 1], "es": "su cara", "base": "face", "sense": "front", "note": "El inglés usa posesivo con las partes del cuerpo: *his face*, «su cara» ([[body-possessive]])."},
+        {"t": [2], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [3], "es": "pálida", "base": "white", "sense": "pale"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "asustada", "base": "afraid", "sense": "fear"}
+      ]
+    },
+    {
+      "id": 103,
+      "line": [
+        {"t": [0, 1], "es": "«¡Rápido, Watson!»,"},
+        {"t": [2, 3], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "rápido", "base": "quick", "sense": "fast", "note": "*Quick!* es una orden breve para que alguien se dé prisa. No necesita verbo."},
+        {"t": [1], "es": "Watson"},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 104,
+      "line": [{"t": [0, 1, 2, 3], "es": "«Tenemos que vigilarlo»."}],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1, 2], "es": "tenemos que vigilar", "base": "watch", "sense": "guard", "note": "El modal *must* indica necesidad y va con el verbo sin *to*: *must watch* ([[modal-verbs]])."},
+        {"t": [3], "es": "lo, a él"}
+      ]
+    },
+    {
+      "id": 105,
+      "line": [
+        {"t": [0, 1], "es": "Corrimos"},
+        {"t": [2, 3, 4], "es": "colina abajo"},
+        {"t": [5, 6], "es": "y nos detuvimos"},
+        {"t": [7, 8, 9, 10], "es": "cuando pudimos ver"},
+        {"t": [11, 12, 13], "es": "la puerta trasera"},
+        {"t": [14, 15, 16], "es": "de la posada."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "corrimos", "base": "run", "sense": "move"},
+        {"t": [2, 3, 4], "es": "colina abajo", "base": "hill", "sense": "land"},
+        {"t": [5], "es": "y"},
+        {"t": [6], "es": "nos detuvimos", "base": "stop", "sense": "halt"},
+        {"t": [7], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [8], "es": "nosotros"},
+        {"t": [9, 10], "es": "pudimos ver", "base": "see", "sense": "sight", "note": "*Could* es el pasado del modal *can*: aquí indica lo que pudieron ver ([[modal-verbs]])."},
+        {"t": [11, 13], "es": "la puerta", "base": "door", "sense": "entrance"},
+        {"t": [12], "es": "trasera", "base": "back", "sense": "rear"},
+        {"t": [14, 15, 16], "es": "de la posada", "base": "inn", "sense": "lodging"}
+      ]
+    },
+    {
+      "id": 106,
+      "line": [
+        {"t": [0, 1], "es": "La bicicleta de Wilder"},
+        {"t": [2, 3, 4, 5], "es": "estaba junto a la pared,"},
+        {"t": [6, 7, 8], "es": "cerca de la puerta."}
+      ],
+      "words": [
+        {"t": [0], "es": "de Wilder", "note": "*Wilder’s* indica posesión: la bicicleta es de Wilder ([[possessive-s]])."},
+        {"t": [1], "es": "bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [2], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [3, 4, 5], "es": "junto a la pared", "base": "wall", "sense": "building", "note": "Aquí *by* indica cercanía, «junto a». No significa «por» como autor de una acción."},
+        {"t": [6, 7, 8], "es": "cerca de la puerta", "base": "door", "sense": "entrance"}
+      ]
+    },
+    {
+      "id": 107,
+      "line": [
+        {"t": [0, 1, 2], "es": "Durante cinco minutos"},
+        {"t": [3, 4], "es": "no pasó nada;"},
+        {"t": [5, 6, 7], "es": "luego un hombre"},
+        {"t": [8, 9, 10], "es": "a caballo"},
+        {"t": [11, 12, 13, 14, 15, 16], "es": "salió rápidamente de las cuadras"},
+        {"t": [17, 18, 19, 20, 21], "es": "y desapareció por la carretera."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "durante minutos", "base": "minute", "sense": "time", "note": "Con una duración, *for* significa «durante», no «para» ([[for-duration]])."},
+        {"t": [1], "es": "cinco"},
+        {"t": [3], "es": "nada", "base": "nothing", "sense": "none", "note": "*Nothing* ya niega la frase: no hace falta añadir *not* ([[negative-words]])."},
+        {"t": [4], "es": "pasó", "base": "happen", "sense": "occur"},
+        {"t": [5], "es": "luego", "base": "then", "sense": "next"},
+        {"t": [6, 7], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [8, 9, 10], "es": "sobre un caballo", "base": "horse", "sense": "animal"},
+        {"t": [11], "es": "cabalgó", "base": "ride", "sense": "mount", "note": "*Rode* indica que iba a caballo; con *out of*, que salió de un lugar."},
+        {"t": [12], "es": "rápidamente", "base": "quickly", "sense": "speed"},
+        {"t": [13, 14, 15, 16], "es": "fuera de las cuadras", "base": "stable", "sense": "building"},
+        {"t": [17], "es": "y"},
+        {"t": [18], "es": "desapareció", "base": "disappear", "sense": "vanish"},
+        {"t": [19, 20, 21], "es": "por la carretera", "base": "road", "sense": "route", "note": "Con una calle o carretera, *down* indica avanzar por ella; no tiene por qué ser cuesta abajo."}
+      ]
+    }
+  ]
+}
