@@ -142,7 +142,7 @@ Add the names of each chapter before you translate it. Names in a later chapter 
 | Holdernesse Hall | Holdernesse Hall | The Duke's house. A note can say that *Hall* is a big country house. |
 | Liverpool | Liverpool | |
 | office | despacho | Dr Huxtable's room at the school. |
-| postbag | saca del correo | British; US *mailbag*. |
+| postbag | saca de correos | British; US *mailbag*. |
 | policeman | policía | |
 | the White Horse Inn | la posada White Horse | Inn names stay in English, as *Priory*. A note can give the meaning: «caballo blanco». |
 | Ragged Shaw | Ragged Shaw | A small wood. *Shaw* is an old word for a small wood; *ragged* means «irregular, desigual». |
