@@ -71,6 +71,16 @@ The files of chapters 5–7 on this computer still have the title music. Their `
 - Headings are title case, as in hp1: `# Chapter One: Sherlock Holmes Has a Visitor`.
 - `book.json` has a Whisper prompt with the names of the people and places.
 
+## Pictures
+
+- `pictures/raw/NN-K.png` are 300 dpi crops of the book's pictures from `source/book.pdf`. `NN` is the chapter, `K` is the picture number in the chapter.
+- In `text.md`, `![caption](NN-K)` puts a picture after the paragraph that it shows. Never put a picture before its paragraph, because it can tell the story before the text does.
+- The captions are the book's captions. Where a caption ends in "…", the text completes it from the paragraph.
+- 05-2, 05-3 and 05-4 are Holmes's drawings of the tracks on page 35. They have no caption.
+- 03-2 (the map) and 07-1 have no caption in the book.
+- To replace a crop, put `pictures/NN-K.png` next to `raw/`: black ink on a transparent background, about 1000–1400 px wide. Only the alpha counts, so make grey shading partial alpha. The build uses it in place of the raw crop.
+- `book.json` `pictureColumn` is the width of the book's text column in the raw crops, in px. The build uses it to show each picture at its size on the page.
+
 ## Narration against the text
 
 Whisper agrees with 98–99% of the words. The rest are pronunciation only. Do not change the text for these:

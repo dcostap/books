@@ -6,9 +6,13 @@
 
 ‘Then, on the night of the 13th of May, he disappeared. The way to his bedroom is through another, larger room. Two older boys sleep there. One of them never sleeps very well, and he heard and saw nothing that night. So young Arthur did not go out through that room. His window was open, and there is ivy all up the wall of the house. It is easy to get out of the window and down the ivy to the ground. So we think that he went out that way.
 
+![‘There is ivy all up the wall of the house.’](02-1)
+
 ‘He was in his usual school things, we think – a short black coat and dark blue trousers. We looked all through his room very carefully, but we found nothing strange, nothing unusual.
 
 ‘When I learnt the news at seven o’clock on Tuesday morning, I called everybody into the big schoolroom. Then we learnt more bad news – Heidegger, the German teacher, was missing too. His room is not far from Arthur’s room. Heidegger went down the ivy – we know this because we found his footprints on the ground under the window. We know, too, that he was only in his coat, trousers, and shoes, because we found his shirt and his socks on the floor of his room. And he took his bicycle with him.
+
+![‘We found his footprints on the ground.’](02-2)
 
 ‘Heidegger came to the school a year ago. He’s a good teacher, but the boys don’t like him because he isn’t very friendly.
 
@@ -45,6 +49,8 @@ Holmes took out a little notebook, and began to write things down.
 ‘No.’
 
 ‘So. Did the German teacher ride away on his bicycle in the night, with the boy on his back? I don’t think so. But what happened to the bicycle? Now, what about visitors? Did the boy have any visitors the day before?’
+
+![‘Did the German teacher ride away on his bicycle in the night, with the boy on his back? I don’t think so.’](02-3)
 
 ‘No.’
 

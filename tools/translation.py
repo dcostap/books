@@ -93,10 +93,11 @@ def is_word(token):
 
 
 def chapter_sentences(chapter_dir):
-    """The sentences of text.md in reading order, as (paragraph number, tokens)."""
+    """The sentences of text.md in reading order, as (paragraph number, tokens), then the sentences of the captions."""
     book = json.loads((chapter_dir.parent / "book.json").read_text(encoding="utf-8"))
     blocks = parse((chapter_dir / "text.md").read_text(encoding="utf-8"), book.get("oldSentenceSplit", False))
-    return [(b, s) for b, block in enumerate(blocks) for s in block["sentences"]]
+    return ([(b, s) for b, block in enumerate(blocks) for s in block["sentences"]]
+            + [(b, s) for b, block in enumerate(blocks) for s in block.get("caption", [])])
 
 
 def token_list(t, tokens, at):
@@ -282,7 +283,8 @@ def prep(book_dir, number, jobs, paragraphs, more, force):
     kept, start = [], 0
     if more:
         old = load_source(chapter_dir)
-        if old["sentences"] != [" ".join(t) for _, t in sentences]:
+        # New sentences at the end (new captions) are fine.
+        if old["sentences"] != [" ".join(t) for _, t in sentences][:len(old["sentences"])]:
             sys.exit("the text changed after prep: the old jobs do not fit. Use --force.")
         kept = old["jobs"]
         start = kept[-1][1] + 1 if kept else 0

@@ -411,6 +411,11 @@ function showReader(book, chapter, target) {
       <p class="pop-sentence" lang="es" hidden></p>
       <button class="button primary pop-play">${icon("play")}Escuchar desde aquí</button>
     </div></div>
+    <div class="viewer" role="dialog" aria-modal="true" aria-label="Imagen" hidden>
+      <div class="viewer-stage"><span class="viewer-ink"></span></div>
+      <div class="viewer-caption"><p lang="en"></p><p class="viewer-es" lang="es"></p></div>
+      <button class="icon viewer-close" aria-label="Cerrar imagen" title="Cerrar">${icon("close")}</button>
+    </div>
     <button class="mark" hidden aria-label="Volver a la lectura"></button>
     <footer class="player">
       <button class="pill" hidden></button>
@@ -448,6 +453,8 @@ function showReader(book, chapter, target) {
 
   const words = []; // { el, s, e, sentence, k (its number in the sentence) }
   const sentences = []; // { el, first (index of its first word) }
+  let timed = 0; // the words of the text, which have times. The words of the captions come after them.
+  const figures = new Map(); // the button of a picture -> { src, ratio, caption (its sentence numbers) }
   let translation = null; // for each sentence: { es, line: [{ t: [k...], es }] (optional), units: [{ t: [k...], es, base, sense, note }] } or null
   let current = -1; // index of the highlighted word
   let picked = []; // indexes of the words outlined by the open popup
@@ -490,25 +497,26 @@ function showReader(book, chapter, target) {
     loadError(article, "Este capítulo no está disponible. Comprueba tu conexión.");
   });
 
+  // The words of the captions come after the words of the text, and their sentences after its sentences, as in
+  // the translation. So a new picture does not change the numbers of the saved words.
   function render(data) {
     article.textContent = "";
+    const captions = [];
     for (const block of data.blocks) {
-      const blockEl = document.createElement({ h: "h2", p: "p", break: "hr" }[block.type]);
-      for (const sentence of block.sentences) {
-        const sentenceEl = document.createElement("span");
-        sentenceEl.className = "s";
-        sentences.push({ el: sentenceEl, first: words.length });
-        for (const [k, [text, s, e]] of sentence.entries()) {
-          const wordEl = document.createElement("span");
-          wordEl.className = "w";
-          wordEl.textContent = text;
-          wordEl.dataset.i = words.length;
-          words.push({ el: wordEl, s, e, sentence: sentences.length - 1, k });
-          sentenceEl.append(wordEl, " ");
-        }
-        blockEl.append(sentenceEl);
+      if (block.type === "figure") {
+        article.append(figureEl(block, captions));
+        continue;
       }
+      const blockEl = document.createElement({ h: "h2", p: "p", break: "hr" }[block.type]);
+      for (const sentence of block.sentences) addSentence(blockEl, sentence);
       article.append(blockEl);
+    }
+    timed = words.length;
+    for (const { el, caption, sentences: numbers } of captions) {
+      for (const sentence of caption) {
+        numbers.push(sentences.length);
+        addSentence(el, sentence.map((text) => [text]));
+      }
     }
     const next = book.chapters.find((c) => c.n === chapter.n + 1);
     if (next) article.insertAdjacentHTML("beforeend",
@@ -516,6 +524,41 @@ function showReader(book, chapter, target) {
     article.append(marks);
     layoutMarks();
   }
+
+  function addSentence(parent, sentence) {
+    const sentenceEl = document.createElement("span");
+    sentenceEl.className = "s";
+    sentences.push({ el: sentenceEl, first: words.length });
+    for (const [k, [text, s, e]] of sentence.entries()) {
+      const wordEl = document.createElement("span");
+      wordEl.className = "w";
+      wordEl.textContent = text;
+      wordEl.dataset.i = words.length;
+      words.push({ el: wordEl, s, e, sentence: sentences.length - 1, k });
+      sentenceEl.append(wordEl, " ");
+    }
+    parent.append(sentenceEl);
+  }
+
+  // A picture: its image is a mask in the colour of the text (style.css), so it fits every theme.
+  function figureEl(block, captions) {
+    const figure = document.createElement("figure");
+    figure.className = "pic";
+    figure.innerHTML = `<button class="pic-open" aria-label="Ampliar la imagen"><span class="pic-ink"></span></button>`;
+    const open = figure.firstChild;
+    open.style.setProperty("--w", `${block.width}em`);
+    open.style.setProperty("--ratio", block.ratio);
+    setMask(open.firstChild, block.src);
+    const info = { src: block.src, ratio: block.ratio, caption: [] };
+    figures.set(open, info);
+    if (block.caption.length) {
+      const el = figure.appendChild(document.createElement("figcaption"));
+      captions.push({ el, caption: block.caption, sentences: info.caption });
+    }
+    return figure;
+  }
+
+  const setMask = (el, src) => (el.style.webkitMaskImage = el.style.maskImage = `url("${src}")`);
 
   // Translation between the lines (the gloss setting). Each chunk of the reading line becomes a column, the English
   // over the Spanish, and each sentence starts a line (style.css). Without a reading line (hp1 chapter 1), the popup
@@ -596,7 +639,7 @@ function showReader(book, chapter, target) {
 
   // A jump to a word starts PREROLL before it, so a word starts that much earlier here.
   function wordAt(t) {
-    let lo = 0, hi = words.length - 1, found = -1;
+    let lo = 0, hi = timed - 1, found = -1;
     while (lo <= hi) {
       const mid = (lo + hi) >> 1;
       if (words[mid].s <= t + PREROLL + 0.01) { found = mid; lo = mid + 1; } else hi = mid - 1;
@@ -811,7 +854,7 @@ function showReader(book, chapter, target) {
 
   function firstVisibleWord() {
     const top = band().top;
-    let lo = 0, hi = words.length - 1, found = -1;
+    let lo = 0, hi = timed - 1, found = -1;
     while (lo <= hi) {
       const mid = (lo + hi) >> 1;
       if (words[mid].el.getBoundingClientRect().bottom > top) { found = mid; hi = mid - 1; } else lo = mid + 1;
@@ -845,6 +888,7 @@ function showReader(book, chapter, target) {
   on(document, "keydown", (e) => {
     if (e.target.closest("input, textarea") && e.key !== "Escape") return;
     if (e.key === " " && !e.target.closest("button")) { e.preventDefault(); toggle(); }
+    else if (e.key === "Escape" && !viewer.hidden) closeViewer();
     else if (e.key === "Escape") { closePop(); closePanels(); }
     else if (["ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End"].includes(e.key)) stopFollow();
   });
@@ -862,8 +906,9 @@ function showReader(book, chapter, target) {
 
   on($(".pop-close"), "click", closePop);
   on(article, "click", (e) => {
-    const el = e.target.closest(".w, .bubble, .g");
+    const el = e.target.closest(".w, .bubble, .g"), picture = e.target.closest(".pic-open");
     if (el) lookUp(Number(el.dataset.i));
+    else if (picture) openViewer(picture);
   });
   on(document, "click", (e) => {
     // The path at the time of the click: a click can replace its own target, as the bookmark icon does.
@@ -1002,7 +1047,7 @@ function showReader(book, chapter, target) {
     $(".pop-more").hidden = !entry || whole;
     $(".pop-more").setAttribute("aria-expanded", false);
     $(".pop-more span").textContent = "Ver la frase entera";
-    $(".pop-play").hidden = false;
+    $(".pop-play").hidden = i >= timed; // a caption has no audio
     pop.dataset.word = i;
     showSaved(i);
     pop.hidden = false;
@@ -1038,6 +1083,115 @@ function showReader(book, chapter, target) {
     picked = [];
     pop.hidden = true;
   }
+
+  // Picture viewer: the picture as large as the screen. Pinch, the wheel or a double tap zooms; a drag moves the
+  // zoomed picture. A tap beside the picture, Escape or the back button closes it. The audio goes on.
+  const viewer = $(".viewer"), stage = $(".viewer-stage"), ink = $(".viewer-ink");
+  let opener = null, ratio = 1, zoom = { s: 1, x: 0, y: 0 };
+  const MAX_ZOOM = 6;
+
+  function openViewer(button) {
+    const info = figures.get(button);
+    closePop();
+    opener = button;
+    ratio = info.ratio;
+    setMask(ink, info.src);
+    const text = (s) => words.filter((w) => w.sentence === s).map((w) => w.el.textContent).join(" ");
+    $(".viewer-caption [lang=en]").textContent = info.caption.map(text).join(" ");
+    $(".viewer-es").textContent = store.settings.gloss ? info.caption.map((s) => translation?.[s]?.es ?? "").join(" ").trim() : "";
+    $(".viewer-caption").hidden = !info.caption.length;
+    viewer.hidden = false;
+    fit();
+    history.pushState({ viewer: true }, "");
+    $(".viewer-close").focus();
+  }
+
+  // Close through the history, so the back button and the close button do the same thing.
+  const closeViewer = () => (history.state?.viewer ? history.back() : hideViewer());
+  function hideViewer() {
+    if (viewer.hidden) return;
+    viewer.hidden = true;
+    opener?.focus({ preventScroll: true });
+  }
+  on(window, "popstate", hideViewer);
+  on($(".viewer-close"), "click", closeViewer);
+
+  // The largest size that fits the stage, then no zoom.
+  function fit() {
+    const r = stage.getBoundingClientRect(), w = Math.min(r.width, r.height * ratio);
+    ink.style.width = `${w}px`;
+    ink.style.height = `${w / ratio}px`;
+    setZoom(1, 0, 0);
+  }
+  on(window, "resize", () => { if (!viewer.hidden) fit(); });
+
+  // x and y move the centre of the picture from the centre of the stage. The picture cannot leave the stage.
+  function setZoom(s, x, y) {
+    s = clamp(s, 1, MAX_ZOOM);
+    const r = stage.getBoundingClientRect();
+    const mx = Math.max(0, (ink.offsetWidth * s - r.width) / 2), my = Math.max(0, (ink.offsetHeight * s - r.height) / 2);
+    zoom = { s, x: clamp(x, -mx, mx), y: clamp(y, -my, my) };
+    ink.style.transform = `translate(${zoom.x}px, ${zoom.y}px) scale(${s})`;
+    stage.classList.toggle("zoomed", s > 1);
+  }
+
+  // Zoom by k, and keep the point under (cx, cy) on the screen where it is.
+  function zoomAt(k, cx, cy) {
+    const r = stage.getBoundingClientRect(), px = cx - r.left - r.width / 2, py = cy - r.top - r.height / 2;
+    k = clamp(zoom.s * k, 1, MAX_ZOOM) / zoom.s;
+    setZoom(zoom.s * k, px - (px - zoom.x) * k, py - (py - zoom.y) * k);
+  }
+
+  on(stage, "wheel", (e) => {
+    e.preventDefault();
+    zoomAt(Math.exp(-e.deltaY * 0.002), e.clientX, e.clientY);
+  }, { passive: false });
+
+  const pointers = new Map(); // pointer id -> its last { x, y }
+  let gesture = null; // { x, y, t, moved }: where and when the first pointer went down
+  let lastTap = null;
+  const centre = () => {
+    const [a, b] = [...pointers.values()];
+    return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2, d: Math.hypot(a.x - b.x, a.y - b.y) };
+  };
+  on(stage, "pointerdown", (e) => {
+    stage.setPointerCapture(e.pointerId);
+    pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pointers.size === 1) gesture = { x: e.clientX, y: e.clientY, t: e.timeStamp, moved: false };
+    else gesture.moved = true; // a pinch is not a tap
+  });
+  on(stage, "pointermove", (e) => {
+    const last = pointers.get(e.pointerId);
+    if (!last) return;
+    const before = pointers.size === 2 ? centre() : null;
+    pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (Math.hypot(e.clientX - gesture.x, e.clientY - gesture.y) > 8) gesture.moved = true;
+    if (before) {
+      const now = centre();
+      setZoom(zoom.s, zoom.x + now.x - before.x, zoom.y + now.y - before.y);
+      zoomAt(now.d / before.d, now.x, now.y);
+    } else if (zoom.s > 1) {
+      setZoom(zoom.s, zoom.x + e.clientX - last.x, zoom.y + e.clientY - last.y);
+    }
+  });
+  const lift = (e) => {
+    if (!pointers.delete(e.pointerId) || pointers.size || !gesture) return;
+    const tap = !gesture.moved && e.timeStamp - gesture.t < 400 && e.type === "pointerup";
+    gesture = null;
+    if (!tap) return;
+    if (lastTap && e.timeStamp - lastTap.t < 350 && Math.hypot(e.clientX - lastTap.x, e.clientY - lastTap.y) < 30) {
+      lastTap = null;
+      if (zoom.s > 1) setZoom(1, 0, 0);
+      else zoomAt(2.5, e.clientX, e.clientY);
+      return;
+    }
+    lastTap = { x: e.clientX, y: e.clientY, t: e.timeStamp };
+    const r = ink.getBoundingClientRect();
+    const beside = e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom;
+    if (beside && zoom.s === 1) closeViewer();
+  };
+  on(stage, "pointerup", lift);
+  on(stage, "pointercancel", lift);
 
   // Lock screen and media keys
 

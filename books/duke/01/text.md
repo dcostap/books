@@ -4,6 +4,8 @@ When visitors came to see Sherlock Holmes in Baker Street, they often did surpri
 
 He was a large man, tall, well-dressed, and important-looking. He came into the room, walked to one of the big chairs, and suddenly fell into it. He sat there, with his eyes closed, looking white and ill.
 
+![He sat there, looking white and ill.](01-1)
+
 I ran to get some water for him. Then I got my doctor’s bag, and looked at him carefully.
 
 ‘What is it, Watson?’ said Holmes.
@@ -31,6 +33,8 @@ After a minute or two the man began to move, and his eyes opened. A second later
 ‘Yes, that’s him. So you didn’t know... It’s not in the newspapers yet, that’s true. But Sherlock Holmes always hears news before other people, I thought.’
 
 Holmes went to get one of his books, and began to read the page about the Duke of Holdernesse.
+
+![Holmes began to read the page about the Duke of Holdernesse.](01-2)
 
 ‘Holdernesse, sixth Duke. Wife: Edith, daughter of Lord Grey. One child, Lord Arthur Saltire. Houses in London, Lancashire, and Wales. Government Minister for this... for that... for the other... Well, well,’ said Holmes. ‘He’s one of the greatest men in the country.’
 

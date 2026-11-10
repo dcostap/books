@@ -263,6 +263,63 @@ dialog form { text-align: right; }
 .text hr { margin: 1.5em 0; border: 0; color: var(--muted); text-align: center; }
 .text hr::after { content: "* * *"; }
 .text { position: relative; }
+/* A picture: a mask in the colour of the text (app.js sets the image). --w is its size on the page of the book;
+   it is never wider than the column or taller than about half the screen. */
+.pic { margin: 1.75em 0; text-align: center; }
+.pic-open {
+  display: block;
+  width: min(100%, var(--w), calc(45vh * var(--ratio)));
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: none;
+  cursor: zoom-in;
+}
+.pic-ink, .viewer-ink {
+  display: block;
+  background: var(--fg);
+  -webkit-mask-size: contain; mask-size: contain;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-position: center; mask-position: center;
+}
+.pic-ink { aspect-ratio: var(--ratio); }
+.pic figcaption { max-width: 26em; margin: 0.8em auto 0; color: var(--muted); font-size: 0.9em; font-style: italic; line-height: 1.5; }
+.pic figcaption .g { font-style: normal; }
+/* The picture viewer */
+.viewer { position: fixed; inset: 0; z-index: 20; display: flex; flex-direction: column; background: var(--bg); }
+.viewer[hidden] { display: none; }
+.viewer-stage {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  margin: calc(3.75rem + env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) 0 max(1rem, env(safe-area-inset-left));
+  overflow: hidden;
+  touch-action: none;
+  cursor: zoom-in;
+}
+.viewer-stage.zoomed { cursor: grab; }
+.viewer-ink { transform-origin: center; }
+.viewer-caption {
+  width: 100%;
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem calc(1.25rem + env(safe-area-inset-bottom));
+  color: var(--muted);
+  font-family: var(--reading-font);
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+}
+.viewer-caption p { margin: 0; }
+.viewer-caption .viewer-es { margin-top: 0.3em; font-family: var(--sans); font-size: 0.88em; font-style: normal; color: color-mix(in srgb, var(--accent) 30%, var(--muted)); }
+.viewer-es:empty { display: none; }
+.viewer-close { position: absolute; top: calc(0.75rem + env(safe-area-inset-top)); right: max(0.75rem, env(safe-area-inset-right)); }
+@media (prefers-reduced-motion: no-preference) {
+  .viewer { animation: viewer-in 0.18s ease-out; }
+  @keyframes viewer-in { from { opacity: 0; } }
+}
 .next-chapter { display: flex; width: fit-content; margin: 3em auto 0; border: 1px solid var(--line); color: var(--muted); font-family: var(--sans); font-size: 0.8em; }
 /* A ring around a saved unit; app.js places it over the words. */
 .marks i {

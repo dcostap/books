@@ -22,6 +22,8 @@ But Holmes did not look happy. ‘It’s a bicycle, yes, but not the bicycle. Ev
 
 ‘No, no, my dear Watson. Look at the tracks of the two tyres. Are they the same?’
 
+![The tracks of a Dunlop tyre (left) and a Palmer tyre (right).](04-1)
+
 ‘Er, no,’ I said. ‘One tyre makes a deeper track.’
 
 ‘And that’s the back wheel,’ said Holmes, ‘because the rider, of course, sits over the back wheel. The deeper track is the one on top, so this bicycle went that way, across the moor away from the school. But who was the rider? Where did he come from?’
@@ -46,6 +48,8 @@ On one of the yellow flowers there was something red – the dark, browny-red of
 
 We soon found the bicycle, and then behind a bush we saw a shoe, and found a body. There was blood on the man’s head and face, and he was very, very dead. He had shoes on, but no socks, and we saw a night-shirt under his open coat. It was the German teacher.
 
+![Behind a bush, we found a body.](04-2)
+
 ‘Poor man,’ Holmes said quietly. ‘What shall we do, Watson? We can’t lose any more time, but we must tell someone about this poor man.’
 
 ‘Shall I run back to the school?’ I said.
@@ -59,6 +63,8 @@ I went and got the workman, and Holmes wrote a note for Dr Huxtable. The poor wo
 ‘That’s right,’ I said.
 
 ‘And why did Heidegger go? Because, from his bedroom window, he saw the boy. Because he wanted to follow him and bring him back. So far, so good. But why doesn’t Heidegger just run after the boy? A man can easily run faster than a boy – but Heidegger doesn’t do this. He gets his bicycle. He knows that he needs his bicycle. Why?’
+
+![‘Heidegger knows that he needs his bicycle. Why?’](04-3)
 
 ‘Ah,’ I said, ‘because the boy has a bicycle.’
 

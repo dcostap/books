@@ -4,6 +4,7 @@
   "narrator": "Richard Mitchly",
   "level": "A1–A2",
   "cover": "cover.jpg",
+  "pictureColumn": 1120,
   "source": {
     "pdf": "source/book.pdf"
   },

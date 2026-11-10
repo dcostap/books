@@ -6,6 +6,8 @@ He looked very surprised. ‘The Duke is here,’ he told us. ‘The Duke and Mr
 
 The Government Minister was a tall man with a long, thin face. He had red hair, and a great red beard. He looked at us, and did not smile. Next to him stood Mr Wilder, a very young man. He was small, with blue eyes, and a watchful face. He spoke first.
 
+![The Government Minister was a tall man, with a great red beard.](03-1)
+
 ‘The Duke is surprised, Dr Huxtable, to see Mr Sherlock Holmes here. He doesn’t want people to know about this. You know that, so why didn’t you speak to the Duke before you went to London?’
 
 ‘But we need help,’ said Dr Huxtable. ‘And I –’
@@ -27,6 +29,8 @@ The Government Minister was a tall man with a long, thin face. He had red hair, 
 A minute or two later the Duke and Mr Wilder left. Holmes then began at once to work on the case. We looked carefully all through the boy’s bedroom, and the German teacher’s room. We looked at the ivy on the wall, and we saw the footprints under the German teacher’s window. But we learnt nothing new. Holmes then left the house, and only came back after eleven o’clock.
 
 He had with him a large map. He brought it into my room and put it on the bed.
+
+![](03-2)
 
 ‘This case is beginning to get interesting, Watson,’ he said. ‘Look at this map. Here is the school, you see, and here is the road. So, did the boy and the teacher go along the road when they left? No, Watson, they did not!’
 
