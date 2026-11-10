@@ -6,7 +6,7 @@ Things that are special to this book. Read this before you add a chapter. Add to
 
 - Text: `source/book.pdf`, an Internet Archive scan of the 2002 printing (ISBN 9780194229616) with an OCR layer. The 2008 edition (ISBN 9780194787093) has the same text, but its PDF has images only.
 - Audio: the Oxford Bookworms audiobook, read by Richard Mitchly (Audible, 59 min). Our copy is one MP3 of 58:52 (48 kHz stereo, 224 kbps), probably from YouTube. It is not in git: `audio/duke/full.mp3`.
-- Only chapters 1 and 2 are in git. Chapters 3–7 stay on this computer (`.gitignore`). To publish a chapter, add it to `book.json` and remove its line from `.gitignore`.
+- Only chapters 1 to 3 are in git. Chapters 4–7 stay on this computer (`.gitignore`). To publish a chapter, add it to `book.json` and remove its line from `.gitignore`.
 
 ## Audio
 
@@ -26,7 +26,7 @@ Keep the original file as `audio/duke/0N-original-with-chime.mp3`. Make the clea
 |----|------|------|------|------|
 | 1 | 5.66–15.97 | 19.62–21.55 | 19.706–19.782; declick 18.303–18.330 and 18.410–18.437 | yes |
 | 2 | 6.95–17.76 | none found | | yes |
-| 3 | 6.71–17.71 | none found | | |
+| 3 | 7.02–17.62 | none found | | yes |
 | 4 | 5.80–16.63 | none found | | |
 | 5 | 6.00–17.73 | none found | | |
 | 6 | 7.40–19.07 | none found | | |
@@ -48,7 +48,15 @@ Chapter 2 command (the source has no chime, so it keeps its name):
 .venv/Scripts/python books/duke/fix_audio.py audio/duke/02-dr-huxtables-story.mp3 audio/duke/02-dr-huxtables-story.webm --cut 6.95 17.76
 ```
 
-The files of chapters 3–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
+Chapter 3 command. The title ends at 6.80 s, the music plays from 7.12 to 17.30 s, and the first word starts at 17.66 s. `--gap 0.8` gives the same pause after the title as in chapters 1 and 2 (1.06 s):
+
+```
+.venv/Scripts/python books/duke/fix_audio.py audio/duke/03-holmes-and-watson-go-north.mp3 audio/duke/03-holmes-and-watson-go-north.webm --cut 7.02 17.62 --gap 0.8
+```
+
+In chapter 3, Whisper wrote "Holmes!" again and again from 3:24 to 4:00, and invented words in two other places. The words in 196–248, 340–360 and 398–416 s of `whisper.json` come from Whisper on short clips (`condition_on_previous_text=False`). After that, `retime.py` matches 97.6% of the words.
+
+The files of chapters 4–7 on this computer still have the title music. Their `whisper.json` and `words.json` fit the audio with the music. After you clean a chapter, run `transcribe.py` and `retime.py` again.
 
 ## Text
 
@@ -133,6 +141,22 @@ Add the names of each chapter before you translate it. Names in a later chapter 
 | schoolroom | aula | |
 | Holdernesse Hall | Holdernesse Hall | The Duke's house. A note can say that *Hall* is a big country house. |
 | Liverpool | Liverpool | |
+| office | despacho | Dr Huxtable's room at the school. |
+| postbag | saca del correo | British; US *mailbag*. |
+| policeman | policía | |
+| the White Horse Inn | la posada White Horse | Inn names stay in English, as *Priory*. A note can give the meaning: «caballo blanco». |
+| Ragged Shaw | Ragged Shaw | A small wood. *Shaw* is an old word for a small wood; *ragged* means «irregular, desigual». |
+| moor | páramo | Open, high land with no trees, typical of the north of England. |
+| the Lower Gill Moor | el páramo de Lower Gill | |
+| the Green Man Inn | la posada Green Man | A note can give the meaning: «el hombre verde», an old figure of English folk stories, and a common inn name. |
+| the Chesterfield road | la carretera de Chesterfield | Chesterfield is a real town in the north of England. |
+| gardener | jardinero | |
+
+### Stress
+
+The book prints some words in italics for stress. The text has no italics, so the reader cannot see it. Where the stress changes the meaning, a note can explain it.
+
+- Ch3: "*I* put the letter into the postbag" (Mr Wilder, not the Duke, did it) and "the boy and the teacher did *not* go by road".
 
 ### Spoilers
 

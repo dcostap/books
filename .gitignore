@@ -7,8 +7,8 @@ Harry_Potter_1_Jim_Dale/
 .venv/
 __pycache__/
 
-# Duke chapters 3-7: kept locally only. book.json lists chapters 1 and 2.
-books/duke/0[3-7]/
+# Duke chapters 4-7: kept locally only. book.json lists chapters 1 to 3.
+books/duke/0[4-7]/
 
 # Downloaded dictionary data (kaikki.org, from Wiktionary): kept locally only.
 sources/

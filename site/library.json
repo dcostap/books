@@ -18,6 +18,12 @@
         "title": "Dr Huxtable’s Story",
         "data": "books/duke/02.json",
         "duration": 541.3
+      },
+      {
+        "n": 3,
+        "title": "Holmes and Watson Go North",
+        "data": "books/duke/03.json",
+        "duration": 441.44
       }
     ]
   },

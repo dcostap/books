@@ -1,5 +1,5 @@
 // tools/prepare_pwa.py updates the version and asset list before deployment.
-const VERSION = "d0903d1ed45e5f59";
+const VERSION = "4bf1533fb5e5be77";
 // BEGIN PRECACHE
 const ASSETS = [
   "./",
