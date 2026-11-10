@@ -1,0 +1,36 @@
+{
+  "sentences": [
+    {
+      "id": 61,
+      "line": [
+        {"t": [0, 1, 2], "es": "Estaba sentado allí;"},
+        {"t": [3, 4, 5, 6], "es": "parecía pálido y enfermo."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "estaba sentado", "base": "sit", "sense": "seated"},
+        {"t": [2], "es": "allí", "base": "there", "sense": "place"},
+        {"t": [3], "es": "con aspecto de, pareciendo", "base": "look", "sense": "seem"},
+        {"t": [4], "es": "pálido", "base": "white", "sense": "pale"},
+        {"t": [5], "es": "y"},
+        {"t": [6], "es": "enfermo", "base": "ill", "sense": "health", "note": "*Ill* es lo habitual en inglés británico; en EE. UU. se suele decir *sick* ([[british-american]])."}
+      ]
+    },
+    {
+      "id": 62,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Holmes empezó a leer"},
+        {"t": [4, 5], "es": "la página"},
+        {"t": [6, 7, 8, 9, 10], "es": "sobre el duque de Holdernesse."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "empezó", "base": "begin", "sense": "start"},
+        {"t": [2, 3], "es": "a leer", "base": "read", "sense": "text"},
+        {"t": [4, 5], "es": "la página", "base": "page", "sense": "document"},
+        {"t": [6, 7, 8], "es": "sobre el duque", "base": "duke", "sense": "noble"},
+        {"t": [9, 10], "es": "de Holdernesse"}
+      ]
+    }
+  ]
+}

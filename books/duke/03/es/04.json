@@ -1,0 +1,22 @@
+{
+  "sentences": [
+    {
+      "id": 80,
+      "line": [
+        {"t": [0, 1, 2], "es": "El ministro del Gobierno"},
+        {"t": [3, 4, 5, 6], "es": "era un hombre alto,"},
+        {"t": [7, 8, 9, 10, 11], "es": "con una gran barba rojiza."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "el ministro", "base": "minister", "sense": "government"},
+        {"t": [1], "es": "del Gobierno", "base": "government", "sense": "authority", "note": "En *Government Minister*, el primer sustantivo describe al segundo: un ministro del Gobierno ([[noun-as-adjective]])."},
+        {"t": [3], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [4, 6], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [5], "es": "alto", "base": "tall", "sense": "height"},
+        {"t": [7, 8, 11], "es": "con una barba", "base": "beard", "sense": "facial-hair"},
+        {"t": [9], "es": "grande", "base": "great", "sense": "large", "note": "Aquí *great* indica tamaño, no que algo sea estupendo."},
+        {"t": [10], "es": "rojiza", "base": "red", "sense": "hair", "note": "Con *beard* o *hair*, *red* describe el pelo de una persona pelirroja, no un rojo vivo."}
+      ]
+    }
+  ]
+}

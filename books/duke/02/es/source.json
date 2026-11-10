@@ -104,7 +104,11 @@
   "‘Right,’ said Holmes.",
   "He looked at me.",
   "‘Watson, let’s get ready and go off to the north with Dr Huxtable.",
-  "Perhaps we can find some answers to this mystery.’"
+  "Perhaps we can find some answers to this mystery.’",
+  "‘There is ivy all up the wall of the house.’",
+  "‘We found his footprints on the ground.’",
+  "‘Did the German teacher ride away on his bicycle in the night, with the boy on his back?",
+  "I don’t think so.’"
  ],
  "jobs": [
   [
@@ -118,6 +122,10 @@
   [
    54,
    104
+  ],
+  [
+   105,
+   108
   ]
  ]
 }

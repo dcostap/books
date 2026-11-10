@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "id": 124,
+      "line": [
+        {"t": [0, 1], "es": "Las huellas"},
+        {"t": [2, 3, 4, 5, 6], "es": "de un neumático Dunlop (izquierda)"},
+        {"t": [7, 8, 9, 10, 11], "es": "y de un neumático Palmer (derecha)."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "las huellas", "base": "track", "sense": "mark"},
+        {"t": [2, 3, 5], "es": "de un neumático", "base": "tyre", "sense": "wheel", "note": "Ortografía británica; en EE. UU., *tire* ([[british-american]])."},
+        {"t": [4], "es": "Dunlop", "note": "*Dunlop* es la marca del neumático. En inglés, la marca va delante: *a Dunlop tyre* = «un neumático Dunlop» ([[noun-as-adjective]])."},
+        {"t": [6], "es": "izquierda", "base": "left", "sense": "direction", "note": "En el pie de una imagen, *(left)* y *(right)* dicen en qué lado de la imagen está cada cosa."},
+        {"t": [7], "es": "y"},
+        {"t": [8, 10], "es": "un neumático", "base": "tyre", "sense": "wheel"},
+        {"t": [9], "es": "Palmer"},
+        {"t": [11], "es": "derecha", "base": "right", "sense": "direction"}
+      ]
+    },
+    {
+      "id": 125,
+      "line": [
+        {"t": [0, 1, 2], "es": "Detrás de un arbusto,"},
+        {"t": [3, 4, 5, 6], "es": "encontramos un cadáver."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "detrás de un arbusto", "base": "bush", "sense": "plant"},
+        {"t": [3], "es": "nosotros"},
+        {"t": [4], "es": "encontramos", "base": "find", "sense": "discover"},
+        {"t": [5, 6], "es": "un cadáver", "base": "body", "sense": "dead"}
+      ]
+    },
+    {
+      "id": 126,
+      "line": [
+        {"t": [0, 1], "es": "«Heidegger sabe"},
+        {"t": [2, 3, 4, 5, 6], "es": "que necesita su bicicleta."}
+      ],
+      "words": [
+        {"t": [0], "es": "Heidegger"},
+        {"t": [1], "es": "sabe", "base": "know", "sense": "information"},
+        {"t": [2], "es": "que"},
+        {"t": [3], "es": "él"},
+        {"t": [4], "es": "necesita", "base": "need", "sense": "require"},
+        {"t": [5, 6], "es": "su bicicleta", "base": "bicycle", "sense": "vehicle"}
+      ]
+    },
+    {
+      "id": 127,
+      "line": [
+        {"t": [0], "es": "¿Por qué?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "por qué", "base": "why", "sense": "question"}
+      ]
+    }
+  ]
+}

@@ -60,7 +60,9 @@
   "When did it happen?",
   "How did it happen?",
   "And why does Dr Thorneycroft Huxtable come to ask for my help three days later?’",
-  "Our visitor drank some water, and began his story."
+  "Our visitor drank some water, and began his story.",
+  "He sat there, looking white and ill.",
+  "Holmes began to read the page about the Duke of Holdernesse."
  ],
  "jobs": [
   [
@@ -70,6 +72,10 @@
   [
    15,
    60
+  ],
+  [
+   61,
+   62
   ]
  ]
 }

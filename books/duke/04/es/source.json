@@ -123,7 +123,11 @@
   "We found the Dunlop track again and followed it north.",
   "Here there was very little mud, and we lost the track.",
   "Across the moor we could now see Holdernesse Hall, some kilometres to our left, and in front of us we could see the Chesterfield road.",
-  "We walked down to the road, and along to the Green Man Inn."
+  "We walked down to the road, and along to the Green Man Inn.",
+  "The tracks of a Dunlop tyre (left) and a Palmer tyre (right).",
+  "Behind a bush, we found a body.",
+  "‘Heidegger knows that he needs his bicycle.",
+  "Why?’"
  ],
  "jobs": [
   [
@@ -141,6 +145,10 @@
   [
    99,
    123
+  ],
+  [
+   124,
+   127
   ]
  ]
 }

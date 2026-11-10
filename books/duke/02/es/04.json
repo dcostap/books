@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "id": 105,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Hay hiedra"},
+        {"t": [3, 4, 5, 6, 7, 8, 9], "es": "por toda la pared de la casa, hasta arriba»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "hay", "base": "be", "sense": "exist", "note": "*There is* presenta algo que hay. Aquí *there* no significa «allí» ([[dummy-subject]])."},
+        {"t": [2], "es": "hiedra", "base": "ivy", "sense": "plant"},
+        {"t": [3], "es": "por completo", "base": "all", "sense": "extent"},
+        {"t": [4, 5, 6], "es": "por la pared, hacia arriba", "base": "wall", "sense": "building", "note": "*Up* indica dirección hacia arriba: la hiedra sube por la pared. *All up* añade que llega hasta arriba."},
+        {"t": [7, 8, 9], "es": "de la casa", "base": "house", "sense": "building"}
+      ]
+    },
+    {
+      "id": 106,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Encontramos sus huellas"},
+        {"t": [4, 5, 6], "es": "en el suelo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "encontramos", "base": "find", "sense": "discover"},
+        {"t": [2, 3], "es": "sus huellas", "base": "footprint", "sense": "mark", "note": "Son huellas de pies: *foot* es «pie» y *print*, una marca que algo deja."},
+        {"t": [4, 5, 6], "es": "en el suelo", "base": "ground", "sense": "surface"}
+      ]
+    },
+    {
+      "id": 107,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«¿Se marchó el profesor de alemán"},
+        {"t": [6, 7, 8], "es": "en su bicicleta"},
+        {"t": [9, 10, 11], "es": "por la noche,"},
+        {"t": [12, 13, 14], "es": "con el niño"},
+        {"t": [15, 16, 17], "es": "a la espalda?"}
+      ],
+      "words": [
+        {"t": [0, 4], "es": "montó", "base": "ride", "sense": "mount", "note": "*Did* marca la pregunta en pasado; *ride* queda en su forma base ([[auxiliary-do]])."},
+        {"t": [1, 3], "es": "el profesor", "base": "teacher", "sense": "person"},
+        {"t": [2], "es": "de alemán", "base": "German", "sense": "language", "note": "En *German teacher*, *German* indica la materia ([[noun-as-adjective]]). Los idiomas llevan mayúscula."},
+        {"t": [5], "es": "de allí, lejos", "base": "away", "sense": "distance", "note": "Con un verbo de movimiento, *away* indica que alguien se aleja. Aquí *ride away* es marcharse en un vehículo o montado."},
+        {"t": [6, 7, 8], "es": "en su bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [9, 10, 11], "es": "por la noche", "base": "night", "sense": "time"},
+        {"t": [12, 13, 14], "es": "con el niño", "base": "boy", "sense": "child"},
+        {"t": [15, 16, 17], "es": "sobre su espalda", "base": "back", "sense": "body", "note": "El inglés usa posesivo con las partes del cuerpo: *his back* ([[body-possessive]])."}
+      ]
+    },
+    {
+      "id": 108,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "No lo creo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no creo", "base": "think", "sense": "believe", "note": "*Don’t* es *do not* ([[contractions]]). *Do* ayuda a formar la negación, no significa «hacer» aquí ([[auxiliary-do]])."},
+        {"t": [3], "es": "eso, así", "base": "so", "sense": "reference", "note": "Aquí *so* sustituye la idea anterior: *I don’t think so* = «no lo creo»."}
+      ]
+    }
+  ]
+}
