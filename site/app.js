@@ -540,7 +540,7 @@ function showReader(book, chapter, target) {
     parent.append(sentenceEl);
   }
 
-  // A picture: its image is a mask in the colour of the text (style.css), so it fits every theme.
+  // CSS sets the ink and paper colours for each theme, in both the chapter and the viewer.
   function figureEl(block, captions) {
     const figure = document.createElement("figure");
     figure.className = "pic";
@@ -558,7 +558,7 @@ function showReader(book, chapter, target) {
     return figure;
   }
 
-  const setMask = (el, src) => (el.style.webkitMaskImage = el.style.maskImage = `url("${src}")`);
+  const setMask = (el, src) => el.style.setProperty("--picture", `url("${src}")`);
 
   // Translation between the lines (the gloss setting). Each chunk of the reading line becomes a column, the English
   // over the Spanish, and each sentence starts a line (style.css). Without a reading line (hp1 chapter 1), the popup

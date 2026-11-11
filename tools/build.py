@@ -131,7 +131,7 @@ def picture(book_dir, book_id, name, column):
 
     The picture is books/<id>/pictures/<name>.png: black ink on a transparent background. Until it exists, the build
     uses the crop from the book scan, pictures/raw/<name>.png, and makes its paper transparent. The app uses the
-    picture as a mask and draws it in the colour of the text, so it fits every theme.
+    picture as a mask. CSS sets the ink and paper colours for each theme.
     The width, in em of the reading text, is the size the picture had on the page next to the text: column is the
     width of the book's text column in the raw crops (book.json "pictureColumn"). The app's column is 30 em; the
     pictures are about 73% of their size on the page.

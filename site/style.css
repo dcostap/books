@@ -21,6 +21,9 @@
   --serif: "Literata", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --reading-font: var(--serif);
+  --picture-paper: transparent;
+  --picture-ink: var(--fg);
+  --picture-inset: 0px;
 }
 [data-font="sans"] { --reading-font: var(--sans); }
 
@@ -67,6 +70,12 @@
   --accent: #d99a4e; --accent-fg: #000000; --sentence: #1d1912; --word: #5c4419;
   --saved: #5fbf86;
   --bad: #e0786a; --good: #5fbf86;
+}
+
+[data-theme="night"], [data-theme="slate"], [data-theme="black"] {
+  --picture-paper: #b3a58e;
+  --picture-ink: #29251f;
+  --picture-inset: 0.5rem;
 }
 
 * { box-sizing: border-box; }
@@ -263,8 +272,8 @@ dialog form { text-align: right; }
 .text hr { margin: 1.5em 0; border: 0; color: var(--muted); text-align: center; }
 .text hr::after { content: "* * *"; }
 .text { position: relative; }
-/* A picture: a mask in the colour of the text (app.js sets the image). --w is its size on the page of the book;
-   it is never wider than the column or taller than about half the screen. */
+/* Pictures keep dark ink on muted paper in dark themes. app.js sets the mask image.
+   --w sets the reading size; the column width and 40% of the screen height limit it. */
 .pic { margin: 1.75em 0; text-align: center; }
 .pic-open {
   display: block;
@@ -278,7 +287,16 @@ dialog form { text-align: right; }
 }
 .pic-ink, .viewer-ink {
   display: block;
-  background: var(--fg);
+  position: relative;
+  background: var(--picture-paper);
+  border-radius: 3px;
+}
+.pic-ink::before, .viewer-ink::before {
+  content: "";
+  position: absolute;
+  inset: var(--picture-inset);
+  background: var(--picture-ink);
+  -webkit-mask-image: var(--picture); mask-image: var(--picture);
   -webkit-mask-size: contain; mask-size: contain;
   -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
   -webkit-mask-position: center; mask-position: center;
