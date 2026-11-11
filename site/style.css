@@ -268,7 +268,7 @@ dialog form { text-align: right; }
 .pic { margin: 1.75em 0; text-align: center; }
 .pic-open {
   display: block;
-  width: min(100%, var(--w), calc(45vh * var(--ratio)));
+  width: min(100%, var(--w), calc(40vh * var(--ratio)));
   margin: 0 auto;
   padding: 0;
   border: 0;

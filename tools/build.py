@@ -134,7 +134,7 @@ def picture(book_dir, book_id, name, column):
     picture as a mask and draws it in the colour of the text, so it fits every theme.
     The width, in em of the reading text, is the size the picture had on the page next to the text: column is the
     width of the book's text column in the raw crops (book.json "pictureColumn"). The app's column is 30 em; the
-    pictures are 80% of their size on the page.
+    pictures are about 73% of their size on the page.
     """
     raw, final = book_dir / "pictures" / "raw" / f"{name}.png", book_dir / "pictures" / f"{name}.png"
     source = final if final.exists() else raw
@@ -154,7 +154,7 @@ def picture(book_dir, book_id, name, column):
         zero = Image.new("L", ink.size, 0)
         Image.merge("RGBA", (zero, zero, zero, ink)).save(out, quality=80, alpha_quality=70, method=6)
     with Image.open(raw) as scan, Image.open(out) as made:
-        return {"src": f"books/{book_id}/pictures/{name}.webp", "width": round(scan.width / column * 24, 1),
+        return {"src": f"books/{book_id}/pictures/{name}.webp", "width": round(scan.width / column * 22, 1),
                 "ratio": round(made.width / made.height, 4)}
 
 
