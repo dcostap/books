@@ -263,6 +263,12 @@
     "examples": [["I'm going to call her.", "Voy a llamarla."], ["Are you going to stay?", "¿Vas a quedarte?"], ["It's going to rain.", "Va a llover."]],
     "wrong": [["I going to call her.", "I'm going to call her."], ["Is he going to leaves?", "Is he going to leave?"]]
   },
+  "generic-you": {
+    "name": "*you* de sentido general",
+    "en": "generic you",
+    "text": "*You* puede hablar de cualquiera, no solo de la persona que escucha. Sigue llevando el verbo en segunda persona. En español puede equivaler a «uno», a «se» o a un «tú» general.",
+    "examples": [["You never know.", "Nunca se sabe."], ["You can't please everyone.", "Uno no puede agradar a todo el mundo."], ["You need a ticket to enter.", "Se necesita una entrada para pasar."]]
+  },
   "compound-adjectives": {
     "name": "adjetivos compuestos",
     "en": "compound adjectives",

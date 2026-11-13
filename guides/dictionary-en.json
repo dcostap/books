@@ -903,6 +903,70 @@
       }
     ]
   },
+  "bottom": {
+    "senses": [
+      {
+        "id": "lower-part",
+        "es": "parte inferior",
+        "ex": [
+          "Clean the bottom of the door.",
+          "Limpia la parte inferior de la puerta."
+        ]
+      },
+      {
+        "id": "depth",
+        "es": "fondo",
+        "ex": [
+          "The keys sank to the bottom.",
+          "Las llaves se hundieron hasta el fondo."
+        ]
+      },
+      {
+        "id": "body",
+        "es": "culo",
+        "ex": [
+          "He fell on his bottom.",
+          "Se cayó de culo."
+        ]
+      }
+    ]
+  },
+  "box": {
+    "senses": [
+      {
+        "id": "container",
+        "es": "caja",
+        "ex": [
+          "a box of chocolates",
+          "una caja de bombones"
+        ]
+      },
+      {
+        "id": "square",
+        "es": "casilla",
+        "ex": [
+          "Tick the correct box.",
+          "Marca la casilla correcta."
+        ]
+      },
+      {
+        "id": "theatre",
+        "es": "palco",
+        "ex": [
+          "a box at the theatre",
+          "un palco en el teatro"
+        ]
+      },
+      {
+        "id": "fight",
+        "es": "boxear",
+        "ex": [
+          "He boxes every Saturday.",
+          "Boxea todos los sábados."
+        ]
+      }
+    ]
+  },
   "boy": {
     "senses": [
       {
@@ -1258,6 +1322,42 @@
       }
     ]
   },
+  "change": {
+    "senses": [
+      {
+        "id": "alter",
+        "es": "cambiar",
+        "ex": [
+          "Can we change the plan?",
+          "¿Podemos cambiar el plan?"
+        ]
+      },
+      {
+        "id": "difference",
+        "es": "cambio",
+        "ex": [
+          "a change in the weather",
+          "un cambio en el tiempo"
+        ]
+      },
+      {
+        "id": "money",
+        "es": "cambio, suelto",
+        "ex": [
+          "Keep the change.",
+          "Quédese con el cambio."
+        ]
+      },
+      {
+        "id": "clothes",
+        "es": "cambiarse",
+        "ex": [
+          "I need to change first.",
+          "Primero tengo que cambiarme."
+        ]
+      }
+    ]
+  },
   "chapter": {
     "senses": [
       {
@@ -1357,6 +1457,18 @@
         "ex": [
           "the close of the evening",
           "el final de la velada"
+        ]
+      }
+    ]
+  },
+  "cloven": {
+    "senses": [
+      {
+        "id": "split",
+        "es": "hendido",
+        "ex": [
+          "a cloven hoof",
+          "una pezuña hendida"
         ]
       }
     ]
@@ -1577,6 +1689,38 @@
       }
     ]
   },
+  "come off": {
+    "forms": {
+      "past": "came off",
+      "participle": "come off"
+    },
+    "senses": [
+      {
+        "id": "detach",
+        "es": "desprenderse",
+        "ex": [
+          "The handle came off.",
+          "El asa se desprendió."
+        ]
+      },
+      {
+        "id": "succeed",
+        "es": "salir bien",
+        "ex": [
+          "The trick came off perfectly.",
+          "El truco salió perfectamente bien."
+        ]
+      },
+      {
+        "id": "seem",
+        "es": "parecer",
+        "ex": [
+          "He came off as rude.",
+          "Pareció maleducado."
+        ]
+      }
+    ]
+  },
   "come on": {
     "forms": {
       "past": "came on",
@@ -1721,6 +1865,34 @@
         "ex": [
           "She cried out in pain.",
           "Ella gritó de dolor."
+        ]
+      }
+    ]
+  },
+  "cycle": {
+    "senses": [
+      {
+        "id": "ride",
+        "es": "ir en bicicleta",
+        "ex": [
+          "We cycle to work.",
+          "Vamos al trabajo en bicicleta."
+        ]
+      },
+      {
+        "id": "sequence",
+        "es": "ciclo",
+        "ex": [
+          "the cycle of the seasons",
+          "el ciclo de las estaciones"
+        ]
+      },
+      {
+        "id": "bicycle",
+        "es": "bicicleta",
+        "ex": [
+          "a shop selling cycles",
+          "una tienda que vende bicicletas"
         ]
       }
     ]
@@ -1937,6 +2109,42 @@
         "ex": [
           "He's a difficult customer.",
           "Es un cliente difícil de tratar."
+        ]
+      }
+    ]
+  },
+  "dirty": {
+    "senses": [
+      {
+        "id": "unclean",
+        "es": "sucio",
+        "ex": [
+          "Your hands are dirty.",
+          "Tienes las manos sucias."
+        ]
+      },
+      {
+        "id": "obscene",
+        "es": "verde",
+        "ex": [
+          "Don't tell dirty jokes.",
+          "No cuentes chistes verdes."
+        ]
+      },
+      {
+        "id": "unfair",
+        "es": "sucio, desleal",
+        "ex": [
+          "That was a dirty trick.",
+          "Eso fue una jugada sucia."
+        ]
+      },
+      {
+        "id": "soil",
+        "es": "ensuciar",
+        "ex": [
+          "Don't dirty your new shoes.",
+          "No ensucies tus zapatos nuevos."
         ]
       }
     ]
@@ -2653,6 +2861,18 @@
       }
     ]
   },
+  "finger": {
+    "senses": [
+      {
+        "id": "hand",
+        "es": "dedo",
+        "ex": [
+          "She raised one finger.",
+          "Levantó un dedo."
+        ]
+      }
+    ]
+  },
   "first": {
     "senses": [
       {
@@ -2932,6 +3152,26 @@
       }
     ]
   },
+  "garden": {
+    "senses": [
+      {
+        "id": "plants",
+        "es": "jardín",
+        "ex": [
+          "a garden full of flowers",
+          "un jardín lleno de flores"
+        ]
+      },
+      {
+        "id": "cultivate",
+        "es": "cuidar el jardín",
+        "ex": [
+          "She likes to garden.",
+          "Le gusta cuidar el jardín."
+        ]
+      }
+    ]
+  },
   "gardener": {
     "senses": [
       {
@@ -3188,6 +3428,34 @@
         "ex": [
           "The child gave a loud cry.",
           "El niño lanzó un fuerte grito."
+        ]
+      }
+    ]
+  },
+  "glass": {
+    "senses": [
+      {
+        "id": "material",
+        "es": "cristal",
+        "ex": [
+          "a table made of glass",
+          "una mesa de cristal"
+        ]
+      },
+      {
+        "id": "drink",
+        "es": "vaso, copa",
+        "ex": [
+          "a glass of cold water",
+          "un vaso de agua fría"
+        ]
+      },
+      {
+        "id": "eyewear",
+        "es": "gafas",
+        "ex": [
+          "I wear glasses.",
+          "Llevo gafas."
         ]
       }
     ]
@@ -3779,6 +4047,26 @@
       }
     ]
   },
+  "hate": {
+    "senses": [
+      {
+        "id": "dislike",
+        "es": "odiar",
+        "ex": [
+          "I hate getting up early.",
+          "Odio madrugar."
+        ]
+      },
+      {
+        "id": "feeling",
+        "es": "odio",
+        "ex": [
+          "a look full of hate",
+          "una mirada llena de odio"
+        ]
+      }
+    ]
+  },
   "have": {
     "forms": {
       "past": "had",
@@ -4083,6 +4371,18 @@
       }
     ]
   },
+  "horseshoe": {
+    "senses": [
+      {
+        "id": "shoe",
+        "es": "herradura",
+        "ex": [
+          "The horse lost a horseshoe.",
+          "El caballo perdió una herradura."
+        ]
+      }
+    ]
+  },
   "hot": {
     "senses": [
       {
@@ -4323,6 +4623,18 @@
       }
     ]
   },
+  "in love": {
+    "senses": [
+      {
+        "id": "romantic",
+        "es": "enamorado",
+        "ex": [
+          "They are deeply in love.",
+          "Están muy enamorados."
+        ]
+      }
+    ]
+  },
   "inn": {
     "senses": [
       {
@@ -4395,6 +4707,18 @@
       }
     ]
   },
+  "kidnap": {
+    "senses": [
+      {
+        "id": "abduct",
+        "es": "secuestrar",
+        "ex": [
+          "They tried to kidnap him.",
+          "Intentaron secuestrarlo."
+        ]
+      }
+    ]
+  },
   "kidnapper": {
     "senses": [
       {
@@ -4415,6 +4739,34 @@
         "ex": [
           "The police investigated the kidnapping.",
           "La policía investigó el secuestro."
+        ]
+      }
+    ]
+  },
+  "kill": {
+    "senses": [
+      {
+        "id": "death",
+        "es": "matar",
+        "ex": [
+          "The cold killed the plants.",
+          "El frío mató las plantas."
+        ]
+      },
+      {
+        "id": "stop",
+        "es": "apagar",
+        "ex": [
+          "Kill the engine now.",
+          "Apaga el motor ahora."
+        ]
+      },
+      {
+        "id": "pain",
+        "es": "doler",
+        "ex": [
+          "My feet are killing me.",
+          "Me duelen muchísimo los pies."
         ]
       }
     ]
@@ -5082,6 +5434,26 @@
       }
     ]
   },
+  "look like": {
+    "senses": [
+      {
+        "id": "resemble",
+        "es": "parecerse a",
+        "ex": [
+          "You look like your brother.",
+          "Te pareces a tu hermano."
+        ]
+      },
+      {
+        "id": "seem",
+        "es": "parecer",
+        "ex": [
+          "It looks like rain.",
+          "Parece que va a llover."
+        ]
+      }
+    ]
+  },
   "look round": {
     "senses": [
       {
@@ -5226,6 +5598,45 @@
         "ex": [
           "Their love lasted many years.",
           "Su amor duró muchos años."
+        ]
+      }
+    ]
+  },
+  "love of one's life": {
+    "senses": [
+      {
+        "id": "partner",
+        "es": "gran amor",
+        "ex": [
+          "He's the love of her life.",
+          "Es el gran amor de su vida."
+        ]
+      }
+    ]
+  },
+  "love-child": {
+    "forms": {
+      "plural": "love-children"
+    },
+    "senses": [
+      {
+        "id": "unmarried-parents",
+        "es": "hijo extramatrimonial",
+        "ex": [
+          "They had a love-child together.",
+          "Tuvieron un hijo sin estar casados."
+        ]
+      }
+    ]
+  },
+  "lovingly": {
+    "senses": [
+      {
+        "id": "affection",
+        "es": "con cariño",
+        "ex": [
+          "She held the baby lovingly.",
+          "Sostenía al bebé con cariño."
         ]
       }
     ]
@@ -6405,6 +6816,34 @@
       }
     ]
   },
+  "number": {
+    "senses": [
+      {
+        "id": "figure",
+        "es": "número",
+        "ex": [
+          "What's your phone number?",
+          "¿Cuál es tu número de teléfono?"
+        ]
+      },
+      {
+        "id": "quantity",
+        "es": "cantidad",
+        "ex": [
+          "a large number of people",
+          "una gran cantidad de gente"
+        ]
+      },
+      {
+        "id": "label",
+        "es": "numerar",
+        "ex": [
+          "Number all the pages.",
+          "Numera todas las páginas."
+        ]
+      }
+    ]
+  },
   "o'clock": {
     "senses": [
       {
@@ -6637,6 +7076,26 @@
         "ex": [
           "Call once you get home.",
           "Llama en cuanto llegues a casa."
+        ]
+      }
+    ]
+  },
+  "one day": {
+    "senses": [
+      {
+        "id": "future",
+        "es": "algún día",
+        "ex": [
+          "One day I'll visit Japan.",
+          "Algún día visitaré Japón."
+        ]
+      },
+      {
+        "id": "past",
+        "es": "un día",
+        "ex": [
+          "One day we found a dog.",
+          "Un día encontramos un perro."
         ]
       }
     ]
@@ -7151,6 +7610,78 @@
       }
     ]
   },
+  "put back": {
+    "forms": {
+      "past": "put back",
+      "participle": "put back"
+    },
+    "senses": [
+      {
+        "id": "replace",
+        "es": "volver a poner",
+        "ex": [
+          "Put the books back, please.",
+          "Vuelve a poner los libros donde estaban."
+        ]
+      },
+      {
+        "id": "postpone",
+        "es": "retrasar",
+        "ex": [
+          "They put back the meeting.",
+          "Retrasaron la reunión."
+        ]
+      },
+      {
+        "id": "clock",
+        "es": "atrasar",
+        "ex": [
+          "Put your watch back an hour.",
+          "Atrasa el reloj una hora."
+        ]
+      }
+    ]
+  },
+  "put in": {
+    "forms": {
+      "past": "put in",
+      "participle": "put in"
+    },
+    "senses": [
+      {
+        "id": "insert",
+        "es": "meter",
+        "ex": [
+          "Put in another coin.",
+          "Mete otra moneda."
+        ]
+      },
+      {
+        "id": "contribute",
+        "es": "dedicar",
+        "ex": [
+          "She put in many hours.",
+          "Dedicó muchas horas."
+        ]
+      },
+      {
+        "id": "submit",
+        "es": "presentar",
+        "ex": [
+          "I put in an application.",
+          "Presenté una solicitud."
+        ]
+      },
+      {
+        "id": "install",
+        "es": "instalar",
+        "ex": [
+          "They put in new windows.",
+          "Instalaron ventanas nuevas."
+        ]
+      }
+    ]
+  },
   "question": {
     "senses": [
       {
@@ -7622,14 +8153,6 @@
         ]
       },
       {
-        "id": "flow",
-        "es": "correr",
-        "ex": [
-          "Water ran down the stairs.",
-          "El agua corría escaleras abajo."
-        ]
-      },
-      {
         "id": "transport",
         "es": "circular",
         "ex": [
@@ -7643,6 +8166,14 @@
         "ex": [
           "a short run before breakfast",
           "una carrera corta antes de desayunar"
+        ]
+      },
+      {
+        "id": "slide",
+        "es": "pasar",
+        "ex": [
+          "Run your finger along the edge.",
+          "Pasa el dedo por el borde."
         ]
       }
     ]
@@ -9790,6 +10321,18 @@
       }
     ]
   },
+  "usually": {
+    "senses": [
+      {
+        "id": "normally",
+        "es": "normalmente",
+        "ex": [
+          "We usually eat at home.",
+          "Normalmente comemos en casa."
+        ]
+      }
+    ]
+  },
   "very": {
     "senses": [
       {
@@ -10303,6 +10846,14 @@
           "Why are you laughing?",
           "¿Por qué te ríes?"
         ]
+      },
+      {
+        "id": "reason",
+        "es": "por lo que",
+        "ex": [
+          "That's why I came.",
+          "Por eso vine."
+        ]
       }
     ]
   },
@@ -10451,6 +11002,18 @@
         "ex": [
           "The workmen repaired the wall.",
           "Los obreros repararon el muro."
+        ]
+      }
+    ]
+  },
+  "world": {
+    "senses": [
+      {
+        "id": "world",
+        "es": "mundo",
+        "ex": [
+          "People live all over the world.",
+          "La gente vive por todo el mundo."
         ]
       }
     ]

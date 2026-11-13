@@ -1,0 +1,1606 @@
+{
+  "sentences": [
+    {
+      "id": 0,
+      "line": [
+        {"t": [0, 1], "es": "Capítulo siete:"},
+        {"t": [2, 3, 4], "es": "El hijo del duque"}
+      ],
+      "words": [
+        {"t": [0], "es": "capítulo", "base": "chapter", "sense": "book"},
+        {"t": [1], "es": "siete"},
+        {"t": [2, 3], "es": "del duque", "base": "duke", "sense": "noble", "note": "El genitivo *Duke’s* indica de quién es el hijo. El dueño va delante ([[possessive-s]])."},
+        {"t": [4], "es": "hijo", "base": "son", "sense": "family"}
+      ]
+    },
+    {
+      "id": 1,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Cuando el duque dijo esto,"},
+        {"t": [5, 6, 7, 8], "es": "me sorprendió mucho,"},
+        {"t": [9, 10, 11, 12, 13], "es": "pero Holmes también se sorprendió."}
+      ],
+      "words": [
+        {"t": [0], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [1, 2], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [3], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [4], "es": "esto"},
+        {"t": [5], "es": "yo"},
+        {"t": [6, 8], "es": "estaba sorprendido", "base": "surprised", "sense": "feeling"},
+        {"t": [7], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [9], "es": "pero"},
+        {"t": [10], "es": "Holmes"},
+        {"t": [11, 12], "es": "estaba sorprendido", "base": "surprised", "sense": "feeling"},
+        {"t": [13], "es": "también", "base": "too", "sense": "also"}
+      ]
+    },
+    {
+      "id": 2,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Esto es nuevo para mí»,"},
+        {"t": [5, 6], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0], "es": "esto"},
+        {"t": [1], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [2], "es": "noticias, información nueva", "base": "news", "sense": "information", "note": "Aunque termina en *-s*, *news* es incontable y lleva verbo en singular ([[uncountable]]). *This is news to me* indica sorpresa: «no lo sabía»."},
+        {"t": [3, 4], "es": "para mí"},
+        {"t": [5], "es": "él"},
+        {"t": [6], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 3,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«¿Puede contarme más?»."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "puede contar", "base": "tell", "sense": "narrate", "note": "En preguntas, el modal *can* va delante del sujeto: *Can you tell…?* ([[modal-verbs]])."},
+        {"t": [1], "es": "usted"},
+        {"t": [3], "es": "me, a mí"},
+        {"t": [4], "es": "más", "base": "more", "sense": "quantity"}
+      ]
+    },
+    {
+      "id": 4,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "El duque se levantó"},
+        {"t": [4, 5, 6, 7, 8], "es": "y paseó por la habitación"},
+        {"t": [9, 10, 11], "es": "durante un minuto."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [2, 3], "es": "se levantó", "base": "stand up", "sense": "rise", "note": "*Stand up* es ponerse de pie, no solo estar de pie ([[phrasal-verbs]])."},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "anduvo, paseó", "base": "walk", "sense": "move"},
+        {"t": [6, 7, 8], "es": "por la habitación", "base": "room", "sense": "building", "note": "Aquí *round* indica movimiento por la habitación. En EE. UU. es más habitual *around* ([[british-american]])."},
+        {"t": [9, 10, 11], "es": "durante un minuto", "base": "minute", "sense": "time", "note": "Con una duración, *for* indica cuánto tiempo dura algo; no significa «para» ([[for-duration]])."}
+      ]
+    },
+    {
+      "id": 5,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Tengo que contárselo todo»,"},
+        {"t": [5, 6], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "tengo que contar", "base": "tell", "sense": "narrate", "note": "El modal *must* expresa obligación y va seguido del verbo sin *to* ([[modal-verbs]])."},
+        {"t": [3], "es": "le, a usted"},
+        {"t": [4], "es": "todo"},
+        {"t": [5], "es": "él"},
+        {"t": [6], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 6,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«No quería hablar de ello,"},
+        {"t": [7, 8, 9], "es": "pero tengo que hacerlo."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no quería", "base": "want", "sense": "desire", "note": "*Didn’t* es *did not*: marca la negación en pasado; *want* queda en forma base ([[contractions]], [[auxiliary-do]])."},
+        {"t": [3, 4, 5], "es": "hablar de", "base": "talk about", "sense": "discuss", "note": "*Talk about* introduce el tema del que se habla. Tras *want*, el segundo verbo lleva *to* ([[verb-infinitive]])."},
+        {"t": [6], "es": "ello"},
+        {"t": [7], "es": "pero"},
+        {"t": [8], "es": "yo"},
+        {"t": [9], "es": "tengo que hacerlo", "base": "must", "sense": "obligation", "note": "El modal *must* aparece solo porque se omite el verbo ya mencionado: *talk about it* ([[modal-verbs]])."}
+      ]
+    },
+    {
+      "id": 7,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Ahora lo entiendo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "entiendo", "base": "see", "sense": "understand", "note": "Aquí *see* no es ver con los ojos, sino entender una situación."},
+        {"t": [2], "es": "eso"},
+        {"t": [3], "es": "ahora", "base": "now", "sense": "present"}
+      ]
+    },
+    {
+      "id": 8,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Volvió a sentarse"},
+        {"t": [4, 5, 6, 7], "es": "y empezó su relato."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "se sentó", "base": "sit down", "sense": "seat", "note": "*Sit down* indica la acción de sentarse ([[phrasal-verbs]])."},
+        {"t": [3], "es": "otra vez", "base": "again", "sense": "repeat"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "empezó", "base": "begin", "sense": "start"},
+        {"t": [6, 7], "es": "su relato", "base": "story", "sense": "account"}
+      ]
+    },
+    {
+      "id": 9,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Cuando era joven,"},
+        {"t": [6, 7], "es": "señor Holmes,"},
+        {"t": [8, 9, 10, 11], "es": "estaba enamorado…"},
+        {"t": [13, 14, 15, 16, 17], "es": "¡Ay, tan enamorado!"}
+      ],
+      "words": [
+        {"t": [0], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [1], "es": "yo"},
+        {"t": [2], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [3, 5], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [4], "es": "joven", "base": "young", "sense": "age"},
+        {"t": [6, 7], "es": "señor Holmes", "note": "*Mr* es «señor» ante un nombre. En inglés británico no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [8], "es": "yo"},
+        {"t": [9, 10, 11], "es": "estaba enamorado", "base": "in love", "sense": "romantic", "note": "*Be in love* es estar enamorado. Para decir de quién, se añade *with*."},
+        {"t": [13], "es": "ay", "base": "oh", "sense": "dismay"},
+        {"t": [14], "es": "tan", "base": "so", "sense": "degree"},
+        {"t": [15], "es": "mucho", "base": "much", "sense": "degree"},
+        {"t": [16, 17], "es": "enamorado", "base": "in love", "sense": "romantic"}
+      ]
+    },
+    {
+      "id": 10,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Eso solo le pasa a uno una vez,"},
+        {"t": [6, 7, 8, 9], "es": "y esa mujer fue"},
+        {"t": [10, 11, 12, 13, 14], "es": "el amor de mi vida."}
+      ],
+      "words": [
+        {"t": [0], "es": "eso"},
+        {"t": [1], "es": "solo", "base": "only", "sense": "just"},
+        {"t": [2], "es": "pasa", "base": "happen", "sense": "occur"},
+        {"t": [3, 4], "es": "a usted", "note": "*You* está en segunda persona, pero aquí habla de cualquiera: equivale al uso general de «uno» ([[generic-you]])."},
+        {"t": [5], "es": "una vez", "base": "once", "sense": "one-time", "note": "No lo confundas con el número «once», que en inglés es *eleven* ([[false-friends]])."},
+        {"t": [6], "es": "y"},
+        {"t": [7, 8], "es": "esta mujer", "base": "woman", "sense": "person"},
+        {"t": [9], "es": "fue", "base": "be", "sense": "identity"},
+        {"t": [10, 11, 12, 13, 14], "es": "el amor de mi vida", "base": "love of one's life", "sense": "partner"}
+      ]
+    },
+    {
+      "id": 11,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Quería que fuera mi esposa…"},
+        {"t": [8, 9, 10], "es": "pero murió."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "quería", "base": "want", "sense": "desire", "note": "*Want her to be* significa «querer que ella sea». La persona va antes del infinitivo ([[object-infinitive]])."},
+        {"t": [2], "es": "ella"},
+        {"t": [3, 4], "es": "ser", "base": "be", "sense": "identity"},
+        {"t": [5, 6], "es": "mi esposa", "base": "wife", "sense": "spouse"},
+        {"t": [8], "es": "pero"},
+        {"t": [9], "es": "ella"},
+        {"t": [10], "es": "murió", "base": "die", "sense": "death"}
+      ]
+    },
+    {
+      "id": 12,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Me dejó este único hijo,"},
+        {"t": [6, 7, 8, 9], "es": "y yo lo quería"},
+        {"t": [10, 11, 12], "es": "por ella."}
+      ],
+      "words": [
+        {"t": [0], "es": "ella"},
+        {"t": [1], "es": "dejó", "base": "leave", "sense": "remain"},
+        {"t": [2], "es": "me, a mí"},
+        {"t": [3, 5], "es": "este hijo", "base": "child", "sense": "offspring"},
+        {"t": [4], "es": "uno solo"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "yo"},
+        {"t": [8], "es": "quería", "base": "love", "sense": "affection"},
+        {"t": [9], "es": "lo, a él"},
+        {"t": [10, 11], "es": "por, a causa de", "base": "because of", "sense": "cause", "note": "*Because of* va con un nombre o pronombre; *because* solo introduce una frase con verbo."},
+        {"t": [12], "es": "ella"}
+      ]
+    },
+    {
+      "id": 13,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Cuando lo miro a la cara,"},
+        {"t": [6, 7, 8], "es": "la veo a ella,"},
+        {"t": [9, 10, 11], "es": "la recuerdo"},
+        {"t": [12, 13, 14, 15, 16], "es": "y no puedo dejar de quererla."}
+      ],
+      "words": [
+        {"t": [0], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [1], "es": "yo"},
+        {"t": [2], "es": "miro", "base": "look", "sense": "see"},
+        {"t": [3, 4, 5], "es": "a su cara", "base": "face", "sense": "front", "note": "Con partes del cuerpo, el inglés suele usar posesivo: *his face*, «su cara» ([[body-possessive]])."},
+        {"t": [6], "es": "yo"},
+        {"t": [7], "es": "veo", "base": "see", "sense": "sight"},
+        {"t": [8], "es": "la, a ella"},
+        {"t": [9], "es": "y"},
+        {"t": [10], "es": "recuerdo", "base": "remember", "sense": "recall"},
+        {"t": [11], "es": "la, a ella"},
+        {"t": [12], "es": "y"},
+        {"t": [13, 14], "es": "no puedo dejar de", "base": "stop", "sense": "cease", "note": "*Can’t* es *cannot* ([[contractions]]). Con *stop*, el verbo en *-ing* nombra la actividad que se deja de hacer ([[ing-nouns]])."},
+        {"t": [15], "es": "querer", "base": "love", "sense": "affection", "note": "Después de *stop*, *loving* nombra la actividad que se deja de hacer; no significa «queriendo» ([[ing-nouns]])."},
+        {"t": [16], "es": "la, a ella"}
+      ]
+    },
+    {
+      "id": 14,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Por eso necesito tener al chico cerca de mí."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "tengo que tener", "base": "have", "sense": "possess"},
+        {"t": [3, 4], "es": "el chico", "base": "boy", "sense": "young-man"},
+        {"t": [5, 6], "es": "cerca de mí", "base": "near", "sense": "close"},
+        {"t": [7, 8], "es": "por, a causa de", "base": "because of", "sense": "cause"},
+        {"t": [9], "es": "esto"}
+      ]
+    },
+    {
+      "id": 15,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Pero un ministro del Gobierno"},
+        {"t": [4, 5, 6, 7], "es": "no puede contarle al mundo"},
+        {"t": [8, 9, 10, 11, 12], "es": "que tiene un hijo así, nacido fuera del matrimonio."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1, 3], "es": "un ministro", "base": "minister", "sense": "government"},
+        {"t": [2], "es": "gobierno", "base": "government", "sense": "authority", "note": "En *government minister*, el primer nombre precisa el segundo: un ministro del Gobierno ([[noun-as-adjective]])."},
+        {"t": [4, 5, 8], "es": "no puede informar de", "base": "tell", "sense": "inform", "note": "*Tell someone about* es contarle algo a alguien. *About* introduce el tema."},
+        {"t": [6, 7], "es": "el mundo", "base": "world", "sense": "world"},
+        {"t": [9, 10], "es": "un hijo extramatrimonial", "base": "love-child", "sense": "unmarried-parents", "note": "*Love-child* es una expresión anticuada para un hijo nacido de padres que no están casados entre sí."},
+        {"t": [11, 12], "es": "como este", "base": "like", "sense": "similar"}
+      ]
+    },
+    {
+      "id": 16,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Así que, para el mundo,"},
+        {"t": [4, 5, 6, 7, 8], "es": "James es mi joven secretario,"},
+        {"t": [9, 10, 11], "es": "no mi hijo."}
+      ],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1, 2, 3], "es": "para el mundo", "base": "world", "sense": "world"},
+        {"t": [4], "es": "James"},
+        {"t": [5], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [6, 8], "es": "mi secretario", "base": "secretary", "sense": "assistant"},
+        {"t": [7], "es": "joven", "base": "young", "sense": "age"},
+        {"t": [9], "es": "no", "base": "not", "sense": "negative"},
+        {"t": [10, 11], "es": "mi hijo", "base": "son", "sense": "family"}
+      ]
+    },
+    {
+      "id": 17,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Sabe que"},
+        {"t": [3, 4, 5, 6], "es": "soy su padre."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "sabe", "base": "know", "sense": "information"},
+        {"t": [2], "es": "que"},
+        {"t": [3], "es": "yo"},
+        {"t": [4], "es": "soy", "base": "be", "sense": "identity"},
+        {"t": [5, 6], "es": "su padre", "base": "father", "sense": "parent"}
+      ]
+    },
+    {
+      "id": 18,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Odia a la duquesa"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "porque no es su madre."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "odia", "base": "hate", "sense": "dislike"},
+        {"t": [2, 3], "es": "la duquesa", "base": "duchess", "sense": "title"},
+        {"t": [4], "es": "porque"},
+        {"t": [5], "es": "ella"},
+        {"t": [6, 7], "es": "no es", "base": "be", "sense": "identity"},
+        {"t": [8, 9], "es": "su madre", "base": "mother", "sense": "parent"}
+      ]
+    },
+    {
+      "id": 19,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Y odia a mi hijo menor, Arthur,"},
+        {"t": [7, 8, 9, 10], "es": "porque Arthur lo tiene todo."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "odia", "base": "hate", "sense": "dislike"},
+        {"t": [3, 5], "es": "mi hijo", "base": "son", "sense": "family"},
+        {"t": [4], "es": "más joven, menor", "base": "young", "sense": "age", "note": "El comparativo *younger* indica menos edad. La terminación *-er* aporta la comparación ([[comparatives]])."},
+        {"t": [6], "es": "Arthur"},
+        {"t": [7], "es": "porque"},
+        {"t": [8], "es": "Arthur"},
+        {"t": [9], "es": "tiene", "base": "have", "sense": "possess"},
+        {"t": [10], "es": "todo"}
+      ]
+    },
+    {
+      "id": 20,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Arthur tiene un apellido,"},
+        {"t": [4, 5, 6], "es": "un padre famoso,"},
+        {"t": [7, 8, 9], "es": "casas, dinero, todo."}
+      ],
+      "words": [
+        {"t": [0], "es": "Arthur"},
+        {"t": [1], "es": "tiene", "base": "have", "sense": "possess"},
+        {"t": [2, 3], "es": "un nombre", "base": "name", "sense": "identity", "note": "Aquí *name* alude al nombre de familia reconocido, no solo al nombre de pila."},
+        {"t": [4, 6], "es": "un padre", "base": "father", "sense": "parent"},
+        {"t": [5], "es": "famoso", "base": "famous", "sense": "known"},
+        {"t": [7], "es": "casas", "base": "house", "sense": "building"},
+        {"t": [8], "es": "dinero", "base": "money", "sense": "payment"},
+        {"t": [9], "es": "todo"}
+      ]
+    },
+    {
+      "id": 21,
+      "line": [
+        {"t": [0, 1, 2], "es": "James no tiene nada."}
+      ],
+      "words": [
+        {"t": [0], "es": "James"},
+        {"t": [1], "es": "tiene", "base": "have", "sense": "possess"},
+        {"t": [2], "es": "nada", "base": "nothing", "sense": "none", "note": "*Nothing* ya niega la frase: en inglés no se añade *not*, aunque en español digamos «no tiene nada» ([[negative-words]])."}
+      ]
+    },
+    {
+      "id": 22,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Bueno, tiene algo de dinero, claro,"},
+        {"t": [7, 8, 9, 10, 11, 12, 13], "es": "pero no es más que el señor James Wilder,"},
+        {"t": [14, 15, 16, 17, 18], "es": "y quiere ser"},
+        {"t": [19, 20, 21, 22], "es": "el duque de Holdernesse"},
+        {"t": [23, 24], "es": "algún día."}
+      ],
+      "words": [
+        {"t": [0], "es": "bueno", "base": "well", "sense": "discourse"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "tiene", "base": "have", "sense": "possess"},
+        {"t": [3, 4], "es": "algo de dinero", "base": "money", "sense": "payment", "note": "Con *money*, que es incontable, *some* indica una cantidad sin precisar ([[uncountable]], [[some-any]])."},
+        {"t": [5, 6], "es": "por supuesto", "base": "of course", "sense": "obvious"},
+        {"t": [7], "es": "pero"},
+        {"t": [8], "es": "él"},
+        {"t": [9], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [10], "es": "solo", "base": "just", "sense": "only"},
+        {"t": [11, 12, 13], "es": "el señor James Wilder", "note": "*Mr* es «señor» ante un nombre. En inglés británico no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [14], "es": "y"},
+        {"t": [15], "es": "él"},
+        {"t": [16], "es": "quiere", "base": "want", "sense": "desire"},
+        {"t": [17, 18], "es": "ser", "base": "be", "sense": "identity", "note": "Después de *want*, otro verbo lleva *to*: *wants to be*, «quiere ser» ([[verb-infinitive]])."},
+        {"t": [19, 20], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [21, 22], "es": "de Holdernesse"},
+        {"t": [23, 24], "es": "algún día", "base": "one day", "sense": "future", "note": "Con una esperanza o un plan, *one day* significa «algún día», no un día concreto."}
+      ]
+    },
+    {
+      "id": 23,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Eso no es posible, claro,"},
+        {"t": [5, 6, 7, 8, 9], "es": "pero James no puede entenderlo."}
+      ],
+      "words": [
+        {"t": [0], "es": "eso es", "base": "be", "sense": "identity", "note": "*That’s* es *that is*: el pronombre y el verbo se juntan ([[contractions]])."},
+        {"t": [1], "es": "no", "base": "not", "sense": "negative"},
+        {"t": [2], "es": "posible", "base": "possible", "sense": "able"},
+        {"t": [3, 4], "es": "por supuesto", "base": "of course", "sense": "obvious"},
+        {"t": [5], "es": "pero"},
+        {"t": [6], "es": "James"},
+        {"t": [7, 8], "es": "no puede entender", "base": "understand", "sense": "comprehend", "note": "*Can’t* es la contracción de *cannot* ([[contractions]])."},
+        {"t": [9], "es": "eso"}
+      ]
+    },
+    {
+      "id": 24,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Así que, ya ve,"},
+        {"t": [4, 5, 6, 7, 8], "es": "temía por Arthur,"},
+        {"t": [9, 10, 11, 12, 13, 14], "es": "y por eso lo mandé"},
+        {"t": [15, 16, 17, 18], "es": "al colegio del doctor Huxtable."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [2, 3], "es": "ya ve", "base": "you see", "sense": "explanation", "note": "*You see* sirve para introducir o aclarar una explicación; no pide mirar nada."},
+        {"t": [4], "es": "yo"},
+        {"t": [5, 6, 7], "es": "estaba preocupado por", "base": "afraid", "sense": "worried", "note": "*Afraid for* es temer por alguien; *afraid of* es tener miedo de alguien o algo."},
+        {"t": [8], "es": "Arthur"},
+        {"t": [9], "es": "y"},
+        {"t": [10], "es": "eso es", "base": "be", "sense": "identity", "note": "*That’s* es *that is* ([[contractions]]). La expresión *that’s why* significa «por eso»."},
+        {"t": [11], "es": "por lo que", "base": "why", "sense": "reason"},
+        {"t": [12], "es": "yo"},
+        {"t": [13], "es": "mandé", "base": "send", "sense": "dispatch"},
+        {"t": [14], "es": "lo, a él"},
+        {"t": [15, 18], "es": "al colegio", "base": "school", "sense": "education"},
+        {"t": [16, 17], "es": "del doctor Huxtable", "note": "*Dr* abrevia *Doctor*: en EE. UU., *Dr.*. El genitivo *Huxtable’s* indica de quién es el colegio ([[british-american]], [[possessive-s]])."}
+      ]
+    },
+    {
+      "id": 25,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«¿Y qué hace James después?"}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "qué", "base": "what", "sense": "question"},
+        {"t": [2, 4], "es": "hace", "base": "do", "sense": "perform", "note": "*Does* forma la pregunta en presente. El verbo principal *do* queda en forma base ([[auxiliary-do]])."},
+        {"t": [3], "es": "James"},
+        {"t": [5], "es": "después", "base": "next", "sense": "after"}
+      ]
+    },
+    {
+      "id": 26,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Secuestra a mi pobre Arthur."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "secuestra", "base": "kidnap", "sense": "abduct"},
+        {"t": [2, 4], "es": "mi Arthur"},
+        {"t": [3], "es": "pobre", "base": "poor", "sense": "pity", "note": "Aquí *poor* expresa pena por alguien, no falta de dinero."}
+      ]
+    },
+    {
+      "id": 27,
+      "line": [
+        {"t": [0, 1, 2], "es": "Eso no cambia nada,"},
+        {"t": [3, 4, 5, 6, 7], "es": "pero James no puede verlo."}
+      ],
+      "words": [
+        {"t": [0], "es": "eso"},
+        {"t": [1], "es": "cambia", "base": "change", "sense": "alter"},
+        {"t": [2], "es": "nada", "base": "nothing", "sense": "none", "note": "*Nothing* ya niega la frase; en inglés no necesita *not* ([[negative-words]])."},
+        {"t": [3], "es": "pero"},
+        {"t": [4], "es": "James"},
+        {"t": [5, 6], "es": "no puede entender", "base": "see", "sense": "understand", "note": "*Can’t* es *cannot* ([[contractions]]). Aquí *see* significa entender, no ver con los ojos."},
+        {"t": [7], "es": "eso"}
+      ]
+    },
+    {
+      "id": 28,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Quiere que le diga:"},
+        {"t": [5, 6, 7], "es": "“Sí, James, ahora"},
+        {"t": [8, 9, 10, 11, 12, 13], "es": "puedes ser mi primer hijo;"},
+        {"t": [14, 15, 16, 17], "es": "puedes tenerlo todo."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "quiere", "base": "want", "sense": "desire", "note": "*Wants me to say* es «quiere que yo diga»: persona + infinitivo, sin *that* ([[object-infinitive]])."},
+        {"t": [2], "es": "yo"},
+        {"t": [3, 4], "es": "decir", "base": "say", "sense": "speak"},
+        {"t": [5], "es": "sí"},
+        {"t": [6], "es": "James"},
+        {"t": [7], "es": "ahora", "base": "now", "sense": "present"},
+        {"t": [8], "es": "tú"},
+        {"t": [9, 10], "es": "puedes ser", "base": "be", "sense": "identity"},
+        {"t": [11, 13], "es": "mi hijo", "base": "son", "sense": "family"},
+        {"t": [12], "es": "primero", "base": "first", "sense": "order"},
+        {"t": [14], "es": "tú"},
+        {"t": [15, 16], "es": "puedes tener", "base": "have", "sense": "possess"},
+        {"t": [17], "es": "todo"}
+      ]
+    },
+    {
+      "id": 29,
+      "line": [
+        {"t": [0, 1, 2], "es": "Arthur puede ser"},
+        {"t": [3, 4, 5, 6], "es": "el hijo número dos”."}
+      ],
+      "words": [
+        {"t": [0], "es": "Arthur"},
+        {"t": [1, 2], "es": "puede ser", "base": "be", "sense": "identity"},
+        {"t": [3, 6], "es": "el hijo", "base": "son", "sense": "family"},
+        {"t": [4], "es": "número", "base": "number", "sense": "figure"},
+        {"t": [5], "es": "dos"}
+      ]
+    },
+    {
+      "id": 30,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Pero no puedo hacer eso,"},
+        {"t": [5, 6, 7, 8], "es": "claro que no."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1], "es": "yo"},
+        {"t": [2, 3], "es": "no puedo hacer", "base": "do", "sense": "perform", "note": "*Can’t* es la contracción de *cannot* ([[contractions]])."},
+        {"t": [4], "es": "eso"},
+        {"t": [5, 6], "es": "por supuesto", "base": "of course", "sense": "obvious"},
+        {"t": [7], "es": "yo"},
+        {"t": [8], "es": "no puedo", "base": "can", "sense": "ability", "note": "*Can’t* es *cannot* ([[contractions]]). Se omite *do that* porque ya se acaba de decir."}
+      ]
+    },
+    {
+      "id": 31,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«James conocía a ese hombre, Hayes,"},
+        {"t": [5, 6], "es": "¿sabe?,"},
+        {"t": [7, 8, 9, 10, 11, 12], "es": "porque Hayes trabajó para mí hace tiempo."}
+      ],
+      "words": [
+        {"t": [0], "es": "James"},
+        {"t": [1], "es": "conocía", "base": "know", "sense": "familiar"},
+        {"t": [2, 3], "es": "este hombre", "base": "man", "sense": "adult"},
+        {"t": [4], "es": "Hayes"},
+        {"t": [5, 6], "es": "ya ve", "base": "you see", "sense": "explanation", "note": "*You see* acompaña una explicación; no pide mirar nada."},
+        {"t": [7], "es": "porque"},
+        {"t": [8], "es": "Hayes"},
+        {"t": [9, 10], "es": "trabajó para", "base": "work", "sense": "labour", "note": "*Work for* introduce a la persona o empresa que te da trabajo."},
+        {"t": [11], "es": "mí"},
+        {"t": [12], "es": "antes", "base": "once", "sense": "formerly", "note": "Aquí *once* sitúa algo en el pasado; no cuenta las veces. Tampoco es el número «once», que es *eleven* ([[false-friends]])."}
+      ]
+    },
+    {
+      "id": 32,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "James pidió ayuda a Hayes,"},
+        {"t": [5, 6, 7], "es": "y el hombre"},
+        {"t": [8, 9, 10, 11, 12], "es": "aceptó encantado."}
+      ],
+      "words": [
+        {"t": [0], "es": "James"},
+        {"t": [1, 2], "es": "pidió", "base": "ask for", "sense": "request", "note": "*Ask for* es pedir algo. Sin *for*, *ask* suele significar preguntar."},
+        {"t": [3], "es": "de Hayes", "note": "El genitivo *Hayes’s* indica de quién se pide ayuda ([[possessive-s]])."},
+        {"t": [4], "es": "ayuda", "base": "help", "sense": "assistance"},
+        {"t": [5], "es": "y"},
+        {"t": [6, 7], "es": "el hombre", "base": "man", "sense": "adult"},
+        {"t": [8, 9], "es": "estaba encantado", "base": "happy", "sense": "willing"},
+        {"t": [10, 11], "es": "hacer", "base": "do", "sense": "perform", "note": "*Happy to do* expresa buena disposición. El infinitivo completa el adjetivo; no indica finalidad ([[adjective-infinitive]])."},
+        {"t": [12], "es": "lo, eso"}
+      ]
+    },
+    {
+      "id": 33,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "¿Recuerda la carta"},
+        {"t": [4, 5], "es": "que le escribí a Arthur"},
+        {"t": [6, 7, 8, 9], "es": "aquel último día?"}
+      ],
+      "words": [
+        {"t": [0], "es": "usted"},
+        {"t": [1], "es": "recuerda", "base": "remember", "sense": "recall", "note": "Esta pregunta conserva el orden afirmativo, sin *do*. Es frecuente al hablar para confirmar algo ([[auxiliary-do]])."},
+        {"t": [2, 3], "es": "mi carta", "base": "letter", "sense": "message", "note": "Aquí *letter* es una carta, no una letra del alfabeto."},
+        {"t": [4, 5], "es": "a Arthur"},
+        {"t": [6, 7, 9], "es": "en aquel día", "base": "day", "sense": "time"},
+        {"t": [8], "es": "último", "base": "last", "sense": "final"}
+      ]
+    },
+    {
+      "id": 34,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Pues bien, James abrió la carta"},
+        {"t": [5, 6, 7, 8, 9, 10, 11], "es": "y metió una nota suya."}
+      ],
+      "words": [
+        {"t": [0], "es": "bueno", "base": "well", "sense": "discourse"},
+        {"t": [1], "es": "James"},
+        {"t": [2], "es": "abrió", "base": "open", "sense": "unclose"},
+        {"t": [3, 4], "es": "la carta", "base": "letter", "sense": "message"},
+        {"t": [5], "es": "y"},
+        {"t": [6, 7], "es": "metió", "base": "put in", "sense": "insert", "note": "*Put in* significa meter algo dentro ([[phrasal-verbs]])."},
+        {"t": [8, 9], "es": "una nota", "base": "note", "sense": "message"},
+        {"t": [10, 11], "es": "de él"}
+      ]
+    },
+    {
+      "id": 35,
+      "line": [
+        {"t": [0, 1], "es": "Aquella tarde"},
+        {"t": [2, 3, 4, 5, 6], "es": "cruzó el páramo en bicicleta"},
+        {"t": [7, 8, 9], "es": "y se reunió con Arthur"},
+        {"t": [10, 11, 12], "es": "en Ragged Shaw."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "aquella tarde", "base": "evening", "sense": "time"},
+        {"t": [2], "es": "él"},
+        {"t": [3], "es": "fue en bicicleta", "base": "cycle", "sense": "ride"},
+        {"t": [4, 5, 6], "es": "a través del páramo", "base": "moor", "sense": "land"},
+        {"t": [7], "es": "y"},
+        {"t": [8], "es": "se reunió con", "base": "meet", "sense": "gather"},
+        {"t": [9], "es": "Arthur"},
+        {"t": [10, 11, 12], "es": "en Ragged Shaw", "note": "*Shaw* es una palabra antigua para un bosquecillo; *ragged* significa «irregular, desigual»."}
+      ]
+    },
+    {
+      "id": 36,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Le habló de la duquesa,"},
+        {"t": [5, 6], "es": "la madre de Arthur."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "habló de", "base": "talk about", "sense": "discuss"},
+        {"t": [3, 4], "es": "la duquesa", "base": "duchess", "sense": "title"},
+        {"t": [5], "es": "de Arthur", "note": "El genitivo *Arthur’s* indica de quién es la madre ([[possessive-s]])."},
+        {"t": [6], "es": "madre", "base": "mother", "sense": "parent"}
+      ]
+    },
+    {
+      "id": 37,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "“Quiere verte”,"},
+        {"t": [5, 6, 7], "es": "le dijo a Arthur."}
+      ],
+      "words": [
+        {"t": [0], "es": "ella"},
+        {"t": [1], "es": "quiere", "base": "want", "sense": "desire"},
+        {"t": [2, 3], "es": "ver", "base": "see", "sense": "visit", "note": "Después de *want*, otro verbo lleva *to*: *wants to see*, «quiere ver» ([[verb-infinitive]])."},
+        {"t": [4], "es": "te, a ti"},
+        {"t": [5], "es": "él"},
+        {"t": [6], "es": "dijo", "base": "tell", "sense": "inform"},
+        {"t": [7], "es": "Arthur"}
+      ]
+    },
+    {
+      "id": 38,
+      "line": [
+        {"t": [0, 1], "es": "“Está esperando"},
+        {"t": [2, 3, 4], "es": "en el páramo."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "ella está esperando", "base": "wait", "sense": "stay", "note": "*She’s* es *she is* ([[contractions]]). *Is waiting* es presente continuo: la acción está en marcha ([[present-continuous]])."},
+        {"t": [2, 3, 4], "es": "en el páramo", "base": "moor", "sense": "land"}
+      ]
+    },
+    {
+      "id": 39,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Vuelve a medianoche"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "y un hombre con un caballo"},
+        {"t": [10, 11, 12, 13, 14], "es": "podrá llevarte hasta ella”."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "vuelve", "base": "come back", "sense": "return", "note": "*Come back* es volver al lugar del que se ha salido ([[phrasal-verbs]])."},
+        {"t": [2, 3], "es": "a medianoche", "base": "midnight", "sense": "time"},
+        {"t": [4], "es": "y"},
+        {"t": [5, 6], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [7, 8, 9], "es": "con un caballo", "base": "horse", "sense": "animal"},
+        {"t": [10, 11], "es": "puede llevar", "base": "take", "sense": "carry", "note": "El modal *can* está en presente, pero aquí habla de una posibilidad futura ([[modal-verbs]])."},
+        {"t": [12], "es": "te, a ti"},
+        {"t": [13, 14], "es": "hasta ella"}
+      ]
+    },
+    {
+      "id": 40,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Claro, el pobre Arthur"},
+        {"t": [4, 5, 6, 7, 8], "es": "quería ver a su madre,"},
+        {"t": [9, 10, 11], "es": "así que fue."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "por supuesto", "base": "of course", "sense": "obvious"},
+        {"t": [2], "es": "pobre", "base": "poor", "sense": "pity"},
+        {"t": [3], "es": "Arthur"},
+        {"t": [4], "es": "quería", "base": "want", "sense": "desire"},
+        {"t": [5, 6], "es": "ver", "base": "see", "sense": "visit"},
+        {"t": [7, 8], "es": "su madre", "base": "mother", "sense": "parent"},
+        {"t": [9], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [10], "es": "él"},
+        {"t": [11], "es": "vino", "base": "come", "sense": "move", "note": "*Come* presenta el movimiento hacia el lugar del que se habla. Aquí el español dice «fue»."}
+      ]
+    },
+    {
+      "id": 41,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Hayes estaba allí con dos caballos,"},
+        {"t": [6, 7, 8, 9, 10, 11], "es": "y cruzaron el páramo a caballo."}
+      ],
+      "words": [
+        {"t": [0], "es": "Hayes"},
+        {"t": [1], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [2], "es": "allí", "base": "there", "sense": "place"},
+        {"t": [3, 5], "es": "con caballos", "base": "horse", "sense": "animal"},
+        {"t": [4], "es": "dos"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "ellos"},
+        {"t": [8], "es": "fueron a caballo", "base": "ride", "sense": "mount"},
+        {"t": [9, 10, 11], "es": "a través del páramo", "base": "moor", "sense": "land"}
+      ]
+    },
+    {
+      "id": 42,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Pero el profesor de alemán los siguió,"},
+        {"t": [6, 7, 8, 9], "es": "y Hayes lo mató."}
+      ],
+      "words": [
+        {"t": [0], "es": "pero"},
+        {"t": [1, 3], "es": "el profesor", "base": "teacher", "sense": "person"},
+        {"t": [2], "es": "alemán", "base": "German", "sense": "language", "note": "Aquí *German* es la materia que enseña. Los nombres de idiomas llevan mayúscula en inglés."},
+        {"t": [4], "es": "siguió", "base": "follow", "sense": "go-after"},
+        {"t": [5], "es": "los, a ellos"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "Hayes"},
+        {"t": [8], "es": "mató", "base": "kill", "sense": "death"},
+        {"t": [9], "es": "lo, a él"}
+      ]
+    },
+    {
+      "id": 43,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Después, Hayes llevó a Arthur"},
+        {"t": [4, 5, 6, 7], "es": "a la posada Green Man."}
+      ],
+      "words": [
+        {"t": [0], "es": "Hayes"},
+        {"t": [1], "es": "después", "base": "then", "sense": "next"},
+        {"t": [2], "es": "llevó", "base": "take", "sense": "carry"},
+        {"t": [3], "es": "Arthur"},
+        {"t": [4, 5, 6, 7], "es": "a la posada Green Man"}
+      ]
+    },
+    {
+      "id": 44,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Pues bien, señor Holmes,"},
+        {"t": [3, 4, 5, 6, 7, 8, 9], "es": "yo no sabía nada de todo esto…"},
+        {"t": [11, 12, 13], "es": "hasta el asesinato."}
+      ],
+      "words": [
+        {"t": [0], "es": "bueno", "base": "well", "sense": "discourse"},
+        {"t": [1, 2], "es": "señor Holmes", "note": "*Mr* es «señor» ante un nombre. En inglés británico no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [3], "es": "yo"},
+        {"t": [4, 6], "es": "sabía de", "base": "know about", "sense": "information"},
+        {"t": [5], "es": "nada", "base": "nothing", "sense": "none", "note": "*Nothing* ya niega la frase; no hace falta *not* en inglés ([[negative-words]])."},
+        {"t": [7], "es": "ninguna parte", "note": "En esta frase negativa, *any* refuerza que no sabía nada de ninguna parte de esto ([[some-any]])."},
+        {"t": [8, 9], "es": "de esto"},
+        {"t": [11, 12, 13], "es": "hasta el asesinato", "base": "murder", "sense": "crime"}
+      ]
+    },
+    {
+      "id": 45,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "James es un mal chico,"},
+        {"t": [5, 6, 7, 8, 9, 10], "es": "pero no asesina a la gente."}
+      ],
+      "words": [
+        {"t": [0], "es": "James"},
+        {"t": [1], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [2, 4], "es": "un chico", "base": "boy", "sense": "young-man"},
+        {"t": [3], "es": "malo", "base": "bad", "sense": "quality"},
+        {"t": [5], "es": "pero"},
+        {"t": [6], "es": "él"},
+        {"t": [7, 8, 9], "es": "no asesina", "base": "murder", "sense": "kill", "note": "*Does not* forma la negación en presente; el verbo *murder* queda en forma base ([[auxiliary-do]])."},
+        {"t": [10], "es": "personas, gente", "base": "person", "sense": "human"}
+      ]
+    },
+    {
+      "id": 46,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Cuando se enteró de la noticia,"},
+        {"t": [5, 6, 7, 8, 9, 10], "es": "vino a verme enseguida,"},
+        {"t": [11], "es": "llorando."}
+      ],
+      "words": [
+        {"t": [0], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "se enteró de", "base": "hear", "sense": "learn", "note": "*Hear the news* es enterarse de una noticia, no necesariamente oírla con los oídos."},
+        {"t": [3, 4], "es": "las noticias", "base": "news", "sense": "information", "note": "*News* es incontable: no tiene un singular *new* con este sentido ([[uncountable]])."},
+        {"t": [5], "es": "él"},
+        {"t": [6], "es": "vino", "base": "come", "sense": "move"},
+        {"t": [7, 8], "es": "a mí"},
+        {"t": [9, 10], "es": "enseguida", "base": "at once", "sense": "immediately", "note": "Aquí *at once* significa «enseguida», no «una vez»."},
+        {"t": [11], "es": "llorando", "base": "cry", "sense": "weep"}
+      ]
+    },
+    {
+      "id": 47,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "¿Qué podía hacer?"}
+      ],
+      "words": [
+        {"t": [0], "es": "qué", "base": "what", "sense": "question"},
+        {"t": [1, 3], "es": "podía hacer", "base": "do", "sense": "perform"},
+        {"t": [2], "es": "yo"}
+      ]
+    },
+    {
+      "id": 48,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "No quería que el mundo se enterara de esto."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "no quería", "base": "want", "sense": "desire", "note": "*Didn’t* es *did not* ([[contractions]]). *Want the world to know* sigue el patrón persona + infinitivo ([[object-infinitive]])."},
+        {"t": [3, 4], "es": "el mundo", "base": "world", "sense": "world"},
+        {"t": [5, 6, 7], "es": "saber de", "base": "know about", "sense": "information"},
+        {"t": [8], "es": "esto"}
+      ]
+    },
+    {
+      "id": 49,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Así que James bajó"},
+        {"t": [4, 5, 6, 7], "es": "a la posada Green Man."}
+      ],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1], "es": "James"},
+        {"t": [2, 3], "es": "bajó", "base": "go down", "sense": "lower", "note": "*Go down* es bajar o ir a un lugar situado más abajo ([[phrasal-verbs]])."},
+        {"t": [4, 5, 6, 7], "es": "a la posada Green Man"}
+      ]
+    },
+    {
+      "id": 50,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Le dijo a Hayes que huyera,"},
+        {"t": [6, 7], "es": "porque todo el mundo"},
+        {"t": [8, 9, 10, 11, 12], "es": "sabía ya lo del asesinato…"},
+        {"t": [14, 15, 16, 17, 18, 19], "es": "y también conocía el nombre del asesino."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "dijo, ordenó", "base": "tell", "sense": "order", "note": "*Tell* + persona + *to* + verbo sirve para dar una orden: «decirle a alguien que haga algo» ([[object-infinitive]])."},
+        {"t": [2], "es": "Hayes"},
+        {"t": [3, 4, 5], "es": "huir", "base": "run away", "sense": "escape", "note": "*Run away* significa huir o escaparse, no solo correr ([[phrasal-verbs]])."},
+        {"t": [6], "es": "porque"},
+        {"t": [7], "es": "todo el mundo"},
+        {"t": [8, 9], "es": "sabía de", "base": "know about", "sense": "information"},
+        {"t": [10, 11], "es": "el asesinato", "base": "murder", "sense": "crime"},
+        {"t": [12], "es": "ahora, ya", "base": "now", "sense": "present"},
+        {"t": [14], "es": "y"},
+        {"t": [15], "es": "sabía, conocía", "base": "know", "sense": "information"},
+        {"t": [16, 18], "es": "el nombre", "base": "name", "sense": "identity"},
+        {"t": [17], "es": "del asesino", "base": "murderer", "sense": "criminal", "note": "El genitivo *murderer’s* indica de quién es el nombre ([[possessive-s]])."},
+        {"t": [19], "es": "también", "base": "too", "sense": "also"}
+      ]
+    },
+    {
+      "id": 51,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Hayes se marchó enseguida."}
+      ],
+      "words": [
+        {"t": [0], "es": "Hayes"},
+        {"t": [1], "es": "se marchó", "base": "leave", "sense": "depart"},
+        {"t": [2, 3], "es": "enseguida", "base": "at once", "sense": "immediately", "note": "*At once* significa «enseguida»; no cuenta las veces que ocurre algo."}
+      ]
+    },
+    {
+      "id": 52,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Más tarde bajé"},
+        {"t": [4, 5, 6], "es": "y vi a Arthur."}
+      ],
+      "words": [
+        {"t": [0], "es": "más tarde", "base": "later", "sense": "after"},
+        {"t": [1], "es": "yo"},
+        {"t": [2, 3], "es": "bajé", "base": "go down", "sense": "lower"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "vi", "base": "see", "sense": "visit"},
+        {"t": [6], "es": "Arthur"}
+      ]
+    },
+    {
+      "id": 53,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Lo dejé allí"},
+        {"t": [4, 5, 6], "es": "con la señora Hayes"},
+        {"t": [7, 8, 9, 10, 11], "es": "porque no podía decir nada"},
+        {"t": [12, 13, 14, 15, 16], "es": "a la policía en aquel momento."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "dejé", "base": "leave", "sense": "remain"},
+        {"t": [2], "es": "lo, a él"},
+        {"t": [3], "es": "allí", "base": "there", "sense": "place"},
+        {"t": [4, 5, 6], "es": "con la señora Hayes", "note": "*Mrs* es el tratamiento tradicional de una mujer casada. En EE. UU. lleva punto: *Mrs.* ([[british-american]])."},
+        {"t": [7], "es": "porque"},
+        {"t": [8], "es": "yo"},
+        {"t": [9, 10, 12], "es": "no podía decir a", "base": "say", "sense": "speak", "note": "*Couldn’t* es *could not* ([[contractions]]). *Say* usa *to* ante la persona que recibe las palabras."},
+        {"t": [11], "es": "nada", "note": "Con un verbo negativo, *anything* significa «nada», no «cualquier cosa» ([[some-any]])."},
+        {"t": [13, 14], "es": "la policía", "base": "police", "sense": "force"},
+        {"t": [15], "es": "justo", "base": "just", "sense": "exactly"},
+        {"t": [16], "es": "entonces", "base": "then", "sense": "time"}
+      ]
+    },
+    {
+      "id": 54,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Así que, señor Holmes,"},
+        {"t": [3, 4, 5, 6], "es": "ahora lo sabe todo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "así que", "base": "so", "sense": "result"},
+        {"t": [1, 2], "es": "señor Holmes", "note": "*Mr* es «señor» ante un nombre. En inglés británico no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [3], "es": "ahora", "base": "now", "sense": "present"},
+        {"t": [4], "es": "usted"},
+        {"t": [5], "es": "sabe", "base": "know", "sense": "information"},
+        {"t": [6], "es": "todo"}
+      ]
+    },
+    {
+      "id": 55,
+      "line": [
+        {"t": [0], "es": "«Mmm»,"},
+        {"t": [1, 2], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "mmm", "base": "mmm", "sense": "thought"},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 56,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Ayuda a un asesino,"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "no dice nada a la policía,"},
+        {"t": [10, 11, 12, 13, 14], "es": "deja a su hijo pequeño"},
+        {"t": [15, 16, 17, 18], "es": "en una posada sucia…"}
+      ],
+      "words": [
+        {"t": [0], "es": "usted"},
+        {"t": [1], "es": "ayuda", "base": "help", "sense": "assist"},
+        {"t": [2, 3], "es": "un asesino", "base": "murderer", "sense": "criminal"},
+        {"t": [4], "es": "usted"},
+        {"t": [5, 7], "es": "dice a", "base": "say", "sense": "speak"},
+        {"t": [6], "es": "nada", "base": "nothing", "sense": "none", "note": "*Nothing* ya niega la frase; el inglés no añade *not* ([[negative-words]])."},
+        {"t": [8, 9], "es": "la policía", "base": "police", "sense": "force"},
+        {"t": [10], "es": "usted"},
+        {"t": [11], "es": "deja", "base": "leave", "sense": "remain"},
+        {"t": [12, 14], "es": "su hijo", "base": "son", "sense": "family"},
+        {"t": [13], "es": "joven", "base": "young", "sense": "age"},
+        {"t": [15, 16, 18], "es": "en una posada", "base": "inn", "sense": "lodging"},
+        {"t": [17], "es": "sucia", "base": "dirty", "sense": "unclean"}
+      ]
+    },
+    {
+      "id": 57,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "y me pide ayuda»."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1], "es": "usted"},
+        {"t": [2, 3], "es": "pide", "base": "ask for", "sense": "request", "note": "*Ask for* es pedir algo. Sin *for*, *ask* suele significar preguntar."},
+        {"t": [4, 5], "es": "mi ayuda", "base": "help", "sense": "assistance"}
+      ]
+    },
+    {
+      "id": 58,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "No era nada habitual que alguien le hablara así al duque de Holdernesse."}
+      ],
+      "words": [
+        {"t": [0], "es": "personas, gente", "base": "person", "sense": "human", "note": "*People* es plural, aunque «gente» sea singular. El verbo concuerda en plural ([[plural-agreement]])."},
+        {"t": [1], "es": "nunca", "base": "never", "sense": "time", "note": "*Never* ya niega la frase y no necesita *not* ([[negative-words]])."},
+        {"t": [2, 3], "es": "hablaban con", "base": "speak to", "sense": "conversation"},
+        {"t": [4, 5], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [6, 7], "es": "de Holdernesse"},
+        {"t": [8, 9], "es": "así, de esta manera", "base": "like", "sense": "similar"},
+        {"t": [10], "es": "normalmente", "base": "usually", "sense": "normally"}
+      ]
+    },
+    {
+      "id": 59,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Tenía la cara roja,"},
+        {"t": [4, 5, 6, 7], "es": "pero no dijo nada."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "su cara", "base": "face", "sense": "front", "note": "El inglés usa posesivo con partes del cuerpo: *his face*, «su cara» ([[body-possessive]])."},
+        {"t": [2, 3], "es": "estaba roja", "base": "red", "sense": "colour"},
+        {"t": [4], "es": "pero"},
+        {"t": [5], "es": "él"},
+        {"t": [6], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [7], "es": "nada", "base": "nothing", "sense": "none", "note": "*Nothing* ya niega la frase; el inglés no añade *not* ([[negative-words]])."}
+      ]
+    },
+    {
+      "id": 60,
+      "line": [
+        {"t": [0], "es": "«Primero»,"},
+        {"t": [1, 2], "es": "dijo Holmes,"},
+        {"t": [3, 4, 5, 6, 7], "es": "«tenemos que traer a Arthur a casa»."}
+      ],
+      "words": [
+        {"t": [0], "es": "primero", "base": "first", "sense": "order"},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "Holmes"},
+        {"t": [3], "es": "nosotros"},
+        {"t": [4, 5], "es": "tenemos que traer", "base": "bring", "sense": "carry"},
+        {"t": [6], "es": "Arthur"},
+        {"t": [7], "es": "a casa", "base": "home", "sense": "destination", "note": "Cuando indica destino, *home* va sin *to*: *bring Arthur home*, no *bring Arthur to home*."}
+      ]
+    },
+    {
+      "id": 61,
+      "line": [
+        {"t": [0], "es": "«Sí»,"},
+        {"t": [1, 2, 3, 4], "es": "dijo el duque en voz baja."}
+      ],
+      "words": [
+        {"t": [0], "es": "sí", "base": "yes", "sense": "agreement"},
+        {"t": [1, 2], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [3], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [4], "es": "en voz baja", "base": "quietly", "sense": "voice", "note": "*Quietly* indica poco volumen, no quedarse «quieto» ([[false-friends]]). No lo confundas con *quickly*, «deprisa»."}
+      ]
+    },
+    {
+      "id": 62,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Holmes escribió una nota rápidamente"},
+        {"t": [5, 6, 7, 8, 9, 10, 11], "es": "y la sacó de la habitación."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "rápidamente", "base": "quickly", "sense": "speed", "note": "*Quickly* indica rapidez. No lo confundas con *quietly*, «en voz baja» o «sin hacer ruido»."},
+        {"t": [2], "es": "escribió", "base": "write", "sense": "text"},
+        {"t": [3, 4], "es": "una nota", "base": "note", "sense": "message"},
+        {"t": [5], "es": "y"},
+        {"t": [6, 8], "es": "sacó", "base": "take out", "sense": "remove", "note": "En *took it out*, el pronombre va entre el verbo y la partícula: no *took out it* ([[phrasal-verbs]])."},
+        {"t": [7], "es": "la, eso"},
+        {"t": [9, 10, 11], "es": "de la habitación", "base": "room", "sense": "building"}
+      ]
+    },
+    {
+      "id": 63,
+      "line": [
+        {"t": [0, 1, 2], "es": "Un minuto después,"},
+        {"t": [3, 4, 5], "es": "estaba de vuelta."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "un minuto", "base": "minute", "sense": "time"},
+        {"t": [2], "es": "después", "base": "later", "sense": "after"},
+        {"t": [3], "es": "él"},
+        {"t": [4], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [5], "es": "de vuelta", "base": "back", "sense": "return"}
+      ]
+    },
+    {
+      "id": 64,
+      "line": [
+        {"t": [0], "es": "«Y ahora,"},
+        {"t": [1, 2, 3, 4, 5, 6], "es": "¿qué va a hacer"},
+        {"t": [7, 8, 9, 10], "es": "con el señor James Wilder?»,"},
+        {"t": [11, 12], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0], "es": "ahora", "base": "now", "sense": "present"},
+        {"t": [1], "es": "qué", "base": "what", "sense": "question"},
+        {"t": [2, 4, 5, 6], "es": "va a hacer", "base": "do", "sense": "perform", "note": "*Be going to* + verbo expresa una intención futura; aquí no indica desplazamiento ([[going-to-future]])."},
+        {"t": [3], "es": "usted"},
+        {"t": [7, 8, 9, 10], "es": "respecto al señor James Wilder", "note": "*Mr* es «señor» ante un nombre. En inglés británico no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [11], "es": "él"},
+        {"t": [12], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 65,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Le entiendo, señor Holmes»,"},
+        {"t": [5, 6, 7], "es": "dijo el duque."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "entiendo", "base": "understand", "sense": "comprehend"},
+        {"t": [2], "es": "le, a usted"},
+        {"t": [3, 4], "es": "señor Holmes", "note": "*Mr* es «señor» ante un nombre. En inglés británico no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
+        {"t": [5], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [6, 7], "es": "el duque", "base": "duke", "sense": "noble"}
+      ]
+    },
+    {
+      "id": 66,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«James me dejará"},
+        {"t": [4, 5, 6, 7], "es": "y se irá a Australia"},
+        {"t": [8, 9], "es": "la semana que viene»."}
+      ],
+      "words": [
+        {"t": [0], "es": "James"},
+        {"t": [1, 2], "es": "está dejando", "base": "leave", "sense": "abandon", "note": "El presente continuo expresa aquí un plan decidido para el futuro ([[present-continuous]])."},
+        {"t": [3], "es": "me, a mí"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "yendo", "base": "go", "sense": "move", "note": "*Going to Australia* indica destino: Australia no es un verbo. Comparte el auxiliar *is* y expresa un plan ([[present-continuous]])."},
+        {"t": [6, 7], "es": "a Australia"},
+        {"t": [8], "es": "próxima", "base": "next", "sense": "future"},
+        {"t": [9], "es": "semana", "base": "week", "sense": "time", "note": "*Next week* va sin preposición ni artículo en inglés: no *in the next week* para «la semana que viene»."}
+      ]
+    },
+    {
+      "id": 67,
+      "line": [
+        {"t": [0], "es": "«Bien»,"},
+        {"t": [1, 2], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "bien", "base": "good", "sense": "quality", "note": "Como respuesta breve, *Good* expresa aprobación: «bien»."},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 68,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¿Y la duquesa?"}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1, 2], "es": "la duquesa", "base": "duchess", "sense": "title"}
+      ]
+    },
+    {
+      "id": 69,
+      "line": [
+        {"t": [0, 1, 2], "es": "Quizá sin James"},
+        {"t": [3, 4, 5], "es": "en la casa,"},
+        {"t": [6, 7, 8], "es": "usted y ella…»."}
+      ],
+      "words": [
+        {"t": [0], "es": "quizá", "base": "perhaps", "sense": "possibility"},
+        {"t": [1, 2], "es": "sin James"},
+        {"t": [3, 4, 5], "es": "en la casa", "base": "house", "sense": "building"},
+        {"t": [6], "es": "usted"},
+        {"t": [7], "es": "y"},
+        {"t": [8], "es": "ella"}
+      ]
+    },
+    {
+      "id": 70,
+      "line": [
+        {"t": [0], "es": "«Sí."}
+      ],
+      "words": [
+        {"t": [0], "es": "sí", "base": "yes", "sense": "agreement"}
+      ]
+    },
+    {
+      "id": 71,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Le he escrito a la duquesa"},
+        {"t": [5, 6], "es": "esta mañana»."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1, 2], "es": "escribí a", "base": "write", "sense": "text", "note": "*Write to* introduce a quien recibe la carta. El pasado simple *wrote* puede traducirse aquí por «he escrito» ([[past-simple]])."},
+        {"t": [3, 4], "es": "la duquesa", "base": "duchess", "sense": "title"},
+        {"t": [5, 6], "es": "esta mañana", "base": "morning", "sense": "time"}
+      ]
+    },
+    {
+      "id": 72,
+      "line": [
+        {"t": [0, 1, 2], "es": "Holmes se levantó."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1, 2], "es": "se levantó", "base": "stand up", "sense": "rise", "note": "*Stand up* es ponerse de pie, no solo estar de pie ([[phrasal-verbs]])."}
+      ]
+    },
+    {
+      "id": 73,
+      "line": [
+        {"t": [0], "es": "«Bueno»,"},
+        {"t": [1, 2], "es": "dijo,"},
+        {"t": [3, 4, 5], "es": "«Watson y yo"},
+        {"t": [6, 7, 8, 9], "es": "ya podemos irnos a casa,"},
+        {"t": [10, 11], "es": "creo."}
+      ],
+      "words": [
+        {"t": [0], "es": "bueno", "base": "well", "sense": "discourse"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3], "es": "Watson"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "yo"},
+        {"t": [6, 7], "es": "podemos ir", "base": "go", "sense": "move"},
+        {"t": [8], "es": "a casa", "base": "home", "sense": "destination", "note": "Para indicar destino, *home* va sin *to*: *go home*, no *go to home*."},
+        {"t": [9], "es": "ahora, ya", "base": "now", "sense": "present"},
+        {"t": [10], "es": "yo"},
+        {"t": [11], "es": "creo", "base": "think", "sense": "believe"}
+      ]
+    },
+    {
+      "id": 74,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Solo queda otra pequeña cosa…"}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "hay", "base": "be", "sense": "exist", "note": "*There is* anuncia que hay algo. *There* no indica lugar en esta construcción ([[dummy-subject]])."},
+        {"t": [2], "es": "solo", "base": "just", "sense": "only"},
+        {"t": [3], "es": "una"},
+        {"t": [4], "es": "otra", "base": "other", "sense": "different"},
+        {"t": [5], "es": "pequeña", "base": "small", "sense": "size"},
+        {"t": [6], "es": "cosa", "base": "thing", "sense": "object"}
+      ]
+    },
+    {
+      "id": 75,
+      "line": [
+        {"t": [0, 1, 2], "es": "Ese hombre, Hayes,"},
+        {"t": [3, 4, 5], "es": "llevó dos caballos"},
+        {"t": [6, 7, 8], "es": "por el páramo,"},
+        {"t": [9, 10, 11, 12, 13], "es": "pero los cascos de los caballos dejaron"},
+        {"t": [14, 15, 16, 17, 18], "es": "huellas de vaca"},
+        {"t": [19, 20, 21], "es": "en el barro."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "este hombre", "base": "man", "sense": "adult"},
+        {"t": [2], "es": "Hayes"},
+        {"t": [3], "es": "llevó", "base": "take", "sense": "carry"},
+        {"t": [4], "es": "dos"},
+        {"t": [5], "es": "caballos", "base": "horse", "sense": "animal"},
+        {"t": [6, 7, 8], "es": "a través del páramo", "base": "moor", "sense": "land"},
+        {"t": [9], "es": "pero"},
+        {"t": [10, 11], "es": "de los caballos", "base": "horse", "sense": "animal", "note": "En el genitivo de un plural acabado en *-s*, el apóstrofo va después: *horses’ feet* ([[possessive-s]])."},
+        {"t": [12], "es": "pies", "base": "foot", "sense": "body", "note": "En un caballo, los *feet* son los cascos. La pata entera se llama *leg*."},
+        {"t": [13], "es": "hicieron", "base": "make", "sense": "create", "note": "*Make tracks* es producir huellas; en español decimos «dejar huellas»."},
+        {"t": [14, 15], "es": "las huellas", "base": "track", "sense": "mark"},
+        {"t": [16, 17, 18], "es": "de una vaca", "base": "cow", "sense": "animal"},
+        {"t": [19, 20, 21], "es": "en el barro", "base": "mud", "sense": "earth"}
+      ]
+    },
+    {
+      "id": 76,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "¿Cómo fue posible?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "cómo", "base": "how", "sense": "manner"},
+        {"t": [1], "es": "fue", "base": "be", "sense": "identity", "note": "En preguntas con *be*, el verbo va delante del sujeto, sin *do* ([[be-questions]])."},
+        {"t": [2], "es": "esto"},
+        {"t": [3], "es": "posible", "base": "possible", "sense": "able"}
+      ]
+    },
+    {
+      "id": 77,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "El duque pareció sorprendido"},
+        {"t": [4, 5, 6, 7, 8], "es": "y pensó durante un minuto."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [2], "es": "pareció", "base": "look", "sense": "seem", "note": "*Look* + adjetivo describe el aspecto de alguien; aquí no significa mirar ([[linking-verbs]])."},
+        {"t": [3], "es": "sorprendido", "base": "surprised", "sense": "feeling"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "pensó", "base": "think", "sense": "consider"},
+        {"t": [6, 7, 8], "es": "durante un minuto", "base": "minute", "sense": "time", "note": "Con una duración, *for* indica cuánto tiempo dura algo; no significa «para» ([[for-duration]])."}
+      ]
+    },
+    {
+      "id": 78,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Después se fue"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "y volvió dos minutos más tarde"},
+        {"t": [10, 11, 12, 13], "es": "con una caja de cristal"},
+        {"t": [14, 15, 16], "es": "en las manos."}
+      ],
+      "words": [
+        {"t": [0], "es": "después", "base": "then", "sense": "next"},
+        {"t": [1], "es": "él"},
+        {"t": [2, 3], "es": "se fue", "base": "go away", "sense": "leave", "note": "*Go away* es irse de un lugar ([[phrasal-verbs]])."},
+        {"t": [4], "es": "y"},
+        {"t": [5, 6], "es": "volvió", "base": "come back", "sense": "return", "note": "*Come back* es volver al lugar del que se ha salido ([[phrasal-verbs]])."},
+        {"t": [7], "es": "dos"},
+        {"t": [8], "es": "minutos", "base": "minute", "sense": "time"},
+        {"t": [9], "es": "más tarde", "base": "later", "sense": "after"},
+        {"t": [10, 11, 13], "es": "con una caja", "base": "box", "sense": "container"},
+        {"t": [12], "es": "cristal", "base": "glass", "sense": "material", "note": "En *glass box*, el primer nombre indica el material: una caja de cristal ([[noun-as-adjective]])."},
+        {"t": [14, 15, 16], "es": "en sus manos", "base": "hand", "sense": "body", "note": "Con partes del cuerpo, el inglés usa posesivo: *his hands*, «sus manos» ([[body-possessive]])."}
+      ]
+    },
+    {
+      "id": 79,
+      "line": [
+        {"t": [0, 1, 2], "es": "En la caja"},
+        {"t": [3, 4, 5], "es": "había unas herraduras."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "en la caja", "base": "box", "sense": "container"},
+        {"t": [3], "es": "estaban", "base": "be", "sense": "state", "note": "El lugar va primero y el sujeto aparece detrás del verbo: *some horse-shoes* ([[locative-inversion]])."},
+        {"t": [4, 5], "es": "unas herraduras", "base": "horseshoe", "sense": "shoe", "note": "El libro escribe *horse-shoe* con guion; hoy lo habitual es *horseshoe*, en una sola palabra."}
+      ]
+    },
+    {
+      "id": 80,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Encontramos estas herraduras"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "enterradas en el jardín»,"},
+        {"t": [10, 11, 12], "es": "dijo el duque."}
+      ],
+      "words": [
+        {"t": [0], "es": "nosotros"},
+        {"t": [1], "es": "encontramos", "base": "find", "sense": "discover"},
+        {"t": [2, 3], "es": "estas herraduras", "base": "shoe", "sense": "horseshoe", "note": "*Shoe* también nombra la herradura de un caballo, no solo un zapato."},
+        {"t": [4, 5, 6], "es": "bajo el suelo", "base": "ground", "sense": "surface"},
+        {"t": [7, 8, 9], "es": "en el jardín", "base": "garden", "sense": "plants"},
+        {"t": [10, 11], "es": "el duque", "base": "duke", "sense": "noble"},
+        {"t": [12], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 81,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«Tienen unos quinientos años,"},
+        {"t": [7, 8], "es": "creemos."}
+      ],
+      "words": [
+        {"t": [0], "es": "ellas"},
+        {"t": [1], "es": "son", "base": "be", "sense": "identity", "note": "En inglés, la edad se expresa con *be*, no con *have*: *are five hundred years old* ([[linking-verbs]])."},
+        {"t": [2], "es": "aproximadamente", "base": "about", "sense": "approximately"},
+        {"t": [3, 4], "es": "quinientos"},
+        {"t": [5], "es": "años", "base": "year", "sense": "time"},
+        {"t": [6], "es": "de edad", "base": "old", "sense": "years"},
+        {"t": [7], "es": "nosotros"},
+        {"t": [8], "es": "creemos", "base": "think", "sense": "believe"}
+      ]
+    },
+    {
+      "id": 82,
+      "line": [
+        {"t": [0, 1, 2], "es": "La familia Holdernesse"},
+        {"t": [3, 4, 5, 6, 7, 8], "es": "tiene una larga e interesante historia»."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "la familia", "base": "family", "sense": "relatives"},
+        {"t": [1], "es": "Holdernesse"},
+        {"t": [3], "es": "tiene", "base": "have", "sense": "possess"},
+        {"t": [4, 8], "es": "un pasado", "base": "past", "sense": "time", "note": "*Past* es el pasado. Aquí hablamos de la «historia» de una familia en la traducción."},
+        {"t": [5], "es": "largo", "base": "long", "sense": "length"},
+        {"t": [6], "es": "e"},
+        {"t": [7], "es": "interesante", "base": "interesting", "sense": "attention"}
+      ]
+    },
+    {
+      "id": 83,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Holmes abrió la caja"},
+        {"t": [4, 5, 6, 7, 8], "es": "y sacó una herradura."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "abrió", "base": "open", "sense": "unclose"},
+        {"t": [2, 3], "es": "la caja", "base": "box", "sense": "container"},
+        {"t": [4], "es": "y"},
+        {"t": [5, 6], "es": "sacó", "base": "take out", "sense": "remove", "note": "*Take out* es sacar algo del lugar donde está ([[phrasal-verbs]])."},
+        {"t": [7], "es": "una"},
+        {"t": [8], "es": "herradura", "base": "shoe", "sense": "horseshoe"}
+      ]
+    },
+    {
+      "id": 84,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Era una herradura"},
+        {"t": [4, 5, 6, 7], "es": "para el casco de un caballo,"},
+        {"t": [8, 9, 10, 11], "es": "pero parecía"},
+        {"t": [12, 13, 14, 15], "es": "una pezuña hendida de vaca."}
+      ],
+      "words": [
+        {"t": [0], "es": "ella, eso"},
+        {"t": [1], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [2, 3], "es": "una herradura", "base": "shoe", "sense": "horseshoe"},
+        {"t": [4, 7], "es": "para el pie", "base": "foot", "sense": "body", "note": "Aquí *foot* es el casco del caballo. La pata entera se llama *leg*."},
+        {"t": [5, 6], "es": "de un caballo", "base": "horse", "sense": "animal", "note": "El genitivo *horse’s* une el animal con su parte del cuerpo ([[possessive-s]])."},
+        {"t": [8], "es": "pero"},
+        {"t": [9], "es": "ella, eso"},
+        {"t": [10, 11], "es": "se parecía a", "base": "look like", "sense": "resemble", "note": "*Look like* compara el aspecto de dos cosas. Aquí no significa mirar ([[linking-verbs]])."},
+        {"t": [12, 14], "es": "de una vaca", "base": "cow", "sense": "animal", "note": "El genitivo *cow’s* indica a qué animal pertenece el pie ([[possessive-s]])."},
+        {"t": [13], "es": "hendido, partido en dos", "base": "cloven", "sense": "split", "note": "*Cloven* describe la división en dos partes de la pezuña."},
+        {"t": [15], "es": "pie", "base": "foot", "sense": "body", "note": "El *foot* de una vaca es su pezuña, no toda la pata."}
+      ]
+    },
+    {
+      "id": 85,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Holmes se mojó el dedo"},
+        {"t": [4, 5, 6], "es": "y lo pasó"},
+        {"t": [7, 8, 9], "es": "por la parte inferior"},
+        {"t": [10, 11, 12], "es": "de la herradura."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "mojó", "base": "wet", "sense": "moisten", "note": "Aquí *wet* es un verbo en pasado, con la misma forma que el presente. No es el adjetivo «mojado» ([[past-simple]])."},
+        {"t": [2, 3], "es": "su dedo", "base": "finger", "sense": "hand", "note": "Con partes del cuerpo, el inglés usa posesivo: *his finger*, «su dedo» ([[body-possessive]])."},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "pasó", "base": "run", "sense": "slide", "note": "*Run a finger round* es pasar el dedo por una superficie. Aquí *run* no significa correr."},
+        {"t": [6], "es": "lo, eso"},
+        {"t": [7, 8, 9], "es": "por la parte inferior", "base": "bottom", "sense": "lower-part", "note": "*Round* indica aquí recorrer la parte inferior. En EE. UU. suele usarse *around* ([[british-american]])."},
+        {"t": [10, 11, 12], "es": "de la herradura", "base": "shoe", "sense": "horseshoe"}
+      ]
+    },
+    {
+      "id": 86,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Se le quedó un poco de barro en el dedo."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "un poco de barro", "base": "mud", "sense": "earth", "note": "*A little* indica una pequeña cantidad de algo incontable, como *mud* ([[uncountable]])."},
+        {"t": [3, 4], "es": "se desprendió", "base": "come off", "sense": "detach", "note": "*Come off* es desprenderse de una superficie. Aquí el barro pasa al dedo ([[phrasal-verbs]])."},
+        {"t": [5, 6, 7], "es": "en su dedo", "base": "finger", "sense": "hand", "note": "Con partes del cuerpo, el inglés usa posesivo: *his finger*, «su dedo» ([[body-possessive]])."}
+      ]
+    },
+    {
+      "id": 87,
+      "line": [
+        {"t": [0, 1], "es": "«Gracias»,"},
+        {"t": [2, 3], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "gracias", "base": "thank you", "sense": "gratitude"},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3], "es": "Holmes"}
+      ]
+    },
+    {
+      "id": 88,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Volvió a poner la herradura"},
+        {"t": [5, 6, 7], "es": "en su caja."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 4], "es": "volvió a poner", "base": "put back", "sense": "replace", "note": "*Put back* es devolver algo a donde estaba. El objeto puede separar el verbo y la partícula ([[phrasal-verbs]])."},
+        {"t": [2, 3], "es": "la herradura", "base": "horseshoe", "sense": "shoe", "note": "El libro escribe *horse-shoe* con guion; hoy lo habitual es *horseshoe*."},
+        {"t": [5, 6, 7], "es": "en su caja", "base": "box", "sense": "container", "note": "*Its* es un posesivo, «su», para cosas o animales. No lleva el apóstrofo de *it’s* (*it is*)."}
+      ]
+    },
+    {
+      "id": 89,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Esa herradura es"},
+        {"t": [3, 4, 5, 6, 7], "es": "la segunda cosa más interesante"},
+        {"t": [8, 9, 10, 11, 12], "es": "del norte de Inglaterra»,"},
+        {"t": [13, 14], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "esa herradura", "base": "shoe", "sense": "horseshoe"},
+        {"t": [2], "es": "es", "base": "be", "sense": "identity"},
+        {"t": [3, 7], "es": "la cosa", "base": "thing", "sense": "object"},
+        {"t": [4], "es": "segunda", "base": "second", "sense": "order"},
+        {"t": [5], "es": "más", "base": "most", "sense": "superlative", "note": "*Most* forma el superlativo con adjetivos largos. *Second most* indica el segundo puesto ([[comparatives]])."},
+        {"t": [6], "es": "interesante", "base": "interesting", "sense": "attention"},
+        {"t": [8, 9, 10], "es": "en el norte", "base": "north", "sense": "direction"},
+        {"t": [11, 12], "es": "de Inglaterra"},
+        {"t": [13], "es": "él"},
+        {"t": [14], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 90,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¿Y la primera?»,"},
+        {"t": [3, 4, 5], "es": "preguntó el duque."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1, 2], "es": "la primera", "base": "first", "sense": "order"},
+        {"t": [3], "es": "preguntó", "base": "ask", "sense": "question"},
+        {"t": [4, 5], "es": "el duque", "base": "duke", "sense": "noble"}
+      ]
+    },
+    {
+      "id": 91,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Holmes cogió de la mesa el cheque de doce mil libras"},
+        {"t": [11, 12, 13, 14], "es": "y lo guardó despacio"},
+        {"t": [15, 16, 17], "es": "en su libreta."}
+      ],
+      "words": [
+        {"t": [0], "es": "Holmes"},
+        {"t": [1], "es": "cogió", "base": "take", "sense": "get"},
+        {"t": [2, 3], "es": "el cheque", "base": "cheque", "sense": "payment", "note": "Ortografía británica; en EE. UU. se escribe *check* ([[british-american]])."},
+        {"t": [4, 7], "es": "de libras", "base": "pound", "sense": "currency", "note": "*For* indica el importe del cheque: *for twelve thousand pounds*, «de doce mil libras»."},
+        {"t": [5, 6], "es": "doce mil"},
+        {"t": [8, 9, 10], "es": "de la mesa", "base": "table", "sense": "furniture"},
+        {"t": [11], "es": "y"},
+        {"t": [12], "es": "despacio", "base": "slowly", "sense": "speed"},
+        {"t": [13], "es": "puso", "base": "put", "sense": "place", "note": "*Put* significa poner; aquí «guardar» suena más natural en la traducción."},
+        {"t": [14], "es": "lo, eso"},
+        {"t": [15, 16, 17], "es": "en su libreta", "base": "notebook", "sense": "book"}
+      ]
+    },
+    {
+      "id": 92,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Soy un hombre pobre»,"},
+        {"t": [5, 6], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "soy", "base": "be", "sense": "identity"},
+        {"t": [2, 4], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [3], "es": "pobre", "base": "poor", "sense": "money", "note": "Aquí *poor* habla del dinero, no expresa lástima. La frase tiene un tono de broma."},
+        {"t": [5], "es": "él"},
+        {"t": [6], "es": "dijo", "base": "say", "sense": "speak"}
+      ]
+    },
+    {
+      "id": 93,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Miró la libreta con cariño"},
+        {"t": [6, 7, 8, 9], "es": "y después la guardó con cuidado"},
+        {"t": [10, 11, 12], "es": "en el bolsillo."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 3], "es": "miró", "base": "look at", "sense": "watch", "note": "Para decir qué miras, el inglés usa *look at*, con la preposición *at*."},
+        {"t": [2], "es": "con cariño", "base": "lovingly", "sense": "affection"},
+        {"t": [4, 5], "es": "la libreta", "base": "notebook", "sense": "book"},
+        {"t": [6], "es": "después", "base": "then", "sense": "next"},
+        {"t": [7], "es": "puso", "base": "put", "sense": "place", "note": "*Put* significa poner; aquí «guardar» suena más natural en la traducción."},
+        {"t": [8], "es": "la, eso"},
+        {"t": [9], "es": "con cuidado", "base": "carefully", "sense": "care"},
+        {"t": [10, 11, 12], "es": "en su bolsillo", "base": "pocket", "sense": "clothing", "note": "Con la ropa, el inglés suele usar posesivo: *his pocket*, «su bolsillo» ([[body-possessive]])."}
+      ]
+    },
+    {
+      "id": 94,
+      "line": [
+        {"t": [0, 1], "es": "«Aquella tarde"},
+        {"t": [2, 3, 4], "es": "James se reunió con Arthur"},
+        {"t": [5, 6, 7], "es": "en Ragged Shaw»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "aquella tarde", "base": "evening", "sense": "time"},
+        {"t": [2], "es": "James"},
+        {"t": [3], "es": "se reunió con", "base": "meet", "sense": "gather"},
+        {"t": [4], "es": "Arthur"},
+        {"t": [5, 6, 7], "es": "en Ragged Shaw", "note": "*Shaw* es una palabra antigua para un bosquecillo; *ragged* significa «irregular, desigual»."}
+      ]
+    },
+    {
+      "id": 95,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Era una herradura"},
+        {"t": [4, 5, 6, 7], "es": "para el casco de un caballo,"},
+        {"t": [8, 9, 10, 11], "es": "pero parecía"},
+        {"t": [12, 13, 14, 15], "es": "una pezuña hendida de vaca."}
+      ],
+      "words": [
+        {"t": [0], "es": "ella, eso"},
+        {"t": [1], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [2, 3], "es": "una herradura", "base": "shoe", "sense": "horseshoe"},
+        {"t": [4, 7], "es": "para el pie", "base": "foot", "sense": "body", "note": "Aquí *foot* es el casco del caballo. La pata entera se llama *leg*."},
+        {"t": [5, 6], "es": "de un caballo", "base": "horse", "sense": "animal", "note": "El genitivo *horse’s* une el animal con su parte del cuerpo ([[possessive-s]])."},
+        {"t": [8], "es": "pero"},
+        {"t": [9], "es": "ella, eso"},
+        {"t": [10, 11], "es": "se parecía a", "base": "look like", "sense": "resemble", "note": "*Look like* compara el aspecto de dos cosas. Aquí no significa mirar ([[linking-verbs]])."},
+        {"t": [12, 14], "es": "de una vaca", "base": "cow", "sense": "animal", "note": "El genitivo *cow’s* indica a qué animal pertenece el pie ([[possessive-s]])."},
+        {"t": [13], "es": "hendido, partido en dos", "base": "cloven", "sense": "split", "note": "*Cloven* describe la división en dos partes de la pezuña."},
+        {"t": [15], "es": "pie", "base": "foot", "sense": "body", "note": "El *foot* de una vaca es su pezuña, no toda la pata."}
+      ]
+    },
+    {
+      "id": 96,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Soy un hombre pobre»,"},
+        {"t": [5, 6], "es": "dijo Holmes."}
+      ],
+      "words": [
+        {"t": [0], "es": "yo"},
+        {"t": [1], "es": "soy", "base": "be", "sense": "identity"},
+        {"t": [2, 4], "es": "un hombre", "base": "man", "sense": "adult"},
+        {"t": [3], "es": "pobre", "base": "poor", "sense": "money", "note": "Aquí *poor* habla del dinero, no expresa lástima. La frase tiene un tono de broma."},
+        {"t": [5], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [6], "es": "Holmes"}
+      ]
+    }
+  ]
+}

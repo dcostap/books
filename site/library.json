@@ -42,6 +42,12 @@
         "title": "Sherlock Holmes Talks to the Duke",
         "data": "books/duke/06.json",
         "duration": 354.96
+      },
+      {
+        "n": 7,
+        "title": "The Duke’s Son",
+        "data": "books/duke/07.json",
+        "duration": 526.94
       }
     ]
   },
