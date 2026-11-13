@@ -36,6 +36,12 @@
         "title": "A Visit to the Green Man",
         "data": "books/duke/05.json",
         "duration": 595.23
+      },
+      {
+        "n": 6,
+        "title": "Sherlock Holmes Talks to the Duke",
+        "data": "books/duke/06.json",
+        "duration": 354.96
       }
     ]
   },

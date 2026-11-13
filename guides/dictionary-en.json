@@ -23,6 +23,18 @@
       }
     ]
   },
+  "a little": {
+    "senses": [
+      {
+        "id": "amount",
+        "es": "un poco",
+        "ex": [
+          "Add a little milk.",
+          "Añade un poco de leche."
+        ]
+      }
+    ]
+  },
   "a lot": {
     "senses": [
       {
@@ -315,6 +327,26 @@
         "ex": [
           "Can you answer the phone?",
           "¿Puedes atender el teléfono?"
+        ]
+      }
+    ]
+  },
+  "anywhere": {
+    "senses": [
+      {
+        "id": "place",
+        "es": "en cualquier parte",
+        "ex": [
+          "You can sit anywhere.",
+          "Puedes sentarte en cualquier parte."
+        ]
+      },
+      {
+        "id": "destination",
+        "es": "a cualquier parte",
+        "ex": [
+          "We can go anywhere.",
+          "Podemos ir a cualquier parte."
         ]
       }
     ]
@@ -1246,6 +1278,30 @@
       }
     ]
   },
+  "cheque": {
+    "senses": [
+      {
+        "id": "payment",
+        "es": "cheque",
+        "ex": [
+          "Can I pay by cheque?",
+          "¿Puedo pagar con cheque?"
+        ]
+      }
+    ]
+  },
+  "cheque book": {
+    "senses": [
+      {
+        "id": "banking",
+        "es": "talonario de cheques",
+        "ex": [
+          "I need a new cheque book.",
+          "Necesito un talonario de cheques nuevo."
+        ]
+      }
+    ]
+  },
   "child": {
     "forms": {
       "plural": "children"
@@ -1385,6 +1441,18 @@
         "ex": [
           "She gave me a cold look.",
           "Me dirigió una mirada fría."
+        ]
+      }
+    ]
+  },
+  "coldly": {
+    "senses": [
+      {
+        "id": "unfriendly",
+        "es": "fríamente",
+        "ex": [
+          "She greeted me coldly.",
+          "Me saludó fríamente."
         ]
       }
     ]
@@ -2365,6 +2433,30 @@
         "ex": [
           "School starts again in the fall.",
           "Las clases empiezan de nuevo en otoño."
+        ]
+      }
+    ]
+  },
+  "fall back": {
+    "forms": {
+      "past": "fell back",
+      "participle": "fallen back"
+    },
+    "senses": [
+      {
+        "id": "backward",
+        "es": "caer hacia atrás",
+        "ex": [
+          "She fell back onto the bed.",
+          "Cayó hacia atrás sobre la cama."
+        ]
+      },
+      {
+        "id": "retreat",
+        "es": "retroceder",
+        "ex": [
+          "The soldiers fell back.",
+          "Los soldados retrocedieron."
         ]
       }
     ]
@@ -3827,6 +3919,22 @@
       }
     ]
   },
+  "hear about": {
+    "forms": {
+      "past": "heard about",
+      "participle": "heard about"
+    },
+    "senses": [
+      {
+        "id": "learn",
+        "es": "enterarse de",
+        "ex": [
+          "She heard about the accident.",
+          "Se enteró del accidente."
+        ]
+      }
+    ]
+  },
   "help": {
     "senses": [
       {
@@ -4095,6 +4203,18 @@
       }
     ]
   },
+  "how much": {
+    "senses": [
+      {
+        "id": "quantity",
+        "es": "cuánto",
+        "ex": [
+          "How much does it cost?",
+          "¿Cuánto cuesta?"
+        ]
+      }
+    ]
+  },
   "hungrily": {
     "senses": [
       {
@@ -4299,6 +4419,18 @@
       }
     ]
   },
+  "killing": {
+    "senses": [
+      {
+        "id": "death",
+        "es": "muerte violenta",
+        "ex": [
+          "The killing shocked the town.",
+          "La muerte violenta conmocionó al pueblo."
+        ]
+      }
+    ]
+  },
   "kilometre": {
     "senses": [
       {
@@ -4359,6 +4491,22 @@
         "ex": [
           "I knew him by his voice.",
           "Lo reconocí por la voz."
+        ]
+      }
+    ]
+  },
+  "know about": {
+    "forms": {
+      "past": "knew about",
+      "participle": "known about"
+    },
+    "senses": [
+      {
+        "id": "information",
+        "es": "saber de",
+        "ex": [
+          "Do you know about the changes?",
+          "¿Estás al tanto de los cambios?"
         ]
       }
     ]
@@ -5286,6 +5434,14 @@
           "He's too mean to buy presents.",
           "Es demasiado tacaño para comprar regalos."
         ]
+      },
+      {
+        "id": "express",
+        "es": "querer decir",
+        "ex": [
+          "What do you mean by that?",
+          "¿Qué quieres decir con eso?"
+        ]
       }
     ]
   },
@@ -5697,6 +5853,46 @@
         "ex": [
           "Don't muddy the clean floor.",
           "No embarres el suelo limpio."
+        ]
+      }
+    ]
+  },
+  "murder": {
+    "senses": [
+      {
+        "id": "crime",
+        "es": "asesinato",
+        "ex": [
+          "The police investigated a murder.",
+          "La policía investigó un asesinato."
+        ]
+      },
+      {
+        "id": "kill",
+        "es": "asesinar",
+        "ex": [
+          "Someone murdered the shopkeeper.",
+          "Alguien asesinó al tendero."
+        ]
+      },
+      {
+        "id": "ordeal",
+        "es": "suplicio",
+        "ex": [
+          "This heat is murder.",
+          "Este calor es un suplicio."
+        ]
+      }
+    ]
+  },
+  "murderer": {
+    "senses": [
+      {
+        "id": "criminal",
+        "es": "asesino",
+        "ex": [
+          "The murderer went to prison.",
+          "El asesino fue a la cárcel."
         ]
       }
     ]
@@ -6633,6 +6829,34 @@
         "ex": [
           "It's past the bridge.",
           "Está más allá del puente."
+        ]
+      }
+    ]
+  },
+  "pen": {
+    "senses": [
+      {
+        "id": "writing",
+        "es": "bolígrafo, pluma",
+        "ex": [
+          "May I borrow your pen?",
+          "¿Me dejas tu bolígrafo?"
+        ]
+      },
+      {
+        "id": "enclosure",
+        "es": "corral",
+        "ex": [
+          "The sheep are in their pen.",
+          "Las ovejas están en su corral."
+        ]
+      },
+      {
+        "id": "write",
+        "es": "escribir",
+        "ex": [
+          "She penned a short letter.",
+          "Escribió una carta breve."
         ]
       }
     ]
@@ -7656,6 +7880,14 @@
           "See if the door is locked.",
           "Comprueba si la puerta está cerrada con llave."
         ]
+      },
+      {
+        "id": "receive",
+        "es": "recibir",
+        "ex": [
+          "Can the doctor see me tomorrow?",
+          "¿Puede recibirme el médico mañana?"
+        ]
       }
     ]
   },
@@ -7782,6 +8014,30 @@
         "ex": [
           "She gave a short reply.",
           "Dio una respuesta seca."
+        ]
+      }
+    ]
+  },
+  "shut": {
+    "forms": {
+      "past": "shut",
+      "participle": "shut"
+    },
+    "senses": [
+      {
+        "id": "close",
+        "es": "cerrar",
+        "ex": [
+          "Shut your eyes for a moment.",
+          "Cierra los ojos un momento."
+        ]
+      },
+      {
+        "id": "closed",
+        "es": "cerrado",
+        "ex": [
+          "The windows are shut.",
+          "Las ventanas están cerradas."
         ]
       }
     ]
@@ -8126,6 +8382,22 @@
         "ex": [
           "He spoke the truth.",
           "Dijo la verdad."
+        ]
+      }
+    ]
+  },
+  "speak to": {
+    "forms": {
+      "past": "spoke to",
+      "participle": "spoken to"
+    },
+    "senses": [
+      {
+        "id": "conversation",
+        "es": "hablar con",
+        "ex": [
+          "Can I speak to the teacher?",
+          "¿Puedo hablar con el profesor?"
         ]
       }
     ]
@@ -8702,6 +8974,30 @@
       }
     ]
   },
+  "talk about": {
+    "senses": [
+      {
+        "id": "discuss",
+        "es": "hablar de",
+        "ex": [
+          "Let's talk about your holiday.",
+          "Hablemos de tus vacaciones."
+        ]
+      }
+    ]
+  },
+  "talk to": {
+    "senses": [
+      {
+        "id": "conversation",
+        "es": "hablar con",
+        "ex": [
+          "I talked to my neighbour.",
+          "Hablé con mi vecino."
+        ]
+      }
+    ]
+  },
   "tall": {
     "senses": [
       {
@@ -9090,6 +9386,18 @@
         "ex": [
           "a tired-looking traveller",
           "un viajero de aspecto cansado"
+        ]
+      }
+    ]
+  },
+  "tiredly": {
+    "senses": [
+      {
+        "id": "fatigue",
+        "es": "con cansancio",
+        "ex": [
+          "She rubbed her eyes tiredly.",
+          "Se frotó los ojos con cansancio."
         ]
       }
     ]
@@ -9498,6 +9806,18 @@
         "ex": [
           "We met in this very room.",
           "Nos conocimos en esta misma habitación."
+        ]
+      }
+    ]
+  },
+  "very well": {
+    "senses": [
+      {
+        "id": "agreement",
+        "es": "de acuerdo",
+        "ex": [
+          "Very well, we can wait.",
+          "De acuerdo, podemos esperar."
         ]
       }
     ]

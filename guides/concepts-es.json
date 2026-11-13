@@ -249,6 +249,20 @@
     "examples": [["Swimming is good for you.", "Nadar es bueno para ti."], ["Thanks for coming.", "Gracias por venir."], ["His thinking was wrong.", "Su razonamiento estaba equivocado."]],
     "wrong": [["Thanks for come.", "Thanks for coming."]]
   },
+  "verb-infinitive": {
+    "name": "verbo + infinitivo con *to*",
+    "en": "verb + to-infinitive",
+    "text": "Tras verbos como *want*, *need* o *begin*, otro verbo puede ir en infinitivo con *to*. Aquí *to* no indica finalidad. El español puede usar solo el infinitivo o añadir una preposición: «necesitar saber», «empezar a escribir».",
+    "examples": [["I need to know.", "Necesito saberlo."], ["She began to write.", "Empezó a escribir."], ["I would like to stay.", "Me gustaría quedarme."]],
+    "wrong": [["I need know.", "I need to know."], ["She wants to goes.", "She wants to go."]]
+  },
+  "going-to-future": {
+    "name": "futuro con *going to*",
+    "en": "be going to + verb",
+    "text": "*Am*, *is* o *are* + *going to* + verbo habla de una intención o de algo que parece que va a pasar. No indica necesariamente movimiento. En preguntas, *am*, *is* o *are* va antes del sujeto.",
+    "examples": [["I'm going to call her.", "Voy a llamarla."], ["Are you going to stay?", "¿Vas a quedarte?"], ["It's going to rain.", "Va a llover."]],
+    "wrong": [["I going to call her.", "I'm going to call her."], ["Is he going to leaves?", "Is he going to leave?"]]
+  },
   "compound-adjectives": {
     "name": "adjetivos compuestos",
     "en": "compound adjectives",
