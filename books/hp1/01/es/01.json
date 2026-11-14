@@ -52,7 +52,7 @@
         {"t": [17], "es": "normales", "base": "normal", "sense": "usual"},
         {"t": [18, 19], "es": "gracias", "base": "thank you", "sense": "gratitude", "note": "Suena a respuesta ofendida, aunque nadie les haya preguntado nada."},
         {"t": [20], "es": "muy", "base": "very", "sense": "degree"},
-        {"t": [21], "es": "mucho", "base": "much", "sense": "amount"}
+        {"t": [21], "es": "mucho", "base": "much", "sense": "degree"}
       ]
     },
     {
@@ -211,7 +211,7 @@
         {"t": [16], "es": "era", "base": "be", "sense": "identity"},
         {"t": [17], "es": "que"},
         {"t": [18], "es": "alguien"},
-        {"t": [19, 20], "es": "descubriría", "base": "discover", "sense": "find"},
+        {"t": [19, 20], "es": "descubriría", "base": "discover", "sense": "find", "note": "*Would* presenta algo futuro visto desde aquel momento pasado ([[future-in-the-past]])."},
         {"t": [21], "es": "lo"}
       ]
     },
@@ -369,9 +369,9 @@
         {"t": [27], "es": "y"},
         {"t": [28], "es": "misteriosas", "base": "mysterious", "sense": "unexplained"},
         {"t": [29], "es": "cosas", "base": "thing", "sense": "object"},
-        {"t": [30, 32, 33], "es": "estarían ocurriendo", "base": "happen", "sense": "occur"},
+        {"t": [30, 32, 33], "es": "estarían ocurriendo", "base": "happen", "sense": "occur", "note": "*Would* presenta algo futuro visto desde aquel momento pasado ([[future-in-the-past]])."},
         {"t": [31], "es": "pronto", "base": "soon", "sense": "time"},
-        {"t": [34, 35], "es": "por todo", "base": "all", "sense": "extent"},
+        {"t": [34, 35], "es": "por todo", "base": "all over", "sense": "everywhere"},
         {"t": [36, 37], "es": "el país", "base": "country", "sense": "nation"}
       ]
     },
@@ -417,8 +417,8 @@
         {"t": [4, 7], "es": "una lechuza", "base": "owl", "sense": "bird"},
         {"t": [5], "es": "grande", "base": "large", "sense": "size", "note": "Falso amigo: *large* es «grande»; «largo» es *long* ([[false-friends]])."},
         {"t": [6], "es": "de color leonado", "base": "tawny", "sense": "colour"},
-        {"t": [8], "es": "pasar aleteando", "base": "flutter", "sense": "wings"},
-        {"t": [9, 10, 11], "es": "junto a la ventana", "base": "window", "sense": "opening"}
+        {"t": [8], "es": "aletear", "base": "flutter", "sense": "wings"},
+        {"t": [9, 10, 11], "es": "por delante de la ventana", "base": "window", "sense": "opening"}
       ]
     },
     {
@@ -653,7 +653,7 @@
       ],
       "words": [
         {"t": [0, 1], "es": "el señor Dursley", "note": "En británico, *Mr* no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
-        {"t": [2], "es": "dio", "base": "give", "sense": "transfer"},
+        {"t": [2], "es": "dio", "base": "give", "sense": "action"},
         {"t": [3], "es": "a sí mismo"},
         {"t": [4, 6], "es": "una sacudida", "base": "shake", "sense": "movement"},
         {"t": [5], "es": "pequeña", "base": "little", "sense": "small"},
@@ -951,14 +951,14 @@
         {"t": [0], "es": "él"},
         {"t": [1, 2], "es": "no vio", "base": "see", "sense": "sight"},
         {"t": [3, 4], "es": "las lechuzas", "base": "owl", "sense": "bird"},
-        {"t": [5], "es": "pasando en picado", "base": "swoop", "sense": "dive"},
+        {"t": [5], "es": "bajando en picado", "base": "swoop", "sense": "dive"},
         {"t": [6], "es": "por delante", "base": "past", "sense": "passing"},
         {"t": [7, 8, 9], "es": "a plena luz del día", "base": "broad daylight", "sense": "daytime"},
         {"t": [10], "es": "aunque"},
         {"t": [11], "es": "personas", "base": "person", "sense": "human"},
         {"t": [12], "es": "abajo", "base": "down", "sense": "direction"},
         {"t": [13, 14, 15], "es": "en la calle", "base": "street", "sense": "road"},
-        {"t": [16], "es": "sí lo hicieron", "base": "do", "sense": "perform", "note": "*Did* sustituye a *saw the owls*: evita repetir el verbo y su complemento ([[ellipsis]])."},
+        {"t": [16], "es": "sí las vieron", "note": "*Did* sustituye a *saw the owls*: evita repetir el verbo y su complemento ([[ellipsis]])."},
         {"t": [17], "es": "ellos"},
         {"t": [18], "es": "señalaron", "base": "point", "sense": "indicate"},
         {"t": [19], "es": "y"},
@@ -1430,7 +1430,7 @@
         {"t": [14], "es": "él"},
         {"t": [15], "es": "salió de", "base": "leave", "sense": "depart"},
         {"t": [16, 17], "es": "el edificio", "base": "building", "sense": "structure"},
-        {"t": [18, 19, 20], "es": "a las cinco", "note": "*O’clock* se usa con las horas en punto, no con minutos."},
+        {"t": [18, 19, 20], "es": "a las cinco", "note": "*O’clock* se usa con las horas en punto, no con minutos ([[telling-time]])."},
         {"t": [21], "es": "él"},
         {"t": [22], "es": "estaba", "base": "be", "sense": "state"},
         {"t": [23], "es": "todavía", "base": "still", "sense": "continuing"},

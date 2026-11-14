@@ -188,7 +188,7 @@
       "words": [
         {"t": [0, 2], "es": "¿no puede ver?", "base": "see", "sense": "understand"},
         {"t": [1], "es": "usted"},
-        {"t": [3], "es": "cómo", "base": "how", "sense": "manner"},
+        {"t": [3], "es": "hasta qué punto", "base": "how", "sense": "degree"},
         {"t": [4], "es": "mucho", "base": "much", "sense": "degree"},
         {"t": [5, 6], "es": "en mejor situación", "base": "well off", "sense": "comfortable", "note": "*Better off* puede referirse a estar mejor en general, no solo a tener más dinero."},
         {"t": [7, 8], "es": "él estará", "base": "be", "sense": "state"},
@@ -249,7 +249,7 @@
         {"t": [1], "es": "miró", "base": "eye", "sense": "notice"},
         {"t": [2, 3], "es": "su capa", "base": "cloak", "sense": "garment"},
         {"t": [4], "es": "de repente", "base": "suddenly", "sense": "unexpectedly"},
-        {"t": [5, 6], "es": "como si", "base": "as if", "sense": "appearance"},
+        {"t": [5, 6], "es": "como si", "base": "as though", "sense": "appearance"},
         {"t": [7], "es": "ella"},
         {"t": [8], "es": "creyera", "base": "think", "sense": "believe"},
         {"t": [9], "es": "él"},
@@ -561,7 +561,7 @@
       "words": [
         {"t": [0], "es": "joven", "base": "young", "sense": "age"},
         {"t": [1, 2], "es": "Sirius Black"},
-        {"t": [3], "es": "prestó", "base": "lend", "sense": "temporary-give", "note": "*Lent it me* equivale a *lent it to me* ([[double-objects]]). *Lend* es dar prestado; *borrow*, recibir prestado."},
+        {"t": [3], "es": "prestó", "base": "lend", "sense": "temporary-give", "note": "*Lent it me* es *lent it to me* en algunas variedades británicas ([[double-objects]]). *Lend* es dar prestado; *borrow*, recibir prestado."},
         {"t": [4], "es": "la"},
         {"t": [5], "es": "a mí"}
       ]
@@ -809,7 +809,7 @@
         {"t": [10, 11], "es": "preguntó Hagrid."}
       ],
       "words": [
-        {"t": [0], "es": "¿podría?", "base": "can", "sense": "ability"},
+        {"t": [0], "es": "¿podría?", "base": "can", "sense": "ability", "note": "*Could I…?* pide permiso de forma cortés, no pregunta por una capacidad ([[modal-verbs]])."},
         {"t": [1], "es": "yo"},
         {"t": [3, 5, 6, 7], "es": "¿podría despedirme de?", "base": "say goodbye to", "sense": "farewell"},
         {"t": [4], "es": "yo"},
@@ -1151,7 +1151,7 @@
         {"t": [7, 8], "es": "profesora McGonagall"},
         {"t": [9], "es": "dijo", "base": "say", "sense": "speak"},
         {"t": [10], "es": "Dumbledore"},
-        {"t": [11, 12], "es": "inclinando la cabeza hacia", "base": "nod", "sense": "gesture"},
+        {"t": [11, 12], "es": "inclinando la cabeza hacia", "base": "nod", "sense": "greet"},
         {"t": [13], "es": "ella"}
       ]
     },
@@ -1271,8 +1271,7 @@
       ],
       "words": [
         {"t": [0], "es": "él"},
-        {"t": [1], "es": "giró", "base": "turn", "sense": "rotate"},
-        {"t": [2, 3, 4], "es": "sobre su talón", "base": "heel", "sense": "foot"},
+        {"t": [1, 2, 3, 4], "es": "giró bruscamente", "base": "turn on one's heel", "sense": "turn-away", "note": "*Turn on one’s heel* es dar media vuelta de golpe, a menudo para marcharse."},
         {"t": [5], "es": "y"},
         {"t": [6, 7, 8], "es": "con un susurro", "base": "swish", "sense": "sound"},
         {"t": [9, 10, 11], "es": "de su capa", "base": "cloak", "sense": "garment"},
@@ -1301,7 +1300,7 @@
         {"t": [14, 15, 17], "es": "bajo el cielo", "base": "sky", "sense": "above"},
         {"t": [16], "es": "negro como tinta", "base": "inky", "sense": "dark"},
         {"t": [18, 21], "es": "el lugar", "base": "place", "sense": "location"},
-        {"t": [19], "es": "mismo", "base": "very", "sense": "exact", "note": "*The very last* refuerza *last*: el lugar menos probable, no el último de una lista."},
+        {"t": [19], "es": "precisamente", "base": "very", "sense": "exact", "note": "*The very last* refuerza *last*: el lugar menos probable, no el último de una lista."},
         {"t": [20], "es": "último", "base": "last", "sense": "final"},
         {"t": [22], "es": "tú (en general)", "note": "Aquí *you* se refiere a cualquiera, no solo a quien lee ([[generic-you]])."},
         {"t": [23, 24], "es": "esperarías", "base": "expect", "sense": "anticipate"},
@@ -1361,7 +1360,7 @@
         {"t": [33], "es": "tiempo", "base": "time", "sense": "duration"},
         {"t": [35, 36], "es": "de la señora Dursley", "note": "El posesivo *’s* une a la señora Dursley con su grito ([[possessive-s]])."},
         {"t": [34, 37], "es": "por el grito", "base": "scream", "sense": "sound"},
-        {"t": [38], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [38], "es": "cuando"},
         {"t": [39], "es": "ella"},
         {"t": [40], "es": "abriera", "base": "open", "sense": "unclose"},
         {"t": [41, 43], "es": "la puerta", "base": "door", "sense": "entrance"},
@@ -1374,7 +1373,7 @@
         {"t": [51], "es": "que"},
         {"t": [52], "es": "él"},
         {"t": [53, 54], "es": "pasaría", "base": "spend", "sense": "time"},
-        {"t": [55, 57, 58], "es": "las pocas semanas", "base": "week", "sense": "time"},
+        {"t": [55, 57, 58], "es": "unas cuantas semanas", "base": "week", "sense": "time"},
         {"t": [56], "es": "próximas", "base": "next", "sense": "future"},
         {"t": [59, 60], "es": "recibiendo toques molestos", "base": "prod", "sense": "poke"},
         {"t": [61], "es": "y"},
@@ -1389,13 +1388,13 @@
         {"t": [76], "es": "personas", "base": "person", "sense": "human"},
         {"t": [77], "es": "reuniéndose", "base": "meet", "sense": "gather"},
         {"t": [78, 79], "es": "en secreto", "base": "secret", "sense": "hidden-fact"},
-        {"t": [80, 81], "es": "por todo", "base": "all", "sense": "extent"},
+        {"t": [80, 81], "es": "por todo", "base": "all over", "sense": "everywhere"},
         {"t": [82, 83], "es": "el país", "base": "country", "sense": "nation"},
         {"t": [84, 85, 86], "es": "estaban alzando", "base": "hold up", "sense": "raise"},
         {"t": [87, 88], "es": "sus copas", "base": "glass", "sense": "drink"},
         {"t": [89], "es": "y"},
         {"t": [90], "es": "diciendo", "base": "say", "sense": "speak"},
-        {"t": [91, 93], "es": "en voces", "base": "voice", "sense": "sound"},
+        {"t": [91, 93], "es": "con voces", "base": "voice", "sense": "sound"},
         {"t": [92], "es": "bajas", "base": "hushed", "sense": "quiet"},
         {"t": [94], "es": "por", "note": "*To* introduce a quien se dedica un brindis, como «por» en español."},
         {"t": [95, 96], "es": "Harry Potter"},

@@ -383,6 +383,13 @@
     "examples": [["We’d better go.", "Más vale que nos vayamos."], ["You’d better not wait.", "Será mejor que no esperes."]],
     "wrong": [["We’d better to go.", "We’d better go."]]
   },
+  "perception-complements": {
+    "name": "verbos de percepción con otro verbo",
+    "en": "perception verbs with verb complements",
+    "text": "Tras *see*, *hear* o *notice*, la persona o cosa observada puede ir seguida de un verbo sin *to* o en *-ing*. La forma en *-ing* destaca una acción en marcha.",
+    "examples": [["I saw him leave.", "Lo vi irse."], ["I saw him leaving.", "Lo vi mientras se iba."]],
+    "wrong": [["I saw him to leave.", "I saw him leave."]]
+  },
   "future-in-the-past": {
     "name": "futuro visto desde el pasado",
     "en": "future in the past",

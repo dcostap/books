@@ -130,7 +130,8 @@
         {"t": [9], "es": "de ojos pequeños y brillantes", "base": "beady-eyed", "sense": "appearance", "note": "*Beady* compara los ojos con cuentas, *beads*: pequeños, brillantes y atentos ([[compound-adjectives]])."},
         {"t": [10, 11], "es": "la señora Dursley", "note": "En británico, *Mrs* no lleva punto; en EE. UU., *Mrs.* ([[british-american]])."},
         {"t": [12], "es": "esa persona", "note": "*They* puede referirse a una sola persona cuyo sexo no se precisa ([[singular-they]])."},
-        {"t": [13, 14, 15, 16, 17], "es": "no sería capaz de ver", "base": "see", "sense": "sight"},
+        {"t": [13, 14, 15], "es": "no sería capaz", "base": "able", "sense": "capable"},
+        {"t": [16, 17], "es": "de ver", "base": "see", "sense": "sight"},
         {"t": [18], "es": "nada"},
         {"t": [19], "es": "que"},
         {"t": [20, 21], "es": "estaba ocurriendo", "base": "happen", "sense": "occur"},
@@ -301,7 +302,7 @@
       "words": [
         {"t": [0, 2], "es": "mi profesora", "base": "professor", "sense": "title"},
         {"t": [1], "es": "querida", "base": "dear", "sense": "address"},
-        {"t": [3, 5], "es": "he visto", "base": "see", "sense": "sight"},
+        {"t": [3, 5], "es": "he visto", "base": "see", "sense": "sight", "note": "Tras *see* + persona o animal, el verbo puede ir sin *to*: *seen a cat sit* ([[perception-complements]])."},
         {"t": [4], "es": "nunca", "base": "never", "sense": "time"},
         {"t": [6, 7], "es": "un gato", "base": "cat", "sense": "animal"},
         {"t": [8], "es": "estar sentado", "base": "sit", "sense": "seated"},
@@ -432,7 +433,7 @@
         {"t": [0], "es": "ella"},
         {"t": [1], "es": "movió bruscamente", "base": "jerk", "sense": "move"},
         {"t": [2, 3], "es": "su cabeza", "base": "head", "sense": "body"},
-        {"t": [4], "es": "hacia atrás", "base": "back", "sense": "return"},
+        {"t": [4], "es": "hacia atrás", "base": "back", "sense": "backward"},
         {"t": [5], "es": "hacia"},
         {"t": [6, 7], "es": "de los Dursley", "note": "Con un plural acabado en *-s*, el posesivo lleva solo apóstrofo ([[possessive-s]])."},
         {"t": [8], "es": "oscura", "base": "dark", "sense": "unlit"},
@@ -556,7 +557,7 @@
       ],
       "words": [
         {"t": [0], "es": "pero"},
-        {"t": [1], "es": "eso es"},
+        {"t": [1], "es": "eso es", "base": "be", "sense": "identity"},
         {"t": [2, 3], "es": "ninguna razón", "base": "reason", "sense": "cause"},
         {"t": [4, 5, 6, 7], "es": "perder nuestra calma", "base": "lose one's head", "sense": "panic", "note": "Literalmente, «nuestras cabezas»; la expresión indica perder la calma o el juicio ([[body-possessive]])."}
       ]
@@ -603,7 +604,7 @@
         {"t": [4], "es": "de reojo", "base": "sideways", "sense": "direction"},
         {"t": [6, 7], "es": "a Dumbledore"},
         {"t": [8], "es": "en este momento", "base": "here", "sense": "point"},
-        {"t": [9, 10], "es": "como si", "base": "as if", "sense": "appearance"},
+        {"t": [9, 10], "es": "como si", "base": "as though", "sense": "appearance"},
         {"t": [11], "es": "esperando", "base": "hope", "sense": "wish"},
         {"t": [12], "es": "él"},
         {"t": [13, 14, 15, 16], "es": "iba a decir", "base": "tell", "sense": "inform"},
@@ -611,7 +612,7 @@
         {"t": [18], "es": "algo"},
         {"t": [19], "es": "pero"},
         {"t": [20], "es": "él"},
-        {"t": [21], "es": "no lo hizo", "base": "do", "sense": "perform"},
+        {"t": [21], "es": "no lo hizo", "note": "*Didn’t* evita repetir *tell her something*: el auxiliar sustituye al resto del verbo ([[ellipsis]])."},
         {"t": [22], "es": "así que", "base": "so", "sense": "result"},
         {"t": [23], "es": "ella"},
         {"t": [24, 25], "es": "continuó", "base": "go on", "sense": "continue"},
@@ -731,7 +732,7 @@
         {"t": [3], "es": "dijo", "base": "say", "sense": "speak"},
         {"t": [4, 5], "es": "la profesora McGonagall"},
         {"t": [6], "es": "fríamente", "base": "coldly", "sense": "unfriendly"},
-        {"t": [7, 8], "es": "como si", "base": "as if", "sense": "appearance"},
+        {"t": [7, 8], "es": "como si", "base": "as though", "sense": "appearance"},
         {"t": [9], "es": "ella"},
         {"t": [10, 11], "es": "no creyera", "base": "think", "sense": "believe"},
         {"t": [12], "es": "esto"},
@@ -935,7 +936,7 @@
         {"t": [0], "es": "solo", "base": "only", "sense": "just"},
         {"t": [1], "es": "porque"},
         {"t": [2], "es": "usted es", "base": "be", "sense": "identity"},
-        {"t": [3], "es": "demasiado", "base": "too", "sense": "excess"},
+        {"t": [3], "es": "demasiado", "base": "too", "sense": "excess", "note": "*Too* + adjetivo + *to* indica un exceso que impide la acción ([[too-enough]])."},
         {"t": [5], "es": "bueno", "base": "well", "sense": "discourse"},
         {"t": [7], "es": "noble", "base": "noble", "sense": "honourable"},
         {"t": [8, 9], "es": "para usar", "base": "use", "sense": "employ"},
@@ -1066,7 +1067,7 @@
         {"t": [31, 32, 33], "es": "como un gato", "base": "cat", "sense": "animal"},
         {"t": [34], "es": "ni"},
         {"t": [35, 36, 37], "es": "como una mujer", "base": "woman", "sense": "person"},
-        {"t": [38, 40, 42], "es": "había mirado fijamente a", "base": "fix", "sense": "gaze", "note": "*Fix someone with a stare* es clavarle la mirada. Tras *neither…nor*, el auxiliar va antes del sujeto ([[negative-inversion]])."},
+        {"t": [38, 40, 42], "es": "había mirado fijamente a", "base": "fix", "sense": "gaze", "note": "*Fix someone with a stare* es clavarle la mirada. Al anteponer *neither as… nor as…*, el auxiliar precede al sujeto ([[negative-inversion]])."},
         {"t": [39], "es": "ella"},
         {"t": [41], "es": "a Dumbledore"},
         {"t": [43], "es": "semejante"},
@@ -1074,7 +1075,7 @@
         {"t": [45], "es": "penetrante", "base": "piercing", "sense": "intense"},
         {"t": [47], "es": "como"},
         {"t": [48], "es": "ella"},
-        {"t": [49], "es": "hacía", "base": "do", "sense": "perform"},
+        {"t": [49], "es": "miraba", "note": "El auxiliar *did* evita repetir *fixed Dumbledore with a stare* ([[ellipsis]])."},
         {"t": [50], "es": "ahora", "base": "now", "sense": "present"}
       ]
     },
@@ -1090,7 +1091,7 @@
         {"t": [1], "es": "era", "base": "be", "sense": "identity"},
         {"t": [2], "es": "claro", "base": "plain", "sense": "clear"},
         {"t": [3], "es": "que"},
-        {"t": [4], "es": "lo que fuera", "base": "whatever", "sense": "anything"},
+        {"t": [4], "es": "fuera lo que fuera", "base": "whatever", "sense": "regardless"},
         {"t": [5], "es": "todo el mundo"},
         {"t": [6, 7], "es": "estaba diciendo", "base": "say", "sense": "speak"},
         {"t": [8], "es": "ella"},
@@ -1389,7 +1390,7 @@
       ],
       "words": [
         {"t": [0], "es": "es", "base": "be", "sense": "identity"},
-        {"t": [1], "es": "sencillamente", "base": "just", "sense": "only"},
+        {"t": [1], "es": "sencillamente", "base": "just", "sense": "emphasis", "note": "*Just* refuerza *astounding*: no limita el significado a «solo» ([[intensifiers]])."},
         {"t": [2], "es": "asombroso", "base": "astounding", "sense": "surprising"},
         {"t": [4], "es": "de"},
         {"t": [5], "es": "todas", "base": "all", "sense": "every"},
@@ -1518,7 +1519,7 @@
         {"t": [13, 14, 15], "es": "en su bolsillo", "base": "pocket", "sense": "clothing"},
         {"t": [16], "es": "y"},
         {"t": [17], "es": "dijo", "base": "say", "sense": "speak"},
-        {"t": [18], "es": "Hagrid está"},
+        {"t": [18], "es": "Hagrid está", "base": "be", "sense": "state"},
         {"t": [19], "es": "retrasado", "base": "late", "sense": "delayed"}
       ]
     },
@@ -1526,7 +1527,7 @@
       "id": 257,
       "line": [
         {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Supongo que fue él quien le dijo que yo estaría aquí,"},
-        {"t": [11, 12, 13], "es": "por cierto»."}
+        {"t": [11, 12, 13], "es": "por cierto, ¿no?»."}
       ],
       "words": [
         {"t": [0], "es": "yo"},
@@ -1537,7 +1538,7 @@
         {"t": [5], "es": "quien"},
         {"t": [6], "es": "dijo", "base": "tell", "sense": "inform"},
         {"t": [7], "es": "a usted"},
-        {"t": [8, 9], "es": "yo estaría", "base": "be", "sense": "state"},
+        {"t": [8, 9], "es": "yo estaría", "base": "be", "sense": "state", "note": "*I’d* es *I would*: presenta un futuro visto desde el momento pasado de *told* ([[contractions]]; [[future-in-the-past]])."},
         {"t": [10], "es": "aquí", "base": "here", "sense": "place"},
         {"t": [11, 12, 13], "es": "por cierto", "base": "by the way", "sense": "aside"}
       ]
@@ -1561,7 +1562,7 @@
       "words": [
         {"t": [0], "es": "y"},
         {"t": [1], "es": "yo"},
-        {"t": [2, 3], "es": "no supongo", "base": "suppose", "sense": "think"},
+        {"t": [2, 3], "es": "no creo", "base": "suppose", "sense": "think", "note": "*I don’t suppose* expresa una expectativa negativa: «supongo que no…»."},
         {"t": [4, 5, 6, 7], "es": "usted va a decir", "base": "tell", "sense": "inform"},
         {"t": [8], "es": "a mí"},
         {"t": [9], "es": "por qué", "base": "why", "sense": "question"},
@@ -1674,7 +1675,7 @@
         {"t": [1, 2], "es": "tienen", "base": "have", "sense": "possess", "note": "*Have got* equivale a *have*, «tener»; no significa que acaben de conseguirlo."},
         {"t": [3, 4], "es": "este hijo", "base": "son", "sense": "family", "note": "*This* puede introducir a alguien al contar una historia; no tiene que estar cerca."},
         {"t": [6], "es": "yo"},
-        {"t": [7], "es": "vi", "base": "see", "sense": "sight"},
+        {"t": [7], "es": "vi", "base": "see", "sense": "sight", "note": "*See* + persona + *-ing* presenta una acción mientras ocurre: *saw him kicking* ([[perception-complements]])."},
         {"t": [8], "es": "lo, a él"},
         {"t": [9], "es": "dando patadas a", "base": "kick", "sense": "hit"},
         {"t": [10, 11], "es": "su madre", "base": "mother", "sense": "parent"},

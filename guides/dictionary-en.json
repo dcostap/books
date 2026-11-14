@@ -67,6 +67,26 @@
       }
     ]
   },
+  "able": {
+    "senses": [
+      {
+        "id": "capable",
+        "es": "capaz",
+        "ex": [
+          "I'm able to help.",
+          "Soy capaz de ayudar."
+        ]
+      },
+      {
+        "id": "skilled",
+        "es": "competente",
+        "ex": [
+          "an able teacher",
+          "un profesor competente"
+        ]
+      }
+    ]
+  },
   "about": {
     "senses": [
       {
@@ -383,7 +403,7 @@
       },
       {
         "id": "extent",
-        "es": "completamente, por todo",
+        "es": "completamente",
         "ex": [
           "She was all alone.",
           "Estaba completamente sola."
@@ -1179,6 +1199,14 @@
         "ex": [
           "She smiled back.",
           "Le devolvió la sonrisa."
+        ]
+      },
+      {
+        "id": "backward",
+        "es": "hacia atrás",
+        "ex": [
+          "She tilted her head back.",
+          "Inclinó la cabeza hacia atrás."
         ]
       }
     ]
@@ -8100,6 +8128,14 @@
           "The child gave a loud cry.",
           "El niño lanzó un fuerte grito."
         ]
+      },
+      {
+        "id": "action",
+        "es": "dar",
+        "ex": [
+          "Give the bottle a shake.",
+          "Dale una sacudida a la botella."
+        ]
       }
     ]
   },
@@ -10810,7 +10846,7 @@
     "senses": [
       {
         "id": "only",
-        "es": "solo",
+        "es": "solo, simplemente",
         "ex": [
           "I just want some sleep.",
           "Solo quiero dormir un poco."
@@ -10846,6 +10882,14 @@
         "ex": [
           "I can just see it.",
           "Apenas lo veo."
+        ]
+      },
+      {
+        "id": "emphasis",
+        "es": "sencillamente",
+        "ex": [
+          "It's just wonderful!",
+          "¡Es sencillamente maravilloso!"
         ]
       }
     ]
@@ -11883,8 +11927,8 @@
   },
   "little": {
     "forms": {
-      "comparative": "less",
-      "superlative": "least"
+      "comparative": "less (cantidad)",
+      "superlative": "least (cantidad)"
     },
     "senses": [
       {
@@ -17648,7 +17692,7 @@
     "senses": [
       {
         "id": "route",
-        "es": "carretera, camino",
+        "es": "carretera, calle, camino",
         "ex": [
           "This road leads to the beach.",
           "Esta carretera lleva a la playa."
