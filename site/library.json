@@ -64,6 +64,12 @@
         "title": "The Boy Who Lived",
         "data": "books/hp1/01.json",
         "duration": 1912.86
+      },
+      {
+        "n": 2,
+        "title": "The Vanishing Glass",
+        "data": "books/hp1/02.json",
+        "duration": 1334.1
       }
     ]
   }

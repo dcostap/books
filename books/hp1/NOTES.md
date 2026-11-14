@@ -19,17 +19,18 @@ ffmpeg -hide_banner -nostdin -n -i audio/01-the-boy-who-lived.mp3 -map 0:a:0 -vn
 
 The WebM is 6,350,102 bytes, compared with 30,606,497 bytes for the source MP3. Duration remains about 31 minutes 53 seconds.
 
-### Chapter 2 preparation
+### Chapter 2
 
 - English text: `02/text.md`, from physical PDF pages 21–29. It matches the extracted page text, apart from whitespace and hyphenation.
 - Original audio: `audio/stash/02-the-vanishing-glass.mp3`. Keep it unchanged.
 - Site audio source: `audio/02-the-vanishing-glass.webm`, encoded directly as mono Opus at 24 kbps and 48 kHz, without cuts.
+- File size: 4,469,040 bytes, compared with 21,346,195 bytes for the original MP3.
 - Duration: 1334.099592 seconds in the source; 1334.095 seconds in WebM.
 - Chapter 2 uses its own initial transcription and alignment. Do not retime chapter 1.
 - Initial alignment covered all 3,469 tokens, with no fallback pieces. The rough transcript matched 98.2% of lexical source tokens.
 - Removed one false trailing word from the rough transcript, over low-level background noise. This did not change any source alignment anchor.
 - Conversion samples at 15, 667, and 1299 seconds have offsets of 0–1 ms and correlations above 0.987.
-- Translation preparation: 231 entries and 3,469 tokens across three jobs. No chapter 2 picture is currently assigned.
+- Chapter 2 has 231 entries and 3,469 tokens across three jobs. No chapter 2 picture is currently assigned.
 
 ## Pictures
 
@@ -70,6 +71,14 @@ Chapter 1 was completed independently at `2305244`, before comparing it with thi
 The user then authorized a special chapter-wide adaptation stage using this EPUB's wording as the baseline. It completed two consecutive fresh passes over all four answers at `a69c838`. The reading lines use suitable counterpart wording; the chunks and popup help remain English-based. The English source and audio timings stayed unchanged.
 
 The counterpart supports most established names and forms of address, but it sometimes changes English details and sentence boundaries. Its chapter title uses «El niño que sobrevivió»; its closing toast uses «el niño que vivió». Keep our approved title below unless the user changes that choice.
+
+### Chapter 2 review
+
+Each of the three jobs completed two fresh review passes. The complete chapter then completed two fresh review passes. Each pass covered reading lines, popup help, and all relevant dictionary cards and concepts.
+
+The final answers contain 576 chunks, 2,355 popup units, 1,635 dictionary links, 247 notes, and 159 concept links. They use 740 dictionary cards and 46 concepts. Chapter preparation added 343 cards and eight concepts. The dictionary contained 1,508 cards at completion.
+
+Chapter 2 keeps provisional «alacena» for Harry's cupboard. Confirm «alacena» or «armario» with the user before later chapters. The generic dictionary uses «armario».
 
 ### Voice
 

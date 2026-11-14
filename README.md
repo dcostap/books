@@ -96,7 +96,7 @@ Translation, job reviews, assets, and work on separate chapters can overlap with
 
 `build.py` checks and merges answers. It skips an answer with errors, and a sentence whose text changed after preparation. A successful build alone does not establish content quality or prove that every reference exists.
 
-HP chapter 1 uses the same format as Duke. Its names, voice, and forms of address are in `books/hp1/NOTES.md`.
+HP uses the same format as Duke. Its names, voice, and forms of address are in `books/hp1/NOTES.md`.
 
 ## Commands
 
