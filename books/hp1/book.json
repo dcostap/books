@@ -4,10 +4,9 @@
   "narrator": "Jim Dale",
   "level": "B1–B2",
   "cover": "cover.jpg",
-  "oldSentenceSplit": true,
   "source": { "pdf": "source/book.pdf", "end": "J. K. (JOANNE KATHLEEN) ROWLING" },
   "prompt": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal. Dumbledore, Professor McGonagall, Hagrid, Voldemort, Muggles, Grunnings, Dudley, Petunia, Vernon.",
   "chapters": [
-    { "title": "The Boy Who Lived", "audio": "audio/01-the-boy-who-lived.mp3" }
+    { "title": "The Boy Who Lived", "audio": "audio/01-the-boy-who-lived.webm" }
   ]
 }

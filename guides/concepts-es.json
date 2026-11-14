@@ -275,5 +275,118 @@
     "text": "Dos palabras unidas con guion pueden formar un solo adjetivo, que va delante del nombre. Con *-looking*, el adjetivo habla del aspecto: *tired-looking*, «de aspecto cansado». El español suele decirlo con más palabras.",
     "examples": [["a tired-looking horse", "un caballo de aspecto cansado"], ["a well-dressed man", "un hombre bien vestido"], ["a browny-red colour", "un color rojo parduzco"]],
     "wrong": [["a horse tired-looking", "a tired-looking horse"]]
+  },
+  "emphatic-do": {
+    "name": "*do* para dar énfasis",
+    "en": "emphatic do",
+    "text": "En una afirmación, *do*, *does* o *did* refuerzan el verbo. Equivalen a «sí que». El verbo principal mantiene su forma base.",
+    "examples": [["I did warn you.", "Sí que te avisé."], ["She does like it.", "Sí que le gusta."]],
+    "wrong": [["He did went.", "He did go."]]
+  },
+  "telling-time": {
+    "name": "decir la hora",
+    "en": "telling the time",
+    "text": "*Past* indica minutos después de una hora; *to*, minutos que faltan para la siguiente. *Half past eight* son las ocho y media. *O’clock* se usa con horas en punto.",
+    "examples": [["half past eight", "las ocho y media"], ["ten to nine", "las nueve menos diez"], ["five o’clock", "las cinco en punto"]]
+  },
+  "modal-perfect": {
+    "name": "modales con *have* y participio",
+    "en": "modal perfect",
+    "text": "Un modal seguido de *have* y un participio suele referirse al pasado. Puede expresar una deducción, una posibilidad o algo que convenía hacer. Con *been* y *-ing*, describe una actividad.",
+    "examples": [["He must have left.", "Debe de haberse ido."], ["She might have seen us.", "Quizá nos viera."], ["You should have called.", "Deberías haber llamado."], ["He could have been sleeping.", "Podría haber estado durmiendo."]]
+  },
+  "passive-voice": {
+    "name": "voz pasiva",
+    "en": "passive voice",
+    "text": "La persona o cosa que recibe la acción pasa a ser el sujeto. Se forma con *be* y un participio. *By* puede introducir a quien hace la acción.",
+    "examples": [["The door was opened.", "La puerta fue abierta."], ["He had been seen.", "Lo habían visto."], ["We are being watched.", "Nos están observando."]],
+    "wrong": [["It was wrote yesterday.", "It was written yesterday."]]
+  },
+  "ellipsis": {
+    "name": "palabras sobreentendidas y elipsis",
+    "en": "ellipsis",
+    "text": "El inglés puede omitir palabras que el contexto permite recuperar. Un auxiliar también puede sustituir al resto del verbo. En el habla informal se omiten a veces sujetos, artículos o auxiliares de pregunta.",
+    "examples": [["I liked it, but she didn’t.", "A mí me gustó, pero a ella no."], ["Want some tea?", "¿Quieres té?"], ["Borrowed it.", "Lo cogí prestado."]]
+  },
+  "conditionals": {
+    "name": "condiciones imaginadas con *if*",
+    "en": "unreal conditionals",
+    "text": "*If* introduce una condición. Para imaginar algo distinto de la realidad, el inglés usa pasado o *had* con participio. El resultado suele llevar *would*, *could* o *might*. Una condición pasada puede tener un resultado presente.",
+    "examples": [["If I knew, I would tell you.", "Si lo supiera, te lo diría."], ["If I had known, I would have come.", "Si lo hubiera sabido, habría venido."], ["You’d be tired if you’d walked all day.", "Estarías cansado si hubieras andado todo el día."]]
+  },
+  "make-complements": {
+    "name": "*make* con persona y resultado",
+    "en": "make with object and complement",
+    "text": "*Make* puede expresar que algo provoca una acción o un estado. Después de la persona viene un verbo sin *to*, o un adjetivo.",
+    "examples": [["It made me laugh.", "Me hizo reír."], ["They made him angry.", "Lo enfadaron."]],
+    "wrong": [["It made me to laugh.", "It made me laugh."]]
+  },
+  "perfect-continuous": {
+    "name": "tiempos perfectos continuos",
+    "en": "perfect continuous tenses",
+    "text": "*Have*, *has* o *had* con *been* y un verbo en *-ing* destaca una actividad y su duración. Con *have* o *has*, se relaciona con el presente: puede continuar o haber terminado hace poco. Con *had*, el punto de referencia es otro momento pasado.",
+    "examples": [["I’ve been waiting all day.", "Llevo todo el día esperando."], ["She had been working for hours.", "Llevaba horas trabajando."]]
+  },
+  "intensifiers": {
+    "name": "palabras que dan intensidad",
+    "en": "intensifiers",
+    "text": "Palabras como *very*, *so* o *most* pueden dar más fuerza a un adjetivo. *Most* sin *the* puede significar «muy», sin hacer una comparación.",
+    "examples": [["a most unusual day", "un día de lo más extraño"], ["so tired", "tan cansado"]]
+  },
+  "too-enough": {
+    "name": "*too* y *enough* con infinitivo",
+    "en": "too and enough with infinitives",
+    "text": "*Too* va delante del adjetivo: hay un exceso que impide algo. *Enough* va detrás y significa «lo bastante». El infinitivo con *to* indica para qué.",
+    "examples": [["too tired to walk", "demasiado cansado para andar"], ["old enough to drive", "lo bastante mayor para conducir"]],
+    "wrong": [["enough old to drive", "old enough to drive"]]
+  },
+  "ing-complements": {
+    "name": "complementos en *-ing*",
+    "en": "-ing complements",
+    "text": "Ciertos verbos y adjetivos llevan después un verbo en *-ing*, no un infinitivo con *to*. Aprende cada combinación: *keep talking*, *busy working*, *fancy living*.",
+    "examples": [["She kept talking.", "Siguió hablando."], ["He was busy working.", "Estaba ocupado trabajando."], ["Fancy living there!", "¡Imagínate vivir allí!"]]
+  },
+  "resultative-adjectives": {
+    "name": "adjetivos que indican el resultado",
+    "en": "resultative adjectives",
+    "text": "Un adjetivo después del objeto puede decir cómo queda tras la acción. No describe necesariamente cómo estaba antes.",
+    "examples": [["He pushed the door open.", "Empujó la puerta y la abrió."], ["Wipe the table dry.", "Seca la mesa con un paño."]]
+  },
+  "singular-they": {
+    "name": "*they* para una sola persona",
+    "en": "singular they",
+    "text": "*They*, *them* y *their* pueden referirse a una sola persona sin precisar su sexo. El verbo mantiene la forma que lleva con *they* plural.",
+    "examples": [["Someone left their bag.", "Alguien se dejó el bolso."], ["If anyone calls, tell them I’m out.", "Si llama alguien, dile que no estoy."]]
+  },
+  "negative-inversion": {
+    "name": "auxiliar delante del sujeto tras una negación",
+    "en": "negative inversion",
+    "text": "Una expresión negativa al principio puede cambiar el orden: el auxiliar va delante del sujeto. Pasa con *never* y con ciertas construcciones de *neither…nor*. No convierte la frase en pregunta.",
+    "examples": [["Never had I seen that.", "Nunca había visto aquello."], ["Neither at home nor at work was he safe.", "No estaba a salvo ni en casa ni en el trabajo."]]
+  },
+  "exclamatory-infinitive": {
+    "name": "exclamaciones con el verbo en forma base",
+    "en": "exclamatory bare infinitives",
+    "text": "Una exclamación puede llevar una persona y un verbo en forma base, sin auxiliar. Expresa sorpresa o rechazo ante esa posibilidad. No tiene por qué ser una orden.",
+    "examples": [["Me, marry him!", "¡Que yo me case con él!"], ["Her, give up!", "¡Que ella se dé por vencida!"]]
+  },
+  "double-objects": {
+    "name": "dos complementos con *give* y *lend*",
+    "en": "double objects",
+    "text": "Verbos como *give* y *lend* pueden poner primero a quien recibe algo, sin *to*. Algunas variedades británicas admiten *it me* en lugar de *it to me*.",
+    "examples": [["I lent her a book.", "Le presté un libro."], ["He lent it to me.", "Me lo prestó."], ["He lent it me.", "Me lo prestó."]]
+  },
+  "had-better": {
+    "name": "consejos con *had better*",
+    "en": "had better",
+    "text": "*Had better* recomienda hacer algo, a menudo para evitar un problema. Lleva el verbo en forma base, sin *to*. *Had* no expresa pasado aquí; *’d best* es una variante informal.",
+    "examples": [["We’d better go.", "Más vale que nos vayamos."], ["You’d better not wait.", "Será mejor que no esperes."]],
+    "wrong": [["We’d better to go.", "We’d better go."]]
+  },
+  "future-in-the-past": {
+    "name": "futuro visto desde el pasado",
+    "en": "future in the past",
+    "text": "Al contar desde un momento pasado, *would* puede indicar algo que todavía no había ocurrido entonces. No expresa necesariamente una condición. También se usa *was going to*.",
+    "examples": [["She said he would come.", "Dijo que él vendría."], ["He didn’t know what would happen.", "No sabía lo que iba a pasar."]]
   }
 }
