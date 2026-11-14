@@ -93,6 +93,22 @@ test("grammar controls do not start playback with Enter or Space", () => {
   assert.equal(plays, 1);
 });
 
+test("long grammar explanations keep their heading visible", () => {
+  const source = appSource.match(/on\(\$\("\.pop-note"\), "click", (\(e\) => \{[\s\S]*?\n  \})\);/)[1];
+  for (const [top, bottom, expected] of [[100, 200, 0], [300, 500, 100], [100, 900, 100]]) {
+    const footnote = { open: false, getBoundingClientRect: () => ({ top, bottom }) };
+    const popBody = { scrollTop: 0, getBoundingClientRect: () => ({ top: 0, bottom: 400 }) };
+    const click = vm.runInNewContext(`(${source})`, {
+      $: () => ({ children: [footnote] }),
+      popBody,
+      requestAnimationFrame: (callback) => callback(),
+    });
+    click({ target: { closest: () => ({ dataset: { n: "0" } }) } });
+    assert.equal(footnote.open, true);
+    assert.equal(popBody.scrollTop, expected);
+  }
+});
+
 test("sentence highlights keep the original case, spacing, and punctuation", () => {
   assert.equal(sentenceHTML("Eran perfectamente normales, gracias.", "perfectamente normales"),
     "Eran <mark>perfectamente normales</mark>, gracias.");

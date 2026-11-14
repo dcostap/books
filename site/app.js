@@ -941,8 +941,10 @@ function showReader(book, chapter, target) {
     footnote.open = !footnote.open;
     // On a phone, the panel scrolls: show the opened footnote in it. Never scroll the page away from the unit.
     if (footnote.open) requestAnimationFrame(() => {
-      const over = footnote.getBoundingClientRect().bottom - popBody.getBoundingClientRect().bottom;
-      if (over > 0) popBody.scrollTop += over;
+      const noteBounds = footnote.getBoundingClientRect(), bodyBounds = popBody.getBoundingClientRect();
+      const over = noteBounds.bottom - bodyBounds.bottom;
+      // Keep the heading visible when the explanation is taller than the panel.
+      if (over > 0) popBody.scrollTop += Math.min(over, noteBounds.top - bodyBounds.top);
     });
   });
   on($(".pop-note"), "keydown", (e) => {
