@@ -311,7 +311,7 @@
       "words": [
         {"t": [0], "es": "él"},
         {"t": [1], "es": "solo", "base": "just", "sense": "only"},
-        {"t": [2], "es": "dio", "base": "give", "sense": "transfer"},
+        {"t": [2], "es": "dio", "base": "give", "sense": "action"},
         {"t": [3], "es": "a él"},
         {"t": [4, 6], "es": "una mirada", "base": "look", "sense": "glance"},
         {"t": [5], "es": "severa", "base": "stern", "sense": "strict"}

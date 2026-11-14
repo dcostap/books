@@ -245,7 +245,7 @@
       "words": [
         {"t": [0, 1], "es": "la señora Potter", "note": "En británico, *Mrs* no lleva punto; en EE. UU., *Mrs.* ([[british-american]])."},
         {"t": [2], "es": "era", "base": "be", "sense": "identity"},
-        {"t": [3, 4], "es": "de la señora Dursley", "note": "El posesivo *’s* indica de quién es la hermana ([[possessive-s]])."},
+        {"t": [3, 4], "es": "de la señora Dursley", "note": "El posesivo *’s* indica de quién es la hermana ([[possessive-s]]). En británico, *Mrs* no lleva punto; en EE. UU., *Mrs.* ([[british-american]])."},
         {"t": [5], "es": "hermana", "base": "sister", "sense": "family"},
         {"t": [6], "es": "pero"},
         {"t": [7], "es": "ellas"},
@@ -1167,7 +1167,7 @@
       "words": [
         {"t": [0, 1], "es": "los Potter"},
         {"t": [2, 3], "es": "eso es", "base": "right", "sense": "correct"},
-        {"t": [4], "es": "eso es"},
+        {"t": [4], "es": "eso es", "base": "be", "sense": "identity"},
         {"t": [5], "es": "lo que", "base": "what", "sense": "thing"},
         {"t": [6], "es": "yo"},
         {"t": [7], "es": "oí", "base": "hear", "sense": "sound"}
