@@ -64,6 +64,35 @@ test("inline grammar buttons support Enter and Space without scrolling", () => {
   keydown({ key: "Enter", target: { closest: () => null } });
 });
 
+test("grammar controls do not start playback with Enter or Space", () => {
+  const noteSource = appSource.match(/on\(\$\("\.pop-note"\), "keydown", (\(e\) => \{[\s\S]*?\n  \})\);/)[1];
+  const documentSource = appSource.match(/on\(document, "keydown", (\(e\) => \{[\s\S]*?\n  \})\);/)[1];
+  const noteKeydown = vm.runInNewContext(`(${noteSource})`);
+  let plays = 0;
+  const documentKeydown = vm.runInNewContext(`(${documentSource})`, { toggle: () => plays++ });
+  for (const key of ["Enter", " "]) {
+    const event = {
+      key,
+      defaultPrevented: false,
+      target: { closest: (selector) => selector === ".concept-ref" ? { click() {} } : null },
+      preventDefault() { this.defaultPrevented = true; },
+    };
+    noteKeydown(event);
+    documentKeydown(event);
+    assert.equal(plays, 0);
+  }
+  for (const tag of ["button", "summary"]) {
+    documentKeydown({
+      key: " ",
+      target: { closest: (selector) => selector.split(/,\s*/).includes(tag) ? {} : null },
+      preventDefault() {},
+    });
+    assert.equal(plays, 0);
+  }
+  documentKeydown({ key: " ", target: { closest: () => null }, preventDefault() {} });
+  assert.equal(plays, 1);
+});
+
 test("sentence highlights keep the original case, spacing, and punctuation", () => {
   assert.equal(sentenceHTML("Eran perfectamente normales, gracias.", "perfectamente normales"),
     "Eran <mark>perfectamente normales</mark>, gracias.");

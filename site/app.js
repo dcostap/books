@@ -890,8 +890,9 @@ function showReader(book, chapter, target) {
   });
 
   on(document, "keydown", (e) => {
+    if (e.defaultPrevented) return;
     if (e.target.closest("input, textarea") && e.key !== "Escape") return;
-    if (e.key === " " && !e.target.closest("button")) { e.preventDefault(); toggle(); }
+    if (e.key === " " && !e.target.closest("button, summary")) { e.preventDefault(); toggle(); }
     else if (e.key === "Escape" && !viewer.hidden) closeViewer();
     else if (e.key === "Escape") { closePop(); closePanels(); }
     else if (["ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End"].includes(e.key)) stopFollow();
