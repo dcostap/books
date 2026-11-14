@@ -126,25 +126,40 @@ def build_chapter(text, words, old_split=False):
     return blocks, matched.count(False)
 
 
-def picture(book_dir, book_id, name, column):
+def picture(book_dir, book_id, name, column, mode="ink"):
     """Make site/books/<id>/pictures/<name>.webp and return the fields of its block.
 
     The picture is books/<id>/pictures/<name>.png: black ink on a transparent background. Until it exists, the build
     uses the crop from the book scan, pictures/raw/<name>.png, and makes its paper transparent. The app uses the
     picture as a mask. CSS sets the ink and paper colours for each theme.
+    With pictureMode "cutout", the prepared grayscale image's alpha defines the paper outline.
+    Export ink density and outline separately, so theme colours keep the original brush edges.
     The width, in em of the reading text, is the size the picture had on the page next to the text: column is the
     width of the book's text column in the raw crops (book.json "pictureColumn"). The app's column is 30 em; the
     pictures are about 73% of their size on the page.
     """
     raw, final = book_dir / "pictures" / "raw" / f"{name}.png", book_dir / "pictures" / f"{name}.png"
     source = final if final.exists() else raw
-    out = SITE / "books" / book_id / "pictures" / f"{name}.webp"
-    if not out.exists() or out.stat().st_mtime < source.stat().st_mtime:
+    if mode not in ("ink", "cutout"):
+        raise ValueError(f"Unknown picture mode: {mode}")
+    suffix = "-cutout" if mode == "cutout" else ""
+    out = SITE / "books" / book_id / "pictures" / f"{name}{suffix}.webp"
+    outline = out.with_name(f"{name}-outline.webp") if mode == "cutout" else None
+    if (not out.exists() or out.stat().st_mtime < source.stat().st_mtime
+            or (outline is not None and not outline.exists())):
         out.parent.mkdir(parents=True, exist_ok=True)
         image = Image.open(source)
         if image.width > 1000:  # enough for the viewer on a large screen
             image = image.resize((1000, round(image.height * 1000 / image.width)), Image.LANCZOS)
-        if "A" in image.getbands():
+        if mode == "cutout":
+            if "A" not in image.getbands():
+                raise ValueError(f"Cutout picture needs an alpha channel: {source}")
+            # The outer mask supplies coverage once, for both ink and paper.
+            ink = image.convert("L").point(lambda value: 255 - value)
+            zero = Image.new("L", image.size, 0)
+            Image.merge("RGBA", (zero, zero, zero, image.getchannel("A"))).save(
+                outline, quality=80, alpha_quality=100, method=6)
+        elif "A" in image.getbands():
             ink = image.getchannel("A")
         else:  # a scan: dark is ink, the paper and its noise are transparent
             gray = np.asarray(image.convert("L"), float)
@@ -154,8 +169,11 @@ def picture(book_dir, book_id, name, column):
         zero = Image.new("L", ink.size, 0)
         Image.merge("RGBA", (zero, zero, zero, ink)).save(out, quality=80, alpha_quality=70, method=6)
     with Image.open(raw) as scan, Image.open(out) as made:
-        return {"src": f"books/{book_id}/pictures/{name}.webp", "width": round(scan.width / column * 22, 1),
+        data = {"src": f"books/{book_id}/pictures/{out.name}", "width": round(scan.width / column * 22, 1),
                 "ratio": round(made.width / made.height, 4)}
+        if outline is not None:
+            data["paper"] = f"books/{book_id}/pictures/{outline.name}"
+        return data
 
 
 def duration(path):
@@ -185,7 +203,8 @@ def main():
                                             book.get("oldSentenceSplit", False))
             for block in blocks:
                 if block["type"] == "figure":
-                    block |= picture(book_dir, book_id, block.pop("picture"), book["pictureColumn"])
+                    block |= picture(book_dir, book_id, block.pop("picture"), book["pictureColumn"],
+                                     book.get("pictureMode", "ink"))
             data = {"title": chapter["title"], "audio": f"books/{book_id}/{audio.name}",
                     "duration": duration(audio), "blocks": blocks}
             translation, es_path = merge(src_dir), out_dir / f"{n:02d}.es.json"

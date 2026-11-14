@@ -16,6 +16,26 @@ const translationHTML = vm.runInNewContext([
 // A legacy sentence without a reading line, and the gloss of the tapped unit.
 const sentenceHTML = (sentence, gloss) => translationHTML({ es: sentence }, gloss === undefined ? undefined : { es: gloss });
 
+test("pictures apply an optional paper outline and clear it for ordinary illustrations", () => {
+  const setPicture = vm.runInNewContext([
+    appSource.match(/^  function setPicture\(el, picture\) \{[\s\S]*?^  \}/m)[0],
+    "setPicture",
+  ].join("\n"));
+  const properties = new Map(), classes = new Map();
+  const el = {
+    style: { setProperty: (key, value) => properties.set(key, value) },
+    classList: { toggle: (key, value) => classes.set(key, value) },
+  };
+  setPicture(el, { src: "picture.webp", paper: "outline.webp" });
+  assert.equal(properties.get("--picture"), 'url("picture.webp")');
+  assert.equal(properties.get("--picture-shape"), 'url("outline.webp")');
+  assert.equal(classes.get("picture-shaped"), true);
+  setPicture(el, { src: "ink.webp" });
+  assert.equal(properties.get("--picture"), 'url("ink.webp")');
+  assert.equal(properties.get("--picture-shape"), "none");
+  assert.equal(classes.get("picture-shaped"), false);
+});
+
 test("grammar references use focusable inline buttons so labels can wrap", () => {
   const noteHTML = vm.runInNewContext([
     appSource.match(/^const esc = .+;$/m)[0],

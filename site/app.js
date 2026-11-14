@@ -540,7 +540,7 @@ function showReader(book, chapter, target) {
     parent.append(sentenceEl);
   }
 
-  // CSS sets the ink and paper colours for each theme, in both the chapter and the viewer.
+  // Ink masks use theme colours. An optional outline clips both ink and paper to the drawing's edges.
   function figureEl(block, captions) {
     const figure = document.createElement("figure");
     figure.className = "pic";
@@ -548,8 +548,8 @@ function showReader(book, chapter, target) {
     const open = figure.firstChild;
     open.style.setProperty("--w", `${block.width}em`);
     open.style.setProperty("--ratio", block.ratio);
-    setMask(open.firstChild, block.src);
-    const info = { src: block.src, ratio: block.ratio, caption: [] };
+    setPicture(open.firstChild, block);
+    const info = { src: block.src, ratio: block.ratio, paper: block.paper, caption: [] };
     figures.set(open, info);
     if (block.caption.length) {
       const el = figure.appendChild(document.createElement("figcaption"));
@@ -558,7 +558,11 @@ function showReader(book, chapter, target) {
     return figure;
   }
 
-  const setMask = (el, src) => el.style.setProperty("--picture", `url("${src}")`);
+  function setPicture(el, picture) {
+    el.style.setProperty("--picture", `url("${picture.src}")`);
+    el.style.setProperty("--picture-shape", picture.paper ? `url("${picture.paper}")` : "none");
+    el.classList.toggle("picture-shaped", Boolean(picture.paper));
+  }
 
   // Translation between the lines (the gloss setting). Each chunk of the reading line becomes a column, the English
   // over the Spanish, and each sentence starts a line (style.css). Without a reading line (hp1 chapter 1), the popup
@@ -1103,7 +1107,7 @@ function showReader(book, chapter, target) {
     closePop();
     opener = button;
     ratio = info.ratio;
-    setMask(ink, info.src);
+    setPicture(ink, info);
     const text = (s) => words.filter((w) => w.sentence === s).map((w) => w.el.textContent).join(" ");
     $(".viewer-caption [lang=en]").textContent = info.caption.map(text).join(" ");
     $(".viewer-es").textContent = store.settings.gloss ? info.caption.map((s) => translation?.[s]?.es ?? "").join(" ").trim() : "";

@@ -6,7 +6,7 @@
 - Narrator: Jim Dale. Keep the original MP3 at `audio/01-the-boy-who-lived.mp3` as the source.
 - Site audio: mono Opus at 24 kbps in WebM. Encode directly from the source, without cuts or other processing.
 - Conversion checks at the start, middle, and end found offsets of 0–1 ms. Keep the existing word timings.
-- Chapter 1 has 4,675 tokens in 113 blocks. The current sentence splitter gives 343 sentences.
+- Chapter 1 has 4,675 tokens in 113 text blocks, plus one picture. The current sentence splitter gives 343 sentences.
 - The former translation used 352 sentences. The new sentence boundaries keep a question or exclamation with its lower-case reporting clause.
 - This change does not change the English tokens or their audio times. Do not run transcription or alignment without a separate reason.
 - The text uses British spelling. Do not change it to match a spoken American form.
@@ -18,6 +18,13 @@ ffmpeg -hide_banner -nostdin -n -i audio/01-the-boy-who-lived.mp3 -map 0:a:0 -vn
 ```
 
 The WebM is 6,350,102 bytes, compared with 30,606,497 bytes for the source MP3. Duration remains about 31 minutes 53 seconds.
+
+## Pictures
+
+- `pictures/raw/01-1.png` is the original user-supplied generated illustration of Dumbledore beside the cat.
+- `pictures/01-1.png` removes the magenta background, pink fringe, and detached bottom strip. It keeps grayscale detail and transparent brush edges.
+- `pictureMode: "cutout"` clips the themed ink and paper to the drawing's alpha outline. Duke retains its existing rendering.
+- The picture follows the paragraph where Dumbledore sits beside the cat. It has no caption or audio timing.
 
 ## Translation
 
