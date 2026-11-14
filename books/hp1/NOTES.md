@@ -45,7 +45,7 @@ The user supplied a Spanish EPUB for future drafting. The orchestrator provides 
 
 Chapter 1 was completed independently at `2305244`, before comparing it with this EPUB. That comparison made no changes to the chapter.
 
-The user then authorized a special chapter-wide adaptation stage using this EPUB's wording as the baseline. This stage has two consecutive fresh passes over all four answers. Adapt the reading lines and check their chunks and popup help against English. Keep the English source and audio timings unchanged.
+The user then authorized a special chapter-wide adaptation stage using this EPUB's wording as the baseline. It completed two consecutive fresh passes over all four answers at `a69c838`. The reading lines use suitable counterpart wording; the chunks and popup help remain English-based. The English source and audio timings stayed unchanged.
 
 The counterpart supports most established names and forms of address, but it sometimes changes English details and sentence boundaries. Its chapter title uses «El niño que sobrevivió»; its closing toast uses «el niño que vivió». Keep our approved title below unless the user changes that choice.
 
