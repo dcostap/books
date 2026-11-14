@@ -163,6 +163,30 @@
       }
     ]
   },
+  "adventure": {
+    "senses": [
+      {
+        "id": "experience",
+        "es": "aventura",
+        "ex": [
+          "We had an exciting adventure.",
+          "Vivimos una aventura emocionante."
+        ]
+      }
+    ]
+  },
+  "aeroplane": {
+    "senses": [
+      {
+        "id": "aircraft",
+        "es": "avión",
+        "ex": [
+          "The aeroplane landed safely.",
+          "El avión aterrizó sin problemas."
+        ]
+      }
+    ]
+  },
   "affect": {
     "senses": [
       {
@@ -623,6 +647,18 @@
       }
     ]
   },
+  "angel": {
+    "senses": [
+      {
+        "id": "being",
+        "es": "ángel",
+        "ex": [
+          "an angel with golden wings",
+          "un ángel con alas doradas"
+        ]
+      }
+    ]
+  },
   "angrily": {
     "senses": [
       {
@@ -771,6 +807,26 @@
       }
     ]
   },
+  "appearance": {
+    "senses": [
+      {
+        "id": "looks",
+        "es": "aspecto",
+        "ex": [
+          "His appearance has changed.",
+          "Su aspecto ha cambiado."
+        ]
+      },
+      {
+        "id": "arrival",
+        "es": "aparición",
+        "ex": [
+          "Her sudden appearance surprised us.",
+          "Su repentina aparición nos sorprendió."
+        ]
+      }
+    ]
+  },
   "approve": {
     "senses": [
       {
@@ -899,6 +955,26 @@
         "ex": [
           "He acted as if he knew.",
           "Actuó como si lo supiera."
+        ]
+      }
+    ]
+  },
+  "as long as": {
+    "senses": [
+      {
+        "id": "duration",
+        "es": "tanto tiempo como",
+        "ex": [
+          "Stay as long as you want.",
+          "Quédate tanto tiempo como quieras."
+        ]
+      },
+      {
+        "id": "condition",
+        "es": "siempre que",
+        "ex": [
+          "Stay as long as you help.",
+          "Quédate siempre que ayudes."
         ]
       }
     ]
@@ -1087,6 +1163,18 @@
       }
     ]
   },
+  "atta boy": {
+    "senses": [
+      {
+        "id": "praise",
+        "es": "así se hace",
+        "ex": [
+          "Attaboy, you did it!",
+          "¡Así se hace, lo has conseguido!"
+        ]
+      }
+    ]
+  },
   "aunt": {
     "senses": [
       {
@@ -1095,6 +1183,18 @@
         "ex": [
           "My aunt lives abroad.",
           "Mi tía vive en el extranjero."
+        ]
+      }
+    ]
+  },
+  "auntie": {
+    "senses": [
+      {
+        "id": "family",
+        "es": "tía",
+        "ex": [
+          "My auntie lives nearby.",
+          "Mi tía vive cerca."
         ]
       }
     ]
@@ -1231,6 +1331,18 @@
       }
     ]
   },
+  "bacon": {
+    "senses": [
+      {
+        "id": "meat",
+        "es": "beicon",
+        "ex": [
+          "We had eggs and bacon.",
+          "Comimos huevos con beicon."
+        ]
+      }
+    ]
+  },
   "bad": {
     "forms": {
       "comparative": "worse",
@@ -1354,6 +1466,78 @@
       }
     ]
   },
+  "bar": {
+    "senses": [
+      {
+        "id": "establishment",
+        "es": "bar, cafetería",
+        "ex": [
+          "We ate at the snack bar.",
+          "Comimos en la cafetería."
+        ]
+      },
+      {
+        "id": "counter",
+        "es": "barra",
+        "ex": [
+          "She sat at the bar.",
+          "Se sentó en la barra."
+        ]
+      },
+      {
+        "id": "rod",
+        "es": "barrote",
+        "ex": [
+          "iron bars on the window",
+          "barrotes de hierro en la ventana"
+        ]
+      },
+      {
+        "id": "block",
+        "es": "pastilla, tableta",
+        "ex": [
+          "a bar of soap",
+          "una pastilla de jabón"
+        ]
+      }
+    ]
+  },
+  "bark": {
+    "senses": [
+      {
+        "id": "dog",
+        "es": "ladrar",
+        "ex": [
+          "The dog barked all night.",
+          "El perro ladró toda la noche."
+        ]
+      },
+      {
+        "id": "shout",
+        "es": "decir bruscamente",
+        "ex": [
+          "‘Sit down,’ he barked.",
+          "«Siéntate», dijo bruscamente."
+        ]
+      },
+      {
+        "id": "tree",
+        "es": "corteza",
+        "ex": [
+          "The tree has rough bark.",
+          "El árbol tiene la corteza áspera."
+        ]
+      },
+      {
+        "id": "sound",
+        "es": "ladrido",
+        "ex": [
+          "We heard a loud bark.",
+          "Oímos un ladrido fuerte."
+        ]
+      }
+    ]
+  },
   "bathroom": {
     "senses": [
       {
@@ -1394,6 +1578,34 @@
         "ex": [
           "There are five windows.",
           "Hay cinco ventanas."
+        ]
+      }
+    ]
+  },
+  "be used to": {
+    "forms": {
+      "past": "was used to, were used to",
+      "participle": "been used to"
+    },
+    "senses": [
+      {
+        "id": "accustomed",
+        "es": "estar acostumbrado a",
+        "ex": [
+          "I'm used to the noise.",
+          "Estoy acostumbrado al ruido."
+        ]
+      }
+    ]
+  },
+  "beach": {
+    "senses": [
+      {
+        "id": "shore",
+        "es": "playa",
+        "ex": [
+          "We walked along the beach.",
+          "Paseamos por la playa."
         ]
       }
     ]
@@ -1790,6 +2002,18 @@
       }
     ]
   },
+  "birthday": {
+    "senses": [
+      {
+        "id": "anniversary",
+        "es": "cumpleaños",
+        "ex": [
+          "Tomorrow is my birthday.",
+          "Mañana es mi cumpleaños."
+        ]
+      }
+    ]
+  },
   "black": {
     "senses": [
       {
@@ -1874,6 +2098,18 @@
         "ex": [
           "A red light was blinking.",
           "Una luz roja parpadeaba."
+        ]
+      }
+    ]
+  },
+  "blond": {
+    "senses": [
+      {
+        "id": "hair",
+        "es": "rubio",
+        "ex": [
+          "He has blond hair.",
+          "Tiene el pelo rubio."
         ]
       }
     ]
@@ -1986,6 +2222,26 @@
         "ex": [
           "a blush on her cheeks",
           "rubor en sus mejillas"
+        ]
+      }
+    ]
+  },
+  "bobble": {
+    "senses": [
+      {
+        "id": "pompom",
+        "es": "pompón",
+        "ex": [
+          "a hat with a bobble",
+          "un gorro con un pompón"
+        ]
+      },
+      {
+        "id": "fabric-ball",
+        "es": "bolita",
+        "ex": [
+          "Remove the bobbles from this jumper.",
+          "Quita las bolitas de este jersey."
         ]
       }
     ]
@@ -2350,6 +2606,26 @@
       }
     ]
   },
+  "brass": {
+    "senses": [
+      {
+        "id": "metal",
+        "es": "latón",
+        "ex": [
+          "a small brass bell",
+          "una campanilla de latón"
+        ]
+      },
+      {
+        "id": "instruments",
+        "es": "metales",
+        "ex": [
+          "The brass played loudly.",
+          "Los metales tocaron con fuerza."
+        ]
+      }
+    ]
+  },
   "break": {
     "forms": {
       "past": "broke",
@@ -2706,6 +2982,38 @@
       }
     ]
   },
+  "burn": {
+    "forms": {
+      "past": "burnt, burned",
+      "participle": "burnt, burned"
+    },
+    "senses": [
+      {
+        "id": "fire",
+        "es": "arder",
+        "ex": [
+          "Dry wood burns easily.",
+          "La madera seca arde fácilmente."
+        ]
+      },
+      {
+        "id": "damage",
+        "es": "quemar",
+        "ex": [
+          "Don't burn the toast.",
+          "No quemes la tostada."
+        ]
+      },
+      {
+        "id": "injury",
+        "es": "quemadura",
+        "ex": [
+          "a small burn on her hand",
+          "una pequeña quemadura en la mano"
+        ]
+      }
+    ]
+  },
   "bury": {
     "senses": [
       {
@@ -2846,6 +3154,18 @@
       }
     ]
   },
+  "by the time": {
+    "senses": [
+      {
+        "id": "when",
+        "es": "para cuando",
+        "ex": [
+          "By the time I arrived, she'd left.",
+          "Para cuando llegué, ella ya se había ido."
+        ]
+      }
+    ]
+  },
   "by the way": {
     "senses": [
       {
@@ -2854,6 +3174,38 @@
         "ex": [
           "By the way, how's your brother?",
           "Por cierto, ¿qué tal tu hermano?"
+        ]
+      }
+    ]
+  },
+  "by way of": {
+    "senses": [
+      {
+        "id": "as",
+        "es": "a modo de",
+        "ex": [
+          "He nodded by way of thanks.",
+          "Asintió a modo de agradecimiento."
+        ]
+      },
+      {
+        "id": "via",
+        "es": "pasando por",
+        "ex": [
+          "We travelled by way of Paris.",
+          "Viajamos pasando por París."
+        ]
+      }
+    ]
+  },
+  "cabbage": {
+    "senses": [
+      {
+        "id": "vegetable",
+        "es": "col",
+        "ex": [
+          "We had cabbage for dinner.",
+          "Cenamos col."
         ]
       }
     ]
@@ -3520,6 +3872,58 @@
       }
     ]
   },
+  "cine-camera": {
+    "senses": [
+      {
+        "id": "film-camera",
+        "es": "cámara de cine",
+        "ex": [
+          "an old cine camera",
+          "una cámara de cine antigua"
+        ]
+      }
+    ]
+  },
+  "cinema": {
+    "senses": [
+      {
+        "id": "venue",
+        "es": "cine",
+        "ex": [
+          "Let's go to the cinema.",
+          "Vamos al cine."
+        ]
+      }
+    ]
+  },
+  "class": {
+    "senses": [
+      {
+        "id": "students",
+        "es": "clase",
+        "ex": [
+          "Our class has twenty students.",
+          "Nuestra clase tiene veinte alumnos."
+        ]
+      },
+      {
+        "id": "category",
+        "es": "categoría",
+        "ex": [
+          "They belong to different classes.",
+          "Pertenecen a categorías distintas."
+        ]
+      },
+      {
+        "id": "social-group",
+        "es": "clase social",
+        "ex": [
+          "They came from different social classes.",
+          "Procedían de clases sociales distintas."
+        ]
+      }
+    ]
+  },
   "clear": {
     "senses": [
       {
@@ -3904,6 +4308,34 @@
       }
     ]
   },
+  "comb": {
+    "senses": [
+      {
+        "id": "hair",
+        "es": "peinar",
+        "ex": [
+          "Comb your hair gently.",
+          "Péinate con cuidado."
+        ]
+      },
+      {
+        "id": "tool",
+        "es": "peine",
+        "ex": [
+          "Where is my comb?",
+          "¿Dónde está mi peine?"
+        ]
+      },
+      {
+        "id": "search",
+        "es": "registrar a fondo",
+        "ex": [
+          "Police combed the whole area.",
+          "La policía registró a fondo toda la zona."
+        ]
+      }
+    ]
+  },
   "come": {
     "forms": {
       "past": "came",
@@ -4109,6 +4541,14 @@
           "Your English is coming on well.",
           "Tu inglés está progresando bien."
         ]
+      },
+      {
+        "id": "begin",
+        "es": "empezar a manifestarse",
+        "ex": [
+          "I felt a headache coming on.",
+          "Noté que empezaba a dolerme la cabeza."
+        ]
       }
     ]
   },
@@ -4204,6 +4644,18 @@
       }
     ]
   },
+  "computer": {
+    "senses": [
+      {
+        "id": "device",
+        "es": "ordenador",
+        "ex": [
+          "Switch off your computer.",
+          "Apaga el ordenador."
+        ]
+      }
+    ]
+  },
   "concentrate": {
     "senses": [
       {
@@ -4268,6 +4720,18 @@
       }
     ]
   },
+  "cooker": {
+    "senses": [
+      {
+        "id": "appliance",
+        "es": "cocina",
+        "ex": [
+          "a new electric cooker",
+          "una cocina eléctrica nueva"
+        ]
+      }
+    ]
+  },
   "corner": {
     "senses": [
       {
@@ -4292,6 +4756,42 @@
         "ex": [
           "The dog cornered the cat.",
           "El perro acorraló al gato."
+        ]
+      }
+    ]
+  },
+  "count": {
+    "senses": [
+      {
+        "id": "number",
+        "es": "contar",
+        "ex": [
+          "Count the coins carefully.",
+          "Cuenta las monedas con cuidado."
+        ]
+      },
+      {
+        "id": "total",
+        "es": "recuento",
+        "ex": [
+          "Check the final count.",
+          "Comprueba el recuento final."
+        ]
+      },
+      {
+        "id": "matter",
+        "es": "importar",
+        "ex": [
+          "Every minute counts.",
+          "Cada minuto importa."
+        ]
+      },
+      {
+        "id": "noble",
+        "es": "conde",
+        "ex": [
+          "The count lived nearby.",
+          "El conde vivía cerca."
         ]
       }
     ]
@@ -4424,6 +4924,42 @@
       }
     ]
   },
+  "crash": {
+    "senses": [
+      {
+        "id": "collision",
+        "es": "accidente",
+        "ex": [
+          "Nobody survived the plane crash.",
+          "Nadie sobrevivió al accidente de avión."
+        ]
+      },
+      {
+        "id": "collide",
+        "es": "chocar",
+        "ex": [
+          "The car crashed into a wall.",
+          "El coche chocó contra un muro."
+        ]
+      },
+      {
+        "id": "noise",
+        "es": "estruendo",
+        "ex": [
+          "We heard a loud crash.",
+          "Oímos un fuerte estruendo."
+        ]
+      },
+      {
+        "id": "computer",
+        "es": "bloquearse",
+        "ex": [
+          "My computer crashed again.",
+          "Mi ordenador volvió a bloquearse."
+        ]
+      }
+    ]
+  },
   "creep": {
     "forms": {
       "past": "crept",
@@ -4536,6 +5072,18 @@
       }
     ]
   },
+  "cupboard": {
+    "senses": [
+      {
+        "id": "storage",
+        "es": "armario",
+        "ex": [
+          "The cups are in the cupboard.",
+          "Las tazas están en el armario."
+        ]
+      }
+    ]
+  },
   "curiously": {
     "senses": [
       {
@@ -4644,6 +5192,30 @@
       }
     ]
   },
+  "daddy": {
+    "senses": [
+      {
+        "id": "father",
+        "es": "papá",
+        "ex": [
+          "Ask Daddy for help.",
+          "Pídele ayuda a papá."
+        ]
+      }
+    ]
+  },
+  "danger": {
+    "senses": [
+      {
+        "id": "risk",
+        "es": "peligro",
+        "ex": [
+          "The children are in danger.",
+          "Los niños están en peligro."
+        ]
+      }
+    ]
+  },
   "dare": {
     "senses": [
       {
@@ -4716,6 +5288,26 @@
         "ex": [
           "We waited in the darkness.",
           "Esperamos en la oscuridad."
+        ]
+      }
+    ]
+  },
+  "darling": {
+    "senses": [
+      {
+        "id": "address",
+        "es": "cariño",
+        "ex": [
+          "Come here, darling.",
+          "Ven aquí, cariño."
+        ]
+      },
+      {
+        "id": "beloved",
+        "es": "querido",
+        "ex": [
+          "my darling daughter",
+          "mi querida hija"
         ]
       }
     ]
@@ -4888,6 +5480,34 @@
       }
     ]
   },
+  "demand": {
+    "senses": [
+      {
+        "id": "insist",
+        "es": "exigir",
+        "ex": [
+          "They demanded an answer.",
+          "Exigieron una respuesta."
+        ]
+      },
+      {
+        "id": "question",
+        "es": "preguntar con insistencia",
+        "ex": [
+          "‘Who are you?’ she demanded.",
+          "«¿Quién eres?», preguntó con insistencia."
+        ]
+      },
+      {
+        "id": "need",
+        "es": "demanda",
+        "ex": [
+          "Demand for water increased.",
+          "La demanda de agua aumentó."
+        ]
+      }
+    ]
+  },
   "destroy": {
     "senses": [
       {
@@ -4968,6 +5588,18 @@
         "ex": [
           "The engine suddenly died.",
           "El motor se apagó de repente."
+        ]
+      }
+    ]
+  },
+  "difference": {
+    "senses": [
+      {
+        "id": "contrast",
+        "es": "diferencia",
+        "ex": [
+          "Can you see the difference?",
+          "¿Ves la diferencia?"
         ]
       }
     ]
@@ -5452,6 +6084,30 @@
       }
     ]
   },
+  "dream": {
+    "forms": {
+      "past": "dreamt, dreamed",
+      "participle": "dreamt, dreamed"
+    },
+    "senses": [
+      {
+        "id": "sleep",
+        "es": "sueño, soñar",
+        "ex": [
+          "I had a strange dream.",
+          "Tuve un sueño extraño."
+        ]
+      },
+      {
+        "id": "ambition",
+        "es": "aspiración",
+        "ex": [
+          "Her dream is to travel.",
+          "Su aspiración es viajar."
+        ]
+      }
+    ]
+  },
   "dress": {
     "senses": [
       {
@@ -5860,6 +6516,18 @@
       }
     ]
   },
+  "egg": {
+    "senses": [
+      {
+        "id": "food",
+        "es": "huevo",
+        "ex": [
+          "We ate two boiled eggs.",
+          "Comimos dos huevos cocidos."
+        ]
+      }
+    ]
+  },
   "else": {
     "senses": [
       {
@@ -5972,6 +6640,34 @@
         "ex": [
           "The decision enraged her.",
           "La decisión la enfureció."
+        ]
+      }
+    ]
+  },
+  "enter": {
+    "senses": [
+      {
+        "id": "go-in",
+        "es": "entrar",
+        "ex": [
+          "Please enter through this door.",
+          "Entra por esta puerta, por favor."
+        ]
+      },
+      {
+        "id": "input",
+        "es": "introducir",
+        "ex": [
+          "Enter your name here.",
+          "Introduce tu nombre aquí."
+        ]
+      },
+      {
+        "id": "competition",
+        "es": "inscribirse",
+        "ex": [
+          "She entered the singing competition.",
+          "Se inscribió en el concurso de canto."
         ]
       }
     ]
@@ -6140,6 +6836,34 @@
       }
     ]
   },
+  "exercise": {
+    "senses": [
+      {
+        "id": "activity",
+        "es": "ejercicio",
+        "ex": [
+          "Swimming is good exercise.",
+          "Nadar es un buen ejercicio."
+        ]
+      },
+      {
+        "id": "train",
+        "es": "hacer ejercicio",
+        "ex": [
+          "I exercise every morning.",
+          "Hago ejercicio todas las mañanas."
+        ]
+      },
+      {
+        "id": "use",
+        "es": "ejercer",
+        "ex": [
+          "Exercise your right to vote.",
+          "Ejerce tu derecho al voto."
+        ]
+      }
+    ]
+  },
   "expect": {
     "senses": [
       {
@@ -6296,6 +7020,42 @@
       }
     ]
   },
+  "fair": {
+    "senses": [
+      {
+        "id": "just",
+        "es": "justo",
+        "ex": [
+          "That decision seems fair.",
+          "Esa decisión parece justa."
+        ]
+      },
+      {
+        "id": "entertainment",
+        "es": "feria",
+        "ex": [
+          "We visited the village fair.",
+          "Visitamos la feria del pueblo."
+        ]
+      },
+      {
+        "id": "light",
+        "es": "claro",
+        "ex": [
+          "She has fair skin.",
+          "Tiene la piel clara."
+        ]
+      },
+      {
+        "id": "reasonable",
+        "es": "aceptable",
+        "ex": [
+          "The hotel charged a fair price.",
+          "El hotel cobró un precio aceptable."
+        ]
+      }
+    ]
+  },
   "fall": {
     "forms": {
       "past": "fell",
@@ -6332,6 +7092,14 @@
         "ex": [
           "School starts again in the fall.",
           "Las clases empiezan de nuevo en otoño."
+        ]
+      },
+      {
+        "id": "become",
+        "es": "quedarse, ponerse",
+        "ex": [
+          "The room fell silent.",
+          "La habitación se quedó en silencio."
         ]
       }
     ]
@@ -6584,6 +7352,38 @@
       }
     ]
   },
+  "fat": {
+    "senses": [
+      {
+        "id": "body",
+        "es": "gordo",
+        "ex": [
+          "a fat orange cat",
+          "un gato gordo de color naranja"
+        ]
+      },
+      {
+        "id": "substance",
+        "es": "grasa",
+        "ex": [
+          "This meat has little fat.",
+          "Esta carne tiene poca grasa."
+        ]
+      }
+    ]
+  },
+  "fateful": {
+    "senses": [
+      {
+        "id": "consequential",
+        "es": "decisivo",
+        "ex": [
+          "a fateful decision",
+          "una decisión decisiva"
+        ]
+      }
+    ]
+  },
   "father": {
     "senses": [
       {
@@ -6600,6 +7400,18 @@
         "ex": [
           "He fathered three children.",
           "Engendró tres hijos."
+        ]
+      }
+    ]
+  },
+  "favourite": {
+    "senses": [
+      {
+        "id": "preferred",
+        "es": "favorito",
+        "ex": [
+          "What's your favourite song?",
+          "¿Cuál es tu canción favorita?"
         ]
       }
     ]
@@ -6680,6 +7492,34 @@
         "ex": [
           "I feel we should leave.",
           "Creo que deberíamos irnos."
+        ]
+      }
+    ]
+  },
+  "feeling": {
+    "senses": [
+      {
+        "id": "sensation",
+        "es": "sensación",
+        "ex": [
+          "I had a strange feeling.",
+          "Tuve una sensación extraña."
+        ]
+      },
+      {
+        "id": "emotion",
+        "es": "sentimiento",
+        "ex": [
+          "Don't hurt her feelings.",
+          "No hieras sus sentimientos."
+        ]
+      },
+      {
+        "id": "intuition",
+        "es": "presentimiento",
+        "ex": [
+          "I've got a feeling she'll win.",
+          "Tengo el presentimiento de que ganará."
         ]
       }
     ]
@@ -7551,6 +8391,30 @@
       }
     ]
   },
+  "fry": {
+    "senses": [
+      {
+        "id": "cook",
+        "es": "freír",
+        "ex": [
+          "Fry the potatoes slowly.",
+          "Fríe las patatas despacio."
+        ]
+      }
+    ]
+  },
+  "frying pan": {
+    "senses": [
+      {
+        "id": "utensil",
+        "es": "sartén",
+        "ex": [
+          "Heat the frying pan first.",
+          "Calienta primero la sartén."
+        ]
+      }
+    ]
+  },
   "full": {
     "senses": [
       {
@@ -7639,6 +8503,34 @@
         "ex": [
           "Nobody knows the future.",
           "Nadie conoce el futuro."
+        ]
+      }
+    ]
+  },
+  "game": {
+    "senses": [
+      {
+        "id": "play",
+        "es": "juego",
+        "ex": [
+          "This game is easy.",
+          "Este juego es fácil."
+        ]
+      },
+      {
+        "id": "match",
+        "es": "partido",
+        "ex": [
+          "We won the game.",
+          "Ganamos el partido."
+        ]
+      },
+      {
+        "id": "wild-animals",
+        "es": "caza",
+        "ex": [
+          "The menu includes wild game.",
+          "La carta incluye carne de caza."
         ]
       }
     ]
@@ -7751,7 +8643,7 @@
     "senses": [
       {
         "id": "obtain",
-        "es": "conseguir",
+        "es": "conseguir, adquirir",
         "ex": [
           "We need to get more food.",
           "Tenemos que conseguir más comida."
@@ -7811,6 +8703,22 @@
         "ex": [
           "Get a grip on yourself.",
           "Contrólate."
+        ]
+      }
+    ]
+  },
+  "get a move on": {
+    "forms": {
+      "past": "got a move on",
+      "participle": "got a move on (US gotten a move on)"
+    },
+    "senses": [
+      {
+        "id": "hurry",
+        "es": "darse prisa",
+        "ex": [
+          "Get a move on, please.",
+          "Date prisa, por favor."
         ]
       }
     ]
@@ -8475,6 +9383,26 @@
       }
     ]
   },
+  "gold": {
+    "senses": [
+      {
+        "id": "metal",
+        "es": "oro",
+        "ex": [
+          "a ring made of gold",
+          "un anillo de oro"
+        ]
+      },
+      {
+        "id": "colour",
+        "es": "dorado",
+        "ex": [
+          "a gold evening dress",
+          "un vestido de noche dorado"
+        ]
+      }
+    ]
+  },
   "golden": {
     "senses": [
       {
@@ -8627,6 +9555,34 @@
       }
     ]
   },
+  "grab": {
+    "senses": [
+      {
+        "id": "seize",
+        "es": "agarrar",
+        "ex": [
+          "Grab my hand quickly.",
+          "Agárrame la mano deprisa."
+        ]
+      },
+      {
+        "id": "quick-action",
+        "es": "tomar rápidamente",
+        "ex": [
+          "Let's grab a coffee.",
+          "Vamos a tomar un café rápido."
+        ]
+      },
+      {
+        "id": "attention",
+        "es": "captar",
+        "ex": [
+          "The headline grabbed my attention.",
+          "El titular captó mi atención."
+        ]
+      }
+    ]
+  },
   "great": {
     "senses": [
       {
@@ -8651,6 +9607,18 @@
         "ex": [
           "She showed great courage.",
           "Mostró un gran valor."
+        ]
+      }
+    ]
+  },
+  "greeting": {
+    "senses": [
+      {
+        "id": "salutation",
+        "es": "saludo",
+        "ex": [
+          "She gave me a friendly greeting.",
+          "Me dedicó un saludo amistoso."
         ]
       }
     ]
@@ -8691,6 +9659,18 @@
         "ex": [
           "She gave a cheerful grin.",
           "Mostró una amplia sonrisa alegre."
+        ]
+      }
+    ]
+  },
+  "groan": {
+    "senses": [
+      {
+        "id": "sound",
+        "es": "gemir, gemido",
+        "ex": [
+          "He groaned with pain.",
+          "Gimió de dolor."
         ]
       }
     ]
@@ -8891,6 +9871,18 @@
       }
     ]
   },
+  "haircut": {
+    "senses": [
+      {
+        "id": "style",
+        "es": "corte de pelo",
+        "ex": [
+          "You need a haircut.",
+          "Necesitas un corte de pelo."
+        ]
+      }
+    ]
+  },
   "half": {
     "forms": {
       "plural": "halves"
@@ -8974,6 +9966,18 @@
         "ex": [
           "a great hall in the countryside",
           "una gran mansión en el campo"
+        ]
+      }
+    ]
+  },
+  "hamburger": {
+    "senses": [
+      {
+        "id": "food",
+        "es": "hamburguesa",
+        "ex": [
+          "I'd like a hamburger.",
+          "Querría una hamburguesa."
         ]
       }
     ]
@@ -9782,6 +10786,22 @@
       }
     ]
   },
+  "hold together": {
+    "forms": {
+      "past": "held together",
+      "participle": "held together"
+    },
+    "senses": [
+      {
+        "id": "join",
+        "es": "mantener unido",
+        "ex": [
+          "Glue holds the pieces together.",
+          "El pegamento mantiene unidas las piezas."
+        ]
+      }
+    ]
+  },
   "hold up": {
     "forms": {
       "past": "held up",
@@ -9902,6 +10922,26 @@
         "ex": [
           "It went horribly wrong.",
           "Salió horriblemente mal."
+        ]
+      }
+    ]
+  },
+  "horror": {
+    "senses": [
+      {
+        "id": "fear",
+        "es": "horror",
+        "ex": [
+          "She stared in horror.",
+          "Se quedó mirando horrorizada."
+        ]
+      },
+      {
+        "id": "genre",
+        "es": "terror",
+        "ex": [
+          "I don't like horror films.",
+          "No me gustan las películas de terror."
         ]
       }
     ]
@@ -10414,6 +11454,18 @@
         "ex": [
           "Your English is improving.",
           "Tu inglés está mejorando."
+        ]
+      }
+    ]
+  },
+  "in case": {
+    "senses": [
+      {
+        "id": "precaution",
+        "es": "por si",
+        "ex": [
+          "Take an umbrella in case it rains.",
+          "Coge un paraguas por si llueve."
         ]
       }
     ]
@@ -11114,6 +12166,18 @@
       }
     ]
   },
+  "kitchen": {
+    "senses": [
+      {
+        "id": "room",
+        "es": "cocina",
+        "ex": [
+          "Our kitchen has two windows.",
+          "Nuestra cocina tiene dos ventanas."
+        ]
+      }
+    ]
+  },
   "knee": {
     "senses": [
       {
@@ -11122,6 +12186,18 @@
         "ex": [
           "He hurt his knee.",
           "Se hizo daño en la rodilla."
+        ]
+      }
+    ]
+  },
+  "knobbly": {
+    "senses": [
+      {
+        "id": "bumpy",
+        "es": "nudoso",
+        "ex": [
+          "a knobbly old tree",
+          "un árbol viejo y nudoso"
         ]
       }
     ]
@@ -11226,6 +12302,18 @@
         "ex": [
           "Lace your boots.",
           "Átate las botas."
+        ]
+      }
+    ]
+  },
+  "lady": {
+    "senses": [
+      {
+        "id": "woman",
+        "es": "señora",
+        "ex": [
+          "A lady opened the door.",
+          "Una señora abrió la puerta."
         ]
       }
     ]
@@ -11438,6 +12526,22 @@
       }
     ]
   },
+  "leap": {
+    "forms": {
+      "past": "leapt, leaped",
+      "participle": "leapt, leaped"
+    },
+    "senses": [
+      {
+        "id": "jump",
+        "es": "saltar, salto",
+        "ex": [
+          "The dog leapt over the wall.",
+          "El perro saltó el muro."
+        ]
+      }
+    ]
+  },
   "learn": {
     "forms": {
       "past": "learnt (US learned)",
@@ -11510,6 +12614,22 @@
         "ex": [
           "He's on leave this week.",
           "Esta semana está de permiso."
+        ]
+      }
+    ]
+  },
+  "leave behind": {
+    "forms": {
+      "past": "left behind",
+      "participle": "left behind"
+    },
+    "senses": [
+      {
+        "id": "not-take",
+        "es": "dejar atrás",
+        "ex": [
+          "Don't leave your bag behind.",
+          "No te dejes la bolsa."
         ]
       }
     ]
@@ -11845,6 +12965,38 @@
       }
     ]
   },
+  "light up": {
+    "forms": {
+      "past": "lit up",
+      "participle": "lit up"
+    },
+    "senses": [
+      {
+        "id": "illuminate",
+        "es": "iluminar",
+        "ex": [
+          "The lamps light up the garden.",
+          "Las lámparas iluminan el jardín."
+        ]
+      },
+      {
+        "id": "brighten",
+        "es": "iluminarse",
+        "ex": [
+          "Her face lit up.",
+          "Se le iluminó la cara."
+        ]
+      },
+      {
+        "id": "ignite",
+        "es": "encender",
+        "ex": [
+          "He lit up a cigarette.",
+          "Encendió un cigarrillo."
+        ]
+      }
+    ]
+  },
   "lighter": {
     "senses": [
       {
@@ -12081,6 +13233,26 @@
         "ex": [
           "Look, we need to leave.",
           "Mira, tenemos que irnos."
+        ]
+      }
+    ]
+  },
+  "look after": {
+    "senses": [
+      {
+        "id": "care",
+        "es": "cuidar",
+        "ex": [
+          "Look after the baby.",
+          "Cuida al bebé."
+        ]
+      },
+      {
+        "id": "manage",
+        "es": "encargarse de",
+        "ex": [
+          "She looks after the accounts.",
+          "Se encarga de las cuentas."
         ]
       }
     ]
@@ -12556,6 +13728,34 @@
       }
     ]
   },
+  "mad": {
+    "senses": [
+      {
+        "id": "insane",
+        "es": "loco",
+        "ex": [
+          "They thought I was mad.",
+          "Creían que estaba loco."
+        ]
+      },
+      {
+        "id": "angry",
+        "es": "enfadado",
+        "ex": [
+          "Are you mad at me?",
+          "¿Estás enfadado conmigo?"
+        ]
+      },
+      {
+        "id": "enthusiastic",
+        "es": "loco por",
+        "ex": [
+          "He's mad about football.",
+          "Está loco por el fútbol."
+        ]
+      }
+    ]
+  },
   "make": {
     "forms": {
       "past": "made",
@@ -12608,6 +13808,30 @@
         "ex": [
           "What make is your car?",
           "¿De qué marca es tu coche?"
+        ]
+      }
+    ]
+  },
+  "make a difference": {
+    "forms": {
+      "past": "made a difference",
+      "participle": "made a difference"
+    },
+    "senses": [
+      {
+        "id": "affect",
+        "es": "cambiar las cosas",
+        "ex": [
+          "Your help makes a difference.",
+          "Tu ayuda cambia las cosas."
+        ]
+      },
+      {
+        "id": "matter",
+        "es": "importar",
+        "ex": [
+          "It makes no difference to me.",
+          "A mí no me importa."
         ]
       }
     ]
@@ -12703,6 +13927,18 @@
         "ex": [
           "Who will man the phones?",
           "¿Quién atenderá los teléfonos?"
+        ]
+      }
+    ]
+  },
+  "mantelpiece": {
+    "senses": [
+      {
+        "id": "shelf",
+        "es": "repisa de chimenea",
+        "ex": [
+          "Flowers stood on the mantelpiece.",
+          "Había flores en la repisa de la chimenea."
         ]
       }
     ]
@@ -12859,6 +14095,18 @@
         "ex": [
           "What do you mean by that?",
           "¿Qué quieres decir con eso?"
+        ]
+      }
+    ]
+  },
+  "meanwhile": {
+    "senses": [
+      {
+        "id": "same-time",
+        "es": "mientras tanto",
+        "ex": [
+          "Meanwhile, we waited outside.",
+          "Mientras tanto, esperamos fuera."
         ]
       }
     ]
@@ -13231,6 +14479,18 @@
       }
     ]
   },
+  "money's worth": {
+    "senses": [
+      {
+        "id": "value",
+        "es": "valor equivalente",
+        "ex": [
+          "The meal gave us our money's worth.",
+          "La comida valió lo que pagamos."
+        ]
+      }
+    ]
+  },
   "month": {
     "senses": [
       {
@@ -13539,6 +14799,26 @@
         "ex": [
           "He mumbled an apology.",
           "Masculló una disculpa."
+        ]
+      }
+    ]
+  },
+  "mummy": {
+    "senses": [
+      {
+        "id": "mother",
+        "es": "mamá",
+        "ex": [
+          "Mummy will help you.",
+          "Mamá te ayudará."
+        ]
+      },
+      {
+        "id": "body",
+        "es": "momia",
+        "ex": [
+          "an Egyptian mummy",
+          "una momia egipcia"
         ]
       }
     ]
@@ -14235,6 +15515,18 @@
       }
     ]
   },
+  "no longer": {
+    "senses": [
+      {
+        "id": "not-now",
+        "es": "ya no",
+        "ex": [
+          "They no longer live here.",
+          "Ya no viven aquí."
+        ]
+      }
+    ]
+  },
   "noble": {
     "senses": [
       {
@@ -14279,6 +15571,18 @@
         "ex": [
           "She nodded to the guard.",
           "Saludó al guardia con la cabeza."
+        ]
+      }
+    ]
+  },
+  "noise": {
+    "senses": [
+      {
+        "id": "sound",
+        "es": "ruido",
+        "ex": [
+          "What's that strange noise?",
+          "¿Qué es ese ruido tan raro?"
         ]
       }
     ]
@@ -14407,6 +15711,18 @@
         "ex": [
           "Not so fast! We haven't agreed.",
           "¡Un momento! No nos hemos puesto de acuerdo."
+        ]
+      }
+    ]
+  },
+  "not to mention": {
+    "senses": [
+      {
+        "id": "addition",
+        "es": "por no mencionar",
+        "ex": [
+          "It's cold, not to mention wet.",
+          "Hace frío, por no mencionar la humedad."
         ]
       }
     ]
@@ -14911,6 +16227,18 @@
       }
     ]
   },
+  "one's face falls": {
+    "senses": [
+      {
+        "id": "disappointed",
+        "es": "mostrar decepción",
+        "ex": [
+          "Her face fell at the news.",
+          "Su cara mostró decepción al oír la noticia."
+        ]
+      }
+    ]
+  },
   "only": {
     "senses": [
       {
@@ -15215,6 +16543,26 @@
       }
     ]
   },
+  "own": {
+    "senses": [
+      {
+        "id": "personal",
+        "es": "propio",
+        "ex": [
+          "I'd like my own room.",
+          "Me gustaría tener mi propia habitación."
+        ]
+      },
+      {
+        "id": "possess",
+        "es": "poseer, tener",
+        "ex": [
+          "They own a small boat.",
+          "Tienen un barco pequeño."
+        ]
+      }
+    ]
+  },
   "page": {
     "senses": [
       {
@@ -15251,6 +16599,86 @@
         "ex": [
           "Pair the socks.",
           "Empareja los calcetines."
+        ]
+      }
+    ]
+  },
+  "pan": {
+    "senses": [
+      {
+        "id": "cooking",
+        "es": "cacerola, sartén",
+        "ex": [
+          "a pan of boiling water",
+          "una cacerola de agua hirviendo"
+        ]
+      }
+    ]
+  },
+  "paper": {
+    "senses": [
+      {
+        "id": "material",
+        "es": "papel",
+        "ex": [
+          "I need some paper.",
+          "Necesito un poco de papel."
+        ]
+      },
+      {
+        "id": "newspaper",
+        "es": "periódico",
+        "ex": [
+          "Have you read today's paper?",
+          "¿Has leído el periódico de hoy?"
+        ]
+      },
+      {
+        "id": "documents",
+        "es": "documentos",
+        "ex": [
+          "Show me your papers.",
+          "Enséñame tus documentos."
+        ]
+      },
+      {
+        "id": "article",
+        "es": "artículo",
+        "ex": [
+          "She wrote a paper on birds.",
+          "Escribió un artículo sobre aves."
+        ]
+      }
+    ]
+  },
+  "parcel": {
+    "senses": [
+      {
+        "id": "package",
+        "es": "paquete",
+        "ex": [
+          "A parcel arrived this morning.",
+          "Esta mañana llegó un paquete."
+        ]
+      },
+      {
+        "id": "land",
+        "es": "parcela",
+        "ex": [
+          "a small parcel of land",
+          "una pequeña parcela de terreno"
+        ]
+      }
+    ]
+  },
+  "parent": {
+    "senses": [
+      {
+        "id": "family",
+        "es": "padre, madre",
+        "ex": [
+          "Ask a parent to sign.",
+          "Pídele a tu padre o a tu madre que firme."
         ]
       }
     ]
@@ -15343,6 +16771,14 @@
         "ex": [
           "You need a visitor's pass.",
           "Necesitas un pase de visitante."
+        ]
+      },
+      {
+        "id": "elapse",
+        "es": "transcurrir",
+        "ex": [
+          "Two hours passed.",
+          "Transcurrieron dos horas."
         ]
       }
     ]
@@ -15677,6 +17113,26 @@
       }
     ]
   },
+  "photograph": {
+    "senses": [
+      {
+        "id": "picture",
+        "es": "fotografía",
+        "ex": [
+          "a photograph of our dog",
+          "una fotografía de nuestro perro"
+        ]
+      },
+      {
+        "id": "take-photo",
+        "es": "fotografiar",
+        "ex": [
+          "She photographed the old bridge.",
+          "Fotografió el puente antiguo."
+        ]
+      }
+    ]
+  },
   "pick": {
     "senses": [
       {
@@ -15761,6 +17217,42 @@
       }
     ]
   },
+  "picture": {
+    "senses": [
+      {
+        "id": "image",
+        "es": "imagen",
+        "ex": [
+          "a picture of the sea",
+          "una imagen del mar"
+        ]
+      },
+      {
+        "id": "painting",
+        "es": "cuadro",
+        "ex": [
+          "Hang the picture here.",
+          "Cuelga el cuadro aquí."
+        ]
+      },
+      {
+        "id": "photograph",
+        "es": "foto",
+        "ex": [
+          "Show me your holiday pictures.",
+          "Enséñame las fotos de tus vacaciones."
+        ]
+      },
+      {
+        "id": "imagine",
+        "es": "imaginar",
+        "ex": [
+          "Picture a quiet beach.",
+          "Imagina una playa tranquila."
+        ]
+      }
+    ]
+  },
   "piercing": {
     "senses": [
       {
@@ -15785,6 +17277,18 @@
         "ex": [
           "a nose piercing",
           "un piercing en la nariz"
+        ]
+      }
+    ]
+  },
+  "pig": {
+    "senses": [
+      {
+        "id": "animal",
+        "es": "cerdo",
+        "ex": [
+          "The pig was asleep.",
+          "El cerdo estaba dormido."
         ]
       }
     ]
@@ -15821,6 +17325,18 @@
         "ex": [
           "These shoes pinch.",
           "Estos zapatos me aprietan."
+        ]
+      }
+    ]
+  },
+  "pink": {
+    "senses": [
+      {
+        "id": "colour",
+        "es": "rosa",
+        "ex": [
+          "a pink shirt",
+          "una camisa rosa"
         ]
       }
     ]
@@ -15925,6 +17441,62 @@
         "ex": [
           "Earth is our planet.",
           "La Tierra es nuestro planeta."
+        ]
+      }
+    ]
+  },
+  "plate": {
+    "senses": [
+      {
+        "id": "dish",
+        "es": "plato",
+        "ex": [
+          "Put the plate on the table.",
+          "Pon el plato en la mesa."
+        ]
+      },
+      {
+        "id": "sheet",
+        "es": "placa",
+        "ex": [
+          "a thin metal plate",
+          "una placa fina de metal"
+        ]
+      }
+    ]
+  },
+  "play": {
+    "senses": [
+      {
+        "id": "game",
+        "es": "jugar",
+        "ex": [
+          "We play cards together.",
+          "Jugamos juntos a las cartas."
+        ]
+      },
+      {
+        "id": "instrument",
+        "es": "tocar",
+        "ex": [
+          "Can you play the violin?",
+          "¿Sabes tocar el violín?"
+        ]
+      },
+      {
+        "id": "role",
+        "es": "interpretar",
+        "ex": [
+          "She plays the queen.",
+          "Interpreta a la reina."
+        ]
+      },
+      {
+        "id": "theatre",
+        "es": "obra de teatro",
+        "ex": [
+          "We saw a funny play.",
+          "Vimos una obra de teatro divertida."
         ]
       }
     ]
@@ -16296,6 +17868,34 @@
       }
     ]
   },
+  "present": {
+    "senses": [
+      {
+        "id": "gift",
+        "es": "regalo",
+        "ex": [
+          "I bought her a present.",
+          "Le compré un regalo."
+        ]
+      },
+      {
+        "id": "here-now",
+        "es": "presente",
+        "ex": [
+          "Think about the present.",
+          "Piensa en el presente."
+        ]
+      },
+      {
+        "id": "show",
+        "es": "presentar",
+        "ex": [
+          "They presented their new plan.",
+          "Presentaron su nuevo plan."
+        ]
+      }
+    ]
+  },
   "press": {
     "senses": [
       {
@@ -16552,6 +18152,26 @@
       }
     ]
   },
+  "pull off": {
+    "senses": [
+      {
+        "id": "remove",
+        "es": "quitar tirando",
+        "ex": [
+          "She pulled off her boots.",
+          "Se quitó las botas tirando."
+        ]
+      },
+      {
+        "id": "achieve",
+        "es": "conseguir",
+        "ex": [
+          "We pulled off a surprise victory.",
+          "Conseguimos una victoria inesperada."
+        ]
+      }
+    ]
+  },
   "pull oneself together": {
     "senses": [
       {
@@ -16588,6 +18208,54 @@
         "ex": [
           "Check before you pull out.",
           "Mira antes de incorporarte."
+        ]
+      }
+    ]
+  },
+  "punch": {
+    "senses": [
+      {
+        "id": "hit",
+        "es": "dar un puñetazo",
+        "ex": [
+          "He punched the wall.",
+          "Dio un puñetazo a la pared."
+        ]
+      },
+      {
+        "id": "blow",
+        "es": "puñetazo",
+        "ex": [
+          "a punch in the stomach",
+          "un puñetazo en el estómago"
+        ]
+      },
+      {
+        "id": "drink",
+        "es": "ponche",
+        "ex": [
+          "a glass of fruit punch",
+          "un vaso de ponche de frutas"
+        ]
+      }
+    ]
+  },
+  "punch-bag": {
+    "senses": [
+      {
+        "id": "training",
+        "es": "saco de boxeo",
+        "ex": [
+          "He trains with a punchbag.",
+          "Entrena con un saco de boxeo."
+        ]
+      },
+      {
+        "id": "victim",
+        "es": "blanco de golpes",
+        "ex": [
+          "Don't treat me as your punchbag.",
+          "No me uses como blanco de tus golpes."
         ]
       }
     ]
@@ -16760,6 +18428,46 @@
       }
     ]
   },
+  "put on": {
+    "forms": {
+      "past": "put on",
+      "participle": "put on"
+    },
+    "senses": [
+      {
+        "id": "clothe",
+        "es": "ponerse",
+        "ex": [
+          "Put on your coat.",
+          "Ponte el abrigo."
+        ]
+      },
+      {
+        "id": "play",
+        "es": "poner",
+        "ex": [
+          "Put on some quiet music.",
+          "Pon música tranquila."
+        ]
+      },
+      {
+        "id": "perform",
+        "es": "representar",
+        "ex": [
+          "They're putting on a new play.",
+          "Están representando una obra nueva."
+        ]
+      },
+      {
+        "id": "gain-weight",
+        "es": "engordar",
+        "ex": [
+          "I've put on some weight.",
+          "He engordado un poco."
+        ]
+      }
+    ]
+  },
   "put out": {
     "forms": {
       "past": "put out",
@@ -16828,6 +18536,30 @@
         "ex": [
           "Put the children to bed.",
           "Acuesta a los niños."
+        ]
+      }
+    ]
+  },
+  "put together": {
+    "forms": {
+      "past": "put together",
+      "participle": "put together"
+    },
+    "senses": [
+      {
+        "id": "assemble",
+        "es": "montar",
+        "ex": [
+          "We put together the new shelves.",
+          "Montamos las estanterías nuevas."
+        ]
+      },
+      {
+        "id": "combined",
+        "es": "juntos",
+        "ex": [
+          "They're stronger than us put together.",
+          "Son más fuertes que todos nosotros juntos."
         ]
       }
     ]
@@ -16916,6 +18648,34 @@
       }
     ]
   },
+  "quiet": {
+    "senses": [
+      {
+        "id": "silent",
+        "es": "silencioso",
+        "ex": [
+          "The engine is very quiet.",
+          "El motor es muy silencioso."
+        ]
+      },
+      {
+        "id": "peaceful",
+        "es": "tranquilo",
+        "ex": [
+          "We lead a quiet life.",
+          "Llevamos una vida tranquila."
+        ]
+      },
+      {
+        "id": "silence",
+        "es": "silencio",
+        "ex": [
+          "I need peace and quiet.",
+          "Necesito paz y silencio."
+        ]
+      }
+    ]
+  },
   "quietly": {
     "senses": [
       {
@@ -16984,6 +18744,18 @@
       }
     ]
   },
+  "racing": {
+    "senses": [
+      {
+        "id": "sport",
+        "es": "carreras",
+        "ex": [
+          "He enjoys motor racing.",
+          "Le gustan las carreras de coches."
+        ]
+      }
+    ]
+  },
   "rain": {
     "senses": [
       {
@@ -17000,6 +18772,34 @@
         "ex": [
           "It rained all morning.",
           "Llovió toda la mañana."
+        ]
+      }
+    ]
+  },
+  "rap": {
+    "senses": [
+      {
+        "id": "knock",
+        "es": "golpear",
+        "ex": [
+          "Someone rapped on the window.",
+          "Alguien golpeó la ventana."
+        ]
+      },
+      {
+        "id": "blow",
+        "es": "golpe seco",
+        "ex": [
+          "We heard a sharp rap.",
+          "Oímos un golpe seco."
+        ]
+      },
+      {
+        "id": "music",
+        "es": "rap",
+        "ex": [
+          "He listens to rap.",
+          "Escucha rap."
         ]
       }
     ]
@@ -17412,6 +19212,26 @@
       }
     ]
   },
+  "remote control": {
+    "senses": [
+      {
+        "id": "device",
+        "es": "mando a distancia",
+        "ex": [
+          "Where is the remote control?",
+          "¿Dónde está el mando a distancia?"
+        ]
+      },
+      {
+        "id": "remote",
+        "es": "control remoto",
+        "ex": [
+          "The boat works by remote control.",
+          "El barco funciona por control remoto."
+        ]
+      }
+    ]
+  },
   "repeat": {
     "senses": [
       {
@@ -17484,6 +19304,42 @@
         "ex": [
           "Report the theft to the police.",
           "Denuncia el robo a la policía."
+        ]
+      }
+    ]
+  },
+  "rest": {
+    "senses": [
+      {
+        "id": "remainder",
+        "es": "resto",
+        "ex": [
+          "Where are the rest?",
+          "¿Dónde está el resto?"
+        ]
+      },
+      {
+        "id": "relax",
+        "es": "descansar",
+        "ex": [
+          "Rest here for a while.",
+          "Descansa aquí un rato."
+        ]
+      },
+      {
+        "id": "break",
+        "es": "descanso",
+        "ex": [
+          "Let's have a short rest.",
+          "Vamos a hacer un breve descanso."
+        ]
+      },
+      {
+        "id": "support",
+        "es": "apoyar",
+        "ex": [
+          "Rest your head on this cushion.",
+          "Apoya la cabeza en este cojín."
         ]
       }
     ]
@@ -17632,6 +19488,94 @@
         "ex": [
           "The car went right into the river.",
           "El coche se metió de lleno en el río."
+        ]
+      }
+    ]
+  },
+  "ring": {
+    "forms": {
+      "past": "rang",
+      "participle": "rung"
+    },
+    "senses": [
+      {
+        "id": "sound",
+        "es": "sonar",
+        "ex": [
+          "The phone began to ring.",
+          "El teléfono empezó a sonar."
+        ]
+      },
+      {
+        "id": "call",
+        "es": "llamar por teléfono",
+        "ex": [
+          "I'll ring you tomorrow.",
+          "Te llamaré por teléfono mañana."
+        ]
+      },
+      {
+        "id": "jewellery",
+        "es": "anillo",
+        "ex": [
+          "a silver wedding ring",
+          "un anillo de boda de plata"
+        ]
+      },
+      {
+        "id": "circle",
+        "es": "círculo, aro",
+        "ex": [
+          "The children formed a ring.",
+          "Los niños formaron un círculo."
+        ]
+      }
+    ]
+  },
+  "rip": {
+    "senses": [
+      {
+        "id": "tear",
+        "es": "rasgar",
+        "ex": [
+          "I ripped my shirt.",
+          "Me rasgué la camisa."
+        ]
+      },
+      {
+        "id": "tear-noun",
+        "es": "desgarro",
+        "ex": [
+          "There's a rip in your jacket.",
+          "Tienes un desgarro en la chaqueta."
+        ]
+      }
+    ]
+  },
+  "rip off": {
+    "senses": [
+      {
+        "id": "remove",
+        "es": "arrancar",
+        "ex": [
+          "He ripped off the label.",
+          "Arrancó la etiqueta."
+        ]
+      },
+      {
+        "id": "cheat",
+        "es": "estafar",
+        "ex": [
+          "That shop ripped me off.",
+          "Me estafaron en esa tienda."
+        ]
+      },
+      {
+        "id": "copy",
+        "es": "copiar",
+        "ex": [
+          "They ripped off our design.",
+          "Copiaron nuestro diseño."
         ]
       }
     ]
@@ -17892,6 +19836,34 @@
       }
     ]
   },
+  "roundabout": {
+    "senses": [
+      {
+        "id": "traffic",
+        "es": "rotonda",
+        "ex": [
+          "Turn left at the roundabout.",
+          "Gira a la izquierda en la rotonda."
+        ]
+      },
+      {
+        "id": "ride",
+        "es": "tiovivo",
+        "ex": [
+          "The children rode the roundabout.",
+          "Los niños montaron en el tiovivo."
+        ]
+      },
+      {
+        "id": "indirect",
+        "es": "indirecto",
+        "ex": [
+          "We took a roundabout route.",
+          "Tomamos un camino indirecto."
+        ]
+      }
+    ]
+  },
   "ruffle": {
     "senses": [
       {
@@ -17936,6 +19908,26 @@
         "ex": [
           "her ruffled hair",
           "su pelo revuelto"
+        ]
+      }
+    ]
+  },
+  "rule": {
+    "senses": [
+      {
+        "id": "instruction",
+        "es": "norma",
+        "ex": [
+          "Follow the school rules.",
+          "Sigue las normas del colegio."
+        ]
+      },
+      {
+        "id": "govern",
+        "es": "gobernar",
+        "ex": [
+          "The king ruled the country.",
+          "El rey gobernaba el país."
         ]
       }
     ]
@@ -18204,6 +20196,42 @@
       }
     ]
   },
+  "scent": {
+    "senses": [
+      {
+        "id": "smell",
+        "es": "olor, aroma",
+        "ex": [
+          "the scent of fresh bread",
+          "el aroma del pan recién hecho"
+        ]
+      },
+      {
+        "id": "perfume",
+        "es": "perfume",
+        "ex": [
+          "a bottle of scent",
+          "un frasco de perfume"
+        ]
+      },
+      {
+        "id": "detect",
+        "es": "detectar, presentir",
+        "ex": [
+          "She scented trouble immediately.",
+          "Presintió problemas enseguida."
+        ]
+      },
+      {
+        "id": "smell-out",
+        "es": "oler",
+        "ex": [
+          "The dog scented a rabbit.",
+          "El perro olió un conejo."
+        ]
+      }
+    ]
+  },
   "school": {
     "senses": [
       {
@@ -18280,6 +20308,26 @@
         "ex": [
           "We heard a scream.",
           "Oímos un grito."
+        ]
+      }
+    ]
+  },
+  "screech": {
+    "senses": [
+      {
+        "id": "cry",
+        "es": "chillar, chirriar",
+        "ex": [
+          "The children screeched with excitement.",
+          "Los niños chillaron de emoción."
+        ]
+      },
+      {
+        "id": "sound",
+        "es": "chillido, chirrido",
+        "ex": [
+          "the screech of brakes",
+          "el chirrido de los frenos"
         ]
       }
     ]
@@ -18436,6 +20484,26 @@
         "ex": [
           "Seize the opportunity.",
           "Aprovecha la oportunidad."
+        ]
+      }
+    ]
+  },
+  "sellotape": {
+    "senses": [
+      {
+        "id": "tape",
+        "es": "cinta adhesiva",
+        "ex": [
+          "Fix it with Sellotape.",
+          "Arréglalo con cinta adhesiva."
+        ]
+      },
+      {
+        "id": "fasten",
+        "es": "pegar con cinta",
+        "ex": [
+          "She Sellotaped the torn page.",
+          "Pegó la página rota con cinta adhesiva."
         ]
       }
     ]
@@ -19143,6 +21211,18 @@
       }
     ]
   },
+  "shrill": {
+    "senses": [
+      {
+        "id": "high-pitched",
+        "es": "agudo, estridente",
+        "ex": [
+          "a shrill whistle",
+          "un silbido agudo"
+        ]
+      }
+    ]
+  },
   "shudder": {
     "senses": [
       {
@@ -19583,6 +21663,18 @@
       }
     ]
   },
+  "skinny": {
+    "senses": [
+      {
+        "id": "thin",
+        "es": "flaco",
+        "ex": [
+          "a skinny little dog",
+          "un perrito flaco"
+        ]
+      }
+    ]
+  },
   "sky": {
     "senses": [
       {
@@ -19763,6 +21855,30 @@
       }
     ]
   },
+  "smell": {
+    "forms": {
+      "past": "smelt, smelled",
+      "participle": "smelt, smelled"
+    },
+    "senses": [
+      {
+        "id": "have-odour",
+        "es": "oler",
+        "ex": [
+          "The room smells of smoke.",
+          "La habitación huele a humo."
+        ]
+      },
+      {
+        "id": "odour",
+        "es": "olor",
+        "ex": [
+          "a strange smell",
+          "un olor extraño"
+        ]
+      }
+    ]
+  },
   "smile": {
     "senses": [
       {
@@ -19807,6 +21923,26 @@
         "ex": [
           "They smoke their own fish.",
           "Ahúman su propio pescado."
+        ]
+      }
+    ]
+  },
+  "smoothly": {
+    "senses": [
+      {
+        "id": "evenly",
+        "es": "de forma uniforme",
+        "ex": [
+          "The paint went on smoothly.",
+          "La pintura se extendió de forma uniforme."
+        ]
+      },
+      {
+        "id": "without-problems",
+        "es": "sin problemas",
+        "ex": [
+          "Everything went smoothly.",
+          "Todo fue sin problemas."
         ]
       }
     ]
@@ -20295,6 +22431,18 @@
       }
     ]
   },
+  "spider": {
+    "senses": [
+      {
+        "id": "animal",
+        "es": "araña",
+        "ex": [
+          "A spider crossed the wall.",
+          "Una araña cruzó la pared."
+        ]
+      }
+    ]
+  },
   "split": {
     "forms": {
       "past": "split",
@@ -20483,6 +22631,26 @@
       }
     ]
   },
+  "stair": {
+    "senses": [
+      {
+        "id": "step",
+        "es": "escalón",
+        "ex": [
+          "Mind the broken stair.",
+          "Cuidado con el escalón roto."
+        ]
+      },
+      {
+        "id": "staircase",
+        "es": "escalera",
+        "ex": [
+          "He ran up the stairs.",
+          "Subió corriendo la escalera."
+        ]
+      }
+    ]
+  },
   "stand": {
     "forms": {
       "past": "stood",
@@ -20639,6 +22807,14 @@
         "ex": [
           "We missed the start.",
           "Nos perdimos el comienzo."
+        ]
+      },
+      {
+        "id": "shock",
+        "es": "sobresalto",
+        "ex": [
+          "The noise gave me a start.",
+          "El ruido me dio un sobresalto."
         ]
       }
     ]
@@ -21407,6 +23583,18 @@
       }
     ]
   },
+  "sun": {
+    "senses": [
+      {
+        "id": "star",
+        "es": "sol",
+        "ex": [
+          "The sun is shining.",
+          "Brilla el sol."
+        ]
+      }
+    ]
+  },
   "sunrise": {
     "senses": [
       {
@@ -21671,6 +23859,18 @@
       }
     ]
   },
+  "sweetums": {
+    "senses": [
+      {
+        "id": "affection",
+        "es": "cariño",
+        "ex": [
+          "Good night, sweetums.",
+          "Buenas noches, cariño."
+        ]
+      }
+    ]
+  },
   "swell": {
     "forms": {
       "past": "swelled",
@@ -21896,6 +24096,14 @@
           "Let's take a taxi.",
           "Vamos a coger un taxi."
         ]
+      },
+      {
+        "id": "care",
+        "es": "acoger, cuidar",
+        "ex": [
+          "Can you take the children today?",
+          "¿Puedes cuidar a los niños hoy?"
+        ]
       }
     ]
   },
@@ -21991,6 +24199,14 @@
         "ex": [
           "They took out the enemy camp.",
           "Destruyeron el campamento enemigo."
+        ]
+      },
+      {
+        "id": "outing",
+        "es": "llevar de paseo",
+        "ex": [
+          "We took the children out.",
+          "Llevamos a los niños de paseo."
         ]
       }
     ]
@@ -22163,6 +24379,26 @@
       }
     ]
   },
+  "television": {
+    "senses": [
+      {
+        "id": "device",
+        "es": "televisor",
+        "ex": [
+          "We bought a new television.",
+          "Compramos un televisor nuevo."
+        ]
+      },
+      {
+        "id": "medium",
+        "es": "televisión",
+        "ex": [
+          "What's on television tonight?",
+          "¿Qué ponen esta noche en la televisión?"
+        ]
+      }
+    ]
+  },
   "tell": {
     "forms": {
       "past": "told",
@@ -22327,6 +24563,42 @@
         "ex": [
           "Leave your shoes over there.",
           "Deja los zapatos allí."
+        ]
+      }
+    ]
+  },
+  "thick": {
+    "senses": [
+      {
+        "id": "wide",
+        "es": "grueso",
+        "ex": [
+          "a thick wooden door",
+          "una puerta de madera gruesa"
+        ]
+      },
+      {
+        "id": "dense",
+        "es": "espeso",
+        "ex": [
+          "She has thick dark hair.",
+          "Tiene el pelo negro y espeso."
+        ]
+      },
+      {
+        "id": "stupid",
+        "es": "tonto",
+        "ex": [
+          "Don't be so thick.",
+          "No seas tan tonto."
+        ]
+      },
+      {
+        "id": "strong-accent",
+        "es": "marcado",
+        "ex": [
+          "He speaks with a thick accent.",
+          "Habla con un acento marcado."
         ]
       }
     ]
@@ -23683,6 +25955,18 @@
       }
     ]
   },
+  "unwrap": {
+    "senses": [
+      {
+        "id": "remove-wrapping",
+        "es": "desenvolver",
+        "ex": [
+          "She unwrapped the birthday present.",
+          "Desenvolvió el regalo de cumpleaños."
+        ]
+      }
+    ]
+  },
   "up": {
     "senses": [
       {
@@ -23843,6 +26127,18 @@
       }
     ]
   },
+  "vanish": {
+    "senses": [
+      {
+        "id": "disappear",
+        "es": "desaparecer",
+        "ex": [
+          "The birds vanished into the fog.",
+          "Los pájaros desaparecieron entre la niebla."
+        ]
+      }
+    ]
+  },
   "vast": {
     "senses": [
       {
@@ -23883,6 +26179,18 @@
         "ex": [
           "Very well, we can wait.",
           "De acuerdo, podemos esperar."
+        ]
+      }
+    ]
+  },
+  "video recorder": {
+    "senses": [
+      {
+        "id": "device",
+        "es": "aparato de vídeo",
+        "ex": [
+          "The video recorder is broken.",
+          "El aparato de vídeo está roto."
         ]
       }
     ]
@@ -24227,6 +26535,34 @@
         "ex": [
           "The smoke made my eyes water.",
           "El humo hizo que me lloraran los ojos."
+        ]
+      }
+    ]
+  },
+  "watery": {
+    "senses": [
+      {
+        "id": "diluted",
+        "es": "aguado",
+        "ex": [
+          "This soup is watery.",
+          "Esta sopa está aguada."
+        ]
+      },
+      {
+        "id": "tears",
+        "es": "lloroso",
+        "ex": [
+          "Her eyes were watery.",
+          "Tenía los ojos llorosos."
+        ]
+      },
+      {
+        "id": "appearance",
+        "es": "desvaído, acuoso",
+        "ex": [
+          "a watery blue sky",
+          "un cielo azul desvaído"
         ]
       }
     ]
@@ -24758,6 +27094,18 @@
       }
     ]
   },
+  "wig": {
+    "senses": [
+      {
+        "id": "hair",
+        "es": "peluca",
+        "ex": [
+          "She wore a red wig.",
+          "Llevaba una peluca roja."
+        ]
+      }
+    ]
+  },
   "wild": {
     "senses": [
       {
@@ -24850,6 +27198,18 @@
         "ex": [
           "That was a wise decision.",
           "Fue una decisión sabia."
+        ]
+      }
+    ]
+  },
+  "wolf down": {
+    "senses": [
+      {
+        "id": "eat-fast",
+        "es": "devorar",
+        "ex": [
+          "Don't wolf down your dinner.",
+          "No devores la cena."
         ]
       }
     ]
@@ -25048,6 +27408,34 @@
       }
     ]
   },
+  "worth": {
+    "senses": [
+      {
+        "id": "value",
+        "es": "valer",
+        "ex": [
+          "This watch is worth fifty pounds.",
+          "Este reloj vale cincuenta libras."
+        ]
+      },
+      {
+        "id": "deserving",
+        "es": "merecer la pena",
+        "ex": [
+          "The film is worth seeing.",
+          "La película merece la pena."
+        ]
+      },
+      {
+        "id": "value-noun",
+        "es": "valor",
+        "ex": [
+          "She knows her own worth.",
+          "Conoce su propio valor."
+        ]
+      }
+    ]
+  },
   "would": {
     "senses": [
       {
@@ -25124,6 +27512,18 @@
         "ex": [
           "She wrestled with the suitcase.",
           "Forcejeó con la maleta."
+        ]
+      }
+    ]
+  },
+  "wristwatch": {
+    "senses": [
+      {
+        "id": "timepiece",
+        "es": "reloj de pulsera",
+        "ex": [
+          "He checked his wristwatch.",
+          "Consultó su reloj de pulsera."
         ]
       }
     ]

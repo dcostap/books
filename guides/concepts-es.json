@@ -425,5 +425,23 @@
     "en": "wish with unreal tenses",
     "text": "*Wish* con pasado imagina una situación distinta de la real. Con *had* y participio, expresa un deseo sobre algo que ya ocurrió. El deseo puede estar en presente o pasado: *wish* o *wished*.",
     "examples": [["I wish I knew.", "Ojalá lo supiera."], ["I wish I hadn't said that.", "Ojalá no hubiera dicho eso."]]
+  },
+  "as-as": {
+    "name": "comparaciones con *as … as*",
+    "en": "as … as comparisons",
+    "text": "*As* + adjetivo o adverbio + *as* compara dos cosas al mismo nivel: «tan… como». Con *possible*, indica el máximo grado posible: «lo más… posible».",
+    "examples": [["She's as tall as me.", "Es tan alta como yo."], ["Leave as soon as possible.", "Vete lo antes posible."]]
+  },
+  "so-that-result": {
+    "name": "resultados con *so… that*",
+    "en": "so...that result clauses",
+    "text": "*So* + adjetivo o adverbio + *that* introduce un resultado: «tan… que…». En el habla informal, *that* puede omitirse. No lo confundas con *so that*, «para que».",
+    "examples": [["It was so cold that I shivered.", "Hacía tanto frío que temblaba."], ["She spoke so quietly I couldn't hear.", "Hablaba tan bajo que no podía oírla."]]
+  },
+  "continuative-on": {
+    "name": "*on* para continuar una acción",
+    "en": "continuative on",
+    "text": "Después de algunos verbos, *on* indica que una acción continúa. No expresa un lugar en este uso. Puede acompañar verbos como *read*, *talk*, *walk* o *sleep*.",
+    "examples": [["Read on.", "Sigue leyendo."], ["They talked on for hours.", "Siguieron hablando durante horas."]]
   }
 }
