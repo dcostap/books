@@ -1,0 +1,1435 @@
+{
+  "sentences": [
+    {"id": 0,
+      "line": [
+        {"t": [0, 1], "es": "Capítulo dos:"},
+        {"t": [2, 3, 4], "es": "El vidrio que se desvaneció"}
+      ],
+      "words": [
+        {"t": [0], "es": "capítulo", "base": "chapter", "sense": "book"},
+        {"t": [1], "es": "dos"},
+        {"t": [2, 4], "es": "el vidrio", "base": "glass", "sense": "material"},
+        {"t": [3], "es": "que se desvanece", "base": "vanish", "sense": "disappear", "note": "El participio en *-ing* describe aquí al nombre: el vidrio que desaparece ([[participial-adjectives]])."}
+      ]},
+    {"id": 1,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Habían pasado casi diez años"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "desde el día en que los Dursley se despertaron y encontraron a su sobrino"},
+        {"t": [15, 16, 17, 18], "es": "en el escalón de la entrada,"},
+        {"t": [19, 20, 21, 22, 23, 24, 25, 26], "es": "pero Privet Drive apenas había cambiado."}
+      ],
+      "words": [
+        {"t": [0], "es": "casi", "base": "nearly", "sense": "almost"},
+        {"t": [1], "es": "diez"},
+        {"t": [2], "es": "años", "base": "year", "sense": "time"},
+        {"t": [3, 4], "es": "habían pasado", "base": "pass", "sense": "go-past", "note": "*Had* + participio sitúa un hecho antes de otro momento pasado ([[past-perfect]])."},
+        {"t": [5], "es": "desde que"},
+        {"t": [6, 7], "es": "los Dursley"},
+        {"t": [8, 9, 10], "es": "se habían despertado", "base": "wake up", "sense": "awaken"},
+        {"t": [11, 12], "es": "y encontrar", "base": "find", "sense": "discover", "note": "El infinitivo con *to* presenta lo que encontraron al despertar, no su propósito."},
+        {"t": [13, 14], "es": "su sobrino", "base": "nephew", "sense": "family"},
+        {"t": [15, 16, 18], "es": "en el escalón", "base": "step", "sense": "stair"},
+        {"t": [17], "es": "de entrada", "base": "front", "sense": "forward"},
+        {"t": [19], "es": "pero"},
+        {"t": [20, 21], "es": "Privet Drive"},
+        {"t": [22, 24], "es": "había cambiado", "base": "change", "sense": "alter"},
+        {"t": [23], "es": "apenas", "base": "hardly", "sense": "scarcely"},
+        {"t": [25, 26], "es": "en absoluto", "base": "at all", "sense": "any-degree"}
+      ]},
+    {"id": 2,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "El sol se elevaba sobre los mismos jardincitos bien cuidados de la entrada"},
+        {"t": [9, 10, 11, 12, 13, 14, 15], "es": "e iluminaba el número cuatro de latón"},
+        {"t": [16, 17, 18, 19, 20], "es": "sobre la puerta de los Dursley;"},
+        {"t": [21, 22, 23, 24, 25], "es": "avanzaba en su salón,"},
+        {"t": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35], "es": "que era casi exactamente el mismo"},
+        {"t": [36, 37, 38, 39, 40, 41, 42, 43], "es": "que en la noche en que el señor Dursley había visto"},
+        {"t": [44, 45, 46, 47, 48, 49, 50], "es": "aquellas funestas noticias sobre las lechuzas."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el sol", "base": "sun", "sense": "star"},
+        {"t": [2], "es": "se elevaba", "base": "rise", "sense": "move-up"},
+        {"t": [3, 4, 8], "es": "sobre los jardines", "base": "garden", "sense": "plants"},
+        {"t": [5], "es": "mismos", "base": "same", "sense": "identical"},
+        {"t": [6], "es": "bien cuidados", "base": "tidy", "sense": "neat"},
+        {"t": [7], "es": "delanteros", "base": "front", "sense": "forward"},
+        {"t": [9], "es": "y"},
+        {"t": [10, 11], "es": "iluminaba", "base": "light up", "sense": "illuminate", "note": "Este *phrasal verb* significa «iluminar», no solo «encender» ([[phrasal-verbs]])."},
+        {"t": [12, 14], "es": "el número", "base": "number", "sense": "figure"},
+        {"t": [13], "es": "de latón", "base": "brass", "sense": "metal"},
+        {"t": [15], "es": "cuatro"},
+        {"t": [16, 17, 18, 20], "es": "en la puerta de los Dursley", "base": "door", "sense": "entrance", "note": "El apóstrofo tras el apellido plural marca posesión: «de los Dursley» ([[possessive-s]])."},
+        {"t": [19], "es": "de entrada", "base": "front", "sense": "forward"},
+        {"t": [21], "es": "(el sol)"},
+        {"t": [22], "es": "avanzaba lentamente", "base": "creep", "sense": "move"},
+        {"t": [23, 24, 25], "es": "en su salón", "base": "living-room", "sense": "room"},
+        {"t": [26], "es": "que"},
+        {"t": [27], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [28], "es": "casi", "base": "almost", "sense": "nearly"},
+        {"t": [29], "es": "exactamente", "base": "exactly", "sense": "precisely"},
+        {"t": [30, 31], "es": "el mismo", "base": "same", "sense": "identical"},
+        {"t": [32], "es": "que"},
+        {"t": [33], "es": "(el salón)"},
+        {"t": [34, 35], "es": "había sido", "base": "be", "sense": "identity"},
+        {"t": [36, 37, 38], "es": "en la noche", "base": "night", "sense": "time"},
+        {"t": [39], "es": "en que"},
+        {"t": [40, 41], "es": "el señor Dursley"},
+        {"t": [42, 43], "es": "había visto", "base": "see", "sense": "sight"},
+        {"t": [44, 47], "es": "aquel reportaje", "base": "report", "sense": "news"},
+        {"t": [45], "es": "funesto", "base": "fateful", "sense": "consequential"},
+        {"t": [46], "es": "de noticias", "base": "news", "sense": "information"},
+        {"t": [48, 49, 50], "es": "sobre las lechuzas", "base": "owl", "sense": "bird"}
+      ]},
+    {"id": 3,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Solo las fotos de la repisa de la chimenea"},
+        {"t": [6, 7, 8, 9, 10, 11, 12], "es": "mostraban realmente cuánto tiempo había pasado."}
+      ],
+      "words": [
+        {"t": [0], "es": "solo", "base": "only", "sense": "just"},
+        {"t": [1, 2], "es": "las fotos", "base": "photograph", "sense": "picture"},
+        {"t": [3, 4, 5], "es": "en la repisa de la chimenea", "base": "mantelpiece", "sense": "shelf", "note": "En las casas británicas es habitual poner fotos y adornos sobre la chimenea."},
+        {"t": [6], "es": "realmente", "base": "really", "sense": "truly"},
+        {"t": [7], "es": "mostraban", "base": "show", "sense": "indicate"},
+        {"t": [8, 9], "es": "cuánto", "base": "how much", "sense": "quantity"},
+        {"t": [10], "es": "tiempo", "base": "time", "sense": "duration"},
+        {"t": [11, 12], "es": "había pasado", "base": "pass", "sense": "go-past"}
+      ]},
+    {"id": 4,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Diez años antes, había una gran cantidad de retratos"},
+        {"t": [9, 10, 11, 12, 13, 14, 15, 16, 17], "es": "de lo que parecía una gran pelota de playa rosada"},
+        {"t": [18, 19, 20, 21], "es": "con gorros con pompón de diferentes colores,"},
+        {"t": [23, 24, 25, 26, 27, 28, 29, 30], "es": "pero Dudley Dursley ya no era un bebé,"},
+        {"t": [31, 32, 33, 34, 35, 36, 37, 38, 39], "es": "y en aquel momento las fotos mostraban a un chico grande y rubio"},
+        {"t": [40, 41, 42, 43], "es": "montando su primera bicicleta,"},
+        {"t": [44, 45, 46, 47, 48, 49], "es": "en un tiovivo en la feria,"},
+        {"t": [50, 51, 52, 53, 54, 55, 56], "es": "jugando con su padre en el ordenador,"},
+        {"t": [57, 58, 59, 60, 61, 62, 63], "es": "besado y abrazado por su madre."}
+      ],
+      "words": [
+        {"t": [0], "es": "diez"},
+        {"t": [1], "es": "años", "base": "year", "sense": "time"},
+        {"t": [2], "es": "antes", "base": "ago", "sense": "before"},
+        {"t": [3, 4, 5], "es": "había habido", "base": "be", "sense": "exist"},
+        {"t": [6, 7], "es": "una gran cantidad de", "base": "lot", "sense": "quantity"},
+        {"t": [8], "es": "retratos", "base": "picture", "sense": "image"},
+        {"t": [9, 10], "es": "de lo que"},
+        {"t": [11, 12], "es": "parecía", "base": "look like", "sense": "seem"},
+        {"t": [13, 17], "es": "una pelota", "base": "ball", "sense": "object"},
+        {"t": [14], "es": "grande", "base": "large", "sense": "size", "note": "Falso amigo: *large* es «grande», no «largo» ([[false-friends]])."},
+        {"t": [15], "es": "rosada", "base": "pink", "sense": "colour"},
+        {"t": [16], "es": "de playa", "base": "beach", "sense": "shore"},
+        {"t": [18], "es": "llevando puestos", "base": "wear", "sense": "clothing"},
+        {"t": [19], "es": "de diferentes colores", "base": "different-coloured", "sense": "colours", "note": "Ortografía británica: *coloured*; en EE. UU., *colored* ([[british-american]])."},
+        {"t": [20], "es": "con pompón", "base": "bobble", "sense": "pompom"},
+        {"t": [21], "es": "gorros", "base": "hat", "sense": "headwear"},
+        {"t": [23], "es": "pero"},
+        {"t": [24, 25], "es": "Dudley Dursley"},
+        {"t": [26], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [27, 28], "es": "ya no", "base": "no longer", "sense": "not-now"},
+        {"t": [29, 30], "es": "un bebé", "base": "baby", "sense": "infant"},
+        {"t": [31], "es": "y"},
+        {"t": [32], "es": "ahora", "base": "now", "sense": "present"},
+        {"t": [33, 34], "es": "las fotos", "base": "photograph", "sense": "picture"},
+        {"t": [35], "es": "mostraban", "base": "show", "sense": "display"},
+        {"t": [36, 39], "es": "un chico", "base": "boy", "sense": "young-man"},
+        {"t": [37], "es": "grande", "base": "large", "sense": "size", "note": "Falso amigo: *large* significa «grande», no «largo» ([[false-friends]])."},
+        {"t": [38], "es": "rubio", "base": "blond", "sense": "hair"},
+        {"t": [40], "es": "montando", "base": "ride", "sense": "mount"},
+        {"t": [41, 43], "es": "su bicicleta", "base": "bicycle", "sense": "vehicle"},
+        {"t": [42], "es": "primera", "base": "first", "sense": "order"},
+        {"t": [44, 45, 46], "es": "en un tiovivo", "base": "roundabout", "sense": "ride", "note": "En este uso británico es una atracción; en EE. UU., *merry-go-round*. También puede ser «rotonda»."},
+        {"t": [47, 48, 49], "es": "en la feria", "base": "fair", "sense": "entertainment"},
+        {"t": [50], "es": "jugando", "base": "play", "sense": "game"},
+        {"t": [51, 53], "es": "un juego", "base": "game", "sense": "play"},
+        {"t": [52], "es": "de ordenador", "base": "computer", "sense": "device"},
+        {"t": [54, 55, 56], "es": "con su padre", "base": "father", "sense": "parent"},
+        {"t": [57, 58], "es": "siendo abrazado", "base": "hug", "sense": "embrace"},
+        {"t": [59], "es": "y"},
+        {"t": [60], "es": "besado", "base": "kiss", "sense": "touch"},
+        {"t": [61, 62, 63], "es": "por su madre", "base": "mother", "sense": "parent"}
+      ]},
+    {"id": 5,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "La habitación no ofrecía señal alguna"},
+        {"t": [7, 8, 9, 10, 11, 12, 13, 14], "es": "de que allí viviera también otro niño."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "la habitación", "base": "room", "sense": "building"},
+        {"t": [2], "es": "contenía", "base": "hold", "sense": "contain"},
+        {"t": [3, 4], "es": "ninguna señal", "base": "sign", "sense": "indication"},
+        {"t": [5, 6], "es": "en absoluto", "base": "at all", "sense": "any-degree"},
+        {"t": [7], "es": "de que"},
+        {"t": [8], "es": "otro"},
+        {"t": [9], "es": "niño", "base": "boy", "sense": "child"},
+        {"t": [10], "es": "vivía", "base": "live", "sense": "reside"},
+        {"t": [11, 12, 13], "es": "en la casa", "base": "house", "sense": "building"},
+        {"t": [14], "es": "también", "base": "too", "sense": "also"}
+      ]},
+    {"id": 6,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Sin embargo, Harry Potter estaba todavía allí,"},
+        {"t": [6, 7, 8, 9], "es": "durmiendo en aquel momento,"},
+        {"t": [10, 11, 12, 13], "es": "aunque no por mucho tiempo."}
+      ],
+      "words": [
+        {"t": [0], "es": "sin embargo", "base": "yet", "sense": "contrast"},
+        {"t": [1, 2], "es": "Harry Potter"},
+        {"t": [3], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [4], "es": "todavía", "base": "still", "sense": "continuing"},
+        {"t": [5], "es": "allí", "base": "there", "sense": "place"},
+        {"t": [6], "es": "dormido", "base": "asleep", "sense": "sleeping"},
+        {"t": [7, 8, 9], "es": "en aquel momento", "base": "at the moment", "sense": "now"},
+        {"t": [10], "es": "pero"},
+        {"t": [11], "es": "no", "base": "not", "sense": "negative"},
+        {"t": [12, 13], "es": "por mucho tiempo", "base": "long", "sense": "time"}
+      ]},
+    {"id": 7,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Su tía Petunia estaba despierta"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], "es": "y fue su voz chillona la que hizo el primer ruido del día."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "su tía", "base": "aunt", "sense": "family"},
+        {"t": [2], "es": "Petunia"},
+        {"t": [3], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [4], "es": "despierta", "base": "awake", "sense": "not-asleep"},
+        {"t": [5], "es": "y"},
+        {"t": [6, 7], "es": "fue", "base": "be", "sense": "identity", "note": "*It was … which* destaca quién o qué hizo algo: «fue… lo que…» ([[cleft-sentences]])."},
+        {"t": [8, 10], "es": "su voz", "base": "voice", "sense": "sound"},
+        {"t": [9], "es": "chillona", "base": "shrill", "sense": "high-pitched"},
+        {"t": [11], "es": "la que"},
+        {"t": [12], "es": "hizo", "base": "make", "sense": "create"},
+        {"t": [13, 15], "es": "el ruido", "base": "noise", "sense": "sound"},
+        {"t": [14], "es": "primer", "base": "first", "sense": "order"},
+        {"t": [16, 17, 18], "es": "del día", "base": "day", "sense": "time"}
+      ]},
+    {"id": 8,
+      "line": [
+        {"t": [0], "es": "«¡Arriba!"}
+      ],
+      "words": [
+        {"t": [0], "es": "arriba", "base": "up", "sense": "direction"}
+      ]},
+    {"id": 9,
+      "line": [
+        {"t": [0, 1], "es": "¡A levantarse!"}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "levántate", "base": "get up", "sense": "rise"}
+      ]},
+    {"id": 10,
+      "line": [
+        {"t": [0], "es": "¡Ahora!»."}
+      ],
+      "words": [
+        {"t": [0], "es": "ahora", "base": "now", "sense": "present"}
+      ]},
+    {"id": 11,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Harry se despertó con un sobresalto."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1], "es": "se despertó", "base": "wake", "sense": "stop-sleeping"},
+        {"t": [2, 3, 4], "es": "con un sobresalto", "base": "start", "sense": "shock", "note": "Como sustantivo, *start* también es un movimiento brusco por una sorpresa."}
+      ]},
+    {"id": 12,
+      "line": [
+        {"t": [0, 1], "es": "Su tía"},
+        {"t": [2, 3, 4, 5, 6], "es": "llamó otra vez a la puerta con golpes secos."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "su tía", "base": "aunt", "sense": "family"},
+        {"t": [2], "es": "dio golpes secos", "base": "rap", "sense": "knock"},
+        {"t": [3, 4, 5], "es": "en la puerta", "base": "door", "sense": "entrance"},
+        {"t": [6], "es": "otra vez", "base": "again", "sense": "repeat"}
+      ]},
+    {"id": 13,
+      "line": [
+        {"t": [0], "es": "«¡Arriba!»,"},
+        {"t": [1, 2], "es": "chilló."}
+      ],
+      "words": [
+        {"t": [0], "es": "arriba", "base": "up", "sense": "direction"},
+        {"t": [1], "es": "ella"},
+        {"t": [2], "es": "chilló", "base": "screech", "sense": "cry"}
+      ]},
+    {"id": 14,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Harry oyó sus pasos en dirección a la cocina,"},
+        {"t": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "es": "y después el ruido de la sartén al ponerla en el fogón."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1], "es": "oyó", "base": "hear", "sense": "sound"},
+        {"t": [2], "es": "a ella"},
+        {"t": [3], "es": "andando", "base": "walk", "sense": "move", "note": "*Hear* + persona + *-ing* presenta una acción que se oye mientras ocurre ([[perception-complements]])."},
+        {"t": [4, 5, 6], "es": "hacia la cocina", "base": "kitchen", "sense": "room", "note": "*Towards* es más habitual en Reino Unido; en EE. UU. se prefiere *toward*. Las dos formas son correctas."},
+        {"t": [7], "es": "y"},
+        {"t": [8], "es": "después", "base": "then", "sense": "next"},
+        {"t": [9, 10], "es": "el sonido", "base": "sound", "sense": "noise"},
+        {"t": [11, 12, 14], "es": "de la sartén", "base": "pan", "sense": "cooking"},
+        {"t": [13], "es": "para freír", "base": "fry", "sense": "cook"},
+        {"t": [15, 16], "es": "siendo puesta", "base": "put", "sense": "place", "note": "*Being* + participio es una pasiva: la sartén recibe la acción ([[passive-voice]])."},
+        {"t": [17, 18, 19], "es": "en el fogón", "base": "cooker", "sense": "appliance", "note": "Británico: *cooker*. En EE. UU. suele decirse *stove* o *range* ([[british-american]])."}
+      ]},
+    {"id": 15,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Se dio la vuelta hasta quedar boca arriba"},
+        {"t": [6, 7, 8, 9], "es": "y trató de recordar"},
+        {"t": [10, 11, 12, 13, 14, 15], "es": "el sueño que había estado teniendo."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "se dio la vuelta", "base": "roll", "sense": "turn"},
+        {"t": [2, 3, 4, 5], "es": "sobre su espalda", "base": "back", "sense": "body", "note": "El inglés usa posesivo con el cuerpo: *his back*, «su espalda» ([[body-possessive]])."},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "trató", "base": "try", "sense": "attempt"},
+        {"t": [8, 9], "es": "de recordar", "base": "remember", "sense": "recall"},
+        {"t": [10, 11], "es": "el sueño", "base": "dream", "sense": "sleep"},
+        {"t": [12], "es": "él"},
+        {"t": [13, 14, 15], "es": "había estado teniendo", "base": "have", "sense": "experience", "note": "*Had been* + *-ing* describe una actividad anterior a otro momento pasado ([[perfect-continuous]])."}
+      ]},
+    {"id": 16,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Había sido bonito."}
+      ],
+      "words": [
+        {"t": [0], "es": "(el sueño)"},
+        {"t": [1, 2], "es": "había sido", "base": "be", "sense": "identity"},
+        {"t": [3, 5], "es": "uno", "note": "*One* sustituye a *dream* para no repetir el nombre ([[one-substitution]])."},
+        {"t": [4], "es": "bueno", "base": "good", "sense": "quality"}
+      ]},
+    {"id": 17,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Había una moto que volaba."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "había habido", "base": "be", "sense": "exist"},
+        {"t": [3, 5], "es": "una moto", "base": "motorbike", "sense": "vehicle", "note": "*Motorbike* es más habitual en inglés británico; en EE. UU. suele usarse *motorcycle*."},
+        {"t": [4], "es": "voladora", "base": "fly", "sense": "air"},
+        {"t": [6, 7], "es": "en él"}
+      ]},
+    {"id": 18,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Tenía la curiosa sensación"},
+        {"t": [5, 6, 7, 8, 9, 10], "es": "de que había soñado lo mismo anteriormente."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "tenía", "base": "have", "sense": "possess"},
+        {"t": [2, 4], "es": "una sensación", "base": "feeling", "sense": "sensation"},
+        {"t": [3], "es": "extraña", "base": "funny", "sense": "strange", "note": "Aquí *funny* no significa «gracioso»: algo le resulta raro."},
+        {"t": [5, 6], "es": "había tenido", "base": "have", "sense": "experience", "note": "*He’d* es *he had*, porque después viene un participio ([[contractions]])."},
+        {"t": [7, 9], "es": "el sueño", "base": "dream", "sense": "sleep"},
+        {"t": [8], "es": "mismo", "base": "same", "sense": "identical"},
+        {"t": [10], "es": "antes", "base": "before", "sense": "earlier"}
+      ]},
+    {"id": 19,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Su tía estaba otra vez al otro lado de la puerta."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "su tía", "base": "aunt", "sense": "family"},
+        {"t": [2], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [3], "es": "de vuelta", "base": "back", "sense": "return"},
+        {"t": [4, 5, 6], "es": "fuera de la puerta", "base": "door", "sense": "entrance"}
+      ]},
+    {"id": 20,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«¿Ya estás levantado?»,"},
+        {"t": [4, 5], "es": "quiso saber."}
+      ],
+      "words": [
+        {"t": [0], "es": "estás", "base": "be", "sense": "state"},
+        {"t": [1], "es": "tú"},
+        {"t": [2], "es": "levantado", "base": "up", "sense": "awake"},
+        {"t": [3], "es": "ya", "base": "yet", "sense": "question"},
+        {"t": [4], "es": "ella"},
+        {"t": [5], "es": "exigió saber", "base": "demand", "sense": "insist"}
+      ]},
+    {"id": 21,
+      "line": [
+        {"t": [0], "es": "«Casi»,"},
+        {"t": [1, 2], "es": "respondió Harry."}
+      ],
+      "words": [
+        {"t": [0], "es": "casi", "base": "nearly", "sense": "almost"},
+        {"t": [1], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "Harry"}
+      ]},
+    {"id": 22,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«Bueno, date prisa,"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12], "es": "quiero que vigiles el beicon."}
+      ],
+      "words": [
+        {"t": [0], "es": "bueno", "base": "well", "sense": "discourse"},
+        {"t": [1, 2, 3, 4], "es": "date prisa", "base": "get a move on", "sense": "hurry", "note": "Expresión informal para apremiar a alguien: «¡vamos, muévete!»."},
+        {"t": [5], "es": "yo"},
+        {"t": [6], "es": "quiero", "base": "want", "sense": "desire", "note": "*Want* + persona + *to* + verbo equivale a «querer que…» ([[object-infinitive]])."},
+        {"t": [7], "es": "tú"},
+        {"t": [8, 9, 10], "es": "cuidar, vigilar", "base": "look after", "sense": "care", "note": "*Look after* significa «cuidar de», no «mirar después» ([[phrasal-verbs]])."},
+        {"t": [11, 12], "es": "el beicon", "base": "bacon", "sense": "meat"}
+      ]},
+    {"id": 23,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Y no te atrevas a dejar que se queme,"},
+        {"t": [7, 8, 9, 10, 11, 12, 13], "es": "quiero que todo sea perfecto el día del cumpleaños de Duddy»."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1, 3], "es": "no te atrevas", "base": "dare", "sense": "be-brave"},
+        {"t": [2], "es": "tú"},
+        {"t": [4], "es": "dejar", "base": "let", "sense": "allow"},
+        {"t": [5], "es": "(el beicon)"},
+        {"t": [6], "es": "quemarse", "base": "burn", "sense": "damage"},
+        {"t": [7], "es": "yo"},
+        {"t": [8], "es": "quiero", "base": "want", "sense": "desire"},
+        {"t": [9], "es": "todo"},
+        {"t": [10], "es": "perfecto", "base": "perfect", "sense": "flawless"},
+        {"t": [11, 12, 13], "es": "en el cumpleaños de Duddy", "base": "birthday", "sense": "anniversary", "note": "El *’s* marca posesión: «el cumpleaños de Duddy» ([[possessive-s]])."}
+      ]},
+    {"id": 24,
+      "line": [
+        {"t": [0, 1], "es": "Harry gimió."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1], "es": "gimió", "base": "groan", "sense": "sound"}
+      ]},
+    {"id": 25,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«¿Qué has dicho?»,"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "gritó con ira su tía desde el otro lado de la puerta."}
+      ],
+      "words": [
+        {"t": [0], "es": "qué", "base": "what", "sense": "question"},
+        {"t": [1, 3], "es": "dijiste", "base": "say", "sense": "speak"},
+        {"t": [2], "es": "tú"},
+        {"t": [4, 5], "es": "su tía", "base": "aunt", "sense": "family"},
+        {"t": [6], "es": "dijo bruscamente", "base": "snap", "sense": "speak-sharply"},
+        {"t": [7, 8, 9], "es": "a través de la puerta", "base": "door", "sense": "entrance"}
+      ]},
+    {"id": 26,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Nada, nada…»."}
+      ],
+      "words": [
+        {"t": [0], "es": "nada", "base": "nothing", "sense": "none"},
+        {"t": [1], "es": "nada", "base": "nothing", "sense": "none"}
+      ]},
+    {"id": 27,
+      "line": [
+        {"t": [0, 1], "es": "El cumpleaños de Dudley…"},
+        {"t": [3, 4, 5, 6, 7], "es": "¿Cómo había podido olvidarlo?"}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "el cumpleaños de Dudley", "base": "birthday", "sense": "anniversary"},
+        {"t": [3], "es": "cómo", "base": "how", "sense": "manner"},
+        {"t": [4, 6, 7], "es": "había podido olvidar", "base": "forget", "sense": "remember", "note": "*Could have* + participio se refiere a una posibilidad pasada ([[modal-perfect]])."},
+        {"t": [5], "es": "él"}
+      ]},
+    {"id": 28,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Harry se levantó lentamente"},
+        {"t": [6, 7, 8, 9, 10], "es": "y comenzó a buscar sus calcetines."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1, 3, 4], "es": "salió de", "base": "get out of", "sense": "leave"},
+        {"t": [5], "es": "la cama", "base": "bed", "sense": "sleep"},
+        {"t": [2], "es": "lentamente", "base": "slowly", "sense": "speed"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "comenzó", "base": "start", "sense": "begin"},
+        {"t": [8, 9], "es": "a buscar", "base": "look for", "sense": "search"},
+        {"t": [10], "es": "calcetines", "base": "sock", "sense": "clothing"}
+      ]},
+    {"id": 29,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Encontró un par debajo de la cama"},
+        {"t": [7, 8, 9, 10, 11, 12, 13, 14, 15], "es": "y, después de sacar una araña de uno,"},
+        {"t": [16, 17, 18], "es": "se los puso."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "encontró", "base": "find", "sense": "discover"},
+        {"t": [2, 3], "es": "un par", "base": "pair", "sense": "two"},
+        {"t": [4, 5, 6], "es": "debajo de su cama", "base": "bed", "sense": "sleep"},
+        {"t": [7], "es": "y"},
+        {"t": [8], "es": "después de"},
+        {"t": [9, 12], "es": "quitar", "base": "pull off", "sense": "remove"},
+        {"t": [10, 11], "es": "una araña", "base": "spider", "sense": "animal"},
+        {"t": [13], "es": "uno"},
+        {"t": [14, 15], "es": "de ellos"},
+        {"t": [16, 18], "es": "se puso", "base": "put on", "sense": "clothe", "note": "Las partículas pueden separarse del verbo: *put them on*, «ponérselos» ([[phrasal-verbs]])."},
+        {"t": [17], "es": "los"}
+      ]},
+    {"id": 30,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Harry estaba acostumbrado a las arañas,"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "porque la alacena que había debajo de las escaleras estaba llena de ellas,"},
+        {"t": [15, 16, 17, 18, 19, 20], "es": "y allí era donde dormía."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1, 2, 3], "es": "estaba acostumbrado a", "base": "be used to", "sense": "accustomed", "note": "*Be used to* + nombre o *-ing* es «estar acostumbrado» ([[be-used-to]]). No es *used to* + infinitivo, «solía»."},
+        {"t": [4], "es": "arañas", "base": "spider", "sense": "animal"},
+        {"t": [5], "es": "porque"},
+        {"t": [6, 7], "es": "la alacena", "base": "cupboard", "sense": "storage"},
+        {"t": [8, 9, 10], "es": "debajo de las escaleras", "base": "stair", "sense": "step"},
+        {"t": [11], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [12, 13], "es": "llena de", "base": "full", "sense": "filled"},
+        {"t": [14], "es": "ellas"},
+        {"t": [15], "es": "y"},
+        {"t": [16], "es": "allí"},
+        {"t": [17], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [18], "es": "donde", "base": "where", "sense": "place"},
+        {"t": [19], "es": "él"},
+        {"t": [20], "es": "dormía", "base": "sleep", "sense": "rest"}
+      ]},
+    {"id": 31,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Cuando estuvo vestido,"},
+        {"t": [4, 5, 6, 7, 8, 9, 10, 11], "es": "recorrió el recibidor y entró en la cocina."}
+      ],
+      "words": [
+        {"t": [0], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [1], "es": "él"},
+        {"t": [2, 3], "es": "estuvo vestido", "base": "dress", "sense": "clothe"},
+        {"t": [4], "es": "él"},
+        {"t": [5], "es": "fue", "base": "go", "sense": "move"},
+        {"t": [6, 7, 8], "es": "por el recibidor", "base": "hall", "sense": "entrance"},
+        {"t": [9, 10, 11], "es": "a la cocina", "base": "kitchen", "sense": "room"}
+      ]},
+    {"id": 32,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "La mesa estaba casi oculta"},
+        {"t": [5, 6, 7, 8, 9], "es": "bajo todos los regalos de cumpleaños de Dudley."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "la mesa", "base": "table", "sense": "furniture"},
+        {"t": [2, 4], "es": "estaba oculta", "base": "hide", "sense": "conceal"},
+        {"t": [3], "es": "casi", "base": "almost", "sense": "nearly"},
+        {"t": [5, 7, 9], "es": "bajo los regalos de Dudley", "base": "present", "sense": "gift"},
+        {"t": [6], "es": "todos", "base": "all", "sense": "every"},
+        {"t": [8], "es": "de cumpleaños", "base": "birthday", "sense": "anniversary"}
+      ]},
+    {"id": 33,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "Parecía que Dudley había conseguido el ordenador nuevo que quería,"},
+        {"t": [12, 13, 14, 15, 16, 17], "es": "por no mencionar el segundo televisor"},
+        {"t": [18, 19, 20, 21], "es": "y la bicicleta de carreras."}
+      ],
+      "words": [
+        {"t": [0], "es": "(no se traduce)"},
+        {"t": [1], "es": "parecía", "base": "look", "sense": "seem"},
+        {"t": [2, 3], "es": "como si", "base": "as though", "sense": "appearance"},
+        {"t": [4], "es": "Dudley"},
+        {"t": [5, 6], "es": "había conseguido", "base": "get", "sense": "obtain"},
+        {"t": [7, 9], "es": "el ordenador", "base": "computer", "sense": "device"},
+        {"t": [8], "es": "nuevo", "base": "new", "sense": "recent"},
+        {"t": [10], "es": "él"},
+        {"t": [11], "es": "quería", "base": "want", "sense": "desire"},
+        {"t": [12, 13, 14], "es": "por no mencionar", "base": "not to mention", "sense": "addition", "note": "Introduce algo más que refuerza lo que se acaba de decir."},
+        {"t": [15, 17], "es": "el televisor", "base": "television", "sense": "device"},
+        {"t": [16], "es": "segundo", "base": "second", "sense": "order"},
+        {"t": [18], "es": "y"},
+        {"t": [19, 21], "es": "la bicicleta", "base": "bike", "sense": "bicycle"},
+        {"t": [20], "es": "de carreras", "base": "racing", "sense": "sport"}
+      ]},
+    {"id": 34,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "La razón exacta por la que Dudley podía querer una bicicleta de carreras era un misterio para Harry,"},
+        {"t": [12, 13, 14, 15, 16, 17, 18, 19], "es": "ya que Dudley estaba muy gordo y aborrecía el ejercicio,"},
+        {"t": [21, 22, 23, 24, 25, 26, 27], "es": "excepto si conllevaba pegar un puñetazo a alguien, por supuesto."}
+      ],
+      "words": [
+        {"t": [0], "es": "exactamente", "base": "exactly", "sense": "precisely"},
+        {"t": [1], "es": "por qué", "base": "why", "sense": "question"},
+        {"t": [2], "es": "Dudley"},
+        {"t": [3], "es": "quería", "base": "want", "sense": "desire"},
+        {"t": [4, 6], "es": "una bicicleta", "base": "bike", "sense": "bicycle"},
+        {"t": [5], "es": "de carreras", "base": "racing", "sense": "sport"},
+        {"t": [7], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [8, 9], "es": "un misterio", "base": "mystery", "sense": "unknown"},
+        {"t": [10, 11], "es": "para Harry"},
+        {"t": [12], "es": "ya que"},
+        {"t": [13], "es": "Dudley"},
+        {"t": [14], "es": "estaba", "base": "be", "sense": "state"},
+        {"t": [15], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [16], "es": "gordo", "base": "fat", "sense": "body"},
+        {"t": [17], "es": "y"},
+        {"t": [18], "es": "odiaba", "base": "hate", "sense": "dislike"},
+        {"t": [19], "es": "el ejercicio", "base": "exercise", "sense": "activity"},
+        {"t": [21], "es": "a menos que"},
+        {"t": [22, 23], "es": "por supuesto", "base": "of course", "sense": "obvious"},
+        {"t": [24], "es": "(el ejercicio)"},
+        {"t": [25], "es": "implicara", "base": "involve", "sense": "include"},
+        {"t": [26], "es": "pegar un puñetazo", "base": "punch", "sense": "hit"},
+        {"t": [27], "es": "a alguien"}
+      ]},
+    {"id": 35,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "El saco de boxeo favorito de Dudley era Harry,"},
+        {"t": [5, 6, 7, 8, 9, 10], "es": "pero no podía atraparlo muy a menudo."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "el saco de boxeo de Dudley", "base": "punch-bag", "sense": "training", "note": "Británico: *punch-bag*; en EE. UU., *punching bag*. Aquí se aplica cruelmente a una persona."},
+        {"t": [1], "es": "favorito", "base": "favourite", "sense": "preferred", "note": "Ortografía británica; en EE. UU., *favorite* ([[british-american]])."},
+        {"t": [3], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [4], "es": "Harry"},
+        {"t": [5], "es": "pero"},
+        {"t": [6], "es": "él"},
+        {"t": [7, 9], "es": "no podía atrapar", "base": "catch", "sense": "seize"},
+        {"t": [8], "es": "a menudo", "base": "often", "sense": "frequency"},
+        {"t": [10], "es": "lo"}
+      ]},
+    {"id": 36,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Aunque no lo parecía,"},
+        {"t": [4, 5, 6, 7, 8], "es": "Harry era muy rápido."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1, 2], "es": "no parecía", "base": "look", "sense": "seem"},
+        {"t": [3], "es": "eso"},
+        {"t": [4], "es": "pero"},
+        {"t": [5], "es": "él"},
+        {"t": [6], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [7], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [8], "es": "rápido", "base": "fast", "sense": "speed"}
+      ]},
+    {"id": 37,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "Tal vez tenía algo que ver con eso de vivir en una oscura alacena,"},
+        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22], "es": "pero Harry había sido siempre flaco y muy bajo para su edad."}
+      ],
+      "words": [
+        {"t": [0], "es": "tal vez", "base": "perhaps", "sense": "possibility"},
+        {"t": [1], "es": "(su tamaño)"},
+        {"t": [2, 4, 5, 6], "es": "tenía que ver con", "base": "have to do with", "sense": "relate", "note": "Esta expresión habla de relación, no de obligación."},
+        {"t": [3], "es": "algo"},
+        {"t": [7], "es": "vivir", "base": "live", "sense": "reside"},
+        {"t": [8, 9, 11], "es": "en una alacena", "base": "cupboard", "sense": "storage"},
+        {"t": [10], "es": "oscura", "base": "dark", "sense": "unlit"},
+        {"t": [12], "es": "pero"},
+        {"t": [13], "es": "Harry"},
+        {"t": [14, 16], "es": "había sido", "base": "be", "sense": "identity"},
+        {"t": [15], "es": "siempre", "base": "always", "sense": "time"},
+        {"t": [17], "es": "pequeño", "base": "small", "sense": "size"},
+        {"t": [18], "es": "y"},
+        {"t": [19], "es": "flaco", "base": "skinny", "sense": "thin"},
+        {"t": [20, 21, 22], "es": "para su edad", "base": "age", "sense": "years"}
+      ]},
+    {"id": 38,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Además, parecía más pequeño y enjuto de lo que realmente era,"},
+        {"t": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "porque toda la ropa que tenía para ponerse eran prendas viejas de Dudley,"},
+        {"t": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30], "es": "y su primo era unas cuatro veces más grande que él."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "parecía", "base": "look", "sense": "seem"},
+        {"t": [2], "es": "aún", "base": "even", "sense": "emphasis"},
+        {"t": [3], "es": "más pequeño", "base": "small", "sense": "size"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "más flaco", "base": "skinny", "sense": "thin"},
+        {"t": [6], "es": "que"},
+        {"t": [7], "es": "él"},
+        {"t": [8], "es": "realmente", "base": "really", "sense": "truly"},
+        {"t": [9], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [10], "es": "porque"},
+        {"t": [11], "es": "todo", "base": "all", "sense": "every"},
+        {"t": [12], "es": "él"},
+        {"t": [13], "es": "tenía", "base": "have", "sense": "possess"},
+        {"t": [14, 15], "es": "para ponerse", "base": "wear", "sense": "clothing", "note": "El infinitivo expresa aquí para qué tenía esas prendas ([[purpose-infinitive]])."},
+        {"t": [16], "es": "eran", "base": "be", "sense": "identity"},
+        {"t": [17], "es": "viejas", "base": "old", "sense": "not-new"},
+        {"t": [18], "es": "prendas, ropa", "base": "clothes", "sense": "garments"},
+        {"t": [19, 20], "es": "de Dudley"},
+        {"t": [21], "es": "y"},
+        {"t": [22], "es": "Dudley"},
+        {"t": [23], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [24], "es": "aproximadamente", "base": "about", "sense": "approximately"},
+        {"t": [25], "es": "cuatro"},
+        {"t": [26], "es": "veces", "base": "time", "sense": "occasion"},
+        {"t": [27], "es": "más grande", "base": "big", "sense": "size"},
+        {"t": [28], "es": "que"},
+        {"t": [29], "es": "él"},
+        {"t": [30], "es": "era", "base": "be", "sense": "identity"}
+      ]},
+    {"id": 39,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Harry tenía un rostro delgado,"},
+        {"t": [5, 6], "es": "rodillas huesudas,"},
+        {"t": [7, 8, 9, 10, 11], "es": "pelo negro y ojos de color verde brillante."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1], "es": "tenía", "base": "have", "sense": "possess"},
+        {"t": [2, 4], "es": "un rostro", "base": "face", "sense": "front"},
+        {"t": [3], "es": "delgado", "base": "thin", "sense": "body"},
+        {"t": [5], "es": "huesudas", "base": "knobbly", "sense": "bumpy"},
+        {"t": [6], "es": "rodillas", "base": "knee", "sense": "body"},
+        {"t": [7], "es": "negro", "base": "black", "sense": "colour"},
+        {"t": [8], "es": "pelo", "base": "hair", "sense": "growth"},
+        {"t": [9], "es": "y"},
+        {"t": [10], "es": "verde brillante", "base": "bright-green", "sense": "colour"},
+        {"t": [11], "es": "ojos", "base": "eye", "sense": "organ"}
+      ]},
+    {"id": 40,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Llevaba gafas redondas pegadas con mucha cinta adhesiva,"},
+        {"t": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22], "es": "consecuencia de todas las veces que Dudley le había pegado un puñetazo en la nariz."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "llevaba puestas", "base": "wear", "sense": "clothing"},
+        {"t": [2], "es": "redondas", "base": "round", "sense": "shape"},
+        {"t": [3], "es": "gafas", "base": "glass", "sense": "eyewear"},
+        {"t": [4, 5], "es": "unidas", "base": "hold together", "sense": "join"},
+        {"t": [6, 7, 8, 9], "es": "con mucha", "base": "lot", "sense": "quantity"},
+        {"t": [10], "es": "cinta adhesiva", "base": "sellotape", "sense": "tape", "note": "*Sellotape* es una marca usada como nombre común en Reino Unido; en EE. UU. se oye *Scotch tape*."},
+        {"t": [11, 12], "es": "debido a", "base": "because of", "sense": "cause"},
+        {"t": [13], "es": "todas", "base": "all", "sense": "every"},
+        {"t": [14, 15], "es": "las veces", "base": "time", "sense": "occasion"},
+        {"t": [16], "es": "Dudley"},
+        {"t": [17, 18], "es": "había dado un puñetazo", "base": "punch", "sense": "hit"},
+        {"t": [19], "es": "le, a él"},
+        {"t": [20, 21, 22], "es": "en la nariz", "base": "nose", "sense": "body"}
+      ]},
+    {"id": 41,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "La única cosa que a Harry le gustaba de su propia apariencia"},
+        {"t": [9, 10, 11, 12, 13, 14, 15, 16], "es": "era aquella cicatriz muy fina en la frente,"},
+        {"t": [17, 18, 19, 20, 21, 22, 23, 24], "es": "con la forma de un relámpago."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "la cosa", "base": "thing", "sense": "object"},
+        {"t": [1], "es": "única", "base": "only", "sense": "unique"},
+        {"t": [3], "es": "Harry"},
+        {"t": [4], "es": "le gustaba", "base": "like", "sense": "enjoy"},
+        {"t": [5, 6, 8], "es": "de su apariencia", "base": "appearance", "sense": "looks"},
+        {"t": [7], "es": "propia", "base": "own", "sense": "personal"},
+        {"t": [9], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [10, 13], "es": "una cicatriz", "base": "scar", "sense": "mark"},
+        {"t": [11], "es": "muy", "base": "very", "sense": "degree"},
+        {"t": [12], "es": "fina", "base": "thin", "sense": "thickness"},
+        {"t": [14, 15, 16], "es": "en su frente", "base": "forehead", "sense": "body"},
+        {"t": [17], "es": "que"},
+        {"t": [18, 19, 20], "es": "tenía la forma de", "base": "shape", "sense": "form-verb"},
+        {"t": [21, 22, 23, 24], "es": "un rayo", "base": "bolt", "sense": "lightning", "note": "*A bolt of lightning* es una descarga concreta; *lightning* por sí solo no se cuenta ([[uncountable]])."}
+      ]},
+    {"id": 42,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "La tenía desde que podía acordarse,"},
+        {"t": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "es": "y lo primero que recordaba haber preguntado a su tía Petunia"},
+        {"t": [22, 23, 24, 25, 26, 27], "es": "era cómo se la había hecho."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2], "es": "había tenido", "base": "have", "sense": "possess"},
+        {"t": [3], "es": "la"},
+        {"t": [4, 5, 6], "es": "desde hacía tanto como", "base": "as long as", "sense": "duration"},
+        {"t": [7], "es": "él"},
+        {"t": [8, 9], "es": "podía recordar", "base": "remember", "sense": "recall"},
+        {"t": [10], "es": "y"},
+        {"t": [11, 13], "es": "la pregunta", "base": "question", "sense": "inquiry"},
+        {"t": [12], "es": "primera", "base": "first", "sense": "order"},
+        {"t": [14], "es": "él"},
+        {"t": [15, 17], "es": "podía recordar", "base": "remember", "sense": "recall"},
+        {"t": [16], "es": "alguna vez", "base": "ever", "sense": "at-any-time"},
+        {"t": [18], "es": "haber preguntado", "base": "ask", "sense": "question"},
+        {"t": [19, 20], "es": "a su tía", "base": "aunt", "sense": "family"},
+        {"t": [21], "es": "Petunia"},
+        {"t": [22], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [23], "es": "cómo", "base": "how", "sense": "manner"},
+        {"t": [24], "es": "él"},
+        {"t": [25, 26], "es": "había conseguido", "base": "get", "sense": "obtain", "note": "Con heridas o marcas, *get* puede ser «hacerse»: la pregunta es cómo apareció la cicatriz."},
+        {"t": [27], "es": "la"}
+      ]},
+    {"id": 43,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "«En el accidente de coche donde tus padres murieron»,"},
+        {"t": [8, 9, 10], "es": "había dicho."}
+      ],
+      "words": [
+        {"t": [0, 1, 3], "es": "en el accidente", "base": "crash", "sense": "collision"},
+        {"t": [2], "es": "de coche", "base": "car", "sense": "vehicle"},
+        {"t": [4], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [5, 6], "es": "tus padres", "base": "parent", "sense": "family"},
+        {"t": [7], "es": "murieron", "base": "die", "sense": "death"},
+        {"t": [8], "es": "ella"},
+        {"t": [9, 10], "es": "había dicho", "base": "say", "sense": "speak"}
+      ]},
+    {"id": 44,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Y no hagas preguntas»."}
+      ],
+      "words": [
+        {"t": [0], "es": "y"},
+        {"t": [1, 2], "es": "no preguntes", "base": "ask", "sense": "question"},
+        {"t": [3], "es": "preguntas", "base": "question", "sense": "inquiry"}
+      ]},
+    {"id": 45,
+      "line": [
+        {"t": [0, 1, 2], "es": "No hagas preguntas:"},
+        {"t": [4, 5, 6, 7, 8], "es": "esa era la primera regla"},
+        {"t": [9, 10, 11, 12, 13, 14, 15], "es": "si se quería vivir una vida tranquila con los Dursley."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "no preguntes", "base": "ask", "sense": "question"},
+        {"t": [2], "es": "preguntas", "base": "question", "sense": "inquiry"},
+        {"t": [4], "es": "esa"},
+        {"t": [5], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [6, 8], "es": "la regla", "base": "rule", "sense": "instruction"},
+        {"t": [7], "es": "primera", "base": "first", "sense": "order"},
+        {"t": [9, 10, 12], "es": "para una vida", "base": "life", "sense": "existence"},
+        {"t": [11], "es": "tranquila", "base": "quiet", "sense": "peaceful"},
+        {"t": [13, 14, 15], "es": "con los Dursley"}
+      ]},
+    {"id": 46,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Tío Vernon entró en la cocina"},
+        {"t": [5, 6, 7, 8, 9, 10, 11], "es": "cuando Harry estaba dando la vuelta al beicon."}
+      ],
+      "words": [
+        {"t": [0], "es": "tío", "base": "uncle", "sense": "family"},
+        {"t": [1], "es": "Vernon"},
+        {"t": [2], "es": "entró", "base": "enter", "sense": "go-in"},
+        {"t": [3, 4], "es": "en la cocina", "base": "kitchen", "sense": "room"},
+        {"t": [5], "es": "cuando"},
+        {"t": [6], "es": "Harry"},
+        {"t": [7, 8, 9], "es": "estaba dando la vuelta", "base": "turn over", "sense": "reverse"},
+        {"t": [10, 11], "es": "al beicon", "base": "bacon", "sense": "meat"}
+      ]},
+    {"id": 47,
+      "line": [
+        {"t": [0, 1, 2], "es": "«¡Péinate!»,"},
+        {"t": [3, 4], "es": "bramó"},
+        {"t": [5, 6, 7, 8, 9, 10], "es": "como saludo matinal."}
+      ],
+      "words": [
+        {"t": [0], "es": "péinate, peina", "base": "comb", "sense": "hair"},
+        {"t": [1, 2], "es": "tu pelo", "base": "hair", "sense": "growth", "note": "El inglés conserva el posesivo con el cuerpo, aunque en español baste «péinate» ([[body-possessive]])."},
+        {"t": [3], "es": "él"},
+        {"t": [4], "es": "ladró, bramó", "base": "bark", "sense": "shout", "note": "*Bark* es «ladrar»; aplicado al habla, describe una orden seca y brusca."},
+        {"t": [5, 6, 7], "es": "a modo de", "base": "by way of", "sense": "as"},
+        {"t": [8, 10], "es": "un saludo", "base": "greeting", "sense": "salutation"},
+        {"t": [9], "es": "matinal", "base": "morning", "sense": "time"}
+      ]},
+    {"id": 48,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Más o menos una vez por semana,"},
+        {"t": [4, 5, 6, 7, 8, 9, 10, 11, 12], "es": "tío Vernon miraba por encima de su periódico"},
+        {"t": [13, 14, 15, 16, 17, 18, 19], "es": "y gritaba que Harry necesitaba un corte de pelo."}
+      ],
+      "words": [
+        {"t": [0], "es": "aproximadamente", "base": "about", "sense": "approximately"},
+        {"t": [1], "es": "una vez", "base": "once", "sense": "one-time"},
+        {"t": [2, 3], "es": "por semana", "base": "week", "sense": "time"},
+        {"t": [4], "es": "tío", "base": "uncle", "sense": "family"},
+        {"t": [5], "es": "Vernon"},
+        {"t": [6], "es": "miraba", "base": "look", "sense": "see"},
+        {"t": [7, 8, 9, 10], "es": "por encima del borde", "base": "top", "sense": "upper"},
+        {"t": [11, 12], "es": "de su periódico", "base": "newspaper", "sense": "publication"},
+        {"t": [13], "es": "y"},
+        {"t": [14], "es": "gritaba", "base": "shout", "sense": "cry"},
+        {"t": [15], "es": "que"},
+        {"t": [16], "es": "Harry"},
+        {"t": [17], "es": "necesitaba", "base": "need", "sense": "require"},
+        {"t": [18, 19], "es": "un corte de pelo", "base": "haircut", "sense": "style"}
+      ]},
+    {"id": 49,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "A Harry le debían de haber cortado más veces el pelo que al resto de los niños de su clase todos juntos,"},
+        {"t": [17, 18, 19, 20, 21], "es": "pero no servía para nada,"},
+        {"t": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32], "es": "pues su pelo seguía creciendo de aquella manera, por todos lados."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1, 2, 3], "es": "debía de haber tenido", "base": "have", "sense": "experience", "note": "*Must have* + participio expresa una deducción sobre el pasado, no una obligación ([[modal-perfect]])."},
+        {"t": [4], "es": "más", "base": "more", "sense": "quantity"},
+        {"t": [5], "es": "cortes de pelo", "base": "haircut", "sense": "style"},
+        {"t": [6], "es": "que"},
+        {"t": [7, 8, 9], "es": "el resto de", "base": "rest", "sense": "remainder"},
+        {"t": [10, 11], "es": "los niños", "base": "boy", "sense": "child"},
+        {"t": [12, 13, 14], "es": "de su clase", "base": "class", "sense": "students"},
+        {"t": [15, 16], "es": "juntos", "base": "put together", "sense": "combined", "note": "Aquí significa «sumados todos», no «montados» o «ensamblados»."},
+        {"t": [17], "es": "pero"},
+        {"t": [18], "es": "(cortarle el pelo)"},
+        {"t": [19, 20, 21], "es": "no cambiaba nada", "base": "make a difference", "sense": "affect", "note": "*Make no difference* indica que algo no tiene efecto."},
+        {"t": [22, 23], "es": "su pelo", "base": "hair", "sense": "growth"},
+        {"t": [24], "es": "simplemente", "base": "simply", "sense": "merely"},
+        {"t": [25], "es": "crecía", "base": "grow", "sense": "increase"},
+        {"t": [26, 27], "es": "de aquella manera", "base": "way", "sense": "method"},
+        {"t": [29, 30, 31, 32], "es": "por todos lados", "base": "all over the place", "sense": "everywhere"}
+      ]},
+    {"id": 50,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Harry estaba friendo los huevos cuando"},
+        {"t": [7, 8, 9, 10, 11, 12, 13, 14], "es": "Dudley llegó a la cocina con su madre."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1, 2], "es": "estaba friendo", "base": "fry", "sense": "cook"},
+        {"t": [3], "es": "huevos", "base": "egg", "sense": "food"},
+        {"t": [4, 5, 6], "es": "para cuando", "base": "by the time", "sense": "when", "note": "Marca el momento en que otra acción ya ocurre o ya se ha completado."},
+        {"t": [7], "es": "Dudley"},
+        {"t": [8], "es": "llegó", "base": "arrive", "sense": "reach"},
+        {"t": [9, 10, 11], "es": "a la cocina", "base": "kitchen", "sense": "room"},
+        {"t": [12, 13, 14], "es": "con su madre", "base": "mother", "sense": "parent"}
+      ]},
+    {"id": 51,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Dudley se parecía mucho a tío Vernon."}
+      ],
+      "words": [
+        {"t": [0], "es": "Dudley"},
+        {"t": [1, 4], "es": "se parecía a", "base": "look like", "sense": "resemble"},
+        {"t": [2, 3], "es": "mucho", "base": "a lot", "sense": "quantity"},
+        {"t": [5], "es": "tío", "base": "uncle", "sense": "family"},
+        {"t": [6], "es": "Vernon"}
+      ]},
+    {"id": 52,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Tenía una cara grande y rosada,"},
+        {"t": [6, 7, 8], "es": "poco cuello,"},
+        {"t": [9, 10, 11, 12], "es": "ojos pequeños de un tono azul acuoso,"},
+        {"t": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "es": "y abundante pelo rubio que cubría suavemente su cabeza ancha y gorda."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "tenía", "base": "have", "sense": "possess"},
+        {"t": [2, 5], "es": "una cara", "base": "face", "sense": "front"},
+        {"t": [3], "es": "grande", "base": "large", "sense": "size", "note": "Falso amigo: «grande», no «largo» ([[false-friends]])."},
+        {"t": [4], "es": "rosada", "base": "pink", "sense": "colour"},
+        {"t": [6, 7], "es": "poco", "base": "much", "sense": "amount"},
+        {"t": [8], "es": "cuello", "base": "neck", "sense": "body"},
+        {"t": [9], "es": "pequeños", "base": "small", "sense": "size"},
+        {"t": [10], "es": "acuosos", "base": "watery", "sense": "appearance"},
+        {"t": [11], "es": "azules", "base": "blue", "sense": "colour"},
+        {"t": [12], "es": "ojos", "base": "eye", "sense": "organ"},
+        {"t": [13], "es": "y"},
+        {"t": [14], "es": "espeso", "base": "thick", "sense": "dense"},
+        {"t": [15], "es": "rubio", "base": "blond", "sense": "hair"},
+        {"t": [16], "es": "pelo", "base": "hair", "sense": "growth"},
+        {"t": [17], "es": "que"},
+        {"t": [18], "es": "descansaba", "base": "lie", "sense": "situated"},
+        {"t": [19], "es": "suavemente", "base": "smoothly", "sense": "evenly"},
+        {"t": [20, 21, 24], "es": "sobre su cabeza", "base": "head", "sense": "body"},
+        {"t": [22], "es": "ancha", "base": "thick", "sense": "wide"},
+        {"t": [23], "es": "gorda", "base": "fat", "sense": "body"}
+      ]},
+    {"id": 53,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Tía Petunia decía a menudo que Dudley parecía un angelito;"},
+        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], "es": "Harry decía a menudo que Dudley parecía un cerdo con peluca."}
+      ],
+      "words": [
+        {"t": [0], "es": "tía", "base": "aunt", "sense": "family"},
+        {"t": [1], "es": "Petunia"},
+        {"t": [2], "es": "a menudo", "base": "often", "sense": "frequency"},
+        {"t": [3], "es": "decía", "base": "say", "sense": "speak"},
+        {"t": [4], "es": "que"},
+        {"t": [5], "es": "Dudley"},
+        {"t": [6, 7], "es": "parecía", "base": "look like", "sense": "seem"},
+        {"t": [8, 10], "es": "un ángel", "base": "angel", "sense": "being"},
+        {"t": [9], "es": "bebé", "base": "baby", "sense": "infant"},
+        {"t": [12], "es": "Harry"},
+        {"t": [13], "es": "a menudo", "base": "often", "sense": "frequency"},
+        {"t": [14], "es": "decía", "base": "say", "sense": "speak"},
+        {"t": [15], "es": "que"},
+        {"t": [16], "es": "Dudley"},
+        {"t": [17, 18], "es": "parecía", "base": "look like", "sense": "seem"},
+        {"t": [19, 20], "es": "un cerdo", "base": "pig", "sense": "animal"},
+        {"t": [21, 22, 23], "es": "con una peluca", "base": "wig", "sense": "hair"}
+      ]},
+    {"id": 54,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Harry puso sobre la mesa los platos con huevos y beicon,"},
+        {"t": [11, 12, 13, 14, 15, 16, 17, 18], "es": "lo que era difícil porque había poco espacio."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1], "es": "puso", "base": "put", "sense": "place"},
+        {"t": [2, 3], "es": "los platos", "base": "plate", "sense": "dish"},
+        {"t": [4, 5], "es": "de huevo", "base": "egg", "sense": "food"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "beicon", "base": "bacon", "sense": "meat"},
+        {"t": [8, 9, 10], "es": "sobre la mesa", "base": "table", "sense": "furniture"},
+        {"t": [11], "es": "lo que"},
+        {"t": [12], "es": "era", "base": "be", "sense": "identity"},
+        {"t": [13], "es": "difícil", "base": "difficult", "sense": "hard"},
+        {"t": [14], "es": "porque"},
+        {"t": [15, 16], "es": "no había", "base": "be", "sense": "exist"},
+        {"t": [17], "es": "mucho", "base": "much", "sense": "amount"},
+        {"t": [18], "es": "espacio", "base": "room", "sense": "space"}
+      ]},
+    {"id": 55,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Entretanto, Dudley contaba sus regalos."}
+      ],
+      "words": [
+        {"t": [0], "es": "Dudley"},
+        {"t": [1], "es": "entretanto", "base": "meanwhile", "sense": "same-time"},
+        {"t": [2, 3], "es": "estaba contando", "base": "count", "sense": "number"},
+        {"t": [4, 5], "es": "sus regalos", "base": "present", "sense": "gift"}
+      ]},
+    {"id": 56,
+      "line": [
+        {"t": [0, 1, 2], "es": "Su cara se ensombreció."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "se le cayó el alma a los pies", "base": "one's face falls", "sense": "disappointed", "note": "*His face fell* indica que su expresión cambió por una decepción."}
+      ]},
+    {"id": 57,
+      "line": [
+        {"t": [0], "es": "«Treinta y seis»,"},
+        {"t": [1, 2, 3, 4, 5, 6, 7], "es": "dijo, mirando a su madre"},
+        {"t": [8, 9], "es": "y a su padre."}
+      ],
+      "words": [
+        {"t": [0], "es": "treinta y seis"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3, 4, 5], "es": "levantando la vista hacia", "base": "look up", "sense": "raise-eyes"},
+        {"t": [6, 7], "es": "su madre", "base": "mother", "sense": "parent"},
+        {"t": [8], "es": "y"},
+        {"t": [9], "es": "padre", "base": "father", "sense": "parent"}
+      ]},
+    {"id": 58,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Dos menos que el año pasado»."}
+      ],
+      "words": [
+        {"t": [0], "es": "eso es", "base": "be", "sense": "identity"},
+        {"t": [1], "es": "dos"},
+        {"t": [2], "es": "menos", "base": "less", "sense": "smaller-amount", "note": "En inglés cuidado se prefiere *fewer* con cosas contables; *less* es frecuente al hablar de cantidades."},
+        {"t": [3], "es": "que"},
+        {"t": [4], "es": "pasado", "base": "last", "sense": "previous"},
+        {"t": [5], "es": "año", "base": "year", "sense": "time"}
+      ]},
+    {"id": 59,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«Querido, no has contado el regalo de tía Marge."},
+        {"t": [7, 8, 9, 10, 11, 12, 13], "es": "Mira, está debajo de este grande"},
+        {"t": [14, 15, 16, 17], "es": "de mamá y papá»."}
+      ],
+      "words": [
+        {"t": [0], "es": "querido", "base": "darling", "sense": "address"},
+        {"t": [1], "es": "tú"},
+        {"t": [2, 3], "es": "no has contado", "base": "count", "sense": "number"},
+        {"t": [4, 5, 6], "es": "el regalo de tía Marge", "base": "present", "sense": "gift", "note": "*Marge’s* lleva *’s* de posesión: «de Marge» ([[possessive-s]])."},
+        {"t": [7], "es": "mira", "base": "see", "sense": "sight"},
+        {"t": [8], "es": "está", "base": "be", "sense": "state"},
+        {"t": [9], "es": "aquí", "base": "here", "sense": "place"},
+        {"t": [10, 11, 13], "es": "debajo de este"},
+        {"t": [12], "es": "grande", "base": "big", "sense": "size"},
+        {"t": [14, 15], "es": "de mamá", "base": "mummy", "sense": "mother", "note": "Forma familiar británica; en EE. UU. suele decirse *mommy*."},
+        {"t": [16], "es": "y"},
+        {"t": [17], "es": "papá", "base": "daddy", "sense": "father"}
+      ]},
+    {"id": 60,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "«Muy bien, treinta y siete entonces»,"},
+        {"t": [4, 5, 6, 7, 8, 9, 10], "es": "dijo Dudley, poniéndose rojo."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "muy bien", "base": "all right", "sense": "agreement"},
+        {"t": [2], "es": "treinta y siete"},
+        {"t": [3], "es": "entonces", "base": "then", "sense": "inference"},
+        {"t": [4], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [5], "es": "Dudley"},
+        {"t": [6], "es": "poniéndose", "base": "go", "sense": "become"},
+        {"t": [7], "es": "rojo", "base": "red", "sense": "colour"},
+        {"t": [8, 9, 10], "es": "en la cara", "base": "face", "sense": "front"}
+      ]},
+    {"id": 61,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Harry, que podía ver venir un gran berrinche de Dudley,"},
+        {"t": [10, 11, 12, 13, 14, 15, 16, 17, 18], "es": "comenzó a comerse el beicon lo más rápido posible,"},
+        {"t": [19, 20, 21, 22, 23, 24, 25], "es": "por si volcaba la mesa."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1], "es": "que"},
+        {"t": [2, 3], "es": "podía ver", "base": "see", "sense": "sight"},
+        {"t": [4, 6, 7], "es": "una rabieta de Dudley", "base": "tantrum", "sense": "anger"},
+        {"t": [5], "es": "enorme", "base": "huge", "sense": "large"},
+        {"t": [8, 9], "es": "empezar", "base": "come on", "sense": "begin", "note": "Aquí *come on* indica que algo empieza a manifestarse ([[phrasal-verbs]])."},
+        {"t": [10], "es": "comenzó", "base": "begin", "sense": "start"},
+        {"t": [11, 12], "es": "a devorar", "base": "wolf down", "sense": "eat-fast", "note": "Comer con mucha prisa y ganas, como un lobo."},
+        {"t": [13, 14], "es": "su beicon", "base": "bacon", "sense": "meat"},
+        {"t": [15, 16, 17, 18], "es": "lo más rápido posible", "base": "as fast as possible", "sense": "maximum-speed"},
+        {"t": [19, 20], "es": "por si", "base": "in case", "sense": "precaution", "note": "*In case* presenta algo que podría pasar y para lo que uno se prepara."},
+        {"t": [21], "es": "Dudley"},
+        {"t": [22, 25], "es": "volcaba", "base": "turn over", "sense": "reverse"},
+        {"t": [23, 24], "es": "la mesa", "base": "table", "sense": "furniture"}
+      ]},
+    {"id": 62,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Tía Petunia también sintió claramente el peligro, porque dijo rápidamente:"},
+        {"t": [10, 11, 12, 13, 14, 15, 16], "es": "«Y vamos a comprarte dos regalos más"},
+        {"t": [17, 18, 19, 20], "es": "cuando salgamos hoy."}
+      ],
+      "words": [
+        {"t": [0], "es": "tía", "base": "aunt", "sense": "family"},
+        {"t": [1], "es": "Petunia"},
+        {"t": [2], "es": "claramente", "base": "obviously", "sense": "clearly"},
+        {"t": [3], "es": "olfateó, percibió", "base": "scent", "sense": "detect", "note": "El verbo parte del olfato; en sentido figurado es percibir algo que se avecina."},
+        {"t": [4], "es": "peligro", "base": "danger", "sense": "risk"},
+        {"t": [5], "es": "también", "base": "too", "sense": "also"},
+        {"t": [6], "es": "porque"},
+        {"t": [7], "es": "ella"},
+        {"t": [8], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [9], "es": "rápidamente", "base": "quickly", "sense": "speed"},
+        {"t": [10], "es": "y"},
+        {"t": [11, 12], "es": "compraremos", "base": "buy", "sense": "purchase"},
+        {"t": [13], "es": "te, a ti"},
+        {"t": [14], "es": "otros"},
+        {"t": [15], "es": "dos"},
+        {"t": [16], "es": "regalos", "base": "present", "sense": "gift"},
+        {"t": [17], "es": "mientras"},
+        {"t": [18], "es": "estemos", "base": "be", "sense": "state", "note": "Después de *while*, el presente puede referirse al futuro ([[future-time-clauses]])."},
+        {"t": [19], "es": "fuera", "base": "out", "sense": "outside"},
+        {"t": [20], "es": "hoy", "base": "today", "sense": "day"}
+      ]},
+    {"id": 63,
+      "line": [
+        {"t": [0, 1, 2], "es": "¿Qué te parece, pichoncito?"}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "¿qué te parece?"},
+        {"t": [2], "es": "pichoncito", "note": "*Popkin* es un apelativo cariñoso e infantil, no un nombre propio."}
+      ]},
+    {"id": 64,
+      "line": [
+        {"t": [0, 1, 2], "es": "Dos regalos más."}
+      ],
+      "words": [
+        {"t": [0], "es": "dos"},
+        {"t": [1], "es": "más", "base": "more", "sense": "quantity"},
+        {"t": [2], "es": "regalos", "base": "present", "sense": "gift"}
+      ]},
+    {"id": 65,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "¿Está bien?»."}
+      ],
+      "words": [
+        {"t": [0], "es": "está", "base": "be", "sense": "state"},
+        {"t": [1], "es": "eso"},
+        {"t": [2, 3], "es": "bien", "base": "all right", "sense": "well"}
+      ]},
+    {"id": 66,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Dudley pensó durante un momento."}
+      ],
+      "words": [
+        {"t": [0], "es": "Dudley"},
+        {"t": [1], "es": "pensó", "base": "think", "sense": "consider"},
+        {"t": [2, 3, 4], "es": "durante un momento", "base": "moment", "sense": "time"}
+      ]},
+    {"id": 67,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Parecía un trabajo difícil."}
+      ],
+      "words": [
+        {"t": [0], "es": "(pensar)"},
+        {"t": [1, 2], "es": "parecía", "base": "look like", "sense": "seem"},
+        {"t": [3], "es": "duro, difícil", "base": "hard", "sense": "difficult"},
+        {"t": [4], "es": "trabajo", "base": "work", "sense": "job"}
+      ]},
+    {"id": 68,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Por último, dijo lentamente:"},
+        {"t": [4, 5, 6, 7, 8, 9, 10], "es": "«Entonces tendré treinta y… treinta y…»."}
+      ],
+      "words": [
+        {"t": [0], "es": "por último", "base": "finally", "sense": "at-last"},
+        {"t": [1], "es": "él"},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3], "es": "lentamente", "base": "slowly", "sense": "speed"},
+        {"t": [4], "es": "entonces", "base": "so", "sense": "result"},
+        {"t": [5, 6], "es": "tendré", "base": "have", "sense": "possess"},
+        {"t": [7], "es": "treinta"},
+        {"t": [9], "es": "treinta"}
+      ]},
+    {"id": 69,
+      "line": [
+        {"t": [0, 1], "es": "«Treinta y nueve, dulzura»,"},
+        {"t": [2, 3, 4], "es": "dijo tía Petunia."}
+      ],
+      "words": [
+        {"t": [0], "es": "treinta y nueve"},
+        {"t": [1], "es": "dulzura", "note": "*Sweetums* es un apelativo muy cariñoso, propio del habla dirigida a niños."},
+        {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
+        {"t": [3], "es": "tía", "base": "aunt", "sense": "family"},
+        {"t": [4], "es": "Petunia"}
+      ]},
+    {"id": 70,
+      "line": [
+        {"t": [0], "es": "«Oh»."}
+      ],
+      "words": [
+        {"t": [0], "es": "oh", "base": "oh", "sense": "realisation"}
+      ]},
+    {"id": 71,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Dudley se dejó caer pesadamente en su silla"},
+        {"t": [4, 5, 6, 7, 8], "es": "y cogió el regalo más cercano."}
+      ],
+      "words": [
+        {"t": [0], "es": "Dudley"},
+        {"t": [1, 2], "es": "se sentó", "base": "sit down", "sense": "seat"},
+        {"t": [3], "es": "pesadamente", "base": "heavily", "sense": "weight"},
+        {"t": [4], "es": "y"},
+        {"t": [5], "es": "cogió bruscamente", "base": "grab", "sense": "seize"},
+        {"t": [6, 8], "es": "el paquete", "base": "parcel", "sense": "package"},
+        {"t": [7], "es": "más cercano", "base": "near", "sense": "close"}
+      ]},
+    {"id": 72,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Entonces está bien»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "está bien", "base": "all right", "sense": "agreement"},
+        {"t": [2], "es": "entonces", "base": "then", "sense": "inference"}
+      ]},
+    {"id": 73,
+      "line": [
+        {"t": [0, 1, 2], "es": "Tío Vernon rió entre dientes."}
+      ],
+      "words": [
+        {"t": [0], "es": "tío", "base": "uncle", "sense": "family"},
+        {"t": [1], "es": "Vernon"},
+        {"t": [2], "es": "rió entre dientes", "base": "chuckle", "sense": "laugh"}
+      ]},
+    {"id": 74,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«El pequeño tunante quiere sacar el máximo provecho,"},
+        {"t": [6, 7, 8, 9], "es": "igual que su padre."}
+      ],
+      "words": [
+        {"t": [0], "es": "pequeño", "base": "little", "sense": "small"},
+        {"t": [1], "es": "granuja", "base": "tyke", "sense": "child", "note": "Aquí es cariñoso: el padre aprueba lo que hace el niño."},
+        {"t": [2], "es": "quiere", "base": "want", "sense": "desire"},
+        {"t": [3, 4, 5], "es": "lo que vale su dinero", "base": "money's worth", "sense": "value", "note": "*Get your money’s worth* es recibir algo que compense lo pagado. Aquí se aplica con ironía a regalos."},
+        {"t": [6], "es": "justo", "base": "just", "sense": "exactly"},
+        {"t": [7], "es": "como", "base": "like", "sense": "similar"},
+        {"t": [8, 9], "es": "su padre", "base": "father", "sense": "parent"}
+      ]},
+    {"id": 75,
+      "line": [
+        {"t": [0, 1, 2], "es": "¡Bravo, Dudley!»."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "¡así se hace!", "base": "atta boy", "sense": "praise", "note": "Forma coloquial de *that’s the boy*, usada para felicitar o animar."},
+        {"t": [2], "es": "Dudley"}
+      ]},
+    {"id": 76,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Y revolvió el pelo de Dudley."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1], "es": "revolvió", "base": "ruffle", "sense": "disturb"},
+        {"t": [2, 3], "es": "el pelo de Dudley", "base": "hair", "sense": "growth"}
+      ]},
+    {"id": 77,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "En aquel momento sonó el teléfono"},
+        {"t": [6, 7, 8, 9, 10, 11, 12, 13], "es": "y tía Petunia fue a cogerlo, mientras"},
+        {"t": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23], "es": "Harry y tío Vernon miraban a Dudley, que estaba desembalando la bicicleta de carreras,"},
+        {"t": [24, 25, 26, 27, 28], "es": "la cámara de cine, el avión con control remoto,"},
+        {"t": [29, 30, 31, 32, 33, 34, 35, 36], "es": "dieciséis juegos nuevos para el ordenador y un vídeo."}
+      ],
+      "words": [
+        {"t": [0, 1, 2], "es": "en aquel momento", "base": "moment", "sense": "time"},
+        {"t": [3, 4], "es": "el teléfono", "base": "telephone", "sense": "device"},
+        {"t": [5], "es": "sonó", "base": "ring", "sense": "sound"},
+        {"t": [6], "es": "y"},
+        {"t": [7], "es": "tía", "base": "aunt", "sense": "family"},
+        {"t": [8], "es": "Petunia"},
+        {"t": [9], "es": "fue", "base": "go", "sense": "move"},
+        {"t": [10, 11], "es": "a atender", "base": "answer", "sense": "phone"},
+        {"t": [12], "es": "lo"},
+        {"t": [13], "es": "mientras"},
+        {"t": [14], "es": "Harry"},
+        {"t": [15], "es": "y"},
+        {"t": [16], "es": "tío", "base": "uncle", "sense": "family"},
+        {"t": [17], "es": "Vernon"},
+        {"t": [18], "es": "miraban", "base": "watch", "sense": "look"},
+        {"t": [19], "es": "Dudley"},
+        {"t": [20], "es": "desenvolver", "base": "unwrap", "sense": "remove-wrapping"},
+        {"t": [21, 23], "es": "la bicicleta", "base": "bike", "sense": "bicycle"},
+        {"t": [22], "es": "de carreras", "base": "racing", "sense": "sport"},
+        {"t": [24, 25], "es": "una cámara de cine", "base": "cine-camera", "sense": "film-camera", "note": "Palabra británica para una cámara que graba en película, no en vídeo; en EE. UU., *movie camera*."},
+        {"t": [26, 28], "es": "un avión", "base": "aeroplane", "sense": "aircraft", "note": "Británico: *aeroplane*; en EE. UU., *airplane* ([[british-american]])."},
+        {"t": [27], "es": "de control remoto", "base": "remote-control", "sense": "remote"},
+        {"t": [29], "es": "dieciséis"},
+        {"t": [30], "es": "nuevos", "base": "new", "sense": "recent"},
+        {"t": [31], "es": "de ordenador", "base": "computer", "sense": "device"},
+        {"t": [32], "es": "juegos", "base": "game", "sense": "play"},
+        {"t": [33], "es": "y"},
+        {"t": [34, 35, 36], "es": "un vídeo", "base": "video recorder", "sense": "device", "note": "Aparato para grabar y reproducir cintas de vídeo; en EE. UU. suele llamarse *VCR*."}
+      ]},
+    {"id": 78,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Estaba rompiendo el envoltorio de un reloj de pulsera de oro"},
+        {"t": [9, 10, 11, 12, 13, 14, 15, 16], "es": "cuando tía Petunia volvió del teléfono,"},
+        {"t": [17, 18, 19, 20, 21], "es": "enfadada y preocupada a la vez."}
+      ],
+      "words": [
+        {"t": [0], "es": "él"},
+        {"t": [1, 2, 5], "es": "estaba arrancando", "base": "rip off", "sense": "remove"},
+        {"t": [3, 4], "es": "el papel", "base": "paper", "sense": "material"},
+        {"t": [6, 8], "es": "un reloj de pulsera", "base": "wristwatch", "sense": "timepiece"},
+        {"t": [7], "es": "de oro", "base": "gold", "sense": "metal"},
+        {"t": [9], "es": "cuando", "base": "when", "sense": "time"},
+        {"t": [10], "es": "tía", "base": "aunt", "sense": "family"},
+        {"t": [11], "es": "Petunia"},
+        {"t": [12, 13], "es": "volvió", "base": "come back", "sense": "return"},
+        {"t": [14, 15, 16], "es": "del teléfono", "base": "telephone", "sense": "device"},
+        {"t": [17], "es": "pareciendo", "base": "look", "sense": "seem"},
+        {"t": [18], "es": "tanto"},
+        {"t": [19], "es": "enfadada", "base": "angry", "sense": "feeling"},
+        {"t": [20], "es": "como"},
+        {"t": [21], "es": "preocupada", "base": "worried", "sense": "anxious"}
+      ]},
+    {"id": 79,
+      "line": [
+        {"t": [0, 1, 2], "es": "«Malas noticias, Vernon»,"},
+        {"t": [3, 4], "es": "dijo."}
+      ],
+      "words": [
+        {"t": [0], "es": "malas", "base": "bad", "sense": "quality"},
+        {"t": [1], "es": "noticias", "base": "news", "sense": "information"},
+        {"t": [2], "es": "Vernon"},
+        {"t": [3], "es": "ella"},
+        {"t": [4], "es": "dijo", "base": "say", "sense": "speak"}
+      ]},
+    {"id": 80,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "«La señora Figg se ha roto una pierna."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "la señora Figg"},
+        {"t": [2], "es": "ha roto", "base": "break", "sense": "damage", "note": "El *’s* de *Figg’s broken* es *has*, no posesión: forma el *present perfect* ([[present-perfect]])."},
+        {"t": [3, 4], "es": "su pierna", "base": "leg", "sense": "body", "note": "El inglés usa posesivo con las partes del cuerpo ([[body-possessive]])."}
+      ]},
+    {"id": 81,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "No puede cuidarlo»."}
+      ],
+      "words": [
+        {"t": [0], "es": "ella"},
+        {"t": [1, 2], "es": "no puede hacerse cargo de", "base": "take", "sense": "care"},
+        {"t": [3], "es": "lo, a él"}
+      ]},
+    {"id": 82,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Volvió la cabeza de golpe"},
+        {"t": [4, 5, 6], "es": "en dirección a Harry."}
+      ],
+      "words": [
+        {"t": [0], "es": "ella"},
+        {"t": [1], "es": "movió bruscamente", "base": "jerk", "sense": "move"},
+        {"t": [2, 3], "es": "su cabeza", "base": "head", "sense": "body"},
+        {"t": [4, 5, 6], "es": "en dirección a Harry", "base": "direction", "sense": "way"}
+      ]},
+    {"id": 83,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "La boca de Dudley se abrió con horror,"},
+        {"t": [6, 7, 8, 9, 10, 11], "es": "pero el corazón de Harry dio un salto."}
+      ],
+      "words": [
+        {"t": [0, 1], "es": "la boca de Dudley", "base": "mouth", "sense": "opening"},
+        {"t": [2, 3], "es": "se abrió", "base": "fall", "sense": "become", "note": "*Fall* + adjetivo puede indicar un cambio involuntario: aquí la boca se abre de golpe."},
+        {"t": [4, 5], "es": "de horror", "base": "horror", "sense": "fear"},
+        {"t": [6], "es": "pero"},
+        {"t": [7, 8], "es": "el corazón de Harry", "base": "heart", "sense": "body"},
+        {"t": [9], "es": "dio", "base": "give", "sense": "action"},
+        {"t": [10, 11], "es": "un salto", "base": "leap", "sense": "jump"}
+      ]},
+    {"id": 84,
+      "line": [
+        {"t": [0, 1, 2, 3, 4], "es": "Cada año, el día del cumpleaños de Dudley,"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "es": "sus padres lo llevaban con un amigo a pasar el día"},
+        {"t": [16, 17, 18, 19, 20, 21, 22, 23], "es": "a parques de atracciones, hamburgueserías o al cine."}
+      ],
+      "words": [
+        {"t": [0], "es": "cada", "base": "every", "sense": "each"},
+        {"t": [1], "es": "año", "base": "year", "sense": "time"},
+        {"t": [2, 3, 4], "es": "en el cumpleaños de Dudley", "base": "birthday", "sense": "anniversary"},
+        {"t": [5, 6], "es": "sus padres", "base": "parent", "sense": "family"},
+        {"t": [7, 12], "es": "llevaban de excursión", "base": "take out", "sense": "outing", "note": "*Take someone out* puede ser llevar a alguien a divertirse o a comer fuera."},
+        {"t": [8], "es": "lo, a él"},
+        {"t": [9], "es": "y"},
+        {"t": [10, 11], "es": "a un amigo", "base": "friend", "sense": "person"},
+        {"t": [13, 14, 15], "es": "durante el día", "base": "day", "sense": "time"},
+        {"t": [16, 18], "es": "a parques", "base": "park", "sense": "garden"},
+        {"t": [17], "es": "de aventura", "base": "adventure", "sense": "experience"},
+        {"t": [19], "es": "de hamburguesas", "base": "hamburger", "sense": "food"},
+        {"t": [20], "es": "bares", "base": "bar", "sense": "establishment"},
+        {"t": [21], "es": "o"},
+        {"t": [22, 23], "es": "al cine", "base": "cinema", "sense": "venue", "note": "Británico: *cinema*; en EE. UU. suele decirse *movie theater* o *the movies*."}
+      ]},
+    {"id": 85,
+      "line": [
+        {"t": [0, 1], "es": "Cada año,"},
+        {"t": [2, 3, 4, 5, 6, 7, 8], "es": "Harry se quedaba con la señora Figg,"},
+        {"t": [9, 10, 11, 12, 13, 14, 15, 16, 17], "es": "una anciana loca que vivía a dos calles de distancia."}
+      ],
+      "words": [
+        {"t": [0], "es": "cada", "base": "every", "sense": "each"},
+        {"t": [1], "es": "año", "base": "year", "sense": "time"},
+        {"t": [2], "es": "Harry"},
+        {"t": [3, 4, 5], "es": "era dejado atrás", "base": "leave behind", "sense": "not-take", "note": "La pasiva indica que otros lo dejaban allí, aunque la frase diga «se quedaba» ([[passive-voice]])."},
+        {"t": [6, 7, 8], "es": "con la señora Figg"},
+        {"t": [9, 12], "es": "una señora", "base": "lady", "sense": "woman"},
+        {"t": [10], "es": "loca", "base": "mad", "sense": "insane", "note": "En inglés británico suele ser «loco»; en el estadounidense, también «enfadado»."},
+        {"t": [11], "es": "anciana", "base": "old", "sense": "age"},
+        {"t": [13], "es": "que"},
+        {"t": [14], "es": "vivía", "base": "live", "sense": "reside"},
+        {"t": [15], "es": "dos"},
+        {"t": [16], "es": "calles", "base": "street", "sense": "road"},
+        {"t": [17], "es": "de distancia", "base": "away", "sense": "distance"}
+      ]},
+    {"id": 86,
+      "line": [
+        {"t": [0, 1, 2, 3], "es": "Harry no podía soportar ir allí."}
+      ],
+      "words": [
+        {"t": [0], "es": "Harry"},
+        {"t": [1], "es": "odiaba", "base": "hate", "sense": "dislike"},
+        {"t": [2], "es": "(aquella situación)"},
+        {"t": [3], "es": "allí", "base": "there", "sense": "place"}
+      ]},
+    {"id": 87,
+      "line": [
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Toda la casa olía a repollo"},
+        {"t": [6, 7, 8, 9, 10, 11, 12, 13], "es": "y la señora Figg le hacía mirar las fotos"},
+        {"t": [14, 15, 16, 17, 18, 19, 20], "es": "de todos los gatos que había tenido."}
+      ],
+      "words": [
+        {"t": [0, 2], "es": "la casa", "base": "house", "sense": "building"},
+        {"t": [1], "es": "entera", "base": "whole", "sense": "entire"},
+        {"t": [3, 4], "es": "olía a", "base": "smell", "sense": "have-odour"},
+        {"t": [5], "es": "repollo", "base": "cabbage", "sense": "vegetable"},
+        {"t": [6], "es": "y"},
+        {"t": [7, 8], "es": "la señora Figg"},
+        {"t": [9], "es": "obligaba", "base": "make", "sense": "force", "note": "*Make* + persona + verbo sin *to* es «hacer que alguien haga algo» ([[make-complements]])."},
+        {"t": [10], "es": "le, a él"},
+        {"t": [11, 12], "es": "mirar", "base": "look at", "sense": "watch"},
+        {"t": [13], "es": "fotos", "base": "photograph", "sense": "picture"},
+        {"t": [14, 16, 17], "es": "de los gatos", "base": "cat", "sense": "animal"},
+        {"t": [15], "es": "todos", "base": "all", "sense": "every"},
+        {"t": [18, 20], "es": "había tenido", "base": "own", "sense": "possess"},
+        {"t": [19], "es": "alguna vez", "base": "ever", "sense": "at-any-time"}
+      ]}
+  ]
+}
