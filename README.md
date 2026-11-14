@@ -22,7 +22,8 @@ Run the PWA checks with `node --test tools/pwa.test.mjs`.
 
 ```
 books/<id>/book.json          book metadata, the source PDF, and the list of chapters (source audio paths)
-books/<id>/NOTES.md           what is special to one book: audio, text, and translation (names, level, tú or usted)
+books/<id>/NOTES.md           book-specific orchestration notes: audio, text, translation, and illustrations
+books/hp1/ILLUSTRATIONS.md    HP image prompts, source records, processing, placement, and theme checks
 books/<id>/cover.jpg
 books/<id>/source/book.pdf    the book text (the same edition the narrator reads)
 books/<id>/<nn>/text.md       the text the reader sees (from the book; edit this)
@@ -32,6 +33,7 @@ tools/import_text.py          book.pdf -> text.md for each chapter
 tools/transcribe.py           audio -> whisper.json
 tools/retime.py               text.md + whisper.json + audio -> words.json (forced aligner)
 tools/build.py                books/ -> site/ (chapter JSON, chapter audio, Spanish help, library.json)
+tools/prepare_illustration.py  grayscale art on magenta -> transparent RGBA for HP cutout pictures
 tools/translation.py          Spanish help: splits a chapter into jobs, checks the answers, and shows them
 guides/translation-es.md      the rules for the Spanish help (all books), for translators and reviewers
 guides/concepts-es.json       ideas of English grammar that notes link to, with examples (all books)

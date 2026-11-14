@@ -21,6 +21,8 @@ The WebM is 6,350,102 bytes, compared with 30,606,497 bytes for the source MP3. 
 
 ## Pictures
 
+Read [ILLUSTRATIONS.md](ILLUSTRATIONS.md) before preparing another picture. It contains the prompt, source record, processing commands, theme rules, and checks.
+
 - `pictures/raw/01-1.png` is the original user-supplied generated illustration of Dumbledore beside the cat.
 - `pictures/01-1.png` removes the magenta background, pink fringe, and detached bottom strip. It keeps grayscale detail and transparent brush edges.
 - `pictureMode: "cutout"` clips the themed ink and paper to the drawing's alpha outline. Duke retains its existing rendering.
