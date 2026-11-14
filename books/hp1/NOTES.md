@@ -25,7 +25,10 @@ The WebM is 6,350,102 bytes, compared with 30,606,497 bytes for the source MP3. 
 - Original audio: `audio/stash/02-the-vanishing-glass.mp3`. Keep it unchanged.
 - Site audio source: `audio/02-the-vanishing-glass.webm`, encoded directly as mono Opus at 24 kbps and 48 kHz, without cuts.
 - Duration: 1334.099592 seconds in the source; 1334.095 seconds in WebM.
-- Chapter 2 needs its own initial transcription and alignment. Do not retime chapter 1.
+- Chapter 2 uses its own initial transcription and alignment. Do not retime chapter 1.
+- Initial alignment covered all 3,469 tokens, with no fallback pieces. The rough transcript matched 98.2% of lexical source tokens.
+- Removed one false trailing word from the rough transcript, over low-level background noise. This did not change any source alignment anchor.
+- Conversion samples at 15, 667, and 1299 seconds have offsets of 0–1 ms and correlations above 0.987.
 - Translation preparation: 231 entries and 3,469 tokens across three jobs. No chapter 2 picture is currently assigned.
 
 ## Pictures
