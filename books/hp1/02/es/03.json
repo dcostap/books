@@ -123,7 +123,7 @@
         {"t": [11], "es": "y"},
         {"t": [12], "es": "haber aplastado", "base": "crush", "sense": "compress"},
         {"t": [13], "es": "lo"},
-        {"t": [14, 15, 16], "es": "en un cubo de basura", "base": "dustbin", "sense": "container", "note": "Británico: *dustbin*; en EE. UU., *trash can* o *garbage can* ([[british-american]])."},
+        {"t": [14, 15, 16], "es": "en un cubo de basura", "base": "dustbin", "sense": "container", "note": "*Into* indica el resultado de aplastar, no meterlo dentro. Británico: *dustbin*; en EE. UU., *trash can* o *garbage can* ([[british-american]])."},
         {"t": [18], "es": "pero"},
         {"t": [19, 20, 21], "es": "en aquel momento", "base": "at the moment", "sense": "now"},
         {"t": [22], "es": "(la serpiente)"},
@@ -1025,7 +1025,7 @@
         {"t": [0, 1, 2, 3, 4], "es": "Había vivido con los Dursley"},
         {"t": [5, 6, 7], "es": "casi diez años,"},
         {"t": [8, 9, 10], "es": "diez años desgraciados,"},
-        {"t": [11, 12, 13, 14, 15, 16], "es": "hasta donde podía acordarse,"},
+        {"t": [11, 12, 13, 14, 15, 16], "es": "desde que tenía memoria,"},
         {"t": [17, 18, 19, 20, 21, 22], "es": "desde que era un bebé"},
         {"t": [23, 24, 25, 26, 27], "es": "y sus padres habían muerto"},
         {"t": [28, 29, 30, 31], "es": "en aquel accidente de coche."}
