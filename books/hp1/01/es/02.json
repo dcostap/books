@@ -170,7 +170,7 @@
         {"t": [3], "es": "él"},
         {"t": [4, 5, 6], "es": "había sido llamado", "base": "call", "sense": "name"},
         {"t": [7, 8], "es": "un muggle"},
-        {"t": [9], "es": "fuera lo que fuera", "base": "whatever", "sense": "anything"},
+        {"t": [9], "es": "fuera lo que fuera", "base": "whatever", "sense": "regardless"},
         {"t": [10], "es": "eso"},
         {"t": [11], "es": "era", "base": "be", "sense": "identity"}
       ]
@@ -387,7 +387,7 @@
         {"t": [3, 4], "es": "durante la cena", "base": "dinner", "sense": "meal"},
         {"t": [5], "es": "todo", "base": "all", "sense": "everything"},
         {"t": [6], "es": "acerca de"},
-        {"t": [7, 8, 9], "es": "de la señora de al lado", "note": "*Mrs Next Door* es una forma humorística de llamar a la vecina sin dar su apellido."},
+        {"t": [7, 8, 9], "es": "de la señora de al lado", "note": "*Mrs Next Door* llama en broma a la vecina sin dar su apellido. En británico, *Mrs* no lleva punto; en EE. UU., *Mrs.* ([[british-american]])."},
         {"t": [10], "es": "problemas", "base": "problem", "sense": "difficulty"},
         {"t": [11], "es": "con"},
         {"t": [12, 13], "es": "su hija", "base": "daughter", "sense": "family"},

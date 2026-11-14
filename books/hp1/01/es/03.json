@@ -965,7 +965,7 @@
         {"t": [0], "es": "yo"},
         {"t": [1, 2], "es": "no me he sonrojado", "base": "blush", "sense": "face"},
         {"t": [3], "es": "tan", "base": "so", "sense": "degree"},
-        {"t": [4], "es": "mucho", "base": "much", "sense": "amount"},
+        {"t": [4], "es": "mucho", "base": "much", "sense": "degree"},
         {"t": [5], "es": "desde que"},
         {"t": [6, 7], "es": "la señora Pomfrey"},
         {"t": [8], "es": "dijo", "base": "tell", "sense": "inform"},
