@@ -30,9 +30,9 @@
     {
       "id": 2,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "El señor y la señora Dursley, del número cuatro de Privet Drive,"},
-        {"t": [9, 10, 11, 12], "es": "se enorgullecían de decir"},
-        {"t": [13, 14, 15, 16, 17], "es": "que eran completamente normales,"},
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "El señor y la señora Dursley, que vivían en el número cuatro de Privet Drive,"},
+        {"t": [9, 10, 11, 12], "es": "estaban orgullosos de decir"},
+        {"t": [13, 14, 15, 16, 17], "es": "que eran perfectamente normales,"},
         {"t": [18, 19, 20, 21], "es": "muchas gracias."}
       ],
       "words": [
@@ -58,9 +58,9 @@
     {
       "id": 3,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Eran las últimas personas a las que uno imaginaría metidas"},
-        {"t": [11, 12, 13, 14], "es": "en algo extraño o misterioso,"},
-        {"t": [15, 16, 17, 18, 19, 20, 21, 22], "es": "porque, sencillamente, no aprobaban semejantes tonterías."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Eran las últimas personas que se esperaría encontrar relacionadas"},
+        {"t": [10, 11, 12, 13, 14], "es": "con algo extraño o misterioso,"},
+        {"t": [15, 16, 17, 18, 19, 20, 21, 22], "es": "porque sencillamente no estaban para tales tonterías."}
       ],
       "words": [
         {"t": [0], "es": "ellos"},
@@ -104,9 +104,9 @@
     {
       "id": 5,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "Era un hombre grande y corpulento,"},
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Era un hombre corpulento y rollizo,"},
         {"t": [6, 7, 8, 9], "es": "casi sin cuello,"},
-        {"t": [10, 11, 12, 13, 14, 15, 16, 17], "es": "aunque sí tenía un bigote enorme."}
+        {"t": [10, 11, 12, 13, 14, 15, 16, 17], "es": "aunque sí tenía un bigote inmenso."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -128,11 +128,11 @@
       "id": 6,
       "line": [
         {"t": [0, 1, 2, 3, 4, 5], "es": "La señora Dursley era delgada y rubia"},
-        {"t": [6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "y tenía casi el doble de cuello de lo habitual,"},
-        {"t": [15, 16, 17, 18, 19], "es": "lo cual le venía muy bien,"},
-        {"t": [20, 21, 22, 23, 24, 25, 26, 27], "es": "porque se pasaba buena parte del tiempo"},
+        {"t": [6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "y tenía un cuello casi el doble de largo de lo habitual,"},
+        {"t": [15, 16, 17, 18, 19], "es": "lo que le resultaba muy útil,"},
+        {"t": [20, 21, 22, 23, 24, 25, 26, 27], "es": "ya que pasaba gran parte del tiempo"},
         {"t": [28, 29, 30, 31], "es": "estirándolo por encima de las vallas de los jardines"},
-        {"t": [32, 33, 34, 35], "es": "para espiar a los vecinos."}
+        {"t": [32, 33, 34, 35], "es": "para espiar a sus vecinos."}
       ],
       "words": [
         {"t": [0, 1], "es": "la señora Dursley", "note": "En británico, *Mrs* no lleva punto; en EE. UU., *Mrs.* ([[british-american]])."},
@@ -167,9 +167,9 @@
     {
       "id": 7,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Los Dursley tenían un hijo pequeño llamado Dudley"},
-        {"t": [8, 9, 10, 11], "es": "y, en su opinión,"},
-        {"t": [12, 13, 14, 15, 16, 17], "es": "no había en ninguna parte un niño mejor."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Los Dursley tenían un hijo pequeño llamado Dudley,"},
+        {"t": [8, 9, 10, 11], "es": "y para ellos"},
+        {"t": [12, 13, 14, 15, 16, 17], "es": "no había un niño mejor que él en ninguna parte."}
       ],
       "words": [
         {"t": [0, 1], "es": "los Dursley"},
@@ -192,7 +192,7 @@
       "line": [
         {"t": [0, 1, 2, 3, 4, 5], "es": "Los Dursley tenían todo lo que querían,"},
         {"t": [6, 7, 8, 9, 10, 11], "es": "pero también tenían un secreto,"},
-        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "es": "y su mayor temor era que alguien lo descubriera."}
+        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "es": "y su mayor temor era que alguien lo descubriese."}
       ],
       "words": [
         {"t": [0, 1], "es": "los Dursley"},
@@ -218,8 +218,8 @@
     {
       "id": 9,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "No creían que pudieran soportarlo"},
-        {"t": [7, 8, 9, 10, 11, 12, 13], "es": "si alguien se enteraba de lo de los Potter."}
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Creían que no soportarían"},
+        {"t": [7, 8, 9, 10, 11, 12, 13], "es": "que alguien se enterase de lo de los Potter."}
       ],
       "words": [
         {"t": [0], "es": "ellos"},
@@ -237,10 +237,10 @@
       "id": 10,
       "line": [
         {"t": [0, 1, 2, 3, 4, 5], "es": "La señora Potter era hermana de la señora Dursley,"},
-        {"t": [6, 7, 8, 9, 10, 11, 12], "es": "pero llevaban varios años sin verse;"},
+        {"t": [6, 7, 8, 9, 10, 11, 12], "es": "pero no se veían desde hacía varios años;"},
         {"t": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22], "es": "de hecho, la señora Dursley fingía que no tenía hermana,"},
-        {"t": [23, 24, 25, 26, 27, 28, 29, 30], "es": "porque su hermana y su inútil marido eran"},
-        {"t": [31, 32, 33, 34, 35, 36, 37, 38], "es": "lo menos parecido a los Dursley que cabía imaginar."}
+        {"t": [23, 24, 25, 26, 27, 28, 29, 30], "es": "porque su hermana y su marido, un completo inútil, eran"},
+        {"t": [31, 32, 33, 34, 35, 36, 37, 38], "es": "lo más opuesto a los Dursley que se pudiera imaginar."}
       ],
       "words": [
         {"t": [0, 1], "es": "la señora Potter", "note": "En británico, *Mrs* no lleva punto; en EE. UU., *Mrs.* ([[british-american]])."},
@@ -278,7 +278,7 @@
       "id": 11,
       "line": [
         {"t": [0, 1, 2, 3, 4], "es": "Los Dursley se estremecían al pensar"},
-        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "en lo que dirían los vecinos si los Potter aparecían en su calle."}
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "qué dirían los vecinos si los Potter apareciesen por la calle."}
       ],
       "words": [
         {"t": [0, 1], "es": "los Dursley"},
@@ -320,8 +320,8 @@
     {
       "id": 13,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Ese niño era otra buena razón para mantener lejos a los Potter;"},
-        {"t": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "no querían que Dudley se juntara con un niño así."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "El niño era otra buena razón para mantener alejados a los Potter:"},
+        {"t": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "no querían que Dudley se juntara con un niño como aquel."}
       ],
       "words": [
         {"t": [0, 1], "es": "este niño", "base": "boy", "sense": "child"},
@@ -343,9 +343,9 @@
     {
       "id": 14,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "Cuando el señor y la señora Dursley se despertaron aquel martes gris y apagado en que empieza nuestra historia,"},
-        {"t": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "es": "nada en el cielo nublado anunciaba que"},
-        {"t": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37], "es": "pronto empezarían a ocurrir cosas extrañas y misteriosas por todo el país."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "Nuestra historia comienza cuando el señor y la señora Dursley se despertaron un martes gris y apagado."},
+        {"t": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "es": "Nada había en aquel cielo nublado que sugiriera"},
+        {"t": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37], "es": "que poco después sucederían cosas extrañas y misteriosas por todo el país."}
       ],
       "words": [
         {"t": [0], "es": "cuando", "base": "when", "sense": "time"},
@@ -378,9 +378,9 @@
     {
       "id": 15,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "es": "El señor Dursley tarareaba mientras elegía su corbata más aburrida para ir al trabajo,"},
-        {"t": [13, 14, 15, 16, 17, 18], "es": "y la señora Dursley charlaba alegremente de unos y otros"},
-        {"t": [19, 20, 21, 22, 23, 24, 25, 26, 27, 28], "es": "mientras forcejeaba para sentar en la trona a un Dudley que no paraba de chillar."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "es": "El señor Dursley canturreaba mientras elegía su corbata más sosa para ir al trabajo,"},
+        {"t": [13, 14, 15, 16, 17, 18], "es": "y la señora Dursley cotilleaba alegremente sin parar"},
+        {"t": [19, 20, 21, 22, 23, 24, 25, 26, 27, 28], "es": "mientras forcejeaba para sentar en la trona a un Dudley que chillaba."}
       ],
       "words": [
         {"t": [0, 1], "es": "el señor Dursley", "note": "En británico, *Mr* no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
@@ -407,8 +407,8 @@
     {
       "id": 16,
       "line": [
-        {"t": [0, 1, 2, 3], "es": "Ninguno se fijó"},
-        {"t": [4, 5, 6, 7, 8, 9, 10, 11], "es": "en una gran lechuza de color leonado que pasó aleteando junto a la ventana."}
+        {"t": [0, 1, 2, 3], "es": "Ninguno vio"},
+        {"t": [4, 5, 6, 7, 8, 9, 10, 11], "es": "la gran lechuza de color leonado que pasaba aleteando por delante de la ventana."}
       ],
       "words": [
         {"t": [0], "es": "ninguno"},
@@ -425,10 +425,10 @@
       "id": 17,
       "line": [
         {"t": [0, 1, 2, 3], "es": "A las ocho y media,"},
-        {"t": [4, 5, 6, 7, 8, 9], "es": "el señor Dursley cogió el maletín,"},
+        {"t": [4, 5, 6, 7, 8, 9], "es": "el señor Dursley cogió su maletín,"},
         {"t": [10, 11, 12, 13, 14, 15], "es": "dio un beso rápido a la señora Dursley en la mejilla"},
-        {"t": [16, 17, 18, 19, 20, 21, 22, 23], "es": "e intentó despedirse de Dudley con otro beso, pero no acertó,"},
-        {"t": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37], "es": "porque Dudley estaba en plena rabieta y lanzaba los cereales contra las paredes."}
+        {"t": [16, 17, 18, 19, 20, 21, 22, 23], "es": "y trató de despedirse de Dudley con un beso, aunque no acertó,"},
+        {"t": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37], "es": "ya que el niño tenía ahora un berrinche y estaba arrojando los cereales contra las paredes."}
       ],
       "words": [
         {"t": [0, 1, 2, 3], "es": "a las ocho y media", "note": "Para dar la hora, *half past* indica treinta minutos después de la hora que sigue ([[telling-time]])."},
@@ -459,8 +459,8 @@
     {
       "id": 18,
       "line": [
-        {"t": [0, 1], "es": "«Pequeño granuja»,"},
-        {"t": [2, 3, 4, 5, 6, 7, 8, 9], "es": "dijo el señor Dursley entre risitas al salir de casa."}
+        {"t": [0, 1], "es": "«Tunante»,"},
+        {"t": [2, 3, 4, 5, 6, 7, 8, 9], "es": "dijo riendo el señor Dursley mientras salía de la casa."}
       ],
       "words": [
         {"t": [0], "es": "pequeño", "base": "little", "sense": "small"},
@@ -476,7 +476,7 @@
     {
       "id": 19,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "Subió al coche"},
+        {"t": [0, 1, 2, 3, 4], "es": "Se metió en su coche"},
         {"t": [5, 6, 7, 8, 9, 10, 11], "es": "y salió marcha atrás de la entrada del número cuatro."}
       ],
       "words": [
@@ -492,8 +492,8 @@
     {
       "id": 20,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "En la esquina de la calle vio la primera señal de algo peculiar:"},
-        {"t": [18, 19, 20, 21, 22], "es": "un gato que leía un mapa."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "En la esquina de la calle percibió el primer indicio de algo raro:"},
+        {"t": [18, 19, 20, 21, 22], "es": "un gato estaba leyendo un plano."}
       ],
       "words": [
         {"t": [0], "es": "(no se traduce)"},
@@ -515,8 +515,8 @@
     {
       "id": 21,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Por un momento, el señor Dursley no comprendió lo que había visto;"},
-        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "entonces giró bruscamente la cabeza para mirar otra vez."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Durante un segundo, el señor Dursley no se dio cuenta de lo que había visto;"},
+        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "luego volvió la cabeza bruscamente para mirar otra vez."}
       ],
       "words": [
         {"t": [0, 1, 2], "es": "durante un segundo", "base": "second", "sense": "time"},
@@ -538,8 +538,8 @@
       "line": [
         {"t": [0, 1], "es": "Había"},
         {"t": [2, 3, 4], "es": "un gato atigrado"},
-        {"t": [5, 6, 7, 8, 9, 10, 11], "es": "en la esquina de Privet Drive,"},
-        {"t": [12, 13, 14, 15, 16, 17, 18], "es": "pero no se veía ningún mapa."}
+        {"t": [5, 6, 7, 8, 9, 10, 11], "es": "de pie en la esquina de Privet Drive,"},
+        {"t": [12, 13, 14, 15, 16, 17, 18], "es": "pero no se veía ningún plano."}
       ],
       "words": [
         {"t": [0, 1], "es": "había", "base": "be", "sense": "exist"},
@@ -557,7 +557,7 @@
     {
       "id": 23,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "¿En qué estaría pensando?"}
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "¿En qué había estado pensando?"}
       ],
       "words": [
         {"t": [0], "es": "qué", "base": "what", "sense": "question"},
@@ -568,7 +568,7 @@
     {
       "id": 24,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Debía de haber sido un efecto de la luz."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Debía de haber sido una ilusión óptica."}
       ],
       "words": [
         {"t": [0], "es": "eso"},
@@ -604,8 +604,8 @@
     {
       "id": 27,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Mientras doblaba la esquina y seguía calle arriba,"},
-        {"t": [11, 12, 13, 14, 15, 16, 17], "es": "el señor Dursley observó al gato por el retrovisor."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Mientras el señor Dursley daba la vuelta a la esquina y subía por la calle,"},
+        {"t": [11, 12, 13, 14, 15, 16, 17], "es": "observó al gato por el espejo retrovisor."}
       ],
       "words": [
         {"t": [0], "es": "mientras"},
@@ -623,9 +623,9 @@
     {
       "id": 28,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Ahora estaba leyendo el letrero que decía Privet Drive;"},
-        {"t": [11, 12, 13, 14, 15], "es": "no, mirando el letrero:"},
-        {"t": [16, 17, 18, 19, 20, 21], "es": "los gatos no sabían leer mapas ni letreros."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "En aquel momento estaba leyendo el rótulo que decía «Privet Drive»;"},
+        {"t": [11, 12, 13, 14, 15], "es": "no, mirando el rótulo:"},
+        {"t": [16, 17, 18, 19, 20, 21], "es": "los gatos no sabían leer planos ni rótulos."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -648,8 +648,8 @@
     {
       "id": 29,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "El señor Dursley se sacudió ligeramente"},
-        {"t": [7, 8, 9, 10, 11, 12, 13, 14], "es": "y se quitó al gato de la cabeza."}
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "El señor Dursley se sacudió un poco"},
+        {"t": [7, 8, 9, 10, 11, 12, 13, 14], "es": "y alejó al gato de sus pensamientos."}
       ],
       "words": [
         {"t": [0, 1], "es": "el señor Dursley", "note": "En británico, *Mr* no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
@@ -665,8 +665,8 @@
     {
       "id": 30,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "Mientras conducía hacia el centro,"},
-        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "solo pensaba en un gran pedido de taladros"},
+        {"t": [0, 1, 2, 3, 4], "es": "Mientras iba a la ciudad en coche,"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "no pensó más que en un gran pedido de taladros"},
         {"t": [15, 16, 17, 18, 19, 20, 21], "es": "que esperaba conseguir aquel día."}
       ],
       "words": [
@@ -690,8 +690,8 @@
     {
       "id": 31,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "Pero, al llegar a las afueras,"},
-        {"t": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "es": "otra cosa le quitó los taladros de la cabeza."}
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Pero en las afueras"},
+        {"t": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "es": "ocurrió algo que apartó los taladros de su mente."}
       ],
       "words": [
         {"t": [0], "es": "pero"},
@@ -708,8 +708,8 @@
     {
       "id": 32,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Mientras estaba atrapado en el habitual atasco matutino,"},
-        {"t": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "es": "no pudo evitar fijarse en que parecía haber por allí mucha gente vestida de forma extraña."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Mientras esperaba en el habitual embotellamiento matutino,"},
+        {"t": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "es": "no pudo dejar de advertir que parecía haber por allí una gran cantidad de gente vestida de forma extraña."}
       ],
       "words": [
         {"t": [0], "es": "mientras"},
@@ -735,7 +735,7 @@
     {
       "id": 33,
       "line": [
-        {"t": [0, 1, 2], "es": "Gente con capa."}
+        {"t": [0, 1, 2], "es": "Individuos con capa."}
       ],
       "words": [
         {"t": [0], "es": "personas", "base": "person", "sense": "human"},
@@ -745,8 +745,8 @@
     {
       "id": 34,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "El señor Dursley no soportaba a la gente que se vestía de forma rara."},
-        {"t": [11, 12, 13, 14, 15, 16, 17], "es": "¡Vaya pintas llevaban los jóvenes!"}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "El señor Dursley no soportaba a la gente que llevaba ropa ridícula."},
+        {"t": [11, 12, 13, 14, 15, 16, 17], "es": "¡Ah, las pintas que llevaban los jóvenes!"}
       ],
       "words": [
         {"t": [0, 1], "es": "el señor Dursley", "note": "En británico, *Mr* no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
@@ -767,7 +767,7 @@
     {
       "id": 35,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Supuso que aquello sería alguna nueva moda estúpida."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Supuso que debía de ser alguna estúpida moda nueva."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -784,7 +784,7 @@
       "id": 36,
       "line": [
         {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Tamborileó con los dedos sobre el volante"},
-        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "es": "y se fijó en un corrillo de aquellos tipos raros, que estaba muy cerca."}
+        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "es": "y su mirada se posó en un corrillo de aquellos tipos raros que estaban de pie bastante cerca de él."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -804,7 +804,7 @@
     {
       "id": 37,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "Cuchicheaban animadamente entre ellos."}
+        {"t": [0, 1, 2, 3, 4], "es": "Cuchicheaban entre sí, muy excitados."}
       ],
       "words": [
         {"t": [0], "es": "ellos"},
@@ -816,9 +816,9 @@
     {
       "id": 38,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "Al señor Dursley le indignó ver que un par de ellos no eran nada jóvenes;"},
-        {"t": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "es": "¡si aquel hombre tenía que ser mayor que él"},
-        {"t": [25, 26, 27, 28, 29], "es": "y llevaba una capa verde esmeralda!"}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "El señor Dursley se enfureció al darse cuenta de que un par de ellos no eran nada jóvenes;"},
+        {"t": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "es": "vamos, aquel hombre tenía que ser mayor que él,"},
+        {"t": [25, 26, 27, 28, 29], "es": "¡y vestía una capa verde esmeralda!"}
       ],
       "words": [
         {"t": [0, 1], "es": "el señor Dursley", "note": "En británico, *Mr* no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
@@ -847,7 +847,7 @@
     {
       "id": 39,
       "line": [
-        {"t": [0, 1, 2, 3], "es": "¡Qué descaro el suyo!"}
+        {"t": [0, 1, 2, 3], "es": "¡Qué valor!"}
       ],
       "words": [
         {"t": [0, 1], "es": "el descaro", "base": "nerve", "sense": "impudence", "note": "Aquí no significa «nervio»: es la osadía de hacer algo que otro desaprueba."},
@@ -857,9 +857,9 @@
     {
       "id": 40,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "es": "Pero entonces se le ocurrió que probablemente sería alguna tontería para llamar la atención:"},
-        {"t": [14, 15, 16, 17, 18, 19, 20], "es": "estaba claro que aquella gente recaudaba dinero para algo…"},
-        {"t": [22, 23, 24, 25, 26], "es": "Sí, eso sería."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "es": "Pero entonces se le ocurrió al señor Dursley que probablemente sería alguna tontería publicitaria;"},
+        {"t": [14, 15, 16, 17, 18, 19, 20], "es": "era evidente que aquella gente hacía una colecta para algo…"},
+        {"t": [22, 23, 24, 25, 26], "es": "Sí, tenía que ser eso."}
       ],
       "words": [
         {"t": [0], "es": "pero"},
@@ -887,8 +887,8 @@
       "id": 41,
       "line": [
         {"t": [0, 1, 2, 3], "es": "El tráfico avanzó"},
-        {"t": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "y, unos minutos después, el señor Dursley llegó al aparcamiento de Grunnings,"},
-        {"t": [17, 18, 19, 20, 21], "es": "de nuevo con los taladros en la cabeza."}
+        {"t": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "y, unos minutos más tarde, el señor Dursley llegó al aparcamiento de Grunnings,"},
+        {"t": [17, 18, 19, 20, 21], "es": "pensando nuevamente en los taladros."}
       ],
       "words": [
         {"t": [0, 1], "es": "el tráfico", "base": "traffic", "sense": "vehicles"},
@@ -908,8 +908,8 @@
     {
       "id": 42,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "El señor Dursley siempre se sentaba de espaldas a la ventana"},
-        {"t": [10, 11, 12, 13, 14, 15, 16], "es": "en su despacho de la novena planta."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "El señor Dursley siempre se sentaba de espaldas a la ventana,"},
+        {"t": [10, 11, 12, 13, 14, 15, 16], "es": "en su oficina del noveno piso."}
       ],
       "words": [
         {"t": [0, 1], "es": "el señor Dursley", "note": "En británico, *Mr* no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
@@ -925,7 +925,7 @@
     {
       "id": 43,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "De no haberlo hecho, quizá le habría costado más concentrarse en los taladros aquella mañana."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "Si no lo hubiera hecho así, aquella mañana quizá le habría costado más concentrarse en los taladros."}
       ],
       "words": [
         {"t": [0], "es": "si"},
@@ -943,9 +943,9 @@
     {
       "id": 44,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "No vio las lechuzas que pasaban en picado a plena luz del día,"},
-        {"t": [10, 11, 12, 13, 14, 15, 16], "es": "aunque la gente de la calle sí las vio;"},
-        {"t": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27], "es": "señalaban y miraban boquiabiertos mientras una lechuza tras otra cruzaba el cielo a toda velocidad."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "No vio las lechuzas que pasaban en picado en pleno día,"},
+        {"t": [10, 11, 12, 13, 14, 15, 16], "es": "aunque la gente de la calle sí que las veía;"},
+        {"t": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27], "es": "las señalaban y las miraban con la boca abierta mientras pasaban a toda velocidad, una tras otra, sobre sus cabezas."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -973,7 +973,7 @@
     {
       "id": 45,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "La mayoría no había visto nunca una lechuza, ni siquiera de noche."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "La mayoría de aquellas personas no había visto una lechuza ni siquiera de noche."}
       ],
       "words": [
         {"t": [0, 1], "es": "la mayoría de", "base": "most", "sense": "majority"},
@@ -988,7 +988,7 @@
     {
       "id": 46,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "El señor Dursley, en cambio, pasó una mañana completamente normal, sin lechuzas."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Sin embargo, el señor Dursley tuvo una mañana perfectamente normal, sin lechuzas."}
       ],
       "words": [
         {"t": [0, 1], "es": "el señor Dursley", "note": "En británico, *Mr* no lleva punto; en EE. UU., *Mr.* ([[british-american]])."},
@@ -1035,8 +1035,8 @@
     {
       "id": 49,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Estuvo de muy buen humor hasta la hora de comer,"},
-        {"t": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "cuando se le ocurrió estirar las piernas y cruzar la calle"},
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Estuvo de muy buen humor hasta la hora de la comida,"},
+        {"t": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "cuando decidió estirar las piernas y cruzar la calle"},
         {"t": [21, 22, 23, 24, 25, 26, 27, 28, 29], "es": "para comprarse un bollo en la panadería de enfrente."}
       ],
       "words": [
@@ -1064,8 +1064,8 @@
     {
       "id": 50,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Se había olvidado por completo de la gente de las capas"},
-        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], "es": "hasta que pasó junto a un grupo de ellos, al lado de la panadería."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Había olvidado por completo a la gente con capa"},
+        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], "es": "hasta que pasó junto a un grupo que estaba al lado de la panadería."}
       ],
       "words": [
         {"t": [0, 1], "es": "había olvidado", "base": "forget", "sense": "remember"},
@@ -1084,7 +1084,7 @@
     {
       "id": 51,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Los miró con enfado al pasar."}
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Al pasar los miró enfadado."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1099,7 +1099,7 @@
     {
       "id": 52,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "No sabía por qué, pero lo inquietaban."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "No sabía por qué, pero le ponían nervioso."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1115,8 +1115,8 @@
     {
       "id": 53,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "Aquellos también cuchicheaban animadamente,"},
-        {"t": [6, 7, 8, 9, 10, 11, 12, 13], "es": "y no se veía ni una sola hucha para donativos."}
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Aquel grupo también susurraba con agitación,"},
+        {"t": [6, 7, 8, 9, 10, 11, 12, 13], "es": "y él no veía ni una sola hucha para donativos."}
       ],
       "words": [
         {"t": [0, 1], "es": "este grupo", "base": "lot", "sense": "group"},
@@ -1134,9 +1134,9 @@
     {
       "id": 54,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Al volver a pasar junto a ellos,"},
-        {"t": [8, 9, 10, 11, 12, 13, 14], "es": "con un enorme dónut en una bolsa bien agarrada,"},
-        {"t": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "es": "captó unas palabras de lo que decían."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Al regresar y pasar junto a ellos,"},
+        {"t": [8, 9, 10, 11, 12, 13, 14], "es": "sujetando con fuerza una bolsa con un gran dónut,"},
+        {"t": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "es": "alcanzó a oír unas pocas palabras de su conversación."}
       ],
       "words": [
         {"t": [0], "es": "(no se traduce)"},
@@ -1162,7 +1162,7 @@
       "id": 55,
       "line": [
         {"t": [0, 1, 2, 3], "es": "«Los Potter, eso es,"},
-        {"t": [4, 5, 6, 7, 8], "es": "eso fue lo que oí…»."}
+        {"t": [4, 5, 6, 7, 8], "es": "eso es lo que he oído…»."}
       ],
       "words": [
         {"t": [0, 1], "es": "los Potter"},
@@ -1198,7 +1198,7 @@
     {
       "id": 58,
       "line": [
-        {"t": [0, 1, 2], "es": "Lo invadió el miedo."}
+        {"t": [0, 1, 2], "es": "El temor lo invadió."}
       ],
       "words": [
         {"t": [0], "es": "miedo", "base": "fear", "sense": "feeling"},
@@ -1209,9 +1209,9 @@
     {
       "id": 59,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "Volvió la vista hacia los que cuchicheaban,"},
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Se volvió hacia los que murmuraban,"},
         {"t": [6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "como si quisiera decirles algo,"},
-        {"t": [15, 16, 17, 18, 19], "es": "pero se lo pensó mejor."}
+        {"t": [15, 16, 17, 18, 19], "es": "pero se contuvo."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1231,10 +1231,10 @@
     {
       "id": 60,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "Volvió a cruzar la calle a toda prisa,"},
-        {"t": [6, 7, 8, 9, 10], "es": "subió corriendo al despacho,"},
-        {"t": [11, 12, 13, 14, 15, 16, 17, 18], "es": "ordenó con brusquedad a su secretaria que no lo molestara,"},
-        {"t": [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "es": "agarró el teléfono y casi había terminado de marcar el número de su casa"},
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Volvió a cruzar la calle a toda prisa"},
+        {"t": [6, 7, 8, 9, 10], "es": "y subió corriendo hasta su oficina."},
+        {"t": [11, 12, 13, 14, 15, 16, 17, 18], "es": "Dijo con brusquedad a su secretaria que no quería que lo molestaran,"},
+        {"t": [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "es": "cogió el teléfono y casi había terminado de marcar el número de su casa"},
         {"t": [30, 31, 32, 33, 34], "es": "cuando cambió de idea."}
       ],
       "words": [
@@ -1265,8 +1265,8 @@
     {
       "id": 61,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Colgó el auricular y se acarició el bigote, pensativo…"},
-        {"t": [12, 13, 14, 15, 16], "es": "No, estaba haciendo el tonto."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "es": "Dejó el auricular y se atusó el bigote mientras pensaba…"},
+        {"t": [12, 13, 14, 15, 16], "es": "No, se estaba comportando como un estúpido."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1285,7 +1285,7 @@
     {
       "id": 62,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "Potter no era un apellido tan poco corriente."}
+        {"t": [0, 1, 2, 3, 4, 5], "es": "Potter no era un apellido tan poco habitual."}
       ],
       "words": [
         {"t": [0], "es": "Potter"},
@@ -1298,8 +1298,8 @@
     {
       "id": 63,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Estaba seguro de que había montones de personas apellidadas Potter"},
-        {"t": [10, 11, 12, 13, 14, 15], "es": "que tenían un hijo llamado Harry."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Estaba seguro de que había muchísimas personas que se llamaban Potter"},
+        {"t": [10, 11, 12, 13, 14, 15], "es": "y que tenían un hijo llamado Harry."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1320,7 +1320,7 @@
     {
       "id": 64,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "Ahora que lo pensaba,"},
+        {"t": [0, 1, 2, 3, 4], "es": "Y pensándolo mejor,"},
         {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13], "es": "ni siquiera estaba seguro de que su sobrino se llamara Harry."}
       ],
       "words": [
@@ -1349,7 +1349,7 @@
     {
       "id": 66,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "Tal vez fuera Harvey."}
+        {"t": [0, 1, 2, 3, 4], "es": "Podría llamarse Harvey."}
       ],
       "words": [
         {"t": [0], "es": "eso"},
@@ -1371,7 +1371,7 @@
       "id": 68,
       "line": [
         {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "No tenía sentido preocupar a la señora Dursley;"},
-        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], "es": "cualquier mención de su hermana la alteraba muchísimo."}
+        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], "es": "siempre se trastornaba mucho ante cualquier mención de su hermana."}
       ],
       "words": [
         {"t": [0, 1, 2, 3, 4], "es": "no tenía sentido", "base": "point", "sense": "purpose", "note": "*There is no point in* + *-ing* dice que hacer algo no sirve de nada ([[ing-nouns]])."},
@@ -1389,9 +1389,9 @@
     {
       "id": 69,
       "line": [
-        {"t": [0, 1, 2, 3], "es": "No la culpaba;"},
-        {"t": [5, 6, 7, 8, 9, 10, 11, 12], "es": "si él hubiera tenido una hermana así…"},
-        {"t": [13, 14, 15, 16, 17, 18, 19, 20, 21], "es": "Pero, aun así, aquella gente con capa…"}
+        {"t": [0, 1, 2, 3], "es": "Y no podía reprochárselo."},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12], "es": "¡Si él hubiera tenido una hermana así…!"},
+        {"t": [13, 14, 15, 16, 17, 18, 19, 20, 21], "es": "Pero, de todos modos, aquella gente de la capa…"}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1412,9 +1412,9 @@
     {
       "id": 70,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "Aquella tarde le costó mucho más concentrarse en los taladros"},
-        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "y, cuando salió del edificio a las cinco,"},
-        {"t": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], "es": "seguía tan preocupado que chocó de frente con alguien justo fuera de la puerta."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "Aquella tarde le costó mucho más concentrarse en los taladros,"},
+        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "y cuando dejó el edificio, a las cinco en punto,"},
+        {"t": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], "es": "estaba todavía tan preocupado que chocó de frente con alguien justo fuera de la puerta."}
       ],
       "words": [
         {"t": [0], "es": "él"},

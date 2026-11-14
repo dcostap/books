@@ -3,7 +3,7 @@
     {
       "id": 268,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "«Es el mejor sitio para él»,"},
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Es el mejor lugar para él»,"},
         {"t": [6, 7, 8], "es": "dijo Dumbledore con firmeza."}
       ],
       "words": [
@@ -65,7 +65,7 @@
     {
       "id": 272,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "«De verdad, Dumbledore, ¿cree que puede explicar todo esto en una carta?"}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "«Dumbledore, ¿de verdad cree que puede explicar todo esto en una carta?"}
       ],
       "words": [
         {"t": [0], "es": "de verdad", "base": "really", "sense": "surprise"},
@@ -82,7 +82,7 @@
     {
       "id": 273,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "¡Esa gente no lo entenderá nunca!"}
+        {"t": [0, 1, 2, 3, 4, 5], "es": "¡Esa gente jamás lo comprenderá!"}
       ],
       "words": [
         {"t": [0, 1], "es": "estas personas", "base": "person", "sense": "human"},
@@ -94,9 +94,9 @@
     {
       "id": 274,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "¡Será famoso, una leyenda!"},
-        {"t": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "¡No me extrañaría que en el futuro se conociera el día de hoy como el Día de Harry Potter!"},
-        {"t": [22, 23, 24, 25, 26, 27, 28], "es": "¡Se escribirán libros sobre Harry!"},
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "¡Será famoso… una leyenda…"},
+        {"t": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "no me sorprendería que el día de hoy fuera conocido en el futuro como el Día de Harry Potter!"},
+        {"t": [22, 23, 24, 25, 26, 27, 28], "es": "Escribirán libros sobre Harry…"},
         {"t": [30, 31, 32, 33, 34, 35, 36, 37, 38], "es": "¡Todos los niños de nuestro mundo conocerán su nombre!»."}
       ],
       "words": [
@@ -125,7 +125,7 @@
       "id": 275,
       "line": [
         {"t": [0, 1, 2], "es": "«Exactamente», dijo Dumbledore,"},
-        {"t": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "es": "mirándola muy serio por encima de las gafas de media luna."}
+        {"t": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "es": "con mirada muy seria por encima de sus gafas de media luna."}
       ],
       "words": [
         {"t": [0], "es": "exactamente", "base": "exactly", "sense": "precisely"},
@@ -142,7 +142,7 @@
     {
       "id": 276,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "«Bastaría para que a cualquier niño se le subieran los humos."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "«Sería suficiente para que a cualquier niño se le subieran los humos."}
       ],
       "words": [
         {"t": [0], "es": "eso"},
@@ -169,7 +169,7 @@
     {
       "id": 278,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "¡Famoso por algo de lo que ni siquiera se acordará!"}
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "¡Famoso por algo que ni siquiera recordará!"}
       ],
       "words": [
         {"t": [0], "es": "famoso", "base": "famous", "sense": "known"},
@@ -182,9 +182,9 @@
     {
       "id": 279,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "¿No ve que estará mucho mejor"},
-        {"t": [9, 10, 11, 12, 13, 14], "es": "criándose lejos de todo eso"},
-        {"t": [15, 16, 17, 18, 19, 20], "es": "hasta que esté preparado para afrontarlo?»."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "¿No se da cuenta de que estará mucho mejor"},
+        {"t": [9, 10, 11, 12, 13, 14], "es": "si crece lejos de todo eso,"},
+        {"t": [15, 16, 17, 18, 19, 20], "es": "hasta que esté preparado para asimilarlo?»."}
       ],
       "words": [
         {"t": [0, 2], "es": "¿no puede ver?", "base": "see", "sense": "understand"},
@@ -206,7 +206,7 @@
     {
       "id": 280,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "La profesora McGonagall abrió la boca, cambió de idea, tragó saliva y dijo:"},
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "La profesora McGonagall abrió la boca, cambió de idea, tragó y luego dijo:"},
         {"t": [12, 13, 14, 15, 16, 17, 18], "es": "«Sí… sí, tiene razón, por supuesto."}
       ],
       "words": [
@@ -228,7 +228,7 @@
     {
       "id": 281,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Pero ¿cómo va a llegar el niño, Dumbledore?»."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Pero ¿cómo va a llegar el niño hasta aquí, Dumbledore?»."}
       ],
       "words": [
         {"t": [0], "es": "pero"},
@@ -242,8 +242,8 @@
     {
       "id": 282,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "De pronto miró la capa,"},
-        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "es": "como si creyera que quizá escondía a Harry debajo."}
+        {"t": [0, 1, 2, 3, 4], "es": "De pronto observó la capa del profesor,"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "es": "como si pensara que podía tener escondido a Harry debajo."}
       ],
       "words": [
         {"t": [0], "es": "ella"},
@@ -262,7 +262,7 @@
     {
       "id": 283,
       "line": [
-        {"t": [0, 1, 2], "es": "«Lo trae Hagrid»."}
+        {"t": [0, 1, 2], "es": "«Hagrid lo traerá»."}
       ],
       "words": [
         {"t": [0, 1], "es": "Hagrid está trayendo", "base": "bring", "sense": "carry"},
@@ -272,7 +272,7 @@
     {
       "id": 284,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "«¿Cree que es… sensato… confiarle a Hagrid algo tan importante como esto?»."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "«¿Le parece… sensato… confiar a Hagrid algo tan importante como esto?»."}
       ],
       "words": [
         {"t": [0], "es": "usted"},
@@ -291,7 +291,7 @@
     {
       "id": 285,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«Le confiaría mi vida a Hagrid»,"},
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«A Hagrid le confiaría mi vida»,"},
         {"t": [7, 8], "es": "dijo Dumbledore."}
       ],
       "words": [
@@ -306,8 +306,8 @@
     {
       "id": 286,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "es": "«No digo que no tenga buen corazón —concedió a regañadientes la profesora McGonagall—,"},
-        {"t": [14, 15, 16, 17, 18, 19, 20], "es": "pero no puede fingir que no es descuidado."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "es": "«No estoy diciendo que no tenga buen corazón —dijo a regañadientes la profesora McGonagall—,"},
+        {"t": [14, 15, 16, 17, 18, 19, 20], "es": "pero no me dirá que no es descuidado."}
       ],
       "words": [
         {"t": [0, 1, 2], "es": "no estoy diciendo", "base": "say", "sense": "speak"},
@@ -325,7 +325,7 @@
     {
       "id": 287,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Él sí que tiende a… ¿Qué ha sido eso?»."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Tiene la costumbre de… ¿Qué ha sido eso?»."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -338,7 +338,7 @@
     {
       "id": 288,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Un ruido grave y retumbante había roto el silencio que los rodeaba."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "Un ruido sordo y retumbante había roto el silencio que los rodeaba."}
       ],
       "words": [
         {"t": [0, 3], "es": "un sonido", "base": "sound", "sense": "noise"},
@@ -352,12 +352,12 @@
     {
       "id": 289,
       "line": [
-        {"t": [0, 1, 2, 3], "es": "Fue aumentando de volumen"},
-        {"t": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], "es": "mientras miraban calle arriba y calle abajo en busca de la luz de algún faro;"},
-        {"t": [18, 19, 20, 21, 22], "es": "se convirtió en un rugido"},
-        {"t": [23, 24, 25, 26, 27, 28, 29, 30], "es": "cuando ambos alzaron la vista al cielo,"},
-        {"t": [32, 33, 34, 35, 36, 37, 38, 39, 40], "es": "y una moto enorme cayó del aire"},
-        {"t": [41, 42, 43, 44, 45, 46, 47, 48, 49], "es": "y aterrizó en la calzada, delante de ellos."}
+        {"t": [0, 1, 2, 3], "es": "Se fue haciendo cada vez más fuerte"},
+        {"t": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], "es": "mientras miraban calle arriba y calle abajo, buscando algún indicio de un faro."},
+        {"t": [18, 19, 20, 21, 22], "es": "Aumentó hasta ser un rugido"},
+        {"t": [23, 24, 25, 26, 27, 28, 29, 30], "es": "mientras los dos miraban hacia el cielo,"},
+        {"t": [32, 33, 34, 35, 36, 37, 38, 39, 40], "es": "y entonces una enorme moto cayó del aire"},
+        {"t": [41, 42, 43, 44, 45, 46, 47, 48, 49], "es": "y aterrizó en la calzada, frente a ellos."}
       ],
       "words": [
         {"t": [0], "es": "eso"},
@@ -396,8 +396,8 @@
     {
       "id": 290,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "Si la moto era enorme,"},
-        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13], "es": "no era nada comparada con el hombre que la montaba."}
+        {"t": [0, 1, 2, 3, 4], "es": "La moto era inmensa,"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13], "es": "pero no era nada comparada con el hombre sentado a horcajadas sobre ella."}
       ],
       "words": [
         {"t": [0], "es": "si"},
@@ -440,11 +440,11 @@
     {
       "id": 292,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Era tan grande que parecía que no debería estar permitido,"},
-        {"t": [8, 9, 10], "es": "y tan salvaje…"},
-        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "es": "Una larga maraña de pelo negro y espeso y de barba le ocultaba casi toda la cara;"},
-        {"t": [25, 26, 27, 28, 29, 30, 31, 32], "es": "tenía unas manos del tamaño de tapas de cubo de basura"},
-        {"t": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43], "es": "y los pies, con sus botas de cuero, parecían crías de delfín."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Parecía sencillamente más grande de lo permitido"},
+        {"t": [8, 9, 10], "es": "y, además, tan salvaje…"},
+        {"t": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "es": "Largas marañas de cabello y barba negros y espesos le cubrían casi toda la cara."},
+        {"t": [25, 26, 27, 28, 29, 30, 31, 32], "es": "Sus manos tenían el mismo tamaño que las tapas de los cubos de basura"},
+        {"t": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43], "es": "y sus pies, calzados con botas de cuero, parecían crías de delfín."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -486,7 +486,7 @@
     {
       "id": 293,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "Sostenía un bulto de mantas en sus enormes brazos musculosos."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "es": "En sus enormes brazos musculosos sostenía un bulto de mantas."}
       ],
       "words": [
         {"t": [0, 1, 4], "es": "en sus brazos", "base": "arm", "sense": "body"},
@@ -501,7 +501,7 @@
     {
       "id": 294,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "«Hagrid», dijo Dumbledore, aliviado."}
+        {"t": [0, 1, 2, 3, 4], "es": "«Hagrid», dijo aliviado Dumbledore."}
       ],
       "words": [
         {"t": [0], "es": "Hagrid"},
@@ -523,7 +523,7 @@
     {
       "id": 296,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "¿Y de dónde has sacado esa moto?»."}
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "¿Y dónde conseguiste esa moto?»."}
       ],
       "words": [
         {"t": [0], "es": "y"},
@@ -536,8 +536,8 @@
     {
       "id": 297,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "«La cogí prestada, profesor Dumbledore, señor»,"},
-        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "es": "dijo el gigante, que bajaba con cuidado de la moto mientras hablaba."}
+        {"t": [0, 1, 2, 3, 4], "es": "«Me la han prestado, profesor Dumbledore, señor»,"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "es": "contestó el gigante, bajando con cuidado de la moto mientras hablaba."}
       ],
       "words": [
         {"t": [0], "es": "cogí prestada", "base": "borrow", "sense": "temporary-use", "note": "*Borrow* es recibir algo prestado; *lend* es prestárselo a otro. Aquí se omite *I*, típico del habla informal ([[ellipsis]])."},
@@ -570,7 +570,7 @@
     {
       "id": 299,
       "line": [
-        {"t": [0, 1, 2, 3], "es": "Lo tengo, señor»."}
+        {"t": [0, 1, 2, 3], "es": "Lo he traído, señor»."}
       ],
       "words": [
         {"t": [0, 1], "es": "tengo", "base": "have", "sense": "possess"},
@@ -591,9 +591,9 @@
     {
       "id": 301,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«No, señor… La casa estaba casi destruida,"},
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«No, señor. La casa estaba casi destruida,"},
         {"t": [7, 8, 9, 10, 11, 12, 13], "es": "pero lo saqué sin problemas"},
-        {"t": [14, 15, 16, 17, 18, 19], "es": "antes de que los muggles empezaran a arremolinarse por allí."}
+        {"t": [14, 15, 16, 17, 18, 19], "es": "antes de que los muggles comenzaran a agolparse por allí."}
       ],
       "words": [
         {"t": [0], "es": "no", "base": "no", "sense": "answer"},
@@ -616,7 +616,7 @@
     {
       "id": 302,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Se durmió cuando volábamos sobre Bristol»."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Se quedó dormido mientras volábamos sobre Bristol»."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -644,7 +644,7 @@
     {
       "id": 304,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Dentro, apenas visible, había un bebé,"},
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Entre las mantas apenas se veía a un niño de pecho,"},
         {"t": [7, 8], "es": "profundamente dormido."}
       ],
       "words": [
@@ -660,8 +660,8 @@
     {
       "id": 305,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Bajo un mechón de pelo negro azabache que le caía sobre la frente,"},
-        {"t": [9, 10, 11, 12, 13, 14, 15], "es": "podían ver un corte de forma curiosa,"},
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Bajo una mata de pelo negro azabache, sobre la frente,"},
+        {"t": [9, 10, 11, 12, 13, 14, 15], "es": "pudieron ver un corte con una forma curiosa,"},
         {"t": [16, 17, 18, 19, 20], "es": "como un rayo."}
       ],
       "words": [
@@ -694,7 +694,7 @@
     {
       "id": 307,
       "line": [
-        {"t": [0, 1, 2], "es": "«Sí», dijo Dumbledore."}
+        {"t": [0, 1, 2], "es": "«Sí», respondió Dumbledore."}
       ],
       "words": [
         {"t": [0], "es": "sí", "base": "yes", "sense": "agreement"},
@@ -716,7 +716,7 @@
     {
       "id": 309,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«¿No podría hacer algo al respecto, Dumbledore?»."}
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "«¿No podría hacer algo, Dumbledore?»."}
       ],
       "words": [
         {"t": [0, 2, 4], "es": "¿no podría hacer respecto a?", "base": "do", "sense": "perform", "note": "*Do something about* es actuar para solucionar algo; *about* introduce el asunto."},
@@ -742,7 +742,7 @@
     {
       "id": 311,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "Las cicatrices pueden venir bien."}
+        {"t": [0, 1, 2, 3, 4], "es": "Las cicatrices pueden ser útiles."}
       ],
       "words": [
         {"t": [0], "es": "cicatrices", "base": "scar", "sense": "mark"},
@@ -752,8 +752,8 @@
     {
       "id": 312,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Yo mismo tengo una encima de la rodilla izquierda"},
-        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "que es un mapa perfecto del metro de Londres."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Yo tengo una por encima de la rodilla izquierda"},
+        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16], "es": "que es un plano perfecto del metro de Londres."}
       ],
       "words": [
         {"t": [0], "es": "yo"},
@@ -772,8 +772,8 @@
     {
       "id": 313,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Bueno… Dámelo, Hagrid…"},
-        {"t": [7, 8, 9, 10, 11, 12], "es": "Más vale que acabemos con esto»."}
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Bueno… dámelo, Hagrid…"},
+        {"t": [7, 8, 9, 10, 11, 12], "es": "es mejor que terminemos con esto»."}
       ],
       "words": [
         {"t": [0], "es": "bueno", "base": "well", "sense": "discourse"},
@@ -806,7 +806,7 @@
     {
       "id": 315,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "«¿Podría… podría despedirme de él, señor?»,"},
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "es": "«¿Puedo… puedo despedirme de él, señor?»,"},
         {"t": [10, 11], "es": "preguntó Hagrid."}
       ],
       "words": [
@@ -823,8 +823,8 @@
     {
       "id": 316,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Inclinó sobre Harry su enorme cabeza de pelo enmarañado"},
-        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "es": "y le dio un beso que debió de pinchar muchísimo, con tanta barba."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Inclinó la gran cabeza desgreñada sobre Harry"},
+        {"t": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "es": "y le dio un beso que debió de raspar mucho con tanta barba."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -847,8 +847,8 @@
     {
       "id": 317,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Entonces, de pronto, Hagrid soltó un aullido"},
-        {"t": [7, 8, 9, 10], "es": "como un perro herido."}
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Entonces, súbitamente, Hagrid dejó escapar un aullido,"},
+        {"t": [7, 8, 9, 10], "es": "como si fuera un perro herido."}
       ],
       "words": [
         {"t": [0], "es": "entonces", "base": "then", "sense": "next"},
@@ -906,9 +906,9 @@
     {
       "id": 321,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "«Pero n-no puedo soportarlo…"},
+        {"t": [0, 1, 2, 3, 4], "es": "«Pero n-n-no puedo soportarlo…"},
         {"t": [6, 7, 8, 9, 10], "es": "Lily y James muertos…"},
-        {"t": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "y el pobre Harry, tan pequeño, que se va a vivir con muggles…»."}
+        {"t": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "es": "y el pobrecito Harry que se va a vivir con muggles…»."}
       ],
       "words": [
         {"t": [0], "es": "pero"},
@@ -970,10 +970,10 @@
     {
       "id": 323,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Dejó a Harry con cuidado en el umbral,"},
-        {"t": [7, 8, 9, 10, 11, 12, 13], "es": "sacó una carta de la capa,"},
+        {"t": [0, 1, 2, 3, 4, 5, 6], "es": "Dejó suavemente a Harry en el umbral,"},
+        {"t": [7, 8, 9, 10, 11, 12, 13], "es": "sacó una carta de su capa,"},
         {"t": [14, 15, 16, 17, 18], "es": "la metió entre las mantas de Harry"},
-        {"t": [19, 20, 21, 22, 23, 24, 25, 26], "es": "y volvió junto a los otros dos."}
+        {"t": [19, 20, 21, 22, 23, 24, 25, 26], "es": "y luego volvió con los otros dos."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -998,10 +998,10 @@
     {
       "id": 324,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "Durante un minuto entero, los tres se quedaron mirando el pequeño bulto;"},
-        {"t": [15, 16, 17], "es": "a Hagrid le temblaban los hombros,"},
-        {"t": [18, 19, 20, 21], "es": "la profesora McGonagall parpadeaba sin parar"},
-        {"t": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], "es": "y el brillo que solía chispear en los ojos de Dumbledore parecía haberse apagado."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "Durante un minuto entero, los tres se quedaron de pie contemplando el pequeño bulto."},
+        {"t": [15, 16, 17], "es": "Los hombros de Hagrid se estremecían."},
+        {"t": [18, 19, 20, 21], "es": "La profesora McGonagall parpadeaba furiosamente."},
+        {"t": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], "es": "La luz titilante que los ojos de Dumbledore irradiaban habitualmente parecía haberse apagado."}
       ],
       "words": [
         {"t": [0, 1, 3], "es": "durante un minuto", "base": "minute", "sense": "time"},
@@ -1034,7 +1034,7 @@
     {
       "id": 325,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "«Bueno —dijo Dumbledore por fin—, ya está."}
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Bueno —dijo finalmente Dumbledore—, ya está."}
       ],
       "words": [
         {"t": [0], "es": "bueno", "base": "well", "sense": "discourse"},
@@ -1047,7 +1047,7 @@
     {
       "id": 326,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "No deberíamos quedarnos aquí."}
+        {"t": [0, 1, 2, 3, 4], "es": "No tenemos nada que hacer aquí."}
       ],
       "words": [
         {"t": [0, 1, 2], "es": "no tenemos derecho a", "base": "have no business", "sense": "inappropriate", "note": "*Have no business* + *-ing* dice que no corresponde hacer algo; no habla de negocios ([[ing-nouns]])."},
@@ -1058,7 +1058,7 @@
     {
       "id": 327,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Más vale que vayamos a unirnos a las celebraciones»."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Podemos irnos y unirnos a las celebraciones»."}
       ],
       "words": [
         {"t": [0], "es": "nosotros"},
@@ -1072,7 +1072,7 @@
     {
       "id": 328,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "«Sí», dijo Hagrid con la voz muy apagada."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "«Ajá», respondió Hagrid con voz muy apagada."}
       ],
       "words": [
         {"t": [0], "es": "sí", "base": "yeah", "sense": "yes", "note": "Forma informal de *yes*."},
@@ -1086,7 +1086,7 @@
     {
       "id": 329,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5], "es": "«Será mejor que me lleve la moto."}
+        {"t": [0, 1, 2, 3, 4, 5], "es": "«Más vale que me lleve esta moto."}
       ],
       "words": [
         {"t": [0, 1], "es": "será mejor que yo", "base": "had better", "sense": "advisable", "note": "*I’d best* equivale a *I had better*: recomendación informal ([[contractions]]; [[had-better]])."},
@@ -1109,10 +1109,9 @@
     {
       "id": 331,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Secándose los ojos llorosos con la manga de la chaqueta,"},
-        {"t": [8, 9, 10, 11, 12, 13, 14], "es": "Hagrid montó de un impulso en la moto"},
-        {"t": [15, 16, 17, 18, 19, 20], "es": "y arrancó el motor de una patada;"},
-        {"t": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33], "es": "con un rugido, se elevó en el aire y se perdió en la noche."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "Hagrid se secó los ojos, de los que manaban lágrimas, con la manga de la chaqueta, se subió de un impulso a la moto"},
+        {"t": [15, 16, 17, 18, 19, 20], "es": "y le dio una patada a la palanca para poner el motor en marcha."},
+        {"t": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33], "es": "Con un estrépito se elevó en el aire y desapareció en la noche."}
       ],
       "words": [
         {"t": [0], "es": "secando", "base": "wipe", "sense": "dry"},
@@ -1139,8 +1138,8 @@
     {
       "id": 332,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "«Supongo que nos veremos pronto, profesora McGonagall»,"},
-        {"t": [9, 10, 11, 12, 13], "es": "dijo Dumbledore, inclinando la cabeza hacia ella."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "«Nos veremos pronto, espero, profesora McGonagall»,"},
+        {"t": [9, 10, 11, 12, 13], "es": "dijo Dumbledore, saludándola con una inclinación de cabeza."}
       ],
       "words": [
         {"t": [0], "es": "yo"},
@@ -1170,7 +1169,7 @@
     {
       "id": 334,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Dumbledore se volvió y desanduvo la calle."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Dumbledore se volvió y regresó calle abajo."}
       ],
       "words": [
         {"t": [0], "es": "Dumbledore"},
@@ -1200,10 +1199,10 @@
     {
       "id": 336,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "Lo hizo chasquear una vez y doce bolas de luz regresaron a toda velocidad a sus farolas,"},
-        {"t": [15, 16, 17, 18, 19, 20, 21], "es": "de modo que, de pronto, Privet Drive se iluminó de naranja"},
-        {"t": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33], "es": "y pudo distinguir a un gato atigrado que se escabullía al doblar la esquina"},
-        {"t": [34, 35, 36, 37, 38, 39, 40], "es": "del otro extremo de la calle."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "Lo hizo chasquear una vez y doce bolas de luz volvieron a toda velocidad a sus farolas,"},
+        {"t": [15, 16, 17, 18, 19, 20, 21], "es": "de manera que Privet Drive se iluminó de pronto con un resplandor anaranjado,"},
+        {"t": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33], "es": "y pudo distinguir a un gato atigrado que se escabullía por una esquina,"},
+        {"t": [34, 35, 36, 37, 38, 39, 40], "es": "en el otro extremo de la calle."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1237,8 +1236,8 @@
     {
       "id": 337,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Apenas distinguía el bulto de mantas"},
-        {"t": [8, 9, 10, 11, 12, 13], "es": "en el escalón del número cuatro."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Apenas pudo ver el bulto de mantas"},
+        {"t": [8, 9, 10, 11, 12, 13], "es": "en el escalón de la casa número cuatro."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1267,8 +1266,8 @@
     {
       "id": 339,
       "line": [
-        {"t": [0, 1, 2, 3, 4], "es": "Giró sobre sus talones"},
-        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "y desapareció con un susurro de su capa."}
+        {"t": [0, 1, 2, 3, 4], "es": "Dio media vuelta"},
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "y, con un susurro de su capa, desapareció."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1283,9 +1282,9 @@
     {
       "id": 340,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Una brisa agitó los cuidados setos de Privet Drive,"},
-        {"t": [9, 10, 11, 12, 13, 14, 15, 16, 17], "es": "que descansaba silenciosa y ordenada bajo un cielo negro como la tinta,"},
-        {"t": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28], "es": "el último lugar donde uno esperaría que ocurriera algo asombroso."}
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Una brisa agitó los pulcros setos de Privet Drive."},
+        {"t": [9, 10, 11, 12, 13, 14, 15, 16, 17], "es": "La calle permanecía silenciosa y ordenada bajo un cielo de color tinta."},
+        {"t": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28], "es": "Aquel era el último lugar donde uno esperaría que ocurrieran cosas asombrosas."}
       ],
       "words": [
         {"t": [0, 1], "es": "una brisa", "base": "breeze", "sense": "wind"},
@@ -1327,15 +1326,15 @@
     {
       "id": 342,
       "line": [
-        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Una manita se cerró sobre la carta que tenía al lado"},
+        {"t": [0, 1, 2, 3, 4, 5, 6, 7, 8], "es": "Una mano pequeña se cerró sobre la carta que tenía al lado"},
         {"t": [9, 10, 11, 12], "es": "y siguió durmiendo,"},
         {"t": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22], "es": "sin saber que era especial, sin saber que era famoso,"},
-        {"t": [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37], "es": "sin saber que, dentro de unas horas, lo despertaría el grito de la señora Dursley"},
-        {"t": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49], "es": "cuando abriera la puerta de entrada para dejar fuera las botellas de leche,"},
-        {"t": [50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67], "es": "ni que pasaría las semanas siguientes aguantando los toques y pellizcos de su primo Dudley…"},
-        {"t": [68, 69, 70, 71, 72, 73, 74, 75], "es": "No podía saber que, en ese mismo instante,"},
-        {"t": [76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88], "es": "personas reunidas en secreto por todo el país alzaban sus copas"},
-        {"t": [89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101], "es": "y decían en voz baja: «¡Por Harry Potter, el niño que vivió!»."}
+        {"t": [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37], "es": "sin saber que en unas pocas horas lo despertaría el grito de la señora Dursley,"},
+        {"t": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49], "es": "cuando abriera la puerta principal para sacar las botellas de leche."},
+        {"t": [50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67], "es": "Ni que iba a pasar las próximas semanas recibiendo empujones con el dedo y pellizcos de su primo Dudley…"},
+        {"t": [68, 69, 70, 71, 72, 73, 74, 75], "es": "No podía saber tampoco que, en aquel mismo momento,"},
+        {"t": [76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88], "es": "las personas que se reunían en secreto por todo el país estaban levantando sus copas"},
+        {"t": [89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101], "es": "y diciendo, con voces quedas: «¡Por Harry Potter… el niño que vivió!»."}
       ],
       "words": [
         {"t": [0, 2], "es": "una mano", "base": "hand", "sense": "body"},
@@ -1376,7 +1375,7 @@
         {"t": [53, 54], "es": "pasaría", "base": "spend", "sense": "time"},
         {"t": [55, 57, 58], "es": "unas cuantas semanas", "base": "week", "sense": "time"},
         {"t": [56], "es": "próximas", "base": "next", "sense": "future"},
-        {"t": [59, 60], "es": "recibiendo toques molestos", "base": "prod", "sense": "poke"},
+        {"t": [59, 60], "es": "siendo empujado con el dedo", "base": "prod", "sense": "poke"},
         {"t": [61], "es": "y"},
         {"t": [62], "es": "pellizcado", "base": "pinch", "sense": "squeeze"},
         {"t": [63, 64, 65], "es": "por su primo", "base": "cousin", "sense": "family"},
