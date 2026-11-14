@@ -940,6 +940,13 @@ function showReader(book, chapter, target) {
       if (over > 0) popBody.scrollTop += over;
     });
   });
+  on($(".pop-note"), "keydown", (e) => {
+    const ref = e.target.closest(".concept-ref");
+    if (ref && (e.key === "Enter" || e.key === " ")) {
+      e.preventDefault();
+      ref.click();
+    }
+  });
   on($(".pop-more"), "click", (e) => {
     const sentence = $(".pop-sentence");
     sentence.hidden = !sentence.hidden;
@@ -994,7 +1001,8 @@ function showReader(book, chapter, target) {
       if (!concepts[id]) return "";
       if (!ids.includes(id)) ids.push(id);
       const n = ids.indexOf(id);
-      const ref = `<button type="button" class="concept-ref" data-n="${n}">${icon("lesson")}${rich(concepts[id].name)}<sup>${n + 1}</sup></button>`;
+      // Use an inline button role so long labels wrap with the surrounding note.
+      const ref = `<span role="button" tabindex="0" class="concept-ref" data-n="${n}">${icon("lesson")}${rich(concepts[id].name)}<sup>${n + 1}</sup></span>`;
       return inBrackets ? ` <span class="concept-group">(${ref})</span>` : ref;
     });
     return { html, ids };

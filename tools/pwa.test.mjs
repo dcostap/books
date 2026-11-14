@@ -13,8 +13,36 @@ const translationHTML = vm.runInNewContext([
   appSource.match(/^function translationHTML\([\s\S]*?^\}/m)[0],
   "translationHTML",
 ].join("\n"));
-// A sentence without a reading line (hp1 chapter 1), and the gloss of the tapped unit.
+// A legacy sentence without a reading line, and the gloss of the tapped unit.
 const sentenceHTML = (sentence, gloss) => translationHTML({ es: sentence }, gloss === undefined ? undefined : { es: gloss });
+
+test("grammar references use focusable inline buttons so labels can wrap", () => {
+  const noteHTML = vm.runInNewContext([
+    appSource.match(/^const esc = .+;$/m)[0],
+    appSource.match(/^const rich = .+;$/m)[0],
+    appSource.match(/^  function noteHTML\(note\) \{[\s\S]*?^  \}/m)[0],
+    "noteHTML",
+  ].join("\n"), {
+    concepts: { inversion: { name: "auxiliar delante del sujeto tras una negación" } },
+    icon: () => "<svg></svg>",
+  });
+  const note = noteHTML("Una explicación ([[inversion]]).");
+  assert.match(note.html, /<span role="button" tabindex="0" class="concept-ref" data-n="0">/);
+  assert.doesNotMatch(note.html, /<button/);
+  assert.deepEqual(Array.from(note.ids), ["inversion"]);
+});
+
+test("inline grammar buttons support Enter and Space without scrolling", () => {
+  const handlerSource = appSource.match(/on\(\$\("\.pop-note"\), "keydown", (\(e\) => \{[\s\S]*?\n  \})\);/)[1];
+  const keydown = vm.runInNewContext(`(${handlerSource})`);
+  for (const key of ["Enter", " ", "Escape"]) {
+    let clicks = 0, prevented = false;
+    keydown({ key, target: { closest: () => ({ click: () => clicks++ }) }, preventDefault: () => { prevented = true; } });
+    assert.equal(clicks, key === "Escape" ? 0 : 1);
+    assert.equal(prevented, key !== "Escape");
+  }
+  keydown({ key: "Enter", target: { closest: () => null } });
+});
 
 test("sentence highlights keep the original case, spacing, and punctuation", () => {
   assert.equal(sentenceHTML("Eran perfectamente normales, gracias.", "perfectamente normales"),

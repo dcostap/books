@@ -505,8 +505,7 @@ dialog form { text-align: right; }
 .pop-also .ex b { font-weight: 600; }
 .pop-also .ex i { display: block; }
 .pop-also ul, .concept ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
-.concept-group { white-space: nowrap; }
-.concept-ref { padding: 0; border: 0; background: none; font: inherit; cursor: pointer; white-space: nowrap; text-decoration: underline dotted; text-underline-offset: 0.2em; color: var(--accent); }
+.concept-ref { display: inline; cursor: pointer; white-space: normal; text-decoration: underline dotted; text-underline-offset: 0.2em; color: var(--accent); }
 .concept-ref sup { margin-left: 0.1em; font-size: 0.7em; font-weight: 700; }
 .concept-ref svg, .concept summary svg { display: inline-block; width: 1.05em; height: 1.05em; margin-right: 0.2em; vertical-align: -0.15em; color: var(--accent); }
 .pop-concepts { display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.88rem; line-height: 1.45; }
