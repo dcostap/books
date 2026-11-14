@@ -16,7 +16,7 @@ Use the agreed exact model and thinking level for every subagent. The current tr
 
 A **job** is a batch of consecutive paragraphs with one answer file. “Section” means the same thing; use “job” in assignments and reports. It is not a new division in the book.
 
-One translator reads the complete chapter and translates its jobs in order. Do not split a chapter among translators. Job size limits the amount of work between handoffs, not the translator's context.
+One translator reads the complete English chapter, then its selected Spanish counterpart, and translates the jobs in order. Do not split a chapter among translators. Job size limits the amount of work between handoffs, not the translator's context.
 
 Prepare manageable jobs before translation starts. Prefer scene or conversation boundaries when practical. The current `prep` tool uses approximate token counts and paragraph boundaries; it does not detect scenes. Do not change job ranges or sentence IDs after a handoff without coordinating all affected work.
 
@@ -26,6 +26,11 @@ A short chapter can have one job. Its job review and whole-chapter review remain
 
 - Read the book notes and agree on lasting choices with the user before using them throughout the book.
 - Prepare the English source, job files, and reference data. Preserve valid source text and timings when the task does not require changes.
+- Select a corresponding Spanish translation before drafting. Provide its local path and chapter location to translators and reviewers.
+- For a series, prefer counterparts from the same publisher edition family and source. Verify each volume separately.
+- Record the counterpart's translator, publisher, edition, digital revision, and source in the book notes. Mark unverified details explicitly.
+- Check internal credits and chapter correspondence; filenames and a shared download source do not establish an exact edition match.
+- Keep counterpart files and extracts local, outside the repository. Report a missing counterpart or uncertain correspondence before translation starts.
 - Prepare audio, pictures, and webpage changes while content agents work, when these tasks have no conflicting dependencies.
 - Prepare dictionary entries for the chapter's vocabulary and useful common senses. Do not expand into unrelated vocabulary.
 - Dictionary preparation can overlap translation. Translators report missing entries and concepts instead of waiting for the whole dictionary batch.
@@ -108,6 +113,7 @@ Shared material belongs to every relevant review stage. Each pass includes relev
 ## Tools and completion
 
 - Read `guides/translation-es.md` and the book's Translation notes before translating or reviewing.
+- Use the counterpart as starting wording, not as finished answers or an alignment map. Follow the guide's English-based checks.
 - Prepare jobs: `.venv/Scripts/python tools/translation.py prep books/<id> <n> [--jobs N] [--paragraphs N]`.
 - Validate a job: `.venv/Scripts/python tools/translation.py check books/<id> <n> <job>`.
 - Read its display: `.venv/Scripts/python tools/translation.py show books/<id> <n> [job]`.

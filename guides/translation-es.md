@@ -20,6 +20,24 @@ Each sentence gets two things. They have different jobs, so they follow differen
 
 "Ver la frase entera" in the popup shows the reading line as one sentence.
 
+## Spanish counterpart
+
+Use the selected Spanish counterpart as a starting draft and a reference for names, terms, and voice. Reuse wording where it fits the English. Adapt it where it does not. The English remains the source of truth.
+
+- Each reading line must explain the English sentence directly above it, not merely summarize the same scene.
+- Preserve participants, actions, time, negation, uncertainty, tone, and relevant details. Restore omissions and remove unsupported additions from the counterpart.
+- Keep natural Spanish constructions. Matching meaning does not require matching English word order or every grammatical form.
+- Keep the English sentence IDs and timings. Split or rewrite counterpart passages that merge or divide the English differently.
+- Build reading chunks from English spans after adapting the complete sentence. Widen a chunk when Spanish word order requires it.
+- Build popup units, glosses, and grammar help directly from English. Do not obtain them by splitting the counterpart's Spanish.
+- Follow the approved book notes for names and forms of address. Propose lasting changes instead of silently replacing them.
+
+For *He backed out*, «Se alejó» loses the reverse movement. Use «Salió marcha atrás» in the reading line.
+
+A counterpart may render *Borrowed it* as «Me la han prestado». That can be natural in the reading line. The popup must still teach *borrow*, not *lend*, and preserve the English person and tense.
+
+Review against English before accepting counterpart wording. Do not undo an English-based correction merely to match the published Spanish. For normal chapter work, include this check in the existing review stages. Do not add a separate stage automatically.
+
 ## Spanish
 
 Spain's Spanish (*vosotros*, *coche*, *ordenador*, *gafas*), plain but not simplified. Use the word a good modern Spanish translator of a young-adult novel would use.
@@ -72,7 +90,7 @@ The bad line reads "también pero ellos nunca habían siquiera visto lo". That i
 ### Sentence style
 
 - Keep the meaning and the tone. A joke stays a joke. Irony stays irony.
-- Write your own translation. Do not copy a published Spanish edition. Use its names and terms (see the book notes).
+- Use counterpart wording when it passes the checks above. Do not import it unchanged without checking the English.
 - Show quoted speech with « », and use the Spanish rules for punctuation. Put « where the English sentence opens a quote (‘), and » where it closes one (’). A quote can go over several sentences: then the first sentence has only «, and the last has only ». Example: "‘We have much to be thankful for." → *«Tenemos mucho que agradecer.*
 - Keep the same *tú* or *usted* between two characters in all the book. The book notes say which one.
 
@@ -223,11 +241,12 @@ The answer to a job is one UTF-8 JSON file, with the name that the job file give
 
 ## Translator: how to do a job
 
-1. Read this guide, the workflow, the book notes, and the full chapter for context. One translator owns the chapter's translation and completes its jobs in order. Read the current `books/<id>/<nn>/es/jobs/NN.md` before writing its answer. Edit only the files currently assigned to you.
+1. Read this guide, the workflow, the book notes, and the full English chapter for context. Then read the selected counterpart chapter. One translator owns the chapter's translation and completes its jobs in order. Read the current `books/<id>/<nn>/es/jobs/NN.md` before writing its answer. Edit only the files currently assigned to you.
 2. For each sentence: first write the reading line (translate, then cut). Then write the popup units. Each gloss gives the meaning of the English word at this place. Where your line says it more freely, add a note (see "Gloss").
 3. Run the check command from the job file, for example `python tools/translation.py check books/duke 1 1`. Fix every error, and run it again until it prints `OK`.
 4. Run `python tools/translation.py show books/duke 1 1` and read your work as a reader would. Check:
    - Read only the Spanish of each line. Is it natural Spanish from Spain, plain but not poor? Would you change a word if you wrote it for a book?
+   - Does the line explain its English sentence faithfully? Check for omissions, additions, and changed meaning from the counterpart.
    - Read each line chunk by chunk, from left to right. Is it exactly your sentence?
    - Does every gloss fit this place? Are all the meanings you give correct here?
    - Is every gloss the meaning of the English word, and not a free word from your line? Tap test: would a learner who reads only the gloss learn a wrong meaning of the word?

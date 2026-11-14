@@ -29,8 +29,25 @@ Follow `guides/translation-es.md`. Use the current `line` and `words` format, no
 - Follow `guides/translation-workflow.md` for chapter ownership, job handoffs, and review stages. HP has no separate review policy.
 - One translator reads the complete chapter and translates its jobs in order. Report each checked job immediately for review.
 - Reviewers check content and relevant shared references. The orchestrator checks diffs, integrates changes, and handles assets and browser tests.
-- Write a new translation. Do not reuse the former answer files or copy a published Spanish translation.
+- Use the selected Spanish counterpart as starting wording for new translations and assigned adaptations. Follow the guide's English-based checks.
 - Preserve the existing names and terms below. Propose changes before using them across the book.
+
+### Spanish counterpart
+
+The user supplied a Spanish EPUB for future drafting. The orchestrator provides its local path and chapter location with each assignment. Keep the file and extracts outside the repository.
+
+- Title: *Harry Potter y la piedra filosofal*.
+- Credited translator: Alicia Dellepiane Rawson.
+- Internal publisher metadata: ePubLibre. Digital editor: Titivillus.
+- Title-page revision: ePub r1.8, dated 15 December 2017. The OPF version field says 1.7.
+- The supplied filename identifies Salamandra and 2014. The internal textual credits do not verify that exact printed edition.
+- Chapter 1 location: `OEBPS/Text/cap001.xhtml`.
+
+Chapter 1 was completed independently at `2305244`, before comparing it with this EPUB. That comparison made no changes to the chapter.
+
+The user then authorized a special chapter-wide adaptation stage using this EPUB's wording as the baseline. This stage has two consecutive fresh passes over all four answers. Adapt the reading lines and check their chunks and popup help against English. Keep the English source and audio timings unchanged.
+
+The counterpart supports most established names and forms of address, but it sometimes changes English details and sentence boundaries. Its chapter title uses «El niño que sobrevivió»; its closing toast uses «el niño que vivió». Keep our approved title below unless the user changes that choice.
 
 ### Voice
 

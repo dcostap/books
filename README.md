@@ -81,6 +81,8 @@ The bookmark in the popup saves the unit to "Mis palabras", with an optional not
 
 The orchestrator coordinates the work and communicates with the user. Subagents translate and review content. `guides/translation-workflow.md` defines ownership and review stages; `guides/translation-es.md` defines language quality.
 
+A selected Spanish counterpart supplies starting wording, terms, and voice. Adapt it against the English before making reading chunks. Each Spanish line must still explain the English above it; popup glosses teach the English words and grammar directly. Record the counterpart's edition in the book notes and keep its files local.
+
 1. Prepare jobs with `python tools/translation.py prep books/duke 1`. The tool splits about 1500 tokens per job at paragraph boundaries. `--jobs N` sets the target count; `--paragraphs N` limits coverage.
 2. One translator reads the complete chapter, then writes, validates, and self-reviews each job in order. Report each ready job immediately.
 3. The orchestrator commits the job before review. Reviewers fix content directly, with one writer per file. Each job needs at least two consecutive passes by fresh reviewers.
