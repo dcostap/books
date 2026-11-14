@@ -22,7 +22,7 @@
         {"t": [0], "es": "casi", "base": "nearly", "sense": "almost"},
         {"t": [1], "es": "diez"},
         {"t": [2], "es": "años", "base": "year", "sense": "time"},
-        {"t": [3, 4], "es": "habían pasado", "base": "pass", "sense": "go-past", "note": "*Had* + participio sitúa un hecho antes de otro momento pasado ([[past-perfect]])."},
+        {"t": [3, 4], "es": "habían pasado", "base": "pass", "sense": "elapse", "note": "*Had* + participio sitúa un hecho antes de otro momento pasado ([[past-perfect]])."},
         {"t": [5], "es": "desde que"},
         {"t": [6, 7], "es": "los Dursley"},
         {"t": [8, 9, 10], "es": "se habían despertado", "base": "wake up", "sense": "awaken"},
@@ -92,7 +92,7 @@
         {"t": [7], "es": "mostraban", "base": "show", "sense": "indicate"},
         {"t": [8, 9], "es": "cuánto", "base": "how much", "sense": "quantity"},
         {"t": [10], "es": "tiempo", "base": "time", "sense": "duration"},
-        {"t": [11, 12], "es": "había pasado", "base": "pass", "sense": "go-past"}
+        {"t": [11, 12], "es": "había pasado", "base": "pass", "sense": "elapse"}
       ]},
     {"id": 4,
       "line": [
@@ -120,7 +120,7 @@
         {"t": [15], "es": "rosada", "base": "pink", "sense": "colour"},
         {"t": [16], "es": "de playa", "base": "beach", "sense": "shore"},
         {"t": [18], "es": "llevando puestos", "base": "wear", "sense": "clothing"},
-        {"t": [19], "es": "de diferentes colores", "base": "different-coloured", "sense": "colours", "note": "Ortografía británica: *coloured*; en EE. UU., *colored* ([[british-american]])."},
+        {"t": [19], "es": "de diferentes colores", "note": "Ortografía británica: *coloured*; en EE. UU., *colored* ([[british-american]])."},
         {"t": [20], "es": "con pompón", "base": "bobble", "sense": "pompom", "note": "*Bobble*, con este sentido, es británico; en EE. UU. se suele decir *pom-pom* ([[british-american]])."},
         {"t": [21], "es": "gorros", "base": "hat", "sense": "headwear"},
         {"t": [23], "es": "pero"},
@@ -347,7 +347,7 @@
         {"t": [2], "es": "levantado", "base": "up", "sense": "awake"},
         {"t": [3], "es": "ya", "base": "yet", "sense": "question"},
         {"t": [4], "es": "ella"},
-        {"t": [5], "es": "exigió saber", "base": "demand", "sense": "insist"}
+        {"t": [5], "es": "preguntó con insistencia", "base": "demand", "sense": "question"}
       ]},
     {"id": 21,
       "line": [
@@ -478,7 +478,7 @@
         {"t": [4], "es": "arañas", "base": "spider", "sense": "animal"},
         {"t": [5], "es": "porque"},
         {"t": [6, 7], "es": "la alacena", "base": "cupboard", "sense": "storage"},
-        {"t": [8, 9, 10], "es": "debajo de las escaleras", "base": "stair", "sense": "step"},
+        {"t": [8, 9, 10], "es": "debajo de las escaleras", "base": "stair", "sense": "staircase"},
         {"t": [11], "es": "estaba", "base": "be", "sense": "state"},
         {"t": [12, 13], "es": "llena de", "base": "full", "sense": "filled"},
         {"t": [14], "es": "ellas"},
@@ -576,7 +576,7 @@
         {"t": [5, 6, 7, 8, 9, 10], "es": "pero no podía atraparlo muy a menudo."}
       ],
       "words": [
-        {"t": [0, 2], "es": "el saco de boxeo de Dudley", "base": "punch-bag", "sense": "training", "note": "Británico: *punch-bag*; en EE. UU., *punching bag*. Aquí se aplica cruelmente a una persona."},
+        {"t": [0, 2], "es": "el blanco de golpes de Dudley", "base": "punch-bag", "sense": "victim", "note": "Británico: *punch-bag*; en EE. UU., *punching bag*. Literalmente es un «saco de boxeo»; aquí, la persona que recibe los golpes."},
         {"t": [1], "es": "favorito", "base": "favourite", "sense": "preferred", "note": "Ortografía británica; en EE. UU., *favorite* ([[british-american]])."},
         {"t": [3], "es": "era", "base": "be", "sense": "identity"},
         {"t": [4], "es": "Harry"},
@@ -675,7 +675,7 @@
         {"t": [7], "es": "negro", "base": "black", "sense": "colour"},
         {"t": [8], "es": "pelo", "base": "hair", "sense": "growth"},
         {"t": [9], "es": "y"},
-        {"t": [10], "es": "verde brillante", "base": "bright-green", "sense": "colour"},
+        {"t": [10], "es": "verde vivo", "note": "*Bright* indica aquí un color vivo: «verde intenso». No dice que los ojos emitan luz."},
         {"t": [11], "es": "ojos", "base": "eye", "sense": "organ"}
       ]},
     {"id": 40,
@@ -982,7 +982,7 @@
         {"t": [0, 1, 2], "es": "Su cara se ensombreció."}
       ],
       "words": [
-        {"t": [0, 1, 2], "es": "se le cambió la cara", "base": "one's face falls", "sense": "disappointed", "note": "*His face fell* indica que su expresión cambió por una decepción."}
+        {"t": [0, 1, 2], "es": "se le cambió la cara", "base": "one's face falls", "sense": "disappointed", "note": "*Fell* es el pasado irregular de *fall* ([[irregular-verbs]]). La expresión indica que la cara cambia por una decepción."}
       ]},
     {"id": 57,
       "line": [
@@ -1006,7 +1006,7 @@
       "words": [
         {"t": [0], "es": "eso es", "base": "be", "sense": "identity"},
         {"t": [1], "es": "dos"},
-        {"t": [2], "es": "menos", "base": "less", "sense": "smaller-amount", "note": "En inglés cuidado se prefiere *fewer* con cosas contables; *less* es frecuente al hablar de cantidades."},
+        {"t": [2], "es": "menos", "base": "little", "sense": "amount", "note": "*Less* es el comparativo de *little* ([[comparatives]]). Con cosas contables se prefiere *fewer*, aunque *less* es frecuente al hablar de cantidades."},
         {"t": [3], "es": "que"},
         {"t": [4], "es": "pasado", "base": "last", "sense": "previous"},
         {"t": [5], "es": "año", "base": "year", "sense": "time"}
@@ -1021,7 +1021,8 @@
         {"t": [0], "es": "querido", "base": "darling", "sense": "address"},
         {"t": [1], "es": "tú"},
         {"t": [2, 3], "es": "no has contado", "base": "count", "sense": "number"},
-        {"t": [4, 5, 6], "es": "el regalo de tía Marge", "base": "present", "sense": "gift", "note": "*Marge’s* lleva *’s* de posesión: «de Marge» ([[possessive-s]])."},
+        {"t": [4], "es": "tía", "base": "auntie", "sense": "family", "note": "*Auntie* es una forma familiar y cariñosa de *aunt*."},
+        {"t": [5, 6], "es": "el regalo de Marge", "base": "present", "sense": "gift", "note": "*Marge’s* lleva *’s* de posesión: «de Marge» ([[possessive-s]])."},
         {"t": [7], "es": "mira", "base": "see", "sense": "sight"},
         {"t": [8], "es": "está", "base": "be", "sense": "state"},
         {"t": [9], "es": "aquí", "base": "here", "sense": "place"},
@@ -1165,7 +1166,7 @@
       ],
       "words": [
         {"t": [0], "es": "treinta y nueve"},
-        {"t": [1], "es": "dulzura", "note": "*Sweetums* es un apelativo muy cariñoso, propio del habla dirigida a niños."},
+        {"t": [1], "es": "dulzura", "base": "sweetums", "sense": "affection", "note": "*Sweetums* es un apelativo muy cariñoso, propio del habla dirigida a niños."},
         {"t": [2], "es": "dijo", "base": "say", "sense": "speak"},
         {"t": [3], "es": "tía", "base": "aunt", "sense": "family"},
         {"t": [4], "es": "Petunia"}
@@ -1269,7 +1270,7 @@
         {"t": [22], "es": "de carreras", "base": "racing", "sense": "sport"},
         {"t": [24, 25], "es": "una cámara de cine", "base": "cine-camera", "sense": "film-camera", "note": "Palabra británica para una cámara que graba en película, no en vídeo; en EE. UU., *movie camera*."},
         {"t": [26, 28], "es": "un avión", "base": "aeroplane", "sense": "aircraft", "note": "Británico: *aeroplane*; en EE. UU., *airplane* ([[british-american]])."},
-        {"t": [27], "es": "de control remoto", "base": "remote-control", "sense": "remote"},
+        {"t": [27], "es": "de control remoto", "base": "remote control", "sense": "remote", "note": "Cuando describe a un nombre, *remote control* suele llevar guion: *a remote-control aeroplane* ([[compound-adjectives]])."},
         {"t": [29], "es": "dieciséis"},
         {"t": [30], "es": "nuevos", "base": "new", "sense": "recent"},
         {"t": [31], "es": "de ordenador", "base": "computer", "sense": "device"},
