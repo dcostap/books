@@ -4,6 +4,8 @@
 
 The reader is a Spanish speaker from Spain who learns English (A2 to B2). An entry must help them in a few seconds: the common senses, in plain Spanish, with a short example.
 
+Follow `guides/translation-workflow.md` for ownership and review. Only the orchestrator edits the shared dictionary. Translators and reviewers propose additions or corrections.
+
 ## An entry
 
 ```json
@@ -48,8 +50,13 @@ The raw data (Wiktionary) has many senses. Keep few:
 2. For each word or phrase that needs one, run `python tools/dictionary.py raw WORD`, and write the entry from it.
    - Skip names, numbers, and small words that need no entry: articles, pronouns, simple prepositions and conjunctions (*the, he, of, and*).
    - Phrases: only phrasal verbs and idioms whose meaning does not come from their words ("look at", "all right", "put up with"). Not free groups like "train ticket".
-3. Run `python tools/dictionary.py check` until it prints `OK`.
+3. Report proposed entries or corrections with their base, sense ID, example pair, raw-form evidence, and affected sentences.
+4. The orchestrator resolves duplicates, integrates accepted proposals, and runs `python tools/dictionary.py check` until it prints `OK`.
 
-Change only `guides/dictionary-en.json`, and only by adding entries and senses.
+Preparation can overlap translation. Prepare the chapter's vocabulary and useful common senses, not unrelated vocabulary. Do not treat every phrase from `words` as a dictionary entry.
 
-When you finish, reply with the list of entries you added, and anything you were not sure about.
+Every review stage checks the shared entries relevant to its scope. Check existing entries as well as proposals: meanings, forms, examples, and links can all contain errors. Do not inspect unrelated entries during every pass.
+
+The orchestrator checks affected uses before changing an existing entry and arranges rechecks when needed. Correct labels, forms, or examples without deleting linked IDs or silently changing their meanings.
+
+Keep dictionary keys sorted. Use `forms` before `senses`, and `id`, `es`, `ex` within each sense. Save with two-space indentation, UTF-8, and LF line endings.

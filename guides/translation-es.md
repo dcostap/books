@@ -2,7 +2,7 @@
 
 This guide applies to every book and every chapter. Each book has its own notes in `books/<id>/NOTES.md`, section "Translation": the reader's level, names and terms, *tú* or *usted*, and what is special to that book. If the two disagree, the book notes win for that book.
 
-(hp1 chapter 1 uses an older format and has its names in `books/hp1/es/glossary.md`. Leave it as it is.)
+Read `guides/translation-workflow.md` for roles, file ownership, handoffs, commits, and review stages. This guide defines the language checks within that workflow.
 
 ## The reader
 
@@ -118,7 +118,7 @@ The gloss (`es`) is the meaning **at this place in the story**. It is not a dict
 - A unit with an article, a possessive or a preposition links its main word: "a … ticket" → `ticket`, "into the room" → `room`. A phrasal verb or an idiom links the phrase: "looked at" → `look at`.
 - Choose the sense that fits this place. The gloss fits the line (*venían*); the sense gives the general meaning (*venir*).
 - No link for a phrase that is not a dictionary entry: "What is it".
-- **A missing word or sense:** link it anyway, with a new `base`, or a new `sense` id (lower case, in English, words joined with -). The check lists them. Propose each one in your reply: the word, the sense id, the Spanish meaning and a short English example. Do not edit `guides/dictionary-en.json`. The user or the orchestrator adds it, or changes your link.
+- **A missing word or sense:** link it anyway, with a new `base`, or a new `sense` id (lower case, in English, words joined with -). The check lists them. Include each proposal in the job handoff: the word, sense ID, Spanish meaning, example pair, and affected sentences. Do not edit `guides/dictionary-en.json`. The orchestrator integrates accepted proposals or assigns a link correction. Reviewers check the relevant shared entries in every pass.
 
 ### Notes
 
@@ -187,7 +187,7 @@ Bad notes:
 - Read the file before you start. Link the entry in each note that uses its idea.
 - The usual form: explain in plain words, then the link in brackets. "Con algo que no se cuenta ([[uncountable]]), …" shows *Con algo que no se cuenta (sustantivos incontables¹), …*.
 - The note must make sense without its link: the app removes a link to an entry that does not exist.
-- **A new idea:** if no entry fits, and the idea will help readers again in other places, link it with a new id (lower case, words joined with -, in English: `[[present-perfect]]`). The check lists new ids. Propose each one in your reply, with a name and one line about it. Do not edit `guides/concepts-es.json`. The user or the orchestrator adds the entry, or removes your link.
+- **A new idea:** if no entry fits, and the idea will help readers again in other places, link it with a new id (lower case, words joined with -, in English: `[[present-perfect]]`). Include each proposal in the job handoff, with its name, explanation, examples, and affected sentences. Do not edit `guides/concepts-es.json`. The orchestrator integrates accepted proposals or assigns a link correction. Reviewers check the explanation and its use in every relevant pass.
 
 ## Answer format
 
@@ -223,7 +223,7 @@ The answer to a job is one UTF-8 JSON file, with the name that the job file give
 
 ## Translator: how to do a job
 
-1. Read this guide, the book notes (`books/<id>/NOTES.md`, section "Translation"), and the full chapter (`books/<id>/<nn>/text.md`) for context. Then read your job file (`books/<id>/<nn>/es/jobs/NN.md`). Translate only your job.
+1. Read this guide, the workflow, the book notes, and the full chapter for context. One translator owns the chapter's translation and completes its jobs in order. Read the current `books/<id>/<nn>/es/jobs/NN.md` before writing its answer. Edit only the files currently assigned to you.
 2. For each sentence: first write the reading line (translate, then cut). Then write the popup units. Each gloss gives the meaning of the English word at this place. Where your line says it more freely, add a note (see "Gloss").
 3. Run the check command from the job file, for example `python tools/translation.py check books/duke 1 1`. Fix every error, and run it again until it prints `OK`.
 4. Run `python tools/translation.py show books/duke 1 1` and read your work as a reader would. Check:
@@ -238,9 +238,9 @@ The answer to a job is one UTF-8 JSON file, with the name that the job file give
    - No spoilers? *Tú* and *usted* as the book notes say?
 5. If you changed something, run the check again until it prints `OK`.
 
-Change only your answer file.
+Change only your current answer file. Propose shared changes instead of editing shared files.
 
-When you finish, reply with:
+After each job passes its checks and self-review, immediately report it as ready for review. Do not wait for the chapter to finish. Include:
 
 - the `OK` line from the check
 - the names or terms that are not in the book notes, and the Spanish form you chose for each
@@ -249,13 +249,21 @@ When you finish, reply with:
 - anything you were not sure about, in a few short lines
 - any error that you think is in the English text (a typo or a missing word). Do not change the text.
 
+Stop editing that job after handoff. Continue with the next assigned job while its reviewer works. Report later consistency concerns rather than changing handed-over files. The orchestrator controls ownership and commits the baseline before reviewer edits.
+
 ## Reviewer
 
-A reviewer gets the same files and a task, for example "review jobs 1 to 3 and correct them" or "only list spoilers, do not edit". Unless the task makes it smaller, review everything: every point of step 4 above, for every sentence, against this guide and the book notes.
+A reviewer gets the guides, book notes, committed baseline, previous findings, exact scope, and editable paths. Review the assigned content, not only earlier diffs. Check every point of step 4 for every sentence in scope.
+
+Fix clear errors directly in owned answer files. Do not edit shared files, English source, or another agent's files. Propose shared corrections with affected sentence IDs and reasons. Raise uncertain interpretations or lasting book choices for the orchestrator. Do not rewrite acceptable Spanish merely to suit a preference.
+
+Each job has at least two consecutive passes by separate fresh reviewers. The complete chapter then has its own stage with at least two passes. Additional user-approved stages follow the same rule. See `guides/translation-workflow.md` for handoffs, diff checks, and when a stage is complete.
 
 Look for what is missing, not only for what is wrong: a correct gloss can hide a missing note. For every English word, ask: would a reader at this level trip here without a note?
 
-Also check across the jobs, because each translator saw only their own job:
+Check the shared references used in your scope, including their forms, other displayed senses, examples, and grammar explanations. Flag existing errors as well as errors in new proposals. Do not reread unrelated dictionary entries.
+
+Within the assigned stage, also check consistency across the relevant jobs or chapters:
 
 - The same expression has the same gloss and dictionary link, unless the meaning changes.
 - Glosses that copy a free word from the line instead of the meaning of the English word.
@@ -263,4 +271,6 @@ Also check across the jobs, because each translator saw only their own job:
 - Names and terms follow the book notes.
 - Notes about the same idea of grammar link the same concept.
 
-If you edit, run the check for each job until it prints `OK`. Then report what you changed or found, grouped by kind of problem, with a few examples. Add the problems that come again and again, with a proposed change to this guide or the book notes.
+Run the check for each edited job until it prints `OK`. Report missing dictionary or concept links even if structural validation passes. Identify the scope you actually read; do not claim coverage from truncated output.
+
+Report the baseline, changed files, substantive corrections, shared proposals checked, validation results, and unresolved issues. Release file ownership to the orchestrator, who checks the diff and commits accepted corrections. Suggest guide or book-note changes for recurring problems; do not apply them yourself.

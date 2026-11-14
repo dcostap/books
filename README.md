@@ -31,7 +31,7 @@ books/<id>/<nn>/words.json    every token of text.md with its exact time (genera
 tools/import_text.py          book.pdf -> text.md for each chapter
 tools/transcribe.py           audio -> whisper.json
 tools/retime.py               text.md + whisper.json + audio -> words.json (forced aligner)
-tools/build.py                books/ -> site/ (chapter JSON, chapter MP3, Spanish help, library.json)
+tools/build.py                books/ -> site/ (chapter JSON, chapter audio, Spanish help, library.json)
 tools/translation.py          Spanish help: splits a chapter into jobs, checks the answers, and shows them
 guides/translation-es.md      the rules for the Spanish help (all books), for translators and reviewers
 guides/concepts-es.json       ideas of English grammar that notes link to, with examples (all books)
@@ -49,7 +49,7 @@ The site's chapter audio is **Opus at 24 kbps, mono, in WebM** (`.webm`): about 
 ffmpeg -i SOURCE -ac 1 -c:a libopus -b:a 24k audio/<id>/NN-title.webm
 ```
 
-`build.py` copies the file as it is, because a second lossy encode loses quality. HP1 keeps its source MP3 (128 kbps stereo).
+`build.py` copies the file as it is, because a second lossy encode loses quality. Keep source MP3 files locally; both books use WebM for playback.
 
 ## How the timing works
 
@@ -79,14 +79,20 @@ On screens 68rem (1088 px) wide or more, the popup is a card in the right margin
 
 The bookmark in the popup saves the unit to "Mis palabras", with an optional note. A saved unit has a ring around it, in the theme's "saved" colour (`--saved`). On wide screens, its note shows in a bubble in the right margin. The popup card covers this margin, so the bubbles hide while it is open. The "Mis palabras" page lists the saved units, newest first, with a search. Tap one to open the chapter at its place. The audio position does not change. The page also exports and imports a JSON copy, because `localStorage` is lost when the browser data is cleared.
 
-Agents write the help. `guides/translation-workflow.md` has the steps, and `guides/translation-es.md` has the rules. In short:
+The orchestrator coordinates the work and communicates with the user. Subagents translate and review content. `guides/translation-workflow.md` defines ownership and review stages; `guides/translation-es.md` defines language quality.
 
-1. `python tools/translation.py prep books/duke 1` splits the chapter into jobs of about 1500 words (`--jobs N` sets the number; `--paragraphs N` makes jobs for the first N blocks only).
-2. An agent does each job. It runs `python tools/translation.py check books/duke 1 <job>` until the answer is correct.
-3. `python tools/translation.py show books/duke 1` prints the answers for a person or a reviewer to read.
-4. `build.py` checks the answers again and merges them. It skips an answer with errors, and a sentence whose text changed after prep.
+1. Prepare jobs with `python tools/translation.py prep books/duke 1`. The tool splits about 1500 tokens per job at paragraph boundaries. `--jobs N` sets the target count; `--paragraphs N` limits coverage.
+2. One translator reads the complete chapter, then writes, validates, and self-reviews each job in order. Report each ready job immediately.
+3. The orchestrator commits the job before review. Reviewers fix content directly, with one writer per file. Each job needs at least two consecutive passes by fresh reviewers.
+4. The orchestrator checks each diff, integrates shared proposals, and commits accepted changes. Launch further passes when concerns remain.
+5. After job reviews, fresh reviewers inspect the complete chapter in a separate stage with at least two passes. Every stage checks its relevant dictionary, grammar explanations, and book rules.
+6. The orchestrator builds and tests the result, including browser playback and seeking. Push only when the user asks.
 
-hp1 chapter 1 uses the older format (one set of units for the popup and the line, and `books/hp1/es/glossary.md`). The tools still accept it.
+Translation, job reviews, assets, and work on separate chapters can overlap without conflicting file ownership. The user confirms new or changed stages, such as cross-chapter review. Each stage keeps the two-pass minimum.
+
+`build.py` checks and merges answers. It skips an answer with errors, and a sentence whose text changed after preparation. A successful build alone does not establish content quality or prove that every reference exists.
+
+HP chapter 1 uses the same format as Duke. Its names, voice, and forms of address are in `books/hp1/NOTES.md`.
 
 ## Commands
 

@@ -22,8 +22,7 @@ An answer gives two things for each sentence:
 Every word token is in exactly one chunk and in exactly one unit. build.py merges the answers into
 site/books/<id>/<nn>.es.json as {es, line, units} for each sentence.
 
-The answers of hp1 chapter 1 use an older format, {id, es, units}, without a reading line. The check
-and the merge still accept it.
+The check and merge also accept the former {id, es, units} format, without a reading line.
 """
 import argparse
 import json

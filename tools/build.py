@@ -75,8 +75,8 @@ def split(tokens, old_split):
     """Split tokens into sentences.
 
     A quote that ends in ? or ! does not end the sentence when a small letter comes next: "‘What is it?’ said
-    Holmes." is one sentence. With old_split (book.json "oldSentenceSplit"), it does: hp1 chapter 1's translation
-    was made with that split.
+    Holmes." is one sentence. With old_split (book.json "oldSentenceSplit"), it does, for compatibility with
+    former translations.
     """
     sentences = [[]]
     for k, token in enumerate(tokens):
