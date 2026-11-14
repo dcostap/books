@@ -688,7 +688,7 @@
         {"t": [15], "es": "Piers"},
         {"t": [16], "es": "y"},
         {"t": [17], "es": "Dudley"},
-        {"t": [18, 19], "es": "estaban inclinándose", "base": "lean", "sense": "incline"},
+        {"t": [18, 19], "es": "estaban inclinados", "base": "lean", "sense": "incline"},
         {"t": [20], "es": "justo", "base": "right", "sense": "completely"},
         {"t": [21, 22, 23], "es": "muy cerca de", "base": "close", "sense": "near", "note": "*Up* refuerza la proximidad: estaban pegados al vidrio."},
         {"t": [24, 25], "es": "el vidrio", "base": "glass", "sense": "material"},
@@ -702,7 +702,7 @@
     {"id": 199,
       "line": [
         {"t": [0, 1, 2, 3, 4], "es": "Harry se incorporó y se quedó boquiabierto:"},
-        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "el vidrio que cerraba el cubículo de la boa constrictor había desaparecido."}
+        {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "es": "el vidrio frontal que cerraba el cubículo de la boa constrictor había desaparecido."}
       ],
       "words": [
         {"t": [0], "es": "Harry"},
