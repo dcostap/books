@@ -61,7 +61,7 @@
       ],
       "words": [
         {"t": [0, 1, 2], "es": "detrás del vidrio", "base": "glass", "sense": "material"},
-        {"t": [3, 4, 5], "es": "toda clase de", "base": "all sorts of", "sense": "variety"},
+        {"t": [3, 4, 5], "es": "todo tipo de", "base": "sort", "sense": "type", "note": "*All sorts of* expresa gran variedad, no todos los tipos posibles. *Sorts* significa «tipos»; *of*, «de»."},
         {"t": [6], "es": "lagartos", "base": "lizard", "sense": "animal"},
         {"t": [7], "es": "y"},
         {"t": [8], "es": "serpientes", "base": "snake", "sense": "animal"},
@@ -116,7 +116,7 @@
       ],
       "words": [
         {"t": [0], "es": "(la serpiente)"},
-        {"t": [1, 2, 3], "es": "podría haber envuelto", "base": "wrap", "sense": "enclose", "note": "*Could have* + participio presenta una capacidad imaginada, no algo que ocurrió ([[modal-perfect]])."},
+        {"t": [1, 2, 3], "es": "podría haber enrollado", "base": "wrap", "sense": "enclose", "note": "*Could have* + participio presenta una capacidad imaginada, no algo que ocurrió ([[modal-perfect]])."},
         {"t": [4, 5], "es": "su cuerpo", "base": "body", "sense": "physical"},
         {"t": [6], "es": "dos veces", "base": "twice", "sense": "two-times"},
         {"t": [7, 8, 9, 10], "es": "alrededor del coche de tío Vernon", "base": "car", "sense": "vehicle"},
@@ -195,7 +195,7 @@
         {"t": [1], "es": "lo"},
         {"t": [2], "es": "de nuevo", "base": "again", "sense": "repeat"},
         {"t": [3], "es": "Dudley"},
-        {"t": [4], "es": "ordenó", "base": "order", "sense": "command-verb"}
+        {"t": [4], "es": "ordenó", "base": "order", "sense": "instruct"}
       ]},
     {"id": 164,
       "line": [
@@ -245,7 +245,7 @@
         {"t": [0], "es": "Harry"},
         {"t": [1], "es": "se movió", "base": "move", "sense": "motion"},
         {"t": [2, 3, 4], "es": "delante de", "base": "in front of", "sense": "position"},
-        {"t": [5, 6], "es": "el cubículo", "base": "tank", "sense": "container"},
+        {"t": [5, 6], "es": "el terrario", "base": "tank", "sense": "animals"},
         {"t": [7], "es": "y"},
         {"t": [8, 10], "es": "miró", "base": "look at", "sense": "watch"},
         {"t": [9], "es": "atentamente", "base": "intently", "sense": "attentively"},
@@ -278,7 +278,7 @@
         {"t": [24], "es": "tratando", "base": "try", "sense": "attempt"},
         {"t": [25, 26], "es": "de molestar", "base": "disturb", "sense": "interrupt"},
         {"t": [27], "es": "la"},
-        {"t": [28, 29, 30], "es": "todo el día", "base": "all day long", "sense": "whole-day"}
+        {"t": [28, 29, 30], "es": "todo el día", "base": "day", "sense": "time", "note": "*Long* refuerza la duración: *all day long*, «todo el día». No habla de un día más largo de lo normal."}
       ]},
     {"id": 169,
       "line": [
@@ -311,7 +311,8 @@
         {"t": [23], "es": "te (en general)", "note": "*You* puede hablar de cualquiera, no solo de quien escucha ([[generic-you]])."},
         {"t": [26, 27], "es": "al menos", "base": "at least", "sense": "minimum"},
         {"t": [28], "es": "él"},
-        {"t": [29, 30, 31], "es": "tenía ocasión de visitar", "base": "visit", "sense": "go", "note": "*Get to* + infinitivo puede expresar que tienes la oportunidad de hacer algo ([[verb-infinitive]])."},
+        {"t": [29, 30], "es": "tenía ocasión de", "base": "get to", "sense": "opportunity", "note": "*Get to* + infinitivo puede expresar que tienes la oportunidad de hacer algo ([[verb-infinitive]])."},
+        {"t": [31], "es": "visitar", "base": "visit", "sense": "go"},
         {"t": [32, 33, 34], "es": "el resto de", "base": "rest", "sense": "remainder"},
         {"t": [35, 36], "es": "la casa", "base": "house", "sense": "building"}
       ]},
@@ -341,7 +342,7 @@
         {"t": [7], "es": "hasta que"},
         {"t": [8, 9], "es": "sus ojos", "base": "eye", "sense": "organ"},
         {"t": [10], "es": "estuvieron", "base": "be", "sense": "state"},
-        {"t": [11, 12, 13, 14], "es": "al mismo nivel que", "base": "on a level with", "sense": "height"},
+        {"t": [11, 12, 13, 14], "es": "a la misma altura que", "base": "level", "sense": "equal"},
         {"t": [15], "es": "los de Harry", "note": "El *’s* de *Harry’s* sustituye a *Harry’s eyes* para no repetir el nombre ([[possessive-s]]; [[ellipsis]])."}
       ]},
     {"id": 172,
@@ -656,7 +657,7 @@
         {"t": [4], "es": "cayó", "base": "fall", "sense": "drop"},
         {"t": [5], "es": "con fuerza", "base": "hard", "sense": "force"},
         {"t": [6, 7, 9], "es": "al suelo", "base": "floor", "sense": "surface"},
-        {"t": [8], "es": "de hormigón", "base": "concrete", "sense": "material", "note": "Como material, *concrete* es «hormigón»; «concreto» como «específico» suele ser *specific* ([[false-friends]])."}
+        {"t": [8], "es": "de hormigón", "base": "concrete", "sense": "material", "note": "*Concrete* como material es «hormigón»; como adjetivo sí puede ser «concreto»: *a concrete example* ([[false-friends]])."}
       ]},
     {"id": 198,
       "line": [
@@ -710,7 +711,7 @@
         {"t": [4], "es": "inspiró de golpe", "base": "gasp", "sense": "surprise"},
         {"t": [5, 7], "es": "el frontal", "base": "front", "sense": "part"},
         {"t": [6], "es": "de vidrio", "base": "glass", "sense": "material"},
-        {"t": [8, 9, 12], "es": "del cubículo", "base": "tank", "sense": "container"},
+        {"t": [8, 9, 12], "es": "del terrario", "base": "tank", "sense": "animals"},
         {"t": [10, 11], "es": "de la boa constrictor", "base": "boa constrictor", "sense": "snake", "note": "El *’s* indica a qué animal pertenece el cubículo ([[possessive-s]])."},
         {"t": [13, 14], "es": "había desaparecido", "base": "vanish", "sense": "disappear"}
       ]},
@@ -1277,7 +1278,7 @@
       ],
       "words": [
         {"t": [0, 3], "es": "una mujer", "base": "woman", "sense": "person"},
-        {"t": [1], "es": "de aspecto estrafalario", "base": "wild-looking", "sense": "appearance", "note": "*Wild-looking* describe un aspecto desordenado o extraño, no un carácter violento ([[compound-adjectives]])."},
+        {"t": [1], "es": "de aspecto estrafalario", "note": "*Wild-looking* describe un aspecto desordenado o extraño, no un carácter violento ([[compound-adjectives]])."},
         {"t": [2], "es": "anciana", "base": "old", "sense": "age"},
         {"t": [4], "es": "vestida", "base": "dress", "sense": "clothe"},
         {"t": [5], "es": "toda", "base": "all", "sense": "extent"},
@@ -1309,7 +1310,8 @@
         {"t": [17, 18, 19], "es": "el otro día", "base": "the other day", "sense": "recently"},
         {"t": [20], "es": "y"},
         {"t": [21], "es": "luego", "base": "then", "sense": "next"},
-        {"t": [22, 23], "es": "se alejó andando", "base": "walk away", "sense": "leave"},
+        {"t": [22], "es": "caminó", "base": "walk", "sense": "move"},
+        {"t": [23], "es": "alejándose", "base": "away", "sense": "distance"},
         {"t": [24, 25, 26], "es": "sin una palabra", "base": "word", "sense": "language"}
       ]},
     {"id": 228,
@@ -1323,9 +1325,8 @@
       "words": [
         {"t": [0, 2], "es": "la cosa", "base": "thing", "sense": "object"},
         {"t": [1], "es": "más rara", "base": "weird", "sense": "strange"},
-        {"t": [3], "es": "de"},
+        {"t": [3, 5, 6], "es": "de estas personas", "base": "person", "sense": "human"},
         {"t": [4], "es": "todas", "base": "all", "sense": "every"},
-        {"t": [5, 6], "es": "estas personas", "base": "person", "sense": "human"},
         {"t": [7], "es": "era", "base": "be", "sense": "identity"},
         {"t": [8, 9], "es": "la manera", "base": "way", "sense": "method"},
         {"t": [10], "es": "ellos"},
@@ -1334,7 +1335,7 @@
         {"t": [14, 15], "es": "en cuanto", "base": "the second", "sense": "immediately", "note": "*The second* introduce aquí un momento inmediato, como *as soon as*."},
         {"t": [16], "es": "Harry"},
         {"t": [17], "es": "intentaba", "base": "try", "sense": "attempt"},
-        {"t": [18, 19, 20, 22], "es": "lograr echar una mirada", "base": "get a look", "sense": "see"},
+        {"t": [18, 19, 20, 22], "es": "echar una mirada", "base": "look", "sense": "glance", "note": "*Get a closer look* habla de ver mejor un detalle; no exige acercarse físicamente."},
         {"t": [21], "es": "más cercana", "base": "close", "sense": "near"}
       ]},
     {"id": 229,
