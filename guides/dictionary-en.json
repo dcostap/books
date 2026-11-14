@@ -932,6 +932,14 @@
           "We walked around town.",
           "Paseamos por el pueblo."
         ]
+      },
+      {
+        "id": "reverse-direction",
+        "es": "en sentido contrario",
+        "ex": [
+          "Turn around and face me.",
+          "Date la vuelta y mírame."
+        ]
       }
     ]
   },
@@ -6105,6 +6113,14 @@
           "Her dream is to travel.",
           "Su aspiración es viajar."
         ]
+      },
+      {
+        "id": "imagine",
+        "es": "soñar, imaginar",
+        "ex": [
+          "I dream of living by the sea.",
+          "Sueño con vivir junto al mar."
+        ]
       }
     ]
   },
@@ -7050,8 +7066,8 @@
         "id": "reasonable",
         "es": "aceptable",
         "ex": [
-          "The hotel charged a fair price.",
-          "El hotel cobró un precio aceptable."
+          "His French is fair.",
+          "Su francés es aceptable."
         ]
       }
     ]
@@ -11319,6 +11335,14 @@
           "I'm in a hurry.",
           "Tengo prisa."
         ]
+      },
+      {
+        "id": "hasten",
+        "es": "apresurar",
+        "ex": [
+          "Don't hurry the children.",
+          "No metas prisa a los niños."
+        ]
       }
     ]
   },
@@ -12962,6 +12986,14 @@
           "Please light the candles.",
           "Enciende las velas, por favor."
         ]
+      },
+      {
+        "id": "illuminate",
+        "es": "iluminar",
+        "ex": [
+          "A small lamp lit the room.",
+          "Una lámpara pequeña iluminaba la habitación."
+        ]
       }
     ]
   },
@@ -13177,7 +13209,7 @@
       },
       {
         "id": "time",
-        "es": "mucho tiempo",
+        "es": "largo, mucho tiempo",
         "ex": [
           "We didn't wait long.",
           "No esperamos mucho tiempo."
@@ -16400,6 +16432,14 @@
           "I'll order a coffee.",
           "Voy a pedir un café."
         ]
+      },
+      {
+        "id": "instruct",
+        "es": "ordenar",
+        "ex": [
+          "She ordered us to leave.",
+          "Nos ordenó que nos fuéramos."
+        ]
       }
     ]
   },
@@ -17900,10 +17940,10 @@
     "senses": [
       {
         "id": "push",
-        "es": "pulsar",
+        "es": "presionar",
         "ex": [
           "Press the red button.",
-          "Pulsa el botón rojo."
+          "Presiona el botón rojo."
         ]
       },
       {
@@ -17960,6 +18000,14 @@
         "ex": [
           "Let's pretend we're pirates.",
           "Vamos a hacer como si fuéramos piratas."
+        ]
+      },
+      {
+        "id": "false",
+        "es": "fingido",
+        "ex": [
+          "She gave a pretend smile.",
+          "Esbozó una sonrisa fingida."
         ]
       }
     ]
@@ -18424,6 +18472,14 @@
         "ex": [
           "They put in new windows.",
           "Instalaron ventanas nuevas."
+        ]
+      },
+      {
+        "id": "interject",
+        "es": "intervenir",
+        "ex": [
+          "‘I agree,’ she put in.",
+          "«Estoy de acuerdo», intervino."
         ]
       }
     ]
@@ -19543,7 +19599,7 @@
         ]
       },
       {
-        "id": "tear-noun",
+        "id": "opening",
         "es": "desgarro",
         "ex": [
           "There's a rip in your jacket.",
@@ -21980,6 +22036,14 @@
           "We heard a sharp snap.",
           "Oímos un fuerte chasquido."
         ]
+      },
+      {
+        "id": "bite",
+        "es": "intentar morder",
+        "ex": [
+          "The dog snapped at my hand.",
+          "El perro intentó morderme la mano."
+        ]
       }
     ]
   },
@@ -24099,10 +24163,10 @@
       },
       {
         "id": "care",
-        "es": "acoger, cuidar",
+        "es": "hacerse cargo",
         "ex": [
           "Can you take the children today?",
-          "¿Puedes cuidar a los niños hoy?"
+          "¿Puedes hacerte cargo de los niños hoy?"
         ]
       }
     ]
@@ -25055,6 +25119,14 @@
         "ex": [
           "The old furniture looked tired.",
           "Los muebles viejos parecían desgastados."
+        ]
+      },
+      {
+        "id": "fed-up",
+        "es": "harto, cansado",
+        "ex": [
+          "I'm tired of waiting.",
+          "Estoy harto de esperar."
         ]
       }
     ]
@@ -27419,7 +27491,7 @@
         ]
       },
       {
-        "id": "deserving",
+        "id": "worthwhile",
         "es": "merecer la pena",
         "ex": [
           "The film is worth seeing.",
@@ -27427,7 +27499,7 @@
         ]
       },
       {
-        "id": "value-noun",
+        "id": "merit",
         "es": "valor",
         "ex": [
           "She knows her own worth.",
