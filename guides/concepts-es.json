@@ -413,5 +413,17 @@
     "en": "be used to",
     "text": "*Be used to* lleva un nombre, pronombre o verbo en *-ing*: significa «estar acostumbrado». No lo confundas con *used to* + verbo en forma base, que expresa una costumbre pasada.",
     "examples": [["I'm used to cold weather.", "Estoy acostumbrado al frío."], ["She's used to getting up early.", "Está acostumbrada a madrugar."]]
+  },
+  "correlative-comparatives": {
+    "name": "cuanto más…, más…",
+    "en": "correlative comparatives",
+    "text": "*The* + comparativo, seguido de otro *the* + comparativo, relaciona dos cambios: al variar una cantidad o grado, también varía el otro. Aquí *the* no es un artículo normal.",
+    "examples": [["The more you read, the more you learn.", "Cuanto más lees, más aprendes."], ["The sooner, the better.", "Cuanto antes, mejor."]]
+  },
+  "wish-unreal": {
+    "name": "deseos irreales con *wish*",
+    "en": "wish with unreal tenses",
+    "text": "*Wish* con pasado imagina una situación distinta de la real. Con *had* y participio, expresa un deseo sobre algo que ya ocurrió. El deseo puede estar en presente o pasado: *wish* o *wished*.",
+    "examples": [["I wish I knew.", "Ojalá lo supiera."], ["I wish I hadn't said that.", "Ojalá no hubiera dicho eso."]]
   }
 }
