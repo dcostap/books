@@ -395,5 +395,23 @@
     "en": "future in the past",
     "text": "Al contar desde un momento pasado, *would* puede indicar algo que todavía no había ocurrido entonces. No expresa necesariamente una condición. También se usa *was going to*.",
     "examples": [["She said he would come.", "Dijo que él vendría."], ["He didn’t know what would happen.", "No sabía lo que iba a pasar."]]
+  },
+  "participial-adjectives": {
+    "name": "participios usados como adjetivos",
+    "en": "participial adjectives",
+    "text": "Un participio puede describir un nombre. La forma en *-ing* suele indicar qué hace o provoca algo. El participio pasado, como *tired* o *broken*, suele expresar un resultado o cómo se siente alguien.",
+    "examples": [["a sleeping child", "un niño que duerme"], ["a broken window", "una ventana rota"]]
+  },
+  "cleft-sentences": {
+    "name": "énfasis con *it is* o *it was*",
+    "en": "cleft sentences",
+    "text": "*It is* o *it was* puede destacar una persona, cosa o momento. Después, *that*, *who* o *which* introduce el resto de la idea. El español suele usar «es… quien» o «fue… lo que».",
+    "examples": [["It was Anna who called.", "Fue Ana quien llamó."], ["It was the noise that woke me.", "Fue el ruido lo que me despertó."]]
+  },
+  "be-used-to": {
+    "name": "*be used to*: estar acostumbrado",
+    "en": "be used to",
+    "text": "*Be used to* lleva un nombre, pronombre o verbo en *-ing*: significa «estar acostumbrado». No lo confundas con *used to* + verbo en forma base, que expresa una costumbre pasada.",
+    "examples": [["I'm used to cold weather.", "Estoy acostumbrado al frío."], ["She's used to getting up early.", "Está acostumbrada a madrugar."]]
   }
 }
