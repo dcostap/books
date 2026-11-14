@@ -22388,6 +22388,14 @@
           "I'm thinking about moving house.",
           "Me estoy planteando mudarme."
         ]
+      },
+      {
+        "id": "opinion",
+        "es": "opinar de",
+        "ex": [
+          "What do you think about him?",
+          "¿Qué opinas de él?"
+        ]
       }
     ]
   },

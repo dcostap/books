@@ -255,7 +255,7 @@
         {"t": [1, 3], "es": "estaba sentado", "base": "sit", "sense": "seated"},
         {"t": [2], "es": "ahora", "base": "now", "sense": "present"},
         {"t": [4, 5, 7], "es": "en su muro", "base": "wall", "sense": "barrier"},
-        {"t": [6], "es": "de jardín", "base": "garden", "sense": "plants"}
+        {"t": [6], "es": "de jardín", "base": "garden", "sense": "plants", "note": "En británico, *garden* también es el terreno exterior de una casa; en EE. UU., suele decirse *yard* ([[british-american]])."}
       ]
     },
     {
@@ -506,7 +506,7 @@
         {"t": [0, 1, 2, 3, 4, 5, 6], "es": "El presentador se permitió una sonrisa."}
       ],
       "words": [
-        {"t": [0, 1, 2], "es": "el presentador", "base": "newsreader", "sense": "presenter"},
+        {"t": [0, 1, 2], "es": "el presentador", "base": "newsreader", "sense": "presenter", "note": "En EE. UU. se suele decir *newscaster* o *news anchor* ([[british-american]])."},
         {"t": [3], "es": "permitió", "base": "allow", "sense": "permit"},
         {"t": [4], "es": "a sí mismo"},
         {"t": [5, 6], "es": "una sonrisa amplia", "base": "grin", "sense": "smile-noun"}
@@ -657,7 +657,7 @@
       ],
       "words": [
         {"t": [0, 1], "es": "estrellas fugaces", "base": "shooting star", "sense": "meteor"},
-        {"t": [2, 3], "es": "por toda", "base": "all", "sense": "extent"},
+        {"t": [2, 3], "es": "por toda", "base": "all over", "sense": "everywhere"},
         {"t": [4], "es": "Gran Bretaña"}
       ]
     },
@@ -751,7 +751,7 @@
         {"t": [5, 6, 7, 8, 9, 10, 11, 12, 13], "es": "No has tenido noticias de tu hermana últimamente, ¿verdad?»."}
       ],
       "words": [
-        {"t": [0], "es": "eh", "base": "er", "sense": "hesitation"},
+        {"t": [0], "es": "eh", "base": "er", "sense": "hesitation", "note": "Interjección de duda; en EE. UU. suele escribirse *uh* ([[british-american]])."},
         {"t": [2], "es": "Petunia"},
         {"t": [3], "es": "querida", "base": "dear", "sense": "loved"},
         {"t": [5], "es": "tú"},
@@ -899,7 +899,7 @@
         {"t": [2], "es": "se preguntó", "base": "wonder", "sense": "ask-oneself"},
         {"t": [3], "es": "si"},
         {"t": [4], "es": "él"},
-        {"t": [5], "es": "se atrevía", "base": "dare", "sense": "be-brave"},
+        {"t": [5], "es": "se atrevía", "base": "dare", "sense": "be-brave", "note": "Aquí, *dared tell* equivale a *dared to tell*: con *dare* puede faltar *to*."},
         {"t": [6], "es": "decir", "base": "tell", "sense": "inform"},
         {"t": [7], "es": "a ella"},
         {"t": [8, 9], "es": "había oído", "base": "hear", "sense": "sound"},
@@ -994,10 +994,7 @@
         {"t": [0], "es": "feo, desagradable", "base": "nasty", "sense": "unpleasant"},
         {"t": [1], "es": "vulgar", "base": "common", "sense": "vulgar", "note": "Aquí expresa desprecio social: no solo que sea un nombre frecuente."},
         {"t": [2], "es": "nombre", "base": "name", "sense": "identity"},
-        {"t": [3], "es": "si"},
-        {"t": [4], "es": "tú"},
-        {"t": [5], "es": "preguntas", "base": "ask", "sense": "question"},
-        {"t": [6], "es": "a mí"}
+        {"t": [3, 4, 5, 6], "es": "en mi opinión", "base": "if you ask me", "sense": "opinion", "note": "Fórmula para dar una opinión, aunque nadie la haya pedido."}
       ]
     },
     {
@@ -1065,7 +1062,7 @@
         {"t": [14], "es": "y"},
         {"t": [15], "es": "miró con atención", "base": "peer", "sense": "look"},
         {"t": [16], "es": "abajo", "base": "down", "sense": "direction"},
-        {"t": [17, 18, 20], "es": "hacia el jardín", "base": "garden", "sense": "plants"},
+        {"t": [17, 18, 20], "es": "hacia el jardín", "base": "garden", "sense": "plants", "note": "En británico, *front garden* es el jardín ante la casa; en EE. UU., suele decirse *front yard* ([[british-american]])."},
         {"t": [19], "es": "delantero", "base": "front", "sense": "forward"}
       ]
     },
@@ -1091,7 +1088,7 @@
         {"t": [0], "es": "él"},
         {"t": [1, 2], "es": "estaba mirando fijamente", "base": "stare", "sense": "look"},
         {"t": [3, 4, 5], "es": "por Privet Drive"},
-        {"t": [6, 7], "es": "como si", "base": "as if", "sense": "appearance"},
+        {"t": [6, 7], "es": "como si", "base": "as though", "sense": "appearance"},
         {"t": [8], "es": "él"},
         {"t": [9, 10, 11], "es": "estuviera esperando", "base": "wait for", "sense": "await", "note": "*Wait for* lleva *for* delante de lo que se espera."},
         {"t": [12], "es": "algo"}
@@ -1130,7 +1127,7 @@
       "words": [
         {"t": [0], "es": "si"},
         {"t": [1], "es": "eso"},
-        {"t": [2], "es": "lo tenía", "base": "do", "sense": "perform", "note": "*Did* sustituye a *had anything to do with the Potters*, sin repetir toda la frase ([[ellipsis]])."},
+        {"t": [2], "es": "lo tenía", "note": "*Did* sustituye a *had anything to do with the Potters*, sin repetir toda la frase ([[ellipsis]])."},
         {"t": [4], "es": "si"},
         {"t": [5], "es": "(no se traduce)"},
         {"t": [6, 7], "es": "se sabía", "base": "get out", "sense": "become-known", "note": "*Get out*, dicho de una noticia, significa que llega a saberse ([[phrasal-verbs]])."},
@@ -1223,7 +1220,7 @@
         {"t": [6], "es": "él"},
         {"t": [7], "es": "y"},
         {"t": [8], "es": "Petunia"},
-        {"t": [9, 10], "es": "pensaban de", "base": "think about", "sense": "ponder"},
+        {"t": [9, 10], "es": "pensaban de", "base": "think about", "sense": "opinion"},
         {"t": [11], "es": "ellos"},
         {"t": [12], "es": "y"},
         {"t": [13, 14], "es": "su clase", "base": "kind", "sense": "type"},
@@ -1354,7 +1351,7 @@
         {"t": [6], "es": "antes de que", "base": "before", "sense": "earlier-than"},
         {"t": [7, 8], "es": "el gato", "base": "cat", "sense": "animal"},
         {"t": [9], "es": "se movió", "base": "move", "sense": "motion"},
-        {"t": [10, 11], "es": "en absoluto", "base": "at all", "sense": "any-degree"}
+        {"t": [10, 11], "es": "siquiera", "base": "at all", "sense": "whatsoever"}
       ]
     },
     {
@@ -1376,7 +1373,7 @@
         {"t": [15], "es": "silenciosamente", "base": "silently", "sense": "quietly"},
         {"t": [16, 17, 18], "es": "habrías pensado", "base": "think", "sense": "believe", "note": "*You* es general: lo habría pensado cualquiera que lo viera ([[generic-you]])."},
         {"t": [19, 21, 22, 23], "es": "había salido de repente de", "base": "pop", "sense": "quick-movement", "note": "*Popped out of* presenta una aparición repentina; aquí no implica un ruido."},
-        {"t": [20], "es": "justo, acababa de", "base": "just", "sense": "recently"},
+        {"t": [20], "es": "acababa de", "base": "just", "sense": "recently"},
         {"t": [24, 25], "es": "el suelo", "base": "ground", "sense": "surface"}
       ]
     },
@@ -1443,7 +1440,7 @@
       "line": [
         {"t": [0, 1, 2, 3, 4, 5, 6, 7], "es": "Llevaba una túnica larga, una capa morada"},
         {"t": [8, 9, 10, 11], "es": "que arrastraba por el suelo"},
-        {"t": [12, 13, 14, 15], "es": "y botas de tacón con hebillas."}
+        {"t": [12, 13, 14, 15], "es": "y botas de tacón alto con hebillas."}
       ],
       "words": [
         {"t": [0], "es": "él"},
@@ -1486,7 +1483,7 @@
         {"t": [16], "es": "larga", "base": "long", "sense": "length"},
         {"t": [17], "es": "y"},
         {"t": [18], "es": "torcida", "base": "crooked", "sense": "bent"},
-        {"t": [19, 20], "es": "como si", "base": "as if", "sense": "appearance"},
+        {"t": [19, 20], "es": "como si", "base": "as though", "sense": "appearance"},
         {"t": [21], "es": "ella"},
         {"t": [22, 23, 24], "es": "hubiera sido rota", "base": "break", "sense": "damage"},
         {"t": [25, 26], "es": "al menos", "base": "at least", "sense": "minimum"},
