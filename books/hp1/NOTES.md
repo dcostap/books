@@ -78,7 +78,7 @@ Each of the three jobs completed two fresh review passes. The complete chapter t
 
 The final answers contain 576 chunks, 2,355 popup units, 1,635 dictionary links, 247 notes, and 159 concept links. They use 740 dictionary cards and 46 concepts. Chapter preparation added 343 cards and eight concepts. The dictionary contained 1,508 cards at completion.
 
-Chapter 2 keeps provisional «alacena» for Harry's cupboard. Confirm «alacena» or «armario» with the user before later chapters. The generic dictionary uses «armario».
+The user approved «alacena» for Harry's cupboard. Keep this term in later chapters. The generic dictionary uses «armario».
 
 ### Voice
 
