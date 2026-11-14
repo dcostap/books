@@ -125,7 +125,7 @@
       ],
       "words": [
         {"t": [0, 1], "es": "¿y qué me dices de…?", "base": "what about", "sense": "suggestion"},
-        {"t": [2], "es": "cómo se llama", "note": "*What’s-her-name* sustituye al nombre de una mujer que no recuerdas. Para un hombre, *what’s-his-name*."},
+        {"t": [2], "es": "cómo se llama", "base": "what's-her-name", "sense": "forgotten-name", "note": "*What’s-her-name* sustituye al nombre de una mujer que no recuerdas. Para un hombre, *what’s-his-name*."},
         {"t": [3, 4], "es": "tu amiga", "base": "friend", "sense": "person"},
         {"t": [6], "es": "Yvonne"}
       ]},
@@ -194,7 +194,7 @@
         {"t": [3], "es": "y"},
         {"t": [4], "es": "encontrar", "base": "find", "sense": "discover"},
         {"t": [5, 6], "es": "la casa", "base": "house", "sense": "building"},
-        {"t": [7, 8], "es": "en ruinas", "base": "ruin", "sense": "remains"},
+        {"t": [7, 8], "es": "en ruinas", "base": "in ruins", "sense": "destroyed"},
         {"t": [9], "es": "ella"},
         {"t": [10], "es": "gruñó", "base": "snarl", "sense": "speak"}
       ]},
@@ -386,7 +386,7 @@
         {"t": [20, 22], "es": "el amigo de Dudley", "base": "friend", "sense": "person"},
         {"t": [21], "es": "mejor", "base": "good", "sense": "quality"},
         {"t": [23, 24], "es": "Piers Polkiss"},
-        {"t": [25, 26], "es": "entró andando", "base": "walk in", "sense": "enter"},
+        {"t": [25, 26], "es": "entró andando", "base": "walk", "sense": "move", "note": "*In* indica la dirección hacia dentro; *walk* expresa que entra andando."},
         {"t": [27, 28, 29], "es": "con su madre", "base": "mother", "sense": "parent"}
       ]},
     {"id": 109,
@@ -596,7 +596,7 @@
         {"t": [3, 4], "es": "cansada de", "base": "tired", "sense": "fed-up"},
         {"t": [5], "es": "Harry"},
         {"t": [6, 7], "es": "volviendo", "base": "come back", "sense": "return"},
-        {"t": [8, 9, 10], "es": "de la peluquería", "base": "barber's", "sense": "shop", "note": "*Barber’s* nombra el local del barbero; el *’s* permite omitir *shop* ([[possessive-s]])."},
+        {"t": [8, 9, 10], "es": "de la peluquería", "base": "barber", "sense": "hairdresser", "note": "*Barber’s* equivale a *barber’s shop*: se omite *shop*, «local» ([[possessive-s]]; [[ellipsis]])."},
         {"t": [11], "es": "pareciendo", "base": "look", "sense": "seem"},
         {"t": [12, 13], "es": "como si", "base": "as though", "sense": "appearance"},
         {"t": [14], "es": "él"},
@@ -673,7 +673,7 @@
         {"t": [16], "es": "antes de que", "base": "before", "sense": "earlier-than"},
         {"t": [17], "es": "tía", "base": "aunt", "sense": "family"},
         {"t": [18], "es": "Petunia"},
-        {"t": [19, 20, 22], "es": "había cortado al rape", "base": "shear off", "sense": "cut"},
+        {"t": [19, 20, 22], "es": "había cortado", "base": "shear", "sense": "cut", "note": "La partícula *off* indica separación: quita el pelo al cortarlo ([[phrasal-verbs]])."},
         {"t": [21], "es": "lo"}
       ]},
     {"id": 122,
@@ -688,7 +688,7 @@
         {"t": [4, 5], "es": "una semana", "base": "week", "sense": "time"},
         {"t": [6, 7, 8], "es": "en su alacena", "base": "cupboard", "sense": "storage"},
         {"t": [9, 10], "es": "por esto"},
-        {"t": [11, 12], "es": "aunque", "base": "even though", "sense": "concession"},
+        {"t": [11, 12], "es": "aunque", "base": "though", "sense": "although", "note": "Aquí *even* da énfasis a *though*: «aunque», a pesar de lo que cabría esperar."},
         {"t": [13], "es": "él"},
         {"t": [14, 15], "es": "había intentado", "base": "try", "sense": "attempt"},
         {"t": [16, 17], "es": "explicar", "base": "explain", "sense": "clarify"},
@@ -697,7 +697,7 @@
         {"t": [20, 21], "es": "no podía explicar", "base": "explain", "sense": "clarify"},
         {"t": [22], "es": "cómo", "base": "how", "sense": "manner"},
         {"t": [23], "es": "(el pelo)"},
-        {"t": [24, 25, 26], "es": "había vuelto a crecer", "base": "grow back", "sense": "regrow"},
+        {"t": [24, 25, 26], "es": "había vuelto a crecer", "base": "grow", "sense": "increase", "note": "*Back* indica vuelta al estado anterior: el pelo vuelve a crecer."},
         {"t": [27], "es": "tan", "base": "so", "sense": "degree"},
         {"t": [28], "es": "deprisa", "base": "quickly", "sense": "speed"}
       ]},
@@ -744,8 +744,7 @@
         {"t": [17], "es": "finalmente", "base": "finally", "sense": "at-last"},
         {"t": [18], "es": "(el jersey)"},
         {"t": [19, 20, 21], "es": "podría haberle servido", "base": "fit", "sense": "size", "note": "*Might have* + participio expresa una posibilidad imaginada en el pasado ([[modal-perfect]])."},
-        {"t": [22, 24], "es": "a una marioneta", "base": "puppet", "sense": "toy"},
-        {"t": [23], "es": "de guante", "base": "glove", "sense": "clothing"},
+        {"t": [22, 23, 24], "es": "a una marioneta de guante", "base": "glove puppet", "sense": "toy"},
         {"t": [25], "es": "pero"},
         {"t": [26], "es": "desde luego", "base": "certainly", "sense": "surely"},
         {"t": [27, 28], "es": "no le serviría", "base": "fit", "sense": "size"},
@@ -861,7 +860,7 @@
         {"t": [3, 4], "es": "el viento", "base": "wind", "sense": "air"},
         {"t": [5, 6, 7], "es": "debía de haber atrapado", "base": "catch", "sense": "seize", "note": "*Must have* + participio es una deducción pasada, no un hecho confirmado ([[modal-perfect]])."},
         {"t": [8], "es": "lo"},
-        {"t": [9, 10], "es": "en pleno salto", "base": "mid-jump", "sense": "during-jump"}
+        {"t": [9, 10], "es": "en pleno salto", "note": "*Mid-* significa «en medio de»; con una acción, como *jump*, equivale a «en pleno»."}
       ]},
     {"id": 131,
       "line": [
@@ -1096,7 +1095,7 @@
         {"t": [21, 22, 23], "es": "de una manera", "base": "way", "sense": "method"},
         {"t": [24], "es": "(esa cosa)"},
         {"t": [25], "es": "no debería", "base": "should", "sense": "duty", "note": "Después de *shouldn’t* se sobreentiende *act*, «comportarse» ([[ellipsis]])."},
-        {"t": [26, 27, 28], "es": "sin importar si", "base": "no matter if", "sense": "regardless"},
+        {"t": [26, 27, 28], "es": "sin importar si", "base": "no matter", "sense": "regardless"},
         {"t": [29], "es": "(eso)"},
         {"t": [30], "es": "fuera", "base": "be", "sense": "identity"},
         {"t": [31, 32, 33], "es": "en un sueño", "base": "dream", "sense": "sleep"},
@@ -1158,7 +1157,7 @@
         {"t": [26], "es": "quería", "base": "want", "sense": "desire"},
         {"t": [27], "es": "antes de que", "base": "before", "sense": "earlier-than"},
         {"t": [28], "es": "ellos"},
-        {"t": [29, 30, 32], "es": "pudieran llevarse deprisa", "base": "hurry away", "sense": "remove"},
+        {"t": [29, 30, 32], "es": "pudieran alejar deprisa", "base": "hurry", "sense": "hasten", "note": "*Hurry* con una persona significa hacer que se mueva deprisa; *away* indica alejamiento."},
         {"t": [31], "es": "lo, a él"},
         {"t": [33], "es": "ellos"},
         {"t": [34], "es": "compraron", "base": "buy", "sense": "purchase"},
