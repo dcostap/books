@@ -1454,7 +1454,7 @@
       ],
       "words": [
         {"t": [0], "es": "Dumbledore"},
-        {"t": [1], "es": "dio", "base": "give", "sense": "utter"},
+        {"t": [1], "es": "dio", "base": "give", "sense": "action"},
         {"t": [2, 4], "es": "un sorbido", "base": "sniff", "sense": "inhalation"},
         {"t": [3], "es": "gran", "base": "great", "sense": "large"},
         {"t": [5], "es": "mientras"},

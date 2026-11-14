@@ -833,7 +833,7 @@
         {"t": [4], "es": "de pelo enmarañado", "base": "shaggy", "sense": "untidy"},
         {"t": [6, 7], "es": "sobre Harry"},
         {"t": [8], "es": "y"},
-        {"t": [9], "es": "dio", "base": "give", "sense": "transfer"},
+        {"t": [9], "es": "dio", "base": "give", "sense": "action"},
         {"t": [10], "es": "a él"},
         {"t": [11], "es": "lo que", "base": "what", "sense": "thing"},
         {"t": [12, 13, 14], "es": "debió de haber sido", "base": "be", "sense": "identity", "note": "*Must have* + participio expresa una deducción sobre el pasado ([[modal-perfect]])."},
