@@ -9,6 +9,7 @@
   "source": { "pdf": "source/book.pdf", "end": "J. K. (JOANNE KATHLEEN) ROWLING" },
   "prompt": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal. Dumbledore, Professor McGonagall, Hagrid, Voldemort, Muggles, Grunnings, Dudley, Petunia, Vernon.",
   "chapters": [
-    { "title": "The Boy Who Lived", "audio": "audio/01-the-boy-who-lived.webm" }
+    { "title": "The Boy Who Lived", "audio": "audio/01-the-boy-who-lived.webm" },
+    { "title": "The Vanishing Glass", "audio": "audio/02-the-vanishing-glass.webm" }
   ]
 }

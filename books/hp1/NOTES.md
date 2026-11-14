@@ -19,6 +19,15 @@ ffmpeg -hide_banner -nostdin -n -i audio/01-the-boy-who-lived.mp3 -map 0:a:0 -vn
 
 The WebM is 6,350,102 bytes, compared with 30,606,497 bytes for the source MP3. Duration remains about 31 minutes 53 seconds.
 
+### Chapter 2 preparation
+
+- English text: `02/text.md`, from physical PDF pages 21–29. It matches the extracted page text, apart from whitespace and hyphenation.
+- Original audio: `audio/stash/02-the-vanishing-glass.mp3`. Keep it unchanged.
+- Site audio source: `audio/02-the-vanishing-glass.webm`, encoded directly as mono Opus at 24 kbps and 48 kHz, without cuts.
+- Duration: 1334.099592 seconds in the source; 1334.095 seconds in WebM.
+- Chapter 2 needs its own initial transcription and alignment. Do not retime chapter 1.
+- Translation preparation: 231 entries and 3,469 tokens across three jobs. No chapter 2 picture is currently assigned.
+
 ## Pictures
 
 Read [ILLUSTRATIONS.md](ILLUSTRATIONS.md) before preparing another picture. It contains the prompt, source record, processing commands, theme rules, and checks.
@@ -51,6 +60,7 @@ The user supplied a Spanish EPUB for future drafting. The orchestrator provides 
 - Title-page revision: ePub r1.8, dated 15 December 2017. The OPF version field says 1.7.
 - The supplied filename identifies Salamandra and 2014. The internal textual credits do not verify that exact printed edition.
 - Chapter 1 location: `OEBPS/Text/cap001.xhtml`.
+- Chapter 2 location: `OEBPS/Text/cap002.xhtml`, titled «El vidrio que se desvaneció». Its 115 extracted blocks include all chapter body text.
 
 Chapter 1 was completed independently at `2305244`, before comparing it with this EPUB. That comparison made no changes to the chapter.
 
