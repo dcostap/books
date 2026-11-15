@@ -39,11 +39,11 @@ window.addEventListener("appinstalled", () => {
 });
 standalone.addEventListener("change", updateInstallButton);
 
-// Use a new version when the user cannot notice the reload: before their first touch, or while the app is
-// hidden. Never during playback. Else the new version waits until all app windows close.
+// Use a new version when the user cannot notice the reload: while the app is hidden, or after it opens and
+// before the first touch. Never during playback. Check at each hide and show, because phones resume the app.
 if ("serviceWorker" in navigator && window.isSecureContext) {
   let touched = false;
-  for (const type of ["pointerdown", "keydown"]) window.addEventListener(type, () => (touched = true), { capture: true, once: true });
+  for (const type of ["pointerdown", "keydown"]) window.addEventListener(type, () => (touched = true), { capture: true });
   const register = async () => {
     try {
       const registration = await navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" });
@@ -62,16 +62,14 @@ if ("serviceWorker" in navigator && window.isSecureContext) {
         worker?.addEventListener("statechange", () => worker.state === "installed" && apply());
       });
       audio.addEventListener("pause", apply);
-      document.addEventListener("visibilitychange", apply);
-      apply();
-      let checked = Date.now();
-      const check = () => {
-        if (document.hidden || Date.now() - checked < 60 * 60 * 1000) return;
-        checked = Date.now();
-        registration.update().catch(() => {});
-      };
-      document.addEventListener("visibilitychange", check);
+      const check = () => registration.update().catch(() => {});
+      document.addEventListener("visibilitychange", () => {
+        if (!document.hidden) touched = false;
+        apply();
+        check();
+      });
       window.addEventListener("online", check);
+      apply();
     } catch {
       // Private mode or browser policy can block workers. Keep the web app usable.
     }

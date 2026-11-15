@@ -12,7 +12,7 @@ After the first online visit, the library and saved words can open offline.
 Previously loaded chapter text and Spanish help can also open offline. **Audio still needs an internet connection.**
 The browser can remove cached files when device storage is low. Keep a backup of saved words.
 
-Updates install when all app windows and browser tabs for the app close. Updates do not interrupt playback.
+The app checks for updates each time it opens or goes to the background. It reloads to a new version while it is hidden, or after it opens and before the first touch. Else the update waits until all app windows and browser tabs for the app close. Updates do not interrupt playback.
 GitHub Actions runs `python tools/prepare_pwa.py` before publishing. Run it for other deployments or local cache tests.
 It sets the cache version from the site files. No manual version change is needed.
 Keep `site/icons/icon-1024.png` as the full-size icon master. The other icons include separate Android maskable artwork.
