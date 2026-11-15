@@ -109,6 +109,110 @@ test("long grammar explanations keep their heading visible", () => {
   }
 });
 
+test("popup placement uses the tapped row rather than the sentence or distant selected words", () => {
+  const source = appSource.match(/^  function placePop\(pin = false\) \{[\s\S]*?^  \}/m)[0];
+  for (const narrow of [true, false]) {
+    let rowReads = 0;
+    const pop = { dataset: { word: "70" }, style: {}, offsetHeight: 300 };
+    const place = vm.runInNewContext(`${source}\nplacePop`, {
+      pop,
+      sheet: { matches: narrow },
+      header: { getBoundingClientRect: () => ({ bottom: 56 }) },
+      player: { getBoundingClientRect: () => ({ top: 780 }) },
+      playButton: { getBoundingClientRect: () => ({ top: 750 }) },
+      window: { scrollY: 200 },
+      popupRow: (i) => { assert.equal(i, 70); rowReads++; return { top: 200, bottom: 280 }; },
+      words: Array.from({ length: 71 }, () => ({ sentence: 0 })),
+      sentences: [{ el: { getBoundingClientRect: () => ({ bottom: 1200 }) } }],
+      picked: [0, 70],
+      unitBox: (i) => ({ top: i === 0 ? -1000 : 200 }),
+    });
+    place();
+    assert.equal(pop.style.top, narrow ? "488px" : "68px");
+    assert.equal(pop.style.maxHeight, narrow ? "590px" : "700px");
+    assert.equal(rowReads, narrow ? 1 : 0);
+  }
+});
+
+test("bilingual popup rows include taller neighbouring translations, but not the next row", () => {
+  const source = appSource.match(/^  function popupRow\(i\) \{[\s\S]*?^  \}/m)[0];
+  const box = (top, bottom) => ({
+    getBoundingClientRect: () => ({ top, bottom }),
+    getClientRects: () => [{ top, bottom }],
+  });
+  const columns = [box(100, 150), box(100, 220), box(220, 310)];
+  const block = { querySelectorAll: () => elements };
+  const elements = [0, 0, 1, 2, null].map((n) => ({
+    ...box(110, 130),
+    closest: (selector) => selector === ".u" ? columns[n] ?? null : block,
+  }));
+  // An unwrapped dash on the next row extends one pixel above that row's column.
+  elements.push({ ...box(219, 248), closest: (selector) => selector === ".u" ? null : block });
+  const row = vm.runInNewContext(`${source}\npopupRow`, {
+    words: elements.map((el) => ({ el })), store: { settings: { gloss: true } },
+  });
+  for (const i of [0, 1, 2, 4]) {
+    assert.deepEqual({ ...row(i) }, { top: 100, bottom: 220 });
+  }
+  assert.deepEqual({ ...row(3) }, { top: 219, bottom: 310 });
+});
+
+test("pinned popups keep their row visible after reflow in either direction", () => {
+  const source = appSource.match(/^  function placePop\(pin = false\) \{[\s\S]*?^  \}/m)[0];
+  for (const [top, bottom, expected] of [[900, 980, 946], [-20, 60, 116], [100, 180, null]]) {
+    let scroll = null;
+    const place = vm.runInNewContext(`${source}\nplacePop`, {
+      pop: { dataset: { word: "0" }, style: {}, offsetHeight: 500 },
+      sheet: { matches: true },
+      header: { getBoundingClientRect: () => ({ bottom: 56 }) },
+      player: { getBoundingClientRect: () => ({ top: 780 }) },
+      playButton: { getBoundingClientRect: () => ({ top: 750 }) },
+      window: { scrollY: 200, scrollTo: (options) => { scroll = options.top; } },
+      popupRow: () => ({ top, bottom }),
+    });
+    place(true);
+    assert.equal(scroll, expected);
+  }
+});
+
+test("English popup rows ignore hidden translations and include neighbouring sentences on the same line", () => {
+  const source = appSource.match(/^  function popupRow\(i\) \{[\s\S]*?^  \}/m)[0];
+  const block = { querySelectorAll: () => elements };
+  const elements = [[100, 120], [100, 124], [124, 150]].map(([top, bottom]) => ({
+    getBoundingClientRect: () => ({ top, bottom }),
+    getClientRects: () => [{ top, bottom }],
+    closest: (selector) => {
+      assert.equal(selector, "p, h2, figcaption");
+      return block;
+    },
+  }));
+  const row = vm.runInNewContext(`${source}\npopupRow`, {
+    words: elements.map((el) => ({ el })), store: { settings: { gloss: false } },
+  });
+  assert.deepEqual({ ...row(0) }, { top: 100, bottom: 124 });
+  elements[0].getBoundingClientRect = () => ({ top: 100, bottom: 150 });
+  elements[0].getClientRects = () => [{ top: 100, bottom: 120 }, { top: 130, bottom: 150 }];
+  assert.deepEqual({ ...row(0) }, { top: 100, bottom: 150 });
+});
+
+test("only settings that change the text layout scroll an open popup into view", () => {
+  const source = appSource.match(/^  function changeSettings\(change\) \{[\s\S]*?^  \}/m)[0];
+  const pinned = [];
+  const change = vm.runInNewContext(`${source}\nchangeSettings`, {
+    store: { settings: { gloss: true, font: "serif", size: 1, rate: 1, theme: "paper" } },
+    follow: false,
+    firstVisibleWord: () => ({ getBoundingClientRect: () => ({ top: 100 }) }),
+    save() {}, applySettings() {}, showSettings() {},
+    window: { scrollY: 200, scrollTo() {} },
+    pop: { hidden: false },
+    placePop: (pin) => pinned.push(pin),
+  });
+  for (const [key, value] of [["gloss", false], ["font", "sans"], ["size", 1.1], ["rate", 1.5], ["theme", "night"]]) {
+    change((settings) => { settings[key] = value; });
+  }
+  assert.deepEqual(pinned, [true, true, true, false, false]);
+});
+
 test("sentence highlights keep the original case, spacing, and punctuation", () => {
   assert.equal(sentenceHTML("Eran perfectamente normales, gracias.", "perfectamente normales"),
     "Eran <mark>perfectamente normales</mark>, gracias.");

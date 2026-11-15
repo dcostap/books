@@ -122,7 +122,7 @@ const wordKey = (w) => `${w.book}/${w.chapter}/${w.at[0]}`;
 const savedAt = (book, chapter, i) => store.words.find((w) => w.book === book && w.chapter === chapter && w.at.includes(i));
 
 const systemDark = matchMedia("(prefers-color-scheme: dark)");
-const sheet = matchMedia("not all and (min-width: 68rem)"); // the word panel: under the sentence, else at the side (style.css)
+const sheet = matchMedia("not all and (min-width: 68rem)"); // the word panel: under the tapped row, else at the side (style.css)
 
 function applySettings() {
   const { theme, font, size } = store.settings, root = document.documentElement;
@@ -847,6 +847,7 @@ function showReader(book, chapter, target) {
 
   function changeSettings(change) {
     // Keep the same words at the same place on the screen when the text size or font changes.
+    const { gloss, font, size } = store.settings;
     const anchor = follow && words[current] ? words[current].el : firstVisibleWord();
     const before = anchor?.getBoundingClientRect().top;
     change(store.settings);
@@ -854,6 +855,7 @@ function showReader(book, chapter, target) {
     applySettings();
     showSettings();
     if (anchor) window.scrollTo(0, window.scrollY + anchor.getBoundingClientRect().top - before);
+    if (!pop.hidden) placePop(gloss !== store.settings.gloss || font !== store.settings.font || size !== store.settings.size);
   }
 
   function firstVisibleWord() {
@@ -868,7 +870,6 @@ function showReader(book, chapter, target) {
 
   on($(".gloss"), "click", () => {
     changeSettings((s) => (s.gloss = !s.gloss));
-    if (!pop.hidden) placePop();
   });
 
   on($(".rates"), "click", (e) => {
@@ -904,7 +905,7 @@ function showReader(book, chapter, target) {
   on(window, "scroll", updatePill, { passive: true });
   on(window, "resize", () => {
     updatePill();
-    if (!pop.hidden) placePop();
+    if (!pop.hidden) placePop(true);
   });
 
   // Word popup
@@ -928,7 +929,7 @@ function showReader(book, chapter, target) {
     play();
   });
   // A footnote opened or closed, or the text changed its size. The observer places the panel before the next paint;
-  // the toggle event comes a frame late. Under the sentence, the page also scrolls to make room.
+  // the toggle event comes a frame late. Under the tapped row, the page also scrolls to make room.
   const popObserver = new ResizeObserver(() => { if (!pop.hidden) placePop(); });
   popObserver.observe(pop);
   popObserver.observe(article);
@@ -1070,11 +1071,29 @@ function showReader(book, chapter, target) {
   }
 
   // The card is as tall as its content (style.css). On wide screens, it is in the margin, under the header.
-  // On narrower screens, it is in the page under the sentence, so it scrolls with the text. Pinned (pin), the page
-  // scrolls up when the card goes under the player, but never so far that the unit goes under the header. The card is
-  // never taller than that space.
-  // A word with its column (the Spanish under it)
-  const unitBox = (j) => (words[j].el.closest(".u") ?? words[j].el).getBoundingClientRect();
+  // On narrower screens, it sits below the tapped row and scrolls with the text.
+  // Keep that row above the card, including its Spanish. Later text can sit behind the card.
+  function popupRow(i) {
+    const word = words[i].el;
+    const column = (el) => store.settings.gloss ? el.closest(".u") ?? el : el;
+    const element = column(word), anchor = element.getBoundingClientRect();
+    const block = word.closest("p, h2, figcaption");
+    const elements = new Set([...block.querySelectorAll(".w")].map(column));
+    let top = anchor.top, bottom = anchor.bottom;
+    for (const el of elements) {
+      for (const rect of el.getClientRects()) {
+        // Columns align at their tops. Ignore a following row's one-pixel glyph overhang.
+        const sameRow = element !== word ? Math.abs(rect.top - anchor.top) < 2
+          : Math.min(rect.bottom, anchor.bottom) - Math.max(rect.top, anchor.top) > 1;
+        if (sameRow) {
+          top = Math.min(top, rect.top);
+          bottom = Math.max(bottom, rect.bottom);
+        }
+      }
+    }
+    return { top, bottom };
+  }
+
   function placePop(pin = false) {
     const gap = 8, top = header.getBoundingClientRect().bottom, bottom = player.getBoundingClientRect().top;
     if (!sheet.matches) {
@@ -1082,14 +1101,15 @@ function showReader(book, chapter, target) {
       pop.style.maxHeight = `${bottom - top - 24}px`;
       return;
     }
-    const unitTop = Math.min(...picked.map((j) => unitBox(j).top));
-    const below = sentences[words[pop.dataset.word].sentence].el.getBoundingClientRect().bottom + gap;
+    const row = popupRow(Number(pop.dataset.word));
+    const below = row.bottom + gap;
     const end = Math.min(bottom, playButton.getBoundingClientRect().top) - gap; // the play button rises
     pop.style.top = `${window.scrollY + below}px`;
-    pop.style.maxHeight = `${end - (top + gap) - (below - unitTop)}px`;
+    pop.style.maxHeight = `${Math.max(0, end - (top + gap) - (below - row.top))}px`;
     if (!pin) return;
-    const shift = Math.min(below + pop.offsetHeight - end, unitTop - top - gap);
-    if (shift > 1) window.scrollTo({ top: window.scrollY + shift, behavior: "smooth" });
+    const roomAbove = row.top - top - gap;
+    const shift = roomAbove < 0 ? roomAbove : Math.min(below + pop.offsetHeight - end, roomAbove);
+    if (roomAbove < -1 || shift > 1) window.scrollTo({ top: window.scrollY + shift, behavior: "smooth" });
   }
 
   function closePop() {

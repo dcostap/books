@@ -457,7 +457,7 @@ dialog form { text-align: right; }
   .pop[hidden] { opacity: 0; transform: translateX(0.75rem); }
   @starting-style { .pop { opacity: 0; transform: translateX(0.75rem); } }
 }
-/* Narrower screens: a card in the page under the sentence, as wide as the text. It scrolls with the text. */
+/* Narrower screens: a card below the tapped row, as wide as the text. It scrolls with the text. */
 @media not all and (min-width: 68rem) {
   .pop {
     position: absolute;
@@ -467,7 +467,7 @@ dialog form { text-align: right; }
     margin: 0 auto;
   }
   .pop-body { padding: 1rem 1rem 1.25rem; }
-  /* Room to scroll the last sentence up, so the card fits under it */
+  /* Room to scroll the last row up, so the card fits under it */
   #view:has(> .pop:not([hidden])) .text { padding-bottom: 100svh; }
   .pop:not([hidden]) ~ .player .pill { display: none; }
 }
