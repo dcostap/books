@@ -2285,6 +2285,14 @@
       }
     ]
   },
+  "bill": {
+    "senses": [
+      { "id": "payment", "es": "factura, cuenta", "ex": ["Please pay the bill.", "Paga la factura, por favor."] },
+      { "id": "law", "es": "proyecto de ley", "ex": ["Parliament debated the bill.", "El Parlamento debatió el proyecto de ley."] },
+      { "id": "banknote", "es": "billete", "ex": ["a ten-dollar bill", "un billete de diez dólares"] },
+      { "id": "beak", "es": "pico", "ex": ["a duck's flat bill", "el pico plano de un pato"] }
+    ]
+  },
   "bin": {
     "senses": [
       {
@@ -3896,6 +3904,9 @@
       }
     ]
   },
+  "candle": {
+    "senses": [{ "id": "light", "es": "vela", "ex": ["Light the candle.", "Enciende la vela."] }]
+  },
   "car": {
     "senses": [
       {
@@ -5387,6 +5398,13 @@
       }
     ]
   },
+  "come up to": {
+    "forms": { "past": "came up to", "participle": "come up to" },
+    "senses": [
+      { "id": "approach", "es": "acercarse a", "ex": ["She came up to me.", "Se acercó a mí."] },
+      { "id": "reach", "es": "llegar hasta", "ex": ["The water came up to my waist.", "El agua me llegaba hasta la cintura."] }
+    ]
+  },
   "come up with": {
     "forms": {
       "past": "came up with",
@@ -6179,6 +6197,13 @@
           "Suprime el último párrafo."
         ]
       }
+    ]
+  },
+  "cut into": {
+    "forms": { "past": "cut into", "participle": "cut into" },
+    "senses": [
+      { "id": "incise", "es": "hacer una incisión", "ex": ["Cut into the thickest part.", "Haz un corte en la parte más gruesa."] },
+      { "id": "reduce", "es": "reducir", "ex": ["Higher costs cut into profits.", "El aumento de los costes redujo los beneficios."] }
     ]
   },
   "cycle": {
@@ -8147,6 +8172,9 @@
       }
     ]
   },
+  "expensive": {
+    "senses": [{ "id": "costly", "es": "caro", "ex": ["These shoes are expensive.", "Estos zapatos son caros."] }]
+  },
   "expert": {
     "senses": [
       {
@@ -8822,6 +8850,15 @@
           "Poca gente sabía la respuesta."
         ]
       }
+    ]
+  },
+  "fight": {
+    "forms": { "past": "fought", "participle": "fought" },
+    "senses": [
+      { "id": "combat", "es": "pelearse", "ex": ["They fought outside.", "Se pelearon fuera."] },
+      { "id": "campaign", "es": "luchar", "ex": ["They fight for better pay.", "Luchan por cobrar más."] },
+      { "id": "quarrel", "es": "discutir", "ex": ["They fought about money again.", "Volvieron a discutir por dinero."] },
+      { "id": "noun", "es": "pelea", "ex": ["There was a fight outside.", "Hubo una pelea fuera."] }
     ]
   },
   "finally": {
@@ -10098,6 +10135,9 @@
       }
     ]
   },
+  "garden party": {
+    "senses": [{ "id": "social", "es": "fiesta en un jardín", "ex": ["They held a garden party.", "Celebraron una fiesta en un jardín."] }]
+  },
   "gardener": {
     "senses": [
       {
@@ -10654,6 +10694,10 @@
         ]
       }
     ]
+  },
+  "give back": {
+    "forms": { "past": "gave back", "participle": "given back" },
+    "senses": [{ "id": "return", "es": "devolver", "ex": ["Give back my pen.", "Devuélveme el bolígrafo."] }]
   },
   "glance": {
     "senses": [
@@ -12861,6 +12905,9 @@
         ]
       }
     ]
+  },
+  "hospital": {
+    "senses": [{ "id": "medical", "es": "hospital", "ex": ["She works at a hospital.", "Trabaja en un hospital."] }]
   },
   "hot": {
     "senses": [
@@ -16416,6 +16463,14 @@
       }
     ]
   },
+  "match": {
+    "senses": [
+      { "id": "fire", "es": "cerilla", "ex": ["Light a match.", "Enciende una cerilla."] },
+      { "id": "game", "es": "partido", "ex": ["We lost the match.", "Perdimos el partido."] },
+      { "id": "pair", "es": "hacer juego", "ex": ["Do these socks match?", "¿Hacen juego estos calcetines?"] },
+      { "id": "fit", "es": "coincidir", "ex": ["Their stories don't match.", "Sus versiones no coinciden."] }
+    ]
+  },
   "may": {
     "forms": {
       "past": "might"
@@ -19951,6 +20006,12 @@
       }
     ]
   },
+  "piece": {
+    "senses": [
+      { "id": "part", "es": "trozo, pieza", "ex": ["a piece of bread", "un trozo de pan"] },
+      { "id": "work", "es": "obra, pieza", "ex": ["a short piece of music", "una pieza musical breve"] }
+    ]
+  },
   "piercing": {
     "senses": [
       {
@@ -21124,6 +21185,10 @@
         ]
       }
     ]
+  },
+  "put away": {
+    "forms": { "past": "put away", "participle": "put away" },
+    "senses": [{ "id": "store", "es": "guardar", "ex": ["Put away your shoes.", "Guarda tus zapatos."] }]
   },
   "put back": {
     "forms": {
@@ -23800,6 +23865,10 @@
       }
     ]
   },
+  "send on": {
+    "forms": { "past": "sent on", "participle": "sent on" },
+    "senses": [{ "id": "forward", "es": "reenviar", "ex": ["Send my letters on.", "Reenvía mis cartas."] }]
+  },
   "sense": {
     "senses": [
       {
@@ -25312,6 +25381,9 @@
       }
     ]
   },
+  "slow-moving": {
+    "senses": [{ "id": "movement", "es": "de movimientos lentos", "ex": ["a slow-moving animal", "un animal de movimientos lentos"] }]
+  },
   "slowly": {
     "senses": [
       {
@@ -26052,6 +26124,10 @@
         ]
       }
     ]
+  },
+  "speak of": {
+    "forms": { "past": "spoke of", "participle": "spoken of" },
+    "senses": [{ "id": "mention", "es": "hablar de", "ex": ["She spoke of home.", "Habló de su hogar."] }]
   },
   "speak to": {
     "forms": {
@@ -26824,6 +26900,7 @@
     "forms": { "past": "stuck", "participle": "stuck" },
     "senses": [
       { "id": "wood", "es": "palo", "ex": ["The dog fetched a stick.", "El perro trajo un palo."] },
+      { "id": "walking", "es": "bastón", "ex": ["He walks with a stick.", "Anda con un bastón."] },
       { "id": "adhere", "es": "pegar", "ex": ["Stick it on the fridge.", "Pégalo en la nevera."] },
       { "id": "jam", "es": "atascarse", "ex": ["The front door sticks.", "La puerta principal se atasca."] },
       { "id": "insert", "es": "meter", "ex": ["She stuck her hand inside.", "Metió la mano dentro."] }
@@ -28114,6 +28191,10 @@
         ]
       }
     ]
+  },
+  "take a walk": {
+    "forms": { "past": "took a walk", "participle": "taken a walk" },
+    "senses": [{ "id": "stroll", "es": "dar un paseo", "ex": ["Let's take a short walk.", "Vamos a dar un paseo corto."] }]
   },
   "take away": {
     "forms": {
@@ -29722,6 +29803,9 @@
         ]
       }
     ]
+  },
+  "tuesday": {
+    "senses": [{ "id": "day", "es": "martes", "ex": ["Come on Tuesday.", "Ven el martes."] }]
   },
   "tuft": {
     "senses": [
