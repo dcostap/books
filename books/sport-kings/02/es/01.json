@@ -45,7 +45,9 @@
           "t": [
             2
           ],
-          "es": "lunes"
+          "es": "lunes",
+          "base": "monday",
+          "sense": "day"
         },
         {
           "t": [
@@ -216,7 +218,9 @@
             0,
             1
           ],
-          "es": "el lunes"
+          "es": "el lunes",
+          "base": "monday",
+          "sense": "day"
         },
         {
           "t": [
@@ -635,7 +639,7 @@
             7,
             8
           ],
-          "es": "era un curry de carne caliente."
+          "es": "era un curry de carne picante."
         }
       ],
       "words": [
@@ -678,9 +682,9 @@
           "t": [
             6
           ],
-          "es": "caliente",
+          "es": "picante",
           "base": "hot",
-          "sense": "temperature"
+          "sense": "spicy"
         },
         {
           "t": [
@@ -2729,7 +2733,7 @@
             19,
             20
           ],
-          "es": "para ganar",
+          "es": "a que gane",
           "base": "win",
           "sense": "victory",
           "note": "*On him to win* indica que apuestan a que gane el caballo."
@@ -3363,25 +3367,21 @@
         },
         {
           "t": [
-            8
+            8,
+            9
           ],
-          "es": "vino",
-          "base": "come",
-          "sense": "move"
+          "es": "salió",
+          "base": "come out",
+          "sense": "exit",
+          "note": "*Come out* indica salir de un lugar ([[phrasal-verbs]])."
         },
         {
           "t": [
-            9,
-            10
-          ],
-          "es": "fuera de"
-        },
-        {
-          "t": [
+            10,
             11,
             12
           ],
-          "es": "el edificio",
+          "es": "del edificio",
           "base": "building",
           "sense": "structure"
         },
@@ -6875,7 +6875,9 @@
             7,
             8
           ],
-          "es": "el martes"
+          "es": "el martes",
+          "base": "tuesday",
+          "sense": "day"
         },
         {
           "t": [
@@ -7277,7 +7279,7 @@
           ],
           "es": "contra el favorito",
           "base": "favourite",
-          "sense": "preferred",
+          "sense": "likely-winner",
           "note": "En una carrera, es quien tiene más posibilidades de ganar. Ortografía británica; en EE. UU., *favorite*."
         },
         {
@@ -7622,7 +7624,7 @@
           ],
           "es": "el favorito",
           "base": "favourite",
-          "sense": "preferred",
+          "sense": "likely-winner",
           "note": "Es uno de los caballos con más posibilidades de ganar. Ortografía británica; en EE. UU., *favorite*."
         },
         {
@@ -7728,7 +7730,9 @@
             9,
             10
           ],
-          "es": "el lunes"
+          "es": "el lunes",
+          "base": "monday",
+          "sense": "day"
         },
         {
           "t": [
@@ -8058,7 +8062,7 @@
             4,
             5
           ],
-          "es": "entró en",
+          "es": "fue a parar a",
           "base": "get into",
           "sense": "enter"
         },

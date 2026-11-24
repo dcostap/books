@@ -44,9 +44,9 @@
   "some-any": {
     "name": "*some* y *any*",
     "en": "some and any",
-    "text": "Los dos indican una cantidad sin precisar. *Some* va en frases afirmativas y cuando ofreces algo; *any*, en preguntas y negaciones. A menudo no se traducen.",
-    "examples": [["I’ve got some money.", "Tengo algo de dinero."], ["Have you got any tea?", "¿Tienes té?"], ["There isn’t any milk.", "No hay leche."]],
-    "wrong": [["Have you got some tea?", "Have you got any tea?"], ["There isn’t some milk.", "There isn’t any milk."]]
+    "text": "Los dos indican una cantidad sin precisar. *Some* es habitual en afirmaciones, ofrecimientos y peticiones. *Any* es habitual en preguntas neutras y negaciones. A menudo no se traducen.",
+    "examples": [["I’ve got some money.", "Tengo algo de dinero."], ["Have you got any tea?", "¿Tienes té?"], ["Could I have some tea?", "¿Me pones un poco de té?"], ["There isn’t any milk.", "No hay leche."]],
+    "wrong": [["There isn’t some milk.", "There isn’t any milk."]]
   },
   "phrasal-verbs": {
     "name": "*phrasal verbs*",

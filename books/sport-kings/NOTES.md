@@ -59,4 +59,6 @@ No Spanish translation of the Bassett edition was found. The local reference is 
 
 Review these terms before translation: `stables` → *cuadras*, `stable boy` → *mozo de cuadra*, `trainer` → *entrenador*, `moor` → *páramo*, `horse track` → *huella*, `horseshoe` → *herradura*. Use *Silver Blaze* for the name, not the reference title *Estrella de plata*. The graded English says *Mr Ross*, not *Colonel Ross*.
 
+In chapter 2, Simpson uses *tú* with Edith and Ned. Ned uses *usted* with Simpson. The Strakers use *tú* with each other.
+
 Do not explain a clue before the story does. In particular, do not assign motives or explain the dog, sheep or items in the trainer’s pockets early.
