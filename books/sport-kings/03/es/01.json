@@ -232,7 +232,9 @@
                     "t": [
                         0
                     ],
-                    "es": "bueno"
+                    "es": "bueno",
+                    "base": "so",
+                    "sense": "discourse"
                 },
                 {
                     "t": [
@@ -2782,8 +2784,8 @@
                         7
                     ],
                     "es": "el martes",
-                    "base": "Tuesday",
-                    "sense": "weekday",
+                    "base": "tuesday",
+                    "sense": "day",
                     "note": "Los días llevan mayúscula en inglés. *On* introduce el día."
                 },
                 {
@@ -3617,7 +3619,7 @@
                     ],
                     "es": "el favorito",
                     "base": "favourite",
-                    "sense": "preferred",
+                    "sense": "likely-winner",
                     "note": "En una carrera, es el caballo con más opciones de ganar. En EE. UU. se escribe *favorite* ([[british-american]])."
                 },
                 {
@@ -4726,7 +4728,7 @@
                         7,
                         8
                     ],
-                    "es": "para hacer incisiones en un ojo."
+                    "es": "cuando hacen una incisión en un ojo."
                 }
             ],
             "words": [
@@ -6378,7 +6380,8 @@
                     ],
                     "es": "alguna noticia",
                     "base": "news",
-                    "sense": "information"
+                    "sense": "information",
+                    "note": "*Any* pregunta por una cantidad sin precisar ([[some-any]]). *News* no tiene plural ([[uncountable]])."
                 },
                 {
                     "t": [
@@ -9545,21 +9548,14 @@
                         3,
                         4,
                         5,
-                        6
-                    ],
-                    "es": "vamos a dar",
-                    "base": "take",
-                    "sense": "activity",
-                    "note": "*Take a walk* es «dar un paseo». *Are going to* anuncia una intención ([[going-to-future]])."
-                },
-                {
-                    "t": [
+                        6,
                         7,
                         9
                     ],
-                    "es": "un paseo",
-                    "base": "walk",
-                    "sense": "outing"
+                    "es": "vamos a dar un paseo",
+                    "base": "take a walk",
+                    "sense": "stroll",
+                    "note": "*Take a walk* es «dar un paseo». *Are going to* anuncia una intención ([[going-to-future]])."
                 },
                 {
                     "t": [
