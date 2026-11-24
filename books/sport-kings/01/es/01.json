@@ -1036,7 +1036,8 @@
           ],
           "es": "desayuno",
           "base": "breakfast",
-          "sense": "meal"
+          "sense": "meal",
+          "note": "*Breakfast* modifica a *table*: mesa del desayuno ([[noun-as-adjective]])."
         }
       ]
     },
@@ -2325,7 +2326,8 @@
           ],
           "es": "mediodía",
           "base": "midday",
-          "sense": "time"
+          "sense": "time",
+          "note": "*Midday* modifica a *newspapers*: periódicos del mediodía ([[noun-as-adjective]])."
         },
         {
           "t": [
@@ -6015,7 +6017,8 @@
           ],
           "es": "sin hijos",
           "base": "child",
-          "sense": "offspring"
+          "sense": "offspring",
+          "note": "*No* delante de un nombre expresa una cantidad de cero. No se añade *not* ([[negative-words]])."
         },
         {
           "t": [
@@ -6413,7 +6416,8 @@
           ],
           "es": "sin casas",
           "base": "house",
-          "sense": "building"
+          "sense": "building",
+          "note": "*No* delante de un nombre ya niega: no necesita *not* ([[negative-words]])."
         },
         {
           "t": [
