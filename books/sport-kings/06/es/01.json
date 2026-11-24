@@ -365,7 +365,7 @@
             12,
             13
           ],
-          "es": "del picante curry de carne."
+          "es": "del curry de carne picante."
         }
       ],
       "words": [
@@ -3411,7 +3411,7 @@
             9,
             10
           ],
-          "es": "un cuchillo para operar los ojos,"
+          "es": "un bisturí para operar los ojos,"
         },
         {
           "t": [
@@ -3445,9 +3445,9 @@
           "t": [
             3
           ],
-          "es": "dijo, contó",
+          "es": "dijo",
           "base": "tell",
-          "sense": "narrate"
+          "sense": "inform"
         },
         {
           "t": [
@@ -3481,7 +3481,7 @@
             9
           ],
           "es": "ojo",
-          "note": "*Eye* describe para qué sirve el cuchillo: para operar los ojos ([[noun-as-adjective]]).",
+          "note": "Aquí, *eye knife* es un bisturí para operar los ojos. *Eye* indica su uso ([[noun-as-adjective]]).",
           "base": "eye",
           "sense": "organ"
         },
@@ -4554,7 +4554,7 @@
             2,
             3
           ],
-          "es": "«Y descubrí más cosas"
+          "es": "«Y también descubrí más cosas"
         },
         {
           "t": [
@@ -4594,7 +4594,7 @@
           ],
           "es": "más",
           "base": "more",
-          "sense": "degree"
+          "sense": "quantity"
         },
         {
           "t": [
@@ -5323,7 +5323,7 @@
             1
           ],
           "es": "lleva",
-          "note": "Holmes usa el presente para contar una posible secuencia de hechos pasados.",
+          "note": "Holmes usa el presente histórico para contar una posible secuencia de hechos pasados ([[historical-present]]).",
           "base": "take",
           "sense": "carry"
         },
@@ -5764,7 +5764,7 @@
           ],
           "es": "mal",
           "base": "wrong",
-          "sense": "incorrect"
+          "sense": "problem"
         }
       ]
     },
@@ -7022,7 +7022,7 @@
             3,
             4
           ],
-          "es": "«¿Fue a la modista"
+          "es": "«¿Fue a aquella modista"
         },
         {
           "t": [
@@ -7727,7 +7727,7 @@
           ],
           "es": "más",
           "base": "more",
-          "sense": "degree"
+          "sense": "quantity"
         },
         {
           "t": [
@@ -8514,7 +8514,7 @@
             25,
             26
           ],
-          "es": "del sur",
+          "es": "en el sur",
           "base": "south",
           "sense": "direction"
         },
@@ -8554,7 +8554,7 @@
           ],
           "es": "más",
           "base": "more",
-          "sense": "degree"
+          "sense": "quantity"
         },
         {
           "t": [

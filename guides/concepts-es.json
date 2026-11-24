@@ -307,6 +307,12 @@
     "text": "*For* puede introducir quién hace la acción de un infinitivo con *to*. En español suele corresponder a «que» con subjuntivo.",
     "examples": [["It’s best for you to wait.", "Lo mejor es que esperes."], ["There’s work for us to do.", "Tenemos trabajo que hacer."]]
   },
+  "historical-present": {
+    "name": "presente histórico",
+    "en": "historical present",
+    "text": "Al contar hechos pasados, el inglés puede usar el presente para hacer la escena más viva. No significa que ocurra ahora.",
+    "examples": [["So I open the door and see him.", "Entonces abro la puerta y lo veo."], ["Suddenly, the lights go out.", "De repente se apagan las luces."]]
+  },
   "what-exclamations": {
     "name": "exclamaciones con *what*",
     "en": "exclamations with what",
