@@ -127,8 +127,8 @@
   "dummy-subject": {
     "name": "sujeto obligatorio",
     "en": "dummy subject (it, there)",
-    "text": "El inglés suele expresar el sujeto, a diferencia del español. Para hablar del tiempo o de la hora se usa *it*, y para decir que algo existe se usa *there*. En esos casos, no se traducen.",
-    "examples": [["It’s raining.", "Llueve."], ["It’s late.", "Es tarde."], ["There’s a man at the door.", "Hay un hombre en la puerta."]],
+    "text": "El inglés suele expresar el sujeto. Se usa *it* para hablar del tiempo, de la hora o para dejar el infinitivo para después del adjetivo: *It’s easy to change*. Se usa *there* para decir que algo existe. En estos casos, no se traducen.",
+    "examples": [["It’s raining.", "Llueve."], ["It’s late.", "Es tarde."], ["It’s easy to change.", "Es fácil cambiarlo."], ["There’s a man at the door.", "Hay un hombre en la puerta."]],
     "wrong": [["Is raining.", "It’s raining."], ["Is a man at the door.", "There’s a man at the door."]]
   },
   "linking-verbs": {
@@ -286,8 +286,8 @@
   "lets": {
     "name": "propuestas con *let’s*",
     "en": "suggestions with let’s",
-    "text": "*Let’s* es la forma corta de *let us*. Con un verbo en forma base, propone hacer algo juntos.",
-    "examples": [["Let’s go.", "Vamos."], ["Let’s read it.", "Leámoslo."]]
+    "text": "*Let’s* es la forma corta de *let us*. Con un verbo en forma base, propone hacer algo juntos. *Let’s say* también puede introducir una suposición.",
+    "examples": [["Let’s go.", "Vamos."], ["Let’s read it.", "Leámoslo."], ["Let’s say it rains.", "Supongamos que llueve."]]
   },
   "for-infinitive": {
     "name": "*for* + persona + infinitivo",

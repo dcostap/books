@@ -42,7 +42,8 @@
                     ],
                     "es": "buscando",
                     "base": "look for",
-                    "sense": "search"
+                    "sense": "search",
+                    "note": "No confundas *look for*, «buscar», con *look at*, «mirar». La preposición cambia el significado."
                 },
                 {
                     "t": [
@@ -551,7 +552,7 @@
                     "es": "vamos a",
                     "base": "let",
                     "sense": "suggest",
-                    "note": "*Let's say that* introduce una suposición: «supongamos que»."
+                    "note": "*Let's say that* propone imaginar algo: «supongamos que» ([[lets]])."
                 },
                 {
                     "t": [
@@ -773,7 +774,8 @@
                     ],
                     "es": "busca",
                     "base": "look for",
-                    "sense": "search"
+                    "sense": "search",
+                    "note": "No confundas *look for*, «buscar», con *look at*, «mirar». La preposición cambia el significado."
                 },
                 {
                     "t": [
@@ -6248,7 +6250,8 @@
                     ],
                     "es": "para correr",
                     "base": "race",
-                    "sense": "compete"
+                    "sense": "compete",
+                    "note": "*Ready to* + verbo indica para qué está listo alguien ([[adjective-infinitive]])."
                 },
                 {
                     "t": [
@@ -6487,7 +6490,8 @@
                     ],
                     "es": "de detective",
                     "base": "detective",
-                    "sense": "investigator"
+                    "sense": "investigator",
+                    "note": "*Detective* describe a *work*: qué tipo de trabajo es ([[noun-as-adjective]])."
                 },
                 {
                     "t": [
@@ -7195,7 +7199,8 @@
                     "t": [
                         3
                     ],
-                    "es": "de Londres"
+                    "es": "de Londres",
+                    "note": "*London* va delante de *detective* y dice de dónde es ([[noun-as-adjective]])."
                 },
                 {
                     "t": [
@@ -8254,7 +8259,7 @@
                     "es": "unas ovejas",
                     "base": "sheep",
                     "sense": "animal",
-                    "note": "El plural de *sheep* también es *sheep*: no añade *-s*."
+                    "note": "*Some* indica una cantidad sin precisar ([[some-any]]). El plural de *sheep* también es *sheep*: no añade *-s*."
                 },
                 {
                     "t": [
