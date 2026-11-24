@@ -62,3 +62,20 @@ Review these terms before translation: `stables` → *cuadras*, `stable boy` →
 In chapter 2, Simpson uses *tú* with Edith and Ned. Ned uses *usted* with Simpson. The Strakers use *tú* with each other.
 
 Do not explain a clue before the story does. In particular, do not assign motives or explain the dog, sheep or items in the trainer’s pockets early.
+
+### Review record
+
+All 663 entries passed two job reviews and two whole-chapter reviews. Each pass used a fresh `openai-codex/gpt-6.1-sol` reviewer with high thinking. The reviews ran for about 36 minutes with up to five agents. Each pass checked the reading lines, popup units, notes, and shared references. The whole-chapter passes also checked voice, repeated terms, forms of address, and when the story reveals each clue.
+
+Each cell gives the reviewer ID and baseline commit. The Git log records the accepted changes after each pass that changed a file.
+
+| Ch. | Job pass 1 | Job pass 2 | Whole pass 1 | Whole pass 2 |
+|---|---|---|---|---|
+| 1 | `sa-6a50b69d`, `04d6bd2` | `sa-01300422`, `fe64ecb` | `sa-3f06b7b9`, `5561cf9` | `sa-74ed133f`, `3797a2e` |
+| 2 | `sa-ed006733`, `7fec728` | `sa-084a80b0`, `0bada63` | `sa-a8e3888a`, `cf4be0d` | `sa-d24d81c8`, `668a8ec` (no edits) |
+| 3 | `sa-55305e06`, `096f735` | `sa-34691e36`, `29f43ce` | `sa-7e91396d`, `4090e55` | `sa-c0fc806d`, `422ae88` |
+| 4 | `sa-5941a34f`, `7fec728` | `sa-a4777990`, `957fc6a` | `sa-a635ca21`, `6c4f32d` | `sa-b7bd1781`, `7a0adf5` |
+| 5 | `sa-5efae113`, `7fec728` | `sa-1703c873`, `5f3693f` (no edits) | `sa-18000fc5`, `5f3693f` | `sa-5baa1ba4`, `a8b6bba` (no edits) |
+| 6 | `sa-40387fda`, `c91b3d7` | `sa-b423f3f2`, `f15099b` | `sa-106713ac`, `cb12940` | `sa-aa255267`, `ba71538` |
+
+No chapter issues or missing shared references remain. The shared `take` card is longer than the dictionary guide recommends. Keep its linked senses until a separate review checks the chapters that use them.

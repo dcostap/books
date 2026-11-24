@@ -1,5 +1,5 @@
 // tools/prepare_pwa.py updates the version and asset list before deployment.
-const VERSION = "015b16e77175d910";
+const VERSION = "08463768482b26b5";
 // BEGIN PRECACHE
 const ASSETS = [
   "./",
@@ -21,6 +21,7 @@ const ASSETS = [
   "icons/icon-512.png",
   "icons/maskable-512.png",
   "books/duke/cover.jpg",
+  "books/sport-kings/cover.jpg",
   "books/hp1/cover.jpg"
 ];
 // END PRECACHE

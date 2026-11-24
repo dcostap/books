@@ -51,7 +51,7 @@ The site's chapter audio is **Opus at 24 kbps, mono, in WebM** (`.webm`): about 
 ffmpeg -i SOURCE -ac 1 -c:a libopus -b:a 24k audio/<id>/NN-title.webm
 ```
 
-`build.py` copies the file as it is, because a second lossy encode loses quality. Keep source MP3 files locally; both books use WebM for playback.
+`build.py` copies each WebM file without encoding it again. Keep the original recordings in the local `audio/` folder.
 
 ## How the timing works
 

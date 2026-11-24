@@ -52,6 +52,52 @@
     ]
   },
   {
+    "id": "sport-kings",
+    "title": "Sherlock Holmes and the Sport of Kings",
+    "author": "Arthur Conan Doyle, retold by Jennifer Bassett",
+    "narrator": "Gareth Armstrong",
+    "level": "A1–A2",
+    "cover": "books/sport-kings/cover.jpg",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "A Horse Called Silver Blaze",
+        "data": "books/sport-kings/01.json",
+        "duration": 537.64
+      },
+      {
+        "n": 2,
+        "title": "Monday Night at King’s Pyland",
+        "data": "books/sport-kings/02.json",
+        "duration": 696.19
+      },
+      {
+        "n": 3,
+        "title": "John Straker’s Pockets",
+        "data": "books/sport-kings/03.json",
+        "duration": 765.06
+      },
+      {
+        "n": 4,
+        "title": "Looking for a Horse",
+        "data": "books/sport-kings/04.json",
+        "duration": 700.56
+      },
+      {
+        "n": 5,
+        "title": "A Day at the Races",
+        "data": "books/sport-kings/05.json",
+        "duration": 423.0
+      },
+      {
+        "n": 6,
+        "title": "Holmes Has the Answers",
+        "data": "books/sport-kings/06.json",
+        "duration": 641.77
+      }
+    ]
+  },
+  {
     "id": "hp1",
     "title": "Harry Potter and the Philosopher's Stone",
     "author": "J.K. Rowling",
