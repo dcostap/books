@@ -1327,7 +1327,7 @@
                     "es": "algo de terreno",
                     "base": "ground",
                     "sense": "land",
-                    "note": "*Ground* no se cuenta aquí. *Some* indica una cantidad sin precisar ([[uncountable]])."
+                    "note": "*Ground* no se cuenta aquí ([[uncountable]]). *Some* indica una cantidad sin precisar ([[some-any]])."
                 },
                 {
                     "t": [
@@ -5362,7 +5362,7 @@
                         2
                     ],
                     "es": "(no se traduce)",
-                    "note": "*It* ocupa el lugar del sujeto, aunque no haya una cosa concreta ([[dummy-subject]])."
+                    "note": "*It* retoma lo que Holmes tenía que hacer. El español no necesita repetirlo."
                 },
                 {
                     "t": [

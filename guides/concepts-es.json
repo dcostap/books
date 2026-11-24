@@ -209,8 +209,8 @@
   "adjective-infinitive": {
     "name": "adjetivo + *to* + verbo",
     "en": "adjective + to-infinitive",
-    "text": "Tras adjetivos como *surprised*, *happy*, *sorry* o *easy*, el infinitivo con *to* completa el adjetivo: dice qué causa el sentimiento, o qué es fácil. Aquí *to* no significa «para».",
-    "examples": [["I'm happy to see you.", "Me alegro de verte."], ["She was surprised to hear it.", "Le sorprendió oírlo."], ["It's easy to find.", "Es fácil de encontrar."]],
+    "text": "El infinitivo con *to* completa adjetivos como *happy*, *easy* o *ready*. La traducción depende del adjetivo: «contento de», «fácil de» o «listo para». En inglés se usa *to* en los tres casos.",
+    "examples": [["I'm happy to see you.", "Me alegro de verte."], ["She was surprised to hear it.", "Le sorprendió oírlo."], ["It's easy to find.", "Es fácil de encontrar."], ["The horse is ready to race.", "El caballo está listo para correr."]],
     "wrong": [["I'm happy for see you.", "I'm happy to see you."], ["She was surprised of hearing it.", "She was surprised to hear it."]]
   },
   "locative-inversion": {
