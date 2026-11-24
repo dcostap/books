@@ -22,19 +22,22 @@ These ranges are in seconds in `full.mp4`. Keep the spoken chapter headings. The
 
 The opening subscribe overlay adds click peaks at 17.32 and 17.43 s, a small click at 18.24 s, and a bell at 18.70 s. The bell overlaps the end of “Blaze.” Reuse the Duke audio filters there. Remove the bell tail in the pause and keep the first “I” at about 21.95 s. The final subscribe overlay is entirely in the music after the story.
 
-Run from the repository root. The filter times in the second command are relative to `01-source.wav`.
+Run from the repository root. The filter times in the second command are relative to `01-source.wav`. Save each clean chapter as float WAV. Set loudness at the final encode.
 
 ```bash
 src=audio/sport-kings/full.mp4
 ffmpeg -v error -ss 13.54 -i "$src" -t 539.51 -vn -c:a pcm_f32le audio/sport-kings/01-source.wav
-.venv/Scripts/python books/duke/fix_audio.py audio/sport-kings/01-source.wav audio/sport-kings/01.webm --cut 5.63 8.26 --gap 0.75 --chime 5.15 6.90 --click 4.68 4.74 --declick 3.766 3.794 --declick 3.872 3.901
+.venv/Scripts/python books/duke/fix_audio.py audio/sport-kings/01-source.wav audio/sport-kings/01.wav --cut 5.63 8.26 --gap 0.75 --chime 5.15 6.90 --click 4.68 4.74 --declick 3.766 3.794 --declick 3.872 3.901
 for span in '02 572.57 696.18' '03 1289.40 765.05' '04 2073.59 700.55' '05 2793.49 422.99' '06 3235.80 641.76'; do
     set -- $span
-    ffmpeg -v error -ss "$2" -i "$src" -t "$3" -vn -ac 1 -ar 48000 -c:a libopus -b:a 24k "audio/sport-kings/$1.webm"
+    ffmpeg -v error -ss "$2" -i "$src" -t "$3" -vn -c:a pcm_f32le "audio/sport-kings/$1.wav"
+done
+for n in 01 02 03 04 05 06; do
+    python tools/level_audio.py "audio/sport-kings/$n.wav" "audio/sport-kings/$n.webm"
 done
 ```
 
-The filters reduced the three click peaks above 6 kHz by 27–37 dB. The main bell peak near 2.77 kHz fell by 32 dB just after its start. The six clean files total 1:02:44. Keep the raw upload and clean audio local. `01-source.wav` is a temporary lossless file.
+The filters reduced the three click peaks above 6 kHz by 27–37 dB. The main bell peak near 2.77 kHz fell by 32 dB just after its start. The six clean files total 1:02:44. Keep the raw upload and clean WebM files local. The WAV files are temporary.
 
 ## Word timings
 

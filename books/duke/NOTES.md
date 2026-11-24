@@ -12,6 +12,8 @@ Things that are special to this book. Read this before you add a chapter. Add to
 
 The chapter files come from `full.mp3`, cut with `-c copy` at 355.94, 907.53, 1358.76, 2024.1, 2629.86 and 2995.32 s. The files with these cuts are `audio/duke/0N-*.mp3`.
 
+The commands below record the cleanup settings. For current playback audio, give `fix_audio.py` a temporary `.wav` destination instead. Run `tools/level_audio.py` on that WAV to make the final chapter WebM at −20 LUFS. Keep the original MP3 files.
+
 Each chapter has these problems. Remove them with `fix_audio.py` **before** `transcribe.py`, so the timings fit the clean audio:
 
 1. **Title music.** After the narrator reads the chapter title, music plays for about 10.5 s. It starts about 0.6 s after the last word of the title. It fades out under the first word of the text. Remove it with `--cut`: start in the silence before the music, and stop just before the first word. The default `--gap 0.5` gives a pause of about 1.1 s after the title, the same as the narrator's pause inside the title.

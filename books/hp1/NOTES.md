@@ -4,7 +4,7 @@
 
 - English text: `01/text.md`, imported from `source/book.pdf`.
 - Narrator: Jim Dale. Keep the original MP3 at `audio/01-the-boy-who-lived.mp3` as the source.
-- Site audio: mono Opus at 24 kbps in WebM. Encode directly from the source, without cuts or other processing.
+- Site audio: mono Opus at 24 kbps in WebM. Use `tools/level_audio.py` on each original MP3 to set the library's loudness. Do not cut the narration.
 - Conversion checks at the start, middle, and end found offsets of 0–1 ms. Keep the existing word timings.
 - Chapter 1 has 4,675 tokens in 113 text blocks, plus one picture. The current sentence splitter gives 343 sentences.
 - The former translation used 352 sentences. The new sentence boundaries keep a question or exclamation with its lower-case reporting clause.
@@ -14,17 +14,16 @@
 Chapter 1 conversion:
 
 ```
-ffmpeg -hide_banner -nostdin -n -i audio/01-the-boy-who-lived.mp3 -map 0:a:0 -vn -ac 1 -ar 48000 -c:a libopus -b:a 24k audio/01-the-boy-who-lived.webm
+python tools/level_audio.py audio/01-the-boy-who-lived.mp3 audio/01-the-boy-who-lived.webm
 ```
 
-The WebM is 6,350,102 bytes, compared with 30,606,497 bytes for the source MP3. Duration remains about 31 minutes 53 seconds.
+Duration remains about 31 minutes 53 seconds.
 
 ### Chapter 2
 
 - English text: `02/text.md`, from physical PDF pages 21–29. It matches the extracted page text, apart from whitespace and hyphenation.
 - Original audio: `audio/stash/02-the-vanishing-glass.mp3`. Keep it unchanged.
-- Site audio source: `audio/02-the-vanishing-glass.webm`, encoded directly as mono Opus at 24 kbps and 48 kHz, without cuts.
-- File size: 4,469,040 bytes, compared with 21,346,195 bytes for the original MP3.
+- Site audio source: `audio/02-the-vanishing-glass.webm`. Use `python tools/level_audio.py audio/stash/02-the-vanishing-glass.mp3 audio/02-the-vanishing-glass.webm` to make it.
 - Duration: 1334.099592 seconds in the source; 1334.095 seconds in WebM.
 - Chapter 2 uses its own initial transcription and alignment. Do not retime chapter 1.
 - Initial alignment covered all 3,469 tokens, with no fallback pieces. The rough transcript matched 98.2% of lexical source tokens.

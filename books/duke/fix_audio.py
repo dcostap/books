@@ -11,8 +11,8 @@ All times are seconds in SRC.
                such as a "sh". Keep the window short (about 25 ms): adeclick also makes the speech a little duller.
                Repeat the option for more windows.
 The windows blend in with short fades, so the change makes no click of its own.
-Writes the project's audio format (Opus 24 kbps mono in WebM, see the README), so the audio gets only one more lossy
-encode. Run it before transcribe.py.
+Writes mono PCM for a .wav destination, or Opus at 24 kbps for a .webm destination. Use WAV to set loudness
+before the final encode. Run the cleanup before transcribe.py.
 """
 import argparse
 import subprocess
@@ -43,13 +43,19 @@ def window(n, start, end, fade):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("src")
-    parser.add_argument("dst")
+    parser.add_argument("dst", help="output .wav or .webm file")
     parser.add_argument("--cut", type=float, nargs=2, action="append", default=[])
     parser.add_argument("--gap", type=float, default=0.5)
     parser.add_argument("--chime", type=float, nargs=2)
     parser.add_argument("--click", type=float, nargs=2)
     parser.add_argument("--declick", type=float, nargs=2, action="append", default=[])
     args = parser.parse_args()
+    if args.dst.endswith(".wav"):
+        encode = ["-c:a", "pcm_f32le"]
+    elif args.dst.endswith(".webm"):
+        encode = ["-c:a", "libopus", "-b:a", "24k"]
+    else:
+        parser.error("the output must end in .wav or .webm")
 
     out = pcm(args.src)
     if args.chime:
@@ -77,7 +83,7 @@ def main():
         tail[:r] *= np.linspace(0, 1, r)[:, None]
         out = np.concatenate([head, np.zeros((int(args.gap * SR), 2), np.float32), tail])
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ac", "2", "-ar", str(SR), "-i", "-",
-                    "-ac", "1", "-c:a", "libopus", "-b:a", "24k", args.dst], input=out.astype(np.float32).tobytes(), check=True)
+                    "-ac", "1", *encode, args.dst], input=np.ascontiguousarray(out).tobytes(), check=True)
 
 
 if __name__ == "__main__":

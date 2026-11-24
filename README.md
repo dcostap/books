@@ -30,6 +30,7 @@ books/<id>/<nn>/text.md       the text the reader sees (from the book; edit this
 books/<id>/<nn>/whisper.json  what Whisper hears, with rough times (a map; generated)
 books/<id>/<nn>/words.json    every token of text.md with its exact time (generated)
 tools/import_text.py          book.pdf -> text.md for each chapter
+tools/level_audio.py          clean chapter audio -> WebM at the library's loudness
 tools/transcribe.py           audio -> whisper.json
 tools/retime.py               text.md + whisper.json + audio -> words.json (forced aligner)
 tools/build.py                books/ -> site/ (chapter JSON, chapter audio, Spanish help, library.json)
@@ -45,13 +46,17 @@ site/                         the web app; GitHub Pages publishes this folder
 
 ## Audio format
 
-The site's chapter audio is **Opus at 24 kbps, mono, in WebM** (`.webm`): about 11 MB for each hour of speech. Encode it once from the source, with the chapter's cleanup in the same run, before `transcribe.py`:
+The site's chapter audio is **Opus at 24 kbps, mono, in WebM** (`.webm`): about 11 MB for each hour of speech. Match each chapter to **−20 LUFS integrated** (within 0.5 LU). Keep the final true peak at or below **−1.5 dBTP**. Peak level alone does not measure how loud the narrator sounds.
+
+Remove music, clicks, and other unwanted sounds before measuring loudness. If the chapter needs cuts or filters, save the clean result as a lossless float WAV. If it does not need cleanup, use the original recording directly.
 
 ```
-ffmpeg -i SOURCE -ac 1 -c:a libopus -b:a 24k audio/<id>/NN-title.webm
+python tools/level_audio.py CLEAN_SOURCE audio/<id>/NN-title.webm
 ```
 
-`build.py` copies each WebM file without encoding it again. Keep the original recordings in the local `audio/` folder.
+The tool measures mono audio, applies one gain for the whole chapter, and limits only peaks. It checks loudness and true peak again after encoding. If it cannot meet both limits, inspect the source before changing the target. Do not encode an existing WebM again when the original is available.
+
+For a new chapter, run `transcribe.py` and `retime.py` on the final WebM. For an existing chapter, check that the new audio has the same duration and speech positions before keeping the word timings. `build.py` copies each WebM without encoding it again. Keep the original recordings in `audio/`.
 
 ## How the timing works
 
