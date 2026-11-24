@@ -663,7 +663,7 @@
             0
           ],
           "es": "eh",
-          "note": "*Er* representa una vacilación al hablar, como «eh…»."
+          "note": "*Er* representa una vacilación al hablar, como «eh…». Es británico; en EE. UU. se suele escribir *uh*."
         },
         {
           "t": [
@@ -959,9 +959,10 @@
             4,
             6
           ],
-          "es": "en los alimentos",
+          "es": "en la comida",
           "base": "food",
-          "sense": "nourishment"
+          "sense": "nourishment",
+          "note": "Aquí *food* es incontable: habla de comida en general, sin plural ([[uncountable]])."
         },
         {
           "t": [
@@ -4289,7 +4290,7 @@
             11
           ],
           "es": "en su pata",
-          "note": "*Its* es «su», sin apóstrofo. *It’s* es *it is* o *it has*.",
+          "note": "*Its* es «su», sin apóstrofo. *It’s* es una contracción de *it is* o *it has* ([[contractions]]).",
           "base": "leg",
           "sense": "body"
         },
@@ -6836,7 +6837,8 @@
           ],
           "es": "allí",
           "base": "there",
-          "sense": "place"
+          "sense": "place",
+          "note": "Aquí *there* indica un lugar, «allí»; el sujeto, *his own sheep*, va detrás del verbo ([[locative-inversion]])."
         },
         {
           "t": [
