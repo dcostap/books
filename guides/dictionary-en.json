@@ -2194,6 +2194,11 @@
       }
     ]
   },
+  "betting": {
+    "senses": [
+      { "id": "wagers", "es": "apuestas", "ex": ["Betting is not allowed here.", "Aquí no se permiten las apuestas."] }
+    ]
+  },
   "bicycle": {
     "senses": [
       {
@@ -5080,6 +5085,12 @@
       }
     ]
   },
+  "colour": {
+    "senses": [
+      { "id": "hue", "es": "color", "ex": ["What colour is your coat?", "¿De qué color es tu abrigo?"] },
+      { "id": "add-colour", "es": "colorear", "ex": ["Colour the leaves green.", "Colorea las hojas de verde."] }
+    ]
+  },
   "comb": {
     "senses": [
       {
@@ -6084,6 +6095,12 @@
       }
     ]
   },
+  "curry": {
+    "senses": [
+      { "id": "dish", "es": "plato al curry", "ex": ["We made a vegetable curry.", "Hicimos un plato de verduras al curry."] },
+      { "id": "spice", "es": "curry", "ex": ["Add a spoonful of curry.", "Añade una cucharada de curry."] }
+    ]
+  },
   "cut": {
     "forms": {
       "past": "cut",
@@ -6816,6 +6833,11 @@
       }
     ]
   },
+  "dishonest": {
+    "senses": [
+      { "id": "not-honest", "es": "deshonesto", "ex": ["That was a dishonest answer.", "Fue una respuesta deshonesta."] }
+    ]
+  },
   "distance": {
     "senses": [
       {
@@ -7210,6 +7232,11 @@
           "Me visto antes de desayunar."
         ]
       }
+    ]
+  },
+  "dressmaker": {
+    "senses": [
+      { "id": "sewing", "es": "modista", "ex": ["A dressmaker made my skirt.", "Una modista me hizo la falda."] }
     ]
   },
   "drift": {
@@ -7802,6 +7829,11 @@
           "La música la cautivó."
         ]
       }
+    ]
+  },
+  "envelope": {
+    "senses": [
+      { "id": "letter", "es": "sobre", "ex": ["Write it on the envelope.", "Escríbelo en el sobre."] }
     ]
   },
   "er": {
@@ -13454,6 +13486,11 @@
       }
     ]
   },
+  "incident": {
+    "senses": [
+      { "id": "event", "es": "incidente", "ex": ["Nobody saw the incident.", "Nadie vio el incidente."] }
+    ]
+  },
   "inky": {
     "senses": [
       {
@@ -13504,6 +13541,11 @@
           "Limpia el interior de la caja."
         ]
       }
+    ]
+  },
+  "inspector": {
+    "senses": [
+      { "id": "official", "es": "inspector", "ex": ["The inspector questioned two witnesses.", "El inspector interrogó a dos testigos."] }
     ]
   },
   "instead": {
@@ -14304,6 +14346,12 @@
           "Una señora abrió la puerta."
         ]
       }
+    ]
+  },
+  "lame": {
+    "senses": [
+      { "id": "limping", "es": "cojo", "ex": ["The pony went lame.", "El poni se quedó cojo."] },
+      { "id": "unconvincing", "es": "poco convincente", "ex": ["That's a lame excuse.", "Esa excusa es poco convincente."] }
     ]
   },
   "lamp": {
@@ -18730,6 +18778,11 @@
       }
     ]
   },
+  "opium": {
+    "senses": [
+      { "id": "drug", "es": "opio", "ex": ["They sold opium illegally.", "Vendían opio de forma ilegal."] }
+    ]
+  },
   "opposite": {
     "senses": [
       {
@@ -20431,6 +20484,12 @@
       }
     ]
   },
+  "practise": {
+    "senses": [
+      { "id": "train", "es": "practicar", "ex": ["She practises French every day.", "Practica francés todos los días."] },
+      { "id": "profession", "es": "ejercer", "ex": ["He practises law in Leeds.", "Ejerce la abogacía en Leeds."] }
+    ]
+  },
   "precious": {
     "senses": [
       {
@@ -21389,6 +21448,24 @@
           "un temblor en su voz"
         ]
       }
+    ]
+  },
+  "race": {
+    "senses": [
+      { "id": "competition", "es": "carrera", "ex": ["Who won the race?", "¿Quién ganó la carrera?"] },
+      { "id": "compete", "es": "correr", "ex": ["They race every Sunday.", "Corren todos los domingos."] },
+      { "id": "rush", "es": "ir corriendo", "ex": ["He raced to the door.", "Fue corriendo a la puerta."] },
+      { "id": "group", "es": "raza", "ex": ["regardless of race or religion", "sin distinción de raza o religión"] }
+    ]
+  },
+  "racegoer": {
+    "senses": [
+      { "id": "spectator", "es": "aficionado a las carreras", "ex": ["Racegoers waited outside the gates.", "Los aficionados a las carreras esperaban fuera de la entrada."] }
+    ]
+  },
+  "racehorse": {
+    "senses": [
+      { "id": "horse", "es": "caballo de carreras", "ex": ["She bought a young racehorse.", "Compró un caballo de carreras joven."] }
     ]
   },
   "racing": {
@@ -23051,6 +23128,13 @@
       }
     ]
   },
+  "safe": {
+    "senses": [
+      { "id": "unharmed", "es": "a salvo", "ex": ["The children are safe.", "Los niños están a salvo."] },
+      { "id": "not-dangerous", "es": "seguro", "ex": ["Is it safe to swim?", "¿Es seguro bañarse?"] },
+      { "id": "strongbox", "es": "caja fuerte", "ex": ["Keep the money in the safe.", "Guarda el dinero en la caja fuerte."] }
+    ]
+  },
   "safely": {
     "senses": [
       {
@@ -23157,6 +23241,12 @@
           "La quemadura le dejó una cicatriz en el brazo."
         ]
       }
+    ]
+  },
+  "scarf": {
+    "forms": { "plural": "scarves" },
+    "senses": [
+      { "id": "neckwear", "es": "bufanda, pañuelo", "ex": ["He wore a wool scarf.", "Llevaba una bufanda de lana."] }
     ]
   },
   "scent": {
@@ -23661,6 +23751,11 @@
           "Resultó gravemente herida."
         ]
       }
+    ]
+  },
+  "servant": {
+    "senses": [
+      { "id": "household", "es": "criado", "ex": ["The servant answered the door.", "El criado abrió la puerta."] }
     ]
   },
   "set off": {
@@ -26586,6 +26681,15 @@
       }
     ]
   },
+  "stick": {
+    "forms": { "past": "stuck", "participle": "stuck" },
+    "senses": [
+      { "id": "wood", "es": "palo", "ex": ["The dog fetched a stick.", "El perro trajo un palo."] },
+      { "id": "adhere", "es": "pegar", "ex": ["Stick it on the fridge.", "Pégalo en la nevera."] },
+      { "id": "jam", "es": "atascarse", "ex": ["The front door sticks.", "La puerta principal se atasca."] },
+      { "id": "insert", "es": "meter", "ex": ["She stuck her hand inside.", "Metió la mano dentro."] }
+    ]
+  },
   "stiff": {
     "senses": [
       {
@@ -27242,6 +27346,14 @@
       }
     ]
   },
+  "suit": {
+    "senses": [
+      { "id": "clothes", "es": "traje", "ex": ["He wore a grey suit.", "Llevaba un traje gris."] },
+      { "id": "look-good", "es": "sentar bien", "ex": ["That colour suits you.", "Ese color te sienta bien."] },
+      { "id": "be-convenient", "es": "venir bien", "ex": ["Does Friday suit you?", "¿Te viene bien el viernes?"] },
+      { "id": "cards", "es": "palo", "ex": ["He chose a different suit.", "Eligió un palo distinto."] }
+    ]
+  },
   "sun": {
     "senses": [
       {
@@ -27252,6 +27364,11 @@
           "Brilla el sol."
         ]
       }
+    ]
+  },
+  "sunlight": {
+    "senses": [
+      { "id": "light", "es": "luz del sol", "ex": ["The room gets little sunlight.", "A la habitación le llega poca luz del sol."] }
     ]
   },
   "sunny": {
@@ -28258,6 +28375,11 @@
       }
     ]
   },
+  "tendon": {
+    "senses": [
+      { "id": "body", "es": "tendón", "ex": ["She injured a tendon.", "Se lesionó un tendón."] }
+    ]
+  },
   "terrible": {
     "senses": [
       {
@@ -29214,6 +29336,12 @@
       }
     ]
   },
+  "trainer": {
+    "senses": [
+      { "id": "coach", "es": "entrenador", "ex": ["Ask your trainer for advice.", "Pídele consejo a tu entrenador."] },
+      { "id": "shoe", "es": "zapatilla de deporte", "ex": ["a new pair of trainers", "un par de zapatillas de deporte nuevas"] }
+    ]
+  },
   "tree": {
     "senses": [
       {
@@ -29828,6 +29956,12 @@
           "La causa sigue siendo desconocida."
         ]
       }
+    ]
+  },
+  "unlock": {
+    "senses": [
+      { "id": "open", "es": "abrir", "ex": ["Can you unlock the door?", "¿Puedes abrir la puerta?"] },
+      { "id": "device", "es": "desbloquear", "ex": ["Unlock your phone first.", "Desbloquea primero el móvil."] }
     ]
   },
   "unstick": {
@@ -31257,6 +31391,14 @@
       }
     ]
   },
+  "win": {
+    "forms": { "past": "won", "participle": "won" },
+    "senses": [
+      { "id": "victory", "es": "ganar", "ex": ["Our team won the match.", "Nuestro equipo ganó el partido."] },
+      { "id": "prize", "es": "ganar", "ex": ["I won a prize.", "Gané un premio."] },
+      { "id": "gain", "es": "ganarse", "ex": ["She won their trust.", "Se ganó su confianza."] }
+    ]
+  },
   "wind": {
     "forms": {
       "past": "wound",
@@ -31319,6 +31461,11 @@
           "Me guiñó un ojo."
         ]
       }
+    ]
+  },
+  "winner": {
+    "senses": [
+      { "id": "victor", "es": "ganador", "ex": ["The winner gets a medal.", "El ganador recibe una medalla."] }
     ]
   },
   "wipe": {
