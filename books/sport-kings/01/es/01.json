@@ -2852,7 +2852,8 @@
           ],
           "es": "no ocurrió",
           "base": "happen",
-          "sense": "occur"
+          "sense": "occur",
+          "note": "*Did not* forma la negación en pasado; *happen* queda en forma base ([[auxiliary-do]])."
         }
       ]
     },
@@ -4002,7 +4003,8 @@
           ],
           "es": "opina de",
           "base": "think about",
-          "sense": "opinion"
+          "sense": "opinion",
+          "note": "*Do* marca la pregunta y no se traduce; *think* queda en forma base ([[auxiliary-do]])."
         },
         {
           "t": [
@@ -5156,7 +5158,8 @@
           "t": [
             2
           ],
-          "es": "algunas"
+          "es": "algunas",
+          "note": "*Some* indica un número sin precisar: algunas personas, sin decir cuántas ([[some-any]])."
         },
         {
           "t": [
@@ -5907,7 +5910,8 @@
             5,
             6
           ],
-          "es": "ninguno de"
+          "es": "ninguno de",
+          "note": "Con el sentido negativo de *nothing*, *any of* equivale a «ninguno de» ([[some-any]])."
         },
         {
           "t": [
@@ -6591,7 +6595,8 @@
           "t": [
             13
           ],
-          "es": "nada, cualquier cosa"
+          "es": "nada, cualquier cosa",
+          "note": "Con *not*, *anything* equivale a «nada». El inglés no añade otra negación con *nothing* ([[negative-words]])."
         },
         {
           "t": [
