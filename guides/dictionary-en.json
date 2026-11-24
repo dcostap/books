@@ -3123,6 +3123,11 @@
       }
     ]
   },
+  "breakfast": {
+    "senses": [
+      { "id": "meal", "es": "desayuno", "ex": ["Breakfast is ready.", "El desayuno está listo."] }
+    ]
+  },
   "breed": {
     "forms": {
       "past": "bred",
@@ -7555,6 +7560,11 @@
       }
     ]
   },
+  "east": {
+    "senses": [
+      { "id": "direction", "es": "este", "ex": ["We drove east for hours.", "Condujimos hacia el este durante horas."] }
+    ]
+  },
   "easy": {
     "senses": [
       {
@@ -8630,6 +8640,7 @@
   },
   "favourite": {
     "senses": [
+      { "id": "likely-winner", "es": "favorito para ganar", "ex": ["Italy is the clear favourite.", "Italia es la clara favorita."] },
       {
         "id": "preferred",
         "es": "favorito",
@@ -11880,6 +11891,7 @@
       "participle": "had"
     },
     "senses": [
+      { "id": "receive", "es": "recibir", "ex": ["I had a letter today.", "Hoy recibí una carta."] },
       {
         "id": "possess",
         "es": "tener",
@@ -13584,6 +13596,11 @@
       }
     ]
   },
+  "interested": {
+    "senses": [
+      { "id": "attention", "es": "interesado", "ex": ["I'm interested in the course.", "Me interesa el curso."] }
+    ]
+  },
   "interesting": {
     "senses": [
       {
@@ -14106,6 +14123,11 @@
           "Me duelen muchísimo los pies."
         ]
       }
+    ]
+  },
+  "killer": {
+    "senses": [
+      { "id": "person", "es": "asesino", "ex": ["The police caught the killer.", "La policía detuvo al asesino."] }
     ]
   },
   "killing": {
@@ -16550,6 +16572,11 @@
       }
     ]
   },
+  "midday": {
+    "senses": [
+      { "id": "time", "es": "mediodía", "ex": ["Come back at midday.", "Vuelve al mediodía."] }
+    ]
+  },
   "middle": {
     "senses": [
       {
@@ -16888,6 +16915,11 @@
           "Espera aquí un momento."
         ]
       }
+    ]
+  },
+  "monday": {
+    "senses": [
+      { "id": "day", "es": "lunes", "ex": ["We leave on Monday.", "Nos vamos el lunes."] }
     ]
   },
   "money": {
@@ -19117,6 +19149,11 @@
           "Tienen un barco pequeño."
         ]
       }
+    ]
+  },
+  "owner": {
+    "senses": [
+      { "id": "possessor", "es": "dueño", "ex": ["Who is the owner?", "¿Quién es el dueño?"] }
     ]
   },
   "page": {
@@ -25563,6 +25600,7 @@
   },
   "so": {
     "senses": [
+      { "id": "discourse", "es": "bueno, pues", "ex": ["So, what happens next?", "Bueno, ¿qué pasa después?"] },
       {
         "id": "degree",
         "es": "tan, muy",
@@ -28828,6 +28866,11 @@
       }
     ]
   },
+  "thursday": {
+    "senses": [
+      { "id": "day", "es": "jueves", "ex": ["See you on Thursday.", "Nos vemos el jueves."] }
+    ]
+  },
   "ticket": {
     "senses": [
       {
@@ -29340,6 +29383,12 @@
     "senses": [
       { "id": "coach", "es": "entrenador", "ex": ["Ask your trainer for advice.", "Pídele consejo a tu entrenador."] },
       { "id": "shoe", "es": "zapatilla de deporte", "ex": ["a new pair of trainers", "un par de zapatillas de deporte nuevas"] }
+    ]
+  },
+  "training": {
+    "senses": [
+      { "id": "practice", "es": "entrenamiento", "ex": ["Training starts tomorrow.", "El entrenamiento empieza mañana."] },
+      { "id": "learning", "es": "formación", "ex": ["We offer free training.", "Ofrecemos formación gratuita."] }
     ]
   },
   "tree": {
@@ -30062,6 +30111,12 @@
           "Tu tiempo ha terminado."
         ]
       }
+    ]
+  },
+  "up and down": {
+    "senses": [
+      { "id": "back-forth", "es": "de un lado a otro", "ex": ["He paced up and down.", "Caminaba de un lado a otro."] },
+      { "id": "vertical", "es": "arriba y abajo", "ex": ["Move your hand up and down.", "Mueve la mano arriba y abajo."] }
     ]
   },
   "upset": {
@@ -30872,6 +30927,11 @@
       }
     ]
   },
+  "wednesday": {
+    "senses": [
+      { "id": "day", "es": "miércoles", "ex": ["The shop closes on Wednesday.", "La tienda cierra el miércoles."] }
+    ]
+  },
   "week": {
     "senses": [
       {
@@ -30986,6 +31046,11 @@
           "una pareja bien vestida en el restaurante"
         ]
       }
+    ]
+  },
+  "west": {
+    "senses": [
+      { "id": "direction", "es": "oeste", "ex": ["The village lies to the west.", "El pueblo está al oeste."] }
     ]
   },
   "wet": {
@@ -31573,6 +31638,11 @@
           "una maravilla de la naturaleza"
         ]
       }
+    ]
+  },
+  "wonderful": {
+    "senses": [
+      { "id": "excellent", "es": "estupendo", "ex": ["She is wonderful with children.", "Es estupenda con los niños."] }
     ]
   },
   "wood": {

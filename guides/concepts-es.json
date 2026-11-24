@@ -162,9 +162,9 @@
   "subject-questions": {
     "name": "preguntas por el sujeto",
     "en": "subject questions",
-    "text": "Si *who* o *what* es el sujeto (quién o qué hace la acción), la pregunta no lleva *do*, *does* ni *did*, y el verbo va en su forma normal.",
+    "text": "Si *who* o *what* es el sujeto (quién o qué hace la acción), la pregunta normal no lleva *do*, *does* ni *did*. Se pueden usar para insistir o marcar un contraste: *Who did call you?* («Entonces, ¿quién te llamó?»).",
     "examples": [["What happened?", "¿Qué pasó?"], ["Who called you?", "¿Quién te llamó?"]],
-    "wrong": [["What did happen?", "What happened?"], ["Who did call you?", "Who called you?"]]
+    "wrong": [["What did happened?", "What happened?"]]
   },
   "ordinal-dates": {
     "name": "ordinales en las fechas",
@@ -279,9 +279,21 @@
   "emphatic-do": {
     "name": "*do* para dar énfasis",
     "en": "emphatic do",
-    "text": "En una afirmación, *do*, *does* o *did* refuerzan el verbo. Equivalen a «sí que». El verbo principal mantiene su forma base.",
-    "examples": [["I did warn you.", "Sí que te avisé."], ["She does like it.", "Sí que le gusta."]],
+    "text": "En una afirmación, *do*, *does* o *did* pueden reforzar el verbo, como «sí que». También pueden marcar contraste en una pregunta por el sujeto. El verbo principal mantiene su forma base.",
+    "examples": [["I did warn you.", "Sí que te avisé."], ["She does like it.", "Sí que le gusta."], ["Who did call you?", "Entonces, ¿quién te llamó?"]],
     "wrong": [["He did went.", "He did go."]]
+  },
+  "lets": {
+    "name": "propuestas con *let’s*",
+    "en": "suggestions with let’s",
+    "text": "*Let’s* es la forma corta de *let us*. Con un verbo en forma base, propone hacer algo juntos.",
+    "examples": [["Let’s go.", "Vamos."], ["Let’s read it.", "Leámoslo."]]
+  },
+  "for-infinitive": {
+    "name": "*for* + persona + infinitivo",
+    "en": "for before an infinitive clause",
+    "text": "*For* puede introducir quién hace la acción de un infinitivo con *to*. En español suele corresponder a «que» con subjuntivo.",
+    "examples": [["It’s best for you to wait.", "Lo mejor es que esperes."], ["There’s work for us to do.", "Tenemos trabajo que hacer."]]
   },
   "telling-time": {
     "name": "decir la hora",
