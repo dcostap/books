@@ -878,7 +878,7 @@
                         1,
                         2
                     ],
-                    "es": "examinemos",
+                    "es": "examinar",
                     "base": "look at",
                     "sense": "consider"
                 },
@@ -1903,7 +1903,7 @@
                     ],
                     "es": "era",
                     "base": "be",
-                    "sense": "state"
+                    "sense": "identity"
                 },
                 {
                     "t": [
@@ -3344,7 +3344,8 @@
                     ],
                     "es": "estas cuadras",
                     "base": "stable",
-                    "sense": "building"
+                    "sense": "building",
+                    "note": "*Stables* puede nombrar un conjunto de cuadras como un solo lugar; por eso aquí lleva *this*."
                 },
                 {
                     "t": [
@@ -3663,7 +3664,7 @@
                     ],
                     "es": "no era",
                     "base": "be",
-                    "sense": "state"
+                    "sense": "identity"
                 },
                 {
                     "t": [
@@ -4684,7 +4685,7 @@
                     "t": [
                         2
                     ],
-                    "es": "para los ojos",
+                    "es": "para el ojo",
                     "base": "eye",
                     "sense": "organ",
                     "note": "El nombre *eye* modifica a *knife*: dice para qué se usa ([[noun-as-adjective]])."
@@ -5566,7 +5567,7 @@
                         24
                     ],
                     "es": "para un señor William Darbyshire",
-                    "note": "*A Mr…* indica que quien habla no conoce personalmente a ese señor."
+                    "note": "*A Mr…* indica que quien habla no conoce personalmente a ese señor. *Mr* se lee *Mister*; en EE. UU., *Mr.* ([[british-american]])."
                 }
             ]
         },
@@ -6067,7 +6068,7 @@
                         13,
                         14
                     ],
-                    "es": "antes de que empiece a irse la luz?»"
+                    "es": "antes de que empiece a oscurecer?»"
                 }
             ],
             "words": [
@@ -6753,7 +6754,7 @@
                     ],
                     "es": "fue",
                     "base": "be",
-                    "sense": "state"
+                    "sense": "identity"
                 },
                 {
                     "t": [
