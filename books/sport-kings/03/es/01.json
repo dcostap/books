@@ -688,6 +688,8 @@
                         1
                     ],
                     "es": "eso es",
+                    "base": "be",
+                    "sense": "identity",
                     "note": "*That’s* es *that is* ([[contractions]])."
                 },
                 {
@@ -8540,6 +8542,8 @@
                         0
                     ],
                     "es": "qué es",
+                    "base": "be",
+                    "sense": "identity",
                     "note": "*What’s* es *what is* ([[contractions]])."
                 },
                 {
