@@ -737,6 +737,8 @@
                         11
                     ],
                     "es": "el favorito",
+                    "base": "favourite",
+                    "sense": "likely-winner",
                     "note": "El participante con más opciones de ganar. Ortografía británica; en EE. UU., *favorite* ([[british-american]])."
                 },
                 {
@@ -951,7 +953,9 @@
                         5,
                         6
                     ],
-                    "es": "antes del comienzo"
+                    "es": "antes del comienzo",
+                    "base": "beginning",
+                    "sense": "start"
                 },
                 {
                     "t": [
@@ -1300,6 +1304,8 @@
                         5
                     ],
                     "es": "salir",
+                    "base": "come out",
+                    "sense": "exit",
                     "note": "*Come out* indica salir hacia donde está quien habla ([[phrasal-verbs]])."
                 },
                 {
@@ -1348,6 +1354,8 @@
                         14
                     ],
                     "es": "emocionado, nervioso",
+                    "base": "excited",
+                    "sense": "emotion",
                     "note": "No significa «excitado» en sentido sexual. Expresa emoción o nervios ([[false-friends]])."
                 }
             ]
@@ -1513,6 +1521,8 @@
                         7
                     ],
                     "es": "salir",
+                    "base": "come out",
+                    "sense": "exit",
                     "note": "*To come out* es «por salir» aquí: los caballos aún no han salido ([[phrasal-verbs]])."
                 },
                 {
@@ -2253,7 +2263,10 @@
                     "t": [
                         7
                     ],
-                    "es": "emocionante"
+                    "es": "emocionante",
+                    "base": "exciting",
+                    "sense": "thrilling",
+                    "note": "*Exciting* describe lo que causa emoción; *excited*, a quien la siente ([[participial-adjectives]])."
                 }
             ]
         },
@@ -2688,6 +2701,8 @@
                         1
                     ],
                     "es": "adelanta, gana posiciones",
+                    "base": "move up",
+                    "sense": "advance",
                     "note": "*Move up* es avanzar dentro de un grupo o una clasificación, no subir físicamente ([[phrasal-verbs]])."
                 },
                 {
@@ -2863,6 +2878,8 @@
                         3
                     ],
                     "es": "está ganando posiciones",
+                    "base": "move up",
+                    "sense": "advance",
                     "note": "*He’s* es *he is*. *Move up* indica avanzar en la clasificación ([[present-continuous]], [[phrasal-verbs]])."
                 },
                 {
@@ -2959,24 +2976,14 @@
             "words": [
                 {
                     "t": [
-                        0
-                    ],
-                    "es": "despacio",
-                    "base": "slowly",
-                    "sense": "speed"
-                },
-                {
-                    "t": [
-                        1
-                    ],
-                    "es": "pero"
-                },
-                {
-                    "t": [
+                        0,
+                        1,
                         2
                     ],
-                    "es": "con paso firme",
-                    "note": "En *slowly but surely*, *surely* expresa progreso firme, no «probablemente»."
+                    "es": "despacio pero sin parar",
+                    "base": "slowly but surely",
+                    "sense": "steady-progress",
+                    "note": "La expresión indica un avance lento pero constante hacia un resultado. Aquí *surely* no significa «probablemente»."
                 },
                 {
                     "t": [
@@ -2991,6 +2998,8 @@
                         6
                     ],
                     "es": "ganó posiciones",
+                    "base": "move up",
+                    "sense": "advance",
                     "note": "*Move up* indica avanzar en una clasificación ([[phrasal-verbs]])."
                 },
                 {
@@ -2998,7 +3007,9 @@
                         7,
                         9
                     ],
-                    "es": "hasta el puesto"
+                    "es": "hasta el puesto",
+                    "base": "place",
+                    "sense": "rank"
                 },
                 {
                     "t": [
@@ -3019,7 +3030,9 @@
                         11,
                         13
                     ],
-                    "es": "hasta el puesto"
+                    "es": "hasta el puesto",
+                    "base": "place",
+                    "sense": "rank"
                 },
                 {
                     "t": [
@@ -3040,7 +3053,9 @@
                         15,
                         17
                     ],
-                    "es": "hasta el puesto"
+                    "es": "hasta el puesto",
+                    "base": "place",
+                    "sense": "rank"
                 },
                 {
                     "t": [
@@ -3310,7 +3325,7 @@
                         5,
                         6
                     ],
-                    "es": "«¡Se lanza!»,"
+                    "es": "«¡Se adelanta!»,"
                 },
                 {
                     "t": [
@@ -3365,8 +3380,10 @@
                     "t": [
                         6
                     ],
-                    "es": "lanzado",
-                    "note": "*He’s away!* expresa que arranca con fuerza y se distancia. No significa que esté ausente."
+                    "es": "alejándose",
+                    "base": "away",
+                    "sense": "distance",
+                    "note": "En una carrera, *he’s away!* indica que toma ventaja y se aleja hacia delante. Aquí no anuncia la salida de la carrera."
                 },
                 {
                     "t": [
@@ -3648,7 +3665,9 @@
                     "t": [
                         0
                     ],
-                    "es": "maravilloso"
+                    "es": "maravilloso",
+                    "base": "wonderful",
+                    "sense": "excellent"
                 },
                 {
                     "t": [
@@ -3683,7 +3702,9 @@
                     "t": [
                         0
                     ],
-                    "es": "maravilloso"
+                    "es": "maravilloso",
+                    "base": "wonderful",
+                    "sense": "excellent"
                 }
             ]
         },
@@ -3705,7 +3726,9 @@
                         0
                     ],
                     "es": "qué",
-                    "note": "*What a* con un sustantivo singular forma una exclamación: «¡qué…!»."
+                    "base": "what",
+                    "sense": "exclamation",
+                    "note": "*What a* con un sustantivo contable singular forma una exclamación: «¡qué…!» ([[what-exclamations]])."
                 },
                 {
                     "t": [
@@ -3736,7 +3759,9 @@
                         0
                     ],
                     "es": "qué",
-                    "note": "*What a* con un sustantivo singular forma una exclamación: «¡qué…!»."
+                    "base": "what",
+                    "sense": "exclamation",
+                    "note": "*What a* con un sustantivo contable singular forma una exclamación: «¡qué…!» ([[what-exclamations]])."
                 },
                 {
                     "t": [
@@ -3932,7 +3957,7 @@
                     "es": "vamos a",
                     "base": "let",
                     "sense": "suggest",
-                    "note": "*Let’s* es *let us*. Propone hacer algo juntos ([[contractions]])."
+                    "note": "*Let’s* es *let us*. Propone hacer algo juntos ([[lets]], [[contractions]])."
                 },
                 {
                     "t": [
@@ -4021,6 +4046,8 @@
                         4
                     ],
                     "es": "emocionado, agitado",
+                    "base": "excited",
+                    "sense": "emotion",
                     "note": "*Excited* expresa emoción o agitación; no tiene por qué tener sentido sexual ([[false-friends]])."
                 },
                 {
@@ -4081,6 +4108,8 @@
                         6
                     ],
                     "es": "miró de arriba abajo",
+                    "base": "look up and down",
+                    "sense": "examine",
                     "note": "*Look someone up and down* es examinar a alguien de arriba abajo. No es *look up*, «buscar»."
                 },
                 {
@@ -4381,7 +4410,9 @@
                     "t": [
                         7
                     ],
-                    "es": "asesino"
+                    "es": "asesino",
+                    "base": "killer",
+                    "sense": "person"
                 },
                 {
                     "t": [
@@ -5111,7 +5142,9 @@
                         0,
                         1
                     ],
-                    "es": "el asesino"
+                    "es": "el asesino",
+                    "base": "killer",
+                    "sense": "person"
                 },
                 {
                     "t": [

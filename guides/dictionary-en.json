@@ -25424,6 +25424,9 @@
       }
     ]
   },
+  "slowly but surely": {
+    "senses": [{ "id": "steady-progress", "es": "despacio pero sin pausa", "ex": ["We improved slowly but surely.", "Mejoramos despacio pero sin pausa."] }]
+  },
   "small": {
     "senses": [
       {
