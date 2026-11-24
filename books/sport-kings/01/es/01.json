@@ -513,7 +513,7 @@
             11,
             12
           ],
-          "es": "de King’s Pyland"
+          "es": "en King’s Pyland"
         }
       ]
     },
@@ -967,7 +967,7 @@
             17,
             18
           ],
-          "es": "de King’s Pyland"
+          "es": "en King’s Pyland"
         }
       ]
     },
@@ -1935,7 +1935,7 @@
           "es": "me gustaría",
           "base": "would like",
           "sense": "want",
-          "note": "*Would like* expresa un deseo de forma cortés."
+          "note": "*Would like* expresa un deseo de forma cortés. Lleva después un infinitivo con *to* ([[verb-infinitive]])."
         },
         {
           "t": [
@@ -5646,7 +5646,8 @@
           ],
           "es": "entrenamiento",
           "base": "training",
-          "sense": "practice"
+          "sense": "practice",
+          "note": "*Training* es un sustantivo que modifica a *stables*: cuadras de entrenamiento ([[noun-as-adjective]])."
         },
         {
           "t": [
@@ -6268,7 +6269,8 @@
           ],
           "es": "entrenamiento",
           "base": "training",
-          "sense": "practice"
+          "sense": "practice",
+          "note": "*Training* es un sustantivo que modifica a *stables*: cuadras de entrenamiento ([[noun-as-adjective]])."
         }
       ]
     },
@@ -6536,7 +6538,8 @@
           ],
           "es": "recordar",
           "base": "remember",
-          "sense": "recall"
+          "sense": "recall",
+          "note": "Tras *want*, el segundo verbo lleva infinitivo con *to*. Aquí *to* no significa «para» ([[verb-infinitive]])."
         },
         {
           "t": [
@@ -6581,7 +6584,8 @@
           ],
           "es": "decir",
           "base": "say",
-          "sense": "speak"
+          "sense": "speak",
+          "note": "Tras *like*, puede ir un infinitivo con *to*. Aquí *to* no expresa finalidad ([[verb-infinitive]])."
         },
         {
           "t": [
@@ -6975,7 +6979,8 @@
           ],
           "es": "leer",
           "base": "read",
-          "sense": "text"
+          "sense": "text",
+          "note": "*Begin* puede llevar un infinitivo con *to*: *began to read*, «empezó a leer». No indica finalidad ([[verb-infinitive]])."
         }
       ]
     }
