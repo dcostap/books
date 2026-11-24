@@ -5398,6 +5398,14 @@
       }
     ]
   },
+  "come up": {
+    "forms": { "past": "came up", "participle": "come up" },
+    "senses": [
+      { "id": "approach", "es": "acercarse", "ex": ["A woman came up.", "Se acercó una mujer."] },
+      { "id": "arise", "es": "surgir", "ex": ["Something came up at work.", "Surgió algo en el trabajo."] },
+      { "id": "soon", "es": "acercarse", "ex": ["The holidays are coming up.", "Se acercan las vacaciones."] }
+    ]
+  },
   "come up to": {
     "forms": { "past": "came up to", "participle": "come up to" },
     "senses": [

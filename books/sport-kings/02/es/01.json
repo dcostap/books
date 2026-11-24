@@ -850,18 +850,14 @@
         },
         {
           "t": [
-            1
-          ],
-          "es": "vino",
-          "base": "come",
-          "sense": "move"
-        },
-        {
-          "t": [
+            1,
             2,
             3
           ],
-          "es": "hasta"
+          "es": "se acercó a",
+          "base": "come up to",
+          "sense": "approach",
+          "note": "*Come up to* indica acercarse a alguien o a algo ([[phrasal-verbs]])."
         },
         {
           "t": [
@@ -2090,17 +2086,13 @@
         },
         {
           "t": [
-            11
-          ],
-          "es": "vino",
-          "base": "come",
-          "sense": "move"
-        },
-        {
-          "t": [
+            11,
             12
           ],
-          "es": "hasta ella"
+          "es": "se acercó",
+          "base": "come up",
+          "sense": "approach",
+          "note": "Aquí *come up* indica acercarse; *up* no significa subir ([[phrasal-verbs]])."
         },
         {
           "t": [
@@ -4092,7 +4084,8 @@
           "t": [
             1
           ],
-          "es": "hasta que"
+          "es": "hasta que",
+          "note": "Tras *until*, el inglés usa presente para algo futuro: *until the rain stops*, «hasta que pare la lluvia» ([[future-time-clauses]])."
         },
         {
           "t": [
@@ -6235,7 +6228,8 @@
           "t": [
             2
           ],
-          "es": "algo"
+          "es": "algo",
+          "note": "*Some of* indica una parte de algo: aquí, parte de su cena ([[some-any]])."
         },
         {
           "t": [
