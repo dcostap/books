@@ -1958,15 +1958,10 @@
         },
         {
           "t": [
-            7
-          ],
-          "es": "con"
-        },
-        {
-          "t": [
+            7,
             8
           ],
-          "es": "usted"
+          "es": "con usted"
         }
       ]
     },
@@ -4571,7 +4566,7 @@
             15,
             16
           ],
-          "es": "que gane",
+          "es": "ganar",
           "base": "win",
           "sense": "victory",
           "note": "*On him to win* indica el resultado por el que apuestan: que él gane."
@@ -5679,7 +5674,8 @@
           ],
           "es": "trabajando",
           "base": "work",
-          "sense": "labour"
+          "sense": "labour",
+          "note": "El participio *working* describe a los chicos: «que trabajan» ([[participial-adjectives]]). No es un presente continuo sin *are*."
         },
         {
           "t": [
@@ -6783,9 +6779,10 @@
             0,
             2
           ],
-          "es": "lo, la cosa",
+          "es": "la cosa",
           "base": "thing",
-          "sense": "object"
+          "sense": "object",
+          "note": "*The best thing* se refiere aquí a la mejor opción: en español, «lo mejor»."
         },
         {
           "t": [
