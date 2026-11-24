@@ -1,0 +1,71 @@
+# Chapter Five: A Day at the Races
+
+On Tuesday Holmes and I took the train to Winchester, and Mr Ross met us at the station. He drove us to the races, but he was not a happy man.
+
+‘Well, Mr Holmes,’ he said coldly. ‘Do you have news of my horse?’
+
+Holmes smiled. ‘He’s safe and well, I’m sure. How is the betting for the Wessex Cup?’
+
+‘Very strange,’ said Mr Ross. ‘Yesterday Silver Blaze was fifteen to one, but today he’s the favourite, at three to one. Why, I don’t know.’
+
+‘Ah!’ said Holmes. ‘Somebody knows something!’
+
+We arrived only minutes before the beginning of the Wessex Cup race. This was Holmes’s plan, I think. Mr Ross had no time to ask questions. There were six horses running in the race, and Silver Blaze’s name was there, at number 4. The horses began to come out for the race, and Mr Ross got very excited.
+
+‘Where is he? I can’t see him!’ he cried.
+
+‘There are two more horses to come out,’ I said. ‘And look! There’s number 4 now, in racing colours of red and blue. Those are your colours, Mr Ross.’
+
+And there was Silver Blaze, a big brown horse with a white nose. He came past us, looking strong and well, and ready for anything.
+
+‘Holmes,’ cried Mr Ross, ‘I was wrong about you! I’m sorry. But why, how–?’
+
+‘Shh!’ said Holmes. ‘Watch! Yes, they’re off!’
+
+It was a good race, fast and exciting. After the first minute, a horse with yellow racing colours came to the front, and stayed there.
+
+‘That’s Desborough, from the Capleton stables,’ said Holmes. ‘A good horse, but Silver Blaze is better.’
+
+But Silver Blaze was three horses behind Desborough.
+
+‘Come on, come on!’ cried Mr Ross. ‘Move up now!’
+
+We all watched the red and blue colours. ‘Yes!’ I said. ‘Look, he’s moving up now! Watch him go!’
+
+Slowly but surely, Silver Blaze moved up into fourth place, then into third place, then into second place. Now only Desborough was in front of him.
+
+‘That’s my boy!’ said Mr Ross. ‘Go on, go on!’
+
+‘Desborough’s getting tired,’ Holmes said. ‘Watch!’
+
+Eighty metres, fifty metres … ‘He’s away!’ cried Mr Ross. ‘His nose is in front, yes, yes, he’s going to do it!’
+
+And he did. Silver Blaze kept his nose in front, finished first, and won the Wessex Cup.
+
+‘Wonderful!’ said Mr Ross. ‘Wonderful! What a race! What a horse! Mr Holmes, how can I thank you?’
+
+‘You must thank the horse, not me,’ said Holmes, smiling. ‘Let’s go down and have a look at him.’
+
+Silver Blaze was still excited by his big race. Mr Ross looked him up and down. ‘He looks well, very well. I don’t understand any of it, Mr Holmes. How did you do it? Where did you find him? And perhaps you now have John Straker’s killer too. Do you?’
+
+‘Yes,’ said Holmes quietly. ‘Yes, I have him too.’
+
+Mr Ross and I stared at him. ‘You have him?’ Mr Ross said. ‘Where is he?’
+
+‘He is here.’
+
+‘Here! Where?’
+
+‘Here with me now, at this moment.’
+
+Mr Ross’s face began to go red. ‘What are you saying, Mr Holmes?’ he said angrily. ‘Are you saying–?’
+
+Sherlock Holmes laughed. ‘No, no, Mr Ross, not you. The killer is standing behind us.’
+
+He turned and put his hand on Silver Blaze’s back.
+
+‘The horse?’ cried Mr Ross.
+
+‘The horse!’ I said.
+
+‘Yes, the horse,’ said Holmes. ‘But don’t be angry with him. You can hear all about the mystery, but later, please. I have a little bet on a horse in the next race, and I would like to see it win …’

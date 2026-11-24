@@ -1,0 +1,55 @@
+# Chapter One: A Horse Called Silver Blaze
+
+‘I must go down there, Watson. I must,’ said Sherlock Holmes at the breakfast table on Thursday morning.
+
+‘Go? Go where?’ I asked.
+
+‘To Dartmoor – to King’s Pyland.’
+
+‘Ah! So that’s it,’ I said. ‘Well, everybody in the country is talking about the case at King’s Pyland.’
+
+I always know when Holmes is interested in a case. He reads all the newspapers, he walks up and down, up and down the room, and does not speak for hours.
+
+He did all those things yesterday. He did not answer any of my questions, but I knew that it was the mystery at King’s Pyland.
+
+The morning newspapers were on the breakfast table. ‘What is happening at King’s Pyland? Where is Silver Blaze?’ they asked. ‘Who killed John Straker? What are the police doing? Can they find the horse before the big race next week?’
+
+Silver Blaze was a famous racehorse, and John Straker was his trainer. One of the biggest horse races of the year – the Wessex Cup – was next week, and Silver Blaze was the favourite to win. But on Monday night at King’s Pyland two things happened. Someone killed John Straker, and Silver Blaze disappeared.
+
+I was interested in this case too. ‘Do you need my help, Holmes?’ I asked. ‘I would very much like to come with you.’
+
+‘My dear Watson,’ said Holmes, ‘of course you must come with me. We can catch the twelve o’clock from Paddington, and talk about the case on the train.’
+
+Two hours later we were on the train to Tavistock. We read all the midday newspapers, but there was nothing new in them.
+
+‘So, Watson, what do you think about this case?’
+
+‘Well, the newspapers say -’
+
+‘Ah, yes. The newspapers understand nothing. One day they say one thing, the next day they say another. But we must look at the case more carefully. What did happen on Monday night at King’s Pyland? And what did not happen? That’s an important question too.’
+
+‘Do the police have any answers?’ I asked.
+
+‘No,’ said Holmes. ‘On Wednesday morning I had two letters. One was from Mr Ross, the owner of the horse, and the other was from the Dartmoor police – an Inspector Gregory. They ask for my help.’
+
+‘Wednesday morning!’ I cried. ‘But this is Thursday morning. Why didn’t you go down yesterday?’
+
+‘Because it was an easy case. You can’t hide a famous horse for long, I thought. Where can you hide a horse on Dartmoor? There are no buildings, no trees … But I was wrong, Watson. The case is now two days old, and nobody can find the horse – or Straker’s killer. So here we are, on the train to Tavistock.’
+
+‘And what do you think about it all?’ I said.
+
+‘Well, Watson, let’s look at the case. First, we have a racehorse, Silver Blaze – only five years old, but already a winner in many big races. His owner, Mr Ross, is a happy man – and rich. The racegoers are happy too. Silver Blaze nearly always wins his races, and so people put big bets on him to win. And when the favourite wins the race, a lot of people make money on their bets. But what happens when the favourite doesn’t win, Watson? What then?’
+
+‘A lot of people lose their money, of course,’ I said. ‘And people with big bets on a different horse can make much more money, when that other horse wins.’
+
+‘Right, Watson! So perhaps some people are very interested in Silver Blaze not running in the Wessex Cup. Of course, Mr Ross and his trainer, John Straker, know that, and they watch the horse very carefully.
+
+‘Now, let’s look at the people and the place. The trainer, John Straker – a good man and wonderful with horses – worked for Mr Ross for twelve years. There are four horses in the training stables, and three boys working for Straker. One of them sits up all night with the horses, and the other two sleep in a room over the stables. We know nothing bad about any of the boys.
+
+‘Straker has a wife, no children, and lives – I mean, lived – in a house about two hundred metres from the stables. The town of Tavistock is two kilometres to the west, and about two kilometres to the east there is Capleton, another training stables. The owner there is Lord Backwater, and the trainer is Silas Brown. There are no other houses – just the hills of Dartmoor.’
+
+I listened carefully. I wanted to remember it all because Holmes does not like to say anything twice.
+
+‘Now,’ he said, ‘what happened on Monday night? These papers came with Inspector Gregory’s letter. The best thing is for you to read them, Watson. Then tell me what you think.’
+
+I took the papers from him, and began to read.

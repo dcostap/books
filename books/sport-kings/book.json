@@ -1,0 +1,19 @@
+{
+  "title": "Sherlock Holmes and the Sport of Kings",
+  "author": "Arthur Conan Doyle, retold by Jennifer Bassett",
+  "narrator": "Gareth Armstrong",
+  "level": "A1–A2",
+  "cover": "cover.jpg",
+  "source": {
+    "pdf": "source/book.pdf"
+  },
+  "prompt": "Sherlock Holmes and the Sport of Kings. Dr Watson, Silver Blaze, Dartmoor, King's Pyland, Tavistock, Paddington, Inspector Gregory, Mr Ross, John Straker, Ned Hunter, Edith Baxter, Fitzroy Simpson, Wessex Cup, Bayard, Desborough, Capleton, Lord Backwater, Silas Brown, Darbyshire, Plymouth, Winchester.",
+  "chapters": [
+    { "title": "A Horse Called Silver Blaze", "audio": "audio/sport-kings/01.webm" },
+    { "title": "Monday Night at King’s Pyland", "audio": "audio/sport-kings/02.webm" },
+    { "title": "John Straker’s Pockets", "audio": "audio/sport-kings/03.webm" },
+    { "title": "Looking for a Horse", "audio": "audio/sport-kings/04.webm" },
+    { "title": "A Day at the Races", "audio": "audio/sport-kings/05.webm" },
+    { "title": "Holmes Has the Answers", "audio": "audio/sport-kings/06.webm" }
+  ]
+}
