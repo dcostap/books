@@ -180,6 +180,12 @@
     "examples": [["I saw nothing.", "No vi nada."], ["She never drinks coffee.", "Nunca toma café."], ["Nobody came.", "No vino nadie."]],
     "wrong": [["I didn't see nothing.", "I saw nothing."], ["He doesn't never eat meat.", "He never eats meat."]]
   },
+  "irregular-plurals": {
+    "name": "plurales irregulares",
+    "en": "irregular plurals",
+    "text": "Algunos sustantivos no forman el plural con *-s*. Pueden cambiar de forma, como *man* y *men*, o quedarse iguales, como *sheep*.",
+    "examples": [["one man, two men", "un hombre, dos hombres"], ["one woman, two women", "una mujer, dos mujeres"], ["one sheep, two sheep", "una oveja, dos ovejas"]]
+  },
   "plural-agreement": {
     "name": "sustantivos con verbo en plural",
     "en": "plural nouns",

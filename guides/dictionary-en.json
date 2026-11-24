@@ -1466,6 +1466,7 @@
           "Siéntate en la parte de atrás."
         ]
       },
+      { "id": "rear-adjective", "es": "trasero", "ex": ["the back legs of a chair", "las patas traseras de una silla"] },
       {
         "id": "return",
         "es": "de vuelta",
@@ -10352,6 +10353,13 @@
       }
     ]
   },
+  "get back": {
+    "forms": { "past": "got back", "participle": "got back (US gotten back)" },
+    "senses": [
+      { "id": "return", "es": "volver", "ex": ["We got back at six.", "Volvimos a las seis."] },
+      { "id": "recover", "es": "recuperar", "ex": ["I got my money back.", "Recuperé mi dinero."] }
+    ]
+  },
   "get down": {
     "forms": {
       "past": "got down",
@@ -10583,6 +10591,10 @@
         ]
       }
     ]
+  },
+  "get wrong": {
+    "forms": { "past": "got wrong", "participle": "got wrong (US gotten wrong)" },
+    "senses": [{ "id": "mistake", "es": "equivocarse", "ex": ["I got the date wrong.", "Me equivoqué de fecha."] }]
   },
   "get-up": {
     "senses": [
@@ -10853,6 +10865,7 @@
           "Es hora de irnos."
         ]
       },
+      { "id": "elapse", "es": "pasar, transcurrir", "ex": ["The hours went quickly.", "Las horas pasaron deprisa."] },
       {
         "id": "become",
         "es": "ponerse",
@@ -10941,6 +10954,7 @@
           "Vamos a bajar a la playa."
         ]
       },
+      { "id": "fall", "es": "caer", "ex": ["The runner went down.", "El corredor cayó."] },
       {
         "id": "sunset",
         "es": "ponerse",
@@ -11082,6 +11096,10 @@
         ]
       }
     ]
+  },
+  "go to sleep": {
+    "forms": { "past": "went to sleep", "participle": "gone to sleep" },
+    "senses": [{ "id": "begin-sleep", "es": "dormirse", "ex": ["I went to sleep early.", "Me dormí pronto."] }]
   },
   "go wrong": {
     "forms": {
@@ -12003,7 +12021,6 @@
       "participle": "had"
     },
     "senses": [
-      { "id": "receive", "es": "recibir", "ex": ["I had a letter today.", "Hoy recibí una carta."] },
       {
         "id": "possess",
         "es": "tener",
@@ -12012,6 +12029,7 @@
           "Tienen un jardín precioso."
         ]
       },
+      { "id": "receive", "es": "recibir", "ex": ["I had a letter today.", "Hoy recibí una carta."] },
       {
         "id": "consume",
         "es": "tomar",
@@ -16327,6 +16345,10 @@
       }
     ]
   },
+  "man of the world": {
+    "forms": { "plural": "men of the world" },
+    "senses": [{ "id": "experienced", "es": "hombre de mundo", "ex": ["He's a man of the world.", "Es un hombre de mundo."] }]
+  },
   "manage": {
     "senses": [
       {
@@ -20130,7 +20152,6 @@
   },
   "place": {
     "senses": [
-      { "id": "rank", "es": "puesto", "ex": ["He finished in third place.", "Terminó en tercer puesto."] },
       {
         "id": "location",
         "es": "lugar, sitio",
@@ -20139,6 +20160,7 @@
           "Este es un sitio tranquilo."
         ]
       },
+      { "id": "rank", "es": "puesto", "ex": ["He finished in third place.", "Terminó en tercer puesto."] },
       {
         "id": "seat",
         "es": "sitio",
@@ -28461,6 +28483,14 @@
           "Sentí un golpecito en el hombro."
         ]
       }
+    ]
+  },
+  "taste": {
+    "senses": [
+      { "id": "flavour", "es": "sabor", "ex": ["a sweet taste", "un sabor dulce"] },
+      { "id": "perceive", "es": "notar el sabor", "ex": ["I can taste the salt.", "Noto el sabor de la sal."] },
+      { "id": "try", "es": "probar", "ex": ["Taste this sauce.", "Prueba esta salsa."] },
+      { "id": "preference", "es": "gusto", "ex": ["We have different tastes.", "Tenemos gustos distintos."] }
     ]
   },
   "tawny": {
