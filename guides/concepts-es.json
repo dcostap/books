@@ -180,6 +180,12 @@
     "examples": [["I saw nothing.", "No vi nada."], ["She never drinks coffee.", "Nunca toma café."], ["Nobody came.", "No vino nadie."]],
     "wrong": [["I didn't see nothing.", "I saw nothing."], ["He doesn't never eat meat.", "He never eats meat."]]
   },
+  "quantity-agreement": {
+    "name": "cantidades con verbo singular",
+    "en": "singular agreement with quantities",
+    "text": "Una suma de dinero, un periodo de tiempo o una distancia pueden llevar verbo singular si se consideran una sola cantidad.",
+    "examples": [["Ten pounds is enough.", "Diez libras es suficiente."], ["Two hours is a long wait.", "Dos horas de espera es mucho."], ["Five kilometres is too far.", "Cinco kilómetros es demasiado lejos."]]
+  },
   "irregular-plurals": {
     "name": "plurales irregulares",
     "en": "irregular plurals",

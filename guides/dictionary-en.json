@@ -30736,6 +30736,9 @@
       }
     ]
   },
+  "wait and see": {
+    "senses": [{ "id": "await-outcome", "es": "esperar a ver", "ex": ["We'll wait and see.", "Esperaremos a ver qué pasa."] }]
+  },
   "wait for": {
     "senses": [
       {
