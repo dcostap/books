@@ -24766,7 +24766,7 @@
   "side": {
     "senses": [
       { "id": "part", "es": "lado", "ex": ["Stand on this side.", "Ponte en este lado."] },
-      { "id": "position", "es": "bando", "ex": ["Whose side are you on?", "¿De qué bando estás?"] }
+      { "id": "position", "es": "bando", "ex": ["Whose side are you on?", "¿De parte de quién estás?"] }
     ]
   },
   "sideways": {
@@ -25426,6 +25426,9 @@
       }
     ]
   },
+  "slowly but surely": {
+    "senses": [{ "id": "steady-progress", "es": "despacio pero sin pausa", "ex": ["We improved slowly but surely.", "Mejoramos despacio pero sin pausa."] }]
+  },
   "slug": {
     "senses": [
       {
@@ -25453,9 +25456,6 @@
         ]
       }
     ]
-  },
-  "slowly but surely": {
-    "senses": [{ "id": "steady-progress", "es": "despacio pero sin pausa", "ex": ["We improved slowly but surely.", "Mejoramos despacio pero sin pausa."] }]
   },
   "small": {
     "senses": [
