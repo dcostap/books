@@ -233,7 +233,7 @@
                     ],
                     "es": "preciosos",
                     "base": "beautiful",
-                    "sense": "attractive"
+                    "sense": "appearance"
                 },
                 {
                     "t": [
@@ -408,7 +408,7 @@
                     "es": "vamos a",
                     "base": "let",
                     "sense": "suggest",
-                    "note": "*Let's* es *let us*: propone hacer algo juntos ([[contractions]])."
+                    "note": "*Let's* es *let us*: propone hacer algo juntos ([[lets]], [[contractions]])."
                 },
                 {
                     "t": [
@@ -1168,7 +1168,7 @@
                     "es": "vamos a",
                     "base": "let",
                     "sense": "suggest",
-                    "note": "*Let's* propone hacer algo juntos: es *let us* ([[contractions]])."
+                    "note": "*Let's* propone hacer algo juntos: es *let us* ([[lets]], [[contractions]])."
                 },
                 {
                     "t": [
@@ -2483,7 +2483,7 @@
                     ],
                     "es": "salió",
                     "base": "come out",
-                    "sense": "emerge"
+                    "sense": "exit"
                 },
                 {
                     "t": [
@@ -3489,7 +3489,7 @@
                     ],
                     "es": "salieron",
                     "base": "come out",
-                    "sense": "emerge"
+                    "sense": "exit"
                 },
                 {
                     "t": [
@@ -4424,7 +4424,7 @@
                         9,
                         10
                     ],
-                    "es": "asustado por",
+                    "es": "con miedo a",
                     "base": "afraid",
                     "sense": "fear",
                     "note": "*Be afraid of* equivale a «tener miedo de» ([[linking-verbs]])."
@@ -6113,7 +6113,7 @@
                         3,
                         4
                     ],
-                    "es": "asustado por",
+                    "es": "con miedo a",
                     "base": "afraid",
                     "sense": "fear",
                     "note": "*Be afraid of* equivale a «tener miedo de» ([[linking-verbs]])."
@@ -6129,7 +6129,7 @@
                         6,
                         7
                     ],
-                    "es": "asustado por",
+                    "es": "con miedo a",
                     "base": "afraid",
                     "sense": "fear"
                 },
@@ -6147,7 +6147,7 @@
                         10,
                         11
                     ],
-                    "es": "asustado por",
+                    "es": "con miedo a",
                     "base": "afraid",
                     "sense": "fear"
                 },
@@ -6306,7 +6306,7 @@
                     "t": [
                         14
                     ],
-                    "es": "de caballos de carreras",
+                    "es": "caballo de carreras",
                     "base": "racehorse",
                     "sense": "horse",
                     "note": "Este nombre describe a *trainer*: qué caballos entrena ([[noun-as-adjective]])."

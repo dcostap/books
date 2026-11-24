@@ -30,9 +30,9 @@
   "auxiliary-do": {
     "name": "auxiliar *do*",
     "en": "auxiliary do",
-    "text": "En las preguntas y en las negaciones, el inglés pone *do*, *does* o *did* delante del verbo. No se traduce: solo marca la pregunta, la negación y el tiempo. El verbo principal va en forma base.",
+    "text": "Con verbos como *like* o *know*, las preguntas y las negaciones suelen llevar *do*, *does* o *did*. El auxiliar no se traduce y el verbo principal va en forma base. Al hablar también se oyen preguntas informales como *You like tea?*.",
     "examples": [["Do you like tea?", "¿Te gusta el té?"], ["She doesn’t know.", "No lo sabe."], ["Did he come?", "¿Vino?"]],
-    "wrong": [["Did he came?", "Did he come?"], ["She don’t know.", "She doesn’t know."], ["You like tea?", "Do you like tea?"]]
+    "wrong": [["Did he came?", "Did he come?"], ["She don’t know.", "She doesn’t know."]]
   },
   "irregular-verbs": {
     "name": "verbos irregulares",
@@ -127,7 +127,7 @@
   "dummy-subject": {
     "name": "sujeto obligatorio",
     "en": "dummy subject (it, there)",
-    "text": "En inglés, el verbo siempre necesita un sujeto. Cuando no hay ninguno, se pone *it* o *there*, que no se traducen.",
+    "text": "El inglés suele expresar el sujeto, a diferencia del español. Para hablar del tiempo o de la hora se usa *it*, y para decir que algo existe se usa *there*. En esos casos, no se traducen.",
     "examples": [["It’s raining.", "Llueve."], ["It’s late.", "Es tarde."], ["There’s a man at the door.", "Hay un hombre en la puerta."]],
     "wrong": [["Is raining.", "It’s raining."], ["Is a man at the door.", "There’s a man at the door."]]
   },
