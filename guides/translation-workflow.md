@@ -10,7 +10,7 @@ The orchestrator owns preparation, source and asset work, audio, webpage changes
 
 Before adding or changing a review stage, explain its purpose, scope, and effect on time or parallel work. Get the user's confirmation. Extra passes within an agreed stage need no further permission when issues remain.
 
-Use the agreed exact model and thinking level for every subagent. The current translation and review agreement is `openai-codex/gpt-6.1-sol`, thinking `high`. Do not silently change it. Stay within the user's agreed concurrency limit.
+Use the agreed exact model and thinking level for every subagent. For future work, use `openai-codex/gpt-6.2-sol`, thinking `high`. Do not silently change it. Stay within the user's agreed concurrency limit.
 
 ## Jobs and chapter ownership
 
