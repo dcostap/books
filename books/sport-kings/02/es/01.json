@@ -2073,7 +2073,8 @@
           ],
           "es": "nada más",
           "base": "more",
-          "sense": "quantity"
+          "sense": "quantity",
+          "note": "Tras *before*, puede aparecer *any* sin *not*: aún no ha ocurrido la acción. *Any more* se refiere aquí a decir algo más ([[some-any]])."
         },
         {
           "t": [
@@ -7911,7 +7912,8 @@
           "t": [
             6
           ],
-          "es": "cualquiera"
+          "es": "cualquiera",
+          "note": "Tras un comparativo, *anyone* incluye a todas las demás personas: *better than anyone*, «mejor que nadie» ([[comparatives]])."
         }
       ]
     },
