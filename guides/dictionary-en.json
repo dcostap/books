@@ -67,6 +67,9 @@
       }
     ]
   },
+  "a number of": {
+    "senses": [{ "id": "several", "es": "varios", "ex": ["a number of questions", "varias preguntas"] }]
+  },
   "able": {
     "senses": [
       {
@@ -1287,6 +1290,9 @@
       }
     ]
   },
+  "at first": {
+    "senses": [{ "id": "initially", "es": "al principio", "ex": ["At first, nobody answered.", "Al principio, nadie respondió."] }]
+  },
   "at last": {
     "senses": [
       {
@@ -1378,6 +1384,9 @@
         ]
       }
     ]
+  },
+  "autumn": {
+    "senses": [{ "id": "season", "es": "otoño", "ex": ["Autumn starts tomorrow.", "El otoño empieza mañana."] }]
   },
   "awake": {
     "senses": [
@@ -1938,6 +1947,9 @@
       }
     ]
   },
+  "beautiful": {
+    "senses": [{ "id": "appearance", "es": "bonito, precioso", "ex": ["a beautiful garden", "un jardín precioso"] }]
+  },
   "because of": {
     "senses": [
       {
@@ -2074,6 +2086,9 @@
       }
     ]
   },
+  "beginning": {
+    "senses": [{ "id": "start", "es": "comienzo", "ex": ["The beginning was difficult.", "El comienzo fue difícil."] }]
+  },
   "behave": {
     "senses": [
       {
@@ -2198,6 +2213,9 @@
     "senses": [
       { "id": "wagers", "es": "apuestas", "ex": ["Betting is not allowed here.", "Aquí no se permiten las apuestas."] }
     ]
+  },
+  "betting-book": {
+    "senses": [{ "id": "record", "es": "libro de apuestas", "ex": ["He checked the betting-book.", "Consultó el libro de apuestas."] }]
   },
   "bicycle": {
     "senses": [
@@ -3820,6 +3838,9 @@
       }
     ]
   },
+  "call out": {
+    "senses": [{ "id": "shout", "es": "llamar a voces", "ex": ["She called out to him.", "Lo llamó a voces."] }]
+  },
   "calm down": {
     "senses": [
       {
@@ -4013,6 +4034,12 @@
           "No seas descuidado con el dinero."
         ]
       }
+    ]
+  },
+  "carriage": {
+    "senses": [
+      { "id": "vehicle", "es": "carruaje", "ex": ["They travelled in a carriage.", "Viajaron en un carruaje."] },
+      { "id": "train", "es": "vagón", "ex": ["Sit in the last carriage.", "Siéntate en el último vagón."] }
     ]
   },
   "carry": {
@@ -5338,6 +5365,14 @@
           "Noté que empezaba a dolerme la cabeza."
         ]
       }
+    ]
+  },
+  "come out": {
+    "forms": { "past": "came out", "participle": "come out" },
+    "senses": [
+      { "id": "exit", "es": "salir", "ex": ["Come out of the room.", "Sal de la habitación."] },
+      { "id": "release", "es": "salir al mercado", "ex": ["The book comes out soon.", "El libro sale pronto."] },
+      { "id": "turn-out", "es": "quedar, salir", "ex": ["The photo came out well.", "La foto salió bien."] }
     ]
   },
   "come to think of it": {
@@ -8010,6 +8045,9 @@
       }
     ]
   },
+  "excited": {
+    "senses": [{ "id": "emotion", "es": "emocionado", "ex": ["The children were excited.", "Los niños estaban emocionados."] }]
+  },
   "excitedly": {
     "senses": [
       {
@@ -8021,6 +8059,9 @@
         ]
       }
     ]
+  },
+  "exciting": {
+    "senses": [{ "id": "thrilling", "es": "emocionante", "ex": ["It was an exciting match.", "Fue un partido emocionante."] }]
   },
   "exercise": {
     "senses": [
@@ -9526,6 +9567,9 @@
       }
     ]
   },
+  "for the moment": {
+    "senses": [{ "id": "temporarily", "es": "por el momento", "ex": ["Stay here for the moment.", "Quédate aquí por el momento."] }]
+  },
   "forbid": {
     "forms": {
       "past": "forbade",
@@ -10094,6 +10138,12 @@
       }
     ]
   },
+  "gate": {
+    "senses": [
+      { "id": "entrance", "es": "verja, puerta", "ex": ["Close the garden gate.", "Cierra la verja del jardín."] },
+      { "id": "boarding", "es": "puerta de embarque", "ex": ["Your flight leaves from gate five.", "Tu vuelo sale de la puerta de embarque cinco."] }
+    ]
+  },
   "gaze": {
     "senses": [
       {
@@ -10554,6 +10604,9 @@
       }
     ]
   },
+  "girl": {
+    "senses": [{ "id": "young", "es": "niña, chica", "ex": ["A girl answered the door.", "Una niña abrió la puerta."] }]
+  },
   "give": {
     "forms": {
       "past": "gave",
@@ -10854,6 +10907,10 @@
       }
     ]
   },
+  "go in": {
+    "forms": { "past": "went in", "participle": "gone in" },
+    "senses": [{ "id": "enter", "es": "entrar", "ex": ["Shall we go in?", "¿Entramos?"] }]
+  },
   "go off": {
     "forms": {
       "past": "went off",
@@ -11089,6 +11146,9 @@
         ]
       }
     ]
+  },
+  "good evening": {
+    "senses": [{ "id": "greeting", "es": "buenas tardes, buenas noches", "ex": ["Good evening, everyone.", "Buenas noches a todos."] }]
   },
   "good lord": {
     "senses": [
@@ -14230,6 +14290,10 @@
       }
     ]
   },
+  "knife": {
+    "forms": { "plural": "knives" },
+    "senses": [{ "id": "tool", "es": "cuchillo", "ex": ["Use a sharp knife.", "Usa un cuchillo afilado."] }]
+  },
   "knobbly": {
     "senses": [
       {
@@ -15703,6 +15767,9 @@
       }
     ]
   },
+  "look up and down": {
+    "senses": [{ "id": "examine", "es": "mirar de arriba abajo", "ex": ["She looked him up and down.", "Lo miró de arriba abajo."] }]
+  },
   "lord": {
     "senses": [
       {
@@ -16468,6 +16535,9 @@
       }
     ]
   },
+  "meat": {
+    "senses": [{ "id": "food", "es": "carne", "ex": ["We eat little meat.", "Comemos poca carne."] }]
+  },
   "meet": {
     "forms": {
       "past": "met",
@@ -17050,6 +17120,9 @@
       }
     ]
   },
+  "mostly": {
+    "senses": [{ "id": "mainly", "es": "principalmente", "ex": ["She mostly works outside.", "Trabaja principalmente al aire libre."] }]
+  },
   "mother": {
     "senses": [
       {
@@ -17168,6 +17241,12 @@
           "La policía nos dijo que nos marcháramos."
         ]
       }
+    ]
+  },
+  "move up": {
+    "senses": [
+      { "id": "advance", "es": "subir, avanzar", "ex": ["She moved up to second.", "Avanzó hasta el segundo puesto."] },
+      { "id": "make-room", "es": "hacerse a un lado", "ex": ["Move up a bit, please.", "Hazte un poco a un lado, por favor."] }
     ]
   },
   "much": {
@@ -17994,6 +18073,9 @@
       }
     ]
   },
+  "no question about it": {
+    "senses": [{ "id": "certain", "es": "sin duda", "ex": ["She's right, no question about it.", "Tiene razón, sin duda alguna."] }]
+  },
   "noble": {
     "senses": [
       {
@@ -18649,6 +18731,9 @@
         ]
       }
     ]
+  },
+  "on time": {
+    "senses": [{ "id": "punctual", "es": "puntual, a tiempo", "ex": ["The bus arrived on time.", "El autobús llegó puntual."] }]
   },
   "on top": {
     "senses": [
@@ -19976,6 +20061,7 @@
   },
   "place": {
     "senses": [
+      { "id": "rank", "es": "puesto", "ex": ["He finished in third place.", "Terminó en tercer puesto."] },
       {
         "id": "location",
         "es": "lugar, sitio",
@@ -23947,10 +24033,10 @@
     "senses": [
       {
         "id": "suggestion",
-        "es": "deber",
+        "es": "(propone una acción)",
         "ex": [
-          "What shall we do next?",
-          "¿Qué debemos hacer ahora?"
+          "Shall we take a break?",
+          "¿Hacemos una pausa?"
         ]
       },
       {
@@ -24578,6 +24664,12 @@
       }
     ]
   },
+  "side": {
+    "senses": [
+      { "id": "part", "es": "lado", "ex": ["Stand on this side.", "Ponte en este lado."] },
+      { "id": "position", "es": "bando", "ex": ["Whose side are you on?", "¿De qué bando estás?"] }
+    ]
+  },
   "sideways": {
     "senses": [
       {
@@ -25072,6 +25164,12 @@
           "Esta tienda puede alojar a cuatro personas."
         ]
       }
+    ]
+  },
+  "sleeper": {
+    "senses": [
+      { "id": "sleeping-person", "es": "persona que duerme", "ex": ["She is a light sleeper.", "Tiene el sueño ligero."] },
+      { "id": "train", "es": "coche cama", "ex": ["We booked a sleeper.", "Reservamos un coche cama."] }
     ]
   },
   "sleepiness": {
@@ -26338,6 +26436,9 @@
         ]
       }
     ]
+  },
+  "stable boy": {
+    "senses": [{ "id": "worker", "es": "mozo de cuadra", "ex": ["The stable boy fed them.", "El mozo de cuadra les dio de comer."] }]
   },
   "stair": {
     "senses": [
@@ -27931,6 +28032,7 @@
       "participle": "taken"
     },
     "senses": [
+      { "id": "accept", "es": "aceptar", "ex": ["Do you take cash?", "¿Aceptáis efectivo?"] },
       {
         "id": "get",
         "es": "coger",
@@ -28788,6 +28890,12 @@
           "Su razonamiento es muy claro."
         ]
       }
+    ]
+  },
+  "third": {
+    "senses": [
+      { "id": "order", "es": "tercero", "ex": ["the third house on the left", "la tercera casa a la izquierda"] },
+      { "id": "fraction", "es": "tercera parte", "ex": ["a third of the cake", "un tercio de la tarta"] }
     ]
   },
   "though": {
@@ -30009,7 +30117,7 @@
   },
   "unlock": {
     "senses": [
-      { "id": "open", "es": "abrir", "ex": ["Can you unlock the door?", "¿Puedes abrir la puerta?"] },
+      { "id": "open", "es": "quitar el seguro", "ex": ["Unlock the door but leave it shut.", "Quita el seguro de la puerta, pero déjala cerrada."] },
       { "id": "device", "es": "desbloquear", "ex": ["Unlock your phone first.", "Desbloquea primero el móvil."] }
     ]
   },
@@ -30623,6 +30731,9 @@
       }
     ]
   },
+  "walking stick": {
+    "senses": [{ "id": "support", "es": "bastón", "ex": ["He needs a walking stick.", "Necesita un bastón."] }]
+  },
   "wall": {
     "senses": [
       {
@@ -30653,6 +30764,12 @@
           "Quiero una bicicleta nueva."
         ]
       }
+    ]
+  },
+  "warm": {
+    "senses": [
+      { "id": "temperature", "es": "cálido, templado", "ex": ["The days are still warm.", "Los días aún son templados."] },
+      { "id": "friendly", "es": "cordial", "ex": ["They gave us a warm welcome.", "Nos dieron una bienvenida cordial."] }
     ]
   },
   "warn": {
@@ -31087,6 +31204,7 @@
   },
   "what": {
     "senses": [
+      { "id": "exclamation", "es": "qué", "ex": ["What a beautiful day!", "¡Qué día tan bonito!"] },
       {
         "id": "question",
         "es": "qué",
@@ -31124,6 +31242,9 @@
         ]
       }
     ]
+  },
+  "what's the matter": {
+    "senses": [{ "id": "problem", "es": "qué pasa", "ex": ["What's the matter, Anna?", "¿Qué pasa, Anna?"] }]
   },
   "what's-her-name": {
     "senses": [

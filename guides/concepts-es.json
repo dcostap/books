@@ -295,6 +295,13 @@
     "text": "*For* puede introducir quién hace la acción de un infinitivo con *to*. En español suele corresponder a «que» con subjuntivo.",
     "examples": [["It’s best for you to wait.", "Lo mejor es que esperes."], ["There’s work for us to do.", "Tenemos trabajo que hacer."]]
   },
+  "what-exclamations": {
+    "name": "exclamaciones con *what*",
+    "en": "exclamations with what",
+    "text": "Con un sustantivo contable en singular se usa *what a/an*. Con un plural o con algo que no se cuenta, no se usa el artículo.",
+    "examples": [["What a surprise!", "¡Qué sorpresa!"], ["What beautiful flowers!", "¡Qué flores tan bonitas!"], ["What luck!", "¡Qué suerte!"]],
+    "wrong": [["What surprise!", "What a surprise!"]]
+  },
   "telling-time": {
     "name": "decir la hora",
     "en": "telling the time",
